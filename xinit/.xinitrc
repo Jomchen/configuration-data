@@ -6,4 +6,3 @@ case $deskSession in
 	xfce	)	exec startxfce4;;
 	*	)	exec $1;;
 esac
-startxfce4
