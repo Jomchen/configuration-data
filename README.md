@@ -1,8 +1,5 @@
 # configuration-data
-
-# Some configurations of personal computer.
    - 一些个人计算机配置。
-
 
 
 pacman -S dhcpcd
@@ -29,7 +26,12 @@ pacman -S alsa-utils # 安装音频工具
       - amixer sset Master unmute
       - amixer sset Speaker unmute
       - amixer sset Headphone unmute
-
+安装 aur 和 谷歌浏览器
+   - git clone https://aur.archlinux.org/yay.git
+   - 解压相应的包
+   - cd yay
+   - makepkg -is          # 安装yay
+   - yay -S google-chrome # 安装谷歌浏览器
 win 和 Linux 双系统时间同步解决方案
   - https://wiki.archlinux.org/index.php/System_time
   - 或者搜索 System time arch 搜索到详细文档
