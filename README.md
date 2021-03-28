@@ -4,13 +4,17 @@
 
 pacman -S dhcpcd
 pacman -S wpa_supplicant
+pacman -S NetworkManager
 pacman -S sudo
 pacman -S gvim
 pacman -S git
-pacman -S i3-gaps
+
+pacman -S wqy-microhei      # 安装中文字体，文泉驿微米黑
+pacman -S ttf-dejave        # 安装一个好看的英文字体
 pacman -S xfce4
 pacman -S xfce4-goodies（非必需，xfce4的额外组件）
 pacman -S lightdm           # 安装登录界面
+pacman -S i3-gaps           # 平铺窗口管理器
 pacman -S fcitx             # 桌面环境
 pacman -S fcitx-im          # fcitx组件，防止输入法窗口不跟随输入法窗口挂死
 pacman -S fcitx-table-extra # 输入法的字符集扩展
