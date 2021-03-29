@@ -17,11 +17,11 @@ pacman -S lightdm           # 安装登录界面
 pacman -S i3-gaps           # 平铺窗口管理器
 
 
-pacman -S fcitx5            # 桌面环境（注意这里应该是安装 fcitx5）
-   - 安装 fcitx 还是 fcitx5 一定要分清
+fcitx 方案
+   - 查看 fcitx 文件夹 readme.txt
+fcitx5 方案
+   - 查看 fcitx5 文件夹 readme.txt
 
-pacman -S fcitx-im          # fcitx组件，防止输入法窗口不跟随输入法窗口挂死
-pacman -S fcitx-table-extra # 输入法的字符集扩展
 pacman -S picom             # 窗口透明
 pacman -S feh               # 图片查看器
 pacman -S keynav            # 鼠标替代
