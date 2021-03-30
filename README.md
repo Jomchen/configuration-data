@@ -40,6 +40,18 @@ pacman -S alsa-utils        # 安装音频工具
    - cd yay
    - makepkg -is            # 安装yay
    - yay -S google-chrome   # 安装谷歌浏览器
+安装文件管理器,终端预览图片
+   - pacman -S ranger # 命令行文件管理器
+      - 把文件 /usr/share/doc/ranger/config/rc.conf 文件复制到 ~/.config/ranger/rc.conf 并修改点内容
+      - 注意 /usr/share/doc/ranger/config/scope.h 文件包含了预览图片，文件，视频，pdf 等的方式，可以按之前方式复制后把相应注释打开
+         ```
+         set preview_images true
+         set preview_images_method w3m
+         ```
+   - pacman -S w3m    # 终端浏览器，实际可在终端预览视频和图片
+   - 如果还不能预览图片说明当前终端不支持预览图片，需要安装一个支持预览图片的终端
+
 win 和 Linux 双系统时间同步解决方案
   - https://wiki.archlinux.org/index.php/System_time
   - 或者搜索 System time arch 搜索到详细文档
+
