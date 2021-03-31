@@ -1,0 +1,174 @@
+* 事前注意
+   1. Windows 平台下
+      - msinfo32     # 查看系统的引导方式
+      - services.msc # 打开程序管理
+
+* 其它注意
+   1. 用 uefi 引导情况下在进入系统选项界面
+      - 按 c 进入 grub 命令界面,按 e 进入内核参数启动界面（可以自定义内核参数启动）
+      - 按 e ，然后输入 nomodeset video=像素x像素 （注意结尾有空格,可以指定分辨率启动）
+   2. 回车后，进入的界面是 U 盘环境，官方为了在 U 盘环境能够访问和指定设备，拟挂载在 /mnt
+      其中 /mnt 是直接指向了设置硬盘，所以之后的操作注意这个 /mnt
+
+* 配置联网
+   - ip link # 查看上网设备
+   - ip link set 设备名 up # 启用某个设备
+      - ASDL
+         - pacman -S rp-pppoe
+         - pppoe-setup
+         - systemctl start adsl
+      - wire
+         - pacman -S dhcpcd
+         - systemctl enable dhcpcd
+         - systemctl start dhcpcd
+      - wireless
+         - wifi-menu
+            - iwlist 设备名 scan # 扫描wifi
+            - iwlist 设备名 scan | grep -i 'essid' # 过滤得到wifi名字
+            - wifi-menu                            # 这个工具虽然可以连接wifi,但是对一些企业级wifi协议不支持，所以建议安装 wpa_supplicant
+         - wpa_supplicant
+            - wpa_passphrase 网络名 密码 > wifi.conf # 生成一个连接wifi的配置文件
+            - wpa_supplicant -c wifi.conf -i 设备名  # 通过配置文件连接互联网
+      - dhcpcd &                                     # 启动动态ip分配服务
+      - ping -c 2 baidu.com                          # 看是否有输出，有则连接互联网成功
+
+* 分区
+   - fdisk -l # 查看设备
+   - fdisk /dev/相应的设备 # 对设备进行分配等处理
+      - m # 获取帮助指令
+      - p # 打印磁盘分区信息
+      - g # 创建一个新年的分区信息表（如果磁盘上有信息，则不要使用这个命令，否则会全覆盖）
+      - -n 创建分区
+         - GPT
+            - /mnt                  挂载到 根目录的分区（主分区）
+            - /mnt/boot or /mnt/efi efi 的分区，建议 512MB
+            - /mnt/home             挂载到 家目录的分区
+            - Swap 对应 Linux swap  交换分区
+         - MBR
+            - Swap 对应 Linux swap  交换分区
+            - /mnt                  挂载到 根目录的分区
+         - 分完区后,更改分区类型 Type
+            - GPT 的 efi 分区类型为 efi,帮助文档可以查看编号
+            - swap 为 swap
+            - 其它为 Linux 类型
+      - p # 查看下分区情况是否正确
+      - w # 把分区信息写入磁盘，注意避免分错
+* 分区格式化
+   - mkfs.fat -F32 /dev/对应的efi分区
+   - mkfs.ext4     /dev/主分区
+   - mkfs.ext4     /dev/家目录分区
+* 挂载
+   - 注意先挂载 根分区，否则会出现问题
+   - mount /dev/主分区  /mnt         # 挂载根分区
+   - mkdir /mnt/boot                 # 创建引导目录
+   - mount /dev/efi分区 /mnt/boot    # 挂载引导分区
+   - mount /dev/home    /mnt/home    # 挂载家目录分区
+
+* U 盘环境安装
+   1. setfont /usr/shar/kbd/consolefonts/具体字体文件名 # 对控制台指定显示字体
+      - fc-cache -vf # 刷新字体
+      - fc-list      # 查看可用的字体，输出信息中每一行是一个字体文件和字体文件对应的字体名字和风格
+   2. 键盘布局
+      - loadkeys 布局名 # 修改键盘布局，默认是美式键盘布局，所以不需要更改
+      - 如果需要有自己配置键位则写一个 key.conf，里面写自己的配置，最后 loadkeys keys.conf
+   3. ls /sys/firmware/efi/      # 查看是否是uefi引导,如果有文件输出表示是uefi引导
+   4. ip link set 网络名 up/down # 开启/关闭网络接口,up是开启，down是关闭
+   5. dhcpcd &                   # 开启动态ip支持
+   6. timedatectl set-ntp true   # 同步时间
+   7. 分区
+      - fdisk -l                 # 查看硬盘分区情况
+      - /home                    # 130G
+      - SWAP                     # 10G
+      - /                        # 剩余所有
+   8. 修改分区类型               # ！！！！！重要
+      - GPT 的 efi 分区类型为 efi
+      - Swap 的为 swap,其它默认 Linux 类型
+   9. 格式化
+      - mkfs.ext4 /dev/家分区
+      - mkfs.ext4 /dev/根分区
+      - mkswap /dev/swap分区
+   10. swapon /dev/swap分区       # 打开 swap 分区
+   11. 挂载
+      - mount /dev/主分区 /mnt   # ！！！！！重要
+      - mkdir /mnt/boot
+      - mount /dev/引导分区 /mnt/boot
+      - mount /dev/家分区 /mnt/home
+   12. 修改 /etc/pacman.conf      # 把 Color 注释打开，并把 [color] [extra] [community] 的地址打开
+      - 修改 /etc/pacman.d/mirrorlist # 修改源地址
+   11. pacmanstrap /mnt base base-devel linux linux-firmware ntfs-3g dhcpcd gvim
+   12. genfstab -U /mnt >> /mnt/etc/fstab   # 生成挂载文件到安装好的系统里
+
+* 进入系统操作
+  1. 时间和时区
+     1. arch-chroot /mnt # 进入系统
+     2. ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime # 创建时区软件链接
+     3. timedatectl set-ntp true                                # 自动从网络同步时间
+     4. hwclock --systohc                                       # 硬件时钟设为utc时间
+  2. 语言
+     5. vim /etc/locale.gen
+        - en_US.UTF-8 UTF-8
+        - zh_CN.UTF-8 UTF-8
+        - zh_HK.UTF-8 UTF-8
+        - zh_TW.UTF-8 UTF-8
+     6. locale-gen # 执行生成本地化语言配置
+     7. vim /etc/locale.conf
+        - LANG=en_US.UTF-8
+  3. 配置主机信息
+     8. vim /etc/hostname # 第一行写服务器名
+     9. vim /etc/hosts    # 编辑地址映射
+        ```
+        127.0.0.1	localhost
+        :::1	localhost
+        127.0.1.1	服务器名.localdomain 服务器名
+        ```
+     10. passwod           # 输入两次密码修改 root 密码
+  4. 引导
+     - pacman -S grub efibootmgr intel-ucode os-prober wpa_supplicant man networkmanager
+     - mkdir /boot/grub
+     - grub-install --target=X86_64-efi --efi-directory=/boot --bootloader-id=grub
+     - grub-mkconfig > /boot/grub/grub.cfg # 生成引导配置文件
+      - 如果报 warning failed to connect to lvmetad, falling back to device scanning 错误。那么 /etc/lvm/lvm.conf 这个文件，找到 use_lvmetad = 1 将 1 改为 0 再重新配置配置文件
+
+* 退出安装环境
+   - exit # 退出系统环境
+   - killall wpa_supplicant dhcpcd
+   - umount -R /mnt
+   - shutdown -r now
+
+* 安装完毕后调整
+   - useradd -m -g 新用户名 -G wheel -s /bin/bash 新用户名
+   - visudo # 放开 wheel 的注释
+   - 网络
+      - systemctl start dhcpcd
+
+* 图形界面
+   - pacman -S xorg  # 安装图形界面包
+   - pacman -S xf86-input-synaptics # 触摸板驱动，笔记本可装，台式不装
+   - pacman -S ttf-dejavu wqy-microhei # 安装微米黑字体，不安装则进入桌面环境系统语言中文可能显示不全
+   - xfce4
+      - pacman -S xfce4         # 核心组件
+      - pacman -S lightdm       # 安装登录界面
+      - pacman -S xfce4-goodies # 包含额外的组件（可选择性安装）
+   - i3-gaps
+      - pacman -S i3-gaps       # 安装 i3-gaps 窗口管理器
+      - pacman -S dmenu         # 安装 dmenu
+      - 配置一个文件，以选择性启动
+         ```
+         ~/.xinitrc
+         LANG=zh_CN.UTF-8
+         LC_LANG=und
+         deskTopChoice=${1:-xfce}
+         case $deskTopChoice in
+         	i3	) exec -i3 -V >> ~/i3-$(date +%Y-%m-%d)-log.txt 2>&1;;
+         	xfce	) exec startxfce4;;
+         	*	) exec $1;;
+         esac
+         ```
+         ```
+         在字符界面执行
+         startx ~/.xinitrc i3   # 启动i3
+         startx ~/.xinitrc xfce # 启动xfce
+         记得要在i3里配置让 fcitx 执行
+         ```
+
+
