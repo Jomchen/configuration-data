@@ -95,10 +95,12 @@
       - mount /dev/家分区 /mnt/home
    12. 修改 /etc/pacman.conf      # 把 Color 注释打开，并把 [color] [extra] [community] 的地址打开
       - 修改 /etc/pacman.d/mirrorlist # 修改源地址
-   11. pacmanstrap /mnt base base-devel linux linux-firmware ntfs-3g dhcpcd gvim
+   11. pacstrap /mnt base base-devel linux linux-firmware ntfs-3g dhcpcd gvim
    12. genfstab -U /mnt >> /mnt/etc/fstab   # 生成挂载文件到安装好的系统里
 
 * 进入系统操作
+  0. 创建链接
+     1. ln -s /usr/bin/vim /usr/bin/vi
   1. 时间和时区
      1. arch-chroot /mnt # 进入系统
      2. ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime # 创建时区软件链接
@@ -125,7 +127,7 @@
   4. 引导
      - pacman -S grub efibootmgr intel-ucode os-prober wpa_supplicant man networkmanager
      - mkdir /boot/grub
-     - grub-install --target=X86_64-efi --efi-directory=/boot --bootloader-id=grub
+     - grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=grub
      - grub-mkconfig > /boot/grub/grub.cfg # 生成引导配置文件
       - 如果报 warning failed to connect to lvmetad, falling back to device scanning 错误。那么 /etc/lvm/lvm.conf 这个文件，找到 use_lvmetad = 1 将 1 改为 0 再重新配置配置文件
 
@@ -137,6 +139,7 @@
 
 * 安装完毕后调整
    - useradd -m -g 新用户名 -G wheel -s /bin/bash 新用户名
+   - passwd 新用户名   # 连输两次密码进行设置密码
    - visudo # 放开 wheel 的注释
    - 网络
       - systemctl start dhcpcd
