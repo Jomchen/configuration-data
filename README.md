@@ -38,6 +38,7 @@
          - 查看 fcitx 文件夹 readme.txt
 * 其它安装
    1. step1
+      - pacman -S w3m               # 终端浏览器，实际可在终端预览视频和图片
       - pacman -S picom             # 窗口透明
       - pacman -S feh               # 图片查看器
       - pacman -S keynav            # 鼠标替代

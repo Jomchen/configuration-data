@@ -212,6 +212,9 @@ default_floating_border none
 # xfce's fold manager
 bindsym $mod+Shift+f exec --no-startup-id thunar
 
+# xfce4-screenshooter, the package must be installed
+bindsym $mod+Shift+x exec xfce4-screenshooter
+
 # start personal applications
 exec --no-startup-id fcitx
 exec --no-startup-id keynav
