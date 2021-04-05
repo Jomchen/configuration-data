@@ -1,20 +1,39 @@
+## Arch Linux 安装过程
+
+* 时间科普
+   - GMT：Greenwich Mean Time，即格林尼治标准时间，也就是世界时。GMT 以地球自转为基础的时间计量系统，但由于地球自转不均匀，导致 GMT 不精确，现在已经不再作为世界标准时间使用。
+   - UTC：Universal Time Coordinated，即协调世界时。UTC 是以原子时秒长为基础，在时刻上尽量接近于 GMT 的一种时间计量系统。为确保 UTC 与 GMT 相差不会超过 0.9 秒，在有需要的情况下会在 UTC 内加上正或负闰秒。UTC 现在作为世界标准时间使用。
+   - RTC：Real-Time Clock，即实时时钟，在计算机领域作为硬件时钟的简称。
+   - 世界上不同地区所在的时区是不同的，这些时区决定了当地的本地时间。比如北京处于东八区，即北京时间为 UTC + 8，如果 UTC 时间现在是上午 6 点整，那么北京时间为 14 点整。
+   - Windows 与 Linux 看待硬件时间的方式不同。Windows 把电脑的硬件时钟（RTC）看成是本地时间，即 RTC = Local Time，Windows 会直接显示硬件时间；而 Linux 则是把电脑的硬件时钟看成 UTC 时间，即 RTC = UTC，那么 Linux 显示的时间就是硬件时间加上时区。
+
 * 事前注意
    1. Windows 平台下
       - msinfo32     # 查看系统的引导方式
-      - services.msc # 打开程序管理
+      - services.msc # 打开程序管理,关闭 Windows Update
 
 * UEFI 引导需要的条件
-   1. Secure Boot 设置为 Disabled（这个条件是最重要的）
-   2. OS Optimized 设置为 Ohers 或 Disabled（系统类型设置）
-   3. CSM（Compatibility Support Module）Support 设置为 Yes 或 Enabled
-   4. UEFI/Legacy Boot 选择为 Both
-   5. UEFI/Legacy Boot Priority 选择为 UEFI First
+   - 设置
+      1. Secure Boot 设置为 Disabled（这个条件是最重要的）
+      2. OS Optimized 设置为 Ohers 或 Disabled（系统类型设置）
+      3. CSM（Compatibility Support Module）Support 设置为 Yes 或 Enabled
+      4. UEFI/Legacy Boot 选择为 Both
+      5. UEFI/Legacy Boot Priority 选择为 UEFI First
+   - 注意
+      - Secure Boot 无法更改
+         1. 找到 OS Optimized Defaults，设置为 Disabled 或 Other OS
+         2. 如果依赖显示灰色，则 Load Default Settings 恢复默认设置
+         3. 部分品牌电脑需设置 BIOS 密码才能修改 BIOS 选项
+            - Set Supervisotr Password 为 Enabled
 
-Secure Boot 无法更改
-   1. 找到 OS Optimized Defaults，设置为 Disabled 或 Other OS
-   2. 如果依赖显示灰色，则 Load Default Settings 恢复默认设置
-   3. 部分品牌电脑需设置 BIOS 密码才能修改 BIOS 选项
-      - Set Supervisotr Password 为 Enabled
+* Windows 和 Linux 双系统时间不同步
+   1. win 和 Linux 双系统时间同步解决方案
+     - https://wiki.archlinux.org/index.php/System_time
+     - 或者搜索 `System time arch` 搜索到双系统的时间解决方案
+
+* 其它
+   1. linux 中用 wine 安装 qq方案
+     - https://wiki.archlinux.org/index.php/Tencent_QQ_
 
 * 其它注意
    1. 用 uefi 引导情况下在进入系统选项界面
@@ -22,6 +41,12 @@ Secure Boot 无法更改
       - 按 e ，然后输入 nomodeset video=像素x像素 （注意结尾有空格,可以指定分辨率启动）
    2. 回车后，进入的界面是 U 盘环境，官方为了在 U 盘环境能够访问和指定设备，拟挂载在 /mnt
       其中 /mnt 是直接指向了设置硬盘，所以之后的操作注意这个 /mnt
+
+
+
+################################# 安装步骤
+
+
 
 * 配置联网
    - ip link # 查看上网设备
@@ -185,6 +210,6 @@ Secure Boot 无法更改
          在字符界面执行
          startx ~/.xinitrc i3   # 启动i3
          startx ~/.xinitrc xfce # 启动xfce
-         记得要在i3里配置让 fcitx 执行
+         记得要在i3里配置让 fcitx 预先执行
          ```
 
