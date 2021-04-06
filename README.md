@@ -44,6 +44,15 @@
             - amixer sset Master unmute
             - amixer sset Speaker unmute
             - amixer sset Headphone unmute
+      - pacman vlc                  # 视频播放器
+      - pacman neofetch             # 主要信息输出工具
+      - pacman wine                 # windows 的虚拟容器
+      - pacman wireshark-qt         # 视图化的抓包工具（与命令性质的择其一安装）
+         - pacman wireshark-cli         # 命令性质的抓包工具
+      - pacman zip                  # zip 压缩工具
+      - pacman unzip                # zip 解压工具
+      - pacman ntfs-3g              # 可以挂载 ntfs 的软件支持
+      - pacman openssh              # openssh 工具
    2. step2
       1. 安装 aur 和 google-chrome
          - git clone https://aur.archlinux.org/yay.git
