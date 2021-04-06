@@ -2,10 +2,9 @@
    * 一些个人计算机配置。
 
 
-
-
-
 * 在 wine 上装 qq 的教程
+   - Wine 完全中文博客教程 https://blog.csdn.net/gerald_jones/article/details/80781378
+   - Wine 安装+中文配置+使用总结帖 https://blog.csdn.net/zzxian/article/details/7166572
    - http://www.360doc.com/content/17/0510/17/41615103_652744902.shtml
    - https://www.ubuntukylin.com/ukylin/forum.php?mod=viewthread&tid=30511
 
