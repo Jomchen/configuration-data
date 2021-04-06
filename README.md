@@ -2,13 +2,6 @@
    * 一些个人计算机配置。
 
 
-* 时间科普
-   - GMT：Greenwich Mean Time，即格林尼治标准时间，也就是世界时。GMT 以地球自转为基础的时间计量系统，但由于地球自转不均匀，导致 GMT 不精确，现在已经不再作为世界标准时间使用。
-   - UTC：Universal Time Coordinated，即协调世界时。UTC 是以原子时秒长为基础，在时刻上尽量接近于 GMT 的一种时间计量系统。为确保 UTC 与 GMT 相差不会超过 0.9 秒，在有需要的情况下会在 UTC 内加上正或负闰秒。UTC 现在作为世界标准时间使用。
-   - RTC：Real-Time Clock，即实时时钟，在计算机领域作为硬件时钟的简称。
-   - 世界上不同地区所在的时区是不同的，这些时区决定了当地的本地时间。比如北京处于东八区，即北京时间为 UTC + 8，如果 UTC 时间现在是上午 6 点整，那么北京时间为 14 点整。
-   - Windows 与 Linux 看待硬件时间的方式不同。Windows 把电脑的硬件时钟（RTC）看成是本地时间，即 RTC = Local Time，Windows 会直接显示硬件时间；而 Linux 则是把电脑的硬件时钟看成 UTC 时间，即 RTC = UTC，那么 Linux 显示的时间就是硬件时间加上时区。
-
 
 
 
@@ -38,6 +31,7 @@
          - 查看 fcitx 文件夹 readme.txt
 * 其它安装
    1. step1
+      - pacman -S w3m               # 终端浏览器，实际可在终端预览视频和图片
       - pacman -S picom             # 窗口透明
       - pacman -S feh               # 图片查看器
       - pacman -S keynav            # 鼠标替代
