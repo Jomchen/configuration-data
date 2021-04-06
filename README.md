@@ -5,6 +5,9 @@
 
 
 
+* 在 wine 上装 qq 的教程
+   - http://www.360doc.com/content/17/0510/17/41615103_652744902.shtml
+   - https://www.ubuntukylin.com/ukylin/forum.php?mod=viewthread&tid=30511
 
 
 * 必装软件
