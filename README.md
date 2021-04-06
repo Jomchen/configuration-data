@@ -4,9 +4,13 @@
 
 * 在 wine 上装 qq 的教程
    - Wine 完全中文博客教程 https://blog.csdn.net/gerald_jones/article/details/80781378
+      - 2018-06-23 10:20:10 更新
    - Wine 安装+中文配置+使用总结帖 https://blog.csdn.net/zzxian/article/details/7166572
+      - 2011-12-31 00:46:10 更新
    - http://www.360doc.com/content/17/0510/17/41615103_652744902.shtml
+      - 2017-05-10 更新
    - https://www.ubuntukylin.com/ukylin/forum.php?mod=viewthread&tid=30511
+      - 2017-05-08 22:51:38 更新
 
 
 * 必装软件
