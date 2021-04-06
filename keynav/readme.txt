@@ -1,1 +1,1 @@
-Place the file into home directory.
+Place the file .keynavrc into home directory.

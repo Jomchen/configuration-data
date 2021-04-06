@@ -18,6 +18,8 @@
 #
 # Project page; http://www.semicomplete.com/projects/keynav
 
+# ###### For Mouse buttons, 1=left, 2=middle, 3=right, 4=scroll-up, 5=scroll-down, 6=scroll-left, 7=scroll-right
+
 # Use 'clear' to blow away any previous keybindings
 #clear
 
