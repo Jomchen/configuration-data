@@ -55,8 +55,8 @@ semicolon warp,end
 6 click 6
 7 click 7
 
-comma warp,click 4
-period warp,click 5
+comma warp,click 5
+period warp,click 4
 shift+comma warp,click 6
 shift+period warp,click 7
 shift+d warp,drag 1
