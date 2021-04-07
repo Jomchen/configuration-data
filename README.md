@@ -1,6 +1,14 @@
 # configuration-data
    * 一些个人计算机配置。
 
+# Some tools connectting directly to google store 
+   - PP谷歌访问助手:https://chrome.zzzmh.cn/info?token=kahndhhhcnignmbbpiobmdlgjhgfkfil
+   - 集装箱:https://chrome.zzzmh.cn/info?token=kbgigmcnifmaklccibmlepmahpfdhjch
+   - 谷歌访问助手:https://chrome.zzzmh.cn/info?token=gocklaboggjfkolaknpbhddbaopcepfp
+   - 谷歌学术助手:https://chrome.zzzmh.cn/info?token=jkicnibdkfemnfhojeajbldjgdddpajk
+   - 谷歌服务助手:https://chrome.zzzmh.cn/info?token=cgncbhnhlkbdieckbbmeppcefokppagh
+   - 谷歌上网助手:https://chrome.zzzmh.cn/info?token=nonmafimegllfoonjgplbabhmgfanaka
+
 
 * 在 wine 上装 qq 的教程
    - Wine 完全中文博客教程 https://blog.csdn.net/gerald_jones/article/details/80781378
