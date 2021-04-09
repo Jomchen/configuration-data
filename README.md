@@ -23,9 +23,10 @@
 
 * 必装软件
    1. 在系统安装时必装
-      - pacman -S dhcpcd
-      - pacman -S wpa_supplicant
-      - pacman -S NetworkManager
+      - pacman -S dhcpcd            # 动态ip分配工具
+      - pacman -S wpa_supplicant    # 无线网连接工具
+      - pacman -S NetworkManager    # 网络管理工具
+      - pacman -S iproute2          # 提供对 network interface, ipaddress, routing table 的管理，工具包中包含 ip, ss, 等命令
       - pacman -S gvim
    2. 在系统安装后必装
       - pacman -S sudo
