@@ -1,4 +1,4 @@
-# Netmanager 命令教程
+# NetworkManager 软件命令教程
    - nmcli device wifi list # 查看 wifi 列出附近的WIFI清单
    - nmcli device wifi connect SSID_OR_BSSID password PASSWORD # 连接到无线网络
    - nmcli device wifi connect SSID_OR_BSSID password PASSWORD hidden yes # 连接到无线网络
