@@ -95,3 +95,10 @@
    2. linux 中用 wine 安装 qq方案
      - https://wiki.archlinux.org/index.php/Tencent_QQ_
 
+
+* 要做的事
+   1. i3-gaps 上 bar 的配置
+   2. 关于 Linux 上的系统字体（在没有桌面环境的情况下）
+   3. bluetooth
+   4. blacklight 配置
+   5. 关于网络的配置
