@@ -97,8 +97,14 @@
 
 
 * 要做的事
-   1. i3-gaps 上 bar 的配置
+   1. i3-gaps 上 polybar 的配置
+      - 音量
+      - 电量
+      - 网络
+      - 时间
+      - 蓝牙
+      - backlight
+      - ipc
    2. 关于 Linux 上的系统字体（在没有桌面环境的情况下）
    3. bluetooth
-   4. blacklight 配置
-   5. 关于网络的配置
+   4. 关于网络的操作和静态ip地址配置
