@@ -95,9 +95,13 @@
    2. linux 中用 wine 安装 qq方案
      - https://wiki.archlinux.org/index.php/Tencent_QQ_
 
+* 其它问题
+   - 解决 Arch 上 mysql-workbench 报 org.freedesktop.secrets was provided by any .service files 的异常
+      - pacman -S gnome-keyring libsecret
 
-* 要做的事
-   1. i3-gaps 上 polybar 的配置
+* 当前要做的事
+   1. xorg 远程视图化连接
+   2. i3-gaps 上 polybar 的配置
       - 音量
       - 电量
       - 网络
@@ -105,11 +109,9 @@
       - 蓝牙
       - backlight
       - ipc
-   2. 关于 Linux 上的系统字体（在没有桌面环境的情况下）
-   3. bluetooth
-   4. 关于网络的操作和静态ip地址配置
+   3. 关于 Linux 上的系统字体（在没有桌面环境的情况下）
+   4. bluetooth
+   5. 关于网络的操作和静态ip地址配置
 
 
 
-* 解决 Arch 上 mysql-workbench 报 org.freedesktop.secrets was provided by any .service files 的异常
-   - pacman -S gnome-keyring libsecret
