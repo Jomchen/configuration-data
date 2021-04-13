@@ -108,3 +108,8 @@
    2. 关于 Linux 上的系统字体（在没有桌面环境的情况下）
    3. bluetooth
    4. 关于网络的操作和静态ip地址配置
+
+
+
+* 解决 Arch 上 mysql-workbench 报 org.freedesktop.secrets was provided by any .service files 的异常
+   - pacman -S gnome-keyring libsecret
