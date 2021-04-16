@@ -224,7 +224,7 @@ exec --no-startup-id /usr/bin/picom
 # constrain size for floating windows
 #floating_minimum_size width x height
 #floating_maximum_size width x height
-floating_maximum_size 930 x 530
+floating_maximum_size 930 x 550
 
 gaps inner 10
 
