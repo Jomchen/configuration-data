@@ -1,3 +1,6 @@
+#!/bin/bash
+# the file should copy /etc/X11/xinit/xinitrc to ~/.xinitrc,
+# then add your own configuration
 
 LANG=zh_CN.UTF-8
 deskSession=${1:-xfce}
