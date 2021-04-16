@@ -1,4 +1,7 @@
-iwctl
+在 Arch 安装的 U 盘环境连接网络的工具
+   - iwctl 针对无线wifi
+   - mmcli 移动网卡
+   - 有线以太网理论应该自动连接
 
 
 ## Arch Linux 安装过程
