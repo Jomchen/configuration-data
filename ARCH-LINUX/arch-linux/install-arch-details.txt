@@ -191,7 +191,8 @@
       - systemctl start dhcpcd
 
 * 图形界面
-   - pacman -S xorg  # 安装图形界面包
+   - pacman -S xorg       # 安装图形界面包
+   - pacman -S xorg-init  # 安装启动图形界面包
    - pacman -S xf86-input-synaptics # 触摸板驱动，笔记本可装，台式不装
    - pacman -S ttf-dejavu wqy-microhei # 安装微米黑字体，不安装则进入桌面环境系统语言中文可能显示不全
    - xfce4
