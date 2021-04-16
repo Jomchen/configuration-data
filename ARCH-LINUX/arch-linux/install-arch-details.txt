@@ -208,7 +208,7 @@
          LC_LANG=und
          deskTopChoice=${1:-xfce}
          case $deskTopChoice in
-         	i3	) exec -i3 -V >> ~/i3-$(date +%Y-%m-%d)-log.txt 2>&1;;
+         	i3	) exec i3 -V >> ~/i3-$(date +%Y-%m-%d)-log.txt 2>&1;;
          	xfce	) exec startxfce4;;
          	*	) exec $1;;
          esac
