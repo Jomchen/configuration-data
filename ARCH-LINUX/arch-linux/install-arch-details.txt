@@ -144,14 +144,14 @@
    12. genfstab -U /mnt >> /mnt/etc/fstab   # 生成挂载文件到安装好的系统里
 
 * 进入系统操作
-  0. 创建链接
+  0. arch-chroot /mnt # 进入系统
+  1. 创建链接
      1. ln -s /usr/bin/vim /usr/bin/vi
-  1. 时间和时区
-     1. arch-chroot /mnt # 进入系统
+  2. 时间和时区
      2. ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime # 创建时区软件链接
      3. timedatectl set-ntp true                                # 自动从网络同步时间
      4. hwclock --systohc                                       # 硬件时钟设为utc时间
-  2. 语言
+  3. 语言
      5. vim /etc/locale.gen
         - en_US.UTF-8 UTF-8
         - zh_CN.UTF-8 UTF-8
@@ -160,7 +160,7 @@
      6. locale-gen # 执行生成本地化语言配置
      7. vim /etc/locale.conf
         - LANG=en_US.UTF-8
-  3. 配置主机信息
+  4. 配置主机信息
      8. vim /etc/hostname # 第一行写服务器名
      9. vim /etc/hosts    # 编辑地址映射
         ```
@@ -169,7 +169,7 @@
         127.0.1.1	服务器名.localdomain 服务器名
         ```
      10. passwod           # 输入两次密码修改 root 密码
-  4. 引导
+  5. 引导
      - pacman -S grub efibootmgr intel-ucode os-prober wpa_supplicant man networkmanager
      - mkdir /boot/grub
      - grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=grub
