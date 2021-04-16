@@ -103,6 +103,7 @@
 * 当前要做的事
    1. xorg 远程视图化连接
       - https://www.dazhuanlan.com/2020/01/18/5e230bf943ad6/
+      - https://www.jianshu.com/p/24663f3491fa
    2. i3-gaps 上 polybar 的配置
       - 音量
       - 电量
