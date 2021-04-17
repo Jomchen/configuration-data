@@ -4,7 +4,7 @@ pacman -S fcitx5-qt fcitx5-gtk      # 解决输入法挂死，输入法不跟随
 在 /etc/environment 中添加
    ```
    GTK_IM_MODULE=fcitx
-   QT_IM_MODULE=fctix
+   QT_IM_MODULE=fcitx
    XMODIFIERS=@im=fcitx
    
    # 对于一些情况，比如 Dota2 的输入法问题需要加入这个变量
