@@ -192,7 +192,8 @@ bindsym $mod+o mode "adjust-audio"
 # finds out, if available)
 bar {
         position top
-        status_command i3status
+        status_command exec ~/.config/i3/i3-status.sh
+        #status_command i3status
 
         #mode hide
         #hidden_state hide
