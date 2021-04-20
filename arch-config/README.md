@@ -48,6 +48,7 @@
          - 查看 fcitx 文件夹 readme.txt
 * 其它安装
    1. step1
+      - pacman -S neofetch          # 优雅显示系统信息
       - pacman -S w3m               # 终端浏览器，实际可在终端预览视频和图片
       - pacman -S picom             # 窗口透明
       - pacman -S feh               # 图片查看器
@@ -62,7 +63,6 @@
             - amixer sset Speaker unmute
             - amixer sset Headphone unmute
       - pacman vlc                  # 视频播放器
-      - pacman neofetch             # 主要信息输出工具
       - pacman wine                 # windows 的虚拟容器
       - pacman wireshark-qt         # 视图化的抓包工具（与命令性质的择其一安装）
          - pacman wireshark-cli         # 命令性质的抓包工具
@@ -70,7 +70,8 @@
       - pacman unzip                # zip 解压工具
       - pacman ntfs-3g              # 可以挂载 ntfs 的软件支持
       - pacman openssh              # openssh 工具
-      - 安装 VNC 服务 和 客户端     # 远程连接
+      - tigervnc                    # 远程视图工具（已包含客户端和服务端）
+      - git                         # 版本控制工具
 
    2. step2
       1. 安装 aur 和 google-chrome
