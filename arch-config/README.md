@@ -38,6 +38,8 @@
       - pacman -S xfce4
       - pacman -S xfce4-goodies（非必需，xfce4的额外组件）
       - pacman -S lightdm           # 安装登录界面
+         - pacman -S lightdm-gtk-greeter
+         - 为登录界面安装登录迎宾者，即 lightdm 默认的 lightdm-gtk-greeter
       - pacman -S i3-gaps           # 平铺窗口管理器
    4. 图形界面必须
       - fcitx5 方案（首选，推荐）

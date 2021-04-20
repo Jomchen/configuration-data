@@ -198,6 +198,8 @@
    - xfce4
       - pacman -S xfce4         # 核心组件
       - pacman -S lightdm       # 安装登录界面
+         - pacman -S lightdm-gtk-greeter
+         - 为登录界面安装登录迎宾者，即 lightdm 默认的 lightdm-gtk-greeter
       - pacman -S xfce4-goodies # 包含额外的组件（可选择性安装）
    - i3-gaps
       - pacman -S i3-gaps       # 安装 i3-gaps 窗口管理器
