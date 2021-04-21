@@ -206,7 +206,13 @@
       - pacman -S dmenu         # 安装 dmenu
       - 配置一个文件，以选择性启动
          ```
-         ~/.xinitrc
+         编辑 ~/.xinitrc
+         #!/bin/bash
+         
+         ... 省略号部分内容应该复制源于 /etc/X11/xinit/xinitrc 中的内容
+         # 但是也应该注意 复制的内容中有些指令应该注释掉，比如：xterm, xclock, twm
+         # 复制内容时注意 exex 命令行应该出现在最后，否则其它的资源加载可能不生效（参考 xorg, xinit, display manager, 的维基文档）
+
          LANG=zh_CN.UTF-8
          LC_LANG=und
          deskTopChoice=${1:-xfce}
@@ -223,6 +229,11 @@
          记得要在i3里配置让 fcitx 预先执行
          ```
 
+   - 必装软件
+      - pacman -S dhcpcd               # 动态ip分配
+      - pacman -S wpa_supplicant       # 动态ip分配
+      - pacman -S NetworkManager       # 网络管理工具
+      - pacman -S iproute2             # 提供对 network interface, ipaddress, routing table 的管理，工具包中饮食 ip, ss, 等命令
    - 其它重要软件
       - pacman -S neofetch             # 优雅显示系统信息
       - pacman -S xf86-input-synaptics # 触摸板驱动，笔记本可装，台式不装
