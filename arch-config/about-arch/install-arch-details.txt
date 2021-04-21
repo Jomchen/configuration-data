@@ -165,7 +165,7 @@
      9. vim /etc/hosts    # 编辑地址映射
         ```
         127.0.0.1	localhost
-        :::1	localhost
+        ::1	localhost
         127.0.1.1	服务器名.localdomain 服务器名
         ```
      10. passwod           # 输入两次密码修改 root 密码
