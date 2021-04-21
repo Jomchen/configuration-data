@@ -1,3 +1,9 @@
+* Win 和 Linux 双系统时间同步解决方案
+   - win 和 Linux 双系统时间同步解决方案
+     - https://wiki.archlinux.org/index.php/System_time
+     - 或者搜索 `System time arch` 搜索到双系统的时间解决方案
+
+
 * 下载证书后，将 key 与 证书安装在 nginx 上后，nginx -t 验证不通过,错误形同如下
    ```
    报错nginx: [emerg] SSL_CTX_use_PrivateKey_file("/etc/nginx/ssl/myxxxxgame201904.key") failed (SSL: error:0906D06C:PEM routines:PEM_read_bio:no start line:Expecting: ANY PRIVATE KEY error:140B0009:SSL routines:SSL_CTX_use_PrivateKey_file:PEM lib)
@@ -9,3 +15,12 @@
    两个文件理性编码后即可验证成功
    原因是证书与私钥必须以 ANSI 编码，而不能用 utf-8
    ```
+
+* Arch 上数据库视图工具不能记住密码的解决方案
+   - 解决 Arch 上 数据库视图工具不能记住密码的解决方案
+      - pacman -S seahorse      # 参考 keyring Arch 维基文档
+   - 解决 Arch 上 mysql-workbench 报 org.freedesktop.secrets was provided by any .service files 的异常
+      - pacman -S gnome-keyring libsecret
+
+* Linux 中用 wine 安装 qq 方案
+  - https://wiki.archlinux.org/index.php/Tencent_QQ_
