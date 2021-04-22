@@ -24,3 +24,12 @@
 
 * Linux 中用 wine 安装 qq 方案
   - https://wiki.archlinux.org/index.php/Tencent_QQ_
+
+* git 解决每次拉取代码都需要用户名和密码的情况
+   - git config --global credential.helper store
+   - 执行完毕后会在 ~/.gitconfig 中生成一个文件，记录了你的相关信息
+
+* yay 安装教程地址
+   - https://lyzhang.me/post/archlinux_beginning/
+   - https://zhuanlan.zhihu.com/p/102529503
+   - https://www.jianshu.com/p/4444bb4f8452
