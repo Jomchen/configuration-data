@@ -269,6 +269,31 @@
          - cd yay
          - makepkg -is            # 安装yay
          - yay -S google-chrome   # 安装谷歌浏览器
+      2. 安装 aur 失败的处理方案
+         - 目前 yay 不能安装成功，怀疑是依赖需要下载 google 相关的包，而地址被墙
+            - 解决方案是使用 git 的socket代理
+            - 使用国内源进行安装
+               - cp /etc/pacman.conf /etc/pacman.conf.backup # 备份pacman配置文件
+               - 添加（注意，下列的源只添加一个即可，建议添加清华源）
+                  ```
+                  [archlinuxcn]
+                  # The Chinese Arch Linux communities packages.
+                  # SigLevel = Optional TrustedOnly
+                  SigLevel = Optional TrustAll
+                  # 官方源
+                  #Server   = http://repo.archlinuxcn.org/$arch
+                  # 163源
+                  #Server = http://mirrors.163.com/archlinux-cn/$arch
+                  # 清华大学
+                  Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+                  ```
+               - pacman -Syy 进行更新源信息
+               - pacman -Syu 更新升级所有包和软件
+               - pacman -S archlinuxcn-keyring # 安装国内archlinux的签名
+               - pacman -S yay # 安装 yay
+               - yay --aururl “https://aur.tuna.tsinghua.edu.cn” --save # aur 使用清华源
+               - yay -P -g # 查看 aur 的配置信息
+
       2. 安装文件管理器,终端预览图片
          1. pacman -S w3m    # 终端浏览器，实际可在终端预览视频和图片
          2. pacman -S ranger # 命令行文件管理器
