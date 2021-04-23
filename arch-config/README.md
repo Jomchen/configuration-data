@@ -120,5 +120,8 @@
    5. 关于网络的操作和静态ip地址配置
    6. openvpn
 
+* ploybar 需要学习的网址
+   - https://blog.csdn.net/qq_33215865/article/details/84720212
+   - https://www.jianshu.com/p/fd07c3081493
 
 
