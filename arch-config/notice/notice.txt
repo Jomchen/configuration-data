@@ -33,3 +33,20 @@
    - https://lyzhang.me/post/archlinux_beginning/
    - https://zhuanlan.zhihu.com/p/102529503
    - https://www.jianshu.com/p/4444bb4f8452
+
+* 安装 redis 因为访问谷歌下载地址失败的处理方案，让 git 走代理
+   - 方案择其一（经测试，第一种方案有效，第二种方案无效，第三种方案未测试，第四种方案未测试。建议用第一种方案）
+      1. 设置 socks5 代理
+         - git config --global http.proxy 'socks5://127.0.0.1:1080' && git config --global https.proxy 'socks5://127.0.0.1:1080'
+      2. 设置 git@ 走代理
+         - ~/.ssh/ssh_config
+         - ProxyCommand nc -x 127.0.0.1:1080 %h %p
+         - 如果不确定，或希望全部走代理，则添加第一行
+      3. 设置 http/https 代理
+         - git config --global https.proxy http://127.0.0.1:1080 && git config --global https.proxy https://127.0.0.1:1080
+      4. 强制转换协议以使用代理
+         - git config --global url."https://github".insteadOf git://github
+         - git config --global url."git@github.com:".insteadOf "https://github.com/"
+         - git config --global url.ssh://git@bitbucket.org/.insteadOf https://bitbucket.org/
+   - 取消代理
+      git config --global --unset http.proxy && git config --global --unset https.proxy
