@@ -112,7 +112,7 @@
    1. setfont /usr/shar/kbd/consolefonts/具体字体文件名 # 对控制台指定显示字体
       - fc-cache -vf # 刷新字体
       - fc-list      # 查看可用的字体，输出信息中每一行是一个字体文件和字体文件对应的字体名字和风格
-   2. 比较推荐的字体网址，支持图标及三千多字体 https://www.nerdfonts.com/
+   1. 比较推荐的字体网址，支持图标及三千多字体 https://www.nerdfonts.com/
    2. 键盘布局
       - loadkeys 布局名 # 修改键盘布局，默认是美式键盘布局，所以不需要更改
       - 如果需要有自己配置键位则写一个 key.conf，里面写自己的配置，最后 loadkeys keys.conf
@@ -140,42 +140,42 @@
       - mount /dev/家分区 /mnt/home
    12. 修改 /etc/pacman.conf      # 把 Color 注释打开，并把 [color] [extra] [community] 的地址打开
       - 修改 /etc/pacman.d/mirrorlist # 修改源地址
-   11. pacstrap /mnt base base-devel linux linux-firmware ntfs-3g dhcpcd gvim
-   12. genfstab -U /mnt >> /mnt/etc/fstab   # 生成挂载文件到安装好的系统里
+   13. pacstrap /mnt base base-devel linux linux-firmware ntfs-3g dhcpcd gvim
+   14. genfstab -U /mnt >> /mnt/etc/fstab   # 生成挂载文件到安装好的系统里
 
 * 进入系统操作
-  0. arch-chroot /mnt # 进入系统
-  1. 创建链接
-     1. ln -s /usr/bin/vim /usr/bin/vi
-  2. 时间和时区
-     2. ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime # 创建时区软件链接
-     3. timedatectl set-ntp true                                # 自动从网络同步时间
-     4. hwclock --systohc                                       # 硬件时钟设为utc时间
-  3. 语言
-     5. vim /etc/locale.gen
-        - en_US.UTF-8 UTF-8
-        - zh_CN.UTF-8 UTF-8
-        - zh_HK.UTF-8 UTF-8
-        - zh_TW.UTF-8 UTF-8
-     6. locale-gen # 执行生成本地化语言配置
-     7. vim /etc/locale.conf
-        - LANG=en_US.UTF-8
-  4. 配置主机信息
-     8. vim /etc/hostname # 第一行写服务器名
-     9. vim /etc/hosts    # 编辑地址映射
-        ```
-        127.0.0.1	localhost
-        ::1	localhost
-        127.0.1.1	服务器名.localdomain 服务器名
-        ```
-     10. passwod           # 输入两次密码修改 root 密码
-  5. 引导
-     - pacman -S grub efibootmgr intel-ucode os-prober wpa_supplicant man networkmanager
-     - mkdir /boot/grub
-     - grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=grub
-        - 这里的 x86_64 是通过 uname -m 查询得到的，如果根文档不同，需要把 x86_64 替换之
-     - grub-mkconfig > /boot/grub/grub.cfg # 生成引导配置文件
-      - 如果报 warning failed to connect to lvmetad, falling back to device scanning 错误。那么 /etc/lvm/lvm.conf 这个文件，找到 use_lvmetad = 1 将 1 改为 0 再重新配置配置文件
+   0. arch-chroot /mnt # 进入系统
+   1. 创建链接
+      1. ln -s /usr/bin/vim /usr/bin/vi
+   2. 时间和时区
+      2. ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime # 创建时区软件链接
+      3. timedatectl set-ntp true                                # 自动从网络同步时间
+      4. hwclock --systohc                                       # 硬件时钟设为utc时间
+   3. 语言
+      5. vim /etc/locale.gen
+         - en_US.UTF-8 UTF-8
+         - zh_CN.UTF-8 UTF-8
+         - zh_HK.UTF-8 UTF-8
+         - zh_TW.UTF-8 UTF-8
+      6. locale-gen # 执行生成本地化语言配置
+      7. vim /etc/locale.conf
+         - LANG=en_US.UTF-8
+   4. 配置主机信息
+      8. vim /etc/hostname # 第一行写服务器名
+      9. vim /etc/hosts    # 编辑地址映射
+         ```
+         127.0.0.1	localhost
+         ::1	localhost
+         127.0.1.1	服务器名.localdomain 服务器名
+         ```
+      10. passwod           # 输入两次密码修改 root 密码
+   5. 引导
+      - pacman -S grub efibootmgr intel-ucode os-prober wpa_supplicant man networkmanager
+      - mkdir /boot/grub
+      - grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=grub
+         - 这里的 x86_64 是通过 uname -m 查询得到的，如果根文档不同，需要把 x86_64 替换之
+      - grub-mkconfig > /boot/grub/grub.cfg # 生成引导配置文件
+       - 如果报 warning failed to connect to lvmetad, falling back to device scanning 错误。那么 /etc/lvm/lvm.conf 这个文件，找到 use_lvmetad = 1 将 1 改为 0 再重新配置配置文件
 
 * 退出安装环境
    - exit # 退出系统环境
