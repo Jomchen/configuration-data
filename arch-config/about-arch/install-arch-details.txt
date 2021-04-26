@@ -262,6 +262,7 @@
       - tigervnc                       # 远程视图工具（已包含客户端和服务端）
       - git                            # 版本控制工具
       - flameshot                      # 截图工具
+         - 引用教程地址 https://linux265.com/soft/3848.html
 
    - 重要安装和配置
       1. 安装 aur 和 google-chrome
