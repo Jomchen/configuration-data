@@ -97,7 +97,7 @@
          - in a car 开车
       - get on a bus 上车（一般是公交车不弯腰容量大的车），get off a bus 下车（一般是公交车不弯腰容量大的车）
          - on a bus/by bus 搭公车
-      - promble（难题，课题描述性质的问题） question（这是有疑问，可以打问号的问题）
+      - problem（难题，课题描述性质的问题） question（这是有疑问，可以打问号的问题）
       - everyone 每个人（不能加修饰语）；every one 每个人/物（可以指人或物，可以加修饰语）
       - leaves 注意 可以是 leaf 的复数，或者是 leave 的第三人称单数的词
       - employer 雇主；employee 员工
