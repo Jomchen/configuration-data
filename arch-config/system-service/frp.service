@@ -1,0 +1,11 @@
+[Unit]
+Description=frp Daemon
+After=network.target lightdm.service
+
+[Service]
+ExecStart=/opt/frp_0.36.2_linux_amd64/frpc -c /opt/frp_0.36.2_linux_amd64/frpc.ini
+KillMode=process
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
