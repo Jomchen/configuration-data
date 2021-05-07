@@ -263,6 +263,9 @@
       - git                            # 版本控制工具
       - flameshot                      # 截图工具
          - 引用教程地址 https://linux265.com/soft/3848.html
+      - yay -S wps-office-cn           # 安装 wps 主体
+      - yay -S wps-office-fonts        # 安装 wps 需要字体
+      - yay -S wps-office-mui-zh-cn    # 如果wps不是中文界面，可以安装此组件
 
    - 重要安装和配置
       1. 安装 aur 和 google-chrome
