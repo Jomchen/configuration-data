@@ -12,7 +12,7 @@
    解决方案是因为编码问题，用 vim 分别打开 证书 与 私钥，并执行
    :set fileencoding=cp936
    :wq!
-   两个文件理性编码后即可验证成功
+   两个文件修改编码后即可验证成功
    原因是证书与私钥必须以 ANSI 编码，而不能用 utf-8
    ```
 
@@ -21,6 +21,7 @@
       - pacman -S seahorse      # 参考 keyring Arch 维基文档
    - 解决 Arch 上 mysql-workbench 报 org.freedesktop.secrets was provided by any .service files 的异常
       - pacman -S gnome-keyring libsecret
+   - 经测试，此操作仍然无效
 
 * Linux 中用 wine 安装 qq 方案
   - https://wiki.archlinux.org/index.php/Tencent_QQ_
