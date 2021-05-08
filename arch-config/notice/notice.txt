@@ -69,4 +69,4 @@
    - v2ray
    - wireguard
    - Trojan（本身定位于加密为 https, tls 1.3）
-   - Tor 洋葱浏览器，匿名通信的Free软件
+   - Tor 洋葱路由器，匿名通信的Free软件
