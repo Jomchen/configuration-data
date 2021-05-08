@@ -66,3 +66,6 @@
    - https://github.com/v2ray/discussion/issues/751
 
 * BBR 可以为代理服务器提速
+   - v2ray
+   - wireguard
+   - Trojan（本身定位于加密为 https, tls 1.3）
