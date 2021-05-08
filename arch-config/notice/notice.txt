@@ -63,3 +63,5 @@
    - https://github.com/v2ray/discussion/issues/147
    - https://lin.moe/posts/v2ray_with_nat/
    - https://github.com/v2ray/discussion/issues/751
+
+* BBR 可以为代理服务器提速
