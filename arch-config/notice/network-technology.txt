@@ -1,0 +1,11 @@
+
+* wall-mother
+   ```
+   # append following content to your hosts file to access wall-mother website.
+   # Linux: /etc/hosts
+   # Windows: C:\windows\System32\drivers\etc\hosts
+   104.26.5.36 www.wallmama.com wallmama.com
+   ```
+
+* proxy networking technology
+   - https://pincong.rocks/article/5489
