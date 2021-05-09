@@ -6,6 +6,17 @@
    # Windows: C:\windows\System32\drivers\etc\hosts
    104.26.5.36 www.wallmama.com wallmama.com
    ```
+* v2ray 搭建 dns 的配置参考
+   - https://shinta.ro/posts/v2ray-as-a-dns-server/
+   - https://github.com/v2ray/discussion/issues/147
+   - https://lin.moe/posts/v2ray_with_nat/
+   - https://github.com/v2ray/discussion/issues/751
 
-* proxy networking technology
+* wall remote proxy networking technology
    - https://pincong.rocks/article/5489
+   - https://iyideng.net/black-technology/cgfw/vpn-ss-ssr-v2ray-trojan-wireguard-bypass-gfw.html
+   - https://iyideng.net/black-technology/cgfw/vpn-ss-ssr-v2ray-trojan-wireguard-bypass-gfw.html
+
+* Linux 上代理工具
+   - Surge # 貌似是 Mac 上的软件
+   - Clash # 可以在 Linux 上使用
