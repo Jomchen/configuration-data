@@ -1,6 +1,9 @@
 [Unit]
 Description=frp Daemon
-After=network.target lightdm.service
+#Requires=network.service
+#After=network.target lightdm.service
+Requires=NetworkManager-wait-online.service
+After=NetworkManager-wait-online.service lightdm.service
 
 [Service]
 ExecStart=/opt/frp_0.36.2_linux_amd64/frpc -c /opt/frp_0.36.2_linux_amd64/frpc.ini
