@@ -22,3 +22,4 @@
    ```
 
 * 是否 服务端的 /etc/vncpasswd 没有相应的读取权限？
+* sshd_config 的文件 #PasswordAuthentication yes 应该这样注释起来
