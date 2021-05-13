@@ -10,4 +10,13 @@
    height=768
    depth=24
    ```
-如果是不能远程的原因，有可能是因为服务端的显示器没有开？
+* 如果你在试图用 ssh 管道，导致 "end of steam" 最有可能是 ssh 不能连接到目标 vnc server，所以它记录日志错误并关闭ssh
+   ```
+   连接失败 End of stream 的原因解释原话
+   https://vnc-tight-list.narkive.com/zCc8u6Xz/receiving-end-of-stream-upon-connection
+   
+   If you are trying to connect via an SSH tunnel then the most likely cause of
+   "end of stream" is that the SSH server isn't able to connect out to the
+   target VNC server, so it logs an error and the SSH client then closes the
+   connection from the VNC viewer.
+   ```
