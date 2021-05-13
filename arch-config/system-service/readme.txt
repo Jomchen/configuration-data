@@ -20,3 +20,5 @@
    target VNC server, so it logs an error and the SSH client then closes the
    connection from the VNC viewer.
    ```
+
+* 是否 服务端的 /etc/vncpasswd 没有相应的读取权限？
