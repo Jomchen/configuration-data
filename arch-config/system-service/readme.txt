@@ -24,3 +24,4 @@
 * 是否 服务端的 /etc/vncpasswd 没有相应的读取权限？
 * sshd_config 的文件 #PasswordAuthentication yes 应该这样注释起来
 * 可能是 /etc/lightdm/lightdm.conf 中 VNCServer 中 depth 应该改为 24
+* ssh 的 -L 命令 详解 https://zhuanlan.zhihu.com/p/57630633
