@@ -81,3 +81,5 @@
 * 配置网卡的教程
    - https://www.cnblogs.com/w-s-y/p/9498115.html
 
+* idea 不能下载源码的解决方案
+   - https://www.icode9.com/content-1-116950.html
