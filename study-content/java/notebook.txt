@@ -2,3 +2,21 @@
    - https://www.codenong.com/15202997/
 Type 类型
    - https://www.jianshu.com/p/39cc237ad815
+
+* 一些要测试的代码
+   ```
+   ResultObj<String> resultObj = ResultObj.success("Linux");
+           Class<?> cla = resultObj.getClass();
+           String name = cla.getName();
+           String simpleName = cla.getSimpleName();
+           String canonicalName = cla.getCanonicalName();
+           String typeName = cla.getTypeName();
+           Type type = cla.getGenericSuperclass();
+           Type[] types = cla.getGenericInterfaces();
+   
+   
+           System.out.println("name: " + name);
+           System.out.println("simpleName: " + simpleName);
+           System.out.println("canonicalName: " + canonicalName);
+           System.out.println("typeName: " + typeName);
+   ```
