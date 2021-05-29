@@ -213,7 +213,7 @@ default_floating_border none
 # xfce's fold manager
 bindsym $mod+Shift+f exec --no-startup-id thunar
 
-# screenshot, the package must be installed
+# screenshot, the package <flameshot> must be installed
 bindsym $mod+Shift+x exec --no-startup-id flameshot gui
 
 # start personal applications
