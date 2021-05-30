@@ -2973,7 +2973,7 @@
                - 事实是：As I didn't know the gossip then,I woundn't tell you.
             - We would not have dozed off if our teacher had spoken louder. 如果那时我们的老师讲课大声点，我们就不会打瞌睡 
                - 事实是：As our teacher didn't speak loud, we dozed off（这里没有用 clouder 是因为，只是为了说明老师没有大声讲）
-            - 在条件子句中，除了 if 之外，也可用 suppose(supposing),suppose( that),providing(provided)，as(so) long as（只要...）,in case（万一...）, unless（除非...） 等作假设形成的两部分句子的连接词
+            - 在条件子句中，除了 if 之外，也可用 suppose(supposing),suppose( that)（假设）,providing(provided)（倘若），as(so) long as（只要...）,in case（万一...）, unless（除非...） 等作假设形成的两部分句子的连接词
                - 但 unless 通常不用于假设语气的子句中
                - Suppose(Supposing) you had ten million dollars, what would you like to do first? # 假设你有一千万，你想做什么
                - I will stay here provided(providing) the climate agrees with me tomorrow. # 假设明天天气适当，我会呆在这里（如果天气适合我的话，我会呆在这里）
