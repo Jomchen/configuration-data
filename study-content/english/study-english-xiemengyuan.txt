@@ -64,8 +64,10 @@
       - 48:               （音画不同步，不太严重）
       - 53: 全程音画不同步（但音画不同步率不算高，少许影响学习）
       - 54: 00:40:19 卡死
-   2. 中级：06, 14, 54, 116
+   2. 中级：06, 14, 16，54, 116
       - 06: 00:35:46 开始没有声音或卡死
+      - 14: 16:46:00 乱音，后续将没有声明（没有弥补问题文件）
+      - 16: 00:54:00 突然卡顿一下
 
 不清楚的集数：
    - 11 集 的主词和动名词不同时 是什么意思
@@ -276,14 +278,15 @@
 
 
 
-* 谢孟媛英语视频 高中部分复习进度：13 38:15 集 
-   - the <2857> line 
+* 谢孟媛英语视频 高中部分复习进度：17 集 18:19:00
+   - the <3084> line 
 * 重新复习地方
    - 2379 line 高一不定式副词用法
    - 2740 line 高一动名词和不定式哪种情况必须使用
 * 注意点
    - 1577 ~ 1594 line 的 前面被动，后面主动 的情况
    - 43 集的 用 whom 的情况
+   - 中级 14 集，假设法现在式，假设法过去式，假设法过去完成式，假设法未来式 的区别
 
 没有搞清楚的问题：
  - 替代
@@ -2873,23 +2876,27 @@
       - It goes without saying that~ （不用说~）
          - 一种肯定的说明，“更不待言”
          - It goes without saying that our plans depend on the weather. 我们的计划不用说要视天气而定
-         - Needless to say that our pans depend on the weather. 不用说我们的计划要视天气而定
-      - What do you say to ving ~ （~如何？）
+         - Needless to say, our plans depend on the weather. 不用说我们的计划要视天气而定
+      - What do you say to ving ~  # ~意下如何？
          - how 是疑问副词，而 what 是疑问代名词，所以对一件具体的事物讲如何的时候应该是用“what”
          - What do you say to taking a walk by the sea?. 海边散个步你意下如何？（这里的 to 作介词）
             - How about taking a walk by the sea? （about 是介词）
       - need, want, deserve, stand... 等 + ving => 被动
-         1. This watch needs repairing. 这个手表需要修理 => This watch needs to be repaired.
-         2. The child wants scolding. 这个小孩需要被骂
-         3. He deserves helping. 他值得被帮助
+         0. need 的使用
+            - 人 need + to v.
+            - 物 need + ving.
+         1. This watch needs repairing. # 这个手表需要修理 
+            - This watch needs to be repaired.
+         2. The child wants scolding. # 这个小孩需要被骂
+         3. He deserves helping. # 他值得被帮助
             - deserve 不是价值的值得，价值性要稍低一些
-         4. This cloth does not stand/bear washing. 这个衣服禁不起洗
+         4. This cloth does not stand/bear washing. # 这个衣服禁不起洗
             - stand 忍受
 
 * 假设语气
    - 对一个与事实相反的情况 A 的假设，于此一定诱发的结果 B，A和B都是与事实相反。要区别于没有假设的 if
-      - If you are free, please help me with my homework. # 如果你有空，请帮助我做家庭作业
-      - If I knew her number, I could ring her up. 如果我知道她的号码，我就可以给她打电话（这个是假设）
+      - If you are free, please help me with my homework. # 如果你有空，请帮助我做家庭作业（直述句）
+      - If I knew her number, I could ring her up. 如果我知道她的号码，我就可以给她打电话（假设句）
    - 网上教程
       - 若与现在事实相反，条件从句的谓语用过去式（be通常用were），主句谓语用should,could,would,might等 + v.
          - If I knew her number,I could ring her up. 如果我知道她的号码，我就可以给她打电话
@@ -2909,7 +2916,7 @@
          举例：在现在进行假设，即与现在事实相反，那么通过原则向前一级，则假设和叙述应该都以过去式进行表达
                虽然表达的情况看是过去式，其实是对（将来）这一事件的 “条件假设”和“主观倾向”
 
-         过去进行  过去    现在   将来
+         过去完成  过去    现在   将来
          *_______*______*______*______*
          ```
          - 直述句 If you are free, please help me with my homework. 如果你有空，请帮助我做工课（非真实条件句 和 主句）
@@ -2924,25 +2931,25 @@
             - I could ... 是假设的情况
 
       - 假设法现在式（表示现在或未来之不确定的假设）
-         - 这种表达比较老旧，一般表达是基本三大形态
-         0. 假设在现在，事实在过去
-         1. If + 主词 + 现在式动词 ~, 主词 + will/shall + v ~
+         1. 这种表达比较老旧，一般表达是基本三大形态
+         2. 假设在现在，事实在过去
+         3. If + 主词 + 现在式动词 ~, 主词 + will/shall + v ~
             - If it rains tomorrow, we will cancel the picnic. 如果明天下雨的话，我们就取消野餐（非真实条件句 和 主句）
                - 这里 rains 是一个动词
                - 这里的 will/shall 是助动词
                - ##假设是在未来，事实是在现在##
             - I think (that) it will rain tomorrow. 我认为明天会下雨（这是对一个情况的陈述，不是假设）
-         2. 主词 + 动词 + that + 假设法现在式
-            - suggest(假设), demand(要求）, insist(坚持), agree(同意)...等
-            - I suggest that everyone (should) help in some way. 我建议每个人应该以某种方式帮忙
+         4. 主词 + 动词 + that + 假设法现在式
+            - suggest(建议), demand(要求）, insist(坚持), agree(同意)...等
+            - I suggest that everyone <should> help in some way. 我建议每个人应该以某种方式帮忙
                - should 虽然可以是shall的过去式（翻译为“将要”）；但也可以作为“应该”的助动词
                - 不管前面的 suggest 是什么时态，这里的 should 都应该是用 should 而不应该用 shall
                - 这里的 should 可以省略，因为是众所周知的责任义务
                - 注意：这里的 suggest 是对现在的假设，根据 “事实与假设时态 相差一级”，所以用过去式进行表述
                - ##假设是在现在，事实是在过去##
-            - I insist that she (should) consult the doctor. 我坚持她看医生
-         3. It is + adj. + that + 假设法现在式
-            - neccessary, important...等
+            - I insist that she <should> consult the doctor. # 我坚持她看医生
+         5. It is + adj. + that + 假设法现在式
+            - adj.: neccessary, important...等
             - It is important that she should be honest. 她应该诚实是很重要的
                - It is important 是事实，通过 “事实与假设时态” 相差一级，所以后面时态应该往前一级
                - she should be honest 是假设，所以应该用 should，即过去式助动词
@@ -2953,51 +2960,57 @@
          - If + 主词 + were/过去式动词/过去式助动词 ~, 主词 would,could,shoud,might + 原型动词 ~
             - If I were young, I would enjoy the party. 如果我还年轻，我就可以参加这个派对
                - 如果我还年轻，是与现在的事实相反，所以用过去式
-               - 事实是：As I am not young, I can't enjoy this party.（因为我不年轻了，我不能参加这个派对）
-            - If I had a lot of money, I would buy a yacht.  如果我有很多钱，我就买一艘游艇
-               - 事实是：As I don't have much money, I won't buy a yecht. （因为我没有钱，我不会买游艇）
+               - 事实是：As I am not young, I can't enjoy this party. # 因为我不年轻了，我不能参加这个派对
+            - If I had a lot of money, I would buy a yacht. # 如果我有很多钱，我就买一艘游艇
+               - 事实是：As I don't have much money, I won't buy a yecht. # 因为我没有钱，我不会买游艇
 
-      - 假设法过去完成式（表示与过去事实相反的假设）
+      - 假设法过去完成式
+         -  表示与过去事实相反的假设（假设在过去的过去，事实在过去）
          - If 主词 had + p.p., 主词 + would/could/should/might + have p.p.
             - 后面的 have p.p. 没有和前面的 had p.p. 前后对应，因为受助动词限制用原型
             - 但是由于 would,could,should,might 是过去式的，所以过去式+完成式 间接形成过去完成式
             - If I had known the gossip then, I would have told you. 如果我那时知道流言，我就会告诉你
                - 事实是：As I didn't know the gossip then,I woundn't tell you.
             - We would not have dozed off if our teacher had spoken louder. 如果那时我们的老师讲课大声点，我们就不会打瞌睡 
-               - 事实是：As our teacher didn't speak loud,we dozed off
-            - 在条件子句中，除了 if 之外，也可用 suppose(supposing),suppose(that),providing(provided) as(so) long as,in case, unless 等作假设形成的两部分句子的连接词
+               - 事实是：As our teacher didn't speak loud, we dozed off（这里没有用 clouder 是因为，只是为了说明老师没有大声讲）
+            - 在条件子句中，除了 if 之外，也可用 suppose(supposing),suppose( that),providing(provided)，as(so) long as（只要...）,in case（万一...）, unless（除非...） 等作假设形成的两部分句子的连接词
                - 但 unless 通常不用于假设语气的子句中
-               - Suppose(Supposing) you had ten million dollars,what would you like to do first? 假设你有一千万，你想做什么
-               - I will stay here provided(providing) the climate agree with me tomorrow. 假设明天天气适当，我会呆在这里
+               - Suppose(Supposing) you had ten million dollars, what would you like to do first? # 假设你有一千万，你想做什么
+               - I will stay here provided(providing) the climate agrees with me tomorrow. # 假设明天天气适当，我会呆在这里（如果天气适合我的话，我会呆在这里）
+                  - climate # 气候（一般用于大范围的天气/气候）
+                  - weather # 天气（一般用于小范围或某一个地域的天气）
 
-      - 假设法过去式和假设法过去完成式混用
-         - If I had done my homework yesterday,I could go on a date with her now. 如果我昨天完成了作业，我今天就能去约会了
-            - 若两子句的时间不同时，其时态 各自为准
-            - 事实是：As I didn't do my homework, I don't go on a date with her now.
-            - 完成作业是假设过去，所以用过去完成式；约会是假设现在，所以用过去式
+         - 假设法过去式和假设法过去完成式混用
+            - If I had done my homework yesterday,I could go on a date with her now. 如果我昨天完成了作业，我今天就能去约会了
+               - 若两子句的时间不同时，其时态 各自为准
+               - 完成作业是与过去事实相反，所以用过去完成式；约会是与现在事实相反，所以用过去式
+               - 事实是：As I didn't do my homework, I don't go on a date with her now.
+               - 完成作业是假设过去，所以用过去完成式；约会是假设现在，所以用过去式
 
       - 假设法未来式
-         - If + 主词 + should v. / (were + to v.), 主词 should/would/could/might/(ought to v.)
-            - should 在没有 if 的句子中的意思是 “万一”，是有可能发生的
-            - were to 在这里是作 “如果”，是绝不可能的
-         - If it should rain tomorrow, the game would be put off. 明天下雨的话，比赛将会延期（明天下雨是可能发生的）
-         - If the pacific Ocean were to dry, I would chage my mind. 如果太平洋干涸的话，我就改变心意（太平洋干涸是不可能实现的）
+         - If + 主词 + should v. / (were + to v.), 主词 should/would（也有可能是will）/could/might/(ought to v.)
+            - 说明
+               - should 这里的意思是 “万一”，是有可能发生且机率很低的假设
+               - were to 在这里是作 “如果”，是绝不可能或几乎不可能的假设
+            - 举例
+               - If it should rain tomorrow, the game would be put off. 明天下雨的话，比赛将会延期（明天下雨是可能发生的）
+               - If the pacific Ocean were to dry, I would chage my mind. 如果太平洋干涸的话，我就改变心意（太平洋干涸是不可能实现的）
 
-      - 假设句里，也可将 If 省略，形成 were(Had/Should等)+ 主词的顺序
+      - 假设句里，也可将 If 省略，形成 Were(Had/Should等)+ 主词的顺序
          - 如果我是一只鸟，我就能飞向你
             - If I were a bird,I could fly to you.
             - Were I a bird,I could fly to you.
          - 如果他知道真相，他会告诉你
-            - If he had known the truth,he would have told you.
-            - Had he know the truth,he would have told you.
+            - If he had known the truth, he would have told you.
+            - Had he know the truth, he would have told you.
          - 万一下雨的话，我会呆着在家
-            - If it should rain,I would stay at home.
-            - Should it rain,I would stay at home.
+            - If it should rain, I would stay at home.
+            - Should it rain, I would stay at home.
 
       - 其它假设法的表现
          - 格式1
             ```
-            ~ as if/as though + S + 假设法过去式/假设法过去完成式
+            ~ as if/though + S + 假设法过去式/假设法过去完成式
            （ 好像 ; 宛如 ）
             ```
             - 例子
@@ -3005,6 +3018,7 @@
                   - talks 是现在，假设是与 talks 事实相反，即与现在事实相反，所以用“去过式”
                2. She looks as if she had looked a ghost 她看起来好像她那时见到了鬼了一样
                   - 因为她见没见到鬼是是与过去事实相反，所以用“过去完成式”（注意不能完全按照谓语动词判断“事实的时态”需要根据意思来判断
+                  - 通过语句的意思其实隐含表达了是刚刚看起来，作为假设是在刚刚的过去，拟用过去完成式
                3. He laughed as if nothing had happened. 他笑起来好像什么都没发生一样
          - 格式2
             ```
@@ -3012,25 +3026,25 @@
             希望;但愿
             ```
             - 例子
-               1. I wish I knew Annie's tell phone number. 我希望知道艾米的电话号码（其实没有得到艾米的电话号码）
-                  - 事实是：I don't konw Annie's tell phone number.
-               2. I wish I hadn't bought such an expensive dress then. 我但愿那时候没有买那么贵的洋装（其实已经买了）
-                  - 事实是：I'm sorry I bought such an expensive dress then.
+               1. I wish I knew Annie's cellular phone number. 我希望知道艾米的电话号码（其实没有得到艾米的电话号码）
+                  - 事实是：I am sorry <that> I don't konw Annie's cellular phone number. # 我很遗憾没能知道 Annie 的电话号码（这里的 that 是连接词）
+               2. I wish I hadn't bought such an expensive dress then. 我希望那时候没有买那么贵的洋装（其实已经买了）
+                  - 事实是：I'm sorry <that> I bought such an expensive dress then. # 我很后悔当时我买了这么贵的裙子（这里的 that 是连接词）
 
          - 格式3
             - It's time/about time/almost time/hight time + (that) + S + 假设法过去式
-               - It's time （注重于对到了时间应该做什么了）
-               - It's about time （注重于到了该做某事的时间了）
-            - It's post midnight.It's time that the children gone to bed. 过了半夜了，该是小孩睡觉的时间了
+               - It's time（注重于对到了时间应该做什么了）
+               - It's about time（注重于到了该做某事的时间了）
+            - It's past midnight.It's time that the children gone to bed. 过了半夜了，该是小孩睡觉的时间了（小孩还没有睡觉，所以是对睡觉的假设）
                - It's time for the children to go to bed.
-            - It's about time you apologized to her for what you did. 该是你为你做的事情向她道歉的时候了
+            - It's about time you apologized to her for what you did. 该是你为你做的事情向她道歉的时候了（你还没有对她道歉，所以是对道歉的假设）
                - It's time for you to apologize to her for what you did.
 
          - 格式4
             - If only + 主词 + 假设法过去式/假设法过去完成式
             - If only 和 I wish 在表面意思差不多，都有“但愿，希望”的意思，但是 if only 的意愿要更强烈一些
             - 例子
-               - If only my tooth would stop hurting! 但愿我的牙齿不疼了！
+               - If only my tooth would stop hurting! 但愿我的牙齿不会疼了！
                - If only I had taken her advice. 但愿那时我有接受她的忠告
                   - 没有接受她的忠告发生在过去
                   - 这里的假设与过去事实相反，所以用过去完成式
@@ -3040,12 +3054,12 @@
             - If it had not been for~ （若没有~的话）=> 假设法过去完成式
             - 例子
                - 如果没有音乐，他一刻也活不下去
-                  - If it were not for music,he couldn't live a moment. 
-                  - Were it not for music,he couldn't live a moment.
-                  - Without music,he couldn't live a moment.
-                  - But for music,he couldn't live a moment.
+                  - If it were not for music, he couldn't live a moment.
+                     - Were it not for music, he couldn't live a moment.
+                  - Without music, he couldn't live a moment.
+                     - But for music, he couldn't live a moment. # 要不是因为音乐，他一刻也活不下去
                - 要是那时没有塞车，我们就能及时赶上比赛
-                  - If it had not been for the traffic jam ,we would have been in time for the game.
+                  - If it had not been for the traffic jam, we would have been in time for the game.
                   - had it not been for the traffic jam, we would have been in time for the game.
                   - Without the traffic jam, we would have been in time for the game.
                   - But for the traffic jam, we would have been in time for the game.
@@ -3058,15 +3072,15 @@
                      - 不定式前面的 talk 的时态可以和后面相匹配
             - 副词连接词/副词片语
                1. If I didn't know he was innocent,I wouldn't try to save him. 如果我不知道他是无辜的，我不会想尽办法去去救他
-                  - 同义：I know he is innocent;otherwise I wouldn't try to save him. 我知道他是无辜的，否则我不会想尽办法去救他
+                  - 同义：I know he is innocent; otherwise I wouldn't try to save him. 我知道他是无辜的，否则我不会想尽办法去救他
                   - 通过一个副词连接词连接两个句子
-               2. If we hadn't hidden in the forest,they would have found us. 如果当时我们没有躲在森林里的话，他们就会找到我们
-                  - 同义：We hid in the forest,otherwise they wouldn't have found us. 我们当时躲在了森林里，否则他们会找到我们
+               2. If we hadn't hidden in the forest, they would have found us. 如果当时我们没有躲在森林里的话，他们就会找到我们
+                  - 同义：We hid in the forest; otherwise they would have found us. 我们当时躲在了森林里，否则他们会找到我们
                   - 通过一个副词连接词连接两个句子
                   - otherwise 充当了假设的语气
                   - 虽然单词中没有 “当时” 的词，但是通过 原句的过去完成式可以确定是与过去的相反，即事实在过去，假设在过去完成
-               3. If you had a little patience,you could get over your difficulty. 如果你有点耐性的话，你可以克服你的困难
-                  - 同义：With a little,you could get over your difficulty.
+               3. If you had a little patience, you could get over your difficulty. 如果你有点耐性的话，你可以克服你的困难
+                  - 同义：With a little, you could get over your difficulty.
                   - 同义的句子是对子句进行“If”的省略，然后因为 you 在子句中和主句中有重复，所以也省略，最后变换为适合的句型
                   - patient(adj. 有耐性的) (n. 病人)
                   - patience(n. 耐性)
