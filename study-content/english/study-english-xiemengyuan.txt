@@ -278,8 +278,8 @@
 
 
 
-* 谢孟媛英语视频 高中部分复习进度：17 集 18:19:00
-   - the <3084> line 
+* 谢孟媛英语视频 高中部分复习进度：18 集
+   - the <3164> line 
 * 重新复习地方
    - 2379 line 高一不定式副词用法
    - 2740 line 高一动名词和不定式哪种情况必须使用
@@ -3080,26 +3080,29 @@
                   - otherwise 充当了假设的语气
                   - 虽然单词中没有 “当时” 的词，但是通过 原句的过去完成式可以确定是与过去的相反，即事实在过去，假设在过去完成
                3. If you had a little patience, you could get over your difficulty. 如果你有点耐性的话，你可以克服你的困难
-                  - 同义：With a little, you could get over your difficulty.
-                  - 同义的句子是对子句进行“If”的省略，然后因为 you 在子句中和主句中有重复，所以也省略，最后变换为适合的句型
+                  - 同义：With a little patience, you could get over your difficulty.
+                     - 同义的句子是对子句进行“If”的省略，然后因为 you 在子句中和主句中有重复，所以也省略，最后变换为适合的句型
+                     - with 可以作介词也可以作副词，这里作副词
                   - patient(adj. 有耐性的) (n. 病人)
                   - patience(n. 耐性)
+                  - be a good patient # 当个听话的病人
                4. If it had been ten years ago,I could have run around this lake within half an hour. 如果在十年前，我可以围绕着这个湖跑半小时
-                  - 同义：Ten years ago,I could have run around this lake within half an hour.
+                  - 十年前是事实，十年前在过去，与过去事实相反的假设，所以用过去完成
+                  - 同义：Ten years ago, I could have run around this lake within half an hour.
                   - If 省略，it省略后则需要找代替 it 的词，因为在 主句中是“I”，从句中是“it”
                   - 因为动词是看主词的脸色，所以“had been”针对于it，所以就都省略
-            - 分词造句
-               - The same man,if he were living in this century,would be a hero. 同样的人，如果他住在这个世纪，会是个英雄（这里的living是主动）
-                  - The same man, living in this century,would be a hero.（这里的living是主动）
-               - If you were seen from a distance,you might look handsome. 如果你在远处被看到，你可能看起来英俊一点（这里的seen是被动）
-                  - Seen from a distance,you might look handsome.（这里的seen是被动）
+            - 分词构句
+               - The same man, if he were living in this century, would be a hero. 同样的人，如果他住在这个世纪，会是个英雄（这里的living是主动）
+                  - The same man, living in this century, would be a hero.（这里的living是主动）
+               - If you were seen from a distance, you might look handsome. 如果你在远处被看到，你可能看起来英俊一点（这里的seen是被动）
+                  - Seen from a distance, you might look handsome.（这里的seen是被动）
             - 作主词的名词
-               - If he were a man of sense,he would not say such a thing. 如果他是个有知识的人，他不会说那样的话
+               - If he were a man of sense, he would not say such a thing. 如果他是个有知识的人，他不会说那样的话
                   - 虚拟中，如果是用过去式则过去式的be动词进行表达则一定要用 “were” *************************************************************************************************************
                   - A man of sense wouldn't say such a thing. 一个有知识的人不会说那样的话
                   - 省略了 If he were 和 he
-               - If he were a secret agent,he would never tell you his real name. 如果他是一个情报人员，他不会告诉你他的真实名字的
-                  - A secret agent would never tell you his real name. 一个情报人员不会告诉你他的真实名字
+               - If he were a secret agent, he would never tell you his real name. # 如果他是一个情报人员，他不会告诉你他的真实名字的
+                  - A secret agent would never tell you his real name. # 一个情报人员不会告诉你他的真实名字
 
 
 * 否定
@@ -3109,14 +3112,15 @@
          - 不定式否定 => not to + v.
          - 例子
             1.
-               1. My boss didn't tell me to wear jeans. 我的上司没有告诉我要穿牛仔裤
-               2. My boss told me not to wear jeans. 我上司告诉我不要穿牛仔裤
-            2. Dave is Au'stralian,not 'Austrian. Dave是澳洲人，不是奥地利人
+               1. My boss didn't tell me to wear jeans. # 我的上司没有告诉我要穿牛仔裤
+               2. My boss told me not to wear jeans. # 我上司告诉我不要穿牛仔裤
+            2. Dave is an Au'stralian, not an 'Austrian. # Dave是澳洲人，不是奥地利人
                - 这里的 ' 只是起发音区分，但是单词是一样的
                - 因为 “Dave is not 'Austrian” 的 “Dave is” 和前面重复，所以省略，只保留一个 “not”
-            3. I meet him in the street, not at the office. 我在街上遇到他，而不是在办公室
+            3. I met him in the street, not at the office. # 我在街上遇到他，而不是在办公室
                - 因为 “I meet him not at” 的 “I meet him” 与前面重复，所以不能省略
-            4. She loves him not because he is handsome,but because he is warmhearted. 她爱他不是因为他长得帅，而是因为他很贴心
+            4. She loves him not because he is handsome, but because he is warmhearted. # 她爱他不是因为他长得帅，而是因为他很贴心
+               - warmhearted 是名词加 ed，具有过去分词的特性当形容词使用
                - 第二个 because 后面之所以没有省略是因为 because 是连接词，连接词后面是要由 S 然后开始连接的，所以不能省略
                - 第 2 和 3 的例子是因为没有连接词，所以可以省略
       - no
@@ -3133,22 +3137,25 @@
          - 他不是老师
             - He is no teacher. （这种形式更强调否定一些，可以翻译成“他绝不是老师）
             - He is not a teacher.
+      - never 绝不...；从不...
+         - be动词之后；一般动词之前；助动词和原型动词之间
+         - It never snows in the Sahara Desert. # 撒哈拉沙漠从不会下雪（因为是真理，所以用现在式）
+            - desert # adj. 无人的，荒芜的；n. 沙漠；v. 遗弃
+            - dessert # n. 点心
+         - You should never take a walk alone at night. # 你不该晚上一个人散步
       - none
          - 用于几个都否定时用 none；如果要强调两者 否定，则用 neither，或用 none；如果要强调全部否定，可用 none 或 not 和 any 结合
          - He read none of these comic books. 他一本漫画书也没有读
-      - never 绝不...；从不...（be动词之后；一般动词之前；助动词和原型动词之间）
-         - It never snows in the Sahara Desert. 撒哈拉沙漠从不会下雪
-         - You should never take a walk alone at night. 你不该晚上一个人散步
       - hardly, scarcely, rarely, seldom
          - hardly 几乎不
          - scarcely 几乎不
          - rarely 不多，稀少
          - seldom 不常，不多
-         - His success is hardly possible. 他的成功几乎是不可能的
-         - The injured child could scarcely walk. 那受伤的小孩几乎不能走路
-            - The injured child could scarcely walk. 那受伤的小孩几乎不能走路
-         - I seldom listen to classic music. 我很少听古典乐
-         - England has seldom won the World Cup, has it? 英格兰很少赢得世界杯，是吗？
+         - 以上的词的使用位置根 never 是一样的
+         - His success is hardly possible. # 他的成功几乎是不可能的
+         - The injured child could/can scarcely walk. # 那受伤的小孩几乎不能走路（can/could 用于表示现在/过去）
+         - I seldom listen to classic music. # 我很少听古典乐
+         - England has seldom won the World Cup, has it? # 英格兰很少赢得世界杯，是吗？
       - few, little
          - few = not many ; little = not much
          - little 除了可以翻译为“小女孩”，还可以翻译为“很少，几乎没有”
