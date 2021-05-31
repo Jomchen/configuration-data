@@ -3159,7 +3159,7 @@
       - few, little
          - few = not many ; little = not much
          - little 除了可以翻译为“小女孩”，还可以翻译为“很少，几乎没有”
-         - Few people are satisfied with his answer. 几乎没有人对他的答案感到满意
+         - Few <people/persons> are satisfied with his answer. 几乎没有人对他的答案感到满意
          - He showed/had/took little intersted in math. 他对数学没什么兴趣
 
    - 部分否定
