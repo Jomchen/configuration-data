@@ -64,10 +64,11 @@
       - 48:               （音画不同步，不太严重）
       - 53: 全程音画不同步（但音画不同步率不算高，少许影响学习）
       - 54: 00:40:19 卡死
-   2. 中级：06, 14, 16，54, 116
+   2. 中级：06, 14, 16，19, 54, 116
       - 06: 00:35:46 开始没有声音或卡死
       - 14: 16:46:00 乱音，后续将没有声明（没有弥补问题文件）
       - 16: 00:54:00 突然卡顿一下
+      - 19: 音画不同步（不太影响学习）
 
 不清楚的集数：
    - 11 集 的主词和动名词不同时 是什么意思
@@ -278,8 +279,8 @@
 
 
 
-* 谢孟媛英语视频 高中部分复习进度：18 集
-   - the <3164> line 
+* 谢孟媛英语视频 高中部分复习进度：20 集 48:06
+   - the <3244> line 
 * 重新复习地方
    - 2379 line 高一不定式副词用法
    - 2740 line 高一动名词和不定式哪种情况必须使用
@@ -3159,47 +3160,49 @@
       - few, little
          - few = not many ; little = not much
          - little 除了可以翻译为“小女孩”，还可以翻译为“很少，几乎没有”
-         - Few <people/persons> are satisfied with his answer. 几乎没有人对他的答案感到满意
-         - He showed/had/took little intersted in math. 他对数学没什么兴趣
+         - Few <people/persons> are satisfied with his answer. # 几乎没有人对他的答案感到满意
+         - He showed/had/took little intersted in math. # 他对数学没什么兴趣
 
    - 部分否定
       1. both 相关的否定
          - 数量为二，则用 both，在二以上则用 all
          - both 配上 not 是“并非两者都”
          - 如果要强调两者的否定，则用 neither，或用 none
-            - Both of my friends did not go abroad for advanced study. 我的两个朋友并非两者都出国深造
+            - Both of my friends did not go abroad for advanced study. # 我的两个朋友并非都出国深造了
                - 这里的 abroad 是作 go 的副词
                - go abroad 去外国
                - go aboard 上到船上去
                - overseas “海外地”，也是作副词
                - overseas Chinese “海外华侨”
             - 否定：Neither/None of my friends went abroad for abroad advanced study. 我的两个朋友都没有到国外深造
+               - neither / none # 无一
       2. all 相关的否定
          - 数量在三或三以上用 all
          - all 配上 not 是 “并非全部”
          - 如果要强调全部否定，则用 none 或 not 和 any 结合
-            - He did not read all of these comic books. 他并非读了所有的漫画书
-            - 否定：He did not read any of these comic books. 他没有读全部的漫画书
-               - 等价：He read none of these comic books. 他一本漫画书也没有读
-      3. She does not always agree with me. 他并不总是同意我
-      4. Not everybody can be a poet. 并非每个人能够成为诗人
-      5. Beautiful flowers do not necessarily smell sweet. 美丽的花朵未必闻起来香
+            - He did not read all of these comic books. # 他并非读了所有的漫画书
+            - 否定：He did not read any of these comic books. # 他没有读任何的漫画书
+               - 等价：He read none of these comic books. # 他一本漫画书也没有读
+      3. She does not always agree with me. # 他并不总是同意我
+      4. Not everybody can be a poet. # 并非每个人能够成为诗人
+      5. Beautiful flowers do not necessarily smell sweet. # 美丽的花朵未必闻起来香
          - necessarily 必，一定
       6. quite（相当地）, altogether（完全地）, completely（完全地）, entirely（完全地）, exactly（的确地） 等 + not => 部分否定
 
    - 双重否定
-      1. You can't make an omelete without breaking some eggs. 你要做蛋卷必须要打几个鸡蛋（你不能做一个蛋卷而不打几个鸡蛋）（你不能做一个蛋卷而不打破一个鸡蛋）
+      1. You can't make an omelete without breaking some eggs. # 你要做蛋卷必须要打几个鸡蛋（你不能做一个蛋卷而不打几个鸡蛋）（你不能做一个蛋卷而不打破一个鸡蛋）
          - 这里 can't 和 without 两个都是否定
-      2. It is not unusual for couples to guarrel. 对于夫妻来说吵架是寻常的（对于夫妻来说吵架不是不寻常的）
+      2. It is not unusual for couples to guarrel. # 对于夫妻来说吵架是寻常的（对于夫妻来说吵架不是不寻常的）
          - not 和 unusual 两个都是否定
          - usual 寻常的，unusual 不寻常的
       3. 否定的惯用表现
-         1. He is by no means a fool. 他绝非笨蛋
-            - 等价：He is not a fool at all.
-            - by no means 绝非...
-            - means 方法，手段
+         1. He is by no means a fool. # 他绝非笨蛋
+            - 等价：He is not a fool at all. # 他绝非笨蛋（他一定也不是笨蛋）
+            - by no means # 绝非...
+            - by all means # 必定（字面意思是用尽所有方法）
+            - means n. 方法，手段（单复数同形）
             - mean（v.： 意味着，表示，意味；n.：平均值；adj.：卑鄙，刻薄，鄙吝）
-         2. Traveling to the moon is not a dream any longer. 到月球旅行不再是梦想
+         2. Traveling to the moon is not a dream any longer. # 到月球旅行不再是梦想
             - 等价：Traveling to the moon is no longer a dream.
             - long 也可以翻译为 “期待”
             - no longer 和 not any longer 都可翻译为 “不再” 的意思
@@ -3211,31 +3214,36 @@
          3. You cannot/never be too careful when you drive at night. 当你在晚上开车时勿必要小心
             - 这里的 cannot 是否定，但是 有一个 too 是“太”的极致，所以起了否定的作用
             - You are not too old to learn. 活到老学到老（你不能太老而不学习）
-         4. It was not long before the earthquake stopped. 地震停止之前时间不会太长
+         4. It was not long before the earthquake stopped. # 不久之后地震停了（地震停止之前时间不会太长）
          5. I didn't graduate from university until I was twenty-five. 我直到25岁才大学毕业
             - 等价：It was not until I was twenty-five that I graduate from university.
+               - 分析：
+                  - It was not # 某件事没有发生
+                  - until I was twenty-five # 直到我 25 岁
+                  - that I graduate from university 表示句子之前的 it
          6. Babies do nothing but cry. 宝宝只会哭
          7. I cannot help admiring his courage. 我不得不佩服他的勇气
             - 等价：I cant but admire his courage.
          8. There is no telling what may happen. 无法得知可能会发生什么事
             - 等价：It's impossible to tell/know what may happen.
-         9. He can ride a motorcycle,not to mention a bicycle.他会骑摩托车，更别提脚踏车了
+         9. He can ride a motorcycle, not to mention a bicycle.他会骑摩托车，更别提脚踏车了
             - mention 是“提到”的意思
             - not to mention 更别提
          10. That soldier got an order and lost no time in carrying it on. 那士兵接到命令就立刻执行
             - carrying an order on 执行命令
             - carrying on an order 执行命令
             - carrying it on （这里的 it 是 order 的代名词，所以要放在中间的这种情况）（这是 carrying 的动词片语）
+               - 用代名词时，代名词需要放在中间，即不能用 carrying on it；非代名词则随意
 
    - 不用否定的否定表现
-      1. Who knows what will happen tomorrow? 谁知道明天会发生什么呢？（不是疑问，是叙述的语气，即没有人知道明天会发生什么）
-         - 这不是疑问句，而是对一个否定的叙述，注意这里不是 Who did know~
+      1. Who knows what will happen tomorrow? # 谁知道明天会发生什么呢？
+         - 这不是疑问句，而是对一个否定的叙述，即没有人知道明天会发生什么。注意这里不是 Who did know~
          - 等价：No one knows what will happen tomorrow?
-      2. This book was too boring for me to read through. 这本书对我来说太无聊而不能读完
-      3. He would be the last person to tell a lie. 他绝不会说谎的人（他会是说谎的最后一个人（从意思理解他是绝不说谎的人））
-      4. The story he told me was anything but boring. 他告诉我的是有趣的事情（他告诉我的是 除了无聊的 任何事情）
-      5. Five hundred dollars for a pair of shoes is far from cheap! 五百美元的一双鞋很贵（五百美元的一双鞋离偏宜很远）
-      6. This district is free from air pollution. 这个区域很干净（这个区域免于空气污染）
+      2. This book was too boring for me to read through. # 这本书对我来说太无聊而不能读完
+      3. He would be the last person to tell a lie. # 他绝不会是说谎的人（他会是说谎的最后一个人（从意思理解他是绝不说谎的人））
+      4. The story he told me was anything but boring. # 他告诉我的是有趣的事情（他告诉我的是 除了无聊的 任何事情）
+      5. Five hundred dollars for a pair of shoes is far from cheap! # 五百美元的一双鞋很贵（五百美元的一双鞋离偏宜很远）
+      6. This district is free from air pollution. # 这个区域很干净（这个区域免于空气污染）
          - free from 免于...
       7. The view from the windows was beautiful beyond description. 从这个窗户看出去的景色美到难以形容（从这个窗户看出去的景色是在能够描述之外的美丽）
       8. This book is quite  above me. 这本书很难（这本书相当在我之上）
