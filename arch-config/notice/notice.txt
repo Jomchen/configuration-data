@@ -9,6 +9,9 @@
    - wireguard
    - Trojan（本身定位于加密为 https, tls 1.3）
    - Tor 洋葱路由器，匿名通信的Free软件
+* 系统网络全局代理
+   - Surge
+   - Clash
 
 * 下载证书后，将 key 与 证书安装在 nginx 上后，nginx -t 验证不通过,错误形同如下
    ```
