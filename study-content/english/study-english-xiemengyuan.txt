@@ -279,8 +279,8 @@
 
 
 
-* 谢孟媛英语视频 高中部分复习进度：20 集 48:06
-   - the <3244> line 
+* 谢孟媛英语视频 高中部分复习进度：21 集
+   - the <3282> line 
 * 重新复习地方
    - 2379 line 高一不定式副词用法
    - 2740 line 高一动名词和不定式哪种情况必须使用
@@ -3241,38 +3241,53 @@
          - 等价：No one knows what will happen tomorrow?
       2. This book was too boring for me to read through. # 这本书对我来说太无聊而不能读完
       3. He would be the last person to tell a lie. # 他绝不会是说谎的人（他会是说谎的最后一个人（从意思理解他是绝不说谎的人））
+         - 说谎的人都忽略了，这个人却一直没有说谎，如果他说谎肯定是最后一个。从侧面证明他绝不会说谎
       4. The story he told me was anything but boring. # 他告诉我的是有趣的事情（他告诉我的是 除了无聊的 任何事情）
       5. Five hundred dollars for a pair of shoes is far from cheap! # 五百美元的一双鞋很贵（五百美元的一双鞋离偏宜很远）
       6. This district is free from air pollution. # 这个区域很干净（这个区域免于空气污染）
          - free from 免于...
-      7. The view from the windows was beautiful beyond description. 从这个窗户看出去的景色美到难以形容（从这个窗户看出去的景色是在能够描述之外的美丽）
-      8. This book is quite  above me. 这本书很难（这本书相当在我之上）
+      7. The view from the windows was beautiful beyond description. # 从这个窗户看出去的景色美到难以形容（从这个窗户看出去的景色是在能够描述之外的美丽）
+      8. This book is quite above me. # 这本书很难（这本书相当在我之上）
          - 等价：This book is quite above my understanding.
-      9. He is above cheating on a test. 他考试不作弊（他考试在作弊之上）
+      9. He is above cheating on a test. # 他考试不作弊（他考试在作弊之上）
          - cheating 欺骗
-      10. The alarm clock failed to go off. 闹钟不会响（这个闹钟响失败了）
+      10. The alarm clock failed to go off. # 闹钟不会响（这个闹钟响失败了）
          - alarm 报警，警报，clock 时钟，所以两个单词连起来的意思则是 “闹钟”
          - go off 本来是“下车”，但是和 clock 配合则表示 “响” 的意思
-      11. Heavy fog kept us from driving fast. 浓雾使得我们免于开快车
+      11. Heavy fog kept us from driving fast. # 浓雾使得我们免于开快车（浓雾防止我们开快车）
          - 阻止...；防止...
             - keep...from...; hinder...from...
             - stop...from...; protect...from...
             - prevent...from...
-      12. You had better refrain from alcohol. 你最好避免喝酒
-      13. I know better than to do such a thing. 我不会笨到去做那样的事情（比起做那样的事情我更清楚）
-      14. We tried to open the door,but in vain. 我试图开门，却无果
+      12. You had better refrain from alcohol. # 你最好避免喝酒
+         - alcoholic drinks # 含酒精的饮料
+         - soft drinks # 不含酒精的饮料
+      13. I know better than to do such a thing. # 我不会笨到去做那样的事情（比起做那样的事情我更清楚）
+      14. We tried to open the door,but in vain. # 我试图开门，却无果
          - vain 枉然
 
 * 句子的要素及种类
+   - 词性
+      - 名词 Noun
+      - 冠词 Article
+      - 代名词 Pronoun
+      - 形容词 Adjective
+      - 副词 Adverb
+      - 动词 Verb
+      - 助动词 Auxiliary Verb
+      - 连接词 Conjunction
+      - 介系词 Preposition
+      - 感叹词 Interjection
+         - 如：oh, well（相当于中文的“额...嗯...”）, ouch
    - 注意
       - the + adj. 可以做主词
       - the + 分词 也可以做主词
    - 例子
-      1. The rich are not always happy. 富有的人不总是快乐
-      2. The wounded numbered ten. 受伤的人数起来有十个
+      1. The rich are not always happy. # 富有的人不总是快乐
+      2. The wounded numbered ten. # 受伤的人数起来有十个
          - wounded 是“受伤”的过去分词作主词
          - numbered 是过去式，作动词
-      3. The cat is under the table. 这只猫在桌子下面
+      3. The cat is under the table. # 这只猫在桌子下面
          - The cat 是主词
          - is 是动词
          - under the table 是地方副词 是 The cat 的补语
@@ -3286,7 +3301,7 @@
       7. Do you know what time it is? 你知道现在几点了吗？（提问者只是希望知道被问者是否知道时间，而不是提问者想知道时间）
       8. What time do you know it is? 你知道现在几点吗？（提问者想知道时间）
       9. What a day. 多么...的一天（感叹句，一些 what 开头的感叹句，没有形容词，意思要根据语境判断，所以这里的 “...” 是根据语境来翻译的）
-      10. What a shame. 多么丢脸啊（感叹句，没有名名词，但是通过 shame 的意思可以判断出意义，且 shame 充当了名词）
+      10. What a shame. 多么丢脸啊（感叹句，没有名词，但是通过 shame 的意思可以判断出意义，且 shame 充当了名词）
       11. How [hard] it rains! 多么大的雨啊！（感叹句，hard 是可以省略的，因为只可能根据大雨而发出感叹，所以 hard 可以省略） 
       12. I missed the last train,so I took a taxi home. 我错过了末班火车，所以搭计程车回家
          - taxi 和 home 之间不能加 to，因为副词不能配介系词，介系词一定要配名词前面，介系词放在名词前面表示特殊含义的
