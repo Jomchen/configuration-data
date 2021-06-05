@@ -279,8 +279,8 @@
 
 
 
-* 谢孟媛英语视频 高中部分复习进度：21 集
-   - the <3282> line 
+* 谢孟媛英语视频 高中部分复习进度：23 集
+   - the <3340> line 
 * 重新复习地方
    - 2379 line 高一不定式副词用法
    - 2740 line 高一动名词和不定式哪种情况必须使用
@@ -3268,43 +3268,90 @@
 
 * 句子的要素及种类
    - 词性
-      - 名词 Noun
-      - 冠词 Article
-      - 代名词 Pronoun
-      - 形容词 Adjective
-      - 副词 Adverb
-      - 动词 Verb
-      - 助动词 Auxiliary Verb
-      - 连接词 Conjunction
-      - 介系词 Preposition
-      - 感叹词 Interjection
+      1. 名词 Noun
+      2. 冠词 Article
+      3. 代名词 Pronoun
+      4. 形容词 Adjective
+      5. 副词 Adverb
+      6. 动词 Verb
+      7. 助动词 Auxiliary Verb
+      8. 连接词 Conjunction
+      9. 介系词 Preposition
+      10. 感叹词 Interjection
          - 如：oh, well（相当于中文的“额...嗯...”）, ouch
+   - 例句
+      - The coach shouted loudly, "Hey, run to the goal!" but the players couldn't hear his voice. And they lost the final match.
+         - # 教练大声地吼叫，“嘿，向球门跑”但是球员不能听到他的声音，结果他们输掉最后一场比赛
+   - 片语和子句
+      - I often stop at a convenience store on my way home. # 我经常在回家的路上停在便利店
+      - The book on the desk is mine. # 放在桌面上的书是我的
+      - I put my books on the desk. # 我把书放到桌上
+      - I don't know what to do. # 我不知道做什么
+   - 子句-子句为兔子的一部分，其本身含有主词+动词
+      - That I love you is true. # 我爱你是真的
+      - 对等子句
+         - Jane went out, but Mike stayed home. # 简出去了，但是迈克呆在家
+      - 名词子句，形容词子句，副词子句-从属连接词连接
+         - I know that you are doing your best. # 我知道你正尽你的最大努力
+         - These are pictures which I took in Kenting. 这些是我在垦丁拍的照片
+         - Judy put her coat on a hanger before she sat down. # 朱迪在她坐下前把她的外套放在衣架上
+   - 主词-名词或名词相等语
+      - The telephone rang early in the morning. # 电话很早在早晨响了
+      - He is a famous musician. # 他是个著名的音乐家
+      - To read novels is pleasant. # 阅读小说是愉快的
+      - Learning a foreign language is important. # 学习外语是重要的
+      - Who to bell the cat is a big problem. # 谁负责是个大问题
+      - That he is honest is true. # 他很诚实是真的
    - 注意
-      - the + adj. 可以做主词
-      - the + 分词 也可以做主词
-   - 例子
-      1. The rich are not always happy. # 富有的人不总是快乐
-      2. The wounded numbered ten. # 受伤的人数起来有十个
-         - wounded 是“受伤”的过去分词作主词
-         - numbered 是过去式，作动词
-      3. The cat is under the table. # 这只猫在桌子下面
-         - The cat 是主词
-         - is 是动词
-         - under the table 是地方副词 是 The cat 的补语
-      4. I will stay here. 我会呆在这里
-         - I 是主词
-         - will 是助动词
-         - stay 是动词
-         - here 是副词 作补语
-      5. Who left the window open? 谁把窗户开着？
-      6. Who knows?（谁知道呢？） => No one know.没有人知道（即没有人知道）
-      7. Do you know what time it is? 你知道现在几点了吗？（提问者只是希望知道被问者是否知道时间，而不是提问者想知道时间）
-      8. What time do you know it is? 你知道现在几点吗？（提问者想知道时间）
-      9. What a day. 多么...的一天（感叹句，一些 what 开头的感叹句，没有形容词，意思要根据语境判断，所以这里的 “...” 是根据语境来翻译的）
-      10. What a shame. 多么丢脸啊（感叹句，没有名词，但是通过 shame 的意思可以判断出意义，且 shame 充当了名词）
-      11. How [hard] it rains! 多么大的雨啊！（感叹句，hard 是可以省略的，因为只可能根据大雨而发出感叹，所以 hard 可以省略） 
-      12. I missed the last train,so I took a taxi home. 我错过了末班火车，所以搭计程车回家
-         - taxi 和 home 之间不能加 to，因为副词不能配介系词，介系词一定要配名词前面，介系词放在名词前面表示特殊含义的
+      - the + adj. / the + 分词 也可以做主词
+         1. The rich are not always happy. # 富有的人不总是快乐
+         2. The wounded numbered ten. # 受伤的人数起来有十个
+            - wounded 是“受伤”的过去分词作主词
+            - numbered 是过去式，作动词
+   - 动词
+      - 由结构分->可分为一个字的动词及复合动词
+         1. I saw a girl on the street. # 我看到一个女孩在街上
+         2. I have given up smoking. # 我已经放弃抽烟了
+      - 由用法分->受词的有无：及物动词，不及物动词 / 补语的有无：不完全动词，完全动词
+         1. I love chocolate. # 我喜欢巧克力
+         2. The car won't start. # 这辆小车不会开动
+         3. The sky is blue. # 天空是蓝的
+      - 受词-名词或名词相等语
+         1. She cooks dinner after school. # 她放学后做晚饭
+         2. I have met him at the meeting.
+         3. I began to sing(= singing). # 我开始唱歌
+         4. He enjoyed playing tennis. # 他享受打网球
+         5. He knew who to ask. # 他知道问什么
+         6. I believed what he said. # 我相信他说的
+         7. The ambulances sent the injured to the hospital. # 救护车将伤员送到了医院
+      - 补语-名词，形容词，副词的相等语
+         1. His latest novel is interesting. # 他的最新的小说很有趣
+         2. I found his latest novel interesting. # 我发现他最新的小说很有趣
+         3. The blue sweater is mine. # 这个蓝色的毛衣是我的
+         4. One of my hobbies is making artificial flowers. # 我的习惯之一是做人造花
+            - 当主词很长时，如果里面有 of，则真正的主词在 of 前面，所以这里用 is
+         5. The cat is under the table. # 这只猫在桌子下
+            - The cat 是主词
+            - is 是动词
+            - under the table 是地方副词 是 The cat 的补语
+      - 修饰语 - 修饰名词
+         - A little girl was carrying a bascket full of apples. # 一个小女孩正带着一蓝装满苹果的篮子
+         - Please give me something interesting to read. # 请给我点有趣的看
+      - 其它
+         1. I will stay here. 我会呆在这里
+            - I 是主词
+            - will 是助动词
+            - stay 是动词
+            - here 是副词 作补语
+         2. Who left the window open? 谁把窗户开着？
+         3. Who knows?（谁知道呢？） => No one know.没有人知道（即没有人知道）
+         4. Do you know what time it is? 你知道现在几点了吗？（提问者只是希望知道被问者是否知道时间，而不是提问者想知道时间）
+         5. What time do you know it is? 你知道现在几点吗？（提问者想知道时间）
+         6. What a day. 多么...的一天（感叹句，一些 what 开头的感叹句，没有形容词，意思要根据语境判断，所以这里的 “...” 是根据语境来翻译的）
+         7. What a shame. 多么丢脸啊（感叹句，没有名词，但是通过 shame 的意思可以判断出意义，且 shame 充当了名词）
+         8. How [hard] it rains! 多么大的雨啊！（感叹句，hard 是可以省略的，因为只可能根据大雨而发出感叹，所以 hard 可以省略） 
+         9. I missed the last train,so I took a taxi home. 我错过了末班火车，所以搭计程车回家
+         10. taxi 和 home 之间不能加 to，因为副词不能配介系词，介系词一定要配名词前面，介系词放在名词前面表示特殊含义的
 
    - 五大句型
       - 动词
