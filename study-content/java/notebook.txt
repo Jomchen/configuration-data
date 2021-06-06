@@ -20,3 +20,92 @@ Type 类型
            System.out.println("canonicalName: " + canonicalName);
            System.out.println("typeName: " + typeName);
    ```
+
+* 设计模式
+   1. 工厂模式
+      - 不同的收费方法实现一个抽象，通过标识判断返回哪个实现方法
+   2. 策略模式
+      - 不同的收费方法实现一个抽象，通过标识判断返回哪个实现方法，但是返回的抽象方法是注
+         - 入到一个 contex 里的，使用的时候直接使用 contex 即可
+   3. 单一职责原则
+      - 每个功能尽量分散耦合，做得到功能独立单一
+   4. 开放封闭原则
+      - 对于代码来说，对扩展开放（允许扩展增加功能），对理性封闭（禁忌修改代码）
+   5. 依赖倒转原则
+      - 高层模块不应该依赖低层模块，两个都应该依赖抽象
+      - 抽象不应该依赖细节，细节应该依赖抽象
+      - 里氏代替
+         - 子类必须能够替代父类进行工作
+   6. 装饰模式
+      ```
+      public abstract class Component {
+        public abstract void operation();
+      }
+      public class Decorator extend Component {
+        private Component base;
+        @Override
+        public void operation() {
+          if ( base != null) { base.operation(); }
+        }
+      }
+      public class A extend Decorator {
+        @Override
+        public void operation() {
+          super.base.operation();
+          aMethod();
+        }
+        private void aMethod() {
+          // 自己的方法
+        }
+      }
+      public class B extend Decorator {
+        @Override
+        public void operation() {
+          super.base.operation();
+          bMethod();
+        }
+        private void bMethod() {
+          // 自己的方法
+        }
+      }
+      public class C extend Decorator {
+        // 省略
+      }
+
+
+      public static void main(String[] args) {
+	A a = new A();        
+	B b = new B();        
+	C c = new C();        
+	b.base = a;
+	c.base = c;
+	c.operation();
+      }
+      ```
+   7. 代理模式
+      - A 和 B 都实现了相同的 接口，如果A是代理，那么在执行某个方法时，实际执行的是内聚对象B的方法（这两个方法都是实现相同接口的相同抽象方法的实现）
+   8. 工厂方法模式
+      - 之前的简单工厂模式是通过标识拿到对象，但是工厂方法模式是用工厂方法获取具体的计算对象
+   9. 原型模式
+      - 就是简单的克隆，如果有深克隆就更好了
+   10. 模板方法模式
+   11. 迪米特拉法则
+      - 如果两个类不必彼此直接通信，那么这两个类就不应当发生直接的相互作用
+      - 如果其中一个类需要调用另一个类的某一个方法的话，可以通过第三者转发这个调用
+   12. 外观模式
+      - A类一个任务方法，B类一个任务方法，C类一个任务方法。都集中在 Z 类中，Z类提供一个方法用于统一执行 A, B, C,... 等各自的对应方法
+   13. 建造者模式
+      - A 类有几个抽象方法是作为一个建造任务的细节抽象方法，并且提供一个或多个建造方法（内部是细节方法的排列组合执行）
+      - 并且内部内聚有建造所需要的核心抽象类 B，B 是让 A 的实现类去细节方法中实现细节的核心
+      - A 类的实现方法调用 建造方法 即可实现建造逻辑
+   14. 观察者模式
+      - ***事件委托***
+   15. 抽象工厂模式
+   16. 状态模式
+      - 用心代替许多的 if 判断
+      - 一个任务类 A，内聚有 状态类B 和 A的状态属性，A 执行工作就是执行 B 类的状态处理逻辑
+      - B 的抽象方法带有 类A的参数，B的所有实现用于判断A的状态并选择执行自己逻辑或理性A内部的B属性
+   17. ---
+   18. ---
+   19. 组合模式
+      - 就是森林的结构
