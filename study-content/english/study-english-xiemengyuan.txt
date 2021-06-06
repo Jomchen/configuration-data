@@ -279,8 +279,8 @@
 
 
 
-* 谢孟媛英语视频 高中部分复习进度：25 集 02:45
-   - the <3386> line 
+* 谢孟媛英语视频 高中部分复习进度：26 集 14:17
+   - the <3421> line 
 * 重新复习地方
    - 2379 line 高一不定式副词用法
    - 2740 line 高一动名词和不定式哪种情况必须使用
@@ -3386,14 +3386,38 @@
                2. What a day. 多么...的一天（感叹句，一些 what 开头的感叹句，没有形容词，意思要根据语境判断，所以这里的 “...” 是根据语境来翻译的）
                3. What a shame. 多么丢脸啊（感叹句，没有名词，但是通过 shame 的意思可以判断出意义，且 shame 充当了名词）
                4. How [hard] it rains! 多么大的雨啊！（感叹句，hard 是可以省略的，因为只可能根据大雨而发出感叹，所以 hard 可以省略） 
-               5. I missed the last train,so I took a taxi home. 我错过了末班火车，所以搭计程车回家
-                  - taxi 和 home 之间不能加 to，因为副词不能配介系词，介系词一定要配名词前面，介系词放在名词前面表示特殊含义的
-               6. 注意感叹句的免型如下
+               6. 注意感叹句的句型如下
                   - 语法结构
-                     - How adj./adv. + adj. + n. + S. + V.!
+                     - How adj./adv. + a/an + n. + S. + V.!
                      - What a/an + adj. + n. + S. + V.
-                  - 由结构分
-                     - 单句->只有一个主部+述部，即为单句
+            - 由结构分
+               - 单句->只有一个主部+述部，即为单句
+                  - 概念
+                     - 两个主词一个动词 / 一个主词两个动词 都可以称为单句
+                     - 如果两个主词两个动词就不能称为单句
+                  - 例句
+                     - I have a sufficient income to support you. # 我有足够的收入养你
+                        - outgo # 支出
+                     - Happy memories came and went in my mind. # 快乐的回忆在我脑海中流过
+                     - Jason and Jack rushed into the class room. # Jason and Jack 冲进了教室
+                        - 这句真的是单句吗？难道 the class room 不是受词吗？
+               - 合句->由对等连接词连接的两对等子句
+                  - I missed the last train,so I took a taxi home. # 我错过了末班火车，所以搭计程车回家
+                     - so 是连接词
+                     - taxi 和 home 之间不能加 to，因为副词不能配介系词，
+                     - 介系词一定要配名词前面，介系词放在名词前面表示特殊含义的
+                     - 这里的 home 是作副词
+                  - 驾驶员试着要控制住那辆车，但它还是撞上树干
+                     - The driver tried to control the car, but it crashed into a tree.
+                        - crashed 可以替换为 bump 的过去式
+               - 复句->由从属连接词所连接的主要子句及从属子句
+                  - Who did it is still a mystery. # 谁做了这件事仍是个谜
+                  - He is the man who saved my son from the drowning. # 他就是从水中救起我儿子的那个人
+                  - I want to finish the work before it gets dark. # 我想在天黑前完成这个工作
+                     - Before it gets dark, I want to finish the work.
+               - 复合句->用对等连接词将单句及复句或复句及复句结合成句
+                  - She knew what she wanted but she never told anyone. #她知道她想要什么，但她从未告诉任何人
+                  - I know the girl who is talking to Mr.Green, but my brother doesn't know who she is. # 我认识正和格林先生说话的女孩，但是我的兄弟不认识她是谁
 
    - 五大句型
       - 动词
