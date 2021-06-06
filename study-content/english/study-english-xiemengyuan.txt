@@ -279,8 +279,8 @@
 
 
 
-* 谢孟媛英语视频 高中部分复习进度：23 集
-   - the <3340> line 
+* 谢孟媛英语视频 高中部分复习进度：25 集 02:45
+   - the <3386> line 
 * 重新复习地方
    - 2379 line 高一不定式副词用法
    - 2740 line 高一动名词和不定式哪种情况必须使用
@@ -3337,21 +3337,63 @@
       - 修饰语 - 修饰名词
          - A little girl was carrying a bascket full of apples. # 一个小女孩正带着一蓝装满苹果的篮子
          - Please give me something interesting to read. # 请给我点有趣的看
-      - 其它
-         1. I will stay here. 我会呆在这里
-            - I 是主词
-            - will 是助动词
-            - stay 是动词
-            - here 是副词 作补语
-         2. Who left the window open? 谁把窗户开着？
-         3. Who knows?（谁知道呢？） => No one know.没有人知道（即没有人知道）
-         4. Do you know what time it is? 你知道现在几点了吗？（提问者只是希望知道被问者是否知道时间，而不是提问者想知道时间）
-         5. What time do you know it is? 你知道现在几点吗？（提问者想知道时间）
-         6. What a day. 多么...的一天（感叹句，一些 what 开头的感叹句，没有形容词，意思要根据语境判断，所以这里的 “...” 是根据语境来翻译的）
-         7. What a shame. 多么丢脸啊（感叹句，没有名词，但是通过 shame 的意思可以判断出意义，且 shame 充当了名词）
-         8. How [hard] it rains! 多么大的雨啊！（感叹句，hard 是可以省略的，因为只可能根据大雨而发出感叹，所以 hard 可以省略） 
-         9. I missed the last train,so I took a taxi home. 我错过了末班火车，所以搭计程车回家
-         10. taxi 和 home 之间不能加 to，因为副词不能配介系词，介系词一定要配名词前面，介系词放在名词前面表示特殊含义的
+   - 句子的种类
+      - 由内容分
+         - 直述句-包含肯定句及否定句
+            - My sister is a TV director. # 我的姐姐不是个电视导演
+               - My sister is not a TV director.
+            - We have school even on Saturdays. # 甚至在星期六我们有课
+               - We do not have school on Saturedays. # 在星期六我们没有课
+         - 疑问句
+            - Yes/No 问句-be动词或助动词为首的问句
+               - Do you know her address? - Yes, I do.
+               - Are you going shopping with me? - No, I'm not.
+               - Can you do me a favor? - Sure. # 你能帮我吗？- 的确
+               - Doesn't he speak English? - Yes, he does. # 她不能说英语吗？- 是的，她不能
+            - Wh问句-疑问句为首的问句
+               - Where are you from? I'm from Sydney, Australia.
+               - When did you hear the news? # 你什么时候听到这个消息的？
+                  - The day before yesterday. # 前天
+               - How long will you be here? - For two weeks. # 你会呆在这里多久？两周
+               - 注意：疑问词 + 动词（who, what, which 这三个是疑问代名词）
+                  - What is your favarite subject? - History. # 什么是你最喜欢的科目？- 历史
+                  - Who left the window open? - I did. # 谁把窗户打开的？我打开的
+            - 选择疑问句
+               - Is Mr.Brown a pianist or a cellist? A pianist.
+               - Would you like coffee or tea? Coffee, please.
+               - Who runs faster, Tom or John? Tom does.
+            - 附加疑问句
+               - It's very hot today, isn't it? Yes, it is. # 今天很热，不是吗？是的，的确很热
+               - Jack didn't solve the problem, did he? # 杰克没有解决这个问题，是吗？
+            - 修辞问句
+               - Who knows?（谁知道呢？） => No one knows. # 没有人知道（即没有人知道）
+                  - Who cares ?（谁关心呢？）=> No one cares. # 没有人关心（即没人关心）
+               - Isn't it funny? # 难道它不是很有趣吗？=> It is very funny. # 它很有趣
+                  - ***** 如果只从这句如何判断是疑问还是强调性的肯定？****
+                  - 与 上文中的 Doesn't he speak English? - Yes, he does 有相似点
+                     - 都是否定的 助动词/be动词 开头，但是一个表示疑问一个表示强调的反问
+            - 间接疑问句
+               1. Do you know what time it is? 你知道现在几点了吗？（提问者只是希望知道被问者是否知道时间，是或否的问句）
+               2. What time do you know it is? 你知道现在几点吗？（提问者想知道时间，是问具体的内容，非是/否的问句）
+            - 祈使句-表希望，请求，命令
+               1. Wait a minute, please. # 请等一分钟
+               2. Don't worry about such a thing. # 不要担心这件事
+               3. Have a drink. # 喝一杯吧
+            - 感叹句
+               1. How beautiful. # 好美呀！
+                  - How beautiful a girl she is!
+                  - What a beautiful girl!
+               2. What a day. 多么...的一天（感叹句，一些 what 开头的感叹句，没有形容词，意思要根据语境判断，所以这里的 “...” 是根据语境来翻译的）
+               3. What a shame. 多么丢脸啊（感叹句，没有名词，但是通过 shame 的意思可以判断出意义，且 shame 充当了名词）
+               4. How [hard] it rains! 多么大的雨啊！（感叹句，hard 是可以省略的，因为只可能根据大雨而发出感叹，所以 hard 可以省略） 
+               5. I missed the last train,so I took a taxi home. 我错过了末班火车，所以搭计程车回家
+                  - taxi 和 home 之间不能加 to，因为副词不能配介系词，介系词一定要配名词前面，介系词放在名词前面表示特殊含义的
+               6. 注意感叹句的免型如下
+                  - 语法结构
+                     - How adj./adv. + adj. + n. + S. + V.!
+                     - What a/an + adj. + n. + S. + V.
+                  - 由结构分
+                     - 单句->只有一个主部+述部，即为单句
 
    - 五大句型
       - 动词
