@@ -279,8 +279,8 @@
 
 
 
-* 谢孟媛英语视频 高中部分复习进度：26 集 14:17
-   - the <3421> line 
+* 谢孟媛英语视频 高中部分复习进度：28 集 28:32
+   - the <3533> line 
 * 重新复习地方
    - 2379 line 高一不定式副词用法
    - 2740 line 高一动名词和不定式哪种情况必须使用
@@ -3432,7 +3432,7 @@
          2. 不及物动词vi.
             - 完全动词 S.+V. => I cried.
                                 - -----
-            - 不完全动词 S.+V. => I am a teacher.
+            - 不完全动词 S.+V.+C. => I am a teacher.
                                   - -- - -------
          3. 及物动词vt.
             - 完全动词 S.+V.+O. => I love you.
@@ -3450,54 +3450,91 @@
             - I cried. （cried 表达完全，又不需要受词和任何补充说明，所以是 不及物完全动词）
             - I am a teacher. （am 是不及物动词，虽然有一个 a teacher，但是 a teacher 不是 I，但是因为 a teacher 只是一个补充表达，所以 am 是不及物不完全动词）
          - 五大句型
-            1. He got to China yesterday. 他到达中国 --> [ 主词 动词 地方副词 时间副词 ] --> [ 及物不完全动词 ]
-               -- --- -------- ---------
-            2. He got angry. 他变得生气了 --> [ 主词 动词 形容词 ] --> [ 不及物不完全动词 ]
+            1. He got to London yesterday. 他到达伦敦
+               -- --- --------  ---------
+               - 主词 动词 地方副词 时间副词
+            2. He got angry. 他变得生气了
                -- --- -----
-            3. He got a newspaper. 他买了一份报纸/他得到了一份报纸 -->  [ 主词 动词 受词 ] --> [ 及物不完全动词 ]
+               - 主词 动词 形容词 ->
+            3. He got a newspaper. 他买了一份报纸/他得到了一份报纸
                -- --- - ---------
-            4. He got me a newspaper. 他买了一份报纸给我/他买了份报纸给我 --> [ 主词 动词 受词1 受词2 ] --> [ 及物完全动词 ]
+               - 主词 动词 受词 ->
+            4. He got me a newspaper. 他买了一份报纸给我/他买了份报纸给我
                -- --- -- -----------
-            5. He got his children ready. 他让他的小孩准备 --> [ 主词 动词 受词 补语 ] --> [ 及物不完全动词 ]
+               - 主词 动词 受词1 受词2
+            5. He got his children ready. 他让他的小孩准备好
                -- --- --- -------- -----
-         - 有些动词不是放在主词后面的
-            1. A bus comes here. 公车来了
-               - 等价：Here comes a bus.
-                       ---- ----- -----
-                  - adv. v. S
-               - 等价：Here it comes.
-            2. There are many books on the shelf. 书架上有许多书
-               - 等价：On the shelf are many books. 书架上有许多书（这里的书架上 存在 许多书）
-                       ------------ --- ---------- 书架上有许多书（这里的书架上 存在 许多书）
-                  - （副词 存在 主词）（副词不能作为主词）
-            3. Here are things (which) you want. 这里有你想要的东西（省略了 which）
-               - Here you are. 
-                  - things you want 可以用代名词 you 代替
-                  - here 和 there 放句首，如果把后面的主词换为了代名词后，代名词要放在动词的前面
-                  - 所以结果为 Here you are.
-         - 其它例子
-            - 语法1
-               - 句型
-                  1. S + seem/appear + adj.
-                  2. S + seem/appear + to v.
-                  3. S + seem/appear + that S V
-               - 例子
-                  - He seemed to be tired. 他似乎很疲惫
-                     - 等价：He seemed tired. 虽然 tired 是形容词，seemed 是动词，但是 tired 是作为副词使用的，所以可以根在后面
-                     - 等价：It seemed that the child was tired.
-            - 语法2
-               - 句型
-                  1. feel(look, smell, ...) + adj. （感觉[看起来][闻起来]...）
-                  2. feel(look, smell, ...) + like（像） + 名词（感觉[看起来][闻起来] 像...）
-            - 语法3
-               - 句型
-                  1. feel like（像） + n. 感觉/摸 起来像...
-                  2. feel like（介词） + n./ving 想要...
-                  3. be feeling + adj. 渐渐觉得...
-               - 表示 “想要...” 的三种句型
-                  1. want to v.
-                  2. would like to v.
-                  3. feel like n./ving
+               - 主词 动词 受词 补语
+         - 第一句型 S + V
+            - Amy lives in this town. # 艾米住在这个村庄
+            - My older brother usually goes to bed at ten. # 我的哥通常在10点睡觉
+            - In Florada, it usually rains for about an hour every day during the hottest season. # 在佛罗里达州，通常在最热的季节每天大约下一个小时的雨
+            - 注意 There be ~ 及 Here be ~ 的句型，是由第一句型变形演变而来。there 和 here 为副词功能的修饰语
+               1. A bus comes here. 公车来了
+                  - 等价：Here comes a bus.
+                          ---- ----- -----
+                     - adv. v. S
+                  - 等价：Here it comes.
+                     - 这种转换的理由参照第三条里的解释
+               2. There are many books on the shelf. 书架上有许多书
+                  - 等价：On the shelf are many books. 书架上有许多书（这里的书架上 存在 许多书）
+                          ------------ --- ---------- 书架上有许多书（这里的书架上 存在 许多书）
+                     - （副词 存在 主词）（副词不能作为主词）
+               3. Here are things <which> you want. 这里有你想要的东西（省略了 which）
+                  - Here you are. 
+                     - things you want 可以用代名词 you 代替
+                     - here 和 there 放句首，如果把后面的主词换为了代名词后，代名词要放在动词的前面
+                     - 所以结果为 Here you are.
+               4. 翻译练习
+                  - The life in Taiwan has changed a lot during the last ten years. # 台湾的生活最近十年改变很多
+                  - The poor little girl ran away from the two-headed snake in a fright. # 那可怜的小女孩惊恐地逃离两头蛇
+         - 第二句型 S + V + C（这里的 V 是连缀动词）
+            - 此句型中的动词可分下列四种：
+               0. “躺”的三态 lie - lay -lain
+               1. 表状态的 be, lie, sit, stand, start, rest, remain, keep 等
+                  1. He lay still on the bed. # 他仍躺在床上
+                  2. My uncle stayed a bachelor all his life. # 我叔叔一辈子都是单身汉
+               2. 表状态变化 come, become, go, get, grow, make, turn, fall, run 等
+                  1. At last my dream has come true. # 在最后我的梦想实现了
+                  2. As we grow older, our memories become weaker. # 当我们长大了，我们的记忆就变得越差
+                  3. The milk has gone sour. # 牛奶变得酸了
+                     - sweet-and-sour fish # 糖醋鱼
+                  4. I fell asleep in class yesterday. # 昨天上课时我睡着了
+               3. 表“似乎”
+                  - 句型
+                     1. S + seem/appear + adj.
+                     2. S + seem/appear + to v.
+                     3. S + seem/appear + that S V
+                  - 例子
+                     - The child seemed to be tired. # 这个孩子似乎很累
+                        - 等价：The child seemed tired. 虽然 tired 是形容词，seemed 是动词，但是 tired 是作为副词使用的，所以可以根在后面，seemed 是连缀动词
+                        - 等价：It seemed that the child was tired.
+                     - She seems to be an American. # 她似乎是个美国人
+                     - She appeared to know nothing about it. # 她似乎对它一无所知
+               - 表 “...起来”
+                  - 句型
+                     1. feel, look, smell, taste, sound...等 + adj. （感觉[看起来][闻起来]...）
+                     2. feel, look, smell, taste, sound...等 + like（像） + 名词（感觉[看起来][闻起来] 像...）
+                  - 例句
+                     1. Ice feels hard and cold. # 冰摸起来又硬又冷
+                     2. This flower smells very sweet. # 这朵花闻起来很甜
+                     3. This medicine taste bitter. # 这个药尝起来很苦
+                     4. How does the little tiger look? => It looks cute.
+                     5. What does the little tiger looks like? => It looks like a cat.
+                     6. How is the weather? = What is the weather like?
+                  - feel like 句型
+                     - 句型
+                        1. feel like（像） + n. 感觉/摸 起来像...
+                        2. feel like（介词） + n./ving 想要...
+                        3. be feeling + adj. 渐渐觉得...
+                     - 例句
+                        1. It feels like fur.
+                        2. I don't feel like taking a walk now. # 我现在不想漫步
+                        3. After taking medicine, I'm feeling much better. # 吃过药后，我感觉好多了
+                  - 表示 “想要...” 的三种句型
+                     1. want to v.
+                     2. would like to v.
+                     3. feel like n./ving
             - 语法4
                - rob + 人 + of + 物品（抢了某人的物品）
                - steal + 物 + from + 人（人的物品被偷）
