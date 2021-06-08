@@ -69,6 +69,7 @@
       - 14: 16:46:00 乱音，后续将没有声明（没有弥补问题文件）
       - 16: 00:54:00 突然卡顿一下
       - 19: 音画不同步（不太影响学习）
+      - 28: 00:36:18 音画不同步（不太影响学习）
 
 不清楚的集数：
    - 11 集 的主词和动名词不同时 是什么意思
@@ -277,10 +278,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-
-
-* 谢孟媛英语视频 高中部分复习进度：28 集 28:32
-   - the <3533> line 
+* 谢孟媛英语视频 高中部分复习进度：30 集 32:13
+   - the <3597> line 
 * 重新复习地方
    - 2379 line 高一不定式副词用法
    - 2740 line 高一动名词和不定式哪种情况必须使用
@@ -3511,7 +3510,7 @@
                         - 等价：It seemed that the child was tired.
                      - She seems to be an American. # 她似乎是个美国人
                      - She appeared to know nothing about it. # 她似乎对它一无所知
-               - 表 “...起来”
+               4. 表 “...起来”
                   - 句型
                      1. feel, look, smell, taste, sound...等 + adj. （感觉[看起来][闻起来]...）
                      2. feel, look, smell, taste, sound...等 + like（像） + 名词（感觉[看起来][闻起来] 像...）
@@ -3530,36 +3529,72 @@
                      - 例句
                         1. It feels like fur.
                         2. I don't feel like taking a walk now. # 我现在不想漫步
-                        3. After taking medicine, I'm feeling much better. # 吃过药后，我感觉好多了
+                        3. After taking medicine, I'm feeling much better. # 吃过药后，我渐渐感觉好多了
                   - 表示 “想要...” 的三种句型
                      1. want to v.
                      2. would like to v.
                      3. feel like n./ving
-            - 语法4
-               - rob + 人 + of + 物品（抢了某人的物品）
-               - steal + 物 + from + 人（人的物品被偷）
-            - 语法5
-               1. dream,sleep,live,die,fight,smile 等 都是既可以作动词又可以作名词的词 => 同族受词
-               2. I dreamed a strange dream last night. 我做了一个奇怪的梦
-               3. I slept a sound sleep in the soft bed. 我在柔软的沙发上睡了一个好觉
-               4. She lived an unhappy life. 她过了个不开心的生活
-               5. He died a miserable death. 他死得很凄惨
-               6. They fought a good fight. 他们赢了架
-               7. She smiled a sweet smile. 她笑得很甜/她微笑起来很甜蜜
-            - 授予动词
-               - 语法和词型格式
-                  1. allow, give, hand, recommend, write 等 的授予动词的介词格式是 to
-                  2. bring, choose, make, spare 等 的授予动词的介词格式是 for
-                  3. S + 授语动词 + 间接受词 + 直接受词
-                  4. S + 授语动词 + 直接受词 + 介词 + 间接受词
+               - 翻译练习
+                  - They look lively in the picture <which> I took. # 它们在我拍的照片中看起来很生动
+                  - The problem of air problem in cities has become more and more serious. # 都市中空气污染的问题已经变得越来严重了
+         - 第三句型 S + V + O
+            - I didn't understand the meaning of his words. # 我不理解他话里的意思
+            - The man robbed of him all his money. # 这个男人抢了他所有的钱
+               - He was robbed of all his money by the man.
+               - 注意
+                  - rob + 人 + of + 物品（抢了某人的物品）
+                  - steal + 物 + from + 人（人的物品被偷）
+            - My mother will take care of the puppy. # 我妈妈会照顾这个小狗
+               - 这里的 care 是名词
+            - 动词 dream,sleep,live,die,fight,smile 等 都既可以作动词又可以作名词的词 => 同族受词
+               1. I dreamed a strange dream last night. 昨晚我做了一个奇怪的梦
+               2. I slept a sound sleep in the soft bed. 我在柔软的床上睡了一个好觉
+               3. She lived an unhappy life. 她过了个不开心的生活
+               4. He died a miserable death. 他死得很凄惨
+               5. They fought a good fight. 他们赢了架
+               6. She smiled a sweet smile. 她笑得很甜/她微笑起来很甜蜜
+               7. 翻译练习
+                  - Every afternoon, a vendor drives a pickup to our community to sell vegetables. # 每天下午有一个小贩开着小货车到我们社区来卖菜
+                     - pick    # 摘，挖
+                     - pick up # 把...捡起来，接...
+                     - pickup  # 小货车
+                  - He knows every one of us in our neighborhood and every one of us knows him, too. # 他认识我们附近的每一个人，而我们每一个人也认识她
+                     - everyone   # 每个人，大家
+                     - every one  # 每个人/事/物
+                     - 这里没有用 everyone 是因为 everyone 不能用修饰语修饰它
+                        - of us 有修饰 every one
+         - 第四句型 S + V + O + O
+            - 句型
+               1. S + 授语动词 + 间接受词 + 直接受词
+               2. S + 授语动词 + 直接受词 + 介词 + 间接受词
+            - 授予动词之后的介词可分下列几项
                - 注意
                   - “抢劫” 的单词 rob 不是授予动词，虽然它有 介词的形式
-               - 例子
-                  1. The teacher recommended us the book. => The teacher recommended the book to us. 这个老师给学生推荐了这本书
-                  2. She made her daughter a dress. => She made a dress for her daughter. 她为他的女儿做了一件裙子
-                  3. He asked me a strange question. => She asked a strange question of me. 他问了我一个奇怪的问题
-                  4. He threw me a stone. => He threw a stone at me. 他向我投了一块石头
-                  5. He played me a trick. => He played a trick on me. 他对我耍把戏
+                  - rob sb. of sth.
+                     - of sth. 是修改 sb. 的，和授予动词意义完全不一样
+               - 介词 to
+                  - 词性
+                     - allow, give, hand, recommend, write 等 的授予动词的介词格式是 to
+                  - 举例
+                     - He handed the clerk the money. # 她递给店员这笔钱
+                        - He handed the money to the clerk.
+                     - The teacher recommended us the book. 
+                        - The teacher recommended the book to us. 这个老师给学生推荐了这本书
+               - 介词 for
+                  - 词性
+                     - bring, choose, make, spare（摞出...（指时间的摞出）） 等 的授予动词的介词格式是 for
+                  - 举例
+                     - She made her daughter a dress.  # 她给她女儿做了件洋装
+                        - She made a dress for her daughter.
+                     - Can you spare me a few minutes? # 你能为我摞出点时间吗？
+                        - Can you spare a few minutes for me?
+               - 其它介词
+                  1. He asked me a strange question. # 他问了我一个奇怪的问题
+                     - She asked a strange question of me.
+                  2. He threw me a stone. # 他朝我扔了一块石头
+                     - He threw a stone at me.
+                  3. He played me a trick. # 他对我耍把戏
+                     - He played a trick on me.
                - 直接受词若改为 代名词，则只能使用 <直接受词 + 介词 + 间接受词> 的形式
                   1. Would you please pass me the salad?
                      - 等价：Would you please pass it to me.（在环境下知道 it 是 the salad 的情况下）
