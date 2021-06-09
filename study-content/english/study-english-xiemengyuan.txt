@@ -278,8 +278,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：30 集 32:13
-   - the <3597> line 
+* 谢孟媛英语视频 高中部分复习进度：32 集
+   - the <3680> line 
 * 重新复习地方
    - 2379 line 高一不定式副词用法
    - 2740 line 高一动名词和不定式哪种情况必须使用
@@ -3598,50 +3598,86 @@
                - 直接受词若改为 代名词，则只能使用 <直接受词 + 介词 + 间接受词> 的形式
                   1. Would you please pass me the salad?
                      - 等价：Would you please pass it to me.（在环境下知道 it 是 the salad 的情况下）
+                        - salad 改为了 it（代名词），所以这里只能用 直接受词 + 介词 + 间接受词 的句型
                   2. I'll buy you the bike.
                      - 等价：I'll buy it for you.（在环境下知道 it 是 bike 的情况下）
                - 名词片语 <疑问词 + to v.> 和 名词子句 也可当直接受词
                   1. He told me how to stop smoking. 他告诉我如何戒烟
                   2. She told us that he would leave for America soon. 他告诉我他不久之后要前往美国
-            - 语法6
-               - They found that stranger a spy. 他们发现了一个奇怪的人是间谍（这是 S + V + O + C 的句型）
-               - We must always keep the classroom clean. 我们必须总是要保持教室干净
-               - All work and no play makes Jom a dull boy. 一直工作没有玩乐使约翰变成迟钝的人
-               - I'm going to paint my hourse white tomorrow. 我将要明天把我的房子粉刷成白色
-
-            - 使役动词，感官动词用不定式分词当受词补语
+                  3. 练习
+                     1. His parents left a big fortune for him. # 他的双亲给他留了一大笔财富
+                        - His parents left him a big fortune.
+                     2. She sent both her friends and her husband's friends a lot of Christmas cards. # 她给她的朋友和她丈夫的朋友寄了很多圣诞卡
+                        - She sent a lot of Christmas cards both to her friends and her husband's friends.
+         - 第五句型 S + V + O + C
+            - 举例
+               - They found that stranger a spy. # 他们发现了一个奇怪的人是间谍（这是 S + V + O + C 的句型）
+                  - 这里的 that 不是连接词，而是 “那个” 的意思
+               - We must always keep the classroom clean. # 我们必须总是要保持教室干净
+               - All work and no play makes Jom a dull boy. # 一直工作没有玩乐使约翰变成迟钝的人
+               - I'm going to paint my house white tomorrow. # 我明天要把我的房子粉刷成白色
+            - 使役动词，感官动词用不定式，分词当受词补语
                - 概念
                   - 注意 原型不定词 其实就是 动词原型，只不过因为前面有了动词，但是又没有 to 所以叫 原型不定词
                   - get + O + to 不定词（受词主动）/p.p.（受词被动）
                   - let + O + 原型不定式（受词主动）/be + p.p.（受词被动）
                   - make/have + O + 原型不定词（受词主动）/p.p.（受词被动）
-               - 例子
+                     - 叫...做...（make 更有强制性；have 证据较缓和，拜托...）
+               - 不定词
                   1. I can't make him understand it. 我不能使他理解它
                   2. I can't make myself understood in English. 我不能让我自己用英语被理解
                   3. He wouldn't let his daughter go out alone. 他不会让他的女儿单独出去
                   4. He let the work be done soon. 他让工作很快被完成
                   5. You don't have to do it by yourself;I'll get him to help to finish it. 你不必独自做事，我会让他帮忙完成它
+                     - help + O + <to> + V. # 帮助...做...
                   6. I had my hair cut. 我剪头发了（我使我的头发被剪）
                   7. I had my money stolen. 我的钱被偷了（我使我的钱被偷了）
-
-            - 感观动词
-               - 基本概念
-                  ```
-                  - feel, see, watch
-                  - look at, notice, observe     + O + v./ving/p.p.
-                  - hear, listen to
-                  ```
-               - 例子
-                  1. I heard my mother humming a tune. 我听到我的妈妈在哼曲子（这里的 humming 是 ving 形式，表明我 “听”和妈妈的“哼”是同时发生的）
-                  2. I heard something crash against the wall. 我听到了某个东西摔在墙上了（这里的 crash 是动词原型，表明只是一件叙述的事情）
-                     - 这里的 against 是介词
-                  3. I saw the boy punished by his father. 我看到这个男孩受到他爸爸的处罚
-            - 语法7
-               - 注意的一些情况：make + O + adj. 但是 want + O + to v.（也就是 want 后面不能是 adj.）
-               - The management want all employees to be punctual. 管理阶层想要所有的员工准时
-                  - employer 雇主；employee 员工；punctual 准时（adj.）；management 管理层
+               - 感观动词
+                  - 基本概念
+                     ```
+                     - feel, see, watch -----------*
+                     - look at, notice, observe  --* + O + v./ving/p.p.
+                     - hear, listen to  -----------*
+                     - 以上的感观动词 加 动词原型或现在分词 是有区别的
+                        - 原型 表示简单的发生（只是简单的叙述）
+                        - 现在分词 表示正在的进行（有动作的进行）
+                     ```
+                  - 例子
+                     1. I heard my mother humming a tune. 我听到我的妈妈在哼曲子（这里的 humming 是 ving 形式，表明我 “听”和妈妈的“哼”是同时发生的）
+                     2. I heard something crash against the wall. 我听到了某个东西摔在墙上了（这里的 crash 是动词原型，表明只是一件叙述的事情）
+                        - 这里的 against 是介词
+                     3. I saw the boy punished by his father. 我看到这个男孩受到他爸爸的处罚
+                  - 练习
+                     - Frequent demonstration have made the trafic in Taipei worse. # 经常的示威已使台北的交通恶化
+                     - The children always consider their home a heaven. # 孩子们总是认为他们的家是天堂
+                     - Management want all the employee to be punctual.# 管理阶层想要所有的员工都准时
+                        - punctual adj. # 准时的
+                        - employer # 雇主
+                        - employee # 员工
+                  - 注意
+                     - 注意的一些情况：make + O + adj. 但是 want + O + to v.（也就是 want 后面不能是 adj.）
+                     - The management want all employees to be punctual. 管理阶层想要所有的员工准时
+                        - employer 雇主；employee 员工；punctual 准时（adj.）；management 管理层
 
 - 比较
+   - 原级-比较级-最高级 的 规则变化
+      - 原级+er, est 
+         - tall - taller - tallest
+         - young - younger - youngest
+      - 原级字尾有 e + r, st
+         - wise - wiser - wisest
+         - large - larger - largest
+      - 短母音加子音 => 重覆字尾字母并加 er, est
+         - hot - hotter -hottest
+         - big - bigger -biggest
+      - 子音 + y => 去y + er, est
+         - busy - busier - busiest
+         - happy - happier - happiest
+      - more, most + 多音节形容词
+         - careful - more careful - most careful
+         - difficult - more difficult - most difficult
+   - 原级-比较级-最高级 的 不规则变化
+
    - 词性
       - far
          - far farther/furthur farthest/furthest （只能是对于距离）
@@ -3663,7 +3699,7 @@
          - old elder eldest 对于长幼
          - 例子
             - He is older than I. 他的年龄比我大
-            - My elder brother is in China. 我的哥在中国
+            - My elder brother is in China. 我的哥哥在中国
             - My younger brother is in China. 我的弟在中国
 
    - 原级使用
