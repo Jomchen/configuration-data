@@ -278,8 +278,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：32 集
-   - the <3680> line 
+* 谢孟媛英语视频 高中部分复习进度：34 集 19:25
+   - the <3747> line 
 * 重新复习地方
    - 2379 line 高一不定式副词用法
    - 2740 line 高一动名词和不定式哪种情况必须使用
@@ -3677,52 +3677,56 @@
          - careful - more careful - most careful
          - difficult - more difficult - most difficult
    - 原级-比较级-最高级 的 不规则变化
-
-   - 词性
-      - far
-         - far farther/furthur farthest/furthest （只能是对于距离）
-         - far furthur furthest （对于程序，深度，距离）
-         - 例子
-            - Rome is farther from London than Raris is. 从伦敦到罗马比从伦敦到巴黎远
-               - Rome is farther from London than Raris. 从伦敦到罗马比从巴黎到罗马远
-            - Did you get furthur information? 你得到了更近一步的信息了吗
-            - He got up later than usual. 他起床比平时晚
-      - late
-         - late later latest 针对于时间
-         - late latter last 针对于顺序
-         - 例子
-            - The latter part of the story was not interesting. 这个故事的后面部分无趣
-            - This is the latest news from America. 这是最新的美国新闻
-            - This is his last work. 这是他最后的工作
-      - old
-         - old older oldest 对于年龄，新旧
-         - old elder eldest 对于长幼
-         - 例子
-            - He is older than I. 他的年龄比我大
-            - My elder brother is in China. 我的哥哥在中国
-            - My younger brother is in China. 我的弟在中国
-
+      - 词性举例
+         - good/well - better -best
+         - had/ill - worse - worst
+         - many/much - more - most
+         - little - less - least
+      - 两种不同的比较级，最高级
+         - far
+            - far farther/furthur farthest/furthest （只能是对于距离）
+            - far furthur furthest （对于程序，深度，距离）
+            - 例子
+               - Rome is farther from London than Paris is. 从伦敦到罗马比从伦敦到巴黎远
+                  - Rome is farther from London than Paris. 从伦敦到罗马比从巴黎到罗马远
+               - Did you get furthur information? 你得到了更近一步的信息了吗
+         - late
+            - late later latest 针对于时间
+            - late latter last 针对于顺序
+            - 例子
+               - He got up later than usual. 他起床比平时晚
+               - The latter part of the story was not interesting. 这个故事的后面部分无趣
+               - This is the latest news from America. 这是最新的美国新闻
+               - This is his last work. 这是他最后的工作
+         - old
+            - old older oldest 对于年龄，新旧
+            - old elder eldest 对于长幼
+            - 例子
+               - He is older than I. 他的年龄比我大
+               - My elder brother is in China. 我的哥哥在中国
+               - My younger brother is in China. 我的弟在中国
    - 原级使用
-      1. ~ as 原级 as ~ (像...一样）（注意这个 “原级” 是形容词 或 副词）
-         - 前面的 as 是副词，翻译为 “一样”；后面的 as 作介词，翻译为 “像”
-         - Sports are as important as studies. 运动像课业一样重要
-         - He is as nice a person as his father. 他是像他的父亲一样好的人
+      1. ~ as 原级 as ~  # 像...一样（注意这个 “原级” 是形容词 或 副词）
+         - 前面的 as 是副词，翻译为 “一样”；后面的 as 作连接词，翻译为 “像”
+         - Sports are as important as studies. # 运动像课业一样重要
+         - He is as nice a person as his father. # 他是像他的父亲一样好的人
             - 注意，两个as之间要求放“形容词或副词”，这里其实是一个名词，但是形容词在名词前面，所以也可以这么使用
             - He is
             - 第一个as 副词；副词后面要根形容词，所以是 as nice；形容词修饰名词，所以是 as nice a person
             - 第二个as 翻译为“像...”，对人进行叙述，“像他像样一样好的人”，所以 as nice a person as his father
-      2. ~ not as(=>so) 原级 as ~（不像...一样）
-         - He does not work as hard as his elder brother (does). 他不像他哥哥一样努力工作
-            - as his brother (does) 是修饰 as hard 的副词
+      2. ~ not as(=>so) 原级 as ~  # 不像...一样
+         - He does not work as hard as his elder brother <does>. # 他不像他哥哥一样努力工作
+            - as his brother <does> 是修饰 as hard 的副词
             - as hard 是 work 的副词
-         - The Japanese video game is not so expensive as the Taiwanese one. 日本制的电动不像台湾制的那么贵
-      3. ~ as many/much + n. + as（像...一样多的）
-         - She has as many dresses as her elder sister (does). 她有和她姐姐一样多的洋装
-         - I don't know as many pepole as she (does). 我认识的人不像她那么多
-      4. ~ times as ~ as ~（多...倍）
+         - The Japanese video game is not so expensive as the Taiwanese one. # 日本制的电动不像台湾制的那么贵
+      3. ~ as many/much + n. + as # 像...一样多的
+         - She has as many dresses as her elder sister <does>. 她有和她姐姐一样多的洋装
+         - I don't know as many pepole as she <does>. 我认识的人不像她那么多
+      4. ~ times as ~ as ~  # 多...倍
+         - time 是时间，但是 times 就是倍数或次数
          - The bridge is two times as long as that one. 这座桥长度是那座桥的两倍
             - That bridge is half times as long as this one. 那座桥长度是这座桥的一半
-         - Imported books cost three times as much as local Taiwanese books. 进口书的价格是台湾书籍的三倍
+         - Imported books cost three times as much as Taiwanese books. 进口书的价格是台湾书籍的三倍
             - Taiwanese books cost one third times as much as imported ones. 台湾书的价格是进口书的三分之一
          - 注意词性 length（长度）,width（宽度）,height（高度）,depth（深度）,size（大小；尺寸）,weight（重量）等名词来表现倍数
             - 词性
@@ -3732,14 +3736,14 @@
                - depth n.；deep adj. 深度
                - size n.；big/large adj. 大小；尺寸
                - weight n.；heavy adj. 重量
-            - This box is one quarter as large as that one. 这个箱子是那个的四分之一大
+            - This box is one quarter as large as that one. # 这个箱子是那个的四分之一大
                - This box is one quarter the size of that one.
                   - the size 是名词，作 one quarter 的形容词
-      6. as ... as possible(one can)（像...一样可能地）
-         - Call the police as soon as possible. 尽快报警
+      6. as ... as possible  # 像...一样可能地
+         - Call the police as soon as possible <you can>. # 尽快报警
             - 因为时间的快，用 soon 要更彻底，并且要更短一些，因为 soon 本来就翻译为“不久，快，在即，最近...”
-         - I told him come back as early as possible. 我告诉他要尽早回家
-            - I told him he come back as early as he could.
+         - I told him to come home as early as possible. # 我告诉他要尽早回家
+            - I told him to come back as early as he could.
       7. as ... as 惯用表现
          1. as busy as a bee 非常忙碌
          2. as cool as a cucumber 极端冷静，泰然自若
