@@ -200,6 +200,13 @@
       - pacman -S lightdm       # 安装登录界面
          - pacman -S lightdm-gtk-greeter
          - 为登录界面安装登录迎宾者，即 lightdm 默认的 lightdm-gtk-greeter
+         - 因为用 lightdm 托管了，所以需要设置语言环境
+            - 在家目录中建一个文件 ~/.xprofile，会在程序图形化启动中自动加载，可参考 arch -> xorg 文档
+            ```
+            #!/bin/bash
+            
+            LANG=zh_CN.UTF-8
+            ```
       - pacman -S xfce4-goodies # 包含额外的组件（可选择性安装）
    - i3-gaps
       - pacman -S i3-gaps       # 安装 i3-gaps 窗口管理器
