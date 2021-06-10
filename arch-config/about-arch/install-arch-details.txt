@@ -298,11 +298,15 @@
                   # 163源
                   #Server = http://mirrors.163.com/archlinux-cn/$arch
                   # 清华大学
-                  Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+                  #Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+                  # 中国科技大学源
+                  Server = https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch
                   ```
+               - 这里建议使用中国科技大学的源，清华大学经常有问题
                - pacman -Syy 进行更新源信息
-               - pacman -Syu 更新升级所有包和软件
                - pacman -S archlinuxcn-keyring # 安装国内archlinux的签名
+                  - 没有这一步后续的部分软件升级可能会失败
+               - pacman -Syu 更新升级所有包和软件
                - pacman -S yay # 安装 yay
                - yay --aururl “https://aur.tuna.tsinghua.edu.cn” --save # aur 使用清华源
                - yay -P -g # 查看 aur 的配置信息
