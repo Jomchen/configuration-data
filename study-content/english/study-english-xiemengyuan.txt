@@ -278,8 +278,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：34 集 19:25
-   - the <3747> line 
+* 谢孟媛英语视频 高中部分复习进度：38 集 14:32
+   - the <3953> line 
 * 重新复习地方
    - 2379 line 高一不定式副词用法
    - 2740 line 高一动名词和不定式哪种情况必须使用
@@ -287,6 +287,7 @@
    - 1577 ~ 1594 line 的 前面被动，后面主动 的情况
    - 43 集的 用 whom 的情况
    - 中级 14 集，假设法现在式，假设法过去式，假设法过去完成式，假设法未来式 的区别
+   - 中级 37 集，no more than 系列
 
 没有搞清楚的问题：
  - 替代
@@ -3752,70 +3753,74 @@
          5. as flat as a pancake 非常平坦
          6. as sweet as honey 非常甜美
          7. as like as two peas 非常相似
-      8. not so much as
+      8. not so much as 相关
          - 引用教程地址 https://kiki888.pixnet.net/blog/post/33271782-not-so-much...as...---%E8%88%87%E5%85%B6%E8%AA%AA%E6%98%AF%E2%80%A6%E2%80%A6%E5%80%92%E4%B8%8D%E5%A6%82%E8%AA%AA%E6%98%AF%E2%80%A6
-         - 与其说是...不如说是...
+         - 未搞清楚
             - 语法
                - not so adj/adv. as adj./adv.
                - not so much n. as n.
                - not so much 介词短语/不定式短语 as 介词短语/不定式短语
                - not so much v. as v.
-            - 例句
-               - It was not so much a crime as a mistake. 与其说是犯罪，不如说是过失
-                  - 这里的 so much .. as 不能和 as..as 的方式进行理解
-                  - It was rather a mistake than a crime.
-                  - It was a mistake rather than a crime.
                - I don't feel angry so much as sad. # 与其说我愤怒，不如说我悲伤
-         - not so much as...  /  without so much as... （就连...也没有 或 就连...也不）
+         - not so much...as ... # 与其说是...不如说是...
+            - It was not so much a crime as a mistake. 与其说是犯罪，不如说是过失
+               - It was rather a mistake than a crime.
+               - It was a mistake rather than a crime.
+         - not so much as...  /  without so much as... # 就连...也没有 或 就连...也不
+            - The man didn't so much as apologize to me.   # 这个男人就连对我道歉也没有
+               - The man didn't
+               - so much as 修饰 apologize
+               - apologize # v. 道歉
+               - to me 修饰 apologize
+            - He left me without so much as saying thanks. # 他离开了就连说道谢也没有
             - 一些语法
                - cannot so much as 原型动词 # 甚至...都不能
                - do not so much as 原型动词 # 甚至...都不
                - have not so much as p.p. # 甚至...都没有
-            - 举例
-               - The man didn't so much as apologize to me. 这个男人根本没有根我道歉
-                  - The man didn't
-                  - so much as 修饰 apologize
-                  - apologize # v. 道歉
-                  - to me 修饰 apologize
-               - He left me without so much as saying thanks. 他道谢都没有就离开了
       9. as...as ever 依旧
-         - She looks as happy as ever. 她看起来依旧很快乐
-         - He is as great an artist as ever lived. 他是有史以灭最伟大的艺术家
-      10. as~as any + 单数名词 （像任何人一样...）
-         - He is as hardworking as any (person) in the village. 他像村子里任何人一样努力工作
-            - 因为 as ... as 中间必须是 形容词或副词，所以不能把 work hard 带进行
-      11. as many/much as + 数词（多达...）
-         - As many as fifty thousand birds spend the winter here. 有多达5万只鸟在此过冬
-         - I paid as much as two hundred yuan for the sweater. 这件毛衣我付了多达200元
-         - Radio broadcasting started as early as 1920. 广播早在1920年就开始了
-         - He goes to movies as often as three times a mounth. 他一个月看电影次数高达三次
+         - She looks as happy as ever. # 她看起来依旧很快乐
+         - He is as great an artist as ever lived. # 他是有史以灭最伟大的艺术家
+      10. as~as any + 单数名词 # 像任何人一样...
+         - He is as hardworking as any (person) in the village. # 他像村子里任何人一样努力工作
+            - 因为 as ... as 中间必须是 形容词或副词，所以不能使用 work hard，所以 hardworking 充当形容词
+      11. as many/much as + 数词 # 多达...
+         - As many as fifty thousand birds spend the winter here. # 有多达5万只鸟在此过冬
+         - I paid as much as two hundred yuan for the sweater. # 这件毛衣我付了多达200元
+            - pay + 钱 for 物 # 为“物”付了多少钱
+         - 注意
+            - Radio broadcasting started as early as 1920. # 广播早在1920年就开始了
+            - He goes to movies as often as three times a mounth. # 他一个月看电影次数高达三次
       12. as many/much ... （同数/量的）（一样的多）
          1. I found six mistakes in as many lines. 我在六行里找到了六个错误
             - 因为两处用到了 six，本着减少重复的特点而使用此语法
          2. The dour group visited five cities (as many days)|(in five days). 旅行团在五天之内造访了五个城市
       13. as good as...（几乎等于）（几乎根..一样）
-         1. This house is a great buy.It's as good as new. 这个房子是一笔好买卖，几乎等于是新的（其实不是新的）
+         1. This house is a great buy. It's as good as new. # 这个房子是一笔好买卖，几乎等于是新的（其实不是新的）
          2. His car is as good as a piece of junk. 这辆车几乎是片垃圾
 
    - 比较级
       - as..as 的 第二个as 后面只能是主格不能是受格，但是比较级的 than 后面可以是主格或受格
-      - ~比较级 than...（比...更...）
-         - Dogs is cleverer than the cats. 狗纪猫更聪明
-         - He can speak english better than me/I (can). 她英文说得比我好
+      - ~比较级 than... # 比...更...
+         - Dogs is cleverer than the cats. # 狗比猫更聪明
+         - He can speak english better than me/I <can>. # 她英文说得比我好
       - ~ the 比较级 of 一个范围
          - 因为一个范围是特别指定的情况，所以要加 the
          - This guitar is the better of the two. 这把吉他是两把中较好的
          - This guitar is the best of the three. 这把吉他是两把中较好的
       - 强调比较级
-         - much/many, far, a lot, even, a little 等
-         - His house is much larger than mine. 他家比我家大得多
-         - You will find many more amusements in big cities than small towns. 你在大城市里将可找到比在小镇里多更多的游乐场
-            - 这里用 many 强调 more 是因为 amusements，amusements 是复数，所以视情况而定
-      - ~ more/less 原级 than ~ （比..较... / 比..较不...）
+         - 语法
+            - much/many, far, a lot, even, a little 等
+         - 兴趣例
+            - His house is much larger than mine. # 他家比我家大得多
+               - big 和 large 都是翻译为“大”，但是large偏向于容量大，big偏向于体积大
+            - You will find many more amusements in big cities than small towns. # 你在大城市里将可找到比在小镇里多更多的游乐场
+               - 这里用 many 强调 more 是因为 amusements，amusements 是复数，所以视情况而定
+      - ~ more/less 原级 than ~  # 比..较... / 比..较不...
          - Going by bus is not as expensive as going by taxi. 搭公车去不如搭计程车去贵
             - Going by taxi is more expensive than going by bus.
             - Going by bus is less expensive than going by taxi.
          - Instant noodles are less nutritious than rice. 比起米饭，泡面较不营养
+            - instant # # adj. 瞬间的，即刻的 n. 瞬间，即刻
       - 省略 than ~
          1. I have to study harder this year.because I am a third year student. 今年我必须更努力学英文，因为我是三年级的学生了
          2. Why don't you use a sharper knife? 你为什么不使用更锋利的刀呢
@@ -3823,25 +3828,28 @@
          1. adj. 在这里的句型，不管是多音节还是单音节，都应该加 more + adj.原级
          2. She was more sad than angry. 她与其说是生气不如说是难过
          3. It is more flettery than praise. 与其说是称赞不如说是讨好
+         4. not so much...as... 也有相同的效果
       - 比较级 and 比较级（越来越...）
          1. It's getting darker and darker. 天色变得越来越黑了
          2. Entrance exams are becoming more and more difficult. 大学联考越来越难了
       - the 比较级 ~ the 比较级 ~（越...就越...）
-         1. The older we grow,the weaker our memory becomes. 年纪越大，我们的记忆力就越差
-         2. The longer I waited,the less patient I became. 我等得越久，我就越没有耐心
-         3. The more time you have,the more work you can do. 你有越多的时间，你就可以做越多的工作
-      - (all) the 比较级   for 名词 / because ~ （因为...因此便(更)...）
-         1. We respect him (all) the more for his honesty. 因为诚实我们更尊敬他
-            - We respect him (all) the more because he's honest. 因为诚实我们更尊敬他
+         1. The older we grow,the weaker our memory becomes. # 年纪越大，我们的记忆力就越差
+         2. The longer I waited,the less patient I became. # 我等得越久，我就越没有耐心
+         3. The more time you have,the more work you can do. # 你有越多的时间，你就可以做越多的工作
+      - <all> the 比较级  for 名词 / because S + V （因为...因此便(更)...）
+         1. We respect him <all> the more for his honesty. 因为诚实我们更尊敬他
+            - We respect him <all> the more because he's honest. 因为诚实我们更尊敬他
+            - 加 all 语气会更强
          2. She works all the harder because a mother. 他是一个母亲，因此他更努力地工作
-         3. He worked none the harder because he became a father. 虽然他成为了一位父亲，他并没有因此更努力工作
-            - 如果产生原因产生的结果是正向的则用 (all) the more 模式，如果结果是负向的影响，则用 none the 比较
+         3. He worked none the harder because he became a father. 虽然他成为了一位父亲，但他却没有因此更努力工作
+            - because 本意是 因为，但是这里翻译是 虽然
+            - 如果产生原因产生的结果是正向的则用 <all> the 比较级 的模式，如果结果是负向的影响，则用 none the 比较级 的模式
       - much less ~ （更不用说~了）
-         1. I don't like mathematics, much less physics. 我不喜欢数学，更不用说物理了
-         2. The old man can't even walk,much less run. 这个老人甚至不能工作，更不用说跑了
+         1. I don't like mathematics, much less physics. # 我不喜欢数学，更不用说物理了
+         2. The old man can't even walk,much less run. # 这个老人甚至不能工作，更不用说跑了
       - superior to ~,senior to ~ 
          - 以下这些词本身有比较级的意思了，所以不能用于变幻为比较级，而这些词用于比较语法中，是用 to 去根一个受词形成比较语境
-         - superior 超级的，inferior 低劣的, senior 年长的，junior 年幼的, major 大的（程度大或高）, minor 小的（程度小或低）, prior 在前的, posterior 在后面的
+            - superior 超级的，inferior 低劣的/晚辈的/下属性的, senior 年长的，junior 年幼的, major 大的（程度大或高）, minor 小的（程度小或低）, prior 在前的, posterior 在后面的
          - He is five years older than me/I (am). 他比我大五岁
             - He is five years senior to me.
             - He is senior to me by five years.
@@ -3852,22 +3860,22 @@
          - Sooner or later you'll find your missing child. 你迟早会找到你丢失的小孩
       - know better than ~ 不会傻到
          - I know better than to go sailing without a life jacket 我不会傻到航行不穿救生衣
-         - had better v. 最好...
+      - had better v. 最好...（指状况的最好）
+         - You had better go. # 你最好去
       - no more than 等表现
-
          - 语法
             - no more than = only（仅有，只有）；not more than = at most（最多，不超过）
             - no less than = as much as；not less than = at least
             - 例子
-               1. I have no more than 100 dollars. 我仅有100美元
-               2. I have not more than 100 dollars. 我有不到100美元
+               1. I have no more than 100 dollars. 我仅有100美元（确确实实的一百元）
+               2. I have not more than 100 dollars. 我有不到100美元（最多一百元）
                3. I have no less than 100 dollars. 我有100美元这么多（没有少）
                4. I have not less than 100 dollars. 我最少有100美元
          - 语法2
             - no more/not more/no less/not less ~ than ~
             - 例子
                1. I am no more mad than you are. 我根你一样没有发疯
-               2. I am not more mad than you are. 我没有你那么疯
+              2. I am not more mad than you are. 我没有你那么疯
                3. I am no less mad than you are. 我比你疯 我不会比你少发疯
                4. I am not less mad than you are. 我不会比你少发疯
 
@@ -3888,7 +3896,6 @@
 
       - the 的省略
          - 同一个事物不加 the，叙述用法不加 the
-         - 例子
             1. This lake is the deepest in Japan.
                - 在日本有很多湖，在这么多湖当中的这个是最深的
             2. This lake is deepest here.
@@ -3906,7 +3913,9 @@
                - No other boy in my class is as handsome as bob.
          - even + 最高级 （甚至连...）
             1. Even the richest man in the world can't buy her heart. 甚至全世界最富有的人都不能买到他的心
-            2. Even the most talented student in ourclass wasn't able to answer it. 甚至我们班最有才能的人也不能回答它
+            2. Even the most talented student in our class wasn't able to answer it. 甚至我们班最有才能的人也不能回答它
+               - talent # n. 才华，才能，天赋
+               - 而这里是加 ed 变形成形容词
          - at (the) most/best 顶多
             - It will take at (the) most/best three hours to reach our destination. 顶多花三个小时到达目的地
             - The plum blossoms there are now at their best. 在那里梅花盛开的状态是那里最好的情形
@@ -3929,7 +3938,7 @@
          哪一个；哪一位  which -       which
          什么            what  -       what
          ```
-      - 疑问副词：when,where,why,how
+      - 疑问代名词：who,what,which
       - 疑问副词：when,where,why,how
    - 当主词/主词补语
       1. Who is the captain of this ship? 谁是这艘船的船长
