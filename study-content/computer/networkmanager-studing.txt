@@ -1,11 +1,32 @@
 # NetworkManager 软件命令教程
-   - nmcli device wifi list # 查看 wifi 列出附近的WIFI清单
-   - nmcli device wifi connect SSID_OR_BSSID password PASSWORD # 连接到无线网络
-   - nmcli device wifi connect SSID_OR_BSSID password PASSWORD hidden yes # 连接到无线网络
-   - nmcli device wifi connect SSID_OR_BSSID password PASSWORD ifname DEVICE PROFILE_NAME
-   - nmcli device disconnect ifname DEVICE # 断开连接
-   - nmcli connection show # 获取连接信息
-   - nmcli connection up NAME_OR_UUID # 激活一个连接
-   - nmcli connection delete NAME_OR_UUID # 删除一个连接
-   - nmcli device # 查看网络设备状态的清单
-   - nmcli radio wifi off # 关闭wifi
+   - nmcli general 系列
+      - 设置或显示 NetworkManager 状态和权限，也可以设置显示主机名，登录级别和域
+      - nmcli general <status> # 查看网络状态
+      - nmcli general hostname <hostname> # 查看/变更 主机名
+   - nmcli networking 系列
+      - 查询或设置网络状态
+      - nmcli networking connectivity <check> # 查看网络连接状态（有 check 参数表示重新检查）
+      - nmcli networking on/off # 允许或不允许 networkmanager 控制网络
+         - none     # 主机没有连接到网络
+         - portal   # 主机位于强制门户后面，无法访问完整的互联网
+         - limited  # 主机连接到网络，但是不能访问互联网
+         - full     # 主机连接到网络，并完全可以访问互联网
+         - unkown   # 未找到连接状态
+   - nmcli device 系列
+      - nmcli device # 查看网络设备状态的清单
+      - nmcli device wifi list # 查看 wifi 列出附近的WIFI清单
+      - nmcli device wifi connect SSID_OR_BSSID password PASSWORD # 连接到无线网络
+      - nmcli device wifi connect SSID_OR_BSSID password PASSWORD hidden yes # 连接到无线网络
+      - nmcli device wifi connect SSID_OR_BSSID password PASSWORD ifname DEVICE PROFILE_NAME
+      - nmcli device disconnect ifname DEVICE # 断开连接
+   - nmcli connection 系列
+      - 存储和配置网络连接
+      - nmcli connection show # 获取连接信息
+         - 可以获取连接的名字和UUID
+      - nmcli connection up NAME_OR_UUID # 激活一个连接
+      - nmcli connection delete NAME_OR_UUID # 删除一个连接
+   - nmcli radio 系列
+      - 主要作无线电状态设置和显示
+      - nmcli radio wifi <on/off> # 开启/关闭wifi，没有参数时表示显示WIFI网络状态
+      - nmcli radio wwan <on/off> # 开启/关闭wwan(mobile broadband)状态，没有参数时打印手机宽带状态
+      - nmcli radio all <on/off>  # 开启/关闭 前面提到的所有无线电，如果没有参数则显示状态
