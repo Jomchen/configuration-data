@@ -300,7 +300,7 @@
                   # 清华大学
                   #Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
                   # 中国科技大学源
-                  Server = https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch
+                  Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
                   ```
                - 这里建议使用中国科技大学的源，清华大学经常有问题
                - pacman -Syy 进行更新源信息
