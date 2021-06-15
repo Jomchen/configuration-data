@@ -278,8 +278,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：40 集 1:10:48
-   - the <4091> line 
+* 谢孟媛英语视频 高中部分复习进度：41 集
+   - the <4189> line 
 * 重新复习地方
    - 2379 line 高一不定式副词用法
    - 2740 line 高一动名词和不定式哪种情况必须使用
@@ -4112,7 +4112,7 @@
          - Isn't it pantastic? => It is very fantastic. 它很好笑吗/它非常不好笑
          - Shall I ever forget her? => I shall never forget her. 我应该忘记她吗/我决不该忘记她
       - 应答式疑问句
-         - I'm not interested in the games.
+         - I'm not interested in the games. # 我不喜欢游戏
             - 答：Aren't you? 难道不是吗？
          - He hit a home run yesterday.
             - 答：Oh,did he? 难道不是吗？
@@ -4121,7 +4121,6 @@
          - This sword is a thousand years old? 这把剪已经有一千年了吗（语气上升）
 
 * 名词和冠词的用法
-
    - 名词
       - 名词按数分类
          1. 可数
@@ -4135,17 +4134,20 @@
             - 不可数名词
       - 例子
          - 几个例子
-            - School begins in September. 学校在九月份开学（这里的 school 是抽象）
-            - There are three schools in this town.（这里的 schools 是复数）
-            - Whales are mammals. 鲸是哺乳动物
-               - A whales is a mammal. 鲸是一种哺乳动物
-               - The whales is a mammal. 鲸是一种哺乳动物
+            - School begins in September. # 学校在九月份开学（这里的 school 是抽象）
+            - There are three schools in this town. # 有三所学校在这个城镇（这里的 schools 是复数）
+            - Whales are mammals. # 鲸是哺乳动物
+               - A whales is a mammal. # 鲸是一种哺乳动物
+               - The whales is a mammal. # 鲸是一种哺乳动物
+            - I met a boy.The boy had a ball in his hands. # 我遇到了一个男孩，这个男孩手上有只球
          - 单复数同形
             - family,audience,class,club,company,crew,crowd,government,public,staff,team
-            - Our family is a big one 我的家庭是个大家庭
-            - Our family are all tall. 我的家人都很高
+            - His family is a big one 他的家庭是个大家庭（这里是指家的整体）
+            - His family are all tall. 他的家人都很高（这里是指所有的家人）
+            - Our team has won the championship. # 我们的队伍赢得冠军（这里指队伍的整体）
+            - Our team were all excited. # 我们的队员都很激动（这里指所有的队员）
          - 只有复数形式
-            - police,cattle（牛）,people,poultry（家禽）
+            - police,cow（母牛）,bull（公牛）,ox(肉牛，被yan掉的牛),cattle（牛）,people,poultry（家禽）
                - cattle 牛，牛群
                - 其它有单数形式的
                   - cow 母牛
@@ -4157,24 +4159,34 @@
             - baggage（行李）,clothing（衣物）,furniture（家具）,machinery（机器）,merchandise（商品）,poetry（诗）,scenery（风景）等
          - 特殊的集合名词
             1. fruit
-               - 表水果总称：用不加冠词单数形式 fruit
-               - 表水果种类：
-                  - 一种：a fruit
-                  - 两种：fruits
-                  - 其它情况
-                     - a kind of a fruit
-                     - two kinds of fruits
-               - 表成果；结果：fruits
+               - 说明
+                  1. 表水果总称：用不加冠词单数形式 fruit
+                  2. 表水果种类：
+                     - 一种：a fruit
+                     - 两种：fruits
+                     - 其它情况
+                        - a kind of a fruit
+                        - two kinds of fruits
+                  3. 表成果；结果：fruits
+               - 举例
+                  - Do you eat much fruit? # 你吃很多水果吗？
+                  - The potato is not a fruit but a vegetable. # 土豆不是种水果而是种蔬菜
+                  - His success was the fruits of hard work. # 他的成功是努力工作的成果
             2. fish
-               - 表数量：
-                  - 一条鱼：a fish
-                  - 两条以上：fish
-                     - two fish 两条鱼
-               - 表种类
-                  - 一种：a fish
-                  - 二种以上： fishes
-                     - two fishes 两种鱼类
-               - 表鱼肉：fish
+               - 说明
+                  - 表数量：
+                     - 一条鱼：a fish
+                     - 两条以上：fish
+                        - two fish 两条鱼
+                  - 表种类
+                     - 一种：a fish
+                     - 二种以上： fishes
+                        - two fishes 两种鱼类
+                  - 表鱼肉：fish
+               - 举例
+                  - I caught a fish. # 我抓住了一只鱼
+                  - There are a lot of fishes living in the sea. # 这片海里有许多种鱼（是指的鱼的种类）
+                  - I like eat fish. # 我喜欢吃鱼肉
             3. pepole
                - 表人们：people（复数，如果要指一个人用：a person）
                - 表国民，民族：
