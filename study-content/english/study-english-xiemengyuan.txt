@@ -64,12 +64,13 @@
       - 48:               （音画不同步，不太严重）
       - 53: 全程音画不同步（但音画不同步率不算高，少许影响学习）
       - 54: 00:40:19 卡死
-   2. 中级：06, 14, 16，19, 54, 116
+   2. 中级：06, 14, 16，19, 28, 44, 54, 116
       - 06: 00:35:46 开始没有声音或卡死
       - 14: 16:46:00 乱音，后续将没有声明（没有弥补问题文件）
       - 16: 00:54:00 突然卡顿一下
       - 19: 音画不同步（不太影响学习）
       - 28: 00:36:18 音画不同步（不太影响学习）
+      - 44: 32:49 音画不同步（不太影响学习）
 
 不清楚的集数：
    - 11 集 的主词和动名词不同时 是什么意思
@@ -278,8 +279,9 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：41 集
-   - the <4189> line 
+* 谢孟媛英语视频 高中部分复习进度：45 集
+   - 看视频学习进度：the <4367> line 
+   - 复习进度 313 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
    - 2740 line 高一动名词和不定式哪种情况必须使用
@@ -4192,52 +4194,88 @@
                - 表国民，民族：
                   - 一个：a people
                   - 两个以上：peoples
+               - Ten people were injured in the accident. # 十个人在这场意外中受伤
+               - The Chinese are said to be an industrious people. # 中国人是勤奋的民族（据说中国人是勤奋的民族）
+                  - industrious # adj. 勤奋的，勤劳的
+                  - industry    # n. 工业，行业，产业
+                  - industrial  # adj. 工业的
             4. hair
                - 表全部：hair
-               - 表一根根：a hair 或 hairs
+               - 表头发根的单复数：a hair 或 hairs
+               - She has thick hair. # 他有头很厚的头发
+               - He pulled out two white hairs. # 他拔掉了两根白头发
          - 抽象名词
-            1. 例如：kindness,beauty,honesty
+            1. 例如：kindness(善良，仁慈，亲切),beauty(美丽),honesty(诚实)
             2. 一般情况：不加冠词，采用单数形式
-                - I love music.
+                - I like music. # 我很喜欢音乐
+                - This is important information. # 这是则很重要的消息
             3. 表程度，可以加 (a)few,(a)little,much,any,some
-                - He have little hope of succeeding. 他几乎没有希望
-                - He have a lot of homework to do. 他有许多作业要做
+                - He have little hope of succeeding. # 他几乎没有成功的希望
+                - He have a lot of homework to do.   # 他有许多作业要做
             4. 表限定，可以加 the
-                - Necessity is the mother of invention. 需要是发明之母
-                - You should know the difficulty of learning how to drive a car.
+                - Necessity is the mother of invention. # 需要是发明之母
+                - You should know the difficulty of learning how to drive a car. # 你应该知道学习如何开车的困难
             5. 抽象名词要数数时，用 a piece of, a item of 等
-                - She sent us an item of news. 她发了项新闻给我
-                - She gave me two wonderful pieces of advice. 她给了我两则很棒的忠告
+                - She sent us an item of news. # 她发了项新闻给我
+                   - news 是不可数名词
+                - She gave me two wonderful pieces of advice. # 她给了我两则很棒的忠告
+                   - advice 是不可数名词
+                   - wonderful 形容词要加在 pieces 前面而不是 advice 前面
             6. 表示个别行为事件时，可加 a(an)，也可用复数形式
-               - The computer is a marvelous invention. 计算机是一项很神奇的发明
-               - I will tell you my views of the matter. 我会告诉你我的观点
-            7. 介词 + 抽象名词 + of 抽象名词 = 形容词 / with + 抽象名词 = 副词
-               1. He is a man of ability = He is an able man. 他是个有能力的人
-               2. The information is of no value to me. = the information is valueless to me. 这个信息对我是没有价值的
-               3. Mary passed the exam with ease. = Mary passed the exam easily. 玛莉很容易地通过了考试
-               4. 注意
-                  - of importance = important(adj.)
-                  - with care =  carefully(adv.)
-                  - on purpose = intentionally(adv.) 有意图地；故意地
-                  - by accident = accidentally(adjv.) 意外地
+               - The computer is a marvelous invention. # 计算机是一项很神奇的发明
+               - I will tell you my views of the matter. # 我会告诉你我的观点
+            7. 介词 + 抽象名词 
+               - 语法举例
+                  - of 抽象名词 = 形容词 
+                  - with + 抽象名词 = 副词
+               - 例句
+                  1. He is a man of ability = He is an able man. 他是个有能力的人
+                  2. The information is of no value to me. = the information is valueless to me. 这个信息对我是没有价值的
+                  3. Mary passed the exam with ease. = Mary passed the exam easily. 玛莉很容易地通过了考试
+                  4. 注意
+                     - of importance = important(adj.)
+                     - with care = carefully(adv.)
+                     - on purpose = intentionally(adv.) 有意图地；故意地
+                     - by accident = accidentally(adv.) 意外地
             8. 物质名词
                - light,water,money,milk 等
                - 一般情况，不加冠词，采用单数形
                   - This statue is made of stone. 这个雕像是由石头做成的
+                  - The crowd threw stone<s> at the police. # 人群向警察投石头
+                     - pebble # n. 打水漂的石头（很小）
+                     - stone # n. 石头（较大）
+                     - rock # n. 岩石（很大）
+                     - boulder # n. 巨头（巨大）
                - 限定的量，可加 some,a lot of,much 等
-                  - I don't need much money to buy that camera. 我不需要太多钱买那个相机
-                  - We have little rain here. 我们这里几乎没下雨
+                  - I don't need much money to buy that camera. # 我不需要太多钱买那个相机
+                  - We have little rain here. # 这里几乎没下雨
                - 特定的物品，可加冠词，代名词或所有格
                   - This beef is from Australia. 这个牛排来自澳大利亚
                   - Let's go to the liguor store. 我们去酒吧吧
                - 物质名词的量化
                   - 数字 + ~ + of + 物质名词
-                  - a piece of paper. 一张纸
-                  - a glass of water. 一杯水
-                  - a spoonful of sugar. 一匙糖
+                  - a school of whales   # 一群鲸
+                  - a herd of cattle     # 一群牛
+                  - a flock of birds     # 一群鸟
+                  - 形状
+                     - a piece of paper. # 一片纸
+                     - a piece of chalk. # 一支粉笔
+                     - a sheet of paper. # 一张纸
+                     - a slice of bread. # 一片面包
+                     - a loaf of bread.  # 一条面包
+                  - 容器
+                     - a bottle of cola. # 一瓶可乐
+                     - a glass of water. # 一杯水（玻璃杯）
+                     - a cup of tea.     # 一杯茶（有耳朵，手把的容器）
+                  - 单位
+                     - a pound of butter.   # 一磅黄油
+                     - a liter of milk.     # 一升牛奶
+                     - a spoonful of sugar. # 一匙糖
             9. 专有名词
                - Mary,Youth Park,China 等
                - 一般情形，开头字母需要大写，不加冠词，没有复数形式
+               - Dr.Jones photographed many wild animals in Africa. # 琼斯博士在非洲拍了很多野生动物的照片
+               - Henry walked down Bridge Street to save time. # 享利为了节省时间走了桥街
                - China is a big country. 中国是个大国
                - 加定冠词的专有名词
                   - 船，列车：the Titanic,the MRT 
@@ -4245,35 +4283,39 @@
                   - 公共建筑物：the White House,the British Museum
                   - 报纸，杂志：the Times,the Asahi
             10. 加不定冠词或得数形式的专有名词
-               - A Mr.Brown has come to see you. 一个叫布朗先生的人来看你了（不认识布朗先生）
-               - He is the Edison of Taiwan. 他是台湾的爱迪生（不是真的爱迪生，只是把这个人作比喻）
-               - My wife was a Smith. 我的妻子是姓史密斯的其中一个人（妻子是史密斯家族的人）
-               - He has two Picassos. 他有两幅毕加索的画
+               - A Mr.Brown has come to see you. # 一个叫布朗先生的人来看你了（不认识布朗先生）
+               - He is the Edison of Taiwan. # 他是台湾的爱迪生（不是真的爱迪生，只是把这个人作比喻）
+               - My wife was a Smith. # 我的妻子是姓史密斯的其中一个人（妻子是史密斯家族的人）
+               - He has two Picassos. # 他有两幅毕加索的画
    
          - 名词的复数
             - 规则变化：
                1. s,x,ch,sh，子音 + o：后面加 es
-                  - bus -> buses,box -> boxes
+                  - bus -> buses,box -> boxes,church -> churches,hero -> heroes（男英雄）
+                  - heroine # 女英雄
                2. 字尾为子音 + y：去y + ies
                   - city -> cities,baby -> babies
                3. 字尾f,fe：去f,fe + ves
                   - leaf -> leaves,wife -> wives
-            - 注意：stomachs,pianos,photos,roofs,safes,beliefs
+            - 注意：stomachs,pianos,photos,roofs,safes（保险箱）,beliefs
             - 不规则变化
-               - man-men,child-children,left-leaves,tooth-teeth,foot-feel,mouse-mice
+               - man-men,woman-women,child-children,left-leaves
+               - tooth-teeth,foot-feel,mouse-mice
             - 单复数同形
-               - Chinese,Japanese,carp,sheep,deer（鹿）,species（物种）
+               - Chinese（中国人）,Japanese（日本人）,carp（鲤鱼）
+               - sheep（绵羊）,deer（鹿）,species（物种）
             - 外来语复数
                - datum-data,medium-media,crisis-crises,analysis-analyses
             - 文字，数字的复数形式
-               - UFOs/UFO's, the 80s/80's, CDs/CD's
+               - UFOs -> UFO's, the 80s -> 80's, CDs -> CD's
+               - 幽浮，80年代，CD
             - 复合名词的复数形
-               - passer-by <-> passers-by
-               - college student <-> college students
-               - woman astronaut <-> woment astronauts
+               - passer-by -> passers-by # 路人，行人
+               - college student -> college students # 大学生
+               - woman astronaut -> women astronauts # 女宇航员
             - 单数，复数意思不一样的注意点
                - paper（纸）   * papers（文件）
-               - work（工作）  * works（工厂）
+               - work（工作）  * works（工厂）单数复数都是 works
                   - job(s) 工作（有薪水的职业，职业）
                - part（部分）  * parts（零件，有才能的）
                - water（水）   * waters（水域，海域）
@@ -4285,14 +4327,16 @@
                - letter（信）  * letters（文学）
                - air（空气）   * airs（装腔作势）
                - glass（玻璃） * glasses（眼镜）
-               - contact lenses 隐形眼镜
-               - trousers 裤子
-               - shoes 鞋子
-               - gloves 手套
-               - scissors
-               - socks 袜子
+            - 必用复数
+               - glasses # 眼镜
+               - contact lenses # 隐形眼镜
+               - trousers # 裤子
+               - shoes # 鞋子
+               - gloves # 手套
+               - scissors # 剪刀
+               - socks # 袜子
             - 学科名称字尾为 ics：用单数形
-               - mathmatics, politics, physics, economics
+               - mathmatics（数学）, politics（政治学）, physics（物理学）, economics（经济学）
             - 表金额，距离，时间：用单数动词
                - One hundred dollars is enought to buy that jacket.
                - Twenty miles is a long distance to run.
@@ -4300,12 +4344,12 @@
    
          - 名词的所有格
             - 单数名词 -> N's 
-               - Jim's mon, the Bob's hat
+               - Jim's mom, the Bob's hat
             - 复数名词 -> Ns'
                - a girls' high school 女子中学
                   - a 指的是一所学校
                   - girls 是因为女子中学有多个女孩
-               - April Fools' Day
+               - April Fools' Day # 愚人节
             - 不规则变化的得数名词 -> N's
                - children's toys,men's coots
    
@@ -4316,8 +4360,10 @@
                - Jack's and Peter's fathers （各自的父亲）
                - Jack and Peter's father（共同的父亲）
             - 表时间，距离，重量，金额等的名词 -> N's 或 Ns'
-               - ten minutes' break
-               - tomorrow's weather
+               - ten minutes' break # 休息十分钟
+                  - break 的休息比较短
+                  - rest 的休息比较长
+               - tomorrow's weather # 明天的天气
             - 表国名，地名 -> N's 或 Ns'
                - the world's polulation
                - Chongqing's climate
