@@ -196,17 +196,14 @@
          - I want you to study english.（to study english 是 you 的受词补语）
    - 副词注意
       - 副词如果省略不影响句子的连贯性，但是会有意思的缺损，增加副词可以对句子说明更详细
-
    - 注意语法
       - 介词后面的动词一定要加上 ing，并且没有例外（在作介词时，不定式不是介词）
       - 单个词的形容词放在名词前，由多个词构成的形容词放在名词的后面
-   
    - 一些单词的表现形式
       - Subject 主语
       - Object 宾语
       - verb 动词
       - adverb 副词
-
    - 主谓宾和主系表的一些形式
       1. 主系表
          - 主语（名词）
@@ -279,8 +276,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：45 集
-   - 看视频学习进度：the <4367> line 
+* 谢孟媛英语视频 高中部分复习进度：50 集 26:16
+   - 看视频学习进度：the <4618> line 
    - 复习进度 313 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -4364,9 +4361,13 @@
                   - break 的休息比较短
                   - rest 的休息比较长
                - tomorrow's weather # 明天的天气
+               - three miles' distance. # 三米的距离
+               - a pound's weight # 一磅的重量
+               - a dollar's worth # 一美元的价值
             - 表国名，地名 -> N's 或 Ns'
-               - the world's polulation
-               - Chongqing's climate
+               - the world's polulation # 世界的人口
+               - Taiwan's climate. # 台湾的气候
+               - the United States' future # 美国的未来
             - B of A -> 无生物所有格
                - the roof of the church 教堂的屋顶
                - the front of the building 那栋建筑的正面
@@ -4374,11 +4375,11 @@
                   - the answer(s) to the question 这个问题的答案
                   - the ticket(s) to that gane 那个比赛的门票
                   - the key to great success 非常成功的关键
-                  - the advice of the man standing at the gate
+                  - the advice of the man standing at the gate. # 在门口那个男人的忠告
                      - 因为男人有“在门口”修饰，所以无法使用 man's 的方式进行表述
             - 表场所，建筑的名词在所有格后，通常被省略
-                  - My mother went to the baker's (shop).
-               - I'm going to the dentist's (office) tomorrow.
+               - My mother went to the baker's (shop). # 我妈妈去了面包店
+               - I'm going to the dentist's (office) tomorrow. # 我明天要去看牙医
 
       - 冠词
          - 不定冠词 -> a/an + 可数单数名词
@@ -4390,79 +4391,98 @@
             - the 的发音
                - 子音开头的字 -> the plane
                - 母单开头的字 -> the artist
+               - 以上两个的 the 发音都不一样
    
             - 不定冠词的用法
                1. 表示不特定的单数可数名词
                   - Waiter,there is a fly in my soup.
+                     - fly # n. 苍蝇，飞 v. 飞翔，飞
                2. 话题中第一次提到的单数名词前
                   - I saw a bird,The bird is flying in the sky.
-               3. 表示个
+                     - 注意
+                        - see - sae - seen  # v. 看
+                        - say - said - said # v. 说
+               3. 表示[个]
                   - Rome was not built in a day. 罗马不是一天就建成的
+                  - It's all Greek to me. # 我完全不懂（它对于我像希腊语一样）（希腊语很难）
+                  - It's a piece of cake. # 一块蛋糕
+                  - Greece # 希腊
                4. 表示某个
-                  - He came back on a Christmas.
+                  - He came back on a Christmas. # 他在某个圣诞节回来了
                5. 表示一些(->some)
                   - That painting looks more beautiful from a distance. 那个配色从某个距离看更漂亮了
                6. 表示相同(->one and the same)
                   - Birds of a feather flock together. 物以类聚（同种羽毛的鸟凑在一起）
+                  - Fine feathers make fine birds. # 人要衣装，佛要金装（好羽毛造就好的鸟）
                7. 表示每一个(->per)
-                  - We have six English classes a week. 我们每周有六节英语课
+                  - We have six English classes a week. # 我们每周有六节英语课
                8. 重点：伴随 a 掋惯用表现
                   - a great many, a little, a few, as a rule~（按...来说）
                   - As a rule it rains little in Chongqing in winter. 一般来说，在重庆冬天几乎不下雨
-                  - He was at a loss for words. 他惊慌得不知所措
-                  - It is true in a sense. 某种程序来说它是真的
-                  - I go to the movies once in a while. 我偶尔去看一下电影
+                  - He was at a loss for words. # 他惊慌得不知所措
+                  - It is true in a sense. # 某种程序来说它是真的
+                  - I go to the movies once in a while. # 我偶尔去看一下电影
          - 定冠词
             - 表示特定事前
-               - You took a photo of me.Show the photo to me. 你给我照了张照片，给我看看那张
-               - The wine I drank at the party was very good.
+               - You took a photo of me.Show the photo to me. # 你给我照了张照片，给我看看那张
+               - The wine I drank at the party was very good. # 我在派对上喝的酒很不错
             - 从状况可知所指为何之名词前
                - Did you remember to lock the door? 你记得要锁门吗
             - 表示唯一之物 的名词前
                - the sun, the moon, the universe,the north, the Bible, the President
+               - 太阳，月亮，宇宙，北方，圣经，总统
             - 用于最高级或only,first,last,same 等之前
-               - He is the only person I can trust.
+               - He is the only person <whom> I can trust. # 他是我唯一能相信的人
             - by + the + 单位（以...为单位）
                - In England,they buy butter by the pound. 在英国，以磅为单位买奶油
                - We were hired by the hour. 我们被以小时为单位受雇
+               - We were fired. # 我们被炒鱿鱼了
             - the + adj. 转变为了名词，指人时，采用复数形式
                - the rich,the poor,the old,the young, the learned
             - the + adj. 转变为了名词，有些情况也表抽象的意义
                - Everybody loves the true,the good and the beautiful. 每个人都喜爱真善美
             - 介词 + the + 身体的某部分（只是为了限定部位）
-               - He shook her roughly by the shoulder. 他很粗鲁地摇晃她
+               - He shook her roughly by the shoulder. 他很粗鲁地搂着她的肩膀摇晃她
                - He kissed the girl on the forehead. 他亲吻了女孩的额头
-               - The man was shot through the heart. 那个男人被射穿心脏
+                  - forefather # 祖先
+                  - forefinger # 十指
+                  - middlefinger # 中指
+                  - ringfinger # 无名指
+                  - littlefinger # 小指
+               - The man was shot through the heart. # 那个男人被射穿心脏
          - 冠词的特别注意的用法
             - half,many,quite,rather,such,what + a/an + N.
-               - It lasted for half an hour. 它持续了半小时
-               - Many a little makes a mickle. 聚少成多
-               - It was so unusual a story that few people believed it. 如此不寻常的故事，以至于几乎没有人相信他
+               - It lasted for half an hour. # 它持续了半小时
+                  - last # adj. 最后的 v. 持续
+               - Many a little makes a mickle. # 聚少成多
+               - It was so unusual a story that few people believed it. 它是如此不寻常的故事，以至于几乎没有人相信他
                   - so 是作副词，unusual 是形容词
                   - It was such an unusual story that few people believed it. 
                      - such 是作形容词，unusual 是形容词
             - all,both,double,twice,half + the + N.
-               - All the computers in my office were broken.
-               - I had to pay double the fine. 我必须要付两倍罚金
-            - a A and B / a A and a B
+               - All the computers in my office were broken. # 在我办公室所有的电脑都坏了
+               - I had to pay double the fine. # 我必须要付两倍罚金
+                  - I was fined. # 我被罚了
+            - a/an A and B | a/an A and a/an B
                - I saw a white and black dog. 我看到了一只有黑色和白色的狗（一只狗，毛色有黑有白）
                - I saw a white (dog) and a black dog. 我看到了一只白狗和一只黑色的狗
             - 注意：2个物品成一组或合而为一者，只在第一个名词前加冠词
                - the bread and butter,a cup and saucer
+               - a watch and chain # 有链子的表
+                  - saucer 是咖啡杯下的托盘
             - 加冠词和不加冠意义不同
-               - go to school 去上学
-               - go to the school 到学校
-               - go to church 做礼拜
-               - go to the church 去教堂
-               - go to bed 上床睡觉
-               - go to the bed 到床上去
-               - at table 在吃饭
-               - at the table 在餐桌前
-               - in class 上课
-               - in the class 在班级
-               - go to sea 当水手
-               - go to the sea 去海边
-
+               - go to school     # 去上学
+               - go to the school # 到学校
+               - go to church     # 做礼拜
+               - go to the church # 去教堂
+               - go to bed        # 上床睡觉
+               - go to the bed    # 到床上去
+               - at table         # 在吃饭
+               - at the table     # 在餐桌前
+               - in class         # 上课
+               - in the class     # 在班级
+               - go to sea        # 当水手
+               - go to the sea    # 去海边
 
 * 介系词
    - 概述
@@ -4471,44 +4491,54 @@
       - Put the book on the desk（on the 作副词）
    - 介词的受词是以下情况的区别
       - 名词/代名词
-         - I went shopping with Mary yesterday.
-         - I met Mary by chance,and I went shopping with her. 我有机会遇到玛莉，我和他一起购物
+         - I went shopping with Mary yesterday. # 我昨天与玛丽购物了
+         - I met Mary by chance,and I went shopping with her. # 我有机会遇到玛莉，我和他一起购物
       - 形容词
-         - Things went rapidly from bad to worse. 这个事情迅速恶化
+         - Things went rapidly from bad to worse. # 这个事情迅速恶化
+            - 这里 from 是介词，bad 是形容词，所以有时候介词后可以放形容词
+            - 这里也可以理解为 from being bad 这样理解
+            - worse 当名词时意思是 “更坏的事”
       - 副词
-         - How far is it from here to the bus stop? 从这里到车站有多远
+         - How far is it from here to the bus stop? # 从这里到车站有多远
+            - from 是介词，here 是副词，所以有时候介词后可以放副词
+            - 这里也可以理解为 from being here 这样理解
          - I haven't seen her since then. 我从那时起就没见过她
       - 动名词 
          - 介词后面是不可以根动词的
          - My brother used my computer without asking for my permission.（without 作介词）
-         - I'm looking forword to seeing you.（这里的 to 是介词）
+         - I'm looking forword to seeing you. # 我很期待见到你（这里的 to 是介词）
+            - 这里的 seeing 是动名词不是现在分词
       - 不定词 - 用于 but,except,as,than
          - 一般是这些特有的情况用原型不定词，否则其它都是动名词
-         - They did nothing but play cards all day.（but 后面不能有 to，因为but后面不能有介词，所以 play 是原型不定词）
+         - They did nothing but play cards all day. # 他们只知道玩牌
+            - but 后面不能有 to，因为but后面不能有介词，所以 play 是原型不定词
          - I would rather stay at home than go out.（than 后面不能有 to，go 是原型不定词）
       - 子句（名词子句）
-         - The future of this planet depends on whether we can protect the environment. 这个星球的未来视我们是否能保护环境而定
-         - Men differ from animals in that they can use fire. 人之所以和动物不一样是因为人可以使用火
+         - The future of this planet depends on whether we can protect the environment. # 这个星球的未来视我们是否能保护环境而定
+            - depend on 本来翻译为“依赖于”，但是通过上下文可以翻译为“视...”
+         - Men differ from animals in that they can use fire. # 人之所以和动物不一样是在于人可以使用火
 
    - 介词的位置
          - 受词为疑问词时
-            - Whom are that you going to with? 你要和谁一直去
-               - You are going to with xxx.，因为 xxx 是受词，所以是 whom（由 介词后面的名词是受词）
-               - 再转变为疑问句
-               - 也可以改为：With whom are you going?
+            - Who<m> are you going to with? 你要和谁一起去
+               - With whom are you going?
+                  - 这是介词放在前面的形式
+               - You are going with xxx.，因为 xxx 是受词，所以是 whom（由 介词后面的名词是受词）
+                  - 再转变为疑问句
             - What are you talking about? 你在说什么
          - 受词为关系子句
-            - This is the river which I used to swim in.
+            - This is the river which I used to swim in. # 这是我过去常常游泳的河
                - This is the river in which I used to swim. 
                   - 因为介词后面 可以根子句，然而 which... 是一个子句，所以可以以这种形式作关系子句
-            - The young lady whom Mom is talking to is our music teacher.
+            - The young lady whom Mom is talking to is our music teacher. # 这个和我妈妈谈话的年轻女子是我的音乐老师
                - The young lady to whom Mom is talking is our music teacher.
                   - The young lady  主句
                   - to whom Mom is talking 修饰主句，而且 to 是介词，可以根子句，刚好 whom...构成子句，所以... 
                   - is 动词
                   - our music teacher. 受词
          - 介词及受词中有不定词时
-            - He has many friends to rely on.（这里的 on 是介词）
+            - He has many friends to rely on. # 他有许多可以依赖的朋友
+               - 这里的 on 是介词
                - to rely on 是修饰 friends 的形容词
                   - He has many friends.
                   - He relies on his friends.
@@ -4520,22 +4550,23 @@
             - All of us look forward to his success.
                - His success is looked forward to by all of us.
             - We have to take care of the baby.
-               - The baby has to be token care of (by us).（因为是被动，所以可以省略 by us）
+               - The baby has to be token care of <by us>.（因为是被动，所以可以省略 by us）
+               - 因为 by us 已经是听者已经知道的了，所以可以省略
    - 群体介系词
       - according to, because of, instead of, at the risk of（冒...样的危险）, for the purpose of（为了...样的目的）
          1. because of 和 because 区别
             - because of 后面根 名词
-            - because 后面根子句
-         2. We had to stay indoors all day because of the storm.
+            - because 后面根子句（因为它是连接词）
+         2. We had to stay indoors all day because of the storm. # 由于暴风雨，我们不得不整天待在室内
             - We had to stay indoors all day because there was a storm.
          3. Thanks to your advice,I was able to win
-         4. He sent his brother instead of  他派他的兄弟作替代
-         5. He saved the child at the risk
+         4. He sent his brother instead of going himsel. # 他改派他弟弟代替他去
+         5. He saved the child at the risk of his life. # 他冒着生命危险救了他的生命
          6. We express our thoughts by means of words. 我们通过词语的意思表达我们的想法
          7. I did my best with a view to pleasing my father. 为了取悦我的父亲我尽我的全力
             - with a view to “为了”
-            - 如果把 with a view to 改为 in order to；那么 pleasing 应该改为 pleas；因为 in order to 的 to 是不定式
             - 这里的 to 是介词
+            - 如果把 with a view to 改为 in order to；那么 pleasing 应该改为 pleas；因为 in order to 的 to 是不定式
 
     - 双重介词
        1. He was chosen from among the volunteers. 他被从这些义工中挑选出来
@@ -4548,24 +4579,26 @@
           - under 在...下面
     - 常见的介词用法
        - in,on,at
-          - in 2005 “在2005年”
-          - on the morning of October 10 “在10月10号早上”
-          - at dawn“在黎明”, at sunset “在日出”
+          - in 2005                      # 在2005年
+          - in the morning               # 在早上
+          - on the morning of October 10 # 在10月10号早上（因为有具体的日期，所以用on）
+          - at dawn                      # 在黎明时分
+          - at sunset                    # 在日落
     - 时间介词
        - 词1
           - until/till 动作继续的期限
           - by（直到）动作完成的最后期限
           - befor 之前（不包含期限限定的那一刻）
-          - I am going to work till seven tonigh. 我会工作到晚上七点
-          - I'll finish the work by noon. 我会在中午之前完成
-          - I began to work before eight this morning. 我是在早上八点以前开始工作的
+          - I am going to work till seven tonigh.      # 我会工作到晚上七点
+          - I'll finish the work by noon.              # 我会在中午之前完成
+          - I began to work before eight this morning. # 我是在早上八点以前开始工作的
        - 词2
           - from（从...起）（从过去，现在，未来某时点起）
           - since（从...以来）（从过去的某时点起）
           - after（在...之后）
-          - The work should take us from four to five hours. 这个工作应该会花我们四到五个小时
-          - He said the floods were the worst since 1968. 他说自1968年以来，这次洪水是最糟糕的
-          - He came home after a few hours. 他几小时后回家了
+          - The work should take us from four to five hours. # 这个工作应该会花我们四到五个小时
+          - He said the floods were the worst since 1968. # 他说自1968年以来，这次洪水是最糟糕的
+          - He came home after a few hours. # 他几小时后回家了
        - 词3
           - in 在...内 （所需时间）
           - within 在...内 （某期间内）
@@ -4582,6 +4615,9 @@
           - in 在较宽敞之处，建筑的内部
           - on 在特定之面
           - at 在较狭小之处，某一特定的地点
+          - They are taking a stroll in the park. # 他们正在公园里散步
+          - The players are practicing on the field. # 球员们正在球场上练习
+          - He waited for the girl at the door. # 他在门口等那个女孩
        - 词6
           - for 方向的目标
           - to 到达点
