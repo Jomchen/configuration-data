@@ -276,8 +276,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：50 集 26:16
-   - 看视频学习进度：the <4618> line 
+* 谢孟媛英语视频 高中部分复习进度：51 集 46:07
+   - 看视频学习进度：the <4696> line 
    - 复习进度 313 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -4622,9 +4622,9 @@
           - for 方向的目标
           - to 到达点
           - toward 运动的方向
-          - They are leaving for China tomorrow. 他们明天要去中国
-          - The dog went to the boy. 这只狗到了男孩那里
-          - The dog went toward the boy. 这只狗向男孩那边去了
+          - They are leaving for New York tomorrow. # 他们明天要去纽约
+          - The dog went to the boy.     # 这只狗到了男孩那里
+          - The dog went toward the boy. # 这只狗向男孩那边去了
        - 词7
           - along 沿着
           - across 横越
@@ -4636,33 +4636,39 @@
           - by 在...旁（前后左右任一）
           - beside 在...旁（左右其中之一）
           - near 在...附近
-          - she sat by the window. 她坐在了窗边
-          - I sat beside her. 我坐在了她旁边
-          - He lives near my house. 他住在我家附近
+          - she sat by the window. # 她坐在了窗边
+          - I sat beside her. # 我坐在了她旁边
+          - He lives near my house. # 他住在我家附近
+          - side by side # 边靠边
+          - shoulder by shoulder # 肩并肩
        - 词9
           - beside 在...旁边
           - besides 除...之外，还有（虽然解释为“除了...之外”，但是是包含的意义）
           - At the party,there were several girls beside Kelly. 在派对上，几个女孩在凯莉旁边
-          - At the party,there were several girls besides Kelly. 在派对上，除了凯莉外还有几个女孩
-          - At the party,there were several girls except Kelly. 在派对上，除了凯莉之外只有几个女孩
+          - At the party,there were several girls besides Kelly. 在派对上，除了凯莉外还有几个女孩（凯莉也在派对上）
+          - At the party,there were several girls except Kelly. 在派对上，除了凯莉之外只有几个女孩（凯莉不在派对上）
        - 词10
           - between 在二者之中
           - among 在三者或以上之中
-          - Jane sat between Kangkang and Michial. 简坐在康康和迈克尔之间
+          - Peter sat between Kangkang and me. 皮特坐在康康和我之间
           - He disappeared among the people in the crowd. 他消失在人群中
        - 词11
-          - around/round 围绕着
+          - around/round 围绕着 | about 在...四周/附近
              - around 只能当介词
-             - round 可以当介词，当形容词时意思为“圆，团”
+             - round 可以当介词，非介词时：n. 圆，轮 adj. 圆的 v. 巡，环行
           - about 大概，在..四周，...的附近
-          - The earth moves (a)round the sun.
-          - He glanced/looked about and saw him in conversation with someone. 他环顾四周并并看到他在和某个人讲话
-          - The children sat about/around the old man. 这个小孩坐在老人旁边
+          - all the year round # 一整年
+          - The earth moves (a)round the sun. # 地球绕着太阳转
+          - He glanced/looked about and saw him in conversation with someone. # 他环顾四周并并看到他在和某个人讲话
+          - The children sat about/around the old man. # 这个小孩坐在老人旁边
        - 词12
           - in 在...之中（范围不会超过这个空间）
           - into 在..之中（运动状态）
           - out of 从..之中（运动状态）
           - onto 在...之上（运动状态）
+          - He walked in the room. # 他在房间里走来走去
+          - He walked into the room. # 他走进了房间
+          - He walked out of the room. # 他从房间里走出来
           - The cat jumped onto the TV set. 这只猫跳到了电视上面
        - 词13
           - on 接触，off 分离
@@ -4670,19 +4676,26 @@
           - He switched off the light. 他关闭了灯光
        - 词14
           - before 在...前（顺序，时间）
-          - in front of 在...前；在...正前面
-          - behind 在..之后（人，动物，建筑之后）
-             - 反义词是 back
-          - after 在...之后（在行动的物体之后，或顺序后）
-          - "B" comes before "c" in the alphabet. 二十六个字母中，B在C之前
-          - We met in front of the school. 我们在学校前遇到了
-          - there is a blackboard in the front of the classroom. 黑板在教室前面
+          - after 在...之后（在行动的物体之后，或顺序后，时间）
+          - behind 在..之后（人，动物，建筑之后；）
+          - in front of 在...前；在...正前面（方位）
+             - 反义词：back # 在...之后
+          - "B" comes before "C" in the alphabet. # 二十六个字母中，B在C之前（顺序）
+          - We met in front of the school. # 我们在学校前遇到了（方位）
+          - There is a blackboard in the front of the classroom. # 黑板在教室前面
              - in the front of 和 in front of 区别是：有 the 的是在内部的前面
-          - I hate driving behind a bus. 我讨厌在公车后驾驶
-          - Let's have a game of tennis after school. 放学后来场网球游戏吧
+             - There is a tree in front of my house. # 在我家房子前有棵树
+          - I hate driving behind a bus. # 我讨厌在公车后驾驶
+          - Let's have a game of tennis after school. # 放学后来场网球游戏吧
        - 词15
-          - on <-> off, over <-> under, above <-> below, up <-> down, into <-> out of
-          - in front of/before <-> in back of/behind
+          - 一些正-负的词
+             - on <-> off, over <-> under, above <-> below, up <-> down, into <-> out of
+             - in front of/before <-> in back of/behind
+             - There is a fly on the ceiling. # 有只苍蝇在天花板上
+             - A plane is flying over the mountain. # 有架飞机在山上飞
+             - The sun is shining over our heads. # 阳光照在我头上
+             - A cat is sleeping under the table. # 一只猫在桌下睡觉
+             - There is a waterfall above the bridge. # 有个瀑布在桥上
        - 词16 表原因，理由的介词
           - I was disappeared at the failure. 我因为失败而沮丧
           - 注意 at 引起某种情绪或动作的原因
