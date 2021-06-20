@@ -1,0 +1,1187 @@
+* 旋元佑英语语法学习笔记
+* 总进度 419 页
+* 疑问 275 页左右的关系代名词不用 that 的情况
+* 疑问 关系子句 的逗点隔开的语法情况
+* 疑问 副词的特殊形式：有逗点的形式，修饰名词的情况
+* 副词子句简化之二，大约 300 页
+
+   1. 五大基本句型
+      - 句型
+         1. S+V       主词+动词
+         2. S+V+O     主词+动词+受词
+         3. S+V+C     主词+动词+补语
+         4. S+V+O+O   主词+动词+受词+受词
+         5. S+V+O+C   主词+动词+受词+补语
+      - 连缀动词
+         - 概念
+            - 解释为[是]的动词没有叙述能力，只能把主词和后面构成叙述的部分连接起来，所以它又叫[连缀动词](Linking Verb)
+            - 根在这个词后面的部分，因为替代了动词所扮演的叙述角色，补足句子使它获得完整的意思，称之为[补语](Complement)
+         - 一般可作为连缀动词有 
+            - be 是（注意，be 动词一般不能直接解释为[是]，它是一种空洞的词，只是为了描述，所以它作为连缀动词时是最纯粹的连缀动词）
+            - look “看起来是”
+            - seem “似乎是”
+            - appear “显得是”
+            - sound “听起来是”
+            - feel “摸起来是”
+            - taste “尝起来是”
+            - turn “转变为”
+            - prove “证实为”
+            - become “成为”
+            - make “做为”
+       - S+V+O
+          - 一个对象对另一个对象的动作
+          - example
+             - John Smith killed three enemy soldiers. “约翰史密斯杀了三名敌军士兵”
+       - S+V+C
+         - 主词补语是用补语告诉读者主词是什么
+         - 若把中间的连缀动词全都替换成 be，“那么都有暗示结果是对主词的描述”
+         - example
+            - He is a teacher. “他是个老师”
+            - He is courageous. “他很勇敢”
+            - The drug tastes bitter. “药很苦（药尝起来很苦）”
+      - S+V+O+C
+         - 受词补语是用补语告诉读者受词是什么，这有暗示在受词和补语中加一个 [是] 的关系存在
+         - 把受词和补和拿出来，在中间加个 be 动词可以形成 S+V+C 的状态
+         - example
+            - I find the dress pretty. “我觉得衣服很漂亮”
+            - The meat made the dog fridendly. “肉让狗变得很友善”
+            - He found the trip exciting. “他觉得这次旅行很刺激”
+      - S+V
+         - example
+            - To be or not to be,that is the questtion. “是或不是，是个问题”
+      - S+V+O+O
+         - 判断是 S+V+O+O 还是 S+V+O+C 只要在最后的两个部分加上 be 看看后面的两个是否是对等的，对等则是 S+V+O+C
+         - example
+            - John's father gave him a dog. “约翰的父亲给了他一只狗”
+
+   2. 名词片语和冠词
+      - 什么时候用限定词
+         - a(n) 可以视为 one 一字的弱化结果，只是语气较弱。a(n) 与 one 同样都是在交代它后面所接的名词是[一个]的概念
+            - 如果后面的名词不适合以[一个]来交代，也就是不适合加 a(n) 的话，就可以把限定词这个位置空下来，例：Unmarried men are a rare species these days. “未婚男性目前是稀有品种了”
+            - unmarried 和 men 两个部分，没有限定词，这里是因为 men 一字已经清楚表示名词是复数了，自然不能再用 an 来表示[一个]，这时就可以把限定词省略
+         - a new book 中 book 是单数形态，因此要用限定词来配合标示它，所以只说 new book 就变成不完整的表示
+         - 除了复数外，抽象名词（如 honesty,bribery）没有具体形状，不能以[一个]表示，物质名词（如 water,food）虽然是具体的东西，可是形状不固定，也不能以[一个]表示，这些不能以 a(n)来引导就可把限定词省略
+            - Honesty is not necessarily the best policy. “诚实不一定是上策”
+            - Fresh water is a precious resource in Saudi Arabia. “淡水是沙鸟地阿拉伯的珍贵资源”
+            - honesty 和 water 这些没有形状的字，都不适合加 a(n)，我们可以这样说，如果字尾加 -s，则表示该名词为复数。如果前面加 a(n)，则表示 [一个]，也就是单数，如果不能加 -s
+            - 通常表示这个字没有办法数，这样就不能用限定词
+      - 专有名词与补语位置
+         - 人名，地名，等都是专有名词，因为它所代表的对象只有一个，也不适合加 a(n)，所以不用限定词，为什么表示一个的情况也不能加 a(n) 呢，比如 a Kangkang 指的是 one Kangkang
+            - 那么表示除了这个 Kangkang 还有另外的 Kangkang 存在，所以特别需要标示是[一个]，如果没有另一个 Kangkang 存在就不必加 a(n) - 要判断一个名词是否是专有名词有时不那么容易，像 Sunday，一个月中可能会有四到五天，所以我们说 There are five Sundays this month. “这个月有五个星期日” - 但一个星期中只有一个星期日，这样它就不算专有名词了,所以我们也可以说 I have an appointment on Sunday. 我星期日有约
+            - 放在补语位置的专有名词最难判断
+               1. 补语和主词（或受词）之间有全等的关系，如果主词（或受词）是专有名词（例如人名），那么补语便也作为专有名词使用，条件是在补语位置上的名词也必须具有[唯一]的性质， 条件是在补语位置上的名词也必须具有[唯一]的性质
+                  - Jomkie was Secretary General of the Baidu company. “Jomkie 曾是百度公司的秘书长”
+                     - 这里的 Secretary General 是普通名词，并不是只有百度公司才有秘书长，然而 Jomkie 是专有名词，Secretary General 作为它的补语是有相等性的，所以这里就以专有名词使用，所以没有加冠词
+               2. 补语和主词（或受词）之间有全等的关系，如果主词（或受词）是专有名词（例如人名），但补语也不能以专有名词使用的情况
+                  1. Jomkie was a better Secretary General than Xiaoming. “Jomkie 是个比小明更优秀的秘书长”
+                     - Jomkie 是专有名词，Secretary General 和它等价，但是仍然加了 a，因为是以 Jomkie 这个秘书长在和其它秘书长做比较，所以有多个秘书长，所以这里的需要加 a
+                  2. Jomkie is also a member of the Baidu company. “Jomkie 也是百度公司的成员”
+                     - Jomkie 是专有名词，a member of the Baidu company 是等价的，但是这里为了指出百度公司成员不只一个，而这里交代 Jomkie 是其中之一，所以这里加 a
+               3. 当同位格是补语时，注意是否为专有名词
+                  1. Jomkie,Secretary of the Baidu company. “Jomkie，百度公司的秘书”
+                     - Secretary of the Baidu company 是 Jomkie 的同位格，但其实是 who was Secretary of the Baidu company，这里的 who 是 Jomkie，相当于后面的是 Jomkie 的补语，所以主词是专有名词，那么...
+      - 定冠词 the 的用法
+         - the 可视为 that 或 those 的弱化形式，而 that 或 those 指示形容词，有明确的指示功能，所以定冠词 the 也可以用同样的角度来了解：凡是上下文有明指或暗示时，也就是有[那个]的指示功能时，便要用定冠词the
+            - I need a book to read on my trip. “我需要一本书在我的旅途中阅读”（指是需要指出一本书，所以加 a）
+            - I have finished the book you lent me. “我已经读完了你借我的那本书”（有暗示那本）
+            - Modern history is my favorite subject. “现代史是我最喜欢的科目”（Modern history 是抽象名词，所以不加冠词）
+            - The history of recent China is a sorry record. “中国控史是部伤心史”（这里之所以要加 the 是因为有 of recent China 附在后面，用来指出[哪一段]历史，有指示性，所以...）
+            - I am going to the office now. “我现在要去办公室”（很明显有指示性的那个办公室，所以加 the）
+         - 定冠词 和 专有名词
+            - 专有名词的定义是：只有一个对象存在的名词，像 China 和 Earth 等，既然只有一个对象存在，就没有[这个]，[那个]的分别，也就不能加定冠词 the，如果说 this book，则暗示 that boot
+            - 这里需要指明是 this book，也就是 the book，像 China 这种字就不能这样使用，所以，专有名词和定冠词是有冲突的，不能共存。如果加了 the,就不再是专有名词了
+            - This is not the Kangkang I knew. “这不是我过去认识的康康”（我过去认识的和现在认识的康康，有多个康康，所以 Kangkang 不是专有名词）
+         - 定冠词 和 专有名词
+            - 一些称为例外的 海洋，河流，群岛，群山，杂志名，船名 等等都要求在前面加定冠词，其实很多都不是例外，都是可以有依据理解的
+               - 举例
+                  - 词
+                     - the Pacific 太平洋 the Pacific (Ocean)
+                     - the Atlantic 大西洋 the Atlantic (Ocean)
+                     - the Indian Ocean 印度洋
+                     - the Mediterranean 地中海 the Mediterranean (Sea)
+                     - the Dead Sea 死海
+                  - 说明
+                     - 这里的 Pacific 是放在形容词的位置，名词位置上是 Ocean 其实是普通名词（世界上有三个洋，只要有两个或以上就不是专有名词），Ocean 被忽略，所以要加定冠词，加the指出叫 Pacific 的那个洋
+                     - 在三大洋中 印度洋不适合省略，因为 the Indian 可能会被误解为 这个印第安人，同理，the Mediterranean (Sea) 是普通 the sea 加上 形容词 Mediterranean 也不是例外
+                     - 地中海可以省略 sea，因为省略之后仍然清楚，但是[死海] the Dead Sea 就不能省略，否则会补误认为[死人] the dead people
+               - 举例2
+                  - 词
+                     - the Philippine 菲律宾群岛 the Philippine (Islands)
+                     - the Alps 阿尔卑斯山 the Alp (Mountains)
+                  - 说明
+                     - 这两个复数的 Islands, Mountains 也是普通名词，可是名词省略了，以形容词位置取代之，并把复数 -s 放到形容词的位置，方式古怪但也合情合理
+               - 举例3
+                  - 词
+                     - the Mississippi 密西西比河 the Mississippi (River)
+                     - the Titanic 铁达尼号 the Titanic (Ship)
+                     - the Hilton 希尔顿饭店 the Hilton (Hotel)
+                  - 说明
+                     - 这些的第三部分都是名词，所以可以省略
+               - 举例3
+                  - 词
+                     - the United States of America 美利坚合纵国（因为合维文国不止一个）
+                     - the United Nations 联合国
+                     - the Republic of South Korea 南韩（共和国不止一个）
+                     - the China Post 中国邮报（邮报不止一个）
+                  - 说明
+                     - 在名词位置的其实都是普通名词 States,Nations,Republic,Post，皆可加冠词，但只有 America 和 South Korea 这两个名词片语是专有名词，所以前面没有加冠词
+
+   3. 动词时态
+      * 时态即 时间+状态
+      * 简单式：时间由可大可小的括号表明
+         - The U.S. established diplomatic relations with the P.R.C. in 1979 “美国与中华人民共和国于1979年建交”
+            ```
+                 established
+            ---(-------------)------now-->
+                 in 1979
+            ```
+         - I was visiting clients the whole day yesterday. “昨天一天整天我一直在拜访客户”
+            ```
+                         was
+            ---(-------------------------)------now-->
+                 the whole day yesterday 
+            ```
+         - I was watching TV when I heard the doorbell. “我听到门铃声时，我正在看电视”
+            ```
+                         was
+            ---(---------------------------)------now-->
+                 when I heard the doorbell
+            ```
+         - 注意如果时间副词是现在的，或是以 now 为中心的或大或小的括号，就要用现在时间的简单式，甚至可以大到涵盖未来
+            - He is a good person now. “他现在是个不错的人”
+               - 他现在不错，以前他可能不好，未来也可能不好，所以是以现在为中心扩展，用现在式
+               ```
+                   is
+               ---(x)-------->
+                   now
+               ```
+            - All mothers love their children.
+               - 天下的妈妈没有不爱自己小孩的，是古今皆然，所以现在为中心的括号很大
+               ```
+                  love
+               (---x-------->)
+                  now
+               ```
+            - Baidu is selling big cokes at this month. 百度这个月发售可乐
+               ```
+                      is
+               --(----------)----->
+                  this month
+                     now
+               ```
+         - 未来式：时间只是把括号放在 now 的右边
+            - There will be rain in March. “三月将有一次大雨”
+               ```
+                                 will be
+               --------x--------(--------)--->
+                      now        in March
+               ```
+      * 完成式：是以箭头开关来表达时间，表示动作的截止时间，简单式是交代动作发生的时段，而完成式并不对动作发生的时段作明确交代，只表示[曾经]，[有做过]的意思
+         - 现在完成式：截止时间是现在
+            - Im sure I have seen this face somewhere. “我确定我曾看见过这张脸”
+               ```
+                   have seen---------*
+                                     v
+                                   now
+               ---------------------x--->
+               ```
+         - 过去完成式：一般说[有...过]就是[到现在有...过]，所以都是现在完成式，用过去完成式时要有一个过去的截止时间，也就是箭头指在一个过去时间，在那之前就[有...过]
+            - Many soldiers had died from pneumonia before the discovery of penicillin. “发现盘尼西林前，已经有很多士兵死于肺炎”
+               ```
+                had died
+               ------------------x--------------x---->
+                             discovery         now
+                                 ^
+               ------------------*
+               before the discovery
+               ```
+         - 未来完成式：把箭头所指的截止时间移到未来的一个点
+            - Next April,I will have worked here for 20 years.
+            ```
+                   now       while have worked
+            --------x-------(-----------------)--->
+                                 next April
+                                     ^
+                      ---------------*
+                         for 20 years
+            ```
+
+   4. 不定式：to+V 形成的片语叫不定式，有不确定的意义，可表示名词，形容词，补语，但并不是随时都可以任意用
+
+      * 不定式与助动词
+         * 助动词后面根动词原型，助动词和不定式无法表达时间
+         * I am glad to know you.
+            - 实际上可以是 I am glad because I can know you. 而进一步改可以是 I am glad because I am able to know you.
+            - 由于连接 because 的主要子句的主词相同，重复，动词 am 是个空 be 动词，没有意思，因此这两个都省略，但省略后不能构成完整子句，如此就剩 to know
+            - to know 本身也有 able to 的暗示
+         * 不定式与助动词共同点
+            - 后面都要接原型动词
+               - I will go. “我要走了”
+               - I want to go. “我想去”
+            - 都有[不确定]的语气
+               - It may rain any minute. “随时可能下雨”
+               - It might even snow. “说不定还会下雨”
+               - 这两句的 my 和 might 不是表明时态，只是 might 比 may 的可能性更低一些，更拿不准一些
+            - 共同点：不定式与助动词都不能表示时间，都只能用来猜测现在或未来的时间
+               - It must have rained last night. “昨晚一定下雨了”
+                  - must 表示语气，作为助动词后面需要根动词原型，但是不定式无法表示过去，所以由过去完成式表示过去
+               - It seems to have rained last night. “昨晚好像下过雨”
+                  - seems 是现在式，表示[现在看起来]，[现在推测]，可是推测的事是昨天晚上的，是过去的时间，所以下雨是过去式，但 to 后面根原型，那么不定式无法体现，所以用过去完成式表示过去
+            - 结论
+               - 不定式就是由助动词转变而来
+         * 所有的证据助动词可以改为不定式
+            - 词
+               - must -> have to
+               - should -> ought to
+               - will/would -> be going to
+               - can/could -> be able to
+               - may/might -> be likely to
+
+      * 不定式与动名词
+         - plan
+            - The plan to marry next month. “他们计划下个月结婚”
+            - 这里 marry 为什么不改为 marrying 动名词来表示？
+            - 因为 to marry next month 是 (that) they will marry next month 的变化，计划中的事情，是未来式
+            - 再把 they will marry 改为 they are to marry，如果把重复的主词 they 和空的 be 动词 are 省略，就成为了不定词 to marry
+         - avoid
+            - I avoid making the same mistake twice. “我避免犯同样的错误”
+            - 这里用 making 比 to make 恰当，因为 to make 是 will make 的省略，avoid 既然是避免，后面就不应该用 will make（将要做），意思就变得不明不白
+            - avoid 有点带得否定的意思，否定和未来结合会形成不明不白，所以用 making
+         - hate
+            - I hate to say this,but I think you're mistake. “虽然很不愿愿意说，可我不能不说”
+            - 这里的 hate 也有隐匿的否定的意思，但是后面却接的不定式，这是因为这里的 to say 是 I have to say，也就是说是 I must say的变化，经省略可得到 to say
+         - like/dislike
+            - I like to be the first. “我喜欢排第一”
+            - I don't like to wait too long. “我不喜欢等太久”
+            - I dislike standing in long lines. “我讨厌排长队”
+            - 第一句中 to be 实际上是 I can be 的变化
+            - 第二句中 to wait 是 I will wait 的变化（愿意等）
+            - 第三句中 dislike 不喜欢（不喜欢）本身否定，后面不合适接 I will stand in long lines（愿意排长队），所以 dislike 后面接 to stand 就不适合了，所以用 standing...
+         - try
+            - I always try to be on time. “我问题力求准时”
+               - to be on time 可视为 I can be on time 的变化，主要子句 try 有[试图]的不确定意味，所以后面用不定式 to be on time，代表[希望能够准时]
+            - Why don't you try being late for a change? “你为何不故意迟到一次呢？”
+               - 准时不是每次都能够做到的，不可控制的因素太多，所以只能说 I try to be on time，也就是 I try if I can be on time（希望能够，但没把握），
+               - 但是在上面那个句子中，试的事情是[迟到]，是有把握的，就不适合 to be 了
+               - 比如 I try to be late. 
+                  - 是 I try if I can be late 的变化，说话的人努力要迟到，但不知能否成功，所以，回到刚才那句：Why don't you try being late for a change?用 being late 而不用 to be late
+                  - 是表示[迟到]一定做得到，至于动词 try 所暗示的不确定性，现在不在[迟到]一事的本身，而是在[试试看迟到一下的后果会是什么]
+         - remember
+            - Please remember to give me a wake-up call at 6:00 tomorrow. “请记住，明早六点打电话叫我起床”
+            - I remember calling her at 6:00 last night. “我记得昨晚六点有打电话给她”
+            - 前面那句是 Please remember you must give me a call. 因为时间是未来式，因为有这种不确定性，所以要用 must give 或 will give，也就演变为 to give
+            - 第二个句子中 [我确实记得昨晚曾打电话]，也就是 I remember that I called her last night. 这时是确定的事实语气，没有助动词存在，也不能变化不定词，所以只好用动名词 calling
+         - stop
+            - The speaker stopped talking at the second bell. “按第二次铃演讲人才停止发言”
+               - 在这里，talking 可以视为 he was talking 的变化，演讲是一直持续在进行的，然后才停止下来，所以用 talking 来表示动作的持续性
+            - The speaker stopped a second to drink some water. “演讲人停顿一下，喝了些水”
+               - 这句中， to drink 是 (that) he could drink 的变化，整个句子还原 The speaker stopped a second so that he could drink some water.
+               - so that 引导的是副词子句 [为了喝口水]，它是修饰动词 stopped 的原因，改成不定式就成了 to drink some water，这个不定式片语仍然是副词，修饰动词 stopped
+
+         - 使役动词与原形动词
+            - The little girl asked her mother to come to the PTA meeting. “小女孩邀请妈妈来开母妹会”
+               - 可以改为 The little girl asked her mother if her mother would come to the PTA meeting.
+               - ask 是普通动词，邀请人参加，但别人愿不愿意是不确定的，所以会牵涉到语气助动词 would come，这就会变成不定式 to come
+            - The teacher made the little girl stay behind. “老师叫小女孩留下来”
+               - 使役动词与普通动词的差别就在于它有强制性，它的结果是确定的，无从选择的，因为这种确定性，排除了助动词存在的不确定的存在，因而不能用不定式
+               - 如果老师客气地问：Will you stay behind?就会形成下面的叙述：The teacher asked the little girl to stay behind.
+               - 由此可知 let,have,make 等使役动词，后面接原形动词而不能用不定式，因为是强迫性命令，不具备不确定性。但是有些情况后面根的不是原型，放在第六章讲
+                  -  I had my car painted over. “我把车子拿去让人重新漆过了”
+         - 感观动词与原型动词
+            - 因为感观动词所感觉到的是确定的，所以也不能用不定式
+            - 举例
+               - I heard her playing the violin. “我听到她在拉小提琴”
+                  - 如果改为 to play the violin. 那就表示 she would play the violin“她想拉小提琴”，人家想做的事情不可能明确地知道，所以不用不定式
+                  - 注意：I heard her cry out in pain. “我听到她痛得大叫一声”，因为大叫一声并不持续，那么用 crying 就不合适
+
+   5. 动名词
+      - 例句
+         - Let me buy you a drink. “我请你喝一杯”
+            - 这里的 a drink 是普通名词，[一杯酒]
+         - Drinking is his only vice. “喝酒是他唯一的坏习惯”
+            - 这里的 drinking 才能代表喝酒的动作习惯，把这个习惯当做一件事就用动名词，而且保留有持续的[动作]意味
+            - 此外还有很多也是动名词，并保留有持续的意味：skating,mountain-climbing,dancing,jogging 等
+            - 例：I am not afraid of death,but I am scared of dying. “我不怕死，但我怕死的过程”
+               - death 是[死]的名词
+               - dying [是]死的动名词，因为是动名词，带有死的持续性意味，这就是区别
+         - There are two weddings at the restaurant tonight. “这家餐厅今晚有两场婚礼”
+            - 大部分的动名词是不可数名词，可是也有一些是可数的，像例句中的 two weddings，把复数的 -s 加到了 wedding 后面
+            - 不定式却不能有这种复数的表现例如
+
+      - 动名词片语和名词子句的比较
+         - I really enjoyed teaching English to school children at night. “那里我晚上教儿童英语教得很愉快”
+            - 可以还原为：I really enjoyed that I taught English to school children at night.
+            - 通过省略后可以得到两个结果：to teach English... 或 teaching English...（但是只有一个是正确的）
+            - 由全文可知想表达的是确确实实教过英语的这件持续的事件，而不是得到教英语的可能
+            - 那么变形为：that I was teaching English...，然后省略关系代名词，主词，主词对应的动词 was，最后 teaching English...
+
+      - 复合字
+         - Picking strawberries can be fun. “采草苺很好玩”
+            - pick 是动词，相当于省略了主词，原型为：That anybody picks strawberries can be fun.
+         - The picking of strawberries requires patience. “采草苺要有耐心”
+            - pick 前面加了定冠词 the，这样是把 the picking 当做一个名词片语来使用，所以 picking 后面不能再有受词，而要改成介系词片语 of strawberries 作为修饰语，形容 the picking
+         - Strawberry-picking is a strenuous job. “采草苺是很费力的工作”
+            - 是复合字，把 strawberries 拿到动名词 picking 前面，也就是把它放在形容词位置使用，这也是为什么要改成单数原因：英文形容词是没有复数的，
+            - 中间再加上 hyphen，就串通成复合名词 strawberry-picking 这个构造和 mountain-climbing 是相同的
+
+      - 主词不能省略时的处理方式
+         - I don't like that Lilei calls my girlfriend day after day. “我不喜欢李雷每天打电话给我女朋友”
+            - 主要子句主词是 I，受词子句主词是 Lilei，不相同，所以不能省略
+            - 受词子句动词是 calls，不是助动词，所以不能改为不定式，而要用动名词
+            - 如果改为 I don't like calling my girlfriend day after day. 会变成自己不爱打电话给女朋友
+            - 所以把 Lilei 变成形容词形容 calling ... ，那么就变成 Lilei's calling...
+            - 结果是 I don't like Lilei's calling my girlfriend day after day.
+         - 动名词的被动语态
+            - That I was invited here is a great honor. “我被邀来此地，是莫大的荣誉”
+               - 因为明确知道是 I 所以省略 I，剩下 invited here，但是 invited 是形容词，here 是副词，不能作为主语
+               - 为了表述这件事明确的事所以用动名词 invitting，但是被动无法体现，所以要用 be 动词
+               - being invited here，结果为 Being invited here is a great honor.
+         - 动名词与现在分词
+            - 因为都是动词变为 ing 形式，所以难以分辨，需要根据上下文判断
+            - That fling bird is a black-faced spoonbill. “那只在飞的鸟是黑面琵鹭”
+               - flying 出现在 that bird 中间的形容词位置，是现在分词，现在分词都是形容词，强烈暗示[进行]的动作
+               - 可以转换 flying 位置为 That bird is flying. 现在分词可视为形容词补语，而以 be 动词为助动词，不论怎样，都可以看出为现在分词
+            - That flying jacket looks smart on you. “那件飞行装你穿起来很帅”
+               - 这里的 flying 也是放在名词片语中的形容词位置，可它不是现在分词，而是动名词，只是借放在这个位置做复合名词
+               - 把 flying 拿到补语位置：That jacket is flying. 很明显 jacket 不能飞，所以只能当动名词
+               - 如果要检验动名词的话可以变为：That's a jacket for flying. 这样就可以看出来，flying 是动名词，因为 a flying jacket 的意思和 a jacket for flying 相同
+
+   6. 分词
+      - 按粗略的说法，可以把现在分词或过去分词看作 形容词，虽然这样的说法不够严谨，但就一般而言是这样。通常分词出现在：被动，进行式，形容词情况
+      - 现在分词与形容词的关系
+         - That black dog doesn't bite. “那只黑狗不咬人”
+         - A barking dog doesn't bite. “爱叫的狗不咬人”
+            - barking 是放在形容词位置，但是有暗示[正在，一直]这样的持续，就可以视为 -ing 字尾的弦外之音
+            - 许多形容词字尾都有它的弦外之音，像 -full（[很]，full of），例如 useful；-ish（[一点]），例如 grayish；-less（[没，不]），例如 valueless
+            - 同样，-ing 也有弦外之音是[正在，一直]
+         - The dog is black. “那是只黑狗”
+         - the dog is barking. “狗正在叫”
+            - 许多文法把 be + Ving 解释成进行，但是并不完全是这样，比如：A barking dog 也一样是[正在叫]的狗
+      - 过去分词与形容词的关系
+         - 过去分词与现在分词一样，可以出现在两种形容词位置来形容名词，不过它的弦外之音是被动完成的暗示，要加上[被，已经]来解释
+         - The water is clean. “水很干净”
+         - The water is boiled. “水是煮沸过的”
+            - 同理 be + p.p. 是被动，但是这也不是绝对的，也有的情况是完成，以及不要 be 动词也有被动的情况，boiled water 被煮过的水
+            - be + p.p. 不一定是被动，也可能是完成
+         - I can't find my wallet.It's gone. “我找不到皮夹了，它不见了”
+            - 这里的 It's gone. 不能解释为被动，因为 go 是不及物动词，本身没有被动语态可言，所以句型应该如此分析 It is gone.（S+V+C）
+            - 过去分词 gone 是形容词补语，有[完成]的暗示，解释为[跑掉了，不见了]，来形容主词 it
+         - The leaves are all fallen,now that winter is here. “冬天一到，叶子全掉光了”
+            - fallen 也是表示[完成]
+         - 感觉方面的动词
+            - He is disappointed at his scores. “他对分数很失望”
+            - His scores are disappointing. “他的分数令人失望”
+            - 有时候感觉方面的动词用现在分词还是过去分词不确定，可以进行变形分析
+            - His scores disappoint him. “他的分数令他失望”
+               - 这样就比较容易看出来，如果用 He 做主词，应该是被动语态，因为 he 原来是受词的 him，改成被动语态为：He is disappointed at his scores. “他对分数很失望”
+               - 另外，如果用 His scores 做主词，就可以看出来要用主动态，因为 His scores 原来就是主词，于是变成：His scores are disappointing. “他的分数令人失望”
+         - 现在分词与过去分词混合的形态
+            - I have no comment to make while the case is being investigated by police. “本案正由警方调查中，我暂时不予置评”
+               - the case 是主词，is 看作动词，being investigated 看作两个形容词即可
+         - 形容词子句简化的结果
+            - Toys made in China are much better now. “现在中国制造的玩具好多了”
+               - 原句是 Toys which are made in China are much better now.
+               - which 和 Toys 重复，动词是空的 be 动词，去年这两个部分后剩下的分词 made in China 还是形容词类，因而可以减化
+            - Children living in orphanages make a lot of friends. “在孤儿院生活的小朋友可以交很多朋友”
+               - 原句是 Children who are living in orphanages make a lot of friends.
+               - 去掉与主词重复的 who，然后是空义的 are
+            - The vase being auctioned now is a Ming china. “正在拍卖的花瓶是明朝瓷器”
+               - being auctioned 是 which is being auctioned 的简化，其中 being 表示[正在]，auctioned 表示[被拍卖]，如果没有 being，只剩下过去分词 auctioned
+               - 就有[完成]的暗示，读者会认为[已经卖掉了]，加上 being 是为了去除这个误会，增加表达的清楚性
+         - 副词子句简化的结果
+            - 其实就是分词的简化，只是因为在传统文法上分词是形容词，而副词子句是副词，简化之后词类不一致，所以取一个名称来称呼，其实分词在这里起到的是副词的作用
+            - Wounded in war,the soldier was sent home. “在战场受伤的，士兵就被遣送回国”
+               - 实际上是 After/Because he was wounded in war 这个副词子句的简化
+               - he 就是 the woldier，省略，再省略 was，主词没有了也不需要连接词 After/Because，最后剩下 wounded in war
+            - The pigeon,after flying 200 miles,was caught up in a net. “这只鸽子在飞了两百里之后被网子网住了”
+               - 实际上是 after it flew 200 miles. 省略 it，本来也省略 after 的，但是它有意义所以不能省，最后改为 flying...
+            - Having finished the day's work,the secretary went home. “做完一天的工作，秘书回家去了”
+               -实际上是 after it flew 200 miles. 省略 it，本来也省略 after 的，但是它有意义所以不能省，最后改为 flying... 原本是 She had finished the day's work. 简化后 had finished... 由于没有空义的 be 动词，所以改为 having finished...
+
+   7. 形容词
+      - 一般形容词包括：形容词子句，简化形容词子句（包含：分词片语，同位格，不定式），介系词片语，复合字及单字等等
+      - 名词片语中的形容词
+         - 一般放在和限定词与名词中间的形容词
+            - 一般是限定词（像 a,the,this,some,five,John's等字）于名词中间
+            - three yellow roses “三朵黄玫瑰”
+            - a new camera “一架新相机”
+            - my best friend “我最好的朋友”
+         - 放在名词后的形容词
+            - Someone else will have to do it. “另外要有人去做这事”（else 就是修饰 Someone 的）
+               - 因为 some 已经是 one 的形容词了，位置被占据了，所以 else 放在 soneone 后面
+            - I don't know anybody else. “我不认识别的人”（else 修饰 anybody）
+               - 和上一句同理
+            - 一些特殊的 a- 开头的古英文形容词放到名词后面（这种单词比较古老）
+               - John and his brother alike are unreliable. “约翰和他弟弟都不可靠”
+               - Money alone cannot solve our problem. “光靠钱解决不了我们的问题”
+      - 名词转为形容词
+         - a government store “一家公商店”
+         - my pencil sharpener “我的削铅笔机”
+         - government 和 pencil 都是名词，但是一旦放入形容词位置就变成形容词了（注意形容词是不能有复数的，所以该还原的要还原）
+      - 复合字形容词
+         - 单字开关的形容词才能放入名词片语中间的位置，如果是片语开关而要放到名词片语中，就必须先加上 hyphen 制造成复合字，如果原先的片语中有复数的名词存在，还得把 -s 去掉，因为要当形容词单字使用，不能有复数
+         - a turn-of-the-century publication “一册在世纪转换之际出版的作品”
+         - an eye-opening experience “令人大开眼界的经验”
+         - a five-year-old child “一个五岁的小孩”
+      - 名词片语中形容词的顺序
+         - 愈是表达名词属性的形容词要越靠近名词，即愈是不可变的，客观的特质愈要靠近名词；反之，愈是可变的，临时的，主观的因素则愈要远离名词
+         - The murderer left behind a bloody old black Italian leather glove. “凶手丢下一驭沾血，老旧，黑色，意大利的皮手套”
+         - He's wearing a handsome old brown U.S. Air Force leather flying jacket. “他穿一件帅气，陈旧，褐色，美国空军的皮质飞行夹克”
+      - 形容词在名词片语位置与补语位置的比较
+         - 名词片语中的形容词用来表达名词属性，补语位置形容词用以补述关于名词的事项
+         - 补语位置形容词离名词最远，惯用来对名词做一些临时性，补充性的叙述，与表示属性的 attributive adjectives 在证据上颇不相同
+         - John is sick today and couldn't come to work. “今天约翰生病了，不能来上班”(predicative)
+            - sick 放在补语位置，说明病是暂时性的，过了段时候可能会好
+         - John is a sick man. “约翰是个病人”(attributive)
+            - sick 是形容词位置，交代他是个有病的人，可能病得不轻，短时间内还好不了
+      - 补语位置的形容词
+         - This lake is deep. “这个湖很深”
+         - She makes everyone happy. “他让每个人都感到快乐”
+         - Chinese culture is 5,000 years old. “中国文化已有五千年历史”
+         - The fish is still alive. “鱼还活着”
+         - They found the professor alone. “他们见到教授独自一人”
+      - 形容词的比较
+         - Unit 3 is shorter than Unit 4. “第三单元比第四单元短”
+         - Unit 3 is less difficult than Unit 4. “第三单元没第四单元难”
+         - Unit 3 is as boring as Unit 4. “第三单元和第四单元一样无聊”
+      - 定冠词的判断
+         - 一般文法规则是：最高级要加定冠词，但不一定，因为冠词是跟着名词走的
+         - 出现在 名词片语中的形容词前面才可能会有冠词；如果是补语位置的形容词，不存在于名词片语中，自然也没有冠词的问题
+            - Yangming Mountain is crowded. “阳明山众人潮汹涌”
+            - Yangming Mountain is most crowded in March. “阳明山在三月人最多”
+            - 形容词在补语位置，所以不存在冠词情况
+         - 出现在名词片语时的情况
+            - Yangming Mountain is a crowded scenic spot. “阳明山是个游人如线的风景区”
+            - Yangming mountain is the most crowded of Taipei's scenic spots. “阳明山是台北游人最多的风景区”
+            - 第一句，形容词在作为补语的 名词片语中，所以有冠词
+            - 第二句，形容词在作为补语的 名词片语中，但是有范围的限定，即台北风景区中的范围游人最多的那个特指，所以加 the
+         - that 和 those 的使用
+            - My car is bigger than yours. “我的车比你的车大”（因为 car 是重复的，所以用代名词取代，记住不能是 you，因为是车和车比不是车和人比）
+            - Cars made in China are better than those made in Korea. “中国造的车比韩国造的车好”（those 指代复数的 cars）
+         - 比较级的倒装
+            - A chimp has as much I.Q. as a child of five or six does. “黑猩猩的智商相当于五，六岁小孩的智商”（does 取代上文的 has I.Q.）
+               - 因为 does 离 achild 太远，而且中间还隔了 of five or six，不便于清楚济性，所以可以用倒装，例如：
+               - A chimp has as much I.Q. as does a child of five or six.
+
+   8. 副词
+      - 副词是用来修饰名词以外的词类（包括动词，形容词，副词）
+         - 但如果要求周密一些，副词也可以修饰名词，例如：Vegetables,especially spinach,are good for you. “蔬菜，尤其是菠菜，有益健康” （这里的 especially 是副词）
+      - 副词的位置也是比较灵活的，但是要注意避免意思的歧义和头重脚轻
+      - 状态的副词
+         - 典型的是为了修饰动词
+         - 原则上应该与动词接近，通常是放在动词后面，可是，副词是修饰语，属于比较不重要的元素，如果在句中有受词，补语等主要元素存在时，方法，状态的副词就要向后挪
+         - 让受词，补语等元素先出来。如果的后移的结果造成副词与修饰的词太远，也可以把副词放在动词前面
+         - S+V
+            - The child giggled happily under the caress of its mother. “小孩在母亲抚摸下笑得很开心”（happily 是副词）
+         - S+V+C
+            - He kept quiet resolutely. “他坚定地保持沉默”（resolutely 是副词）
+               - He kept resolutely quiet. 会造成语意不清，因为副词也可以修饰形容词，就不清楚修饰 kept 还是修饰 quiet
+               - 如果 resolutely 放在最后也会语意不清
+               - resolutely 放在 He 和 kept 中间是正确的
+         - S+V+O
+            - He kissed the girl tenderly. “他温柔地吻了那个女孩”
+            - He passionately kissed the girl living next door. “他热情地吻了那个住隔壁的女孩”
+               - passionately 放在结尾会产生修饰 living 的误导
+               - passionately 放在 
+               - girl 和 living 中间同样会误导修饰 living
+               - 所以综上所述放在 kissed 前面合适
+         - S+V+O+O
+            - He showed us the document reluctantly. “他很不情愿地把文件拿给我们看”
+               - reluctantly 可以放到 He 和 showed 中间
+         - S+V+O+C
+            - They elected him chirman unanimously. “他们全体一致推选他出任主席”
+            - I happily promounce you man and wife. “我很高兴宣布你们结为夫妇”
+               - 之所以 happily 没有放在后面，是因为这里需要着重把 高兴 的心情表现出来，所以放在前面
+               - 如果放在结尾，距离和 promouce 过远，语气就会比较冷淡
+      - 强调语气的副词
+         0. 在使用上比较有弹性，名词，动词，形容词与副词都可以修饰
+         1. 强调范围的副词
+            - 这类词不多，典型的 only,merely,also,especially,particularly,even 等字就是这一类
+            - I heard about the accident yesterday. “我昨天听说了这件意外”
+            - Only I heard about the accident yesterday. “只有我是昨天听说这件意外的”(No one else did.)
+            - I only heard about the accident yesterday.“我昨天只是听说了这件意外”(I didn't see it)
+            - I heard about only the accident yesterday. “我昨天全听人在讲这件意外”(I didn't hear anything else)
+            - I heard about the accident only yesterday. “我直到昨天才听说这件事”(I didn't hear about it earlier)
+            - 总结
+               - 这几个例子中，only 分别修饰代名词，动词，名词 the accident 与 副词 yesterday，可是都一样是当副词使用
+         2. 加强语气的副词
+            - 最典型的 intensifiers，它同样也是可以修饰四种主要词类，包括名词在内，它的位置通常要放在修饰对象的前面，请看
+            - He is very much his father's son. “他和他爸爸一个调调”(very much 是副词)
+            - I badly need a drink. “我急需喝一杯”
+         3. 程度副词
+            - 和加强语气的副词很像，但是程度副词是用来做[有变成]的表示，而非加强语气，所以如果把加强语气的副词去掉，只是语气变弱，意思不会变。但是如果拿掉程度副词，意思则可能发生改变
+            - The project is almost finished. “计划已经差不多完成了”（如果去掉 almost 就会变成已经完成了）
+            - You can buy practically anything at a mall. “在购物中心几乎什么都买得到”（practically 去掉就变成什么都可以买得到而没有例外了）
+            - The promotion was moderately successful. “促销活动还算成功”（去掉 moderately 就变成绝对的成功了）
+
+      - 修饰句子的副词
+         - 分为连接副词 和 分离副词，这两类副词的位置，通常是放在句首，可是也可以挪到主词，动词中间，甚至放到句尾，无论在哪里，都需要有逗点把它和句子隔离开
+         - 连接副词
+            - 很像连接词，它可以连接两句话间的逻辑关系，可是缺乏连接词的文法功能，所以要用标点来帮忙，它变化也很简单
+            - Jomkie is brilliant. “Jomkie 光芒四射”
+            - Jomkie,however,is lousy. “Jomkie却很烂”(however 是 adv.)
+            - Therefore,the film is less than perfect. “影片因而并非十全十美”(Therefore 是 adv.)
+            - It is still a good movie;besides,good romances are rare these days. “这部片还不错，况且近来好的文艺片不多了”(besides 是 adv.)
+         - 分离副词
+            - 把它归于修饰句子的副词是方便的方法，严格说起来，它应该是属于修饰另一句话的方法，状态副词
+            - Scientifically,the experiment was a success. “从科学的角度来说，这个实验成功了”(Scientifically 是 adv.)
+               - 固然 scientifically 可以说是修饰全句，可是深入一点来看，这个句子是下面的这句的省略
+               - Scientifically speaking,the experiment was a success. 这个副词实际上是修饰的动词 speak 的方法状态副词，更进一步把简化子句还原成下面的原貌
+               - If we are speaking scientifically,the experiment was a success. 
+                  - 这个例子可以看出，原来有两句话，第一句被简化只剩一个方法，状态副词 scientifically，修饰怎么说。再附在第二句上
+            - You're not answering my questions honestly. “你并没有老实回答我”
+               - 这一句的 honestly 是单纯的方法，状态副词，修饰动词 answer
+            - Honestly,what are you going to do about it? “老实说，你打算如何处置呢？”
+               - 这一句的 honestly 则是分离副词，原本是 honestly speaking，它是简化子句的残余，可以为方便起见归于修饰全句的副词类
+
+   9. 语气
+      - 类别
+         - 叙述事实语气：表示所说的是真的
+         - 条件语气：表示真假还不能确定
+         - 假设语气：说反话，表示所说的与事实相反
+         - 祈使语气：表示希望能成真，但尚未实现
+      - 分析
+         1. 叙述事实语气
+            - 必须要说明的是未来式，因为其它形式都是确定的 
+               1. I will go to the U.S. next year to study for an MBA degree. “我明年要到美国去停飞企管硕士”
+                  - 只有未来式是不确定的，这就是未来式为什么要加助动词 will，因为助动词带有不确定的语气，上例中如果说是事实语气，
+                  - 只能说我们确实有这个打算，计划到时候要去，至于明年会不会有变化，无法预料
+               2. The weatherman says sunrise tomorrow is at 5:32. “气象报告说明天日出是五点三十二分”
+                  - 虽然明天的日出，时间还没有到，可是日出的时间可以用公式算出来，因为地球不会停止转动，也不会忽快忽慢，
+                  - 所以[明天日出在几点]可以当作事实来叙述，不必加上有不确定语气的 will
+               3. The movie starts in 5 minutes. “电影还有五分钟开演”
+                  - 同样的，虽然还没有开始演，可是时间上排好了，[再过几分钟开演]就可以说为事实，不必用未来式的 will 来表示了
+               4. I'll be ready when he comes. “他来的时候我会有万全的准备”
+                  - 虽然都是未来的事，而两者之间有时间或条件的关联性，往往其中一件（副词子句中的那件）要改成现在式。
+                  - 这是因为两件未来的事情都不确定，需要先假设其中一件是事实，已经发生，在这个确定的基础上，才能推论另一件事
+                  - 上例中的 when he comes 就是假定[他来]是确定的，用表示确定证据的现在式 comes 来叙述，然后才能论[到那时我会有准备]
+               5. If you are late again,you'll be fired. “你再以致就会被炒鱿鱼”
+                  - 和上一个例子同理，但是因为叙述事实的语气不适合用助动词，所以用了 if 表示
+         2. 条件语气
+            - 举例
+               - You are right. “你是对的”
+               - You may be right. “你可能是对的”
+                  - 例1中是以现在式来叙述事实语气，例2中因为加上了助动词 may，就产生了不确定性
+            - 表达时间功能的不完善
+               - 语气助动词中，must 和 should 这两个字在拼法上没有变化，至于 will/would, can/could, may/might 这三对，虽然拼法有变化，可是并不表示时间，而是语气的变化
+               - The doctor thinks it can be fever. “医生认为可能是感冒”
+                  - can be 是不确定语气，表示有这个可能，但还不一定
+               - It could be anything--AIDS or a common cold. “还看不出来是什么病--可能是爱滋，也可能是感冒”
+                  - could be 并不表示过去，和上一句时间一致，都是现在式，差别在于 could 比 can 更加不确定一些
+            - 用完成式表达对过去时间的猜测
+               - It may rain any minute now. “随时可能会开始下雨”
+                  - may 只能表示猜测，不能体现时间，而 might 只能表示更没有把握
+               - It may have rained a little last night. “昨晚可能下过一点雨”
+                  - 有了现在完成式表达过去的猜测，如果猜测的是过去的过去则用过去完成式
+         3. 假设语气
+            - 这是一种[说反话]的语气，表示所说的话和事实相反，这种语气是以动词的过去形态作为表达[非事实]的手段
+               1. 现在时间
+                  - If I were you,I wouldn't do it. “假如我是你，我就不干”
+                  - 当然，我不可能是你，所以不能用叙述事实的语气 I am you 来表达。假设证据是动词的过去形态来表示非事实，因此用 I were you
+                  - 连带主要子句中也用过去形态但不代表过去时间的 would 来表示非事实，而成为 wouldn't do 的动词形态
+                  - 这句话选择用非事实的假设语气来说，是为了使语气更缓和，以委婉的口吻告诉对方不要做
+               2. 过去时间
+                  - If I had know earlier,I might have done something. “如果我早知道的话，也许早就采取一些行动了”
+                  - 这个句子的时间是过去时间，earlier 表示从前，真正的事实是从前并不知道，假如知道的话，这就是非事实
+                  - 因为时间本来是过去，若还要用过去形态表达非事实语气，必须用过去完成形态 had known，同样主要子句中也用过去完成式
+                  - 这句用非事实的假设语气来说，是为了表示惋惜，懊恼[为什么不知道呢]
+               3. 未来时间
+                  - If an asteroid should hit the earth,man could die out. “如果小行星撞击地球，人类可能会灭绝”
+                  - 这是未来的事情，严格来说还不确定，但是发生的可能性低，所以可以用非事实语气来叙述，条件子句中用了过去形态但不代表过去式的 should hit 来表示非事实
+                  - 主要子句中也是用 could die 来表示非事实
+                  - 如果是绝无可能发生的事，还有另一种表达方式：
+                     - If I were to take the birbe,I could never look at other people in the eye again. “我要是收下那笔贿款，就再也不能面对别人而问心无愧了”
+                     - 这是解释为什么你绝不可能去收贿的理由，用 be going to 的过去形态 were to 来表示未来也绝不会去做
+                  - If I sould take the money,could you guarantee secrecy? “万一我收下钱，你能保证守密吗？”
+                     - 如果用的是 should，语气就比较松动，表示应该会发生的可能，但不排除万一
+            - 假设语气的归纳
+               1. 句型规律
+                  - 在例1,2,3 中是由 if 引导的句子，表示现在和过去时间的（例1和例2）都没有助动词存在，因为要先把假设的条件当真，所以不能用到不确定的意味的助动词
+                  - 只有未来时间，因为尚未发生，无法完全排除不确定因素，所以用 should 来表示可能性极小的状况，这是条件子句中唯一会见到的助动词的地方
+                  - 绝无可能的状况用 were to 来表示
+               2. 动词的规律
+                  - 假设语气的动词都是过去形态来表示非事实，若是现在时间就退后成过去式形态；过去时间也就退一步成为过去完成式；而未来时间则是两个子句都用过去拼法的助动词表示
+               3. 混合时间的表示
+                  - 假设语气的两个子句之间，时间可能不同，分别判断
+                  - If I had studied harder in school,I could qualify for the job now. “我在学校时要是有好好念书，现在就可以符合这项工作的要求了”
+                     - 条件子句是过去时间（在学校时）的假设语气，要退后成过去完成式表示非事实。可是主要子句是现在时间，只要用过去拼法 could 就可以表达非事实了，不需要用到 过去+完成
+               4. 混合真假的变化
+                  - 在假设语气中，两个子句间的真假也可能不同
+                  - I could have contributed to the fund drive then,only that I didn't have any money with me. “我当时本来可以响应募款活动的，不过身上没带钱”
+                     - 这两个都是过去时间，前面的是主要子句，非事实，所以用 过去+完成表示，后面的子句虽然时间相同，可是[没带钱]是事实，所以不必改动语气，直接用过去简单式 didn't have 就可以了
+               5. 句型的变化
+                  - 假设语气的句型很可能不是规规矩矩的[条件子句+主要子句]的形态，例如：
+                  - It's time you kids were in bed. “你们这些小鬼现在该躺在床上了”
+                     - 主要子句 it is time 是事实：上床时间是真的到了，所以用现在简单式，从属子句（不是条件子句）则是非事实：小孩们都还没上床，所以用过去拼法的 were in bed 来表示非事实语气
+                  - If only I had more time! ”要是时间多一点有多好！”
+                     - 这是现在时间的假设语气，可是只留下条件子句，把整个主要子句省略掉了（有时间就可以如何，并没有交待）
+                  - I wish I had more time! “真希望时间能多一点”
+                     - 主要子句是事实：我真希望，所以用现在简单式 I wish。受词子句（不是条件子句）则是非事实：时间并不能多出来，所以要爱情片过去式的假设语气 had 来表示
+         4. 祈使语气
+            - 祈使语句又称为命令句，这种语气可视为条件语气中，省略助动词表示[希望能成真，但尚未实现]，例如：Come in!可以视为 You may come in! 的省略
+            - The court demands that the wintness leave the courtroom. “法官要求证人离开法庭”
+               - 这里是对法官说的话进行一种表述，如果是法官直接对证人说会是：(You must)Leave the courtroom. “离开法庭”
+               - 因为经由第三方转述这个命令，主词已经不是 you，不能省略，但这仍然是命令语气，还不是事实，所以仍然省略掉 must，用原形动词 leave 来表示命令语气
+            - There is a strong expectation among the public that someone take responsibility for the disaster. “民众强烈期望有人为这件灾难负起责任”
+               - 这是一个期望，还不是事实（目前还没有人表示要负责），所以是祈使句的语气，要用原形动词 take 表示
+            - 一般文法书上是列出一些规则，像是：
+               - It is necessary that...（有必要...）
+               - I insist that...（我坚持...）
+               - 这些句型后面要用原形动词，一方面这些免刑无法列得周全，另一方面也没有说明原因，所以许多读者一直不能真正了解，其实这就是一种命令句，所以把它称为[间接命令]，放在祈使语气中
+
+   10. 介系词
+      - 介系词片语：由介系词加上一个名词片语所构成的意义单元，在句中常被当做修饰语（形容词片语或副词片语 ），用来修饰名词，动词，形容词与副词等各种词类，位置通常在被修饰对象后面
+         - Cherries are in season now. “现在正是樱桃盛产的季节”(in season 是介系词片语 修饰 Cherries 名词)
+         - Eggs are sold by the dozen. “鸡蛋一打一打地出售”(by the dozen 是介系词片语 修饰 are sold 动词)
+         - The box is full of chocolates. “盒子里装潢了巧克力”(of chocolates 是介系词片语 修饰 full 形容词)
+         - He'll return tomorrow at the latest. “他最晚明天回来”(at the latest 是介系词片语 修饰 tomorrow 副词）
+      - 空间介系词：空间介系词大致分为 点，线，面，体四类探讨
+         - 点，一般用 at
+            - Let's meet at the railway station. “我们火车站见”(at 介系词，对应 点)
+         - 线，一般用 on,along
+            - The we can go over the project on our way to Chongqing. “这样，我们可以在去重庆的路上商量计划”(on 介系词，对应 线)
+            - We may go walking through the windy park,or drive along the beach. “我们或者步行穿过风很大的公园，或者是沿者海滩开车”(along 介词，对应 线)
+         - 面，一般般用 on
+            - Several boats can be seen on the lake. “湖上有几条船”(on 介系词，对应 面)
+         - 体，一般用 in
+            - It's cool in the railway station because they have air conditioning there. “火车站凉爽怡人，因为有空间”(in 介系词，对应体)
+      - 时间介系词
+         - at 表示[点]，以in表示[长时间]，以on表示出特定日期
+         - The earthquake struck at 5:27 A.M. “地震发生在凌晨五时二十七分”
+         - Typhoons seldom come in winter. “台风很少在冬天来袭”
+         - There'll be a party on birth Day. “在生日那天会有场派对”
+      - 介系词的分辨
+         1. on one's way/in one's way
+            - He's on his way to Chongqing. “他已上路，要赶往重庆”（由于是前往重庆的线路，所以对应空间介系词 on）
+            - Step aside!You're in my way! “闪开！你挡住我的路了！”（因为路是是空间的体，所以对应空间介系词 in）
+         2. arrive in/arrive at
+            - 一般文法是按大地名用in，小地名用at，但是不准确，应该用in与at是[体]与[点]的关系
+            - We'll arrive at Chongqing in 5 minutes,where we'll refuel before flying on to Shandong. “飞机将在五分钟之后到达重庆，加油后继续飞往山东”
+               - Chongqing 是个市，肯定大，但是它只是作为飞机飞向山东目的地的中途一个加油站的点，所以介系词用 at
+            - The home-coming hero arrived in town and was greeted by the crowd gathered along Main Street. “英雄凯旋回到故乡小镇，受到群众在大街旁夹道欢迎”
+               - 这个小镇，比 Honolulu 小得多，可是它是这个英雄进入的地方，因而被视为立体的空间，用 in
+         3. make of/make from
+               - 许多文法说，制造过程中产生犥变化用 made of，产生化学变化用 made from，但这说法不准确。
+               - These shoes were made from rubber tires. “这些鞋子是用橡皮轮胎做的”
+                  - 橡皮轮胎拿来做鞋子，不过是进行剪缝而已，过程中没有化学变化，可是还是用 from
+                  - 因为 of 的意思比较直接，接近中文的[...的]，a chair made of wood 是木头做的椅子，在椅子中可以得到木头材料，比较直接，用 of
+                  - from 有[出自于...]的意思，比较有距离。酒中看不到葡萄，所以用 from
+                  - 鞋子是由轮胎改造，比较间接，而且鞋子中看不出轮胎，所以用 from
+         4. between/among
+            - 一般文法说 between 是两者之间，among 是三者或以上之间，但也不完全准确。这两者差别在于 between 有标示位置功能，among 则没有
+            - Taichung lies between Taipei and Tainan. “台中位于台北与台南之间”（有位置的暗示）
+            - Among the major cities in Taiwan.Taichung is the cleanest. “在台湾主要城市中，台中是最干净的”（没有位置的暗示）
+            - Taipei lies between Taoyuan,Yilan and Keelung. “台北位于桃园，宜关和基隆之间”（between 后面有三个地名，可是仍然使用，因为有体现位置的暗示）
+         5. throw to/throw at
+            - I forgot my keys.Please get them at my desk and throw them to me. “我忘记带钥匙了，请从我桌上拿来扔给我”（有交待别人朝你扔，有方向性）
+            - the kids are throwing rocks at the poor dog. “小孩子往那可怜的狗身上扔石头”（只叙述了扔石头在狗身上，没有暗示向狗扔的方向）
+         6. from...to/from...through
+            - The circus will be here four months,from May to September. “马戏团在这里表演四个月，从五月到九月”
+               - 由五月到九月，没有讲明日期，可能是五月中到九月中，所以大概是四个月
+            - The circus will be here five months,from May through September. “马戏团要在这里表演五个月，从五月一直到九月”
+               - through 是[穿过]，所以用来表示起始时间，意思是[头，尾皆包括在内]，所以是五月一日到九月三十日，包含整个五月和九月，因而是五个月的时间
+         7. above/over
+            - above 表示相对高度超过，over则有标示定点的功能
+            - Mt.Everest soars above all other peaks in the Alps. “埃佛勒斯峰比阿尔卑斯山的其他山峰都要高”（这里的 above 就表示[比较高]
+            - The little child coundn't keep the umbrella over his head and soon got wet. “那个小孩不能把伞撑在头顶，不一会儿就淋湿了”（这里的 over 是定点在头上方）
+         8. below/under
+            - below 表示相对高低，而 under 则表示定点的功能
+            - The submarine is below the surface now. “潜艇在水面以下了”（这里只是比较于水面在相对的下面）
+            - Watch out!There's a dog under your car. “小心！车下有只狗”（这是是定点的在车下）
+
+   11. 主词动词一致性
+      - 主词是一个还是两个
+         - 比较级连接词 than 和 as 的判断
+            - 例1
+               - Your brother John has come to see you.（这里的 Your brother 和 John 是同一个人，所以用三单）
+               - Your brother and John have come to see you.（这里的 Your brother 和 John 是两个由 and 连接的词是复数，所以用 have）
+            - 例2
+               - The senator and delegate wants to make an announcement.（这里的 deletate 没有冠词，所以 The senator and delegate 指的是作为代表的参议员）
+               - The senator and the delegate want to make an announcement.（这里的因为两个都有 the，所以表示这个参议员和这个代表，是复数）
+               - senator 是参议员，delegate 是代表
+            - 例3
+               - Every man and very woman.（两种性别都用了限定词，这一看是复数，但是every是为了加强语气，是指的无论男女的[每一个人]，所以是单数）
+            - 例4
+               - A brown and white dog is at your doorsteps.（white 没有用限定词，A brown and white dog 表示棕白色的狗）
+               - A brown and a white dog are at your doorsteps.（两种颜色都用了限定词，所以是一只棕狗和一只白狗）
+            - 例5
+               - Bread and butter is not very tasty but very filling.
+               - Bread and butter have both risen in price.
+               - bread 和 butter 都不可数，使用零冠词，因而看不出限定词，只能通过意思判断
+               - 第一句，表示尝起来不那么好吃但是能吃饱，表明这是有黄油的面包，意思判断是单数
+               - 第二句，面包，黄油双双涨价，所以意思判断是复数
+            - 例6
+               - Oil and water do not mix. “油和水不能融合”
+               - 油和水[两种物质]不能混合，所以总体意思是复数
+            - 例7
+               - You want to borrow money?But I,as well as you,am broke.
+               - 这个句子可以还原完整：I am broke as well as you are.
+               - 名中，第二个 as 就是比较级的连接词，前面的 I am broke 是主要子句，后面的 you are 是从属子句
+               - 后者在比较级简化时可以把 be 动词省略，成为 as well as you，再把它向前移动，就变成了 I,as well as you
+            - 例8
+               - I,no less than you,am responsible.
+               - 这个句子可以还原：I am no less responsible than you are.
+               - 同样，no less than you are 这个比较级的句子可以简化，省略 are，再往前移，所以所以动词也应该依它的主词 I 而定
+         - 对等连接词 but,or 的情形
+            0. but 这种连接词表达相反关系，连接的两部分通常是一个肯定，一个否定，在主词中否定的部分等于被排除掉，动词要视肯定的部分而定
+            1. Everyone but a few complete idiots was abl to see that.（主词中 but 来连接，等于排除掉后面的 a few complete idiots，因而动词视 everyone 而定）
+            2. The eggs,not the hen,were stolen.（虽然没有 but，但是意思与 the eggs but not then hen相同，所以动词根 the egges）
+            3. Not only you but also I was at fault.（不仅..而且...，语气更偏向于 I，所以否掉了 you，而肯定了 I，所以用 was）
+            4. Either my father alone or both my parents are coming.（到底是父亲一个人回来还是父母都回来了，没有暗示，只知道不会同时发生，所以以靠近动词的部分 both my parents 做主词）
+            5. Neither he nor his friends were there at that time.（同上一句差不多）
+            6. Does he or his friends want to go?（这里是疑问，负责交代一致性助动词靠近前面的 he，所以选 he 做主词）
+         - 主词中有 every,each,either,neither等表示[一]的字眼时，只要有这些表示[一]的字眼在，后面有名词的话就得使用单数名词，做主词时也就得用单数动词配合
+            - Everybody is to report here tomorrow. “每个人明天都要在这里报道”
+            - Every student has several chapters to report on.
+            - Each has to make a five-minute speech.
+            - You have to make a five-minute speech each. “你们必须每人2做五分钟的演讲”（这里的 each 是修饰语，主词是表示你们的 you，所以用复数）
+            - Each of you is responsible for half of the job. “你们每个人都对这个工作有一半的责任”（这时主词是 each，原来的 you 变成介系词of的受词，既然 each 当主词，就是单数）
+         - 主词是关系代名词时
+            - 关系代名词代表先行词，它本身没有单复数之的变化，作主词时完全要看它代表的先行词是什么
+            - I don't trust people who talk too much.（还原是 they talk too much，其中they指的是前面的 people，所以动词等于是由 people 决定）
+            - 重点
+               - He has three options,which look equally attractive.
+               - He has three options,which is a good thing.
+               - 第一句的 which 是代表先行词 three options，原意是[看起来都一样吸引人]可以判断出来，因此它的动词应该是复数
+               - 第二句的 which 解释为 he has three options 这件事，是个整体，所以看作单数
+            - It was the Johnson boys who were here last night.
+               - 这句中 was ，虽然指的是 Johnson boys，但是毕竟要随主词 It，所以是单数
+               - 这句中 were 是Johnson boys 都在这里，所以用复数
+            - 以单位作主词
+               - 度量衡，时间，金钱等单位常以复数形式出现，做主词时不一定要当复数看
+               - He makes eighty thousand dollars a year,which is a lot of money. “他每年要用80万美元，那是很多的钱”（把80万当做一个整体的一笔钱，所以用单数）
+               - Ten seconds is quite a record for the 100-meter dash.（Ten seconds 是百米跑的一项记录，并不是[十个一秒钟]，所以用单数
+         - 主词后面有介系词片语
+            - 一般来说，介系词片语并不能影响主词是单数还是复数，所以在判断一致性时可以不去管它，不过还是有些状况需要留意
+            - 一般情形
+               - Mrs.Lindsey,together with her sons,is on a European tour.
+                 - 句中 her sons 是介系词 with 的受词，主词只有 Mrs.Lindsey，所以虽然意思上是都去了，不过这句主要在交代[这位太太]做了什么，所以用单数
+               - The use of computers in business is now almost inevitable.（主词是 use，所以用单数）
+               - There is a list of things to buy in the handbag.（主词是 a list，所以用单数）
+            - 主词为空的字眼时
+               - All of these are Lishan pears.（主词是 all 看不出什么，后面是 of these（指梨山的梨子），就是复数）
+               - All of the money has been spent.（主词是 all 看不出什么，后面是 of the money，就是单数）
+               - All but one of the pears are ripe.（主词中有对等连接词but，它否定掉后面的 one，留下前面的all做主词，而all的内容由of the pears 可看出是复数，所以用复数）
+               - A lot of the pears are damaged.
+               - A lot of time has been wasted.
+               - Half of the pears still look good.
+               - Half of this pear is rotten.
+               - Some of the cost is in transportation.
+               - None of the pears is/are really good to eat.
+                  - none 是 not one,形状与意思都是单数，可采单数动词，不过它也可算是空的字眼
+                  - 由后面的复数 of the pears 决定它为复数，所以这个字当主词时，单，复数动词都可以
+            - a number /the number
+               - the number 就是 that number，指的是一个数字，所以是单数。a number，[某个数目的...]，则是指若干个可以数得出数目的东西，所以要用复数动词
+               - The number of people in the demonstration is five thousand.（the number 和 five thousand 的意思，为数目字，所以当主词用单数）
+               - A number of people have brought eggs to throw.（a number of people 则相当于 some people，要用复数）
+            - pair of... 的判断
+               - 英文里有些东西习惯用 a pair of 来表示，如果主词是 a pair，就是 one pair，那么用单数
+                  - A pair of pants is hanging on the wall.
+               - 不过英文里用 apair 表示的东西，像是shoes,glasses,trousers,scissors等等，也可以直接说these shoes...等，这时当然用复数
+                  - these pants are very fancy.（these pants 看不出是一条裤子还是几条裤子，因为同样都要用复数形）
+         - 集合名词
+            - 常见的有 staff,faculty,family,police 等，这种词表示[一个单位，集团]当然用单数，但是不加 -s 而用来表示单位内的[成员]时，要用复数
+            - My family is big. “我的家庭很大”
+            - My family are all tall. 我的家人都很高
+         - 一些 s 结尾的名词
+            - 名词字尾的 s 不见得是复数，有些反而只能用单数形，像有些代表学科，疾病字眼经常是如此
+            - Mathematics is my forte. “数学我最拿手”
+            - Mumps primarily attacks children. “腮腺炎好发于儿童”
+            - Statistics was born in the gambling house.（Statistics 代表[统计学]）
+            - the statistics are not all accurate. “统计并非全都正确”（这时 statistics 代表一批统计数字）
+
+   12. 名词子句
+      - 概念
+         - 如果是两个各自能够独立的单句，中间以 and,but,or 等连接词连起来，两句之间维持平行，对称的关系，没有主，从之分，称为合句或对等子句
+            - 例如：Girls like dolls,but boys like robots. “女生喜欢洋娃娃，男生喜欢机器人”
+         - 一个句子当做名词，形容词或副词放到另一个句子中使用，另一个句子叫做主要子句，而当做的句子是从属子句
+         - 名词子句
+            - I know something. 与 I am right. 合并为 I know that I am right. “我知道我是对的”
+         - 形容词子句
+            - My father is a man. 与 He always keeps his word. 合并 My father is a man who always keeps his word. “我父亲是个信守诺言的人”
+         - 副词子句
+            - He works hard. 与 He's in need of money. 合并 He works hard because he's in need of money. “他勤奋工作，因为需要钱”
+      - 名词子句
+         - 典型的名词子句具有以下几点特色
+            1. 本身原来是一个完整独立的单句
+            2. 前面加鬥连接词 that，这个连接词没有意义，具有文法功能，表示后面跟着一个名词子句
+            3. 名词子句须放在主要子句的名词位置，主词，受词，补语，同位格等位置，当做名词使用
+         - 主词位置
+            - Something is strange. 合并 He didn't show up on time. That he didn't show up on time is strange.
+               - 变化为 It's strange that he didn't show up on time.“真是奇怪他没有来”
+               - 名词子句如果很长，直接放主主词位置使用时，可能会头重脚轻，所以可以用 it 这个虚字填入主词位置
+         - 受词位置
+            - The defendant said something. 合并 He didn't do it. 为 The defendant said that he didn't do it. “被告说那不是他做的”
+               - 如果名词子句放在及物动词之后是可以省略 that 的，因为 that 是一个没有具体意思的
+               - The defendant said he didn't do it.
+            - I find shomething strange. 合并 He didn't show up on time. 为 I find it strange that he didn't show up on time. “我觉得奇怪，他竟然没有准时来”
+               - He didn't show up on time 就是受词 shomething 的内容，可以加上连接词 that，成为名词子句，放入 something 的位置作受词使用
+               - 可是它后面还有一个补语 strange，如果受词的子句太长，又会头重脚轻，所以还是借用虚字 it 暂时代受词位置，将子句转移，成为结果
+            - 注意 He didn't show up is strange. （X）
+               - 这句不对，因为没有从属连接词，读者会以为 He didn't show up 是主要子句，再看到后面的 is strange 会觉得奇怪
+         - 补语位置
+            - The car is ruined. 和 The important thing is that we're all right. “车子报销了，重要的是我们都安然无恙”
+               - 名词类的主词补语与主词之间是全等关系，也就是 the important thing = we're all right.
+               - 把 we're all right 前面加上连接词 that 表示那件事情作为名词子句，放在 be 动词后面的补语位置，和主词 the important thing（重要的事情）全等，就成为一个复句
+               - 名词子句放在补语位置，只要不会产生断句的困难或意思混淆，仍然可以省略连接词 that，例如上面这句就可以变为：
+               - the important thing is we're all right.
+         - 同位格位置
+            - 等看过后对[简化子句]的探讨，同位格就是形容词子句简化之后所留下的补语，这是后话，目前不妨接受传统文法中的[同位格]一词
+            - The story that he once killed a man might just be true. “他杀过人这件事极有可能是真的”
+               - that he once killed a man 是 the story 的同位格
+            - I am afraid that I can't help you. “对不起，我帮不了你”
+               - 从 I am afraid 中看不出有任何名词位置可以放这个名词子句，原来这中间经过省略
+               - 原句是 I am afraid of that thing. 和 I can't help you 的合并
+               - that thing 没有意义
+               - that thing 与 that I can't help you 重复
+               - of that thing 是可有可无的介系词片语
+               - 于是将 of that thing 省略掉，成为：I am afraid that I can't help you.
+            - You'd better take care that nothing goes wrong. “你最好小心，别出错”
+               - 这个句子的受词是 care，是 S+V+O 的句型，同样没有位置可以放名词子句，但是可以视为下面两句的结合
+               - You'd better take care of that thing 与 Nothing goes wrong.
+               - Nothing goes wrong 加上 that 成为名词子句，可以放在 that thing 后面作为同位格，再把 of that thing 这个介系词片语省略成为
+               - You'd better take care that nothing goes wrong.
+               - 句中连接词 that 省略掉，也不影响句意或造成不清楚，所以可以省略
+      - 名词子句的放大
+         - 名词子句的内容，有时比主要子句重要，这时可以选择把名词子句当成主要子句处理，反而把主要子句缩小，放入括弧性的逗点当中，例如
+            - this is your last offer.I suppose? “我想这就是你们的最后报价吧？”
+               - 还原：I suppose that this is your last offer?
+               - 可以看出主要子句是 I suppose shomething，而从属子句是 that time is your last offer，后者是重要的内容所在 
+               - 却在从属的位置，有点本末倒置，所以加大放大处理，把连接词 that 省略掉，再移到前面，使它看起来像主要子句
+               - 再把 I suppose 往后移到比较不重要的位置，放到逗点后
+            - 引用句也可比照办理，而且可以倒装（动词调到主词前面）
+               - The earthquake was a 6.9,said Mr.Li,Director of the Yangmingshan Geological Observatory. “地震六点九级，阳明山地质观测站主任李博士表示”（注意1）
+                  - 句子原本是这样的 Mr.Li,Director of the Yangmingshan Geological Observatory,said that the earthquake was a 6.9.（注意2）
+                  - 句子，地震几级是重点，谁说的并不重要，可是在注意2中 that the earthquake was a 6.9 是从属的名词子句，被放到句尾，没有获得应有的强调
+                  - 所以把它放大处理，省略掉 that，移到句首，使它看起来像主要子句，成为这个形状：
+                  - The earthquake was a 6.9,Mr.Li,Derector of the Yangmingshan Geological Observatory,said.（注意3）
+                  - 这个句子固然给予名词子句应有的强调，可是主词 Mr.Li 与动词 said 之间距离太远，动词又与受词的名词子句距离太远，修饰效果不佳。
+                  - 如果把动词倒装到主词前面，成为 注意1 就可以解决这个问题
+         - 疑问句改装的名词子句
+            - 典型的名词子句是外加连接词 that，表示[那件事情](that thing)；另外，以疑问词(who, what, when 等)引导的疑问句，也可以改装成名词子句，代表一个问题，例如
+            - I know the question 合并 Who are you? 为 I know who you are. “我知道你是谁”
+               - 疑问词 who 当连接词用，不必再加连接词，直接把这个子句放入例子中的 the question 的位置，作为 know 的受词，即成为复合句
+            - The question is anybody's guess. 合并 When will the bomb go off? 为 When the bomb will go off is anybody's guess. “炸弹什么时候会爆炸没有人知道”
+               - when the bomb will go off 当当与替代了 the question
+            - whether 和 if
+               - 疑问句改装的名词子句中比较特别的是由 whether 引导的名词子句，whether 并不能独立当做疑问词来引导一个带问号的疑问句，可是它可以引导代表一个问题的名词子句
+               - I can't tell which. 合并 Either he's telling the truth or he's not 为 I can't tell whether he's telling the truth or not. “我不知道他有没有说真话”
+                  - which [是哪一个]也代表一个问题：他是在说真话还是在骗人？把后半句的这两项选择(either...or)放入前半句中的受词位置，再把 which 和 either 结合就成为
+                  - whether，可以用来引导其后的子句作为名词子句，当作 tell 的受词使用，成为复合句
+                  - 这句的 whether 也可以改为 if，在大多数情况下可以互换，但是在句首位置以及介系词后面就只能用 whether
+               - Either the stock market will improve or it will not 合并 The question which is impossible to say now. 为 Whether the stock market will improve or not is impossible to say now.
+               - Either the tumor is malignant or it is not. 合并 The treatment will be decided by the question which. 为 The treatment will be decided by whether the tumor is malignant or not.
+         - 名词子句有两种
+            - 完整的单句外加无意义的连接词 that，代表[那件事]
+            - 疑问词引导的疑问句改装，不加连接词，代表[那个问题]，其中 whether 有时可改为 if
+
+   13. 副词子句
+      - 副词子句是三种从属子句（名词，形容词，副词子句）中最简单的一种，它与主要子句之间，有点像对等子句的关系，很容易了解
+         - Because he needs the money,he works hard. “因为他需要钱，所以勤奋工作”（Because 从属连接词；he needs the money 副词子句；he works hard 主要子句）
+         - He needs the money,and he works hard. “他需要钱，也勤奋工作”（He needs the money 和 he works hard 是对等子句）
+      - 副词子句和名词子句的比较
+         - The witness said that he saw the whole thing. “证人说他目睹整件事情发生”（he saw the whole thing 是名词子句）
+         - The witness said this,though he didn't really see it. “证人这样说，尽管他没有真正看到”（though 连接词；he didn't really see it 副词子句）
+         - 名词子句加的连接词是 that，表示[那件事]，此外没有别的意义；副词子句加的连接词都是有意义的连接词，表达两句之间的逻辑关系，即名词子句和副词子句的连接词一个有意义一个没有意义
+         - 名词子句是名词类，要放在名词位置，副词子句则不然。名词子句的子句是构成一个完句型的部分，不能缺少，而副词子句是作为对某一部分的修饰，没有这个修饰的主子句已经是完整的句型，所以副词子句很像是对等子句
+      - 副词子句的种类，以下是对副词子句的大致分类
+         - 时间，地方
+            - He became more frugal after he got married. “他结婚以后变得比较节俭”（after 连接词，副词子句修饰 became 的时间）
+            - I'll be waiting for you until you're married. “我会等你，直到你结婚为止”（until 连接词，副词子句修饰 will be waiting）
+               - 未来时间的副词子句，虽然还没有到发生的时间，可是语气上必须当作[到了那个时候]来说，所以时态要用现在式来表示（如 are married），这是属于语气的问题，在从前的介绍语气的单元中曾说明
+            - It was all over when I got there. “我赶到的时候事情都结束了”（when 连接词，也可以当做关系词来使用，留待下一章节到关系子句时再详细说明）
+            - A small town grew where three roads me. “一个小镇在三条路交会处发展出来”（where 连接词，也可以当作关系词解释）
+         - 条件
+            - If he calls,I'll say you're sleeping. “如果他打电话来，我就说你在睡觉”（If 连接词）
+               - 如果时间是未来，也必须以[当作真正发生]的语气来说，所以要用现在式的动词，同时请注意 say 的受词（名词子句）you're sleeping 也用现在式，因为这是当作已经打来了，自然要说[在睡觉]
+               - 而不是[要去睡觉](will be sleeping)，只有主要子句I'll say 用未来式的动词，因为如果打来了[就会]说，这表示现在还没有说
+            - He won't have it his way,as long as I'm here. “只要我在，不会让他称心如意”（as long as 连接词，副词子句修饰 won't have 的条件，as long as 也可以用比较级来诠释）
+            - Suppose you were ill,where would you go? “假定你生病了，你会到哪里去？”（Suppose 连接词，副词子句修饰动词 would go 的条件）
+               - suppose 本来是动词，这个副词子句原来是 supposing that you were ill 的句型，经过省略才成为 suppose...
+               - 注意两个动词都是非事实的假设语气
+         - 原因，结果
+            - As there isn't much time left,we might as well call it a day. “既然时间所剩无几，我们不妨就此结束好了”（As 连接词，副词子句修饰动词 might call 的原因）
+            - there's nothing to worry about,now that Father is back. “既然父亲回来了，就没什么好担心了”（now that 连接词，副词子句修饰动词 is 的原因）
+               - 这里的 that 是为了配合 now 形成连接词，并不是作为名词从句的 that
+            - He looked so sincere that no one doubted his story. “他看起来是那么诚恳，所以没有人怀疑他所说的话”（so sincere that 连接词，副词子句修饰形容词 sincere 造成的什么结果）
+            - the mother locked the door from the outside,so that the kids couldn't get out when they saw fire. “这位妈妈把门反锁，所以小孩看到火起时也跑不出去”
+               - so that 连接词，副词子句修饰 locked 造成的什么结果，注意这个副词子句中还带有一个表示时间的副词子句 when they saw fire
+         - 目的
+            - The mother locked away the drugs so that the kids wouldn't swallow any by mistake. “这位妈妈把药锁好，目的是不让小孩误食”
+               - so that 连接词，副词子句修饰 locked 有什么目的，同样是 so that，但是这里是用来表示目的
+            - I've typed out the main points in boldface,in order that you won't miss them. “我已经用黑体字把重点写出来了，好让你们不会遗漏掉”
+               - in order that 连接词，副词子句修饰动词 typed out 有何目的
+               - 同样的，这里的连接词还是单独，无意义的 that，而是表示目的的 in order that，所以引导的是副词子句
+            - I've underlined the key points,lest you miss them. “我已经把重点画了线，以免你们漏掉”
+               - lest 连接词，副词子句修饰动词 have underlined 有何目的
+            - You'd better bring more money,in case you should need it. “你最多带点钱，万一要用”
+               - in case 连接词，副词子句修饰动词 bring 的目的
+         - 让步
+            - Although you may object,I must give it a try. “虽然你可能会反对，我仍然必须试试看”
+               - Although 连接词，副词子句修饰动词 must give
+            - While the disease is not fatal,it can be very dangerous. “虽然不是要命的病，不过也很危险”
+               - While 连接词，副词子句修饰动词 can be
+            - Wh-拼法的连接词，若解释为 No matter...（不论）
+               - Whether(=No matter) you agree or not,I want to give it a try. “无论你是否同意，我都要试一试”
+               - Whoever(=No matter who) calls,I won't answer. “无论谁打电话来，我都不接”
+               - Whichever(=No matter which)way you go,I'll follow. “无论你走到哪里，我都跟定你了”
+               - However(=No matter how)cold it is,he's always wearing a shirt only. “不管多冷，他总是穿件衬衫”
+               - Wherever(=No matter where)he is,I'll get him! “无论他躲到哪里，我都会抓到他！”
+               - Whenever(=No matter when)you like,you can call me. “你随时都可以给我打电话”“无论你在哪里你都可以给我打电话”
+         - 限制
+            - As far as money is concerned,you needn't worry. “钱的方面你不必担心”
+               - As far as 连接词，副词子句修饰动词 needn't worry，表示不必担心的事情是在某一方面，暗示也许是别的方面才要担心
+            - Picasso was a revolutionary in that he broke all traditions. “毕加索是革命派，意即他打破一切传统”
+               - in that 连接词，in that 是 in the sense that“从某种意义来说”省略而来
+         - 方法，状态
+            - He played the piano as Horowitz would have. “他弹钢琴有如大量霍洛维茲”
+               - as 连接词，副词子句修饰动词 played --- 如何弹法
+            - 重点
+               - He writes as if he is left handed. “他写字像左撇子”（他应该真的是左撇子）
+               - He writes as if he were left handed. “他写字像左撇子”（他不是左撇子，只是冒充左撇子）
+               - He writes as if he was left handed. “他写字像左撇子”（他可能是，也可能不是左撇子）
+
+   14. 关系子句
+      - 从属子句有三种，除了名词子句和副词子句外，还有就是形容词子句，又称关系子句，如同名词子句和副词子句一样，关系子句也有它明确的特色
+      - 关系子句如果没有经过任何省略，都应该以形容词子句看待，它的特色有以下几点：
+         - 两个子句要有交集，即两个子句要有重复的内容
+            - For boyfriend I'm looking for a man. “找男朋友，我想找个男人”
+            - He is tall,rich,and well-ecucated. “他身材高，收入高，教育水准高”
+            - 这两个句子中的 a man 和 he 是重复的，a man 就是代名词 he 所代表的对象（即先行词）。因为有这个交集存在，两个句子有关系，才可以进行下一步的动作-制造关系子句
+         - 把交集点改写为关系词的拼法(wh-)，让它产生连接词的功能，在上例中就是把 he 改写为 who，成为：
+            - Who is tall,rich,and well-educated
+            - 这就是一个关系子句，who仍然具有 he 的功能，也就是作为这个子句的主词，但是它同时也有连接词的功能
+         - 将 关系子句附于主要子句的交集点（名词）后面来修饰它（作形容词使用）
+            - 上例中就是把 who 子句附在 a man 之后成为：
+            - For boyfriend I'm looking for a man who is tall,rich,and well-educated. “找男朋友，我想找一个身材高，收入高，教育水准高的人”
+         - 由以上的分析可以看出，关系子句有一个很重要的特色：关系子句的连接词是子句中内含字眼的改写，而名词子句与副词子句的连接词都是外加的
+            - I know that I am right. “我知道我是对的”（that 是连接词，连接名词子句）
+            - I know this because I have proof. “我知道，因为我有证据”（because 是连接词，连接副词子句）
+            - I don't trust people who talk too much. “我不渝信任话太多的人”（who talk too much 是关系子句）
+               - 只有这一句没有例外的连接词，who 是连接词也是关系词，但是它充当的是子句的一部分内容，用来修饰先行词的
+      - 关系代名词与关系副词
+         - 关系子句与主要子句的交集点：可能是代名词，也可能是副词。改为 wh- 的拼法后，分别称为关系代名词与关系副词
+            ```
+            代名词              关系代名词
+            he(she,they)        who
+            it(they)            which
+            his(her,their,its   whose
+            him(her,them)       whom
+            
+            副词                关系副词
+            then                when
+            there               where
+            so                  how
+            for a reason        why
+            ```
+      - 关系代名词的省略
+         - 文法书列出规则：关系代名词作受词使用时可以省略。关系词会省略，主要是因为它在句子中是重复的元素，和主要子句中的先行词重复，可是它除了代名词的功能之外
+         - 还有连接词的功能，用来标示另外一个子句的开始，假如两个子句的断句很清楚，把关系词省掉也不影响子句的清楚性就可以省略
+            - The man is my uncle. “那个人是我叔叔” 合并 You saw him just now. “你刚刚看到他” 为 The man whom you saw just now is my uncle.
+            - 如果把 whom 省略仍然可以得知 The man... is my uncle.不会混淆
+         - 如果关系代名词是主词，就不适合省略，否则会造成断句困难
+            - The man is my uncle. 合并 He was here just now. 为 The man Who was here just now is my uncle.
+               - 如果省略 who 就会认为 [这个男人刚刚在这里]的意思，而且和后面的 is my uncle 结合就不知所云了
+         - 继续看
+            - He is not the man [he used to be]. “他现在和从前不一样了”
+               - 中括号里原来是 He used to be the man. 其中的 the man 是补语，和另一句中的 the man 重复，改为关系词 who（其实用 that 比较恰当，这点稍后再谈），成为关系子句
+               - who he used to be，who 是补语，不是受词，所以不能拼成受格 whom，但是它一样可以省略，原因是它也要向前挪，所以和受词一样，省掉并不会造成断句上的困难
+
+      - 何时用 that
+         - 此处省略一万字.............
+      - 何时不用 that
+         - 同样的道理，如果关系子句缺乏指示的功能，就不该袋里用指示代名词 that 当关系词，如果关系子句没有指示的作用，只是补充说明的性质，应该用逗点和先行词隔开，这时逗点的功能和括弧类似
+         - For boyfriend,I'm considering [your brother John],who is tall,rich,etc. “找男朋友，我在考虑你哥约翰，他个子高，收入高等等”
+            - 这里的先行词 your brother John 是个专有名词，只代表一个人，听的人听到这个名字也已经知道是谁了，所以后面的关系子句不再具有指出是谁或是哪种人的功能，因而这个关系子句只有补充
+            - 说明的功能，说明[为什么]在考虑 John 这个对象，这种补充说明的句子应该放在括弧性的逗点后面，括弧就是用来作补充说明的，同时也就不能再借用指示代名词 that 了 
+            - 因为 that 是用来指出[哪个]或[哪种]的，文法书上把加上逗点的关系子句称为 [非限定用法]，并且有一条规则说非限定用法的关系子句不能用 that 做关系词，道理就在这里
+            - I like books,whatever the subject,that have illustrations. “拨喜欢的书，不论什么主题，是有附插图的那种”
+         - 其它省略，再看.............
+      - 先行词的省略
+         - 有时候也可以省略先行词，如果要省略先行词，首先这个先行词得是空的，没有内容的字眼，像是 thing,people 等等空泛的字眼，其次，关系子句与先行词之间不能有逗点断开
+         - 而且，因为先行词是名词类，属于重要元素，不是可有可无的修饰语，所以一旦省略掉先行词，在关系词的部分要有所表示。表示的方式可分为以下几种
+            - what，把关系代名词改为 what 来表示前面省略的先行词
+               - I have the thing. 合并 You need it. 为 I have the thing that/which you need.
+                  - 接下来有两种变化，首先，关系代名词 that 或 which 在关系子句中是 need 的受词，可以省略掉成为
+                  - I have the thing you need.（关系代名词在这里可以省略）
+                  - I have what you need.（因为 the thing 是空洞的，所以省略）
+            - whoever
+               - 如果把关系词 who 变成 whoever，表示不管先行词是谁，那么就可以省略掉先行词了
+               - I'll shoot any person.“我会向任何人开枪” 合并 He moves.“他移动了” 为 I'll shot anyperson who he moves. “我会向任何移动的人开枪”
+                  - I'll shoot any person that moves.（此处 any person 和 he 重复了）
+                  - 如果要省略掉先行词要 把 that 改为 who，那么形成 any person who，同时 any person 可以是 whoever，因为 anyperson 和 who 重复
+                  - 所以省略 who 变为 I'll shoot whoever moves. 
+                     - whoever 表示前面省略掉了一个先行词，句型上分析也可以直接把 whoever moves 看成名词子句，作为 shoot 的受词
+            - whichever
+               - 如果是[任意选哪一个]的意思，可以用 whichever 来代表先行词的省略，例如：
+               - You can take any car. 合并 You like it. 为 You can take any car that you like.
+                  - 因为关系词 that 在关系子句 that you like 中是受词，可以选择省略，成为：You can take any car you like.
+                  - 但是也可以选择省略先行词 any car，这时关系词 that 要改成 whichever 来表示[不论哪一个]
+                  - You can take whichever you like. “你爱哪个就拿哪个”
+                  - 也可以是 You can take whichever car you like.
+      - 关系子句的位置
+         - 因为关系子句是作为形容词，所以一般放在先行词后面，但是特殊情况需要特殊处理，否则会引起误导的意思
+         - There are two apples in the basket. 合并 The basked is lying on the table.
+            - 结果为：There are two apples in the basket which is lying on the table. “桌上的篮子里有两个苹果”
+            - 这个位置够清楚，因为关系子句中的动词 is 是单数形式，表示主词 which 是单数，所以 which 的先行词只能是单数的 basket不会是 two apples
+         - 可是如果是下面这两个句子的连接就不同了
+            1. You can find two apples in the basket. 合并 I bought the apples.
+               - 为：You can find two apples which I bought in the basket.(x) 
+               - 会有歧义，到底是我在篮子里买的苹果 还是 我买的苹果在篮子里？
+               - You can find two apples in the basket which I bought.(x) 
+                  - 会有歧义，which 不是主词，看不出应该是单数还是复数
+                  - 到底是 苹果在我买的篮子里 还是 我买的苹果在篮子里
+               - In the basket you can find two apples which I bought. “你会在篮子里找到我买的两个苹果”
+                  - 这时候 in the basket 只能修饰 can find，而关系子句也只有单一的先行词，意思才清楚
+            2. A plague broke out. “一场瘟疫爆发” 合并 It lasted 20 years. “它延续了二十年”
+               - 为：A plague which lasted 20 years broke out.(x)
+                  - 这个句子不能说错，可是意思颠三倒四，不合逻辑。[一场延续了二十年的瘟疫爆发了]，这就是套用文法规则而不知思考的结果
+               - 应该是：A plague broke out which lasted 20 years. “一场瘟疫爆发，延续了二十年”
+                  - 这个关系子句与先行词虽然有距离，然而距离不远，而且中间只有动词相隔，没有别的名词来妨礙判断先行词的问题，所以应该它有距离，以换取表达顺序的合理性
+         - 总之，关系子句与其他的修饰语相同，应该尽量靠近修饰的对象，这是为了表达清楚起见，假如关系子句直接放在先行词后面会引起误解，就要把它移开或者进 一步变动句型，不能一味硬用规则
+      - 关系副词
+         - 如果关系子句中是以副词和主要子句中的先行词重复，就会改为关系副词，因为是作为副词，不像关系代名词是重要的名词类，所以关系副词可以比较自由省略，但它与关系代名词一样，如果有括弧性的逗号，就不能省略
+         - when
+            - 关系副词 when 就是时间副词 then 的改写，有连接词的功能
+            - The rain came at a time. 合并 The farmers needed it most then.
+               - 这两个句子以 a time 和 then 的重复建立关系（then 就是 at that time）。把时间副词 then 改为关系副词 when，藉以连接两句
+               - The rain came at a time when the farmers needed it most.
+               - at a time 和 when 都是空洞的，无内容的字眼（不像 in 1964,last January 之类有明确内容的时间）
+               - at a time 和 when 重复，都是可有可无的副词，所以择一省略
+                  - The rain came when the farmers needed it most.
+                  - The rain came at a time the farmers needed it most.
+               - 注意，先行词和关系副词有时候并不是随便可以择其一省略的
+                  - I know when he will arrive. “我知道他什么时间会来”（这是由 when 连接的名词从句）
+                  - I know a time he will arrive. “我知道他会到达的时间”（这是省略了 when 的关系副词从句）
+         - 有逗点隔开的关系子句
+            - 关系副词引导的关系子句，如果要用逗点与主要子句隔开，原因与关系代名词时的情形完全相同：将逗点视为一组括弧，括弧中的关系子句为补充说明的功能，推动了指示的功能
+            - 所以关系副词不能用指示代名词 that 来替代，同时也不能够省略
+            - Shakespeare was born in 1564. 合并 Queen Elizabeth I was on the throne then.
+               - 后面句的 then 和 前面句的 1564 重复，建立关系，改写为关系词when，然后，因为先行词 1564 是一个明确的年代，还是模糊的时间（像 a time 等），所以只能补充说明
+               - 有什么特别的事情，而不是进一步指出时间，这种性质的先行词，后面要用弧性的逗点把关系子句括起来，成为：
+               - Shakespeare was born in 1564,when Queen Elizabeth I was on the throne.
+            - The best museum in Taiwan is the Palace Museum. 合并 You can see our national treasures there.
+               - 故宫博物院是个明确的地名，已无法进一步指认，所以关系子句要用括弧性的逗点隔开，当作补充说明，成为：
+               - The best museum in Taiwan is the Palace Museum,where you can see our national treasures. “台湾最好的博物馆是故宫，那里可以看到我们的国宝”
+         - Wh-ever 与副词子句
+            - wh-ever 解释为 no matter wh-，是表示让步，条件的语气，它的功能相当于副词子句的连接词，引导的就是副词子句
+            - Whenever(=No matter when) he gets upset,he turns on the radio. “只要他心情不好，就会打开收音机”
+               - 这里 whenever 当作 no matter when[不论何时]来解释，是一种表让步或条件的语气，和 if 的语气近似
+               - 它引导的子句就副词子句看待，也就是直接附加在主要子句上，修饰其动词 turns on，另外，wherever,however 等
+               - 由关系副词变出来的连接词，同样都分别解释为 no matter where,no matter how，后面引导的也都是副词子句。
+               - 可是由关系代名词变化出来的 whoever,whatever,whichever 的变化就比较复杂
+                  - Whoever(=No matter who) stole the money,it can't be John. “不论钱是谁偷的，总之不会是约翰”
+                     - 这个 whoever 当作 no matter who[不论谁]来用，仍然是让步的语气，所以引导的子句还是作副词子句诠释，直接附在主要子句上
+                  - I'll fire whoever(=anyone that) stole the money. “价钱的人我一定开除”，“我会开除任何偷钱的人”
+                     - 这个句子中的 whoever 不能解释为 no matter who，因为这样一来后面的子句成了副词子句，那么动词 fire 就没有受词了
+                     - whoever 应该解释为 anyone that，这样 fire 才有受词(anyone)。这种区分在 whatever,whichever 这两个关系代名词也要注意
+
+   15. 对等连接词与对等子句
+      - 用来连接句子中两个对等的部分（单字或片语），也可以连接两个对待的子句。所谓对等，指的是结构与内容两方面都要对称，而且对得愈工整愈好
+      1. The Yangtze River,the most vital source of irrigation water across the widthe of China and important as a transportation conduit as well, has nurtured the Chinese civilization for millennia.(x)
+         - “扬子江是横贯中国最重要的灌溉水源，同时也是重要的交通管道，数千年来孕育著中华文化”
+         - 主要子句的基本句型是 The Yangtze River -- has nurtured -- the Chinese civilization.（S+V+O）
+         - 主词与动词中间的两个逗点当一对括弧来看，括弧中放的是主词 The Yangtze River 的同位格（就是形容词子句简化，省略 which is 的结果）
+         - 这个句子就错在对等连接词 and 连接的两个部分在结构上并不对称：左边的 the most vital source 是名词片语，右边的 important 却是形容词
+         - 词类不同，不适合对等连接词 and 连接。底线部分的改法不只一种，但是最简单的改法就是把右边的词类改为名词类以符合对称的要求，故应该为：
+         - The Yangtze River,the most vital source of irrigation water across the width of China and an important transportation conduit,has nurtured the Chinese civilization for millennia.(o)
+      2. Scientists believe that hibernation is triggered by decreasing environmental temperatures,food shortage,shorter periods of daylight,and by hormonal activity.(x)
+         - “科学家认为引发冬眠的因素包括气温下降，食物短缺，白懠短以及荷尔蒙作用”
+         - 句中 by A,B,C and by D 的结构来修饰受词子句中的动词 is triggered。由内容来看 A,B,C,D 是平行的（都是引发冬眠的因素），应该以对等的方式来处理
+         - 可是原句的处理方式中，by A,B,C 之间缺乏连接词，而 and 只能连接两个 by 引导的介系词片语(by this and by that)，因此原句的结构有文法上的问题
+         - 最佳的修改方式是把 A,B,C,D 四项平行的因素并列，以连接词 and 串连，共同置于单一的介系词之后成为 by A,B,C and D 的结构，故应该为
+         - Scientists believe that hibernation is triggered by decreasing environmental temperatures,food shortage,shorter periods of daylight,and hormonal activity.(o)
+      3. Smoking by pregnant women may slow the growth and generally harm the fetus.(x)
+         - “孕妇吸菸可能妨礙胚胎发育，对胚胎造成一般性的伤害”
+         - 这个句子可视为以下的对等子句的省略：
+         - Smoking by pregnant women may slow the growth of the fetus,and it may generally harm the fetus.
+         - 这两个对等子句的主词 smoking by pregnant women 相同，受词 the fetus 也相同，对等子句省略的原则就是，相对应位置如果是重复元素就可以省略，这是因为对等子句有相当
+         - 严格的对等要求，即使省略掉重复的元素依然能表达清楚。不过在上面这个句子中，两个受词扮演的角色不同，在前面的对等子句以 fetus 为介系词 of 的受词：在后面的对等子句
+         - 则以 fetus 为动词 harm 的受词。所以固然可以省略前面的受词 fetus，但是介系词 of 却不能省略，故应该为：
+         - Smoking by pregnant women may slow the growth of and generally harm the fetus.(o)
+      4. Rapid advances in computer technology have enhanced the speed of calculation,the quality of graphics,the fun with computer games,and have lowered prices.(x)
+         - “电脑技术的快速进展提升了计算的速度，图形的品质，电脑游戏的乐趣，也降低了价格”
+         - 这个句子以 speed,quality和fun 三者为动词 have enhanced 的受词，三者在内容与结构上都是对等的，可是却没有对等连接词来连接，反而在后面加上 and 和 have lowered prices 连在
+         - 一起，成为 A,B,C and D 的结构，其中 A,B,C都是名词片语，D却是动词片语，这就犯了结构上不对等的毛病。内容上来说，A,B,C是所增加的三样东西，D则是降低的东西，所以四者的内容也
+         - 不对称，不适合并列。修改方法可以把前面三个名词片语用 A,B and C 的方式连接，第四项[降低价格]这项不对称的元素则不必对等，而以从属子句简化的方式处理，成为：
+         - Rapid advances in computer technology have enhanced the speed of calculation,the quality of graphics and the fun with computer games while lowering prices.(o)
+            - “电脑技术的快速进展提升了计算的速度，图形的品质，电脑游戏的乐趣，同时降低了价格”
+      5. Population density is very low in Canada,the largest country in the Western Hernisphere and it is the second largest in the whole world.(x)
+         - “加拿大人口密度很低，它是西半球最大的国家，也是世界第二大国”
+         - 这个句子中，the largest country in the western Hemisphere 是形容词子句省略掉 which is 之后留下的名词补语，也就是所谓的同位格（作为 Canada 的同位格）
+         - 置于对等连接词 and 的左边。但是连接词右边的 it is the second largest in the whole world 在意涵上虽然和左边对称，可是却是主要子句的结构，所以结构上
+         - 并不对称，对等连接词的要求就是在意涵上，结构上都要尽量对等，所以可将 it is the second largest in the whole world 也改为名词片语以求结构对称工整，成为：
+         - Population density is very low in Canada,the largest country in the Western Hemisphere and the second largest in the whole world.(o)
+      6. Once the safety concerns over the new production procedure were removed and with its superiority to the old one being proved,there was nothing to stop the factory from switching over.(x)
+         - “一旦排除新的生产程序安全方面的顾虑，也证明它比旧的生产程序更好，这家工厂就没有理由不作改变了”
+         - 对等连接词 and 出现在底线之前，它的左边是一个从属子句,右边却是介词片语，造成结构上的不对称，可以先把它还原为对等子句，成为
+         - The safety concerns over the new production procedure were removed and its superioritv to the old one was proved.
+         - 这两个对等子句中，主词部分并不相同，动词部分是两个不同动词的被动态，只有 be 动词是重复的元素，所以只能省略一个 be 动词，成为：
+         - The safety concerns over the new production procedure were removed and its superiority to the old one proved.
+         - 这个省略后的对等子句前面加上 once（一旦）就成为表示条件的副词子句，若附于主要子句之上，就成为符合对称要求的子句：
+         - Once the safety concerns over the new production procedure were removed and its superiority to the old one proved,there was nothing to stop the factory from switching over.(o)
+      7. Workers bees in a honeybee hive assume various tasks,such as guarding the entrance,serving as sentinel and to sound a warning at the slightest threat,and exploring outside the nest for areas rich in flowers and,consequently,nectar.(x)
+         - “蜂窝中的工蜂担负各种任务，包括守卫入口，站哨兵并在威协来临时发出警讯，以及到巢外寻找富有花朵及花蜜的地区”
+         - 句子中在 such as 之后列兴趣工蜂担负的任务，基本上是 A,B and C 的结构，其中 B（画底线部分）又可以分成 B1 与 B2
+         - 站哨兵并发出警讯，这两个动作是一体的两面，选择用对等的 and 来连接本来十分恰当，只是所连接的两部分 serving as sentinel 与
+         - to sound a warning 在结构上一是动名词，一是不定式，并不对称，再看看 A(guarding the entrance)与C(exploring outside the nest)，都是远望
+         - 所以 B1 和 B2 也应使用动名词才能对称，于是：
+         - Worker bees in a honeybee hive assume various tasks,suc as guarding the entrance,serving as sentinel and soulding a warning at the slightest threat,and exploring out side the nest for areas rich in flowers and,consequently,nectar.(o)
+      8. Shi Huangdi of the Qin dynasty built the Great Wall of China in the 3rd century BC,a gigantic construction that meanders from Gansu province in the west through 2,400 km to the Yellow Sea in the east and ranging from 4 to 12 m in width.(x)
+         - “秦始皇在西元前第三世纪修建了长城，这是巨大的建筑，从西端的甘肃蜿蜒两千四百公里到东端的黄海，宽度由四米至十二米不等”
+         - 句中的 a gigantic construction 是 the Great Wall 的同位格，后面用 that meanders...的形容词子句来修饰。对等连接词 and 的右边（底线部分）是 ranging，可是
+         - 左边却找不到 Ving 的结构可以与它对称。从意思上来看，右边是讲厚度，左边讲长度的部分只有形容词子句的动词 meanders 可能与 ranging 对称，所以把 ranging 改为动词 ranges 以求对称，成为：
+         - Shi Huangdi of the Qin dynasty built the Great Wall of China in the 3rd century BC,a gigantic construction that meanders from Gansu province in the west through 2,400 km to the Yellow Sea in the east and ranges from 4 to 12 m in width.(o)
+      9. The large number of sizable orders suggests that factory operations are thriving,but that the low-tech nature of the processing indicates that profit margins will not be as high as might be expected.(x)
+         - “从许多巨额订单来看，工厂的管理畅旺，可是加工程序属于低科技，显示利润幅度可能不像预期那么高”
+         - 对等连接词 but 右边是 that 引导的名词子句，只能与左边的 that factory operations are thriving 对称。但是如此解释出来的句意
+         - 不通。仔细对比 but 的左右边，发现意思上是另一种形式的对称：
+            - A. The large number of sizable orders suggests something good.
+            - B. The low-tech nature of the processing indicates something bad.
+            - 这两句在形式与意思上都很对称。其中受词部分的 something good 与 something bad 分别以一个 that 引导的名词子句来表示。看出
+            - 这对称关系之后就可以明白：but 的右边应该与左边的主要子句对称，两句都是主要子句，不应以从属连接词 that 来引导，所以把 but 右边的 that 拿掉，成为：
+            - The large number of sizable orders suggests that factory operations are thriving,but the low-tech nature of the processing indicates that profit margins will not be as high as might be expected.(o)
+
+   16. 从属子句简化的通则
+   17. 形容词子句简化
+   18. 名词子句简化
+      - I am worried that my son lies all the time. “我很担心我儿子一直说谎”
+         - 在简化前，首先要了解这个名词子句扮演的角色。在 S+V+C 的句型后面，本来并没有名词存在的空间，所以上述的免刑要这样诠释：
+         - I am worried about the fact that my son lies all the time.
+         - 这句的名词子句 that my son lies all the time 是 the fact 的同位格（即形容词子句 which is that... 的补语，其中 which is 经简化而省略）
+         - 这个名词子句简化后即可置入与它重复的 the fact 的位置。因主词 my son 与主要子句主词 I 不同，故可用所有格来处理，成为：
+         - I am worried about my son's lying all the time.
+         - 也可以将主词 my son 置于 about 后面的受词位置，lying all the time 作受词补语：
+         - I am worried about my son lying all the time.
+         - 上面的两句处理方式在文法上都正确，但是在意思上第一句更接近原意。因为在原句中，说话的人所担心的是一件事（that my son lies all the time）
+         - ，简化为 my son's lying all the time 仍然是一件事，比较接近。但在第二句时，担心的对象变成了人（my son），事情（lying all the time）则降格成了修饰语
+         - 所以意思和原句稍有出入
+
+   19. 副词子句简化
+      - Although we have nothing to do here,we can't leave early. “虽然这儿没事，我们仍不能提早离开”
+         - 可以省略后得：Although having nothing to do here,we can't leave early.
+         - 有转折的意味，Although 不能省略，否则引起意思不明确。但是它的存在又比较累赘，所以改为：
+         - Having nothing to do here,we still can't leave early.
+      - After he wrote the letter,he put it to mail. “他写好了信，就拿去投邮”
+         - After writing the letter,he put it to mail.
+         - Having written the letter,he put it to mail.
+            - 这其实是简化后的，原句是：When he had written the letter,he put it to mail.
+      - 注意 before,after,since 是有介词功能的副词，所以在简化为指定形式时，会充当介词，那么在简化时要注意动词的转换
+
+   20. 副词子句简化之二
+      - 副词子句的连接词不同于 名词子句或形容词子句，是有意义的连接词，简化时常要留下来，一旦留下连接词，那么它是由副词子句简化而成这一点就十分明确了
+      - 所以，拿掉主词与 be 动词后，不论什么词类的补语--名词，形容词，介系词片语，都可以留下来，不过有两点需要注意：
+         1. 如果连接词是 before,after 之类的，简化后成为介系词，后面只能接名词类
+         2. 表示原因的连接词 because 与 since，简化后通常不能原样留下来，要改为 because of,as a result of 之类的介系词
+
+   21. 简化子句练习
+
+   22. 倒装句
+      - 倒装句是把动词（或助动词）移到主词前面的句型，以这个定义来看，一般的疑问句都可以算是倒装句
+      - Girls like cats more than boys.（这句话由于省略不恰当会引起下面两句的意思）
+         - Girls like cats more than boys do. “女孩比男孩更喜欢猫”
+         - Girls like cats more than they like boys. “女孩喜欢猫更甚于男孩”
+         - 注意：
+            - Girls like cats more than him. “女孩喜欢猫更甚于他”
+            - Girls like cats more than he. “女孩比他更喜欢猫”
+            - 这是由 he 的主格和宾格进行判断的，所以不会引起歧义

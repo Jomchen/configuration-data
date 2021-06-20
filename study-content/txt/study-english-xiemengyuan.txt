@@ -64,13 +64,8 @@
       - 48:               （音画不同步，不太严重）
       - 53: 全程音画不同步（但音画不同步率不算高，少许影响学习）
       - 54: 00:40:19 卡死
-   2. 中级：06, 14, 16，19, 28, 44, 54, 116
+   2. 中级：06, 14, 54, 116
       - 06: 00:35:46 开始没有声音或卡死
-      - 14: 16:46:00 乱音，后续将没有声明（没有弥补问题文件）
-      - 16: 00:54:00 突然卡顿一下
-      - 19: 音画不同步（不太影响学习）
-      - 28: 00:36:18 音画不同步（不太影响学习）
-      - 44: 32:49 音画不同步（不太影响学习）
 
 不清楚的集数：
    - 11 集 的主词和动名词不同时 是什么意思
@@ -102,7 +97,7 @@
          - in a car 开车
       - get on a bus 上车（一般是公交车不弯腰容量大的车），get off a bus 下车（一般是公交车不弯腰容量大的车）
          - on a bus/by bus 搭公车
-      - problem（难题，课题描述性质的问题） question（这是有疑问，可以打问号的问题）
+      - promble（难题，课题描述性质的问题） question（这是有疑问，可以打问号的问题）
       - everyone 每个人（不能加修饰语）；every one 每个人/物（可以指人或物，可以加修饰语）
       - leaves 注意 可以是 leaf 的复数，或者是 leave 的第三人称单数的词
       - employer 雇主；employee 员工
@@ -196,14 +191,17 @@
          - I want you to study english.（to study english 是 you 的受词补语）
    - 副词注意
       - 副词如果省略不影响句子的连贯性，但是会有意思的缺损，增加副词可以对句子说明更详细
+
    - 注意语法
       - 介词后面的动词一定要加上 ing，并且没有例外（在作介词时，不定式不是介词）
       - 单个词的形容词放在名词前，由多个词构成的形容词放在名词的后面
+   
    - 一些单词的表现形式
       - Subject 主语
       - Object 宾语
       - verb 动词
       - adverb 副词
+
    - 主谓宾和主系表的一些形式
       1. 主系表
          - 主语（名词）
@@ -276,19 +274,16 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：51 集 46:07
-   - 看视频学习进度：the <4696> line 
-   - 复习进度 313 line
+
+
+* 谢孟媛英语视频 高中部分复习进度：11 集 
+   - the <2802> line 
 * 重新复习地方
    - 2379 line 高一不定式副词用法
    - 2740 line 高一动名词和不定式哪种情况必须使用
 * 注意点
    - 1577 ~ 1594 line 的 前面被动，后面主动 的情况
    - 43 集的 用 whom 的情况
-   - 中级 14 集，假设法现在式，假设法过去式，假设法过去完成式，假设法未来式 的区别
-   - 中级 37 集，no more than 系列
-   - 中级 38 集，what about 系列
-   - 中级 40 集，附加疑问句
 
 没有搞清楚的问题：
  - 替代
@@ -2802,48 +2797,46 @@
             - 我无法忍受他在生气时大叫
                - I can't stand his shouting when he is angry.
                - I can't stand him shouting when he is angry.
-         - 名词 + ving（动名词） / 名词's + ving（动名词）
+         - 名词 + ving / 名词's + ving
             1. 我有信心我们的队伍会赢得比赛
                - be confident of 对...有信心
                - confident 是形容词
-               - I am confident of our team winning the tournament.
-               - I am confident of our team's winning the tournament.
+               - I am confident of our teams winning the toumament.
+               - I am confident of our teams' winning the toumament.
             2. 她以她儿子的聪明才智为荣
-               - She is pround of her son's being clever.
-               - She is pround of her son being clever.
+               - She is pround of her son's bing clever.
+               - She is pround of her son bing clever.
       - 动名词的否定形，被动态，完成态
          - 否定形：not[never] + ving
             1. I am ashame of not knowing the answer. 我不知道答案很丢脸
-            2. Amy's not knowning <of> their marriage made the thing more complicated. Amy 不知道他们的婚事使得事情更加复杂
+            2. Amy's not knowning their marriage made the thing more complicated. Amy 不知道他们的婚事使得事情更加复杂
                - 这里的 completed 是 p.p，而且作为形容词
          - 被动态：being + p.p.
             1. I don't like being made fun of. 我不喜欢被嘲弄
             2. The regulation saves the area from being damaged. 这项规定拯救了这个区域免于被破坏
-               - 这里的 from 被翻译为“免于”
+               - 这里的 from 被翻译为 “免于”
          - 完成形
             - 动名词所表示的时间，若比，述词动词所表达的行为或状态时间更早，则用 having + p.p.
             - 她没察觉到她已做错了
                - She isn't aware of having done wrong.
                   - She isn't aware that she did wrong.
-            - 她以作为一名老师而为荣
                - She is pround of being a teacher.
                   - She is pround that she is a teacher.
-            - 他很后悔没有更努力学习
                - He regrets not having studied harder.
                   - 没好好学习是在 regrets 时间之前，所以用现在完成式
 
    - 含动名词的惯用表现
-      - There is no ving ~. # ~是没有办法做到的
-      - tell A from B 无法从B分辨A # 以B作基础判断A
-      - There is no telling what will happen next. # 之后会发生什么是没办法知道的
-      - There is no accounting for tastes. # 尝起来是无法解释的（account 除了有“账户”外还有“诉说”的意思）
-         - It is impossible to account for tastes. # 诉说口味是不可能的
-         - We cannot account for tastes. # 我不能诉说口味
+      - There is no ving ~ （~是没有办法做到的）
+      - tell A from B 无法从B分辨A
+      - There is no telling what will happen next. 之后会发生什么是不可能知道的
+      - There is no accounting for tastes. 尝起来是无法解释的（account 除了有“账户”外还有“诉说”的意思）
+         - It is impossible to account for tastes.
+         - We cannot account for tastes.
       - It is no use/good ving ~ （~是没有用的）
-         - It is no use crying over spilled milk. # 对洒出来的牛奶哭泣是没有用的 / 覆水难收
-         - It is no use trying to persuade him. # 试图说服他是不可能的
-            - It is of no use trying to persuade him.（注意这里也可以改形式为 it is of）
-            - There is no use in trying to persuade him.（注意如果这里要有 in）
+         - It is no use crying over spilled milk. 对于洒出来的牛奶是没有用的 / 覆水难zhou
+         - It is no use trying to persuade him.
+            - It is of no use trying to persuade him.
+            - There is no use in trying to persuade him.
             - It is no use for you to try to persuade him.
             - It is useless for you to try to persuade him.
       - feel like ving （想要...）
@@ -2851,18 +2844,16 @@
          - I feel like having a drink 我想要喝一杯
             - I want to have a drink.
                - want 只能根不不定式
-            - I would like to have a drink.（would like 最为客气）
-               - I'd like to have a drink.
+            - I would like to have a drink.
       - cannot help ving （忍不住...）
-         - I couldn't help laughing when I saw his haircut. # 当我看到他的发型时我忍不住笑了
+         - I couldn't help laughing when I saw his haircut. 当我看到他的发型时我忍不住笑
          - I couldn't but laugh when I saw his haircut.
       - be worth ving （值得...）
          - 这种句型的 worth 是形容词，所以后面必须根名词
-         - Whatever is worth doing at all is worth doing well. # 无论什么有一点值得做的就是值得做好的
+         - Whatever is worth doing at all is worth doing well. 无论什么有一点值得做的就是值得做好的
             - whatever = no matter what
          - This book is worth reading.
             - It is worth while reading(to read) the book. 读书是值得的
-            - It is worth your while reading(to read) the book. 你读书是值得的
          - It would be worth his while helping(to help) the foreigner. 他帮助这个外国人是值得的
       - on ving （一...就...）
          - On coming home, he switched on the TV. 他一回到家就打开电视
@@ -2878,27 +2869,23 @@
       - It goes without saying that~ （不用说~）
          - 一种肯定的说明，“更不待言”
          - It goes without saying that our plans depend on the weather. 我们的计划不用说要视天气而定
-         - Needless to say, our plans depend on the weather. 不用说我们的计划要视天气而定
-      - What do you say to ving ~  # ~意下如何？
+         - Needless to say that our pans depend on the weather. 不用说我们的计划要视天气而定
+      - What do you say to ving ~ （~如何？）
          - how 是疑问副词，而 what 是疑问代名词，所以对一件具体的事物讲如何的时候应该是用“what”
          - What do you say to taking a walk by the sea?. 海边散个步你意下如何？（这里的 to 作介词）
             - How about taking a walk by the sea? （about 是介词）
       - need, want, deserve, stand... 等 + ving => 被动
-         0. need 的使用
-            - 人 need + to v.
-            - 物 need + ving.
-         1. This watch needs repairing. # 这个手表需要修理 
-            - This watch needs to be repaired.
-         2. The child wants scolding. # 这个小孩需要被骂
-         3. He deserves helping. # 他值得被帮助
+         1. This watch needs repairing. 这个手表需要修理 => This watch needs to be repaired.
+         2. The child wants scolding. 这个小孩需要被骂
+         3. He deserves helping. 他值得被帮助
             - deserve 不是价值的值得，价值性要稍低一些
-         4. This cloth does not stand/bear washing. # 这个衣服禁不起洗
+         4. This cloth does not stand/bear washing. 这个衣服禁不起洗
             - stand 忍受
 
 * 假设语气
    - 对一个与事实相反的情况 A 的假设，于此一定诱发的结果 B，A和B都是与事实相反。要区别于没有假设的 if
-      - If you are free, please help me with my homework. # 如果你有空，请帮助我做家庭作业（直述句）
-      - If I knew her number, I could ring her up. 如果我知道她的号码，我就可以给她打电话（假设句）
+      - If you are free, please help me with my homework. # 如果你有空，请帮助我做家庭作业
+      - If I knew her number, I could ring her up. 如果我知道她的号码，我就可以给她打电话（这个是假设）
    - 网上教程
       - 若与现在事实相反，条件从句的谓语用过去式（be通常用were），主句谓语用should,could,would,might等 + v.
          - If I knew her number,I could ring her up. 如果我知道她的号码，我就可以给她打电话
@@ -2918,7 +2905,7 @@
          举例：在现在进行假设，即与现在事实相反，那么通过原则向前一级，则假设和叙述应该都以过去式进行表达
                虽然表达的情况看是过去式，其实是对（将来）这一事件的 “条件假设”和“主观倾向”
 
-         过去完成  过去    现在   将来
+         过去进行  过去    现在   将来
          *_______*______*______*______*
          ```
          - 直述句 If you are free, please help me with my homework. 如果你有空，请帮助我做工课（非真实条件句 和 主句）
@@ -2933,25 +2920,25 @@
             - I could ... 是假设的情况
 
       - 假设法现在式（表示现在或未来之不确定的假设）
-         1. 这种表达比较老旧，一般表达是基本三大形态
-         2. 假设在现在，事实在过去
-         3. If + 主词 + 现在式动词 ~, 主词 + will/shall + v ~
+         - 这种表达比较老旧，一般表达是基本三大形态
+         0. 假设在现在，事实在过去
+         1. If + 主词 + 现在式动词 ~, 主词 + will/shall + v ~
             - If it rains tomorrow, we will cancel the picnic. 如果明天下雨的话，我们就取消野餐（非真实条件句 和 主句）
                - 这里 rains 是一个动词
                - 这里的 will/shall 是助动词
                - ##假设是在未来，事实是在现在##
             - I think (that) it will rain tomorrow. 我认为明天会下雨（这是对一个情况的陈述，不是假设）
-         4. 主词 + 动词 + that + 假设法现在式
-            - suggest(建议), demand(要求）, insist(坚持), agree(同意)...等
-            - I suggest that everyone <should> help in some way. 我建议每个人应该以某种方式帮忙
+         2. 主词 + 动词 + that + 假设法现在式
+            - suggest(假设), demand(要求）, insist(坚持), agree(同意)...等
+            - I suggest that everyone (should) help in some way. 我建议每个人应该以某种方式帮忙
                - should 虽然可以是shall的过去式（翻译为“将要”）；但也可以作为“应该”的助动词
                - 不管前面的 suggest 是什么时态，这里的 should 都应该是用 should 而不应该用 shall
                - 这里的 should 可以省略，因为是众所周知的责任义务
                - 注意：这里的 suggest 是对现在的假设，根据 “事实与假设时态 相差一级”，所以用过去式进行表述
                - ##假设是在现在，事实是在过去##
-            - I insist that she <should> consult the doctor. # 我坚持她看医生
-         5. It is + adj. + that + 假设法现在式
-            - adj.: neccessary, important...等
+            - I insist that she (should) consult the doctor. 我坚持她看医生
+         3. It is + adj. + that + 假设法现在式
+            - neccessary, important...等
             - It is important that she should be honest. 她应该诚实是很重要的
                - It is important 是事实，通过 “事实与假设时态” 相差一级，所以后面时态应该往前一级
                - she should be honest 是假设，所以应该用 should，即过去式助动词
@@ -2962,57 +2949,51 @@
          - If + 主词 + were/过去式动词/过去式助动词 ~, 主词 would,could,shoud,might + 原型动词 ~
             - If I were young, I would enjoy the party. 如果我还年轻，我就可以参加这个派对
                - 如果我还年轻，是与现在的事实相反，所以用过去式
-               - 事实是：As I am not young, I can't enjoy this party. # 因为我不年轻了，我不能参加这个派对
-            - If I had a lot of money, I would buy a yacht. # 如果我有很多钱，我就买一艘游艇
-               - 事实是：As I don't have much money, I won't buy a yecht. # 因为我没有钱，我不会买游艇
+               - 事实是：As I am not young, I can't enjoy this party.（因为我不年轻了，我不能参加这个派对）
+            - If I had a lot of money, I would buy a yacht.  如果我有很多钱，我就买一艘游艇
+               - 事实是：As I don't have much money, I won't buy a yecht. （因为我没有钱，我不会买游艇）
 
-      - 假设法过去完成式
-         -  表示与过去事实相反的假设（假设在过去的过去，事实在过去）
+      - 假设法过去完成式（表示与过去事实相反的假设）
          - If 主词 had + p.p., 主词 + would/could/should/might + have p.p.
             - 后面的 have p.p. 没有和前面的 had p.p. 前后对应，因为受助动词限制用原型
             - 但是由于 would,could,should,might 是过去式的，所以过去式+完成式 间接形成过去完成式
             - If I had known the gossip then, I would have told you. 如果我那时知道流言，我就会告诉你
                - 事实是：As I didn't know the gossip then,I woundn't tell you.
             - We would not have dozed off if our teacher had spoken louder. 如果那时我们的老师讲课大声点，我们就不会打瞌睡 
-               - 事实是：As our teacher didn't speak loud, we dozed off（这里没有用 clouder 是因为，只是为了说明老师没有大声讲）
-            - 在条件子句中，除了 if 之外，也可用 suppose(supposing),suppose( that)（假设）,providing(provided)（倘若），as(so) long as（只要...）,in case（万一...）, unless（除非...） 等作假设形成的两部分句子的连接词
+               - 事实是：As our teacher didn't speak loud,we dozed off
+            - 在条件子句中，除了 if 之外，也可用 suppose(supposing),suppose(that),providing(provided) as(so) long as,in case, unless 等作假设形成的两部分句子的连接词
                - 但 unless 通常不用于假设语气的子句中
-               - Suppose(Supposing) you had ten million dollars, what would you like to do first? # 假设你有一千万，你想做什么
-               - I will stay here provided(providing) the climate agrees with me tomorrow. # 假设明天天气适当，我会呆在这里（如果天气适合我的话，我会呆在这里）
-                  - climate # 气候（一般用于大范围的天气/气候）
-                  - weather # 天气（一般用于小范围或某一个地域的天气）
+               - Suppose(Supposing) you had ten million dollars,what would you like to do first? 假设你有一千万，你想做什么
+               - I will stay here provided(providing) the climate agree with me tomorrow. 假设明天天气适当，我会呆在这里
 
-         - 假设法过去式和假设法过去完成式混用
-            - If I had done my homework yesterday,I could go on a date with her now. 如果我昨天完成了作业，我今天就能去约会了
-               - 若两子句的时间不同时，其时态 各自为准
-               - 完成作业是与过去事实相反，所以用过去完成式；约会是与现在事实相反，所以用过去式
-               - 事实是：As I didn't do my homework, I don't go on a date with her now.
-               - 完成作业是假设过去，所以用过去完成式；约会是假设现在，所以用过去式
+      - 假设法过去式和假设法过去完成式混用
+         - If I had done my homework yesterday,I could go on a date with her now. 如果我昨天完成了作业，我今天就能去约会了
+            - 若两子句的时间不同时，其时态 各自为准
+            - 事实是：As I didn't do my homework, I don't go on a date with her now.
+            - 完成作业是假设过去，所以用过去完成式；约会是假设现在，所以用过去式
 
       - 假设法未来式
-         - If + 主词 + should v. / (were + to v.), 主词 should/would（也有可能是will）/could/might/(ought to v.)
-            - 说明
-               - should 这里的意思是 “万一”，是有可能发生且机率很低的假设
-               - were to 在这里是作 “如果”，是绝不可能或几乎不可能的假设
-            - 举例
-               - If it should rain tomorrow, the game would be put off. 明天下雨的话，比赛将会延期（明天下雨是可能发生的）
-               - If the pacific Ocean were to dry, I would chage my mind. 如果太平洋干涸的话，我就改变心意（太平洋干涸是不可能实现的）
+         - If + 主词 + should v. / (were + to v.), 主词 should/would/could/might/(ought to v.)
+            - should 在没有 if 的句子中的意思是 “万一”，是有可能发生的
+            - were to 在这里是作 “如果”，是绝不可能的
+         - If it should rain tomorrow, the game would be put off. 明天下雨的话，比赛将会延期（明天下雨是可能发生的）
+         - If the pacific Ocean were to dry, I would chage my mind. 如果太平洋干涸的话，我就改变心意（太平洋干涸是不可能实现的）
 
-      - 假设句里，也可将 If 省略，形成 Were(Had/Should等)+ 主词的顺序
+      - 假设句里，也可将 If 省略，形成 were(Had/Should等)+ 主词的顺序
          - 如果我是一只鸟，我就能飞向你
             - If I were a bird,I could fly to you.
             - Were I a bird,I could fly to you.
          - 如果他知道真相，他会告诉你
-            - If he had known the truth, he would have told you.
-            - Had he know the truth, he would have told you.
+            - If he had known the truth,he would have told you.
+            - Had he know the truth,he would have told you.
          - 万一下雨的话，我会呆着在家
-            - If it should rain, I would stay at home.
-            - Should it rain, I would stay at home.
+            - If it should rain,I would stay at home.
+            - Should it rain,I would stay at home.
 
       - 其它假设法的表现
          - 格式1
             ```
-            ~ as if/though + S + 假设法过去式/假设法过去完成式
+            ~ as if/as though + S + 假设法过去式/假设法过去完成式
            （ 好像 ; 宛如 ）
             ```
             - 例子
@@ -3020,7 +3001,6 @@
                   - talks 是现在，假设是与 talks 事实相反，即与现在事实相反，所以用“去过式”
                2. She looks as if she had looked a ghost 她看起来好像她那时见到了鬼了一样
                   - 因为她见没见到鬼是是与过去事实相反，所以用“过去完成式”（注意不能完全按照谓语动词判断“事实的时态”需要根据意思来判断
-                  - 通过语句的意思其实隐含表达了是刚刚看起来，作为假设是在刚刚的过去，拟用过去完成式
                3. He laughed as if nothing had happened. 他笑起来好像什么都没发生一样
          - 格式2
             ```
@@ -3028,25 +3008,25 @@
             希望;但愿
             ```
             - 例子
-               1. I wish I knew Annie's cellular phone number. 我希望知道艾米的电话号码（其实没有得到艾米的电话号码）
-                  - 事实是：I am sorry <that> I don't konw Annie's cellular phone number. # 我很遗憾没能知道 Annie 的电话号码（这里的 that 是连接词）
-               2. I wish I hadn't bought such an expensive dress then. 我希望那时候没有买那么贵的洋装（其实已经买了）
-                  - 事实是：I'm sorry <that> I bought such an expensive dress then. # 我很后悔当时我买了这么贵的裙子（这里的 that 是连接词）
+               1. I wish I knew Annie's tell phone number. 我希望知道艾米的电话号码（其实没有得到艾米的电话号码）
+                  - 事实是：I don't konw Annie's tell phone number.
+               2. I wish I hadn't bought such an expensive dress then. 我但愿那时候没有买那么贵的洋装（其实已经买了）
+                  - 事实是：I'm sorry I bought such an expensive dress then.
 
          - 格式3
             - It's time/about time/almost time/hight time + (that) + S + 假设法过去式
-               - It's time（注重于对到了时间应该做什么了）
-               - It's about time（注重于到了该做某事的时间了）
-            - It's past midnight.It's time that the children gone to bed. 过了半夜了，该是小孩睡觉的时间了（小孩还没有睡觉，所以是对睡觉的假设）
+               - It's time （注重于对到了时间应该做什么了）
+               - It's about time （注重于到了该做某事的时间了）
+            - It's post midnight.It's time that the children gone to bed. 过了半夜了，该是小孩睡觉的时间了
                - It's time for the children to go to bed.
-            - It's about time you apologized to her for what you did. 该是你为你做的事情向她道歉的时候了（你还没有对她道歉，所以是对道歉的假设）
+            - It's about time you apologized to her for what you did. 该是你为你做的事情向她道歉的时候了
                - It's time for you to apologize to her for what you did.
 
          - 格式4
             - If only + 主词 + 假设法过去式/假设法过去完成式
             - If only 和 I wish 在表面意思差不多，都有“但愿，希望”的意思，但是 if only 的意愿要更强烈一些
             - 例子
-               - If only my tooth would stop hurting! 但愿我的牙齿不会疼了！
+               - If only my tooth would stop hurting! 但愿我的牙齿不疼了！
                - If only I had taken her advice. 但愿那时我有接受她的忠告
                   - 没有接受她的忠告发生在过去
                   - 这里的假设与过去事实相反，所以用过去完成式
@@ -3056,12 +3036,12 @@
             - If it had not been for~ （若没有~的话）=> 假设法过去完成式
             - 例子
                - 如果没有音乐，他一刻也活不下去
-                  - If it were not for music, he couldn't live a moment.
-                     - Were it not for music, he couldn't live a moment.
-                  - Without music, he couldn't live a moment.
-                     - But for music, he couldn't live a moment. # 要不是因为音乐，他一刻也活不下去
+                  - If it were not for music,he couldn't live a moment. 
+                  - Were it not for music,he couldn't live a moment.
+                  - Without music,he couldn't live a moment.
+                  - But for music,he couldn't live a moment.
                - 要是那时没有塞车，我们就能及时赶上比赛
-                  - If it had not been for the traffic jam, we would have been in time for the game.
+                  - If it had not been for the traffic jam ,we would have been in time for the game.
                   - had it not been for the traffic jam, we would have been in time for the game.
                   - Without the traffic jam, we would have been in time for the game.
                   - But for the traffic jam, we would have been in time for the game.
@@ -3074,37 +3054,34 @@
                      - 不定式前面的 talk 的时态可以和后面相匹配
             - 副词连接词/副词片语
                1. If I didn't know he was innocent,I wouldn't try to save him. 如果我不知道他是无辜的，我不会想尽办法去去救他
-                  - 同义：I know he is innocent; otherwise I wouldn't try to save him. 我知道他是无辜的，否则我不会想尽办法去救他
+                  - 同义：I know he is innocent;otherwise I wouldn't try to save him. 我知道他是无辜的，否则我不会想尽办法去救他
                   - 通过一个副词连接词连接两个句子
-               2. If we hadn't hidden in the forest, they would have found us. 如果当时我们没有躲在森林里的话，他们就会找到我们
-                  - 同义：We hid in the forest; otherwise they would have found us. 我们当时躲在了森林里，否则他们会找到我们
+               2. If we hadn't hidden in the forest,they would have found us. 如果当时我们没有躲在森林里的话，他们就会找到我们
+                  - 同义：We hid in the forest,otherwise they wouldn't have found us. 我们当时躲在了森林里，否则他们会找到我们
                   - 通过一个副词连接词连接两个句子
                   - otherwise 充当了假设的语气
                   - 虽然单词中没有 “当时” 的词，但是通过 原句的过去完成式可以确定是与过去的相反，即事实在过去，假设在过去完成
-               3. If you had a little patience, you could get over your difficulty. 如果你有点耐性的话，你可以克服你的困难
-                  - 同义：With a little patience, you could get over your difficulty.
-                     - 同义的句子是对子句进行“If”的省略，然后因为 you 在子句中和主句中有重复，所以也省略，最后变换为适合的句型
-                     - with 可以作介词也可以作副词，这里作副词
+               3. If you had a little patience,you could get over your difficulty. 如果你有点耐性的话，你可以克服你的困难
+                  - 同义：With a little,you could get over your difficulty.
+                  - 同义的句子是对子句进行“If”的省略，然后因为 you 在子句中和主句中有重复，所以也省略，最后变换为适合的句型
                   - patient(adj. 有耐性的) (n. 病人)
                   - patience(n. 耐性)
-                  - be a good patient # 当个听话的病人
                4. If it had been ten years ago,I could have run around this lake within half an hour. 如果在十年前，我可以围绕着这个湖跑半小时
-                  - 十年前是事实，十年前在过去，与过去事实相反的假设，所以用过去完成
-                  - 同义：Ten years ago, I could have run around this lake within half an hour.
+                  - 同义：Ten years ago,I could have run around this lake within half an hour.
                   - If 省略，it省略后则需要找代替 it 的词，因为在 主句中是“I”，从句中是“it”
                   - 因为动词是看主词的脸色，所以“had been”针对于it，所以就都省略
-            - 分词构句
-               - The same man, if he were living in this century, would be a hero. 同样的人，如果他住在这个世纪，会是个英雄（这里的living是主动）
-                  - The same man, living in this century, would be a hero.（这里的living是主动）
-               - If you were seen from a distance, you might look handsome. 如果你在远处被看到，你可能看起来英俊一点（这里的seen是被动）
-                  - Seen from a distance, you might look handsome.（这里的seen是被动）
+            - 分词造句
+               - The same man,if he were living in this century,would be a hero. 同样的人，如果他住在这个世纪，会是个英雄（这里的living是主动）
+                  - The same man, living in this century,would be a hero.（这里的living是主动）
+               - If you were seen from a distance,you might look handsome. 如果你在远处被看到，你可能看起来英俊一点（这里的seen是被动）
+                  - Seen from a distance,you might look handsome.（这里的seen是被动）
             - 作主词的名词
-               - If he were a man of sense, he would not say such a thing. 如果他是个有知识的人，他不会说那样的话
+               - If he were a man of sense,he would not say such a thing. 如果他是个有知识的人，他不会说那样的话
                   - 虚拟中，如果是用过去式则过去式的be动词进行表达则一定要用 “were” *************************************************************************************************************
                   - A man of sense wouldn't say such a thing. 一个有知识的人不会说那样的话
                   - 省略了 If he were 和 he
-               - If he were a secret agent, he would never tell you his real name. # 如果他是一个情报人员，他不会告诉你他的真实名字的
-                  - A secret agent would never tell you his real name. # 一个情报人员不会告诉你他的真实名字
+               - If he were a secret agent,he would never tell you his real name. 如果他是一个情报人员，他不会告诉你他的真实名字的
+                  - A secret agent would never tell you his real name. 一个情报人员不会告诉你他的真实名字
 
 
 * 否定
@@ -3114,15 +3091,14 @@
          - 不定式否定 => not to + v.
          - 例子
             1.
-               1. My boss didn't tell me to wear jeans. # 我的上司没有告诉我要穿牛仔裤
-               2. My boss told me not to wear jeans. # 我上司告诉我不要穿牛仔裤
-            2. Dave is an Au'stralian, not an 'Austrian. # Dave是澳洲人，不是奥地利人
+               1. My boss didn't tell me to wear jeans. 我的上司没有告诉我要穿牛仔裤
+               2. My boss told me not to wear jeans. 我上司告诉我不要穿牛仔裤
+            2. Dave is Au'stralian,not 'Austrian. Dave是澳洲人，不是奥地利人
                - 这里的 ' 只是起发音区分，但是单词是一样的
                - 因为 “Dave is not 'Austrian” 的 “Dave is” 和前面重复，所以省略，只保留一个 “not”
-            3. I met him in the street, not at the office. # 我在街上遇到他，而不是在办公室
+            3. I meet him in the street, not at the office. 我在街上遇到他，而不是在办公室
                - 因为 “I meet him not at” 的 “I meet him” 与前面重复，所以不能省略
-            4. She loves him not because he is handsome, but because he is warmhearted. # 她爱他不是因为他长得帅，而是因为他很贴心
-               - warmhearted 是名词加 ed，具有过去分词的特性当形容词使用
+            4. She loves him not because he is handsome,but because he is warmhearted. 她爱他不是因为他长得帅，而是因为他很贴心
                - 第二个 because 后面之所以没有省略是因为 because 是连接词，连接词后面是要由 S 然后开始连接的，所以不能省略
                - 第 2 和 3 的例子是因为没有连接词，所以可以省略
       - no
@@ -3139,71 +3115,66 @@
          - 他不是老师
             - He is no teacher. （这种形式更强调否定一些，可以翻译成“他绝不是老师）
             - He is not a teacher.
-      - never 绝不...；从不...
-         - be动词之后；一般动词之前；助动词和原型动词之间
-         - It never snows in the Sahara Desert. # 撒哈拉沙漠从不会下雪（因为是真理，所以用现在式）
-            - desert # adj. 无人的，荒芜的；n. 沙漠；v. 遗弃
-            - dessert # n. 点心
-         - You should never take a walk alone at night. # 你不该晚上一个人散步
       - none
          - 用于几个都否定时用 none；如果要强调两者 否定，则用 neither，或用 none；如果要强调全部否定，可用 none 或 not 和 any 结合
          - He read none of these comic books. 他一本漫画书也没有读
+      - never 绝不...；从不...（be动词之后；一般动词之前；助动词和原型动词之间）
+         - It never snows in the Sahara Desert. 撒哈拉沙漠从不会下雪
+         - You should never take a walk alone at night. 你不该晚上一个人散步
       - hardly, scarcely, rarely, seldom
          - hardly 几乎不
          - scarcely 几乎不
          - rarely 不多，稀少
          - seldom 不常，不多
-         - 以上的词的使用位置根 never 是一样的
-         - His success is hardly possible. # 他的成功几乎是不可能的
-         - The injured child could/can scarcely walk. # 那受伤的小孩几乎不能走路（can/could 用于表示现在/过去）
-         - I seldom listen to classic music. # 我很少听古典乐
-         - England has seldom won the World Cup, has it? # 英格兰很少赢得世界杯，是吗？
+         - His success is hardly possible. 他的成功几乎是不可能的
+         - The injured child could scarcely walk. 那受伤的小孩几乎不能走路
+            - The injured child could scarcely walk. 那受伤的小孩几乎不能走路
+         - I seldom listen to classic music. 我很少听古典乐
+         - England has seldom won the World Cup, has it? 英格兰很少赢得世界杯，是吗？
       - few, little
          - few = not many ; little = not much
          - little 除了可以翻译为“小女孩”，还可以翻译为“很少，几乎没有”
-         - Few <people/persons> are satisfied with his answer. # 几乎没有人对他的答案感到满意
-         - He showed/had/took little intersted in math. # 他对数学没什么兴趣
+         - Few people are satisfied with his answer. 几乎没有人对他的答案感到满意
+         - He showed/had/took little intersted in math. 他对数学没什么兴趣
 
    - 部分否定
       1. both 相关的否定
          - 数量为二，则用 both，在二以上则用 all
          - both 配上 not 是“并非两者都”
          - 如果要强调两者的否定，则用 neither，或用 none
-            - Both of my friends did not go abroad for advanced study. # 我的两个朋友并非都出国深造了
+            - Both of my friends did not go abroad for advanced study. 我的两个朋友并非两者都出国深造
                - 这里的 abroad 是作 go 的副词
                - go abroad 去外国
                - go aboard 上到船上去
                - overseas “海外地”，也是作副词
                - overseas Chinese “海外华侨”
             - 否定：Neither/None of my friends went abroad for abroad advanced study. 我的两个朋友都没有到国外深造
-               - neither / none # 无一
       2. all 相关的否定
          - 数量在三或三以上用 all
          - all 配上 not 是 “并非全部”
          - 如果要强调全部否定，则用 none 或 not 和 any 结合
-            - He did not read all of these comic books. # 他并非读了所有的漫画书
-            - 否定：He did not read any of these comic books. # 他没有读任何的漫画书
-               - 等价：He read none of these comic books. # 他一本漫画书也没有读
-      3. She does not always agree with me. # 他并不总是同意我
-      4. Not everybody can be a poet. # 并非每个人能够成为诗人
-      5. Beautiful flowers do not necessarily smell sweet. # 美丽的花朵未必闻起来香
+            - He did not read all of these comic books. 他并非读了所有的漫画书
+            - 否定：He did not read any of these comic books. 他没有读全部的漫画书
+               - 等价：He read none of these comic books. 他一本漫画书也没有读
+      3. She does not always agree with me. 他并不总是同意我
+      4. Not everybody can be a poet. 并非每个人能够成为诗人
+      5. Beautiful flowers do not necessarily smell sweet. 美丽的花朵未必闻起来香
          - necessarily 必，一定
       6. quite（相当地）, altogether（完全地）, completely（完全地）, entirely（完全地）, exactly（的确地） 等 + not => 部分否定
 
    - 双重否定
-      1. You can't make an omelete without breaking some eggs. # 你要做蛋卷必须要打几个鸡蛋（你不能做一个蛋卷而不打几个鸡蛋）（你不能做一个蛋卷而不打破一个鸡蛋）
+      1. You can't make an omelete without breaking some eggs. 你要做蛋卷必须要打几个鸡蛋（你不能做一个蛋卷而不打几个鸡蛋）（你不能做一个蛋卷而不打破一个鸡蛋）
          - 这里 can't 和 without 两个都是否定
-      2. It is not unusual for couples to guarrel. # 对于夫妻来说吵架是寻常的（对于夫妻来说吵架不是不寻常的）
+      2. It is not unusual for couples to guarrel. 对于夫妻来说吵架是寻常的（对于夫妻来说吵架不是不寻常的）
          - not 和 unusual 两个都是否定
          - usual 寻常的，unusual 不寻常的
       3. 否定的惯用表现
-         1. He is by no means a fool. # 他绝非笨蛋
-            - 等价：He is not a fool at all. # 他绝非笨蛋（他一定也不是笨蛋）
-            - by no means # 绝非...
-            - by all means # 必定（字面意思是用尽所有方法）
-            - means n. 方法，手段（单复数同形）
+         1. He is by no means a fool. 他绝非笨蛋
+            - 等价：He is not a fool at all.
+            - by no means 绝非...
+            - means 方法，手段
             - mean（v.： 意味着，表示，意味；n.：平均值；adj.：卑鄙，刻薄，鄙吝）
-         2. Traveling to the moon is not a dream any longer. # 到月球旅行不再是梦想
+         2. Traveling to the moon is not a dream any longer. 到月球旅行不再是梦想
             - 等价：Traveling to the moon is no longer a dream.
             - long 也可以翻译为 “期待”
             - no longer 和 not any longer 都可翻译为 “不再” 的意思
@@ -3215,210 +3186,77 @@
          3. You cannot/never be too careful when you drive at night. 当你在晚上开车时勿必要小心
             - 这里的 cannot 是否定，但是 有一个 too 是“太”的极致，所以起了否定的作用
             - You are not too old to learn. 活到老学到老（你不能太老而不学习）
-         4. It was not long before the earthquake stopped. # 不久之后地震停了（地震停止之前时间不会太长）
+         4. It was not long before the earthquake stopped. 地震停止之前时间不会太长
          5. I didn't graduate from university until I was twenty-five. 我直到25岁才大学毕业
             - 等价：It was not until I was twenty-five that I graduate from university.
-               - 分析：
-                  - It was not # 某件事没有发生
-                  - until I was twenty-five # 直到我 25 岁
-                  - that I graduate from university 表示句子之前的 it
          6. Babies do nothing but cry. 宝宝只会哭
          7. I cannot help admiring his courage. 我不得不佩服他的勇气
             - 等价：I cant but admire his courage.
          8. There is no telling what may happen. 无法得知可能会发生什么事
             - 等价：It's impossible to tell/know what may happen.
-         9. He can ride a motorcycle, not to mention a bicycle.他会骑摩托车，更别提脚踏车了
+         9. He can ride a motorcycle,not to mention a bicycle.他会骑摩托车，更别提脚踏车了
             - mention 是“提到”的意思
             - not to mention 更别提
          10. That soldier got an order and lost no time in carrying it on. 那士兵接到命令就立刻执行
             - carrying an order on 执行命令
             - carrying on an order 执行命令
             - carrying it on （这里的 it 是 order 的代名词，所以要放在中间的这种情况）（这是 carrying 的动词片语）
-               - 用代名词时，代名词需要放在中间，即不能用 carrying on it；非代名词则随意
 
    - 不用否定的否定表现
-      1. Who knows what will happen tomorrow? # 谁知道明天会发生什么呢？
-         - 这不是疑问句，而是对一个否定的叙述，即没有人知道明天会发生什么。注意这里不是 Who did know~
+      1. Who knows what will happen tomorrow? 谁知道明天会发生什么呢？（不是疑问，是叙述的语气，即没有人知道明天会发生什么）
+         - 这不是疑问句，而是对一个否定的叙述，注意这里不是 Who did know~
          - 等价：No one knows what will happen tomorrow?
-      2. This book was too boring for me to read through. # 这本书对我来说太无聊而不能读完
-      3. He would be the last person to tell a lie. # 他绝不会是说谎的人（他会是说谎的最后一个人（从意思理解他是绝不说谎的人））
-         - 说谎的人都忽略了，这个人却一直没有说谎，如果他说谎肯定是最后一个。从侧面证明他绝不会说谎
-      4. The story he told me was anything but boring. # 他告诉我的是有趣的事情（他告诉我的是 除了无聊的 任何事情）
-      5. Five hundred dollars for a pair of shoes is far from cheap! # 五百美元的一双鞋很贵（五百美元的一双鞋离偏宜很远）
-      6. This district is free from air pollution. # 这个区域很干净（这个区域免于空气污染）
+      2. This book was too boring for me to read through. 这本书对我来说太无聊而不能读完
+      3. He would be the last person to tell a lie. 他绝不会说谎的人（他会是说谎的最后一个人（从意思理解他是绝不说谎的人））
+      4. The story he told me was anything but boring. 他告诉我的是有趣的事情（他告诉我的是 除了无聊的 任何事情）
+      5. Five hundred dollars for a pair of shoes is far from cheap! 五百美元的一双鞋很贵（五百美元的一双鞋离偏宜很远）
+      6. This district is free from air pollution. 这个区域很干净（这个区域免于空气污染）
          - free from 免于...
-      7. The view from the windows was beautiful beyond description. # 从这个窗户看出去的景色美到难以形容（从这个窗户看出去的景色是在能够描述之外的美丽）
-      8. This book is quite above me. # 这本书很难（这本书相当在我之上）
+      7. The view from the windows was beautiful beyond description. 从这个窗户看出去的景色美到难以形容（从这个窗户看出去的景色是在能够描述之外的美丽）
+      8. This book is quite  above me. 这本书很难（这本书相当在我之上）
          - 等价：This book is quite above my understanding.
-      9. He is above cheating on a test. # 他考试不作弊（他考试在作弊之上）
+      9. He is above cheating on a test. 他考试不作弊（他考试在作弊之上）
          - cheating 欺骗
-      10. The alarm clock failed to go off. # 闹钟不会响（这个闹钟响失败了）
+      10. The alarm clock failed to go off. 闹钟不会响（这个闹钟响失败了）
          - alarm 报警，警报，clock 时钟，所以两个单词连起来的意思则是 “闹钟”
          - go off 本来是“下车”，但是和 clock 配合则表示 “响” 的意思
-      11. Heavy fog kept us from driving fast. # 浓雾使得我们免于开快车（浓雾防止我们开快车）
+      11. Heavy fog kept us from driving fast. 浓雾使得我们免于开快车
          - 阻止...；防止...
             - keep...from...; hinder...from...
             - stop...from...; protect...from...
             - prevent...from...
-      12. You had better refrain from alcohol. # 你最好避免喝酒
-         - alcoholic drinks # 含酒精的饮料
-         - soft drinks # 不含酒精的饮料
-      13. I know better than to do such a thing. # 我不会笨到去做那样的事情（比起做那样的事情我更清楚）
-      14. We tried to open the door,but in vain. # 我试图开门，却无果
+      12. You had better refrain from alcohol. 你最好避免喝酒
+      13. I know better than to do such a thing. 我不会笨到去做那样的事情（比起做那样的事情我更清楚）
+      14. We tried to open the door,but in vain. 我试图开门，却无果
          - vain 枉然
 
 * 句子的要素及种类
-   - 词性
-      1. 名词 Noun
-      2. 冠词 Article
-      3. 代名词 Pronoun
-      4. 形容词 Adjective
-      5. 副词 Adverb
-      6. 动词 Verb
-      7. 助动词 Auxiliary Verb
-      8. 连接词 Conjunction
-      9. 介系词 Preposition
-      10. 感叹词 Interjection
-         - 如：oh, well（相当于中文的“额...嗯...”）, ouch
-   - 例句
-      - The coach shouted loudly, "Hey, run to the goal!" but the players couldn't hear his voice. And they lost the final match.
-         - # 教练大声地吼叫，“嘿，向球门跑”但是球员不能听到他的声音，结果他们输掉最后一场比赛
-   - 片语和子句
-      - I often stop at a convenience store on my way home. # 我经常在回家的路上停在便利店
-      - The book on the desk is mine. # 放在桌面上的书是我的
-      - I put my books on the desk. # 我把书放到桌上
-      - I don't know what to do. # 我不知道做什么
-   - 子句-子句为兔子的一部分，其本身含有主词+动词
-      - That I love you is true. # 我爱你是真的
-      - 对等子句
-         - Jane went out, but Mike stayed home. # 简出去了，但是迈克呆在家
-      - 名词子句，形容词子句，副词子句-从属连接词连接
-         - I know that you are doing your best. # 我知道你正尽你的最大努力
-         - These are pictures which I took in Kenting. 这些是我在垦丁拍的照片
-         - Judy put her coat on a hanger before she sat down. # 朱迪在她坐下前把她的外套放在衣架上
-   - 主词-名词或名词相等语
-      - The telephone rang early in the morning. # 电话很早在早晨响了
-      - He is a famous musician. # 他是个著名的音乐家
-      - To read novels is pleasant. # 阅读小说是愉快的
-      - Learning a foreign language is important. # 学习外语是重要的
-      - Who to bell the cat is a big problem. # 谁负责是个大问题
-      - That he is honest is true. # 他很诚实是真的
    - 注意
-      - the + adj. / the + 分词 也可以做主词
-         1. The rich are not always happy. # 富有的人不总是快乐
-         2. The wounded numbered ten. # 受伤的人数起来有十个
-            - wounded 是“受伤”的过去分词作主词
-            - numbered 是过去式，作动词
-   - 动词
-      - 由结构分->可分为一个字的动词及复合动词
-         1. I saw a girl on the street. # 我看到一个女孩在街上
-         2. I have given up smoking. # 我已经放弃抽烟了
-      - 由用法分->受词的有无：及物动词，不及物动词 / 补语的有无：不完全动词，完全动词
-         1. I love chocolate. # 我喜欢巧克力
-         2. The car won't start. # 这辆小车不会开动
-         3. The sky is blue. # 天空是蓝的
-      - 受词-名词或名词相等语
-         1. She cooks dinner after school. # 她放学后做晚饭
-         2. I have met him at the meeting.
-         3. I began to sing(= singing). # 我开始唱歌
-         4. He enjoyed playing tennis. # 他享受打网球
-         5. He knew who to ask. # 他知道问什么
-         6. I believed what he said. # 我相信他说的
-         7. The ambulances sent the injured to the hospital. # 救护车将伤员送到了医院
-      - 补语-名词，形容词，副词的相等语
-         1. His latest novel is interesting. # 他的最新的小说很有趣
-         2. I found his latest novel interesting. # 我发现他最新的小说很有趣
-         3. The blue sweater is mine. # 这个蓝色的毛衣是我的
-         4. One of my hobbies is making artificial flowers. # 我的习惯之一是做人造花
-            - 当主词很长时，如果里面有 of，则真正的主词在 of 前面，所以这里用 is
-         5. The cat is under the table. # 这只猫在桌子下
-            - The cat 是主词
-            - is 是动词
-            - under the table 是地方副词 是 The cat 的补语
-      - 修饰语 - 修饰名词
-         - A little girl was carrying a bascket full of apples. # 一个小女孩正带着一蓝装满苹果的篮子
-         - Please give me something interesting to read. # 请给我点有趣的看
-   - 句子的种类
-      - 由内容分
-         - 直述句-包含肯定句及否定句
-            - My sister is a TV director. # 我的姐姐不是个电视导演
-               - My sister is not a TV director.
-            - We have school even on Saturdays. # 甚至在星期六我们有课
-               - We do not have school on Saturedays. # 在星期六我们没有课
-         - 疑问句
-            - Yes/No 问句-be动词或助动词为首的问句
-               - Do you know her address? - Yes, I do.
-               - Are you going shopping with me? - No, I'm not.
-               - Can you do me a favor? - Sure. # 你能帮我吗？- 的确
-               - Doesn't he speak English? - Yes, he does. # 她不能说英语吗？- 是的，她不能
-            - Wh问句-疑问句为首的问句
-               - Where are you from? I'm from Sydney, Australia.
-               - When did you hear the news? # 你什么时候听到这个消息的？
-                  - The day before yesterday. # 前天
-               - How long will you be here? - For two weeks. # 你会呆在这里多久？两周
-               - 注意：疑问词 + 动词（who, what, which 这三个是疑问代名词）
-                  - What is your favarite subject? - History. # 什么是你最喜欢的科目？- 历史
-                  - Who left the window open? - I did. # 谁把窗户打开的？我打开的
-            - 选择疑问句
-               - Is Mr.Brown a pianist or a cellist? A pianist.
-               - Would you like coffee or tea? Coffee, please.
-               - Who runs faster, Tom or John? Tom does.
-            - 附加疑问句
-               - It's very hot today, isn't it? Yes, it is. # 今天很热，不是吗？是的，的确很热
-               - Jack didn't solve the problem, did he? # 杰克没有解决这个问题，是吗？
-            - 修辞问句
-               - Who knows?（谁知道呢？） => No one knows. # 没有人知道（即没有人知道）
-                  - Who cares ?（谁关心呢？）=> No one cares. # 没有人关心（即没人关心）
-               - Isn't it funny? # 难道它不是很有趣吗？=> It is very funny. # 它很有趣
-                  - ***** 如果只从这句如何判断是疑问还是强调性的肯定？****
-                  - 与 上文中的 Doesn't he speak English? - Yes, he does 有相似点
-                     - 都是否定的 助动词/be动词 开头，但是一个表示疑问一个表示强调的反问
-            - 间接疑问句
-               1. Do you know what time it is? 你知道现在几点了吗？（提问者只是希望知道被问者是否知道时间，是或否的问句）
-               2. What time do you know it is? 你知道现在几点吗？（提问者想知道时间，是问具体的内容，非是/否的问句）
-            - 祈使句-表希望，请求，命令
-               1. Wait a minute, please. # 请等一分钟
-               2. Don't worry about such a thing. # 不要担心这件事
-               3. Have a drink. # 喝一杯吧
-            - 感叹句
-               1. How beautiful. # 好美呀！
-                  - How beautiful a girl she is!
-                  - What a beautiful girl!
-               2. What a day. 多么...的一天（感叹句，一些 what 开头的感叹句，没有形容词，意思要根据语境判断，所以这里的 “...” 是根据语境来翻译的）
-               3. What a shame. 多么丢脸啊（感叹句，没有名词，但是通过 shame 的意思可以判断出意义，且 shame 充当了名词）
-               4. How [hard] it rains! 多么大的雨啊！（感叹句，hard 是可以省略的，因为只可能根据大雨而发出感叹，所以 hard 可以省略） 
-               6. 注意感叹句的句型如下
-                  - 语法结构
-                     - How adj./adv. + a/an + n. + S. + V.!
-                     - What a/an + adj. + n. + S. + V.
-            - 由结构分
-               - 单句->只有一个主部+述部，即为单句
-                  - 概念
-                     - 两个主词一个动词 / 一个主词两个动词 都可以称为单句
-                     - 如果两个主词两个动词就不能称为单句
-                  - 例句
-                     - I have a sufficient income to support you. # 我有足够的收入养你
-                        - outgo # 支出
-                     - Happy memories came and went in my mind. # 快乐的回忆在我脑海中流过
-                     - Jason and Jack rushed into the class room. # Jason and Jack 冲进了教室
-                        - 这句真的是单句吗？难道 the class room 不是受词吗？
-               - 合句->由对等连接词连接的两对等子句
-                  - I missed the last train,so I took a taxi home. # 我错过了末班火车，所以搭计程车回家
-                     - so 是连接词
-                     - taxi 和 home 之间不能加 to，因为副词不能配介系词，
-                     - 介系词一定要配名词前面，介系词放在名词前面表示特殊含义的
-                     - 这里的 home 是作副词
-                  - 驾驶员试着要控制住那辆车，但它还是撞上树干
-                     - The driver tried to control the car, but it crashed into a tree.
-                        - crashed 可以替换为 bump 的过去式
-               - 复句->由从属连接词所连接的主要子句及从属子句
-                  - Who did it is still a mystery. # 谁做了这件事仍是个谜
-                  - He is the man who saved my son from the drowning. # 他就是从水中救起我儿子的那个人
-                  - I want to finish the work before it gets dark. # 我想在天黑前完成这个工作
-                     - Before it gets dark, I want to finish the work.
-               - 复合句->用对等连接词将单句及复句或复句及复句结合成句
-                  - She knew what she wanted but she never told anyone. #她知道她想要什么，但她从未告诉任何人
-                  - I know the girl who is talking to Mr.Green, but my brother doesn't know who she is. # 我认识正和格林先生说话的女孩，但是我的兄弟不认识她是谁
+      - the + adj. 可以做主词
+      - the + 分词 也可以做主词
+   - 例子
+      1. The rich are not always happy. 富有的人不总是快乐
+      2. The wounded numbered ten. 受伤的人数起来有十个
+         - wounded 是“受伤”的过去分词作主词
+         - numbered 是过去式，作动词
+      3. The cat is under the table. 这只猫在桌子下面
+         - The cat 是主词
+         - is 是动词
+         - under the table 是地方副词 是 The cat 的补语
+      4. I will stay here. 我会呆在这里
+         - I 是主词
+         - will 是助动词
+         - stay 是动词
+         - here 是副词 作补语
+      5. Who left the window open? 谁把窗户开着？
+      6. Who knows?（谁知道呢？） => No one know.没有人知道（即没有人知道）
+      7. Do you know what time it is? 你知道现在几点了吗？（提问者只是希望知道被问者是否知道时间，而不是提问者想知道时间）
+      8. What time do you know it is? 你知道现在几点吗？（提问者想知道时间）
+      9. What a day. 多么...的一天（感叹句，一些 what 开头的感叹句，没有形容词，意思要根据语境判断，所以这里的 “...” 是根据语境来翻译的）
+      10. What a shame. 多么丢脸啊（感叹句，没有名名词，但是通过 shame 的意思可以判断出意义，且 shame 充当了名词）
+      11. How [hard] it rains! 多么大的雨啊！（感叹句，hard 是可以省略的，因为只可能根据大雨而发出感叹，所以 hard 可以省略） 
+      12. I missed the last train,so I took a taxi home. 我错过了末班火车，所以搭计程车回家
+         - taxi 和 home 之间不能加 to，因为副词不能配介系词，介系词一定要配名词前面，介系词放在名词前面表示特殊含义的
 
    - 五大句型
       - 动词
@@ -3433,7 +3271,7 @@
          2. 不及物动词vi.
             - 完全动词 S.+V. => I cried.
                                 - -----
-            - 不完全动词 S.+V.+C. => I am a teacher.
+            - 不完全动词 S.+V. => I am a teacher.
                                   - -- - -------
          3. 及物动词vt.
             - 完全动词 S.+V.+O. => I love you.
@@ -3451,284 +3289,171 @@
             - I cried. （cried 表达完全，又不需要受词和任何补充说明，所以是 不及物完全动词）
             - I am a teacher. （am 是不及物动词，虽然有一个 a teacher，但是 a teacher 不是 I，但是因为 a teacher 只是一个补充表达，所以 am 是不及物不完全动词）
          - 五大句型
-            1. He got to London yesterday. 他到达伦敦
-               -- --- --------  ---------
-               - 主词 动词 地方副词 时间副词
-            2. He got angry. 他变得生气了
+            1. He got to China yesterday. 他到达中国 --> [ 主词 动词 地方副词 时间副词 ] --> [ 及物不完全动词 ]
+               -- --- -------- ---------
+            2. He got angry. 他变得生气了 --> [ 主词 动词 形容词 ] --> [ 不及物不完全动词 ]
                -- --- -----
-               - 主词 动词 形容词 ->
-            3. He got a newspaper. 他买了一份报纸/他得到了一份报纸
+            3. He got a newspaper. 他买了一份报纸/他得到了一份报纸 -->  [ 主词 动词 受词 ] --> [ 及物不完全动词 ]
                -- --- - ---------
-               - 主词 动词 受词 ->
-            4. He got me a newspaper. 他买了一份报纸给我/他买了份报纸给我
+            4. He got me a newspaper. 他买了一份报纸给我/他买了份报纸给我 --> [ 主词 动词 受词1 受词2 ] --> [ 及物完全动词 ]
                -- --- -- -----------
-               - 主词 动词 受词1 受词2
-            5. He got his children ready. 他让他的小孩准备好
+            5. He got his children ready. 他让他的小孩准备 --> [ 主词 动词 受词 补语 ] --> [ 及物不完全动词 ]
                -- --- --- -------- -----
-               - 主词 动词 受词 补语
-         - 第一句型 S + V
-            - Amy lives in this town. # 艾米住在这个村庄
-            - My older brother usually goes to bed at ten. # 我的哥通常在10点睡觉
-            - In Florada, it usually rains for about an hour every day during the hottest season. # 在佛罗里达州，通常在最热的季节每天大约下一个小时的雨
-            - 注意 There be ~ 及 Here be ~ 的句型，是由第一句型变形演变而来。there 和 here 为副词功能的修饰语
-               1. A bus comes here. 公车来了
-                  - 等价：Here comes a bus.
-                          ---- ----- -----
-                     - adv. v. S
-                  - 等价：Here it comes.
-                     - 这种转换的理由参照第三条里的解释
-               2. There are many books on the shelf. 书架上有许多书
-                  - 等价：On the shelf are many books. 书架上有许多书（这里的书架上 存在 许多书）
-                          ------------ --- ---------- 书架上有许多书（这里的书架上 存在 许多书）
-                     - （副词 存在 主词）（副词不能作为主词）
-               3. Here are things <which> you want. 这里有你想要的东西（省略了 which）
-                  - Here you are. 
-                     - things you want 可以用代名词 you 代替
-                     - here 和 there 放句首，如果把后面的主词换为了代名词后，代名词要放在动词的前面
-                     - 所以结果为 Here you are.
-               4. 翻译练习
-                  - The life in Taiwan has changed a lot during the last ten years. # 台湾的生活最近十年改变很多
-                  - The poor little girl ran away from the two-headed snake in a fright. # 那可怜的小女孩惊恐地逃离两头蛇
-         - 第二句型 S + V + C（这里的 V 是连缀动词）
-            - 此句型中的动词可分下列四种：
-               0. “躺”的三态 lie - lay -lain
-               1. 表状态的 be, lie, sit, stand, start, rest, remain, keep 等
-                  1. He lay still on the bed. # 他仍躺在床上
-                  2. My uncle stayed a bachelor all his life. # 我叔叔一辈子都是单身汉
-               2. 表状态变化 come, become, go, get, grow, make, turn, fall, run 等
-                  1. At last my dream has come true. # 在最后我的梦想实现了
-                  2. As we grow older, our memories become weaker. # 当我们长大了，我们的记忆就变得越差
-                  3. The milk has gone sour. # 牛奶变得酸了
-                     - sweet-and-sour fish # 糖醋鱼
-                  4. I fell asleep in class yesterday. # 昨天上课时我睡着了
-               3. 表“似乎”
-                  - 句型
-                     1. S + seem/appear + adj.
-                     2. S + seem/appear + to v.
-                     3. S + seem/appear + that S V
-                  - 例子
-                     - The child seemed to be tired. # 这个孩子似乎很累
-                        - 等价：The child seemed tired. 虽然 tired 是形容词，seemed 是动词，但是 tired 是作为副词使用的，所以可以根在后面，seemed 是连缀动词
-                        - 等价：It seemed that the child was tired.
-                     - She seems to be an American. # 她似乎是个美国人
-                     - She appeared to know nothing about it. # 她似乎对它一无所知
-               4. 表 “...起来”
-                  - 句型
-                     1. feel, look, smell, taste, sound...等 + adj. （感觉[看起来][闻起来]...）
-                     2. feel, look, smell, taste, sound...等 + like（像） + 名词（感觉[看起来][闻起来] 像...）
-                  - 例句
-                     1. Ice feels hard and cold. # 冰摸起来又硬又冷
-                     2. This flower smells very sweet. # 这朵花闻起来很甜
-                     3. This medicine taste bitter. # 这个药尝起来很苦
-                     4. How does the little tiger look? => It looks cute.
-                     5. What does the little tiger looks like? => It looks like a cat.
-                     6. How is the weather? = What is the weather like?
-                  - feel like 句型
-                     - 句型
-                        1. feel like（像） + n. 感觉/摸 起来像...
-                        2. feel like（介词） + n./ving 想要...
-                        3. be feeling + adj. 渐渐觉得...
-                     - 例句
-                        1. It feels like fur.
-                        2. I don't feel like taking a walk now. # 我现在不想漫步
-                        3. After taking medicine, I'm feeling much better. # 吃过药后，我渐渐感觉好多了
-                  - 表示 “想要...” 的三种句型
-                     1. want to v.
-                     2. would like to v.
-                     3. feel like n./ving
-               - 翻译练习
-                  - They look lively in the picture <which> I took. # 它们在我拍的照片中看起来很生动
-                  - The problem of air problem in cities has become more and more serious. # 都市中空气污染的问题已经变得越来严重了
-         - 第三句型 S + V + O
-            - I didn't understand the meaning of his words. # 我不理解他话里的意思
-            - The man robbed of him all his money. # 这个男人抢了他所有的钱
-               - He was robbed of all his money by the man.
-               - 注意
-                  - rob + 人 + of + 物品（抢了某人的物品）
-                  - steal + 物 + from + 人（人的物品被偷）
-            - My mother will take care of the puppy. # 我妈妈会照顾这个小狗
-               - 这里的 care 是名词
-            - 动词 dream,sleep,live,die,fight,smile 等 都既可以作动词又可以作名词的词 => 同族受词
-               1. I dreamed a strange dream last night. 昨晚我做了一个奇怪的梦
-               2. I slept a sound sleep in the soft bed. 我在柔软的床上睡了一个好觉
-               3. She lived an unhappy life. 她过了个不开心的生活
-               4. He died a miserable death. 他死得很凄惨
-               5. They fought a good fight. 他们赢了架
-               6. She smiled a sweet smile. 她笑得很甜/她微笑起来很甜蜜
-               7. 翻译练习
-                  - Every afternoon, a vendor drives a pickup to our community to sell vegetables. # 每天下午有一个小贩开着小货车到我们社区来卖菜
-                     - pick    # 摘，挖
-                     - pick up # 把...捡起来，接...
-                     - pickup  # 小货车
-                  - He knows every one of us in our neighborhood and every one of us knows him, too. # 他认识我们附近的每一个人，而我们每一个人也认识她
-                     - everyone   # 每个人，大家
-                     - every one  # 每个人/事/物
-                     - 这里没有用 everyone 是因为 everyone 不能用修饰语修饰它
-                        - of us 有修饰 every one
-         - 第四句型 S + V + O + O
-            - 句型
-               1. S + 授语动词 + 间接受词 + 直接受词
-               2. S + 授语动词 + 直接受词 + 介词 + 间接受词
-            - 授予动词之后的介词可分下列几项
+         - 有些动词不是放在主词后面的
+            1. A bus comes here. 公车来了
+               - 等价：Here comes a bus.
+                       ---- ----- -----
+                  - adv. v. S
+               - 等价：Here it comes.
+            2. There are many books on the shelf. 书架上有许多书
+               - 等价：On the shelf are many books. 书架上有许多书（这里的书架上 存在 许多书）
+                       ------------ --- ---------- 书架上有许多书（这里的书架上 存在 许多书）
+                  - （副词 存在 主词）（副词不能作为主词）
+            3. Here are things (which) you want. 这里有你想要的东西（省略了 which）
+               - Here you are. 
+                  - things you want 可以用代名词 you 代替
+                  - here 和 there 放句首，如果把后面的主词换为了代名词后，代名词要放在动词的前面
+                  - 所以结果为 Here you are.
+         - 其它例子
+            - 语法1
+               - 句型
+                  1. S + seem/appear + adj.
+                  2. S + seem/appear + to v.
+                  3. S + seem/appear + that S V
+               - 例子
+                  - He seemed to be tired. 他似乎很疲惫
+                     - 等价：He seemed tired. 虽然 tired 是形容词，seemed 是动词，但是 tired 是作为副词使用的，所以可以根在后面
+                     - 等价：It seemed that the child was tired.
+            - 语法2
+               - 句型
+                  1. feel(look, smell, ...) + adj. （感觉[看起来][闻起来]...）
+                  2. feel(look, smell, ...) + like（像） + 名词（感觉[看起来][闻起来] 像...）
+            - 语法3
+               - 句型
+                  1. feel like（像） + n. 感觉/摸 起来像...
+                  2. feel like（介词） + n./ving 想要...
+                  3. be feeling + adj. 渐渐觉得...
+               - 表示 “想要...” 的三种句型
+                  1. want to v.
+                  2. would like to v.
+                  3. feel like n./ving
+            - 语法4
+               - rob + 人 + of + 物品（抢了某人的物品）
+               - steal + 物 + from + 人（人的物品被偷）
+            - 语法5
+               1. dream,sleep,live,die,fight,smile 等 都是既可以作动词又可以作名词的词 => 同族受词
+               2. I dreamed a strange dream last night. 我做了一个奇怪的梦
+               3. I slept a sound sleep in the soft bed. 我在柔软的沙发上睡了一个好觉
+               4. She lived an unhappy life. 她过了个不开心的生活
+               5. He died a miserable death. 他死得很凄惨
+               6. They fought a good fight. 他们赢了架
+               7. She smiled a sweet smile. 她笑得很甜/她微笑起来很甜蜜
+            - 授予动词
+               - 语法和词型格式
+                  1. allow, give, hand, recommend, write 等 的授予动词的介词格式是 to
+                  2. bring, choose, make, spare 等 的授予动词的介词格式是 for
+                  3. S + 授语动词 + 间接受词 + 直接受词
+                  4. S + 授语动词 + 直接受词 + 介词 + 间接受词
                - 注意
                   - “抢劫” 的单词 rob 不是授予动词，虽然它有 介词的形式
-                  - rob sb. of sth.
-                     - of sth. 是修改 sb. 的，和授予动词意义完全不一样
-               - 介词 to
-                  - 词性
-                     - allow, give, hand, recommend, write 等 的授予动词的介词格式是 to
-                  - 举例
-                     - He handed the clerk the money. # 她递给店员这笔钱
-                        - He handed the money to the clerk.
-                     - The teacher recommended us the book. 
-                        - The teacher recommended the book to us. 这个老师给学生推荐了这本书
-               - 介词 for
-                  - 词性
-                     - bring, choose, make, spare（摞出...（指时间的摞出）） 等 的授予动词的介词格式是 for
-                  - 举例
-                     - She made her daughter a dress.  # 她给她女儿做了件洋装
-                        - She made a dress for her daughter.
-                     - Can you spare me a few minutes? # 你能为我摞出点时间吗？
-                        - Can you spare a few minutes for me?
-               - 其它介词
-                  1. He asked me a strange question. # 他问了我一个奇怪的问题
-                     - She asked a strange question of me.
-                  2. He threw me a stone. # 他朝我扔了一块石头
-                     - He threw a stone at me.
-                  3. He played me a trick. # 他对我耍把戏
-                     - He played a trick on me.
+               - 例子
+                  1. The teacher recommended us the book. => The teacher recommended the book to us. 这个老师给学生推荐了这本书
+                  2. She made her daughter a dress. => She made a dress for her daughter. 她为他的女儿做了一件裙子
+                  3. He asked me a strange question. => She asked a strange question of me. 他问了我一个奇怪的问题
+                  4. He threw me a stone. => He threw a stone at me. 他向我投了一块石头
+                  5. He played me a trick. => He played a trick on me. 他对我耍把戏
                - 直接受词若改为 代名词，则只能使用 <直接受词 + 介词 + 间接受词> 的形式
                   1. Would you please pass me the salad?
                      - 等价：Would you please pass it to me.（在环境下知道 it 是 the salad 的情况下）
-                        - salad 改为了 it（代名词），所以这里只能用 直接受词 + 介词 + 间接受词 的句型
                   2. I'll buy you the bike.
                      - 等价：I'll buy it for you.（在环境下知道 it 是 bike 的情况下）
                - 名词片语 <疑问词 + to v.> 和 名词子句 也可当直接受词
                   1. He told me how to stop smoking. 他告诉我如何戒烟
                   2. She told us that he would leave for America soon. 他告诉我他不久之后要前往美国
-                  3. 练习
-                     1. His parents left a big fortune for him. # 他的双亲给他留了一大笔财富
-                        - His parents left him a big fortune.
-                     2. She sent both her friends and her husband's friends a lot of Christmas cards. # 她给她的朋友和她丈夫的朋友寄了很多圣诞卡
-                        - She sent a lot of Christmas cards both to her friends and her husband's friends.
-         - 第五句型 S + V + O + C
-            - 举例
-               - They found that stranger a spy. # 他们发现了一个奇怪的人是间谍（这是 S + V + O + C 的句型）
-                  - 这里的 that 不是连接词，而是 “那个” 的意思
-               - We must always keep the classroom clean. # 我们必须总是要保持教室干净
-               - All work and no play makes Jom a dull boy. # 一直工作没有玩乐使约翰变成迟钝的人
-               - I'm going to paint my house white tomorrow. # 我明天要把我的房子粉刷成白色
-            - 使役动词，感官动词用不定式，分词当受词补语
+            - 语法6
+               - They found that stranger a spy. 他们发现了一个奇怪的人是间谍（这是 S + V + O + C 的句型）
+               - We must always keep the classroom clean. 我们必须总是要保持教室干净
+               - All work and no play makes Jom a dull boy. 一直工作没有玩乐使约翰变成迟钝的人
+               - I'm going to paint my hourse white tomorrow. 我将要明天把我的房子粉刷成白色
+
+            - 使役动词，感官动词用不定式分词当受词补语
                - 概念
                   - 注意 原型不定词 其实就是 动词原型，只不过因为前面有了动词，但是又没有 to 所以叫 原型不定词
                   - get + O + to 不定词（受词主动）/p.p.（受词被动）
                   - let + O + 原型不定式（受词主动）/be + p.p.（受词被动）
                   - make/have + O + 原型不定词（受词主动）/p.p.（受词被动）
-                     - 叫...做...（make 更有强制性；have 证据较缓和，拜托...）
-               - 不定词
+               - 例子
                   1. I can't make him understand it. 我不能使他理解它
                   2. I can't make myself understood in English. 我不能让我自己用英语被理解
                   3. He wouldn't let his daughter go out alone. 他不会让他的女儿单独出去
                   4. He let the work be done soon. 他让工作很快被完成
                   5. You don't have to do it by yourself;I'll get him to help to finish it. 你不必独自做事，我会让他帮忙完成它
-                     - help + O + <to> + V. # 帮助...做...
                   6. I had my hair cut. 我剪头发了（我使我的头发被剪）
                   7. I had my money stolen. 我的钱被偷了（我使我的钱被偷了）
-               - 感观动词
-                  - 基本概念
-                     ```
-                     - feel, see, watch -----------*
-                     - look at, notice, observe  --* + O + v./ving/p.p.
-                     - hear, listen to  -----------*
-                     - 以上的感观动词 加 动词原型或现在分词 是有区别的
-                        - 原型 表示简单的发生（只是简单的叙述）
-                        - 现在分词 表示正在的进行（有动作的进行）
-                     ```
-                  - 例子
-                     1. I heard my mother humming a tune. 我听到我的妈妈在哼曲子（这里的 humming 是 ving 形式，表明我 “听”和妈妈的“哼”是同时发生的）
-                     2. I heard something crash against the wall. 我听到了某个东西摔在墙上了（这里的 crash 是动词原型，表明只是一件叙述的事情）
-                        - 这里的 against 是介词
-                     3. I saw the boy punished by his father. 我看到这个男孩受到他爸爸的处罚
-                  - 练习
-                     - Frequent demonstration have made the trafic in Taipei worse. # 经常的示威已使台北的交通恶化
-                     - The children always consider their home a heaven. # 孩子们总是认为他们的家是天堂
-                     - Management want all the employee to be punctual.# 管理阶层想要所有的员工都准时
-                        - punctual adj. # 准时的
-                        - employer # 雇主
-                        - employee # 员工
-                  - 注意
-                     - 注意的一些情况：make + O + adj. 但是 want + O + to v.（也就是 want 后面不能是 adj.）
-                     - The management want all employees to be punctual. 管理阶层想要所有的员工准时
-                        - employer 雇主；employee 员工；punctual 准时（adj.）；management 管理层
+
+            - 感观动词
+               - 基本概念
+                  ```
+                  - feel, see, watch
+                  - look at, notice, observe     + O + v./ving/p.p.
+                  - hear, listen to
+                  ```
+               - 例子
+                  1. I heard my mother humming a tune. 我听到我的妈妈在哼曲子（这里的 humming 是 ving 形式，表明我 “听”和妈妈的“哼”是同时发生的）
+                  2. I heard something crash against the wall. 我听到了某个东西摔在墙上了（这里的 crash 是动词原型，表明只是一件叙述的事情）
+                     - 这里的 against 是介词
+                  3. I saw the boy punished by his father. 我看到这个男孩受到他爸爸的处罚
+            - 语法7
+               - 注意的一些情况：make + O + adj. 但是 want + O + to v.（也就是 want 后面不能是 adj.）
+               - The management want all employees to be punctual. 管理阶层想要所有的员工准时
+                  - employer 雇主；employee 员工；punctual 准时（adj.）；management 管理层
 
 - 比较
-   - 原级-比较级-最高级 的 规则变化
-      - 原级+er, est 
-         - tall - taller - tallest
-         - young - younger - youngest
-      - 原级字尾有 e + r, st
-         - wise - wiser - wisest
-         - large - larger - largest
-      - 短母音加子音 => 重覆字尾字母并加 er, est
-         - hot - hotter -hottest
-         - big - bigger -biggest
-      - 子音 + y => 去y + er, est
-         - busy - busier - busiest
-         - happy - happier - happiest
-      - more, most + 多音节形容词
-         - careful - more careful - most careful
-         - difficult - more difficult - most difficult
-   - 原级-比较级-最高级 的 不规则变化
-      - 词性举例
-         - good/well - better -best
-         - had/ill - worse - worst
-         - many/much - more - most
-         - little - less - least
-      - 两种不同的比较级，最高级
-         - far
-            - far farther/furthur farthest/furthest （只能是对于距离）
-            - far furthur furthest （对于程序，深度，距离）
-            - 例子
-               - Rome is farther from London than Paris is. 从伦敦到罗马比从伦敦到巴黎远
-                  - Rome is farther from London than Paris. 从伦敦到罗马比从巴黎到罗马远
-               - Did you get furthur information? 你得到了更近一步的信息了吗
-         - late
-            - late later latest 针对于时间
-            - late latter last 针对于顺序
-            - 例子
-               - He got up later than usual. 他起床比平时晚
-               - The latter part of the story was not interesting. 这个故事的后面部分无趣
-               - This is the latest news from America. 这是最新的美国新闻
-               - This is his last work. 这是他最后的工作
-         - old
-            - old older oldest 对于年龄，新旧
-            - old elder eldest 对于长幼
-            - 例子
-               - He is older than I. 他的年龄比我大
-               - My elder brother is in China. 我的哥哥在中国
-               - My younger brother is in China. 我的弟在中国
+   - 词性
+      - far
+         - far farther/furthur farthest/furthest （只能是对于距离）
+         - far furthur furthest （对于程序，深度，距离）
+         - 例子
+            - Rome is farther from London than Raris is. 从伦敦到罗马比从伦敦到巴黎远
+               - Rome is farther from London than Raris. 从伦敦到罗马比从巴黎到罗马远
+            - Did you get furthur information? 你得到了更近一步的信息了吗
+            - He got up later than usual. 他起床比平时晚
+      - late
+         - late later latest 针对于时间
+         - late latter last 针对于顺序
+         - 例子
+            - The latter part of the story was not interesting. 这个故事的后面部分无趣
+            - This is the latest news from America. 这是最新的美国新闻
+            - This is his last work. 这是他最后的工作
+      - old
+         - old older oldest 对于年龄，新旧
+         - old elder eldest 对于长幼
+         - 例子
+            - He is older than I. 他的年龄比我大
+            - My elder brother is in China. 我的哥在中国
+            - My younger brother is in China. 我的弟在中国
+
    - 原级使用
-      1. ~ as 原级 as ~  # 像...一样（注意这个 “原级” 是形容词 或 副词）
-         - 前面的 as 是副词，翻译为 “一样”；后面的 as 作连接词，翻译为 “像”
-         - Sports are as important as studies. # 运动像课业一样重要
-         - He is as nice a person as his father. # 他是像他的父亲一样好的人
+      1. ~ as 原级 as ~ (像...一样）（注意这个 “原级” 是形容词 或 副词）
+         - 前面的 as 是副词，翻译为 “一样”；后面的 as 作介词，翻译为 “像”
+         - Sports are as important as studies. 运动像课业一样重要
+         - He is as nice a person as his father. 他是像他的父亲一样好的人
             - 注意，两个as之间要求放“形容词或副词”，这里其实是一个名词，但是形容词在名词前面，所以也可以这么使用
             - He is
             - 第一个as 副词；副词后面要根形容词，所以是 as nice；形容词修饰名词，所以是 as nice a person
             - 第二个as 翻译为“像...”，对人进行叙述，“像他像样一样好的人”，所以 as nice a person as his father
-      2. ~ not as(=>so) 原级 as ~  # 不像...一样
-         - He does not work as hard as his elder brother <does>. # 他不像他哥哥一样努力工作
-            - as his brother <does> 是修饰 as hard 的副词
+      2. ~ not as(=>so) 原级 as ~（不像...一样）
+         - He does not work as hard as his elder brother (does). 他不像他哥哥一样努力工作
+            - as his brother (does) 是修饰 as hard 的副词
             - as hard 是 work 的副词
-         - The Japanese video game is not so expensive as the Taiwanese one. # 日本制的电动不像台湾制的那么贵
-      3. ~ as many/much + n. + as # 像...一样多的
-         - She has as many dresses as her elder sister <does>. 她有和她姐姐一样多的洋装
-         - I don't know as many pepole as she <does>. 我认识的人不像她那么多
-      4. ~ times as ~ as ~  # 多...倍
-         - time 是时间，但是 times 就是倍数或次数
+         - The Japanese video game is not so expensive as the Taiwanese one. 日本制的电动不像台湾制的那么贵
+      3. ~ as many/much + n. + as（像...一样多的）
+         - She has as many dresses as her elder sister (does). 她有和她姐姐一样多的洋装
+         - I don't know as many pepole as she (does). 我认识的人不像她那么多
+      4. ~ times as ~ as ~（多...倍）
          - The bridge is two times as long as that one. 这座桥长度是那座桥的两倍
             - That bridge is half times as long as this one. 那座桥长度是这座桥的一半
-         - Imported books cost three times as much as Taiwanese books. 进口书的价格是台湾书籍的三倍
+         - Imported books cost three times as much as local Taiwanese books. 进口书的价格是台湾书籍的三倍
             - Taiwanese books cost one third times as much as imported ones. 台湾书的价格是进口书的三分之一
          - 注意词性 length（长度）,width（宽度）,height（高度）,depth（深度）,size（大小；尺寸）,weight（重量）等名词来表现倍数
             - 词性
@@ -3738,14 +3463,14 @@
                - depth n.；deep adj. 深度
                - size n.；big/large adj. 大小；尺寸
                - weight n.；heavy adj. 重量
-            - This box is one quarter as large as that one. # 这个箱子是那个的四分之一大
+            - This box is one quarter as large as that one. 这个箱子是那个的四分之一大
                - This box is one quarter the size of that one.
                   - the size 是名词，作 one quarter 的形容词
-      6. as ... as possible  # 像...一样可能地
-         - Call the police as soon as possible <you can>. # 尽快报警
+      6. as ... as possible(one can)（像...一样可能地）
+         - Call the police as soon as possible. 尽快报警
             - 因为时间的快，用 soon 要更彻底，并且要更短一些，因为 soon 本来就翻译为“不久，快，在即，最近...”
-         - I told him to come home as early as possible. # 我告诉他要尽早回家
-            - I told him to come back as early as he could.
+         - I told him come back as early as possible. 我告诉他要尽早回家
+            - I told him he come back as early as he could.
       7. as ... as 惯用表现
          1. as busy as a bee 非常忙碌
          2. as cool as a cucumber 极端冷静，泰然自若
@@ -3754,74 +3479,70 @@
          5. as flat as a pancake 非常平坦
          6. as sweet as honey 非常甜美
          7. as like as two peas 非常相似
-      8. not so much as 相关
+      8. not so much as
          - 引用教程地址 https://kiki888.pixnet.net/blog/post/33271782-not-so-much...as...---%E8%88%87%E5%85%B6%E8%AA%AA%E6%98%AF%E2%80%A6%E2%80%A6%E5%80%92%E4%B8%8D%E5%A6%82%E8%AA%AA%E6%98%AF%E2%80%A6
-         - 未搞清楚
+         - 与其说是...不如说是...
             - 语法
                - not so adj/adv. as adj./adv.
                - not so much n. as n.
                - not so much 介词短语/不定式短语 as 介词短语/不定式短语
                - not so much v. as v.
+            - 例句
+               - It was not so much a crime as a mistake. 与其说是犯罪，不如说是过失
+                  - 这里的 so much .. as 不能和 as..as 的方式进行理解
+                  - It was rather a mistake than a crime.
+                  - It was a mistake rather than a crime.
                - I don't feel angry so much as sad. # 与其说我愤怒，不如说我悲伤
-         - not so much...as ... # 与其说是...不如说是...
-            - It was not so much a crime as a mistake. 与其说是犯罪，不如说是过失
-               - It was rather a mistake than a crime.
-               - It was a mistake rather than a crime.
-         - not so much as...  /  without so much as... # 就连...也没有 或 就连...也不
-            - The man didn't so much as apologize to me.   # 这个男人就连对我道歉也没有
-               - The man didn't
-               - so much as 修饰 apologize
-               - apologize # v. 道歉
-               - to me 修饰 apologize
-            - He left me without so much as saying thanks. # 他离开了就连说道谢也没有
+         - not so much as...  /  without so much as... （就连...也没有 或 就连...也不）
             - 一些语法
                - cannot so much as 原型动词 # 甚至...都不能
                - do not so much as 原型动词 # 甚至...都不
                - have not so much as p.p. # 甚至...都没有
+            - 举例
+               - The man didn't so much as apologize to me. 这个男人根本没有根我道歉
+                  - The man didn't
+                  - so much as 修饰 apologize
+                  - apologize # v. 道歉
+                  - to me 修饰 apologize
+               - He left me without so much as saying thanks. 他道谢都没有就离开了
       9. as...as ever 依旧
-         - She looks as happy as ever. # 她看起来依旧很快乐
-         - He is as great an artist as ever lived. # 他是有史以灭最伟大的艺术家
-      10. as~as any + 单数名词 # 像任何人一样...
-         - He is as hardworking as any (person) in the village. # 他像村子里任何人一样努力工作
-            - 因为 as ... as 中间必须是 形容词或副词，所以不能使用 work hard，所以 hardworking 充当形容词
-      11. as many/much as + 数词 # 多达...
-         - As many as fifty thousand birds spend the winter here. # 有多达5万只鸟在此过冬
-         - I paid as much as two hundred yuan for the sweater. # 这件毛衣我付了多达200元
-            - pay + 钱 for 物 # 为“物”付了多少钱
-         - 注意
-            - Radio broadcasting started as early as 1920. # 广播早在1920年就开始了
-            - He goes to movies as often as three times a mounth. # 他一个月看电影次数高达三次
+         - She looks as happy as ever. 她看起来依旧很快乐
+         - He is as great an artist as ever lived. 他是有史以灭最伟大的艺术家
+      10. as~as any + 单数名词 （像任何人一样...）
+         - He is as hardworking as any (person) in the village. 他像村子里任何人一样努力工作
+            - 因为 as ... as 中间必须是 形容词或副词，所以不能把 work hard 带进行
+      11. as many/much as + 数词（多达...）
+         - As many as fifty thousand birds spend the winter here. 有多达5万只鸟在此过冬
+         - I paid as much as two hundred yuan for the sweater. 这件毛衣我付了多达200元
+         - Radio broadcasting started as early as 1920. 广播早在1920年就开始了
+         - He goes to movies as often as three times a mounth. 他一个月看电影次数高达三次
       12. as many/much ... （同数/量的）（一样的多）
          1. I found six mistakes in as many lines. 我在六行里找到了六个错误
             - 因为两处用到了 six，本着减少重复的特点而使用此语法
          2. The dour group visited five cities (as many days)|(in five days). 旅行团在五天之内造访了五个城市
       13. as good as...（几乎等于）（几乎根..一样）
-         1. This house is a great buy. It's as good as new. # 这个房子是一笔好买卖，几乎等于是新的（其实不是新的）
+         1. This house is a great buy.It's as good as new. 这个房子是一笔好买卖，几乎等于是新的（其实不是新的）
          2. His car is as good as a piece of junk. 这辆车几乎是片垃圾
 
    - 比较级
       - as..as 的 第二个as 后面只能是主格不能是受格，但是比较级的 than 后面可以是主格或受格
-      - ~比较级 than... # 比...更...
-         - Dogs is cleverer than the cats. # 狗比猫更聪明
-         - He can speak english better than me/I <can>. # 她英文说得比我好
+      - ~比较级 than...（比...更...）
+         - Dogs is cleverer than the cats. 狗纪猫更聪明
+         - He can speak english better than me/I (can). 她英文说得比我好
       - ~ the 比较级 of 一个范围
          - 因为一个范围是特别指定的情况，所以要加 the
          - This guitar is the better of the two. 这把吉他是两把中较好的
          - This guitar is the best of the three. 这把吉他是两把中较好的
       - 强调比较级
-         - 语法
-            - much/many, far, a lot, even, a little 等
-         - 兴趣例
-            - His house is much larger than mine. # 他家比我家大得多
-               - big 和 large 都是翻译为“大”，但是large偏向于容量大，big偏向于体积大
-            - You will find many more amusements in big cities than small towns. # 你在大城市里将可找到比在小镇里多更多的游乐场
-               - 这里用 many 强调 more 是因为 amusements，amusements 是复数，所以视情况而定
-      - ~ more/less 原级 than ~  # 比..较... / 比..较不...
+         - much/many, far, a lot, even, a little 等
+         - His house is much larger than mine. 他家比我家大得多
+         - You will find many more amusements in big cities than small towns. 你在大城市里将可找到比在小镇里多更多的游乐场
+            - 这里用 many 强调 more 是因为 amusements，amusements 是复数，所以视情况而定
+      - ~ more/less 原级 than ~ （比..较... / 比..较不...）
          - Going by bus is not as expensive as going by taxi. 搭公车去不如搭计程车去贵
             - Going by taxi is more expensive than going by bus.
             - Going by bus is less expensive than going by taxi.
          - Instant noodles are less nutritious than rice. 比起米饭，泡面较不营养
-            - instant # # adj. 瞬间的，即刻的 n. 瞬间，即刻
       - 省略 than ~
          1. I have to study harder this year.because I am a third year student. 今年我必须更努力学英文，因为我是三年级的学生了
          2. Why don't you use a sharper knife? 你为什么不使用更锋利的刀呢
@@ -3829,28 +3550,25 @@
          1. adj. 在这里的句型，不管是多音节还是单音节，都应该加 more + adj.原级
          2. She was more sad than angry. 她与其说是生气不如说是难过
          3. It is more flettery than praise. 与其说是称赞不如说是讨好
-         4. not so much...as... 也有相同的效果
       - 比较级 and 比较级（越来越...）
          1. It's getting darker and darker. 天色变得越来越黑了
          2. Entrance exams are becoming more and more difficult. 大学联考越来越难了
       - the 比较级 ~ the 比较级 ~（越...就越...）
-         1. The older we grow,the weaker our memory becomes. # 年纪越大，我们的记忆力就越差
-         2. The longer I waited,the less patient I became. # 我等得越久，我就越没有耐心
-         3. The more time you have,the more work you can do. # 你有越多的时间，你就可以做越多的工作
-      - <all> the 比较级  for 名词 / because S + V （因为...因此便(更)...）
-         1. We respect him <all> the more for his honesty. 因为诚实我们更尊敬他
-            - We respect him <all> the more because he's honest. 因为诚实我们更尊敬他
-            - 加 all 语气会更强
+         1. The older we grow,the weaker our memory becomes. 年纪越大，我们的记忆力就越差
+         2. The longer I waited,the less patient I became. 我等得越久，我就越没有耐心
+         3. The more time you have,the more work you can do. 你有越多的时间，你就可以做越多的工作
+      - (all) the 比较级   for 名词 / because ~ （因为...因此便(更)...）
+         1. We respect him (all) the more for his honesty. 因为诚实我们更尊敬他
+            - We respect him (all) the more because he's honest. 因为诚实我们更尊敬他
          2. She works all the harder because a mother. 他是一个母亲，因此他更努力地工作
-         3. He worked none the harder because he became a father. 虽然他成为了一位父亲，但他却没有因此更努力工作
-            - because 本意是 因为，但是这里翻译是 虽然
-            - 如果产生原因产生的结果是正向的则用 <all> the 比较级 的模式，如果结果是负向的影响，则用 none the 比较级 的模式
+         3. He worked none the harder because he became a father. 虽然他成为了一位父亲，他并没有因此更努力工作
+            - 如果产生原因产生的结果是正向的则用 (all) the more 模式，如果结果是负向的影响，则用 none the 比较
       - much less ~ （更不用说~了）
-         1. I don't like mathematics, much less physics. # 我不喜欢数学，更不用说物理了
-         2. The old man can't even walk,much less run. # 这个老人甚至不能工作，更不用说跑了
+         1. I don't like mathematics, much less physics. 我不喜欢数学，更不用说物理了
+         2. The old man can't even walk,much less run. 这个老人甚至不能工作，更不用说跑了
       - superior to ~,senior to ~ 
          - 以下这些词本身有比较级的意思了，所以不能用于变幻为比较级，而这些词用于比较语法中，是用 to 去根一个受词形成比较语境
-            - superior 超级的，inferior 低劣的/晚辈的/下属性的, senior 年长的，junior 年幼的, major 大的（程度大或高）, minor 小的（程度小或低）, prior 在前的, posterior 在后面的
+         - superior 超级的，inferior 低劣的, senior 年长的，junior 年幼的, major 大的（程度大或高）, minor 小的（程度小或低）, prior 在前的, posterior 在后面的
          - He is five years older than me/I (am). 他比我大五岁
             - He is five years senior to me.
             - He is senior to me by five years.
@@ -3861,22 +3579,22 @@
          - Sooner or later you'll find your missing child. 你迟早会找到你丢失的小孩
       - know better than ~ 不会傻到
          - I know better than to go sailing without a life jacket 我不会傻到航行不穿救生衣
-      - had better v. 最好...（指状况的最好）
-         - You had better go. # 你最好去
+         - had better v. 最好...
       - no more than 等表现
+
          - 语法
             - no more than = only（仅有，只有）；not more than = at most（最多，不超过）
             - no less than = as much as；not less than = at least
             - 例子
-               1. I have no more than 100 dollars. 我仅有100美元（确确实实的一百元）
-               2. I have not more than 100 dollars. 我有不到100美元（最多一百元）
+               1. I have no more than 100 dollars. 我仅有100美元
+               2. I have not more than 100 dollars. 我有不到100美元
                3. I have no less than 100 dollars. 我有100美元这么多（没有少）
                4. I have not less than 100 dollars. 我最少有100美元
          - 语法2
             - no more/not more/no less/not less ~ than ~
             - 例子
                1. I am no more mad than you are. 我根你一样没有发疯
-              2. I am not more mad than you are. 我没有你那么疯
+               2. I am not more mad than you are. 我没有你那么疯
                3. I am no less mad than you are. 我比你疯 我不会比你少发疯
                4. I am not less mad than you are. 我不会比你少发疯
 
@@ -3897,6 +3615,7 @@
 
       - the 的省略
          - 同一个事物不加 the，叙述用法不加 the
+         - 例子
             1. This lake is the deepest in Japan.
                - 在日本有很多湖，在这么多湖当中的这个是最深的
             2. This lake is deepest here.
@@ -3914,9 +3633,7 @@
                - No other boy in my class is as handsome as bob.
          - even + 最高级 （甚至连...）
             1. Even the richest man in the world can't buy her heart. 甚至全世界最富有的人都不能买到他的心
-            2. Even the most talented student in our class wasn't able to answer it. 甚至我们班最有才能的人也不能回答它
-               - talent # n. 才华，才能，天赋
-               - 而这里是加 ed 变形成形容词
+            2. Even the most talented student in ourclass wasn't able to answer it. 甚至我们班最有才能的人也不能回答它
          - at (the) most/best 顶多
             - It will take at (the) most/best three hours to reach our destination. 顶多花三个小时到达目的地
             - The plum blossoms there are now at their best. 在那里梅花盛开的状态是那里最好的情形
@@ -3939,7 +3656,7 @@
          哪一个；哪一位  which -       which
          什么            what  -       what
          ```
-      - 疑问代名词：who,what,which
+      - 疑问副词：when,where,why,how
       - 疑问副词：when,where,why,how
    - 当主词/主词补语
       1. Who is the captain of this ship? 谁是这艘船的船长
@@ -3949,17 +3666,16 @@
       2. What makes you laugh so? 谁让你这么笑的
       3. Who is singing in the room? 谁在屋里唱歌（因为状况不明，所以用 is）
          - 答：Mary and Helen are.（状况明确有两个人，所以回答用 are）
-      4. Which of those ships is the May Flower? # 那些船的哪一艘是五月花号
+      4. Which of those ships is the May Flower?
          - 答：The larger one is.（比较级可以知道一共有两个）
-      5. Whose keys are thest? - They're Jom's # 这些钥匙是谁的？- 它们是约翰的
+      5. Whose keys are thest? 回答：They're Jom's
          - Whose are these keys on the desk? 回答：They're Jom's
          - whose 
             - 所有格 + n. 
             - 所有代名词（单独存在）
    - 当受词
-      - What does she usually have for breakfast? # 她通常早餐吃什么？
-         - have A for 早餐/晚餐/午餐（吃A当什么餐）
-            - have fish for breakfast 吃鱼当早餐
+      - have A for 早餐/晚餐/午餐（吃A当什么餐）
+         - have fish for breakfast 吃鱼当早餐
       - Which of these singers do you like?
          - Which do you like?
          - of these singers 是修饰 Which 的
@@ -3973,74 +3689,36 @@
          - 注意这里的 do 不是 did
       - What do you think of my new hat? 我的新帽子你觉得如何？
          - 这里的 of 是介词，表明瞥见的对象，不是所有格的情况
-      - What 的惯用表现
-         - What about going for a walk? # 去散个步怎么样？
-         - What did you do that for? # 你为什么那样做？
-         - What does it look like? # 他看起来怎么样？
-            - How does it look?
-         - She bought butter,sugar and what not. 他买了奶油，糖，和其它的东西
-            - 这里的 what not 是指非 前面的 butter 和 sugar 的其它东西（what 作关系代词作用）
-         - What do you say to playing a game of basketball with us. 根我们来一场篮球赛你意下如何呢
-            - What do you say to. 你说什么（这里的 to 是 say 的介词）
-            - playing a game of basketball with us 是 意见的对象
-         - What if it rains? 万一下雨怎么办
-            - what if 这里指“万一”
-         - What will become of the whales if we don't protect them? 如果我们不保护金鱼，它们会变成什么样
-            - the whales 将会产生一个什么样的结果
-            - 这里的 of 不是“的”的意思，只是介词，起连接对象的作用
-         - I know what. 我有个主意，或我知道些什么（what 是指事情的关系代名词）
-         - What did I tell you? 就如同我告诉你的，没错吧？
+      - She bought butter,sugar and what not. 他买了奶油，糖，和其它的东西
+         - 这里的 what not 是指非 前面的 butter 和 sugar 的其它东西（what 作关系代词作用）
+      - What do you say to playing a game of basketball with us. 根我们来一场篮球赛你意下如何呢
+         - What do you say to. 你说什么（这里的 to 是 say 的介词）
+         - playing a game of basketball with us 是 意见的对象
+      - What if it rains? 万一下雨怎么办
+         - what if 这里指“万一”
+      - What will become of the whales if we don't protect them? 如果我们不保护金鱼，它们会变成什么样
+         - the whales 将会产生一个什么样的结果
+         - 这里的 of 不是“的”的意思，只是介词，起连接对象的作用
+      - I know what. 我有主意，或我知道些什么（what 是指事情的关系代名词）
+      - What did I tell you? 就如同我告诉你的，没错吧？
 
    - 疑问副词
-      - 例句
-         - Where are you from? # 你来自哪里？
-         - When did you hear the rumor? # 你什么时候听到这个谣言的？
-            - The day before yesterday. # 在前天
-         - Why didn't you lock the door? # 为什么你不锁门呢？
-            - Sorry, I completely forgot. # 报歉，我完全忘也
-         - How did you get here so quickly? # 你如何能够这么快就到这里的？
-            - By taxi. # 搭的计程车
-            - 搭交通工具的用的介词情况
-               - by + 交通工具
-                  - by taxi
-               - on + a/an 交通工具
-                  - 空间比较大，不需要弯腰的交通工具
-                  - on a bus
-               - in + a/an 交通工具
-                  - 一般需要弯腰进去的交通工具
-                  - in a car
-         - How do you feel? - I feel fine. # 你感觉怎么样？我感觉很好
-      - How + adj./adv.
-         - how fast/how soon
-            - how fast 多快（指的速度）
-            - how soon 多快（指的时间）
-         - how high/how tall
-            - how high 多高（指的物体的高度）
-            - how tall 多高（指的身高）
-         - how many/how much
-            - how many 多少（可数，复数）
-            - how much 多少（不可数）
-         - how far/how long
-            - how far 多久（对路遥远）
-            - how long 多长（对时间，长短计量）
-         - How come you're not studying? 什么导致你不学习
-            - 等价：How does it come that you're not studying?
-               - 其实 it 是 you're not studying 的代名词
-      - 举例
-         - How far is it from your house to the station? # 从车站到你家有多远？
-            - One minute's walk. # 一分钟的步行
-            - Five minutes' walk. # 五分钟的步行
-         - How long are you going to stay here? # 你打算呆在这儿多久呢？
-         - How long is this bridge? # 这座桥有多长？
-            - It's about 100 meters long. # 它大约有100米长
-         - How fast did Tommy run? # 汤姆跑得有多快？
-         - How soon will your parents come back? # 你的父母多久会回来？
-      - how 的惯用表现
-         - How about going to a movie tonight? # 今晚去看电影怎么样？
-         - How are you,Sue? # 苏，你好吗？（适用于对相互熟悉的人问候）
-         - How do you do,Ms.Smith? # 史密斯先生，你好吗？（适用于对初次见面的人的问候）
-         - How does it come that you're not studying? # 怎么你不读书了？
-      - 强调疑问的程度
+      - how fast/how soon
+         - how fast 多快（指的速度）
+         - how soon 多快（指的时间）
+      - how high/how tall
+         - how high 多高（指的物体的高度）
+         - how tall 多高（指的身高）
+      - how many/how much
+         - how many 多少（可数，复数）
+         - how much 多少（不可数）
+      - how far/how long
+         - how far 多久（对路遥远）
+         - how long 多长（对时间，长短计量）
+      - How come you're not studying? 什么导致你不学习
+         - 等价：How does it come that you're not studying?
+            - 其实 it 是 you're not studying 的代名词
+      - 一些增强语气的问句
          - Who said so? 谁这么说
             -  Who ever said so? 到底谁这么说
          - How did you do it?  你怎么做到的
@@ -4049,52 +3727,23 @@
             - Where on earth has he gone? 他到底去了哪里
          - What are you doing? 你在做什么
             - What in the world are you doing? 你到底在做什么
-      - 疑问形容词
-         - What nationality is that man? # 那个男人是哪国人？
-         - Which color do you prefer,red or blue? # 你更喜欢哪种颜色？红色或蓝色？
-      - 疑问词的位置不同者
-         - I told him the truth. - You said what. # 我告诉了他实话 - 你说什么！
-         - I'm sorry,Mom. I broke your... - You broke my what? # 报歉，妈咪，我打破了你的... - 你打破了我的什么？！
-      - 间接疑问句
-         - 主要子句 + if/whether + 主词 + 动词
-            - whether or not 是固定搭配
-            - Please tell me if/whether the museum is open on Monday. 请告诉我这博物馆在星期一是否开放
-            - I don't know whether she is married or not. 我不知道她是否结婚了
-               - I don't know whether or not she is married. 我不知道她是否结婚了
-               - marry # v. 嫁；娶
-               - be married # 已结婚了
-            - He can't decide whether he will visit or not. # 他不能决定是否去拜访她
-               - 连接词后面的主词和前面的主词相同时，某些连接词的搭配下，可以把连接词后的主词省略
-               - He can't decide whether to visit her or not.
-               - he 去掉了，will 也跟随去掉
-         - 疑问词 + 主词 + 动词 ...
-            - Who is the man wearing a tuxedo? - I don't know. # 那个正穿着燕尾服的人是谁？- 我不知道
-               - I don't know who the man wearing a tuxedo is. # 我不知道这个正穿着燕尾服的人是谁
-            - Why is the man wearing a tuxedo? - Can you tell me? # 为什么那个人要穿燕尾服呢？- 你能告诉我吗？
-               - Can you tell me why the man is wearing a tuxedo? # 你能告诉我为什么那个人要穿燕尾服吗？
-            - What does he do? - Let me know. # 他是做什么的？（问职业）让我知道
-               - Let me know what he does.
-            - When she left the house is not know. # 她什么时候离开家的没有人知道
-            - The problem is how we finish this job. # 问题是我们如何完成这个任务
-               - The problem is how to finish this job.（虽然前半句和后半句没有相同的主词，但是如果前后都清楚的事情也可以进行省略）
-            - Do you want to know what I bought? # 你想知道我买了什么吗？
-            - I have no idea who broke the window. # 对于谁打破窗户我并不知情
-            - Do yo know what I have in my hands? # 你知道我手上有什么吗？
-               - Yes, I do. you have some flowers. # 是的，我知道，你有一些花儿
-            - What do you think I have in my hands? # 你认为我手上有什么？
-               - I think you have some cherries. 我认为你有一些樱桃
+      - 主要子句 + if/whether + 主词 + 动词
+         - whether or not 是固定搭配
+         - Please tell me if/whether the museum is open on Monday. 请告诉我这博物馆在星期一是否开放
+         - I don't know whether she is married or not. 我不知道她是否结婚了
+            - I don't know whether or not she is married. 我不知道她是否结婚了
+         - He can't decide whether he will visit.
+            - 连接词后面的主词和前面的主词相同时，某些连接词的搭配下，可以把连接词后的主词省略
+            - He can't decide whether to visit her or not.
+            - he 去掉了，will 也跟随去掉
+      - The problem is how we finish this job.
+         - The problem is how to finish this job.（虽然前半句和后半句没有相同的主词，但是如果前后都清楚的事情也可以进行省略）
+
    - 附加疑问句
-      - 例句
-         - You don't like him,do you? # 你不喜欢她，是吗？（结尾语调上升，疑问）
-            - 这是一种疑问
-         - You don't like him,do you? # 你不喜欢她，对吧？（结尾语调下降，再次确认）
-            - 这是讲话的人对这件事的一种确认，只是想最后确认下
-         - I am your boss. am I not? / aren't I?
-         - There are ten more days until Christmas, aren't there? # 到圣诞节还有十几天，不是吗？
-            - 这里用 are 是因为后面的 then more days 是复数，所以用 are
-         - Mary doesn't like onions. does she? # 玛丽不喜欢洋葱，是吗？
-         - The accident victim could hardly walk, could he? # 事故害者几乎不能走路，是吗？
-            - hardly # “几乎不”
+      - You don't like him,do you? 结尾语调上升（你不喜欢她，不是吗？）
+         - 这是一种疑问
+      - You don't like him,do you? 结尾语调下降（你不喜欢她，对吗）
+         - 这是讲话的人对这件事的一种确认，只是想最后确认下
       - 祈使句的反向疑问
          - Don't touch it
             - , will you?
@@ -4104,14 +3753,14 @@
          - Speak louder
             - , will you?
             - , can't you?（这种更客气）
-      - 修辞疑问语句
+      - 修辞语句
          - Who knows? => Notbody knows. 谁知道呢/没有人知道
          - What is the use? => It is no use. 有什么用呢/没有用
-         - What difference does it make? => It makes no difference. 它有什么不同吗/它没有不同
-         - Isn't it pantastic? => It is very fantastic. 它很好笑吗/它非常不好笑
+         - What difference does it make? => It makes no difference. 它有什么不同呢/它没有不同
+         - Isn't is pantastic? => It is very fantastic. 它很好笑吗/它非常不好笑
          - Shall I ever forget her? => I shall never forget her. 我应该忘记她吗/我决不该忘记她
       - 应答式疑问句
-         - I'm not interested in the games. # 我不喜欢游戏
+         - I'm not interested in the games.
             - 答：Aren't you? 难道不是吗？
          - He hit a home run yesterday.
             - 答：Oh,did he? 难道不是吗？
@@ -4120,6 +3769,7 @@
          - This sword is a thousand years old? 这把剪已经有一千年了吗（语气上升）
 
 * 名词和冠词的用法
+
    - 名词
       - 名词按数分类
          1. 可数
@@ -4133,20 +3783,17 @@
             - 不可数名词
       - 例子
          - 几个例子
-            - School begins in September. # 学校在九月份开学（这里的 school 是抽象）
-            - There are three schools in this town. # 有三所学校在这个城镇（这里的 schools 是复数）
-            - Whales are mammals. # 鲸是哺乳动物
-               - A whales is a mammal. # 鲸是一种哺乳动物
-               - The whales is a mammal. # 鲸是一种哺乳动物
-            - I met a boy.The boy had a ball in his hands. # 我遇到了一个男孩，这个男孩手上有只球
+            - School begins in September. 学校在九月份开学（这里的 school 是抽象）
+            - There are three schools in this town.（这里的 schools 是复数）
+            - Whales are mammals. 鲸是哺乳动物
+               - A whales is a mammal. 鲸是一种哺乳动物
+               - The whales is a mammal. 鲸是一种哺乳动物
          - 单复数同形
             - family,audience,class,club,company,crew,crowd,government,public,staff,team
-            - His family is a big one 他的家庭是个大家庭（这里是指家的整体）
-            - His family are all tall. 他的家人都很高（这里是指所有的家人）
-            - Our team has won the championship. # 我们的队伍赢得冠军（这里指队伍的整体）
-            - Our team were all excited. # 我们的队员都很激动（这里指所有的队员）
+            - Our family is a big one 我的家庭是个大家庭
+            - Our family are all tall. 我的家人都很高
          - 只有复数形式
-            - police,cow（母牛）,bull（公牛）,ox(肉牛，被yan掉的牛),cattle（牛）,people,poultry（家禽）
+            - police,cattle（牛）,people,poultry（家禽）
                - cattle 牛，牛群
                - 其它有单数形式的
                   - cow 母牛
@@ -4158,121 +3805,75 @@
             - baggage（行李）,clothing（衣物）,furniture（家具）,machinery（机器）,merchandise（商品）,poetry（诗）,scenery（风景）等
          - 特殊的集合名词
             1. fruit
-               - 说明
-                  1. 表水果总称：用不加冠词单数形式 fruit
-                  2. 表水果种类：
-                     - 一种：a fruit
-                     - 两种：fruits
-                     - 其它情况
-                        - a kind of a fruit
-                        - two kinds of fruits
-                  3. 表成果；结果：fruits
-               - 举例
-                  - Do you eat much fruit? # 你吃很多水果吗？
-                  - The potato is not a fruit but a vegetable. # 土豆不是种水果而是种蔬菜
-                  - His success was the fruits of hard work. # 他的成功是努力工作的成果
+               - 表水果总称：用不加冠词单数形式 fruit
+               - 表水果种类：
+                  - 一种：a fruit
+                  - 两种：fruits
+                  - 其它情况
+                     - a kind of a fruit
+                     - two kinds of fruits
+               - 表成果；结果：fruits
             2. fish
-               - 说明
-                  - 表数量：
-                     - 一条鱼：a fish
-                     - 两条以上：fish
-                        - two fish 两条鱼
-                  - 表种类
-                     - 一种：a fish
-                     - 二种以上： fishes
-                        - two fishes 两种鱼类
-                  - 表鱼肉：fish
-               - 举例
-                  - I caught a fish. # 我抓住了一只鱼
-                  - There are a lot of fishes living in the sea. # 这片海里有许多种鱼（是指的鱼的种类）
-                  - I like eat fish. # 我喜欢吃鱼肉
+               - 表数量：
+                  - 一条鱼：a fish
+                  - 两条以上：fish
+                     - two fish 两条鱼
+               - 表种类
+                  - 一种：a fish
+                  - 二种以上： fishes
+                     - two fishes 两种鱼类
+               - 表鱼肉：fish
             3. pepole
                - 表人们：people（复数，如果要指一个人用：a person）
                - 表国民，民族：
                   - 一个：a people
                   - 两个以上：peoples
-               - Ten people were injured in the accident. # 十个人在这场意外中受伤
-               - The Chinese are said to be an industrious people. # 中国人是勤奋的民族（据说中国人是勤奋的民族）
-                  - industrious # adj. 勤奋的，勤劳的
-                  - industry    # n. 工业，行业，产业
-                  - industrial  # adj. 工业的
             4. hair
                - 表全部：hair
-               - 表头发根的单复数：a hair 或 hairs
-               - She has thick hair. # 他有头很厚的头发
-               - He pulled out two white hairs. # 他拔掉了两根白头发
+               - 表一根根：a hair 或 hairs
          - 抽象名词
-            1. 例如：kindness(善良，仁慈，亲切),beauty(美丽),honesty(诚实)
+            1. 例如：kindness,beauty,honesty
             2. 一般情况：不加冠词，采用单数形式
-                - I like music. # 我很喜欢音乐
-                - This is important information. # 这是则很重要的消息
+                - I love music.
             3. 表程度，可以加 (a)few,(a)little,much,any,some
-                - He have little hope of succeeding. # 他几乎没有成功的希望
-                - He have a lot of homework to do.   # 他有许多作业要做
+                - He have little hope of succeeding. 他几乎没有希望
+                - He have a lot of homework to do. 他有许多作业要做
             4. 表限定，可以加 the
-                - Necessity is the mother of invention. # 需要是发明之母
-                - You should know the difficulty of learning how to drive a car. # 你应该知道学习如何开车的困难
+                - Necessity is the mother of invention. 需要是发明之母
+                - You should know the difficulty of learning how to drive a car.
             5. 抽象名词要数数时，用 a piece of, a item of 等
-                - She sent us an item of news. # 她发了项新闻给我
-                   - news 是不可数名词
-                - She gave me two wonderful pieces of advice. # 她给了我两则很棒的忠告
-                   - advice 是不可数名词
-                   - wonderful 形容词要加在 pieces 前面而不是 advice 前面
+                - She sent us an item of news. 她发了项新闻给我
+                - She gave me two wonderful pieces of advice. 她给了我两则很棒的忠告
             6. 表示个别行为事件时，可加 a(an)，也可用复数形式
-               - The computer is a marvelous invention. # 计算机是一项很神奇的发明
-               - I will tell you my views of the matter. # 我会告诉你我的观点
-            7. 介词 + 抽象名词 
-               - 语法举例
-                  - of 抽象名词 = 形容词 
-                  - with + 抽象名词 = 副词
-               - 例句
-                  1. He is a man of ability = He is an able man. 他是个有能力的人
-                  2. The information is of no value to me. = the information is valueless to me. 这个信息对我是没有价值的
-                  3. Mary passed the exam with ease. = Mary passed the exam easily. 玛莉很容易地通过了考试
-                  4. 注意
-                     - of importance = important(adj.)
-                     - with care = carefully(adv.)
-                     - on purpose = intentionally(adv.) 有意图地；故意地
-                     - by accident = accidentally(adv.) 意外地
+               - The computer is a marvelous invention. 计算机是一项很神奇的发明
+               - I will tell you my views of the matter. 我会告诉你我的观点
+            7. 介词 + 抽象名词 + of 抽象名词 = 形容词 / with + 抽象名词 = 副词
+               1. He is a man of ability = He is an able man. 他是个有能力的人
+               2. The information is of no value to me. = the information is valueless to me. 这个信息对我是没有价值的
+               3. Mary passed the exam with ease. = Mary passed the exam easily. 玛莉很容易地通过了考试
+               4. 注意
+                  - of importance = important(adj.)
+                  - with care =  carefully(adv.)
+                  - on purpose = intentionally(adv.) 有意图地；故意地
+                  - by accident = accidentally(adjv.) 意外地
             8. 物质名词
                - light,water,money,milk 等
                - 一般情况，不加冠词，采用单数形
                   - This statue is made of stone. 这个雕像是由石头做成的
-                  - The crowd threw stone<s> at the police. # 人群向警察投石头
-                     - pebble # n. 打水漂的石头（很小）
-                     - stone # n. 石头（较大）
-                     - rock # n. 岩石（很大）
-                     - boulder # n. 巨头（巨大）
                - 限定的量，可加 some,a lot of,much 等
-                  - I don't need much money to buy that camera. # 我不需要太多钱买那个相机
-                  - We have little rain here. # 这里几乎没下雨
+                  - I don't need much money to buy that camera. 我不需要太多钱买那个相机
+                  - We have little rain here. 我们这里几乎没下雨
                - 特定的物品，可加冠词，代名词或所有格
                   - This beef is from Australia. 这个牛排来自澳大利亚
                   - Let's go to the liguor store. 我们去酒吧吧
                - 物质名词的量化
                   - 数字 + ~ + of + 物质名词
-                  - a school of whales   # 一群鲸
-                  - a herd of cattle     # 一群牛
-                  - a flock of birds     # 一群鸟
-                  - 形状
-                     - a piece of paper. # 一片纸
-                     - a piece of chalk. # 一支粉笔
-                     - a sheet of paper. # 一张纸
-                     - a slice of bread. # 一片面包
-                     - a loaf of bread.  # 一条面包
-                  - 容器
-                     - a bottle of cola. # 一瓶可乐
-                     - a glass of water. # 一杯水（玻璃杯）
-                     - a cup of tea.     # 一杯茶（有耳朵，手把的容器）
-                  - 单位
-                     - a pound of butter.   # 一磅黄油
-                     - a liter of milk.     # 一升牛奶
-                     - a spoonful of sugar. # 一匙糖
+                  - a piece of paper. 一张纸
+                  - a glass of water. 一杯水
+                  - a spoonful of sugar. 一匙糖
             9. 专有名词
                - Mary,Youth Park,China 等
                - 一般情形，开头字母需要大写，不加冠词，没有复数形式
-               - Dr.Jones photographed many wild animals in Africa. # 琼斯博士在非洲拍了很多野生动物的照片
-               - Henry walked down Bridge Street to save time. # 享利为了节省时间走了桥街
                - China is a big country. 中国是个大国
                - 加定冠词的专有名词
                   - 船，列车：the Titanic,the MRT 
@@ -4280,39 +3881,35 @@
                   - 公共建筑物：the White House,the British Museum
                   - 报纸，杂志：the Times,the Asahi
             10. 加不定冠词或得数形式的专有名词
-               - A Mr.Brown has come to see you. # 一个叫布朗先生的人来看你了（不认识布朗先生）
-               - He is the Edison of Taiwan. # 他是台湾的爱迪生（不是真的爱迪生，只是把这个人作比喻）
-               - My wife was a Smith. # 我的妻子是姓史密斯的其中一个人（妻子是史密斯家族的人）
-               - He has two Picassos. # 他有两幅毕加索的画
+               - A Mr.Brown has come to see you. 一个叫布朗先生的人来看你了（不认识布朗先生）
+               - He is the Edison of Taiwan. 他是台湾的爱迪生（不是真的爱迪生，只是把这个人作比喻）
+               - My wife was a Smith. 我的妻子是姓史密斯的其中一个人（妻子是史密斯家族的人）
+               - He has two Picassos. 他有两幅毕加索的画
    
          - 名词的复数
             - 规则变化：
                1. s,x,ch,sh，子音 + o：后面加 es
-                  - bus -> buses,box -> boxes,church -> churches,hero -> heroes（男英雄）
-                  - heroine # 女英雄
+                  - bus -> buses,box -> boxes
                2. 字尾为子音 + y：去y + ies
                   - city -> cities,baby -> babies
                3. 字尾f,fe：去f,fe + ves
                   - leaf -> leaves,wife -> wives
-            - 注意：stomachs,pianos,photos,roofs,safes（保险箱）,beliefs
+            - 注意：stomachs,pianos,photos,roofs,safes,beliefs
             - 不规则变化
-               - man-men,woman-women,child-children,left-leaves
-               - tooth-teeth,foot-feel,mouse-mice
+               - man-men,child-children,left-leaves,tooth-teeth,foot-feel,mouse-mice
             - 单复数同形
-               - Chinese（中国人）,Japanese（日本人）,carp（鲤鱼）
-               - sheep（绵羊）,deer（鹿）,species（物种）
+               - Chinese,Japanese,carp,sheep,deer（鹿）,species（物种）
             - 外来语复数
                - datum-data,medium-media,crisis-crises,analysis-analyses
             - 文字，数字的复数形式
-               - UFOs -> UFO's, the 80s -> 80's, CDs -> CD's
-               - 幽浮，80年代，CD
+               - UFOs/UFO's, the 80s/80's, CDs/CD's
             - 复合名词的复数形
-               - passer-by -> passers-by # 路人，行人
-               - college student -> college students # 大学生
-               - woman astronaut -> women astronauts # 女宇航员
+               - passer-by <-> passers-by
+               - college student <-> college students
+               - woman astronaut <-> woment astronauts
             - 单数，复数意思不一样的注意点
                - paper（纸）   * papers（文件）
-               - work（工作）  * works（工厂）单数复数都是 works
+               - work（工作）  * works（工厂）
                   - job(s) 工作（有薪水的职业，职业）
                - part（部分）  * parts（零件，有才能的）
                - water（水）   * waters（水域，海域）
@@ -4324,16 +3921,14 @@
                - letter（信）  * letters（文学）
                - air（空气）   * airs（装腔作势）
                - glass（玻璃） * glasses（眼镜）
-            - 必用复数
-               - glasses # 眼镜
-               - contact lenses # 隐形眼镜
-               - trousers # 裤子
-               - shoes # 鞋子
-               - gloves # 手套
-               - scissors # 剪刀
-               - socks # 袜子
+               - contact lenses 隐形眼镜
+               - trousers 裤子
+               - shoes 鞋子
+               - gloves 手套
+               - scissors
+               - socks 袜子
             - 学科名称字尾为 ics：用单数形
-               - mathmatics（数学）, politics（政治学）, physics（物理学）, economics（经济学）
+               - mathmatics, politics, physics, economics
             - 表金额，距离，时间：用单数动词
                - One hundred dollars is enought to buy that jacket.
                - Twenty miles is a long distance to run.
@@ -4341,12 +3936,12 @@
    
          - 名词的所有格
             - 单数名词 -> N's 
-               - Jim's mom, the Bob's hat
+               - Jim's mon, the Bob's hat
             - 复数名词 -> Ns'
                - a girls' high school 女子中学
                   - a 指的是一所学校
                   - girls 是因为女子中学有多个女孩
-               - April Fools' Day # 愚人节
+               - April Fools' Day
             - 不规则变化的得数名词 -> N's
                - children's toys,men's coots
    
@@ -4357,17 +3952,11 @@
                - Jack's and Peter's fathers （各自的父亲）
                - Jack and Peter's father（共同的父亲）
             - 表时间，距离，重量，金额等的名词 -> N's 或 Ns'
-               - ten minutes' break # 休息十分钟
-                  - break 的休息比较短
-                  - rest 的休息比较长
-               - tomorrow's weather # 明天的天气
-               - three miles' distance. # 三米的距离
-               - a pound's weight # 一磅的重量
-               - a dollar's worth # 一美元的价值
+               - ten minutes' break
+               - tomorrow's weather
             - 表国名，地名 -> N's 或 Ns'
-               - the world's polulation # 世界的人口
-               - Taiwan's climate. # 台湾的气候
-               - the United States' future # 美国的未来
+               - the world's polulation
+               - Chongqing's climate
             - B of A -> 无生物所有格
                - the roof of the church 教堂的屋顶
                - the front of the building 那栋建筑的正面
@@ -4375,11 +3964,11 @@
                   - the answer(s) to the question 这个问题的答案
                   - the ticket(s) to that gane 那个比赛的门票
                   - the key to great success 非常成功的关键
-                  - the advice of the man standing at the gate. # 在门口那个男人的忠告
+                  - the advice of the man standing at the gate
                      - 因为男人有“在门口”修饰，所以无法使用 man's 的方式进行表述
             - 表场所，建筑的名词在所有格后，通常被省略
-               - My mother went to the baker's (shop). # 我妈妈去了面包店
-               - I'm going to the dentist's (office) tomorrow. # 我明天要去看牙医
+                  - My mother went to the baker's (shop).
+               - I'm going to the dentist's (office) tomorrow.
 
       - 冠词
          - 不定冠词 -> a/an + 可数单数名词
@@ -4391,98 +3980,79 @@
             - the 的发音
                - 子音开头的字 -> the plane
                - 母单开头的字 -> the artist
-               - 以上两个的 the 发音都不一样
    
             - 不定冠词的用法
                1. 表示不特定的单数可数名词
                   - Waiter,there is a fly in my soup.
-                     - fly # n. 苍蝇，飞 v. 飞翔，飞
                2. 话题中第一次提到的单数名词前
                   - I saw a bird,The bird is flying in the sky.
-                     - 注意
-                        - see - sae - seen  # v. 看
-                        - say - said - said # v. 说
-               3. 表示[个]
+               3. 表示个
                   - Rome was not built in a day. 罗马不是一天就建成的
-                  - It's all Greek to me. # 我完全不懂（它对于我像希腊语一样）（希腊语很难）
-                  - It's a piece of cake. # 一块蛋糕
-                  - Greece # 希腊
                4. 表示某个
-                  - He came back on a Christmas. # 他在某个圣诞节回来了
+                  - He came back on a Christmas.
                5. 表示一些(->some)
                   - That painting looks more beautiful from a distance. 那个配色从某个距离看更漂亮了
                6. 表示相同(->one and the same)
                   - Birds of a feather flock together. 物以类聚（同种羽毛的鸟凑在一起）
-                  - Fine feathers make fine birds. # 人要衣装，佛要金装（好羽毛造就好的鸟）
                7. 表示每一个(->per)
-                  - We have six English classes a week. # 我们每周有六节英语课
+                  - We have six English classes a week. 我们每周有六节英语课
                8. 重点：伴随 a 掋惯用表现
                   - a great many, a little, a few, as a rule~（按...来说）
                   - As a rule it rains little in Chongqing in winter. 一般来说，在重庆冬天几乎不下雨
-                  - He was at a loss for words. # 他惊慌得不知所措
-                  - It is true in a sense. # 某种程序来说它是真的
-                  - I go to the movies once in a while. # 我偶尔去看一下电影
+                  - He was at a loss for words. 他惊慌得不知所措
+                  - It is true in a sense. 某种程序来说它是真的
+                  - I go to the movies once in a while. 我偶尔去看一下电影
          - 定冠词
             - 表示特定事前
-               - You took a photo of me.Show the photo to me. # 你给我照了张照片，给我看看那张
-               - The wine I drank at the party was very good. # 我在派对上喝的酒很不错
+               - You took a photo of me.Show the photo to me. 你给我照了张照片，给我看看那张
+               - The wine I drank at the party was very good.
             - 从状况可知所指为何之名词前
                - Did you remember to lock the door? 你记得要锁门吗
             - 表示唯一之物 的名词前
                - the sun, the moon, the universe,the north, the Bible, the President
-               - 太阳，月亮，宇宙，北方，圣经，总统
             - 用于最高级或only,first,last,same 等之前
-               - He is the only person <whom> I can trust. # 他是我唯一能相信的人
+               - He is the only person I can trust.
             - by + the + 单位（以...为单位）
                - In England,they buy butter by the pound. 在英国，以磅为单位买奶油
                - We were hired by the hour. 我们被以小时为单位受雇
-               - We were fired. # 我们被炒鱿鱼了
             - the + adj. 转变为了名词，指人时，采用复数形式
                - the rich,the poor,the old,the young, the learned
             - the + adj. 转变为了名词，有些情况也表抽象的意义
                - Everybody loves the true,the good and the beautiful. 每个人都喜爱真善美
             - 介词 + the + 身体的某部分（只是为了限定部位）
-               - He shook her roughly by the shoulder. 他很粗鲁地搂着她的肩膀摇晃她
+               - He shook her roughly by the shoulder. 他很粗鲁地摇晃她
                - He kissed the girl on the forehead. 他亲吻了女孩的额头
-                  - forefather # 祖先
-                  - forefinger # 十指
-                  - middlefinger # 中指
-                  - ringfinger # 无名指
-                  - littlefinger # 小指
-               - The man was shot through the heart. # 那个男人被射穿心脏
+               - The man was shot through the heart. 那个男人被射穿心脏
          - 冠词的特别注意的用法
             - half,many,quite,rather,such,what + a/an + N.
-               - It lasted for half an hour. # 它持续了半小时
-                  - last # adj. 最后的 v. 持续
-               - Many a little makes a mickle. # 聚少成多
-               - It was so unusual a story that few people believed it. 它是如此不寻常的故事，以至于几乎没有人相信他
+               - It lasted for half an hour. 它持续了半小时
+               - Many a little makes a mickle. 聚少成多
+               - It was so unusual a story that few people believed it. 如此不寻常的故事，以至于几乎没有人相信他
                   - so 是作副词，unusual 是形容词
                   - It was such an unusual story that few people believed it. 
                      - such 是作形容词，unusual 是形容词
             - all,both,double,twice,half + the + N.
-               - All the computers in my office were broken. # 在我办公室所有的电脑都坏了
-               - I had to pay double the fine. # 我必须要付两倍罚金
-                  - I was fined. # 我被罚了
-            - a/an A and B | a/an A and a/an B
+               - All the computers in my office were broken.
+               - I had to pay double the fine. 我必须要付两倍罚金
+            - a A and B / a A and a B
                - I saw a white and black dog. 我看到了一只有黑色和白色的狗（一只狗，毛色有黑有白）
                - I saw a white (dog) and a black dog. 我看到了一只白狗和一只黑色的狗
             - 注意：2个物品成一组或合而为一者，只在第一个名词前加冠词
                - the bread and butter,a cup and saucer
-               - a watch and chain # 有链子的表
-                  - saucer 是咖啡杯下的托盘
             - 加冠词和不加冠意义不同
-               - go to school     # 去上学
-               - go to the school # 到学校
-               - go to church     # 做礼拜
-               - go to the church # 去教堂
-               - go to bed        # 上床睡觉
-               - go to the bed    # 到床上去
-               - at table         # 在吃饭
-               - at the table     # 在餐桌前
-               - in class         # 上课
-               - in the class     # 在班级
-               - go to sea        # 当水手
-               - go to the sea    # 去海边
+               - go to school 去上学
+               - go to the school 到学校
+               - go to church 做礼拜
+               - go to the church 去教堂
+               - go to bed 上床睡觉
+               - go to the bed 到床上去
+               - at table 在吃饭
+               - at the table 在餐桌前
+               - in class 上课
+               - in the class 在班级
+               - go to sea 当水手
+               - go to the sea 去海边
+
 
 * 介系词
    - 概述
@@ -4491,54 +4061,44 @@
       - Put the book on the desk（on the 作副词）
    - 介词的受词是以下情况的区别
       - 名词/代名词
-         - I went shopping with Mary yesterday. # 我昨天与玛丽购物了
-         - I met Mary by chance,and I went shopping with her. # 我有机会遇到玛莉，我和他一起购物
+         - I went shopping with Mary yesterday.
+         - I met Mary by chance,and I went shopping with her. 我有机会遇到玛莉，我和他一起购物
       - 形容词
-         - Things went rapidly from bad to worse. # 这个事情迅速恶化
-            - 这里 from 是介词，bad 是形容词，所以有时候介词后可以放形容词
-            - 这里也可以理解为 from being bad 这样理解
-            - worse 当名词时意思是 “更坏的事”
+         - Things went rapidly from bad to worse. 这个事情迅速恶化
       - 副词
-         - How far is it from here to the bus stop? # 从这里到车站有多远
-            - from 是介词，here 是副词，所以有时候介词后可以放副词
-            - 这里也可以理解为 from being here 这样理解
+         - How far is it from here to the bus stop? 从这里到车站有多远
          - I haven't seen her since then. 我从那时起就没见过她
       - 动名词 
          - 介词后面是不可以根动词的
          - My brother used my computer without asking for my permission.（without 作介词）
-         - I'm looking forword to seeing you. # 我很期待见到你（这里的 to 是介词）
-            - 这里的 seeing 是动名词不是现在分词
+         - I'm looking forword to seeing you.（这里的 to 是介词）
       - 不定词 - 用于 but,except,as,than
          - 一般是这些特有的情况用原型不定词，否则其它都是动名词
-         - They did nothing but play cards all day. # 他们只知道玩牌
-            - but 后面不能有 to，因为but后面不能有介词，所以 play 是原型不定词
+         - They did nothing but play cards all day.（but 后面不能有 to，因为but后面不能有介词，所以 play 是原型不定词）
          - I would rather stay at home than go out.（than 后面不能有 to，go 是原型不定词）
       - 子句（名词子句）
-         - The future of this planet depends on whether we can protect the environment. # 这个星球的未来视我们是否能保护环境而定
-            - depend on 本来翻译为“依赖于”，但是通过上下文可以翻译为“视...”
-         - Men differ from animals in that they can use fire. # 人之所以和动物不一样是在于人可以使用火
+         - The future of this planet depends on whether we can protect the environment. 这个星球的未来视我们是否能保护环境而定
+         - Men differ from animals in that they can use fire. 人之所以和动物不一样是因为人可以使用火
 
    - 介词的位置
          - 受词为疑问词时
-            - Who<m> are you going to with? 你要和谁一起去
-               - With whom are you going?
-                  - 这是介词放在前面的形式
-               - You are going with xxx.，因为 xxx 是受词，所以是 whom（由 介词后面的名词是受词）
-                  - 再转变为疑问句
+            - Whom are that you going to with? 你要和谁一直去
+               - You are going to with xxx.，因为 xxx 是受词，所以是 whom（由 介词后面的名词是受词）
+               - 再转变为疑问句
+               - 也可以改为：With whom are you going?
             - What are you talking about? 你在说什么
          - 受词为关系子句
-            - This is the river which I used to swim in. # 这是我过去常常游泳的河
+            - This is the river which I used to swim in.
                - This is the river in which I used to swim. 
                   - 因为介词后面 可以根子句，然而 which... 是一个子句，所以可以以这种形式作关系子句
-            - The young lady whom Mom is talking to is our music teacher. # 这个和我妈妈谈话的年轻女子是我的音乐老师
+            - The young lady whom Mom is talking to is our music teacher.
                - The young lady to whom Mom is talking is our music teacher.
                   - The young lady  主句
                   - to whom Mom is talking 修饰主句，而且 to 是介词，可以根子句，刚好 whom...构成子句，所以... 
                   - is 动词
                   - our music teacher. 受词
          - 介词及受词中有不定词时
-            - He has many friends to rely on. # 他有许多可以依赖的朋友
-               - 这里的 on 是介词
+            - He has many friends to rely on.（这里的 on 是介词）
                - to rely on 是修饰 friends 的形容词
                   - He has many friends.
                   - He relies on his friends.
@@ -4550,23 +4110,22 @@
             - All of us look forward to his success.
                - His success is looked forward to by all of us.
             - We have to take care of the baby.
-               - The baby has to be token care of <by us>.（因为是被动，所以可以省略 by us）
-               - 因为 by us 已经是听者已经知道的了，所以可以省略
+               - The baby has to be token care of (by us).（因为是被动，所以可以省略 by us）
    - 群体介系词
       - according to, because of, instead of, at the risk of（冒...样的危险）, for the purpose of（为了...样的目的）
          1. because of 和 because 区别
             - because of 后面根 名词
-            - because 后面根子句（因为它是连接词）
-         2. We had to stay indoors all day because of the storm. # 由于暴风雨，我们不得不整天待在室内
+            - because 后面根子句
+         2. We had to stay indoors all day because of the storm.
             - We had to stay indoors all day because there was a storm.
          3. Thanks to your advice,I was able to win
-         4. He sent his brother instead of going himsel. # 他改派他弟弟代替他去
-         5. He saved the child at the risk of his life. # 他冒着生命危险救了他的生命
+         4. He sent his brother instead of  他派他的兄弟作替代
+         5. He saved the child at the risk
          6. We express our thoughts by means of words. 我们通过词语的意思表达我们的想法
          7. I did my best with a view to pleasing my father. 为了取悦我的父亲我尽我的全力
             - with a view to “为了”
-            - 这里的 to 是介词
             - 如果把 with a view to 改为 in order to；那么 pleasing 应该改为 pleas；因为 in order to 的 to 是不定式
+            - 这里的 to 是介词
 
     - 双重介词
        1. He was chosen from among the volunteers. 他被从这些义工中挑选出来
@@ -4579,26 +4138,24 @@
           - under 在...下面
     - 常见的介词用法
        - in,on,at
-          - in 2005                      # 在2005年
-          - in the morning               # 在早上
-          - on the morning of October 10 # 在10月10号早上（因为有具体的日期，所以用on）
-          - at dawn                      # 在黎明时分
-          - at sunset                    # 在日落
+          - in 2005 “在2005年”
+          - on the morning of October 10 “在10月10号早上”
+          - at dawn“在黎明”, at sunset “在日出”
     - 时间介词
        - 词1
           - until/till 动作继续的期限
           - by（直到）动作完成的最后期限
           - befor 之前（不包含期限限定的那一刻）
-          - I am going to work till seven tonigh.      # 我会工作到晚上七点
-          - I'll finish the work by noon.              # 我会在中午之前完成
-          - I began to work before eight this morning. # 我是在早上八点以前开始工作的
+          - I am going to work till seven tonigh. 我会工作到晚上七点
+          - I'll finish the work by noon. 我会在中午之前完成
+          - I began to work before eight this morning. 我是在早上八点以前开始工作的
        - 词2
           - from（从...起）（从过去，现在，未来某时点起）
           - since（从...以来）（从过去的某时点起）
           - after（在...之后）
-          - The work should take us from four to five hours. # 这个工作应该会花我们四到五个小时
-          - He said the floods were the worst since 1968. # 他说自1968年以来，这次洪水是最糟糕的
-          - He came home after a few hours. # 他几小时后回家了
+          - The work should take us from four to five hours. 这个工作应该会花我们四到五个小时
+          - He said the floods were the worst since 1968. 他说自1968年以来，这次洪水是最糟糕的
+          - He came home after a few hours. 他几小时后回家了
        - 词3
           - in 在...内 （所需时间）
           - within 在...内 （某期间内）
@@ -4615,16 +4172,13 @@
           - in 在较宽敞之处，建筑的内部
           - on 在特定之面
           - at 在较狭小之处，某一特定的地点
-          - They are taking a stroll in the park. # 他们正在公园里散步
-          - The players are practicing on the field. # 球员们正在球场上练习
-          - He waited for the girl at the door. # 他在门口等那个女孩
        - 词6
           - for 方向的目标
           - to 到达点
           - toward 运动的方向
-          - They are leaving for New York tomorrow. # 他们明天要去纽约
-          - The dog went to the boy.     # 这只狗到了男孩那里
-          - The dog went toward the boy. # 这只狗向男孩那边去了
+          - They are leaving for China tomorrow. 他们明天要去中国
+          - The dog went to the boy. 这只狗到了男孩那里
+          - The dog went toward the boy. 这只狗向男孩那边去了
        - 词7
           - along 沿着
           - across 横越
@@ -4636,39 +4190,33 @@
           - by 在...旁（前后左右任一）
           - beside 在...旁（左右其中之一）
           - near 在...附近
-          - she sat by the window. # 她坐在了窗边
-          - I sat beside her. # 我坐在了她旁边
-          - He lives near my house. # 他住在我家附近
-          - side by side # 边靠边
-          - shoulder by shoulder # 肩并肩
+          - she sat by the window. 她坐在了窗边
+          - I sat beside her. 我坐在了她旁边
+          - He lives near my house. 他住在我家附近
        - 词9
           - beside 在...旁边
           - besides 除...之外，还有（虽然解释为“除了...之外”，但是是包含的意义）
           - At the party,there were several girls beside Kelly. 在派对上，几个女孩在凯莉旁边
-          - At the party,there were several girls besides Kelly. 在派对上，除了凯莉外还有几个女孩（凯莉也在派对上）
-          - At the party,there were several girls except Kelly. 在派对上，除了凯莉之外只有几个女孩（凯莉不在派对上）
+          - At the party,there were several girls besides Kelly. 在派对上，除了凯莉外还有几个女孩
+          - At the party,there were several girls except Kelly. 在派对上，除了凯莉之外只有几个女孩
        - 词10
           - between 在二者之中
           - among 在三者或以上之中
-          - Peter sat between Kangkang and me. 皮特坐在康康和我之间
+          - Jane sat between Kangkang and Michial. 简坐在康康和迈克尔之间
           - He disappeared among the people in the crowd. 他消失在人群中
        - 词11
-          - around/round 围绕着 | about 在...四周/附近
+          - around/round 围绕着
              - around 只能当介词
-             - round 可以当介词，非介词时：n. 圆，轮 adj. 圆的 v. 巡，环行
+             - round 可以当介词，当形容词时意思为“圆，团”
           - about 大概，在..四周，...的附近
-          - all the year round # 一整年
-          - The earth moves (a)round the sun. # 地球绕着太阳转
-          - He glanced/looked about and saw him in conversation with someone. # 他环顾四周并并看到他在和某个人讲话
-          - The children sat about/around the old man. # 这个小孩坐在老人旁边
+          - The earth moves (a)round the sun.
+          - He glanced/looked about and saw him in conversation with someone. 他环顾四周并并看到他在和某个人讲话
+          - The children sat about/around the old man. 这个小孩坐在老人旁边
        - 词12
           - in 在...之中（范围不会超过这个空间）
           - into 在..之中（运动状态）
           - out of 从..之中（运动状态）
           - onto 在...之上（运动状态）
-          - He walked in the room. # 他在房间里走来走去
-          - He walked into the room. # 他走进了房间
-          - He walked out of the room. # 他从房间里走出来
           - The cat jumped onto the TV set. 这只猫跳到了电视上面
        - 词13
           - on 接触，off 分离
@@ -4676,32 +4224,21 @@
           - He switched off the light. 他关闭了灯光
        - 词14
           - before 在...前（顺序，时间）
-          - after 在...之后（在行动的物体之后，或顺序后，时间）
-          - behind 在..之后（人，动物，建筑之后；）
-          - in front of 在...前；在...正前面（方位）
-             - 反义词：back # 在...之后
-          - "B" comes before "C" in the alphabet. # 二十六个字母中，B在C之前（顺序）
-          - We met in front of the school. # 我们在学校前遇到了（方位）
-          - There is a blackboard in the front of the classroom. # 黑板在教室前面
+          - in front of 在...前；在...正前面
+          - behind 在..之后（人，动物，建筑之后）
+             - 反义词是 back
+          - after 在...之后（在行动的物体之后，或顺序后）
+          - "B" comes before "c" in the alphabet. 二十六个字母中，B在C之前
+          - We met in front of the school. 我们在学校前遇到了
+          - there is a blackboard in the front of the classroom. 黑板在教室前面
              - in the front of 和 in front of 区别是：有 the 的是在内部的前面
-             - There is a tree in front of my house. # 在我家房子前有棵树
-          - I hate driving behind a bus. # 我讨厌在公车后驾驶
-          - Let's have a game of tennis after school. # 放学后来场网球游戏吧
+          - I hate driving behind a bus. 我讨厌在公车后驾驶
+          - Let's have a game of tennis after school. 放学后来场网球游戏吧
        - 词15
-          - 一些正-负的词
-             - on <-> off, over <-> under, above <-> below, up <-> down, into <-> out of
-             - in front of/before <-> in back of/behind
-             - There is a fly on the ceiling. # 有只苍蝇在天花板上
-             - A plane is flying over the mountain. # 有架飞机在山上飞
-             - The sun is shining over our heads. # 阳光照在我头上
-             - A cat is sleeping under the table. # 一只猫在桌下睡觉
-             - There is a waterfall above the bridge. # 有个瀑布在桥上
-             - 特殊用法
-                - He must be well over 50 years old. # 他一定超过50岁了
-                - We talked over a cup of coffee. # 我们一边喝咖啡一边聊天
-                - Your score is above average. # 你的分数超过了平均分
+          - on <-> off, over <-> under, above <-> below, up <-> down, into <-> out of
+          - in front of/before <-> in back of/behind
        - 词16 表原因，理由的介词
-          - I was disappointed at his failure. 我因为他的失败而失望
+          - I was disappeared at the failure. 我因为失败而沮丧
           - 注意 at 引起某种情绪或动作的原因
              - be surprised at 对...震惊，惊讶
              - be amazed at
@@ -4713,11 +4250,9 @@
           - The town is famous as a hot-spring resort 这个镇作为他们的温泉圣地而出名
              - hot-spring 形成 复合形容词
           - He died of cancer. 他死于癌症（of 起到直接原因）
-          - In some countries many people die from poverty. 在某些国家，许多人死于贫穷（from 间接原因）
-             - poverty # n. 贫穷
-             - poor    # adj. 贫穷的
-          - He was trembling with cold. # 他因为寒冷发抖
-          - He become ill through overwork. # 他因工作过量生病了
+          - In some countries many people die from povery. 在某些国家，许多人死于贫穷（from 间接原因）
+          - He was trembling with cold. 他因为寒冷发抖
+          - He become ill through overwork. 他因工作过量生病了
           - They surrendered out of fear of being killed. 他们投降是出于被杀的恐惧
              - out of 这里翻译为 “出于”
              - being killed 是被动的动名词
@@ -4726,12 +4261,11 @@
           - 注意
              - He was very tired from his trip. 他因为旅行非常疲惫
              - He is tired of his monotonous life. 他讨厌单调的生活
-                - 以 mono 开头的单词很多表明是 单调，单一 的意思
        - 词17 表目的，结果
-          1. The politicians are compaigning for the coming election. # 政治人物为了即将到来的选举而造势活动
-          2. Nobody trusts him after the way he lived. # 看过他生活的样子没有人相信他了
-          3. Flour is made into bread. # 面粉被制作成面包
-          4. This salad is made of lettuce,tomatoes and cucumber. # 这个沙拉由 莴笋，蕃茄，黄瓜制成
+          1. The politicians are compaigning for the coming election. 政治人物为了即将到来的选举而造势活动
+          2. Nobody trusts him after the way he lived. 看过他生活的样子没有人相信他了
+          3. Flour is made into bread. 面粉被制作成面包
+          4. This salad is made of lettuce,tomatoes and cucumber. 这个沙拉由 莴笋，蕃茄，黄瓜制成
           5. I made my bicycle out of old ones. 我用四台自行车做了我的自行车
           6. He was frozen to death. 他快被冷死了
        - 词18 表手段，道具，行为

@@ -1,0 +1,8 @@
+* ubuntu + win + 双硬盘 + 双系统 安装方法
+  - https://blog.csdn.net/neo233/article/details/79426373
+  - https://blog.csdn.net/yuanfang1992/article/details/83471855
+
+* 关于 安装无线网卡驱动（包括离线安装）
+  - https://blog.csdn.net/mhlwsk/article/details/52833374
+
+

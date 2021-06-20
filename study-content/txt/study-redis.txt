@@ -1,0 +1,234 @@
+进度：
+
+88 集重看
+
+* 常见命令
+   - info 命令
+      - 在客户端中使用 info 命令可以查看连接的服务器的 redis 信息
+   - string
+      - setex key expireSeconds val # 设定一个有过期时间的值
+   - list
+      - 添加/修改元素
+         - lpush key val1 [val2...]
+         - rpush key val1 [val2...]
+      - 查询
+         - lrange key start end # 查询索引范围内的元素
+         - lindex key index # 查询指定索引位置的元素
+         - llen key # 查询链表元素个数
+      - 取出并删除一个元素（非阻塞）
+         - lpop
+         - rpop
+      - 规定时间内获取并移除一个元素（有阻塞）
+         - 在指定的 key 中取一个数据，有指定的等待时间，这个时间内取不到数据就放弃
+         - 会从 指定的 key 当中从最左的 key 开始取，取到了一个值就退出
+         - blpop key1 [key2] timeout
+         - brpop key1 [key2] timeout
+      - 移除指定数据
+         - lrem key count value（参数表示：命令 redisKey 移除个数 移除的值）
+            - 因为在 list 当中重复的元素可能存在，所以也有移除个数这种情况
+   - set
+      - sadd key member1 [member2...] # 添加元素
+      - smembers key                  # 查看所有成员
+      - srem key member1 [member2]    # 移除元素
+      - scard key                     # 获取集合数据总量
+      - sismember key member          # 判断集合中是否包含指定数据
+      - srandmember key [count]       # 随机获取集合中指定数量的数据（默认是一个）
+      - spop key                      # 随机获取集合中的某个数据并将该数据移出集合
+      - set 类型数据的扩展操作
+         - 求两个集合的交，并，差集
+            - sinter key1 [key2]
+            - sunion key1 [key2]
+            - sdiff key1 [key2]
+         - 求两个集合的交，并，差集并存储到指定集合中
+            - sinterstore destination key1 [key2]
+            - sunterstore destination key1 [key2]
+            - sdiffstore destination key1 [key2]
+         - 将指定数据从原始集合中移动到目标集合中
+            - smove source destination member
+   - sorted_set
+      - 新的存储需求：数据排序有利于数据的有效展示，需要提供一种可以根据自身特征进行排序的方式
+      - zadd key score1 member1 [score2 member2 ...]   # 添加数据
+      - zrange key start stop [withscores]             # 获取范围内数据（withscores 可以显示排序分数）
+      - zrevrange key start stop [withscores]          # 反排序范围内数据（withscores 可以显示排序分数）
+      - zrem key member [member ...]                   # 删除数据
+      - zrangebyscore key min max [withscores] [limit] # 按条件获取数据
+      - zrevrangebyscore key max min [withscores]      # 按条件获取数据
+      - zremrangebyrank key start stop                 # 条件删除数据
+      - zremrangebyscore key min max                   # 条件删除数据
+      - zcard key                                      # 获取集合数据总量
+      - zcard key min max                              # 获取集合数据总量
+      - zcard key min max                              # 获取集合数据总量
+      - zinteratore destination numkeys key [key ...]  # 集合交集操作
+      - zunionstore destination numkeys key [key ...]  # 集合并集操作
+   
+   - 数据清除
+      - dbsize    # 当前库的数据量（即 redisKey 的数量）
+      - flushdb   # 清除当前库的数据
+      - flushall  # 清除所有库的数据
+
+
+* 持久化
+   - RDB
+      - rdb 特殊启动的形式
+         1. 在主从复制中详细讲解
+         2. 服务器运行过程中重启，debug reload
+         3. 关闭服务器时指定保存数据，shutdown save
+      - rdb 异步持久化配置
+         - save second changes  # 例：save 100 20（表示100秒检查一次是否key有20次变化）
+            - 表示在多少秒进行一次检查，数据变动次数是否达到指定量，达到则进行持久化
+            - second：监控时间频率
+            - changes：监控key的变化量
+      - 关于持久化的文件
+         - dbfilename dump.rdb # 设置本地数据库文件名，默认值为 dump.rdb
+         - dir # 设置存储 .rdb 文件的路径，通常设置成存储空间较大的目录中，目录名称 data
+         - rdbcompression yes # 设置存储至本地数据库时是否压缩数据，默认为 yes，采用 LZF 压缩
+            - 通常默认为 开启状态，如果设置为 no，可以节省 CPU 运行时间，但会使存储的文件变大（巨大）
+         - rdbchecksum yes # 设置是否 进行 RDB 文件格式校验，该校验过程在写文件和读文件过程均进行
+            - 通常默认为开启状态，如果设置为 no，可以节约读写性过程约 10% 时间消耗，但是存储一定的数据损坏风险
+         - stop-writes-on-bgsave-error yes # 后台存储过程中如果出现错误现象，是否停止保存操作，默认是开启
+
+   - AOF
+      - 以独立日志的方式记录每次写命令，重启时再重新执行 AOF 文件中命令，达到恢复数据的目的
+      - AOF 的三种 策略
+         - always：每次写入操作均同步到 AOF 文件中，数据零误差，性能较低
+         - everysec：每秒进行同步
+         - no：系统控制
+      - 配置
+         - 基本的持久化配置（持久化配置是非重写的.aof）
+            - 正常的情况下从 aof 缓存区进行持久化的 .aof）
+            - appendonly yes # 开启aof
+            - appendfsync 三种策略之一 # 选择aof持久化的策略
+            - appendfilename 持久化文件名.aof
+         - 重写缓冲区配置
+            - 为了响应请求，所以在 aof 缓存区会再传递到 aof 重写缓存区，由另一个进程对它持久化，并合并和替换正常生成的 .aof
+            - auto-aof-rewrite-min-size size # 规定达到零界值那么进行重写，aof_current_size > auto-aof-rewrite-min-size
+            - auto-aof-rewrite-percentage percentage # 零界百分比进行重写， (aof_current_size - aof_base_size)/aof_base_size >= auto-aof-rewrite-percentage 触发重写
+            - 自动重写触发比对参数，aof_current_size, aof_base_size, info 命令可以找到它们的值
+      - AOF 重写方式
+         - 命令：bgrewri teaof
+         - 自动重写
+            - auto-aof-rewrite-min-size size
+            - auto-aof-rewrite-percentage percentage
+
+* redis 集群
+   - 主从
+      - 主从连接（slave 连接 master）
+         - 主从连接的方式（择其一）
+            1. slaveof master_ip master_port                              # slave 客户端命令行成为slave
+            2. redis-server redis配置文件 --slaveof masterip masterport # slave 启动命令行启动 slave 服务器时作为 slave
+            3. slaveof masterip masterport                              # slave 服务器在配置里配置以成为 slave
+         - 主从的授权
+            - master
+               - 如果想在配置文件中设置密码：requirepass <password>
+               - 如果在已经启动后设置密码：config set requirepass <password> ，然后 config get requirepass
+            - slave
+               - 由于master设置了密码，对于 slave 也要有密钥数据同步
+               - 如果想在配置文件中设置密码：masterauth <password>
+               - 如果在已经启动后设置密码：auth <password>
+            - 注意
+               - 设置密码时，master 和 所有 slave 密码必须一致
+         - 主从断开操作
+            - slaveof no one # 在连接到从服务器的客户端上使用这个命令，使用后连接的从服务器就与主服务器断不保持同步了
+         - 心跳
+            - 进入命令传播阶段时候，master与slaver需要进行信息交换，使用心跳机制进行维护，实现双方连接保持在线
+            - master 心跳
+               - 指令：PING；周期：由 repl-ping-slave-period 决定，默认10秒；作用：判断slave 是否在线；查询：INFO replication 获取 slave 最后一次连接时间间隔，lag项维持在0或1视为正常
+            - slave 心跳
+               - 指令：REPLCONF ACK{offset}；周期：1秒；作用1：汇报slave自己的复制偏移量，获取最新的数据变更指令；作用2：判断master是否在线
+            - 心跳阶段注意事项
+               - 当 slave 多数掉线，或延迟过高时，master 为保障数据的稳定性，将拒绝所有信息同步操作
+                  - min-slaves-to-write 2 # 判断掉线slave 数量异步的临界数量
+                  - min-slaves-max-lag 8 # 最大连接延时时长
+                  - slave 数量少于 2 个，或者所有 slave 的延迟都大于等于 8 秒时，强制关闭 master 写功能，停止数据同步
+               - slave 数量由 slave 发送 REPLCONF ACK 命令做确认
+               - slave 延迟由 slave 发送 REPLCONF ACK 命令做确认
+         - 注意
+            - slave 系统信息
+               - master_link_down_since_seconds
+               - masterhost
+               - masterport
+            - master 系统信息
+               - slave_listening_port（多个）
+         - 注意2
+            - 在同步过程中，master 中复制缓冲区数据是用于增量同步的，但是一旦满了会冲掉最旧的数据，那么同步会不完整，这会被检测到以改为全量复制
+            - 而在全量复制过程中又发生了缓冲区满的情况，造成死循环全量同步，一般会把 缓冲区设大一些
+            - 在 master 中 repl-backlog-size 1mb，这是默认的
+         - 注意3
+            - 为避免 slave 进行全量复制，在部分复制时服务器响应阻塞或数据不同步，建议关闭此期间的对外服务
+            - 在 slave 上 slave-serve-stale-data yes|no，改为 no 即不提供写功能
+         - 注意4
+            - 数据同步阶段，master 发送 slave 信息可以理解 master 是 slave 的一个客户端，主动向 slave 发送命令
+            - 多个 slave 同时 master 请求数据同步，master 发送的 rdb 文件增多，会对带宽造成巨大冲击，如果 master 带宽不足，因此数据同步需要根据业务需求，适量错峰
+
+   - 哨兵
+      - 原理
+         - 如果 master 挂了，那么 sentinel 之间会通过投票选举一个代表进行对 master 的选举
+         - 选举 master 过程，排除已经挂了的服务，排除网络不好的，比较优先级，优先级一样会看看数据偏移量（肯定选需要同步量少的），如果还一样选 runid 最小的
+         - 通知所有节点和 sentinel 新的 master
+      - 配置哨兵
+         - 配置一拖二的主从结构，配置三个哨兵（配置相同，端口不同，哨兵数量可以任意，但是为了准确性一般需要奇数个）
+         - 哨兵配置文件 sentinel.conf
+            1. sentinel monitor mymaster 127.0.0.1 6379 2 # 哨兵 监听 master名字（名字可以随便取） 主设备地址 主设备端口 设定挂的数字
+               - 设定判断客观下线的数：有指定数量的哨兵确认了主设备挂了，那么就客观认为它真的挂了，否则各个哨兵各自认为挂了只能算是主观挂了（通常这个数是 哨兵集数/2 + 1）
+               - 哨兵可以设一个或多个，但是为了避免网络和服务器问题通常是设多个，而且是奇数个
+            2. sentinel auth-pass mymaster 123456         # 指明 master 的密码
+            3. down-after-milliseconds mymaster 30000     # 连接主设备多长时间没有响应认为是挂了（毫秒）
+            4. parallel-milliseconds mymaster 1           # 当主设备挂了，新上任的 master 一次多少 parallel 进行同步
+            5. failover-timeout mymaster 180000           # 同步时多长时间同步没完成算超时（毫秒）
+            6. sentinel deny-scripts-reconfig yes         # 当master断了重新启动后自动重新配置加入新的master
+         - 启动哨兵 redis-sentinel sentinel的配置.conf
+         - 要连接哨兵查看信息用 redis-cli -p 哨兵端口
+            - 查看信息 info
+
+   - cluster
+      - 概念
+         - 总计 16384 个插槽，即 0-16383，集群内的 master 会均匀分担槽的一部分
+         - 所有的数据一定在其中一个槽内，计算公式为CRC16(key)/16384 计算 key 属于哪个槽，其中语句用于计算 key 的 CRC16 校验和
+         - 每个 master 都有个槽位置计算的量，这些量形成一个环，当 key 计算后在环内寻找，大于等于这个量值时确定放在哪个 master
+         - master 会有一个或多个 slave，其它 master PING 某个 master 时，一半认为它挂了那么就启用那个 master 对应的一个 slave
+         - 当某个 master 和它对应的所有 slave 都挂了，集群就不能使用了
+      - 预先需求
+         - redis4.0.x
+            1. redis 集群管理工具 redis-trib.rb 依赖 ruby 环境，首先需要安装 ruby 环境
+               1. 安装 ruby
+               2. 安装 rubygems
+            2. 安装 ruby 和 redis 的接口程序
+               1. 拷贝 reids-3.0.0.gem 至 /usr/local 下，执行安装
+                  - gem install /usr/local/redis-3.0.0.gem
+         - redis5.0.x
+            - 不需要 ruby，redis 已经自带了 redis-cli --cluster 的模式命令
+      - redis.conf 中配置
+         - cluster-enabled yes | no                         # 是否开启 cluster（这里应该开启）
+         - cluster-config-file <filename>                   # 作为 node 生成的关于节点的文件名（是自动生成的，如果在同一台机器上最好名字不一样）
+         - cluster-node-timeout <milliseconds>              # 判断下线时间（默认 15000 milliseconds）
+         - cluster-migration-barrier <count>                # master 连接的 slave 最小数量（默认1）
+         - 注意
+            - # bind 127.0.0.1（一定要注掉）
+            - requirepass 密码（设置 redis 访问密码）
+            - masterauth 密码（这样如果是 slave 也会被 master 告知需要验证）
+            - 如果设定了密码，所有的集群节点都应该用相同的密码
+      - 启动集群
+         - redis4.0.x
+            - 先启动每个 redis 节点
+            - redis-trib.rb create --replicas 特殊数字 masterip1:端口 [masterip2:端口 ... 集群下的所有服务器地址和端口]
+               - 注意 “特殊数字”，表一个 master 带几个 slaver，而且通过计算最前面的一定数量的 ip 规定为是 master，具体有几个 master 是通过 数字和写的ip地址决定
+               - 注意 特殊数字 和 写的ip数量一定要逻辑合理（这里只是体现逻辑，实际 redis 要求至少有三个 master 才能满足 cluster 条件）
+                  - 数字为1 , master数为1 --> 总ip数为 2
+                  - 数字为1 , master数为2 --> 总ip数为 4
+                  - 数字为1 , master数为3 --> 总ip数为 6
+                  - 数字为2 , master数为1 --> 总ip数为 3
+                  - 数字为2 , master数为2 --> 总ip数为 6
+                  - 数字为2 , master数为3 --> 总ip数为 9
+               - 假如 数字是1，后面的地址是 a:6379 b:6379 c:6379 d:6379 e:6379 f:6379
+                  - 因为是一个 master 带1个集群，所以：a,b,c 是 master；d,e,f 是 slave
+               - 假如 数字是2，后面的地址是 a:6379 b:6379 c:6379 d:6379 e:6379 f:6379 g:6379 h:6379 i:6379
+                  - 因为是一个 master 带2个集群，所以：a,b,c 是 master；d,e,f,g,h,i 是 slave
+         - redis5.0.x
+            - reids-cli -a 密码 --cluster create --cluster-replicas 特殊数字 地址1:端口1 地址2:端口2 ...
+      - cluster 节点指令
+         - cluster nodes # 查看集群节点信息
+         - cluster replicate <master-id> # 进入一个从节点 redis，切换其主节点
+         - cluster meet ip:port # 发现一个新节点，新增主节点
+         - cluster forget <id>  # 忽略一个没有 solt 的节点
+         - cluster failover     # 手动故障转移
+         - redis-cli -c 可以连接集群形式的客户端

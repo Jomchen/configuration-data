@@ -1,0 +1,13 @@
+
+--key-toggle-fullscreen <字串> # 全屏
+--key-leave-fullscreen <字串> # 退出全屏
+
+--key-play-pause <字串> # 播放/暂停
+--key-prev <字串>       # 上一个
+--key-next <字串>       # 下一个
+--key-stop <字串>       # 停止
+--key-quit <字串>       # 退出
+
+--key-vol-up <字串>     # 音量上
+--key-vol-down <字串>   # 音量下
+--key-vol-mute <字串>   # 静音

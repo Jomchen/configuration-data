@@ -1,0 +1,51 @@
+* cdn 选择的网址
+   - https://www.10besty.com/best-cdn-services/
+* 查看时间和时区
+   - 时间误差不能超过 90s
+   - date -R
+      - Sun, 22 Jan 2017 10:10:36 -0500 
+      - 输出结果中的 -0500 代表的是时区为西 5 区，如果转换成东 8 区时间则为 2017-01-22 23:10:36
+* 命令
+   * 安装预前准备软件 apt-get install curl
+   * 下载主程序脚本 curl -O https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh
+   * 执行安装 bash install-release.sh
+      * 升级更新 bash install-release.sh
+      * 安装后配置文件目录可能在
+         * /usr/local/etc/v2ray/config.json
+         * /usr/local/share/etc/v2ray/config.json
+      * 访问日志目录 /var/log/v2ray/access.log
+      * 错误日志目录 /var/log/v2ray/error.log
+   * 启动 systemctl start v2ray
+   * 设置开机启动 systemctl enable v2ray
+   * 查看状态 systemctl status v2ray
+   * 关闭程序 systemctl stop v2ray
+
+* 对于 websocket + tls + web
+   * 安装 Nginx
+   * 准备一个 cdn
+   * 准备一个域名
+      * 证书
+         * ECC（内置公钥是 ECDSA 公钥）
+         * RSA（内置 RSA 公钥）
+         * 同等长度 ECC 比 RSA 更安全；同样安全性下，ECC的密钥长度比RSA短得多（加密解密会更快）
+         * 问题是 ECC 的兼容性会差一些，Android 4.x 以下和 Windows XP 不支持，只要您的设备不是非常古老，建议使用 ECC 证书
+      * 将 域名的 dns 解析地址改为 cdn 提供的（注意在 cdn 管理中应该设置正确，比如 cloudflare 中一个地址应该设置为最后一项）
+   * 证书操作
+      * 证书安装
+         * 下载脚本并执行 curl  https://get.acme.sh | sh
+         * 执行确保脚本所设置的命令别名生效 source ~/.bashrc
+            * 如果安装失败可能是缺少依赖，执行 apt-get install openssl cron socat curl
+         * 以下只给出 ECC 证书的部分
+            * ~/.acme.sh/acme.sh --issue -d 你的域名 --standalone --keylength ec-256 --force
+               * 这个命令会临时占用 80 端口，确保之前没有占用 80 端口
+               * 注意最后几行，证书放在哪里了
+         * --keylength 表示密钥长度，后面的值可以是 ec-256 、ec-384、2048、3072、4096、8192，带有 ec 表示生成的是 ECC 证书，没有则是 RSA 证书。在安全性上 256 位的 ECC 证书等同于 3072 位的 RSA 证书。
+      * 证书更新
+         * 由于 Let's Encrypt 的证书有效期只有 3 个月，因此需要 90 天至少要更新一次证书，acme.sh 脚本会每 60 天自动更新证书。也可以手动更新。
+         * 手动更新 ~/.acme.sh/acme.sh --renew -d 你的域名 --force --ecc
+      * 将证书和密钥安装到 /etc/v2ray 中：
+         ```
+         $ sudo ~/.acme.sh/acme.sh --installcert -d mydomain.me --ecc \
+                                   --fullchain-file /etc/v2ray/v2ray.crt \
+                                   --key-file /etc/v2ray/v2ray.key
+         ```

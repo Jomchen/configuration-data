@@ -1,0 +1,910 @@
+数据结构与算法  p20 01:42:46
+联想z485主板信息 Phoenix BIOS SC-T v2.2
+
+* 安装系统前要做的事情
+   1. 备份书签（因为 Google Chrome 已经不再同步书签和其它数据了）
+   2. 备份电脑上的数据
+   3. 备份电脑上的 笔记，代码，资源
+
+* Arch 未解决的问题
+   - https://forum.ubuntu.org.cn/viewtopic.php?t=462411
+   - https://bbs.archlinuxcn.org/viewtopic.php?id=4003
+
+* 根高达seed相关的漫画
+   - http://tieba.baidu.com/p/557331248
+
+* Arch 要看的两个页面
+   - xorg 里学习显卡驱动相关信息
+   - NetworkManager 网络配置
+   - Wireless 网络配置
+   - Wireled 网络配置
+   - i3wm 配置
+   - LightDM
+   - 字体 http://blog.chinaunix.net/uid-25906175-id-3072940.html
+   - 字体2 https://www.cnblogs.com/eshizhan/archive/2012/10/03/2710780.html
+   - fcitx中文教程 https://wiki.archlinux.org/index.php/Fcitx_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)
+   - fcitx英文教程 https://wiki.archlinux.org/index.php/Fcitx
+
+   - https://wiki.archlinux.org/index.php/Partitioning#GUID_Partition_Table
+   - https://wiki.archlinux.org/index.php/Talk:Dual_boot_with_Windows
+
+
+* 弹出U盘方式
+   1. lsblk # 查看设备
+      sdc           8:32   1  14.4G  0 disk 
+      └─sdc1        8:33   1  14.4G  0 part /run/media/donhost/不可移动的磁盘
+   2. umount /dev/sdc1 # 取消挂载
+   3. 让我们看看图形界面资源管理器(nautilus)里的‘弹出’和‘安全移除驱动器’的操作
+      这个是我的U盘‘不可移动的磁盘’
+      这里有两个选项可以弹出U盘，‘弹出’和’安全移除驱动器’。这里对应的命令分别是：
+   4. 真正的弹出或安全移除驱动器
+      - 弹出：gio mount -e /run/media/donhost/不可移动的磁盘 # 弹出指定设备(这里-e 选项只能写挂载点)(更多选项可以自行--help)
+         ll /dev/sd*
+            brw-rw---- 1 root disk 8, 32  7月  6 18:17 /dev/sdc //我们可以看到/dev/sdc1已经被弹出了
+      - 安全移除驱动器
+         udisksctl unmount -b /dev/sdc1 # 卸载挂载点。相当与(umount /devsdc1)
+         udisksctl power-off -b /dev/sdc1 # 安全关闭驱动器
+         ll /dev/sd*
+            这里 /dev/sdc1 和 /dev/sdc 都消失了(因为已经被安全分离)
+
+
+ls /sys/firmware/efi/efivars # 如果找不到文件则表明不是 uefi 引导
+
+cat /etc/shells # 查看安装的终端
+sudo usermod -s /bin/zsh username # 对指定用户替换终端脚本
+chsh -s /bin/zsh # 每次登录以 zsh 登录
+chsh -s /bin/bash # 每次登录以 bash 登录
+
+基拉大和和拉克丝 https://tieba.baidu.com/p/6541670478?pn=1
+
+galgame 下载地址 http://bbs.fireemblem.net/
+   - https://www.sogalgame.com/a/category/galgame/pc%E7%89%88/page/55
+      - 74 page # G弦上的魔王
+      - 66 page # 初音三部曲
+      - 52 page # 魔法使之夜 & 月姬 && 初恋1比1
+      - 46 page # 缘之空 & 悠之空
+      - 34 page # ever17
+      - 26 page # SchoolDays HQ
+   - 《彼女诊察日志》
+   - 《Fate/Zero The Adventure》
+   - 《ever17》
+   - 《命运石之门》
+   - 《妖人幻妖异人闻录》
+
+* 可能的解压密码
+   - 通用解压密码：初音的青葱
+   - 通用提取密码：MKFX
+   - jixun
+
+* 重要的地址
+   - Linux 上 图形界面，桌面环境 的区别 https://blog.csdn.net/zhangna20151015/article/details/51280578
+      - https://blog.csdn.net/u011734326/article/details/90598788
+   - GPT+UEFI+UBUNTU20+WIN10 https://blog.csdn.net/weixin_42250302/article/details/107546410
+   - Linux 查看PCIE版本及速率 https://www.cnblogs.com/lsgxeva/p/9542975.html
+   - Ubuntu 源码安装 wireshark https://blog.csdn.net/weixin_40850689/article/details/93466848
+   - 详解 TCP 连接的 “三次握手”与“四次挥手” https://baijiahao.baidu.com/s?id=1654225744653405133&wfr=spider&for=pc
+   - wireshark 使用教程 https://www.cnblogs.com/cocowool/p/wireshark_tcp_http.html
+   - 十二神器之一《媚肉之香》心德 https://www.bilibili.com/read/cv5480605/
+   - others address
+      - http://www.y469.com/vod/127926.html
+      - http://www.y469.com/vod/130605.html
+      - http://www.y469.com/vod/130821.html
+      - http://www.y469.com/vod/147076.html
+   - galgame 下载地址
+      - 忧郁的弟弟 https://mynovel.life/www.mygalgame.com/
+      - 初音的青葱 https://www.mikugal.com/
+      - ACGNGAME https://acgngame.net/
+      - 绅士的天堂 https://www.sogalgame.com/
+      - 恋爱游戏网
+
+
+
+
+解释了网卡驱动没有正确选择运行的原因
+https://forum.ubuntu.org.cn/viewtopic.php?t=485919
+https://www.cnblogs.com/howdop/p/5339370.html
+https://www.cnblogs.com/shenh/p/10031635.html
+
+
+
+
+
+
+
+* 关于 ubuntu 安装网卡的教程
+   一些关于内核和安装网卡驱动的教程
+   https://www.cnblogs.com/yayazhang221/archive/2004/01/13/7575086.html
+   https://www.cnblogs.com/shenh/p/10031635.html
+   http://blog.sina.com.cn/s/blog_c0468c8f0101ld2x.html
+   http://www.downza.cn/soft/212250.html
+   
+   这个是安装非usb无线网卡的教程
+   https://www.cnblogs.com/howdop/p/5339370.html
+   
+   安装无线网卡
+   https://blog.csdn.net/lb838315586/article/details/82495804
+   https://blog.csdn.net/weixin_38632246/article/details/91353602
+   https://www.v2ex.com/t/304939
+   https://blog.csdn.net/way7486chundan/article/details/110979357?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.control
+   
+   一个驱动下载的地址
+   https://wireless.wiki.kernel.org/en/users/drivers/iwlwifi
+
+
+
+
+
+* 关键的命令
+   - 一些命令
+      - lspci -vvnn      # 查看所有的pci设备详细信息
+      - lsusb            # 查看所有的usb设备
+         - lsusb -t # 树状打印usb详细信息
+            - 某一栏目的最底子树层为外接的 usb 设备
+      - dpkg --get-selections | grep linux-image # 查看内核列表
+      - lshw             # 列出硬件设备
+      - lshw -C network  # 列出关于网络的硬件设备
+      - lsmod            # 展示内核模组的状态
+      - rmmod 模组名     # 从内核删除模组
+      - modprober 模组名 # 在内核中增加模组
+      - iwconfig         # 配置wifi网络接口，也可用于查询wifi信息
+
+
+* 一些关于 ubuntu 安装网卡驱动的情况
+
+   1. 安装有线网卡
+      - lspci       # 查询得到 有线网卡的型号（在 ubuntu16.04 是一个有问题的驱动 r8169，应该在github上搜索 r8168）
+      - lspci -vvnn | grep -i -A 9 'Net' # 可以查询网卡的详细信息，一般来说有一个无线和一个有线
+         - 在ubuntu16.04 默认装的是有问题的驱动即r8189
+         - 如果得到设备型号是 RTL8111/8168/8411
+         - 那么在github找r8168驱动 或 网卡厂商官网上找 rtl8168 的驱动
+      - 通过驱动脚本安装 或 通过驱动编译安装
+         - 如果通过驱动脚本安装
+            - rmmod r8169 # 删除旧驱动
+            - ifconfig 看看是否有相应网卡的接口信息
+            - 如果 ifconfig 没有信息则可能是禁用了相应网卡，
+               - 通过执行 ifconfig 网卡名 up
+               - 以此启用网卡
+         - 如果是驱动编译安装
+            - rmmod r8169      # 删除旧驱动
+            - 可能需要手动添加进内核
+            - modprober r8168  # 添加进内核模块
+      - lshw -C network # 从硬件信息中检查是否安装了相应驱动
+      - lsmod | grep 8168       # 显示内核模块的状态，并过滤查询8168是否加载，用于验证是否安装加载相应驱动
+
+   2. 安装非usb的无线网卡驱动
+      - Intel 网卡驱动下载
+         - https://www.intel.com/content/www/us/en/support/articles/000005511/network-and-io/wireless.html
+         - 注意下载对应的网卡型号的驱动
+         - 对驱动源码进行 编译，安装
+         - 注意对应网卡型号需要的最低内核版本要求
+            - linux 系统 uname -sr 查看当前系统的内核版本
+            - 如果不匹配则需要升级内核
+               - http://kernel.ubuntu.com/~kernel-ppa/mainline/
+               - 下载三个文件
+                  - linux-headers-xxx
+                  - linux-headers-xxx-generic
+                  - linux-image-xxxx-generic
+                  - 注意有两个带 lowlatency 的文件不要下载安装
+               - 然后安装（把这三个文件放在一个目录，并进入这个目录）
+                  - sudo dpkg -i *.deb
+                     - 安装完毕后重启再查看内核 uname -sr
+               - 删除旧内核
+                  - sudo apt-get remove linux-image-你自己旧内核版本-generic # 删除旧内核
+                     - 注意，注意一定要删除旧内核，否则重启会崩掉
+                     - 注意，注意一定要删除旧内核，否则重启会崩掉
+                     - 注意，注意一定要删除旧内核，否则重启会崩掉
+                     - 注意，注意一定要删除旧内核，否则重启会崩掉
+                  - sudo update-grub                                         # 删除内核后更新 grub
+            #- 把下载好的驱动复制到 lib 的 firmware 中
+            #   - sudo cp -i iwlwifi-你的那个驱动文件.ucode /lib/firmware
+            #   - sudo update-grub # 更新一下 grub ，然后重启
+            #   - sudo reboot # 重启
+            - 这时 wifi 应该可以连接了
+
+   3. 安装usb无线网卡驱动
+      - lsusb # 查看当前 usb 上的设备信息           
+         - 获取 usb 设备信息（即 usb无线网卡型号）
+         - 建议在插入usb网卡前查询下，插入usb网卡后再查询下排除过滤得到结果
+         - lsusb -t        # 通过某一栏的最后层子树信息的 Driver 可以得到芯片组信息
+      - lshw -C network # 识别是否安装有网卡驱动
+         - lshw 是识别硬件
+         - -C 说明显示详细内容
+         - network 说明显示网卡信息
+      - 到官网或github 下载驱动
+         - 举例
+            - Bus 001 Device 010: ID 0bda:8152 Realtek Semiconductor Corp
+               - id 为 8152，设备是 Realtek 公司的，可以去 Realtek 公司官网或者去 google, bing 搜索，github 搜索获取更多信息
+               - lsusb -t 查询到的 Driver=r8152
+         - 官网中下载驱动 或 github 上找相应驱动
+            - 如果相应驱动是根据执行脚本安装可能不需要执行内核添加模组（因为脚本内容可以已经帮助你添加进去了）
+         - 如果没有帮助你添加进去需要自己编译，安装，加载，检测
+      - 检测网卡驱动是否安装和加载
+         - ifconfig 显示网卡名称
+            - 有时候，网卡被禁用时，ifconfig 命令是不显示网卡名称的
+            - 此时可以通过 lshw -C network 查看网卡是否被安装，再通过 ifconfig 判断网卡是否被禁用
+               - lshw -C network # 如果没有相应网卡的结果则表明没有安装加载
+               - lshw -C network # 如果有结果，ifconfig 没有结果则要启用网卡
+                  - ifconfig 网卡名 up，这样来启动网卡 
+                  - ifconfig 网卡名 down，这样来禁用网卡
+               - lsmod | grep 相应的驱动名       # 显示已经加载的模块，查看驱动是否安装
+               - modprobe -l # 显示所有模块，包括已加载和未加载的模块
+               - 如果要确认有没有安装驱动，就需要通过 lsmod 命令看，当然 lsmod 命令只能显示编译 linux 内核中选中为 M 的驱动，
+                  - 最靠谱的还是 dmesg 来查看设备的驱动有没有安装，dmesg 信息太多，需要 grep 过滤
+       - 网卡驱动卸载与安装
+          - modprober r8152   # 安装r8152驱动模块（这是以 r8152 芯片组为例）
+          - modprobe -r r8152 # 卸载r8152驱动模块（这是以 r8152 芯片组为例）
+       - 路由问题
+          - 配置网卡时当可 ping DNS 服务器而 ping 不通时，可能是没有设备默认路由网关
+          - 添加默认路由：route add default gw 默认网关地址
+
+
+* Linux 上窗口平铺软件
+   - 常见的平铺式窗口管理器有： i3wm、awesome、xmonad、dwm、wmii、ion、ratpoison、larswm 等， 推荐使用 awesome
+   - http://www.ha97.com/book/OpenSource_Guide/ch38s02.html
+   - http://www.ruanyifeng.com/blog/2017/07/xmonad.html
+   - http://www.ruanyifeng.com/blog/2017/07/xmonad.html
+   - 各个窗口管理器的优缺点讨论 https://tieba.baidu.com/p/6820801480
+
+
+* 外网注意事项
+   - 优秀的vpn企业级软件，第三方软件，个人搭建技术
+      - 企业级
+         - expressVPN
+         - VyprVPN
+         - NordVPN
+         - PandaVPN
+         - PureVPN
+         - IvacyVPN
+      - 轻量级非 vpn 等
+         - 蓝灯（实际上是基于 socket5 加密）
+         - Ghelper 谷歌插件（付费可看油管）
+      - 自搭软件
+         - v2Ray，Brook，ssR, WireGuard, Trojan
+            - v2Ray地址 https://v2fly.org
+   - 国外优质的VPS
+      - Virtual private Server 简称 VPS
+         - Hostwinds
+            - 104.168.211.250
+            - yueqige159357>h
+         - vultr
+   - 国外的账号情况
+      - 国外各网站密码统一格式：密码>网站拼音首字母
+         - 如果相应网站限定不能用特殊符号可以省略“>”
+      - expressvpn
+         - 一些建议的节点
+            - Hong Kong - 4
+            - Japan - Yokohama
+            - USA - Los Angeles - 5
+            - Singapore - Marina Bay
+            - UK - Wembley
+            - USA - Santa Monica
+         - https://www.upghsbc.com/support/troubleshooting/china-status/
+         - 个人信息
+            - 邮箱 谷歌邮箱
+            - 新密码 yueqige159357>e
+            - 激活码 EKKNWSYP7JHUGUQFHZEQXN5
+         - 支付时邮箱填错误时的处理方案
+            - 如果注册成功没有收到 expressvpn的邮件，可以直接去官网重置密码，然后检查一下垃圾箱
+            - 如果不小心填错了邮箱地址，可以发送邮件处理
+               - 发送对象：support@expressvpn.zendesk.com
+               - 支付的金额
+               - 购买的套餐（即1个月计划，6个月或12个月）
+               - 支付宝订单号
+               - 支付宝发票的屏幕截图
+      - twitter
+         - 邮箱 谷歌邮箱
+         - 密码 yueqige159357>t
+      - google
+         - 邮箱 jomkiemail@gmail.com
+         - 密码 yueqige159357>g
+      - google
+         - 邮箱 937574740@qq.com
+         - 用户名 dreamofjomkie
+         - 密码 yueqige159357>s
+   - 未知平台和软件
+      - 平台
+         - Free Por video
+         - Pron
+      - ufunr 软件：从国外翻到国内
+
+
+
+
+* 假如在一条车流量很大的大路上
+   - 用 HTTP 的都是窗户透明型号统一的出租车
+   - 用 HTTPS 的都是窗户不透明型号统一的出租车
+   - 用 SS/SSR/V2Ray 原协议的都是一些窗户不透明的私家车
+   - SS/SSR 用 HTTP/TLS 混淆的都是把私家车染成了出租车的样子
+   - 用 VPN 的都是坐的大巴，虽然关着窗但知道这肯定是大巴。
+   - 总结来说 V2ray WS + TLS 是最安全隐秘的。
+
+
+可以下载 jar 游戏的地址
+   - http://java.52emu.cn/
+
+
+
+金庸群侠传地址
+   - http://www.flymood.com/jyqxz/gb/jykj.html
+需要打开的网站
+   - https://tieba.baidu.com/p/5553215088?red_tag=2271852671
+   - http://www.wuqimh.com/736/
+贴吧
+   - Type-moon 吧，真月谭月姬 吧
+手机玩金庸群侠传
+   - magic dosbox 是 dos 环境的虚拟机
+恋上数据结构第二际完整版
+   - https://pan.baidu.com/s/14mhIgfQPwNSTKjRFAx7I5A
+   - 5ix0
+浏览器的一些插件
+   - Similar sites 寻找类似网站
+   - Tampermonkey 脚本管理
+   - Adblocker 去广告
+
+
+* 其它
+   - [仙剑1源码移植](https://github.com/sdlpal/sdlpal)
+   - [FATE 的设定集图](http://page.renren.com/601025071/channel-albumshow-531482516?curpage=0)
+   - [FATE 的设定集翻译](https://tieba.baidu.com/p/3717053923?red_tag=2923593495)
+   - [戴拿设定](https://tieba.baidu.com/p/5836576593?red_tag=0648247757)
+   - [KID优秀的剧本家](https://tieba.baidu.com/p/2285346004?red_tag=0616083922)
+   - [KID优秀的剧本家2](https://tieba.baidu.com/p/465347746?see_lz=1&red_tag=1500320769)
+   - [重普法节目](http://tv.cntv.cn/video/C28376/f7124a2c54c6480777f72f9e92b4aa31)
+      - 以前冷暖人生等
+   - [机动战士高SEED老版](https://pan.baidu.com/s/1lQsl1rvbVkfKQ8rY7voRgw)
+      - 密码：3wiw
+   - saber 的隐藏结局
+      - http://bbs.nga.cn/read.php?tid=13382620&page=e&rand=459
+   - uefi_mbr 讲解
+      - http://blog.sina.com.cn/s/blog_13622c33e0102w5z4.html
+
+* 秋之回忆系列
+   - [ACG 相关 galgame 的资源博客](https://beats0.github.io/www.mygalgame.com/gengxinrizhi.html)
+   - [ACG 另个相关 galgame 的资源博客](https://acgngame.net/)
+   - [ACG 再一个相关 galgame 的资源博客](https://www.mikugal.com/details?id=573)
+   - [萌娘百科地址](https://zh.moegirl.org/%E4%BB%8A%E5%9D%82%E5%94%AF%E7%AC%91)
+   - [有秋之回忆情报收集的详细地址](http://www.mowypan.com/memoriesoff/)
+   - [秋回忆中文站](http://www.memoriesoff.cn/pspdown)
+   - [秋之回忆2 五行论](https://tieba.baidu.com/f?kz=564916407&red_tag=2979333705)
+   - [秋之回忆2 南燕和巴剧情讨论](https://tieba.baidu.com/p/610540609?red_tag=2968780861)
+   - [秋之回忆2 南燕讨论分类](https://tieba.baidu.com/p/538903427?pn=1)
+   - [【台湾角川】《秋之回忆》10周年纪念典藏精选集评测](http://blog.sina.com.cn/s/blog_7f74c2550101bqio.html)
+   > 这是一本有各人物关系，音乐等典藏的资料
+   - [秋之回忆10周纪念典精选集下载](https://yun.baidu.com/share/link?uk=1510067332&shareid=1045353240#list/path=%2F&parentPath=%2F)
+   - [秋之回忆的一些完整的 CG 图](https://zhidao.baidu.com/question/116486925.html)
+   - [查百度网盘资源的地址](https://www.xiaobaipan.com/)
+   - [秋之回忆psp汉化全](https://pan.baidu.com/s/1sjQQFdN#list/path=%2F&parentPath=%2F)
+   - [秋之回忆相关网盘搜索](https://www.xiaobaipan.com/file-26397827.html)
+   - [秋之回忆十周年典藏映画](https://pan.baidu.com/share/link?shareid=1045353240&uk=1510067332)
+   - [关于南燕的设定集](https://tieba.baidu.com/p/3666640821?red_tag=2317876837)
+   - [燕篇五行说解析](https://zhidao.baidu.com/question/202581663.html)
+
+
+
+
+一个可以找计算机资源的地址
+   - https://www.hoh0.com/forum.php?gid=1
+zookeeper
+   - https://zhuanlan.zhihu.com/p/42067231
+   - https://www.jianshu.com/p/5d12a01018e1
+小码哥数据结构下载地址
+   0. https://www.hoh0.com/thread-14-1-1.html
+   1. 第一季 链接: https://pan.baidu.com/s/1KDqbnUO0XFMH2VKmrpj56g 提取码: l98q
+   2. 第二季链接: https://pan.baidu.com/s/1fb_Z3smvr4LJ4kC-Btmkng 提取码: q146 
+   3. 第三季链接: https://pan.baidu.com/s/1_-ZWuNWALVjc3J6y5TCwIA 提取码: 8833
+
+
+
+来日知华（吉本多香美）
+   - http://www.y469.com/vplay/111931/3/1.html
+
+syncronized 原理
+   - https://www.cnblogs.com/dennyzhangdd/p/6734638.html#_label0_0
+数据库和缓存双写一致性
+   - https://gitee.com/shishan100/Java-Interview-Advanced/blob/master/docs/high-concurrency/redis-consistence.md
+迪迦奥特曼
+   - https://tieba.baidu.com/p/6698153658?red_tag=0995326616
+   - https://tieba.baidu.com/p/6684265524?pn=3#132207726694l
+   - https://tieba.baidu.com/p/6766675113?red_tag=1424791094
+   - https://tieba.baidu.com/f?kw=%E5%A5%A5%E7%89%B9%E6%9B%BC&ie=utf-8&tab=good&cid=0&pn=250
+
+
+
+* 一些要马上打开的网址
+   - 批次1
+      - https://blog.csdn.net/org_hjh/article/details/108901385?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param
+      - https://www.jianshu.com/p/32904ee07e56
+      - https://www.cnblogs.com/crazylqy/p/7773492.html
+      - https://blog.csdn.net/qq_38384440/article/details/81710887
+      - https://blog.csdn.net/Alpha_Paser/article/details/82533128
+      - https://www.cnblogs.com/aspirant/p/11470858.html
+      - https://blog.csdn.net/luanlouis/article/details/40422941
+      - https://www.jianshu.com/p/e136ec79235c
+   - 批次2
+      - 安卓金庸群侠传 https://www.baidu.com/s?wd=%E5%AE%89%E5%8D%93%E9%87%91%E5%BA%B8%E7%BE%A4%E4%BE%A0%E4%BC%A0&rsv_spt=1&rsv_iqid=0x9fcb8fbc000003ac&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&tn=baiduhome_pg&rsv_enter=1&rsv_dl=tb&rsv_sug3=30&rsv_sug1=14&rsv_sug7=100&rsv_t=05cd1xjEbZU1HDgb%2F%2BGKv3a1qJH65JouiHKMoNHR%2Bbg3THtr7Tduuvn2tvq6NkNuPSTy&rsv_sug2=0&rsv_btype=i&inputT=11901&rsv_sug4=11902
+      - 手机玩金庸方式 https://tieba.baidu.com/p/6240777921
+      - 手机金庸下载 https://www.smzy.com/smzy/tech53496.html
+      - 手机金庸使用方式 https://tieba.baidu.com/p/3175014650
+      - 金庸的详细教程 http://www.flymood.com/jyqxz/gb/jykj.html
+      - 罗亚转世的有关人物 56:53  https://www.iqiyi.com/w_19s7zuydfl.html
+      - 月姬读本 https://tieba.baidu.com/p/3168474993
+      - 月姬的相关外传 https://wenwen.sogou.com/z/q171795056.htm
+      - type-moon 贴吧的一个信息 https://tieba.baidu.com/p/6163299123?pn=1
+
+*《罗织经》天下无谋之秘卷八书壹 -> 讲阴谋算计的书，
+搜索 月姬读本Plus Period
+type-moon 吧
+* 月姬读本
+  - https://tieba.baidu.com/p/5384952848?red_tag=3148513992#!/l/p2
+* type-moon 周边书籍
+  - https://tieba.baidu.com/p/6163299123?pn=1
+* 关于月姬的四本书
+  - https://tieba.baidu.com/p/1263046713?pid=15079009825&cid=0&red_tag=3281217201
+* 百度搜索
+  - 月姬读本Plus Period
+
+* Music
+   - 《萧十一郎》歌曲（吴奇隆版）
+   - 少年王主题曲和插曲
+      - 我冒险
+      - 白
+   - 《北京爱情故事》的歌曲
+      - 北京，北京 汪峰
+      - 地心 汪峰
+      - 再见青春 汪峰
+      - 滴答 侃侃
+      - 爱情 杨幂
+      - 故事故事 陈思成
+      - 时间 陈思成
+
+热血篮球相关
+   - 官方解释 https://gamefaqs.gamespot.com/nes/570736-nekketsu-street-basket-ganbare-dunk-heroes/faqs
+   - 必杀讨论 https://tieba.baidu.com/p/2361604858?red_tag=1461845727&share=9105#33485972110l
+   - 讲解
+      ```
+      说一下篮球系统是如何判断投篮是否为必杀吧。
+      RAM地址：计数器$0572至$0575分别对应1P至4P人物投篮的状态。
+      人物持球中站立状态下，默认状态为值FF。
+      投篮动作：按住投篮键直至松开这段时间所表现的出的姿势。
+      1.跑动后投篮跑动开始后，从FF-07-06-05-04-03-02-01-00-FF计数仅一次（转身之后从07开始递减），换手动作是计数结束标志。00（不可保持投篮姿势） 、01、02为投向第三篮筐，05、06、07为普通投篮。
+      2.跳跃后投篮跳跃后，按投篮键(B)的瞬间开始计数，从FF-00-01-02-03-04-05-06-07-FF无限循环，直到落地停止计数。
+      00、01、02为普通投篮，05、06、07为投向第三篮筐。
+      两种投篮方式中，当计数器走到03或04的时候，按下投篮键并释放，既是必杀。
+      3.混合两种投篮方式的投篮（1）跑动后跳跃投篮分两种，第一种是跑动后立刻投篮，计数器会自动加1，判断是否为必杀改为了01、02(就是跑动后跳跃投篮时计数器的值为01、02时立刻投篮，计数器自动加1，变为02、03)；第二种是按住投篮键投篮，判断方式参考2.
+      4.蓄力投篮（这种方式就是织田兄所说的牵引方式吧：D）一般玩家投篮都是按键之后立即结束投篮的，必杀就随之发出了。但是还有另外的一种方式可以保持投篮状态，延迟投篮。具体方法是：（1）跑动时，在投篮状态计数器为03、04时跳起不按投篮键，落地前按住任意方向键持续到地面全过程不松开方向键，这其中可以任意行走（不可跑动！跑动后计数器复位）跳跃传球，只要蓄力的人物不跑动即可随时投篮（跳起投篮计数器加1）就是释放必杀。（2）跳跃投篮按住方向键一直持续到地面，全过程要按住任意方向键以保持投篮状态计数器不变，即可在地面释放必杀。（3）保持投篮状态的方式有几种：按住方向键、站在道具上人头上、传球。
+      总结，跑动投篮的效果取决于跑动的持续时间；跳跃投篮的效果取决于按投篮键直至松开后的时间。
+      通俗的讲就是：时机与手感。（你看到这里会发现上面真是婆婆妈妈一大堆废话XD）
+      以上有任何您感觉不正确的地方欢迎回帖指教，谢谢。
+      ```
+
+
+
+* 热血篮球
+   - https://tieba.baidu.com/p/2361604858?red_tag=1461845727&share=9105#33457743793l
+   - https://tieba.baidu.com/p/3737265704
+   - https://tieba.baidu.com/p/1735378309
+   - https://tieba.baidu.com/p/272188069
+   - https://tieba.baidu.com/p/2133895588
+
+
+* 热血时代剧的最强密码
+   ```
+   こがねむし 名字改为这个，很多钱，全技能，改名字是在开始菜单里，最后一个，就是选和电脑一起玩还是2p一起玩那里，按选择键，就可以进入改名菜单。技能不懂得可以看眼中文的再回来玩，因为中文的游戏字体会花，看着很头疼，所以改玩日文的了。
+   ```
+
+
+迪迦奥特曼的蓝光下载
+   - 未央閣-爱之夏字幕组&魔星字幕组
+      - https://weibo.com/1988168453/BCJl3l2JN?type=comment#_rnd1595840124598
+      - http://www.comicat.org/show-fc9cb6870a46550c137e2beb24c6439a3abffbff.html
+      - http://www.miobt.com/show-a352679ce9f46d57ec02af9e9420d371b3930955.html
+      - https://www.36dm.club/show-fc9cb6870a46550c137e2beb24c6439a3abffbff.html
+   - 迪迦奥特曼原声大碟
+      - https://tieba.baidu.com/p/4857648230
+   - 迪迦奥特曼设定集
+      - https://tieba.baidu.com/p/6419960689
+      - https://tieba.baidu.com/p/5560480074?pn=1
+      - https://tieba.baidu.com/p/5503677020?pn=1
+
+* xxx设定资料画集
+* AB 讲在一个虚幻的世界，男主一直等待着某某
+* btooom 讲以爆炸弹丸进行求生的动漫
+
+
+
+
+* 《金庸群侠传原版》攻略
+   - http://www.kuaihou.com/gl/8382.html
+* 《金庸群侠传》一个下载地址
+   - http://bbs.958shop.com/topic_t168499.html
+
+* 学习地址
+  - sorl 详细教程
+     - [总纲](https://blog.csdn.net/zshaowoo/article/details/85860368)
+     - [概述](https://blog.csdn.net/awj3584/article/details/16963525)
+     - [新版本的使用](https://blog.csdn.net/u010510107/article/details/81051795)
+  - css BFC布局
+     - https://www.zhangxinxu.com/wordpress/2015/02/css-deep-understand-flow-bfc-column-two-auto-layout/
+  - 开源电商项目 https://github.com/macrozheng/mall
+  - 现在要学的 websocet 的技术地址为：
+     - https://www.cnblogs.com/jmcui/p/8999998.html
+  - 讲 websocket 的教程
+     - https://blog.csdn.net/pacosonswjtu/article/details/51914567
+  - 讲网络的地址
+     - https://www.cnblogs.com/JuneWang/p/3917697.html
+  - ubuntu-server 安装方法
+     - http://blog.51cto.com/12348890/2092429
+
+  - 一个合适的 gc jvm 的教程
+     - https://blog.csdn.net/milhua/article/details/80537865
+  - spring 和 mybatis 的整合
+     - [spring-mybatis官网，未知路径](http://www.mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/index.html)
+     - [springBoot-mybatis多数据源](https://www.cnblogs.com/zhuxiaojie/p/5836159.html)
+     - [spring-mybatis 官网](http://www.mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/index.html)
+     - [springBoot-mybatis 整合的两种方法](https://www.cnblogs.com/qlqwjy/p/8463822.html)
+        - 有大量的可以参考的博客
+  - [shell 脚本语言教程](https://blog.csdn.net/foreordination_/article/details/73740966)
+
+  - 分布式事务的教程地址
+     - https://blog.csdn.net/l1028386804/article/details/73731363
+     - https://www.cnblogs.com/jiangyu666/p/8522547.html
+     - https://blog.csdn.net/qq_17612199/article/details/74826099
+
+  - 国内开源的分布式tcc框架
+     - tcc-transaction GIT官网 https://github.com/changmingxie/tcc-transaction
+       - tcc-transaction理论分析文章 https://www.cnblogs.com/jajian/p/10014145.html
+         - 有部分可以参考的博客
+     - Hmily https://github.com/yu199195/hmily
+     - ByteTCC https://github.com/liuyangming/ByteTCC
+     - EasyTransaction https://github.com/QNJR-GROUP/EasyTransaction
+
+
+
+* 分布式事务
+  1. 假如A调B和C
+  2. A对应的方法有注明会调用到的哪个服务的服务名和方法名
+     1. A 用rabbitmq调用B 并得到是否准备好，之后调用C是否准备好
+     2. 都准备好了就发广播信息通知提交事务，如果还要更详细则之后的提交也有验证数据权限用先序查询的方式，
+        每个用户有两个字段，最顶层的是 1 和 所有用户数 作为左右序号，查询时候只要用户的先序和后序标志都在对应祖先元素的先序和后序之间就可以查出来
+  3. 功能权限
+     1. 每个 url 有对应的功能权限的值，假如这里有：增，删，改，查，分别对应
+        二进制的1,2,4,8这样相当于每增一个权限就是要多一位，并且低的位全部是零
+     2. 如果某个用户的权限之和与这个url所拥有的权限之和进行相与，注意用户的权限不满足的高位以零代替，最后结果看是否在 url 原来的权限集合内
+
+
+* 功能
+   - 服务注册与发现
+   - 服务调用
+   - 服务融断
+   - 负载均衡
+   - 服务降级
+   - 服务消息队列
+
+   - 配置中心管理
+   - 服务网关
+   - 服务监控
+   - 全链路追踪
+   - 造化构建部署
+   - 服务定时任务调度操作
+
+* 服务升级
+   - 服务注册与发现(Eureka(x) Zookeeper Consul Nacos)
+   - 服务调用(Ribbon LoadBalancer)
+   - 服务调用2(Feign(x) OpenFeign)
+   - 服务降级(Hystrix(x) resilience4j sentinel)
+   - 服务网关(Zuul(x) Zuul2() gateway)
+   - 服务配置(Config(x) Nacos)
+   - 服务总线(Bus(x) Nacos)
+
+
+* 学习 Spring Cloud 的笔记
+   * Eureka, Zookeeper, Consule 区别
+      1. Eureka 的客户端向服务端发送心跳，如果设定时间内服务端没有收到心跳则认定为主观下线进行保护，在规定时间内如果再没有收到心跳才彻底干掉
+      2. Zookeeper 的客户端向服务端发送心跳，如果设定时间内没有服务端没有收到心跳直接认为客观下线（这期间即使有心跳Zookeeper 也不会响应），新启动客户端后跳水号是新的，所以客户端是临时节点
+      3. Consul
+   * Eureka, Zookeeper, Consule 情况分析
+      ```
+      组件名-语言-CAP-服务健康检查-对外暴露接口-Spring Cloud-集成
+      Eureka-Java-AP-可支持-HTTP-已集成
+      Zookeeper-Java-CP-支持-客户端-已集成
+      Consul-Go-CP-支持 HTTP/DNS-已集成
+       ```
+   * 注意的事情
+      1. 使用 Spring Cloud 的时候，在根 pom 引入 cloud 的核心包，那么在模块服务的如果使用 Eureka 的话则，引入相应的 server 或 client 的包即可，可以不引用版本
+      2. Spring Cloud 的 Zookeeper 在引入的情况下需要排除 zookeeper 的核心包，因为客户端和服务器上的可能不是一个版本
+      3. Zuul1 是阻塞式I/O，而 Gateway 和 Zuul2 是基于异步非阻塞式的 I/O
+
+* 分布式事务
+   1. CAP 原则
+      - CAP原则
+         ```
+         C：一致性，A：可用性，P：分区容错性
+            C：写操作后的读操作可以读取到最新的状态，当数据分布在多个节点上，从任意结点读取到的数据都是最新的状态
+               以主从来理解，主提供写，从提供查，当写后要进行主从备份同步，期间从者需要进行锁定防止查询到旧数据，
+               如果同步失败则会返回失败而不会返回旧数据（这样就失去了可用性）
+            A：任何事务操作都可以得到响应结果，且不会出现响应超时或响应错误（可以返回旧数据，但不能响应错误）
+               以主从来理解，主提供写，从提供查，当写后要进行主从备份同步，期间从者不进行锁定，那么查询过来后，
+               即使旧数据也仍然给予返回（这样就推动了一致性，如果旧数据也没有就返回默认值，不能返回错误或超时）
+            P：通常分布式系统的各结点部署在不同的子网，这就是网络分区，不可避免的会出现由于网络问题而导致结点之间通信失败，此时仍可对外提供服务
+               以主从来理解，主提供写，从提供查，一般是多主多从，其中一个节点挂后也不影响正常业务
+               一般是进行异步备份数据到从者，这样减少了系统之间的耦合，因为即使同步失败也不影响正常业务
+         CAP 理讹的核心是：一个分布式系统不可能同时满足三项
+            CA - 单点集群，满足一致性，可用性的系统，通常在可扩展性上不太强大
+            CP - 满足一致性，分区容忍性的系统，通常性能不是特别高
+            AP - 满足可用性，分区容忍性的系统，通常可能对一致性要求低一些
+         ```
+   2. BASE 理论
+      - 强一致性和最终一致性
+         - 强一致性是定稿后查询就一定要得到最新数据，但是可以返回错误；最终一致性是在一定时间内各节点的数据可以不一致，但是一定时间后一定要一致
+      - Base 理论介绍
+         - 概念
+            >> Basically Available（基本可用），Soft state（软状态），Eventually consistent（最终一致性）三个短语的缩写。Base 理论是对 CAP中AP的扩展
+            >> 通过牺牲一致性来获得可用性，当出现故障允许部分不可用但要保证核心功能可用，允许数据在一段时间内是不一致的，但最终达到一致状态，满足BASE理论事务，称为“柔性事务”
+   3. 2PC方案（即两阶段提交）
+      0. 概念
+         >> 2PC的传统方案是在数据库层面实现的，为了统一标准减少行业不必要的对接成本，需要制定标准化的处理模型及接口标准，
+         >> 国际开放标准组织Open Group 定义了分布式事务处理模型 DTP（Distributed Transaction Processing Reference Model）
+      1. 事务的几大特性
+         - Atomic（原子性）
+         - Consistency（一致性）
+         - Isolation（隔离性）
+         - Durability（持久性）
+      2. Seata方案
+         1. AT模式（传统 2PC）
+            1. 概念
+               - Transaction Coordinator(TC)：事务协调器，它是独立的中间件，需要独立部署运行，它维护全局事务的运行状态，接收TM指使发起全局事务的提交与回滚，负责与RM通信协调各个分支事务的提交或回滚
+               - Transaction Manager(TM)：事务管理器，TM需要嵌入应用程序中工作，它负责开启一个全局事务，并最终向TC发起全局提交或全局回滚的指令
+               - Resource Manager(RM)：控制分支事务，负责分支注册，状态汇报，并接收事务协调器TC的指令，驱动分支（本地）事务的提交的回滚
+            2. 方案
+               1. 2PC 方案(Prepare phase,Commit phase)
+                  1. XA 方案（传统 2PC ，seata 里的模式是 AT 模式）
+                     - 角色：AP（应用程序）, TM, RM
+                     - 由 TM 发起全局事务和指示回滚或提交，当所有的 RM 都准备好后，TM 向所有 RM 发起 commit 命令，如果有一个 RM 失败则会发起 rollback 命令
+                       - 在事务发起到整体提交后或回滚后，资源才得以释放，期间会锁资源，所以性能不佳
+                     - 缺点
+                       - 需要本地数据库支持 XA 协议
+                       - 资源锁要等到两个阶段结束才释放，需要锁表
+                  2. 2PC 方案（seata 的 2PC 实现方案）
+                     - Seata方案是由 阿里开源项目 Feser，后更名为 Seata，基于传统 2PC 上进行改变，有分支事务和全局事务，但是解决了 分支事务锁表和数据库必须遵循 XA 的限定
+                     - 实现逻辑
+                        1. 假如有 TC TM1(bank1) RM1(bank1) RM2(bank2)。
+                        2. 注意 undo_log 是数据库代理在执行事务操作成功后才有 undo_log，undo_log 是事务执行之间的旧数据
+                        3. TM1, RM1, RM2 分别向TC注册，当TM1开启全局事务时，会向TC申请，TC会返回XID
+                        4. RM1 向 TC 注册分支事务并得到 branchId1 执行逻辑，并写入 undo_log，再提交分支事务，上报事务处理结果
+                        5. RM1 远程请求 RM2
+                        6. RM2 向 TC 注册分支事务并得到 branchId2
+                        7. RM2 执行逻辑，写入 undo_log，再提交分支事务，上报事务处理结果
+                        8. TM1 向 TC 提交全局事务，TC 判断总体情况，如果一切正常则广播各个 RM 全局事务成功，删除各自的 undo_log
+                           - 注意如果任意一个分支事务失败了，那么在上报分支事务后，TC 会马上要求各个分支事务回滚
+                           - 各个 RM 解析 undo_log 执行反向操作然后删除 undo_log 提交本地事务，各自上报回滚状态
+                        9. 注意 全局事务的开始的方法有 @GlobalTransaction，但是后续的被调用链的服务的方法是不能有 @GlobalTransaction 的
+               2. TCC
+                  - 地址
+                     - Seata 有 tcc 方案，但没有提供 SpringCloud 的 TCC 处理，所以废弃
+                     - tcc-transaction 需要额外的单独服务；Hmily 不需要额外的单独服务
+                     - 注意：国内开源的分布式tcc框架
+                        - tcc-transaction GIT官网 https://github.com/changmingxie/tcc-transaction
+                          - tcc-transaction理论分析文章 https://www.cnblogs.com/jajian/p/10014145.html
+                        - Hmily https://github.com/yu199195/hmily
+                        - ByteTCC https://github.com/liuyangming/ByteTCC
+                        - EasyTransaction https://github.com/QNJR-GROUP/EasyTransaction
+                  - Hmily（因为 seata 需要独立的服务作为 TC，而且没有对 Spring Cloud 的支持，所以放弃 seata 的分布式事务实现）
+                     - 概念
+                        - 实现 TCC 事务，T(try),T(confirm),C(cancel)
+                        - try：做业务检查和资源预留（隔离），这是一个初步操作，它和后续的 confirm 一直才能真正构成一个完整的业务逻辑
+                        - confirm：确认提交，try 阶段所有分支事务成功后开始执行 confirm，通常情况下，采用 tcc 则认为 confirm 阶段是不会出错的，即：只要 try 成功，confirm 一定成功，若 confirm 阶段真的出错了，需要引入重试机制或人工处理
+                        - cancel：阶段是在业务执行错误需要回滚的状态下执行分支事务的业务取消，预留资源释放，通常情况下，采用 TCC 则认为 cancel 阶段也是一定成功的，若 cancel 阶段真的出错了，需引入重试或人工处理
+                        - TM 事务管理器：可以作为独立的服务，也可以让全局事务发起方充当TM的角色，在发起全局事务时生成全局事务记录，全局事务ID贯穿整个分布式事务调用链条，用来记录事务上下文，追踪和记录和状态，由于 confirm 和 cancel 失败需进行重试，因此需要实现为 幂等性，幂等性是指同一个操作无论请求多少次，其结果都相同
+         
+                     - 可能出现的问题
+                        1. 空回滚：
+                           - 清晰概述
+                              - A 向 B 转账，A 在 pre 阶段发起远程请求造成超时，而远程的数据也丢包了
+                              - 由于超时引起回滚，而 B 在执行 cancel 阶段时由于根本没有 属于 B 的 pre 阶段执行，造成空回滚
+                              - 解决方案是：在执行 cancel 时查询本支线事务是否有 pre 记录，有则回滚否则空回滚（当做执行了），但是也要记录执行了 cancel
+                           - 概述
+                              - 空回滚就是 在没有执行 Try 的情况下执行 Cancel
+                              - 举例 A 向 B 转账。A 开启全局事务后，在未来得及执行 try 时挂了，TM 检测到全局事务失败会发起 Cancel，
+                                 - 当 A 恢复后执行 Cancel 就有问题，因为在 try 阶段并未来得及执行 持久化操作，如果执行 cancel 就会误操作
+                           - 原因
+                              - 在没有调用 try 方法的情况下，就调用了二阶段的 cancel 方法，cancel 需要识别这是一个空回滚，然后直接返回成功，
+                              - try 需要有一条记录，表示 try 执行了，cancel 接口读取该记录，记录存在则回滚，不存在则直接返回（即不执行 cancel 逻辑）
+                              - 出现原因是当一个分支事务所在服务宕机或网络异常，分支事务在未来得及调用 try 的情况下就失败了，这里分支事务调用记录为失败，
+                              - 当故障恢复后，分布式事务进行回滚则会调用 cancel，从而形成空回滚
+                           - 解决方案
+                              - 弄一张分支事务记录表，其中有全局事务id 和 分支事务id，第一阶段 try 方法里会插入一条记录，表示一阶段执行了。
+                              - Cancel 接口里读取该记录，如果该记录存在，则正常回滚；如果不存在，则是空回滚
+                        2. 幂等：保证 tcc 二阶段提交的 try, confirm, cancel 重试机制不会引发数据不一致，
+                           - 概述和原因
+                              - 因为重试机制造成重复调用
+                           - 解决方案
+                              - try, confirm, cancel 都是异步的，所以可能引起重复执行，所以需要记录分支事务，并且增加执行状态，每次执行前都查询该状态
+                        3. 悬挂：
+                           - 清晰概述
+                              - A 向 B 转账，A 在 pre 阶段发起远程请求造成超时，而远程的数据很久之后才到达 B 的 pre
+                              - 由于超时引起回滚，而 B 在执行 cancel 阶段时会有对这个分支事务的 cancel 比 pre 先还是后的问题
+                              - 解决方案是：在执行 cancel 时查询本支线事务是否有 pre 记录，有则回滚否则空回滚（当做执行了），但是也要记录执行了 cancel
+                                 - 在执行 pre 时要判断是否 cancel 执行了，执行了则不处理，否则就正常执行 pre
+                           - 概述
+                              - 悬挂就是 对于一个分布式事务，其二阶段 Cancel 比 Try 接口先执行（调度器得到事务失败引起 cancel，但是 cancel 比 try 后执行）
+                              - 举例 A 向 B 转账，A 执行 OK 然后远程调用 B，但是因为网络拥塞造成调用 B 超时，TM 认定失败异步发起 A 和 B 的 cancel，
+                              - 虽然 A 回滚成功，但是 B 网络畅通后执行 try，但是 B 的 Cancel 之前已经执行过了，再执行 try 就不合适，造成 悬挂
+                           - 原因
+                              - 出现原因是在 RPC 调用分支事务 try 时，先注册分支事务，再执行 RPC 调用，如果此时 RPC 调用的网络发生拥堵，通常 RPC 调用是有超时时间的，RPC 超时以后，tm就会通知 RM 回滚分布式事务
+                              - 可能回滚完成后，RPC 请求才到达参与者 真正执行，而一个 try 方法预留的业务逻辑资源，只有该分布式事务才能使用，该分布式事务第一阶段预留的业务资源就再也没有人能够处理了，对于这种情况
+                              - 我们就称为悬挂，即业务资源预留后没法继续处理
+                           - 解决方案
+                              - 解决思路是如果二阶段执行完成，那一阶段就不能再继续执行。在执行一阶段事务时判断在该全局事务下，分支事务记录表中是否已经有二阶段事务记录，如果有则不执行 try
+                              - 即在 执行 try 时判断是否有 cancel 执行记录，有则不执行 try，没有则执行 try（即允许空回滚，即在空回滚逻辑是不执行 cancel 逻辑但是要有 cancel 执行记录）
+         
+                     - 举例
+                        - 举例问题
+                           1. 如果账户 A 的 try 没有执行，再 cancel 则就多加了 30 元
+                           2. 由于 try, cancel, confirm 都是由单独的线程去调用，且会出现重复调用，所以都需要实现幂等
+                           3. 账号 B 在 try 中增加 30 元，当 try 执行完成后可能会其它线程给消费了（如果消费后有 回滚 情况就糟糕了）
+                           4. 如果账户 B 的 try 没有执行，再 cancel 则就多减了 30 元
+                        - 举例问题解决
+                           1. 账户 A 的 cancel 方法需要判断 try 方法是否有执行记录，正常执行 try 后方可执行 cancel
+                           2. try, cancel, confirm 方法实现幂等
+                           3. 账号 B 在 try 方法中不允许更新账户金额，在 confirm 中更新账户金额
+                           4. 账户 B 的 cancel 方法需要判断 try 方法是否执行，正常执行 try 后方可执行 cancel
+         
+                        - 账户 A 向 B 转账伪代码完成版
+                           - A
+                              - try
+                                 - try幂等校验
+                                 - try 悬挂处理
+                                 - 检查余额是否够 30 元
+                                 - 扣减 30 元
+                              - confirm
+                                 - 空
+                              - cancel
+                                 - cancel 幂等校验
+                                 - cancel 空回滚处理
+                                 - 增加可用余额 30 元
+                           - B
+                              - try
+                                 - 空
+                              - confirm
+                                 - confirm 幂等校验
+                                 - 正式增加 30 元 // 放在 confirm 部分是为了避免 可能被回滚的钱被花掉
+                              - cancel
+                                 - 空
+
+               3. 可靠消息最终一致性（缺点，接收方失败，发送方无法回滚）
+                  - 概念
+                     - 可靠消息最终一致性方案是指当事务发起方执行完成本地事务后并发出一条消息，事务参与方（消息消费者 ）一定能够接收消息并处理事务成功，
+                        - 此方案强调的是只要消息发给事务参与方最终事务要达到一致
+                           ```
+                           事务发起方 -> 网络1 -> 消息中间件 -> 网络2 -> 事务参与方
+                           ```
+                  - 实现方案
+                     1. 本地消息表方案
+                        - 安全举例
+                           `新增用户 和 增加积分 分别在两台服务器` 
+                           ```
+                           // 发送MQ 成功了，但是新增用户失败，新增用户虽然回滚成功，但是MQ的消息却无法取消，两行伪代码无法保证原子性
+                           begin transaction;
+                              加积分消息发送MQ
+                              新增用户
+                           end transaction;
+
+                           ```
+
+                           ```
+                           // 新增用户 和 发送MQ 无法保证原子性，因为发送MQ如果异常虽然会回滚数据库，
+                           // 但失败原因是MQ超时造成了新增用户回滚，但是MQ仍然晚一点会到达MQ-Server，无法取消，所以两行伪代码也没有原子性
+                           begin transaction;
+                              新增用户
+                              加积分消息发送MQ
+                           }
+                           end transaction;
+                           ```
+
+                           ```
+                           事务发起方
+                           // 新增用户 和 加积分待处理数据 在同一个事务下能够保证原子性
+                           // 异步定时器定时检测 加积分待处理数据表 是否有数据，有则发送MQ（有可能因为网络问题造成重复发送，由消费方处理幂等性）
+                           // （注意需要实现幂等性）事务参与方接收到 MQ 消息后处理 增加积分 业务，并确认消息正确发送回 MQ 后才可以命令 发送方删除相应消息
+                           begin transaction;
+                              新增用户
+                              加积分待处理数据 数据入库 // 由定时器定时发送 这个数据库的数据到 MQ
+                           end transaction;
+                           
+                           事务参与方
+                           // 用消息 ack 确认机制，处理完消息后确认 ack，由于消息会重复消费，所以需要作好积分消费的幂等性
+                           begin transaction;
+                              消费存储积分的 MQ 消息日志 
+                           end transaction;
+                           ```
+                     2. RocketMQ 事务消息表方案
+                        - 概念
+                           - RocketMQ 事务消息设计主要是为了解决 生产者 的消息发送 与 本地事务执行的原子性，RocketMQ的设计中 broker 与 producer 端的双向通信能力
+                           - 使得 broker 天生可以作为一个事务协调者存在；而 RocketMQ 本身提供的存储机制为事务消息提供了持久化能力；
+                           - RocketMQ的高可用机制以及可靠消息设计则为事务消息在系统发生异常时依然能够保证达成事务的最终一致性
+                        ```
+                                                             7. 根据事务的状态 Commit OR Rollback
+                                                     *--------------------------------------*
+                                                     |                                      |
+                                                     |                                      v
+                                                            1. 发送增加积分消息Half
+                                                            -------------------------->     M                                       M
+                          本                         M                                      Q       Commit 投递消息                 Q
+                          地  3. 执行本地事务        Q       2. 确认Half消息发送成功        S      ------------------->             订                        
+                          事 <-------------------    发     <--------------------------     e                                       阅
+                          务                         送                                     r      ------*                          方
+                                                     方      4. Commit OR Rollback          e            |
+                                                            -------------------------->     r            | Rollback 删消息不投送
+                                                                                                         v
+                          ^                         *  ^                                    |            v
+                          | 6. 检查本地事务状态     |  |        5. 未收到 4 的确认，回查事务   |                                        
+                          *-------------------------*  *------------------------------------*            v
+                             
+                             如果执行 Producer 端本地事务过程中，执行端挂掉了，勤于超时，MQ Server 将会不停地询问同组的其他 Producer 来获取事务执行状态，
+                             这个过程叫事务回查。MQ Server 会根据事务回查结果来决定是否投递消息。
+                             
+                             以上主干流程已由 RocketMQ 实现，对用户侧来说，用户需要分别实现本地事务执行以及本地事务回查方法，因此只需关注本地事务的执行状态即可
+                        ```
+
+               4. 最大努力通知
+                 - 对于发起方执行本地事务后将结果通知给事务参与者，即使事务参与者执行业务处理失败，发起方通知方也不能回滚
+                    ```
+                    案例：事务发起方（A支付记录），事务参与方（B扣款账户）
+
+
+                                   如果没有收到回调可以主动请求
+                    *---------------------------------------------------- *
+                    |                                                     |
+                                                                          v
+                    事务发起方 -> 网络1 -> 消息中间件 -> 网络2 -> 事务参与方
+                    ^                                                     
+                    |                                                     |
+                    *---------------------------------------------------- *
+                                处理后消息回调（被回调的接口应该幂等性）                        
+
+                    A 事务发起方：先记录支付记录，再mq无事务方式发给 mq
+                    B 事务参与方：接收到 MQ 消息后处理扣款，再回调 A 的回调函数
+                    A 事务发起方：回调收到 B 的处理结果根据情况处理 A 支付记录的状态（A 的被回调的函数应该有 幂等性）
+                    A 事务发起方：因为可能网络或其它原因没有收到 B 的回调，此时可以主动查询 B 的查询接口根据情况更改 支付记录状态
+                    *** 这种方案一般用于内部系统 **
+
+
+
+
+
+                                   定时查询校验处理状态
+                    *-------------------------------------------------------- *
+                    |                                                         |
+                    v                                                          
+                    事务发起方 -> 网络1 -> 消息中间件 -> 网络2 -> 通知方 -> 事务参与方
+                                                                             ^   
+                                                                  |          | 
+                                                                  *          |   
+                                                                  |回调结果  |
+                                                                  *----------*
+                    此方原理差不多                                          
+                    *** 这种方案一般用于开发微信支付或支付宝支付 **
+
+                    ```
+
+
+* 游戏相关
+   1. 阿兜明，游泳的鱼 是早期 仙剑奇侠传 和金庸群侠传 的塞班平台移植作者
+   2. 说明
+      - PC完美移植版-金庸群侠传 v1.3
+      - 游泳的鱼 sdl_lua 复刻版最新版是0.66的
+   3. 金庸群侠传的三个复刻版区别
+      - lua版比较接近原版
+      - pascal版降低了一些难度
+      - lua 和 pascal 这两个剧情都是跟原版一样的
+      - 南宫梦版增加了一些战斗上的设定
+   4. 金庸群侠传源码
+      - sdl_lua 版本：https://github.com/t2meng/jinyong-legend-3ds/tree/0.3
+      - 如果要搜其它复刻版则 在 github 上搜索 kys
+      - 如果要搜索 阿兜明 和 游泳的鱼 的移植版则在 github 上搜索 jinyong
+   5. 仙剑
+      - 仙剑教程地址：https://chiuinan.github.io/game/game/intro/ch/c11/pal/
+      - 知乎上仙剑的一些小细节：https://www.zhihu.com/question/28893237
+      - 仙剑源码编译教程：https://blog.csdn.net/flx413/article/details/82533736
+
+

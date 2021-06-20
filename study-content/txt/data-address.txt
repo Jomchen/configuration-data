@@ -1,0 +1,65 @@
+* 某些关注
+   - 荒川真奈 演奏萨克斯的日本音乐人
+   - 高桥李依
+   - 一个长寿二中的人的qq 752937920
+   - 陈晓琳qq 1263758666
+
+* 日本篠笛
+   1. 日本篠笛吧
+   2. 日本篠笛教程  http://tieba.baidu.com/p/6011370239
+   3. 日本篠笛指法表  http://tieba.baidu.com/p/3181989269
+   4. 日本篠笛乐谱  http://tieba.baidu.com/p/2967123863
+   5. 日本篠笛的一些音乐  http://tieba.baidu.com/p/3757084540
+   6. 日本篠笛的指法表2  http://tieba.baidu.com/p/4983012371
+
+* 娱乐
+   1. 百兽战队 https://wenwen.sogou.com/z/q785477421.htm
+   2. 远程桌面 https://bbs.deepin.org/forum.php?mod=viewthread&tid=179390&extra=
+   3. 远程桌面2 http://koolshare.cn/thread-136280-1-1.html
+   4. 远程桌面3 https://www.cnblogs.com/raybiolee/p/4232888.html
+   5. ACG 相关资源博客 https://beats0.github.io/www.mygalgame.com/gengxinrizhi.html
+   6. 基拉和拉克丝之间的关系图论 https://tieba.baidu.com/p/6541670478?pn=2
+
+* 秋之回忆
+   - 秋之回忆广播剧 The story of the memories(LRC) https://tieba.baidu.com/p/1789645914?red_tag=3194050493
+   - 秋之回忆详细信息网站 http://www.mowypan.com/memoriesoff/
+   - 秋之回忆萌娘资料网站 https://zh.moegirl.org/%E4%BB%8A%E5%9D%82%E5%94%AF%E7%AC%91
+   - 秋之回忆官网 http://memoriesoff.jp/
+   - 贴吧网址
+      1. 白河萤官方小说 http://memoriesoff.jp/if/sousenkyo/hotaru/
+      2. 秋之回忆6嘉神川学姐官方小说 http://memoriesoff.jp/if/sousenkyo/hotaru/
+      3. 秋之回忆人物官方小说的贴吧地址
+         - https://tieba.baidu.com/p/6571762941
+         - https://tieba.baidu.com/p/5643415524?share=9105&fr=share&unique=B86365FD05F93DFD58C21E21725C61D7&st=1585025931&client_type=1&client_version=11.2.1&sfc=copy&red_tag=3176897458
+         - https://tieba.baidu.com/p/5629888424
+
+* 杂项管理
+   1. 冷暖人生重要演员 http://tieba.baidu.com/p/1791137678?pn=7
+   2. 青春美少女 张如意
+   3. 这个人的帖子有迪迦 http://tieba.baidu.com/home/main?un=%E4%BE%9D%E6%97%A7winny&ie=utf-8&id=tb.1.16cc9837.ZRY974Ew0l-x5cojDKh8rQ?t=1570649450&fr=pb&red_tag=u0925881959
+   4. 关于乐谱拔谱教程 https://zhuanlan.zhihu.com/p/66599791
+   6. 度娘真的好严格，mo8全通后的个人感想，基本不带剧透 https://tieba.baidu.com/p/5627128842?red_tag=1976008408
+   7. 剧慎入，谈谈mo8fd的彩蛋 https://tieba.baidu.com/p/6083193501?red_tag=1967105540
+   8. 大概会有点剧透吧，秋之回忆8个人游玩贴 https://tieba.baidu.com/p/5623245930?pn=10
+
+* 技术原理
+   1. 讲解 计算机 互联网方面的注意事项 https://github.com/loremwalker/WebSiteUseful
+   2. 吴小波博客的很多教程和资源 https://www.5xiaobo.com/?cate=5
+   3. 开源电商项目 https://github.com/macrozheng/mall
+   4. redis 原理 https://segmentfault.com/a/1190000015983518
+   5. 数据库分片 https://www.cnblogs.com/butterfly100/p/9034281.html
+   6. 阿里巴巴数据库分片组件 https://github.com/alibaba/cobar
+   7. mysql 索引 https://www.cnblogs.com/zhangxufeng/p/8308558.html
+   8. springcloud gateway 搭建网关（分流，限流，熔断）：https://www.cnblogs.com/qianwei/p/10127700.html
+   9. Zookeeper 的选举过程：https://blog.csdn.net/qq_35956041/article/details/81071156
+   10. Zookeeper 的选兴趣过程2：https://www.cnblogs.com/shuaiandjun/p/9383655.html
+   11. 缓存穿透，击穿，崩溃：https://blog.csdn.net/kongtiao5/article/details/82771694
+   12. SpringBoot 之 jar构建 docker 容器（Maven插件）-yellowcong https://blog.csdn.net/yelllowcong/article/details/80371317
+   13. 缓存问题的解决弃方案：https://baijiahao.baidu.com/s?id=1655304940308056733&wfr=spider&for=pc
+   14. mysql 集群的搭建
+      1. mysql 集群的搭建：https://www.cnblogs.com/aiweixiao/p/7258444.html
+      2. mysql 集群的搭建2：https://www.cnblogs.com/wzc6688/archive/2019/10/16/11689357.html
+      3. mysql 集群的搭建3：https://blog.csdn.net/boy_chen93/article/details/89452778
+      4. mysql 集群的搭建4：https://www.cnblogs.com/zzdbullet/p/11475641.html
+
+

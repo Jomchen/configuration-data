@@ -1,0 +1,299 @@
+## Arch Linux 官方文档学习进度教程
+
+* 一些教程
+   * arch 安装教程 https://www.cnblogs.com/yooleongai/p/10330273.html
+   * Arch Linux 安装教程 https://blog.csdn.net/r8l8q8/article/details/76516523
+   * arch 和 win 双系统安装 https://www.viseator.com/2017/05/17/arch_install/
+
+
+
+## 要注意的其它事项
+   - arch 有线和无线 https://blog.csdn.net/turtleo/article/details/52277346
+   - msinfo32 在 windows 查看是什么引导，在控制台执行
+
+* iw 包的一些命令
+   - iw dev # 查看wifi详细信息
+   - iw dev dev 接口名 link # 查看接口状态
+   - iw dev dev 接口名 scan # 扫描可用wifi
+
+* 网络
+   1. IP地址和网络接口
+      - 列出网络接口清单
+         - 查看无线网和有线网信息，注意 lo 是网线回环地址
+            - ll /sys/class/net  # 查看网络接口目录，目录即接口名
+            - ip link            # 查看网络接口信息
+            - iw dev                # 只可以查看无线网信息
+      - 网络接口操作
+         - ip link set 网络名 up/down # 开启/关闭网络接口，up 是开启，down 是关闭
+         - ip link show dev 网络名    # 查看对应接口网络状态
+      - 添加/删除网络地址（注意手动添加的地址 不要和dhcpcd自动分配的地址冲突）
+         - 对网络接口增加ip地址
+            - ip address add address/prefix_len broadcast + dev interface
+               - address # 是地址
+               - prefix_len # 子网掩码长度
+               - broadcast + dev 表示让 ip 地址和子网掩码中派生广播地址
+               - interface # 网络接口名
+         - 对网络接口删除ip地址
+            - ip address del address/prefix_len dev interface
+               - address # 是地址
+               - prefix_len # 子网掩码长度
+               - interface # 网络接口名
+         - 对网络接口删除匹配规则的ip地址
+            - ip address flush dev interface
+
+   2. 路由表
+      - PREFIX 是 CIDR notation 或者 默认网关
+      - ip route show # 展示 ipv4 路由表，如果没有相应路由匹配你的ip地址，那么默认网关会被使用
+      - ip -6 route   # 展示 ipv6 路由表
+      - ip route add PREFIX via address dev interface # 增加路由信息
+      - ip route del PREFIX via address dev interface # 删除一条路由信息
+
+   3. DHCP
+      - dhcp 协议对主机提供：动态ip，子网掩码，默认网关，可选的 DNS 域名解析器
+      - 安装 dhcpcd 或 dhclient
+
+## ################3 Arch Linux 安装教程 Start
+
+* 进入u盘环境后
+   1. ls /sys/firmware/efi/ # 查看是否支持uefi
+      - 如果显示有文件则表示支持否则不支持
+* U 盘环境
+   1. 当出现界面时
+     - 按键盘 e，然后输入 nomodeset video=像素x像素 （注意结尾有个空格）
+     - 作了屏幕显示比例
+   2. 回车后
+     - 进入的是 u 盘的环境，官方文档中要挂载硬盘到 /mnt 是因为当前环境是 u 盘系统环境
+   3. 改变控制台字体
+     - setfont /usr/share/kbd/consolefonts/具体字体名
+     - fc-cache -vf # 刷新字体（这条命令不在此使用）
+     - fc-list      # 查看可用的字体，输出信息中每一行是一个字体文件 和 字体文件对应的字体名字和风格
+   4. 键盘布局
+     - loadkeys 布局名 # 修改键盘布局，默认是美式键盘布局，没有特殊情况不需要改
+     - 如果需要有自己配置的键位则写一个 keys.conf，里面写自己的配置，最后 loadkeys keys.conf
+   5. 配置联网
+     - ip link # 查看上网设备
+     - ip link set 设备名 up # 让指定的设备开启
+        - ASDL
+           - pacman -S rp-pppoe
+           - pppoe-setup
+           - systemctl start adsl
+        - 有线网
+           - pacman -S dhcpcd
+           - systemctl enable dhcpcd
+           - 直接 systemctl start dhcpcd
+        - 无线网
+           - iwlist 设备名 scan # 扫描 wifi
+              - iwlist 设备名 scan | grep -i 'essid' # 过滤只得到 wifi 的名字
+              - wifi-menu # 这个工具虽然可以扫描连接wifi，但是对一些企业级的wifi协议不支持（比如一些校园网），所以不建议
+           - wpa_passphrase 网络名 密码 > 自定义文件名 # 生成一个连接互联网的配置文件
+           - wpa_supplicant -c 自定义文件名 -i 设备名 & # 通过配置文件连接互联网（ & 后台运行）
+           - ping baidu.com # 此时不能联网，是因为没有动态ip地址
+           - dhcpcd &       # 背后运行 dhcpcd 动态分配ip地址
+   6. 同步时间
+     - timedatectl set-ntp true # 自动从网络同步时间
+   7. 分区
+     - fdisk -l # 查看设备情况，为了找到硬盘设备名
+     - fdisk 设备名
+        - m # 获取帮助指令
+        - p # 打印磁盘分区信息
+        - g # 创建一个新的分区信息表（注意会清空此磁盘的所有内容）
+           - 如果是 bios mbr 方式则按 o 创建 mbr 分区表
+        - n # 创建分区
+           - GPT
+              - /mnt/boot or /mnt/efi 挂载到 efi分区，建议 512MB
+              - SWAP 对应 Linux swap 分区，作为交换分区
+              - /mnt 挂载到 主要分区，建议剩余空间
+           - MBR
+              - SWAP 对应 Linux swap 分区，作为交换分区
+              - /mnt 挂载到 主要分区，建议剩余空间
+           - 分完区后应该改下 Type（分区类型）
+              - GPT的efi分区类型为 efi，帮助文档可以查看
+              - swap 为 swap，其它为 Linux 类型
+        - p # 打印磁盘分区信息再确认一下
+        - w # 写入分区信息到硬盘
+   8. 格式化分区
+      - mkfs.fat -F32 /dev/对应efi分区
+         - 这是在 uefi 引导的情况下才有
+      - mkfs.ext4 /dev/主分区
+      - mkswap /dev/swap分区
+   9. 打开 swap
+      - swapon /dev/swap分区
+   10. 配置下载源
+      - vim /etc/pacman.conf
+         - 搜索 Color 并把注释打开，以在安装时字符有颜色
+         - 搜索 [core] [extra] [community]，可以找到下载源服务器地址（打开它）
+            - 将所有 China 的源全部放到最前面（越前面的优先级越高）
+         - archlinux.cn 这个源不是官方提供的是国内维护的，所以不建议加入
+   11. 挂载
+      - mount /dev/主要分区 /mnt
+      - mkdir /mnt/boot
+      - mount /dev/引导分区 /mnt/boot
+   12. 安装
+      - pacstrap /mnt base base-devel linux linux-firmware ntfs-3g （base-devel 也可以安装，因为有很多基本命令在里面，比如 grep, awk, gcc, sudo, pacman, make）
+         - 一些建议安装的软件包：base-devel, curl, vi, vim, wpa_supplicant, man, dhcpcd
+         - 安装到 /mnt 下
+         - 同时安装 base 的基本包
+         - linx（linux内核） 和 linux-firmware（linux组件）
+      - genfstab -U /mnt >> /mnt/etc/fstab # 生成分区挂载表到系统中
+
+
+
+
+* 系统环境操作
+   1. 切换到安装的系统环境
+      - arch-chroot /mnt # 从U盘环境进入系统，这时所有命令都是在系统环境中而不是 usb 环境中
+   2. 设置时区和时间
+      - ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime # 创建时区的软链接（这里设备的上海）
+      - timedatectl set-ntp true # 自动从网络同步时间
+      - hwclock --systohc # 这个命令假设硬件时钟是 utc（把本机时间同步到硬件时钟）
+   3. 设置系统语言环境
+      - vim /etc/locale.gen
+         - 找到 en_US.UTF-8 UTF-8 # 取消批注
+           找到 zh_CN.UTF-8 UTF-8 # 取消批注
+           找到 zh_HK.UTF-8 UTF-8 # 取消批注
+           找到 zh_TW.UTF-8 UTF-8 # 取消批注
+         - 执行 locale-gen 以生成本地化语言配置
+         - 设定系统语言
+            - vim /etc/locale.conf
+            - LANG=en_US.UTF-8
+            - 暂时用英文，因为是字符界面，用中文可能乱码，建议安装图形化后再改为中文
+   4. 设置 服务器名 和 本地回环地址
+      - vim /etc/hostname # 编辑设置服务器名
+         - 里面一行直接写 服务器名
+      - vim /etc/hosts # 编辑地址映射
+         - 127.0.0.1	localhost
+         - ::1		localhost
+         - 127.0.1.1	自己定义的服务器名.localdomain 自己定义的服务器名
+            - 注意这里是 127.0.1.1，还要输错了
+
+   5. 修改root密码
+      - passwd # 输入两次密码，修改 root 的密码
+
+   6. 创建引导
+      - BIOS/MBR引导方式
+         - pacman -S grub
+         - grub-install --target=i386-pc /dev/sdx （注意 /dev/sdx 改为你硬盘实际设备名）# 安装cpu架构
+         - grub-mkconfig -o /boot/grub/grub.cfg # 生成配置以生效
+      - UEFI/GPT引导方式
+         - pacman -S grub efibootmgr intel-ucode os-prober（dosfstools 也可安装）
+            - intel-ucode 程序提供商更新cpu驱动用的（如果是 AMD 处理器则安装 amd-ucode）
+            - grub 安装程序引导器
+            - efibootmgr efi引导管理
+            - os-prober 查找其它操作系统的程序
+         - mkdir /boot/grub # 创建引导文件夹
+         - grub-install --target=架构名-efi --efi-directory=/boot --bootloader-id=Arch# 安装引导
+            - uname -m # 确认系统架构（假如是 x86_64）
+         - grub-mkconfig > /boot/grub/grub.cfg # 生成引导配置文件
+      - 如果报 warning failed to connect to lvmetad, falling back to device scanning 错误。那么 /etc/lvm/lvm.conf 这个文件，找到 use_lvmetad = 1 将 1 改为 0 再重新配置配置文件
+
+* 安装后
+   - exit 
+      - 退出到 U 盘环境
+      - umount -R /mnt
+         - 递归取消U盘环境对硬盘的挂载
+   - killall wpa_supplicant dhcpcd（杀掉当前 usb 环境的进程）
+   - shutdown -h now # 关机
+   - 拔出u盘
+
+* 扩展部分
+   - 安装必要的软件 pacman -S vi vim wpa_supplicant dhcpcd
+      - 安装完毕后，exit 退出到 usb 环境
+      - reboot # 重启（过程中取出 usb）
+
+* 安装完毕后要做的事情
+   - 添加用户
+      - useradd -m -g 新用户名 -G wheel -s /bin/bash 新用户名
+         - -g 指定自己的主要组名，一般与用户名同名
+         - wheel 是可以执行 sudo 组的
+         - visudo 命令执行后把 %wheel ALL=(ALL) ALL 注释放开
+   - 将这个用户作为特殊用户能够执行 sudo
+   - 网络配置
+      - 有线连接 
+         - systemctl start dhcpcd
+         - systemctl enable dhcpcd
+      - 无线连接
+         - pacman -S netctl iw wpa_supplicant dialog
+      - ADSL 宽带连接
+         - pacman -S rp-pppoe
+         - pppoe-setup
+         - systemctl start adsl
+   - 安装显卡型号
+      - lspci | grep VGA # 查看显卡型号
+      - 驱动
+         ```
+         显卡	        驱动包
+         通用	        xf86-video-vesa
+         intel-	        xf86-video-intel
+         amdgpu	        xf86-video-amdgpu
+         Geforce7±	xf86-video-nouveau
+         Geforce6/7	xf86-video-304xx
+         ati	        xf86-video-ati
+         ```
+   - 安装窗口系统
+      - pacman -S xorg # 安装图形界面包
+      # - pacman -S xfce4 # 安装桌面环境
+      - pacman -S xf86-input-synaptics # 触摸板驱动，笔记本可装，台式不装
+      - pacman -S ttf-dejavu wqy-microhei # 安装微米黑字体，不安装则进入桌面环境系统语言中文可能显示不全
+
+## ################3 Arch Linux 安装教程 End
+
+
+
+
+
+
+* 安装显卡驱动
+   - 安装显卡驱动教程
+      - https://cloud.tencent.com/developer/article/1745686
+      - https://rainss.cn/essay/1355.html
+      - https://hu60.cn/q.php/bbs.topic.96696.html
+      - https://www.cnblogs.com/tonyc/p/7732119.html
+   - 安装 Virtualbox + Arch + xfce4 显卡驱动和 桌面环境/桌面管理
+      - 装驱动，虚拟机根据虚拟机类型，实体机根据显卡，决定装哪个驱动
+         - pacman -S xf86-video-vmware       # vmware 虚拟机情况下，安装
+         - pacman -S virtualbox-guest-utils  # virtualbox 虚拟机情况下，安装
+            - modprobe -a vboxguest vboxsf vboxvideo # 加载三个模块
+      - pacman -S xorg
+      - pacman -S xfce4
+      - pacman -S xfce4-goodies （这不是必须）
+      - pacman -S lightdm              # 安装显示管理
+         - pacman -S lightdm-gtk-greeter  # 安装登录入口，必需要安装至少一个，在arch官网有另外选择性 
+      - systemctl enable lightdm（这会导致下次开机直接进入 xfce4）
+      - systemctl start lightdm
+* 安装中文字体库
+   - 此处省略
+* 安装 桌面环境 和 i3
+   - pacman -S xfce4
+   - pacman -S lightdm       # 安装登录界面
+   - pacman -S xfce4-goodies # 包含额外的组件（可选择性安装）
+   - 配置一个文件，以选择性启动
+      ```
+      ~/.xinitrc
+      LANG=zh_CN.UTF-8
+      LC_LANG=und
+      deskTopChoice=${1:-xfce}
+      case $deskTopChoice in
+      	i3	) exec -i3 -V >> ~/i3-$(date +%Y-%m-%d)-log.txt 2>&1;;
+      	xfce	) exec startxfce4;;
+      	*	) exec $1;;
+      esac
+      ```
+      ```
+      在字符界面执行
+      startx ~/.xinitrc i3   # 启动i3
+      startx ~/.xinitrc xfce # 启动xfce
+      记得要在i3里配置让 fcitx 执行
+      ```
+
+* 安装 fcitx 输入法
+   1. pacman -S fcitx             # 安装主体
+   3. pacman -S fcitx-im          # 组件，防止输入法窗口不跟随或输入法窗口挂死
+   3. pacman -S fcitx-table-extra # 安装字符集扩展
+   4. 配置一个配置文件
+      ```
+      ~/.pam_environment
+
+      GTK_IM_MODULE DEFAULT=fcitx
+      QT_IM_MODULE  DEFAULT=fcitx
+      XMODIFIERS    DEFAULT=\@im=fcitx
+      ```

@@ -1,0 +1,521 @@
+./elasticsearch -Epath.data=data3 -Epath.logs=log3
+
+* 版本 Elasticsearch 7.2
+
+
+* 概念
+   - index 即索引，索引可以放多条数据
+   - 一个索引会 形成多个主分片，每个主分片会有自己的多个副本，主分片和对应的副本不会在同一个节点
+   - 一个范围查询会请求到多个 分片上形成多个子集合并并返回（但是 get 这种通过id查询的情况只有一个分片是相关的）
+   - 当分片无法响应读取请求时，协调器会发送到同一个复制组中的另一个分片副本。重复的失败可能会导致没有可用的分片副本
+      - 为了确保快速响应，如果一个或多个分片失败，以下的 API 将以部分结果响应
+         - search
+         - multi search
+         - bulk
+         - multi get
+      - 这种情况响应的虽然是 200 OK 的 http 状态码，但是分片失败可以体现在响应头中的 timed_out 和 _shards 字段
+
+* 查看不同的分词器
+   ```
+   GET _analyze
+   {
+     "analyzer": "ik_smart", # 这是个自动分词器
+     "text": "我是中国人"
+   }
+
+   GET _analyze
+   {
+     "analyzer": "ik_max_word", # 这种分词器分得最细
+     "text": "我是中国人"
+   }
+   # 以上两种情况会把 “我是中国人” 进行分词解析
+   ```
+
+
+POST _bulk
+{ "index" : {"_index":"test_index_user","_id":1}}
+{"id":1,"name":"独孤求败","age":90,"desc":"独孤求败，独孤九剑，无剑胜有剑","date":"2008-01-01"}
+{ "index" : {"_index":"test_index_user","_id":2}}
+{"id":2,"name":"风清扬","age":90,"desc":"独孤九剑，破气式","date":"2010-10-10"}
+{ "index" : {"_index":"test_index_user","_id":3}}
+{"id":3,"name":"令狐冲","age":20,"desc":"独孤九剑，破剑式","date":"2018-09-09"}
+{ "index" : {"_index":"test_index_user","_id":4}}
+{"id":4,"name":"觉远","age":30,"desc":"九阳真经，源自于九阴真经","date":"2011-11-11"}
+{ "index" : {"_index":"test_index_user","_id":5}}
+{"id":5,"name":"郭靖","age":30,"desc":"九阴真经，武学全书","date":"2012-08-08"}
+{ "index" : {"_index":"test_index_user","_id":6}}
+{"id":6,"name":"张三丰","age":100,"desc":"道家祖师，太极拳，太极剑","date":"2020-07-07"}
+{ "index" : {"_index":"test_index_user","_id":7}}
+{"id":7,"name":"张无忌","age":20,"desc":"九阳真经，太极拳，太极剑","date":"2020-07-07"}
+{ "index" : {"_index":"test_index_user","_id":8}}
+{"id":8,"name":"冲虚道长","age":80,"desc":"太极拳，太极剑","date":"2011-06-06"}
+{ "index" : {"_index":"test_index_user","_id":9}}
+{"id":9,"name":"方正大师","age":80,"desc":"易筋经","date":"2011-05-05"}
+{ "index" : {"_index":"test_index_user","_id":10}}
+{"id":10,"name":"杨过","age":20,"desc":"玄铁重剑，九阴真经，玉女素心剑法，师承独孤求败和神雕小龙女","date":"2012-09-09"}
+{ "index" : {"_index":"test_index_user","_id":11}}
+{"id":11,"name":"小龙女","age":20,"desc":"九阴真经，玉女素心剑法","date":"2011-09-09"}
+  
+* 查看索引的详细信息
+   - GET 索引
+
+* 一些普通的请求命令
+   0. 批量处理请求
+      ```
+      POST _bulk
+      { "index" : { "_index" : "test", "_id" : "1" } }
+      { "field1" : "value1" }
+      { "delete" : { "_index" : "test", "_id" : "2" } }
+      { "create" : { "_index" : "test", "_id" : "3" } }
+      { "field1" : "value3" }
+      { "update" : {"_id" : "1", "_index" : "test"} }
+      { "doc" : {"field2" : "value2"} }
+      ```
+   1. 集群健康检查
+      - GET /_cat/health?v
+   
+   2. 查询分片状态
+      - GET /_cat/indices?v
+   
+   3. 放文档
+     ```
+     PUT /customer/_doc/1
+     {
+     "name": "Jomkie"
+     }
+   
+     customer 是 索引名 如果不存在则自动创建。
+     1 是此条数据的 全局唯一id
+     ```
+   
+   4. 检索文档
+     ```
+     GET /customer/_doc/1
+   
+     customer 和 1 分别是 索引 和 id
+     ```
+   
+   5. 在索引里查询全部，并根据 age 正序排序
+     ```
+     GET /索引/_search
+     {
+       "query": { "march_all": {} },
+       "sort": [
+         {  "age": "asc" }
+       ]
+     }
+   
+     默认 hits 即查询命中的数据是前 10 条，如果没有指定查询数量的话
+     ```
+   
+     ```
+     {
+       "took" : 63,
+       "timed_out" : false,
+       "_shards" : {
+         "total" : 5,
+         "successful" : 5,
+         "skipped" : 0,
+         "failed" : 0
+       },
+       "hits" : {
+         "total" : {
+             "value": 1000,
+             "relation": "eq"
+         },
+         "max_score" : null,
+         "hits" : [ {
+           "_index" : "bank",
+           "_type" : "_doc",
+           "_id" : "0",
+           "sort": [0],
+           "_score" : null,
+           "_source" : {"account_number":0,"balance":16623,"firstname":"Bradshaw","lastname":"Mckenzie","age":29,"gender":"F","address":"244 Columbus Place","employer":"Euron","email":"bradshawmckenzie@euron.com","city":"Hobucken","state":"CO"}
+         }, {
+           "_index" : "bank",
+           "_type" : "_doc",
+           "_id" : "1",
+           "sort": [1],
+           "_score" : null,
+           "_source" : {"account_number":1,"balance":39225,"firstname":"Amber","lastname":"Duke","age":32,"gender":"M","address":"880 Holmes Lane","employer":"Pyrami","email":"amberduke@pyrami.com","city":"Brogan","state":"IL"}
+         }, ...
+         ]
+       }
+     }
+   
+     响应结果分析：
+     took - 在 elasticsearch 中运行查询命令的 毫秒数
+     time_out - 搜索请求是否超时
+     _shards - 搜索了多少 碎片；成功，失败，跳过的碎片 有多少
+     max_score - 找到最相关文档的 分数
+     hits.total.value - 找到了多少匹配的文档
+     hits.sort - 文档的排序位置（没有通过 相关分数 排序时）
+     hits._score - 文档的关联度得分（使用 martch_all 时不适用）
+     ```
+   
+   
+   6. 通过 hits 分页
+     ```
+     GET /索引/_search
+     {
+       "query": { "match_all": {} },
+       "sort": [
+         { "字段": "asc" } // desc 是反序
+       ],
+       "from": 10,
+       "size": 10
+     }
+     ```
+   
+   
+   7. 通过 字段术语 查询
+     ```
+     GET /索引/_search
+     {
+       "query": { "match": { "address": "mill lane" }
+     }
+   
+     如果字段 address 包含 mill 或 lane 都会查询出来
+     注意：
+     term 直接查询精确的（如果字段不是 keyword 而是 text 仍然起不到精确的作用）
+     match 会使用分词器解析！（先分析文档，然后在通过分析的文档进行查询）
+     ```
+   
+   
+   8. 通过 字段短语 查询
+     ```
+     GET /索引/_search
+     {
+       "query": { "match_phrase": { "address": "mill lane" }
+     }
+   
+     只有字段 address 整个字段的值为 "mill lane" 时才会命中
+     ```
+   
+   9. must 必须，should 必须，must_not 必须不
+     ```
+     GET /索引/_search
+     {
+       "query": {
+         "bool": {
+           "must": [
+             { "match": { "age": 40 }}
+           ],
+           "must_not": [
+             { "match": { "state": "ID" }}
+           ]
+         }
+       }
+     }
+     
+     这里是匹配，age 为 40，state 不为 ID 的数据
+     注意：must,should,must_not 元素称为查询子句，文档满足每个条款must或should条款的标准的程序
+        有助于文档的相关性得分，分数越高，文档就越符合您的搜索条件，默认情况下Es是返回按这些相关性分数排名的文档
+     must_not 子句中的条件被视为过滤器，它影响文件是否包含在结果中，但不会影响文件的评分方式。还可以显示指定任意过滤器，
+        以基于结构化数据包括或排除文档
+     ```
+   
+   10. 范围查询
+     ```
+     GET /索引/_search
+     {
+       "query": {
+         "bool": {
+           "must": { "match_all": {}},
+           "filter": {
+             "range": {
+               "balance": {
+                 "gte": 20000,
+                 "lte": 30000
+               }
+             }
+           }
+         }
+       }
+     }
+     
+     查询 balance 在 [20000,30000] 范围内的数据
+     ```
+   
+   11. 聚合分组分析结果
+     ```
+     GET /索引/_search
+     {
+       "size": 0,
+       "aggs": {
+         "group_by_state": {
+           "terms": {
+             "field": "state.keyword"
+           }
+         }
+       }
+     }
+   
+     在对 state 进行分组
+   
+     说明
+     {
+       "size": 0,
+       "aggs": {
+         "自己定义的组名": {
+           "terms": {
+             "field": "分组字段" # 注意如果这个字段是字符串，需要写为 "分组字段名.keyword"
+           }
+         }
+       }
+     }
+     ```
+     
+     ```
+     {
+       "took": 29,
+       "timed_out": false,
+       "_shards": {
+         "total": 5,
+         "successful": 5,
+         "skipped" : 0,
+         "failed": 0
+       },
+       "hits" : {
+          "total" : {
+             "value": 1000,
+             "relation": "eq"
+          },
+         "max_score" : null,
+         "hits" : [ ]
+       },
+       "aggregations" : {
+         "group_by_state" : {
+           "doc_count_error_upper_bound": 20,
+           "sum_other_doc_count": 770,
+           "buckets" : [ {
+             "key" : "ID",
+             "doc_count" : 27
+           }, {
+             "key" : "TX",
+             "doc_count" : 27
+           }, {
+             "key" : "AL",
+             "doc_count" : 25
+           }, {
+             "key" : "MD",
+             "doc_count" : 25
+           }, {
+             "key" : "TN",
+             "doc_count" : 23
+           }, {
+             "key" : "MA",
+             "doc_count" : 21
+           }, {
+             "key" : "NC",
+             "doc_count" : 21
+           }, {
+             "key" : "ND",
+             "doc_count" : 21
+           }, {
+             "key" : "ME",
+             "doc_count" : 20
+           }, {
+             "key" : "MO",
+             "doc_count" : 20
+           } ]
+         }
+       }
+     }
+     
+     响应结果：
+     buckets 是字段 state 的值
+     doc_count 是每个 state 的分组数量
+     因为查询中带有 size 为 0，所以结果中只包含聚合的结果
+     ```
+   
+   12. 聚合分组求平均值分析结果
+     ```
+     GET /索引/_search
+     {
+       "size": 0,
+       "aggs": {
+         "group_by_state": {
+           "terms": {
+             "field": "state.keyword"
+           }
+         },
+         "aggs": {
+           "average_balance": {
+             "avg": {
+               "field": "balance"
+             }
+           }
+         }
+       }
+     }
+   
+     这是在对 state 分组后在每一组里面求 balance 的平均值
+     ```
+   
+     ```
+     GET /索引/_search
+     {
+       "size": 0,
+       "aggs": {
+         "group_by_state": {
+           "terms": {
+             "field": "state.keyword",
+             "order": {
+               "average_balance": "desc"
+             }
+           }
+         },
+         "aggs": {
+           "average_balance": {
+             "avg": {
+               "field": "balance"
+             }
+           }
+         }
+       }
+     }
+     
+     默认聚合是按聚合后各组的数量排序，也可以用 被嵌套的聚合结果在 terms 中指定顺序（在这里的是 average_balance
+     ```
+* 高亮查询
+   ```
+   GET 索引/_search
+   {
+     "query": {
+       ...
+     },
+     "highlight": {
+       "pre_tags": "<p class='key' style='color:red'>",
+       "post_tags": "</p>",
+       "fields": {
+         "name": {}
+       }
+     }
+   }
+   
+   # name 字段搜索出来会高亮
+   pre_tags 和 post_tags 是作搜索出来的定义前缀和后缀，如果不设定则以默认的封装
+   ```
+
+* Index API
+   1. 创建数据
+      ```
+      PUT 索引/_doc/ID
+      {
+        "field1": "value",
+        "field2": "value",
+        "field3": "value",
+        ...
+      }
+
+      # 可能返回的是
+      {
+        "_shards": {
+          "total": 2,
+          "failed": 0,
+          "successful": 2
+        },
+        "_index": "索引名",
+        "_type": "_doc",
+        "_id": "ID",
+        "_version": 1,
+        "_seq_no": 0,
+        "_primary_term": 1,
+        "result": "created"
+      }
+      # 在索引中创建一个显式指定id的数据
+      # 解释
+         total 标志对索引操作有多少分片副本（主分片和分片副本）应该是执行
+         successful 标志操作成功的分片副本索引数
+         failed 在分片副本中，索引操作失败的情况下，包含副本相关的错误数组
+      # 注意
+         索引操作是成功的情况，successful 至少是 1
+         分片副本操作成功时，分片副本可能不全是启动的，total 会等于基于 number_of_replicas 设定
+         并且，successful 会等于已启动的分片数量（主和副本分片）。如果没有失败，failed 将为0
+      ```
+   2. 创建数据
+      ```
+      POST 索引/_doc/
+      {
+        "field1": "value",
+        "field2": "value",
+        "field3": "value",
+        ...
+      }
+      
+      # 这会自动生成id
+      ```
+   3. GET API
+      - GET 索引/_doc/ID # 查询一个数据
+      - HEAD 索引/_doc/ID # 检查一个数据是否存在
+      - GET 索引/_doc/ID?_source=false # 可以不包含 _source 部分，因为_source 是包含数据的
+      - GET 索引/_doc/ID?_source_includes=*.id&_source_excludes=entities 
+         - 在_source 中 包含一个属性的id 和 排除entities属性，如果一个过滤有多个内容则以“,”隔开
+         - GET 索引/_doc/ID?_source_includes=id,age&_source_excludes=state # 这在_source的内容中，显示id和age而不显示state
+   4. Stored Fields
+      ```
+      PUT 索引
+      {
+        "mappings": {
+          "properties": {
+            "counter": {
+              "type": "integer",
+              "store": false
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "store": true
+          }
+        }
+      }
+
+      # 现在可以存储数据
+      PUT 索引/_doc/ID
+      {
+        "counter": 1,
+        "tags": ["red"]
+      }
+
+      # 检索数据
+      GET 索引/_doc/1?stored_fields=tags,counter
+      从文档本身捕捉的字段值总是以数组返回的，counter 字段不会存在，因为请求过滤了它，当尝试 stored_fields 时
+      ```
+   5. 只获取 _source 的数据
+      - GET 索引/_source/ID
+  
+
+* DELETE API
+   - DELETE /索引/_doc/ID
+
+* Delete By Query API
+   ```
+   POST 索引/_delete_by_query
+   {
+     "query": {
+       "match": {
+         "message": "some message"
+       }
+     }
+   }
+
+   # 默认情况下，_delete_by_query 使用滚动批量值是 1000，你可以在URL中用 scroll_size 更改这个值
+   POST 索引/_delete_by_query?scroll_size=5000
+   {
+     "query": {
+       "term": {
+         "user": "kimchy"
+       }
+     }
+   }
+   ```
+
+   ```
+   # 查询 查询删除的任务
+   GET _tasks?detailed=true&actions=*/delete/byquery
+   # 查询 任务的详情
+   GET _tasks/任务id
+   # 取消 查询删除的任务
+   POST _tasks/任务id/_cancel
+   ```

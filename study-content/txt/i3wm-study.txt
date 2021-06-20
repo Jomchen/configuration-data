@@ -1,0 +1,132 @@
+* 官网进度 4.19
+   * 一个易懂的 i3wm 配置 https://www.jianshu.com/p/81917864271e
+   * 一个配置案例1 https://github.com/weihuagu/i3wm-config/blob/master/i3/config
+   * 一个配置案例2 https://www.zhihu.com/question/62251457
+   * 一个配置案例3 https://blog.csdn.net/qq_33215865/article/details/90288997
+* 另一些i3配置
+   * i3wm效果 https://www.zhihu.com/question/62251457
+   * i3wm 的中文详细教程 https://www.dazhuanlan.com/2019/08/28/5d658c54c95c1/
+   * i3wm配置 https://segmentfault.com/a/1190000022083424
+   * i3wm-gaps 配置 https://www.jianshu.com/p/fd07c3081493
+   * i3比较清爽的配置 https://tieba.baidu.com/p/5380980714?red_tag=1189181407
+   * 解决i3 picom 问题 https://blog.csdn.net/weixin_43372529/article/details/106730897
+
+# 一些配置
+   # Pulse Audio controls
+   #bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
+   #bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
+   #bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+   
+   # Sreen brightness controls
+   #bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
+   #bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
+   
+   # Touchpad controls
+   #bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
+   
+   # Media player controls
+   #bindsym XF86AudioPlay exec playerctl play
+   #bindsym XF86AudioPause exec playerctl pause
+   #bindsym XF86AudioNext exec playerctl next
+   #bindsym XF86AudioPrev exec playerctl previous
+
+* 一些功能
+   - 屏幕亮度控制：调亮 调暗
+   - 音频控制：rhythmbox 增加音量，减少音量，静音/非静音
+   - 图片查看器：eog
+   - 媒体播放器：播放 暂停 下一首 上一首
+
+
+* 一些重要的命令
+   - xev 命令，按键的名称可以通过，按键后可以找到对应名字
+   - xprop 命令，执行后，鼠标点击任意窗口，可以得到那个窗口程序的名称
+
+* 安装的一些必要的组件
+   - 次要
+      - yay -S xfce4-notifyd //i3wm发送通知需要这个来支持
+      - yay -S klipper //剪切板
+      - yay -S xfce4-power-manager //电源管理
+      - yay -S volumeicon //托盘上的音量调节的支持
+      - yay -S network-manager-applet //托盘上的网络管理支持，在连接wifi输入密码时，将密码设置为为所有用户使用，就不用每次连接都输入一次密码了
+      - yay -S feh //设置壁纸需要用到
+      - yay -S rofi //应用启动器
+      - yay -S autotiling //跟arcolinux 上的自动平铺设置一样的
+      - yay -S alacritty //或者urxvt ，但urxvt显示的中文锯齿严重，换字体也没用，alacritty就很完美，启动速度也很快，也能实现半透明
+      - yay -S picom //窗口半透明实现的支持（给 i3wm 淡入淡出，半透明，阴影等效果）
+      - yay -S numlockx
+      - yay -S qt5ct //修改qt应用的字体大小和主题
+   - 主要
+      - keynav 可以键盘代替鼠标（键盘版的鼠标）
+         - xev 命令执行后，按键盘的每个换键可以在输出信息中的一个括号中最后一个参数找到对应的“名字”
+      - aur包管理器 yay
+      - 网络连接：iw, wpa_supplicant 和 dhcpcd
+      - 电池优化：tlp
+      - 声音管理：alsa-utils, pulseaudio, pavucontrol
+      - rofi 代替 dmenu ## 不建议使用
+      - 设置壁纸 feh，冒似比 eog 渲染图片更快
+      - 能在 terminal 里快速进入目录（hjkl移动光标所在文件位置）
+      - 快速查找进入比较深的目录 fzf，在 github 上有
+      - 窗口透明化 compton（如果是 arch 系列用 picom，picom 是 compton 的升级版）
+      - 状态栏 polybar（如果要透明需要依赖于 compton）
+      - w3m 可以在终端上浏览网页 在arch wiki 的 install Guid 下的第二栏有个程序方面的标题
+      - 图形界面服务：xorg, xinit
+      - 搜索：dmenu，rofi 代替
+      - xorg渲染工具：picom（gnome 和 kde 已集成）
+      - 终端下文件浏览器：gthumb
+      - 类似ps的图片编辑器：gimp
+      - SVG编辑器：inkscape
+      - 视频剪辑器：kdenlive（类似Pr），openshot（稍微简单点）
+      - 录屏和直播软件：obs
+      - 摄像头驱动自带ffplay和ffmpeg，图形界面操作的有 cheese：
+      - 输入法：fcitx 或者 ibus（fcitx好用一些）
+      - Markdown编辑器：typora
+      - C语言编译器：gcc
+      - C++语言编译器：g++
+      - 项目构建和管理：make, cmake
+      - 视频播放器：vlc
+      - 路由跟踪：traceroute
+      - Zathura：一个有着vim特性的 pdf 阅读器
+
+
+# 容器布局有
+   - 常用命令
+      1. $mod + j/k/l/; # 移动焦点 左/下/上/右
+      2. $mod + Enter   # 打开一个新的终端
+      3. $mod + vh      # 垂直/水平分割窗口
+   - 模式
+      1. splith/splitv
+      2. stacking
+      3. tabbed
+   - 模式的切换
+      1. $mod + e # splith/splitv(it toggles)
+      2. $mod + s # stacking
+      3. $mod + w # tabbed
+   - $mod + f               # 切换全屏模式/取消全屏模式
+   - $mod + d               # 打开 dmenu 进行 分屏式打开定义好的程序命令，前提是命令必须在 $PATH 中存在，也可以定义快捷键启动
+   - $mod + shift + q       # 关闭窗口（如果应用支持 WM_DELETE protocol 则正常关闭，否则会被杀掉进程
+   - $mod + num             # 焦点切换到第 num 号码为索引的工作空间，如果不存在则自动创建
+   - $mod + shift + num     # 把 当前工作空间切换到 num 号的工作空间（作用类似于 $mod + num，只不过这里是移动）
+   - $mod + shift + r       # 原地重启i3（可以使新加的key绑定生效）
+   - $mod + shift + e       # 退出i3
+   - $mod + shift + space   # 切换 floating 模式和 tilling 模式
+   - $mod + a               # 聚焦在父级容器，可以进行多次（再向上一级聚焦）
+   - $mod + shift + j       # Implicit containers ??????????
+
+exec 程序命令               # 在每次 i3wm 启动时就执行（如果执行 $mod + shift + r 原地重启时不会重启那个应用
+exec_always 程序命令        # 在每次 i3wm 启动时就执行（即便 i3wm 原地重启也会重启应用）
+
+设定字体
+   Font-Awesome # 在 github 上搜相关的字体项目，下载一个 web 的项目，
+                # 解压，其中的 fonts 中找到后缀为.ttf 的文件放到 ~/.fonts（如果没有则新建）
+   在 https://fontawesome.com/cheatsheet # 网址复制图标符号文字，
+                                         # 然后可以粘贴到 i3wm 的配置文件中为 workspace 朽图标字符
+指定应用在指定工作空间中打开
+   assign [class="应用的class名"] 在之前定义的空间名（默认配置是 1~10
+   应用的 class 名可以通过 xprop 命令得到
+      - xprop # 在linux中命令执行后，鼠标变为十字架，
+              # 点对应窗口后会在控制台显示关于这个窗口的信息，还会找出 class 信息，复制class名大写开头的即可
+
+* 去除边框
+   new_window none
+   new_float normal
+   hide_edge_borders both

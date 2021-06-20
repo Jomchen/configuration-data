@@ -1,0 +1,50 @@
+* The things which can't be forgot
+   1. 2003/2004年 初识孙银
+   2. 2005年暑假的童年，孙银，黄林，零小汉，刘科，李成
+   3. 2009年9月-2010年?月 高一上学期
+   4. 2010年2/3月-2010年8月 高一下学期那错综复杂的 feeling about 弓川良，yc，elder sister
+   5. 2009年9月-2012年6月 整个高中的经典记忆
+   6. 三倒拐的往事
+   7. 小学 失踪/退学 ？的同学 梅余去了哪里
+   8. 河街除了三倒拐，揽车站脚下，还有南门可以通向城里
+   9. 巴渝人家，生活麻辣烫（周赞）（申泽华，普法节目）
+
+* 学习总纲
+   * 学习大纲
+      1. 谢孟媛《在家 run 语》，进度：
+      2. 网络协议，进度：
+      3. 旋元佑《英语文法进阶》，进度：
+      4. 数据结构，进度：
+      5. 深入理解 java 虚拟机，进度：
+   * 学习小纲
+      1 . Zookeeper
+      2 . Mycat
+      3 . 网络基础
+      4. Nginx
+      5. JVM
+      6. Elasticsearch
+      7. 《Java thinking》
+
+* 要做的事
+   1. 关于电子器件
+      1. 组装台式机
+      2. 硅脂
+      3. 硅胶
+      4. 捆线器
+      5. 音响
+      6. 绑手指的无线鼠标
+      7. 树苺派开发组件
+      8. 买无线蓝牙耳机
+   2. 玩游戏
+      1. 秋之回忆
+   3. 追剧
+      1. 迪迦奥特曼
+   3. 下载游戏
+      - Fate/Zero The Adventure
+
+* 一些注意的事情
+   - mysql 集群的搭建
+      1. https://www.cnblogs.com/aiweixiao/p/7258444.html
+      2. https://www.cnblogs.com/wzc6688/archive/2019/10/16/11689357.html
+      3. https://blog.csdn.net/boy_chen93/article/details/89452778
+      4. https://www.cnblogs.com/zzdbullet/p/11475641.html

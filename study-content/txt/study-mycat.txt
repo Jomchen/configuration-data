@@ -1,0 +1,144 @@
+MYCAT 教程
+
+- HAProxy-1.5.18 代理
+   1. HAProxy 解压到 /usr/local/src
+   2. 进入解压后的目录，查看内核版本，进行编译
+   3. make TARGET=linux310 PREFIX=/usr/local/haproxy ARCH=x86_64
+      - uname -r 查看内核版本，如果查到的为 3.10.0-514.el7，此时参数就为 linux310
+      - uname -i # 查看系统位数 决定 ARCH，例如 x86_64
+      - PREFIX # 指定编译后如果安装，安装的目录
+   4. 编译完成后，安装 make install PREFIX=/usr/local/haproxy
+   5. 完成后，创建 HAProxy 配置文件
+      - mkdir -p /usr/data/haproxy/
+      - vim /usr/local/haproxy/haproxy.conf
+         - 向配置文件中插入以下配置信息，并保存
+         ```
+         global
+             log 127.0.0.1 local0
+             #log 127.0.0.1 locall notice
+             maxconn 4096
+             chroot /usr/local/haproxy
+             #pidfile /usr/data/haproxy/haproxy.pid
+             #pidfile /usr/local/haproxy/config/haproxy.pid
+             uid 99
+             gid 99
+             daemon
+             #debug
+             #quiet
+         defaults
+             log global
+             mode tcp
+             option abortonclose
+             option redispatch
+             retries 3
+             maxconn 2000
+             timeout connct 5000ms
+             timeout client 50000ms
+             timeout server 50000ms
+         listen proxy_status
+             bind:48066
+             balance roundrobin
+             server maycat_1 192.168.0.2:8066 check inter 10
+             server maycat_2 192.168.0.106:8066 check inter 10
+         frontend admin_stats
+             bind:7777
+                 mode http
+                 stats enable
+                 option httplog
+                 maxconn 10
+                 stats refresh 30s
+                 stats uri /admin
+                 stats auth admin:123123
+                 stats hide-version
+                 stats admin if TRUE
+         ```
+
+   6. 启动验证
+      - /usr/local/haproxy/sbin/haproxy -f /usr/local/haproxy/haproxy.conf
+   7. 查看 HAProxy 进程是否启动
+      - `ps -ef | grep haproxy`
+   8. 打开浏览器访问
+      - http://haproxy所在服务器ip:7777/admin
+
+
+- keepalived_v1.4.2 配置
+   1. 解压到 /usr/local/src
+   2. 安装依赖插件
+      - yum install -y gcc openssl-devel popt-devel
+   3. 进入解压后的目录，进行配置，进行编译
+      - cd /usr/local/src/keepalived-1.4.2
+      - ./configure --prefix=/usr/local/keepalived
+   4. 进行编译，完成后进行安装
+      - make && make install
+   5. 运行前配置
+      - cp /usr/local/src/keepalived-1.4.2/keepalived/etc/init.d/keepalived /etc/init.d/
+      - mkdir /etc/keepalived
+      - cp /usr/local/keepalived/etc/keepalived/keepalived.conf /etc/keepalived/
+      - cp /usr/local/src/keepalived-1.4.2/keepalived/etc/sysconfig/keepalived /etc/sysconfig/
+      - cp /usr/local/keepalived/sbin/keepalived /usr/sbin/
+   6. 修改配置文件
+      - vim /etc/keepalived/keepalived.conf
+      ```
+      !Configuration File for keepalived
+      global_defs {
+          notification_email {
+              xlcocoon@foxmail.com
+          }
+          notification_email_from keepalived@showjoy.com
+          smtp_server 127.0.0.1
+          smtp_connect_timeout 30
+          router_id LVS_DEVEL
+          vrrp_skip_check_adv_addr
+          vrrp_garp_interval 0
+          vrrp_gna_interval 0
+      }
+
+      vrrp_instance VI_l {
+          # 主机配 MASTER，备机配 BACKUP
+          state MASTER
+          # 所在机器网卡，注意用 ifconfig 查看
+          interface ens33
+          virtual_router_id 51
+          # 数值越大优先级越高
+          priority 100
+          advert_int 1
+          authentication {
+              auth_type PASS
+              auth_pas 1111
+          }
+          virtual_ipaddress {
+              # 虚拟IP
+              192.168.140.200
+          }
+      }
+
+      virtual_server 192.168.140.200 48066 {
+         delay_loop 6
+         lb_algo rr
+         lb_kind NAT
+         persistence_timeout 50
+         protocol TCP
+
+         # 第一台 hapoxy所在主机和端口
+         real_server hapoxy所在主机ip 48066 {
+             weight 1
+             TCP_CHECK {
+                 connect_timeout 3
+                 retry 3
+                 delay_before_retry 3
+             }
+         }
+         # 第二台 hapoxy所在主机和端口
+         real_server hapoxy所在主机ip 48066 {
+             weight 1
+             TCP_CHECK {
+                 connect_timeout 3
+                 nb_ge_retry 3
+                 delay_before_retry 3
+             }
+         }
+      }
+      ```
+   7. 启动验证
+      - service keepalived start
+      - mysql -umycat账户 -pmyat设置的密码 -h192.168.140.200 -P 48066

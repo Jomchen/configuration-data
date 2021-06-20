@@ -1,0 +1,91 @@
+############################# ubuntu 16.04 防火墙教程
+
+#------------------------------------------ 教程一
+ufw 命令的未例用法
+ufw status       # 查看ufw防火墙是否在工作，查看使用中的规则
+ufw enable       # 启动ufw防火墙
+ufw default deny # 启动默认防御（阻止外部联接，放行对外联接）
+ufw allow 53     # 允许其它主机访问本机53端口，协议包含tcp和udp
+ufw allow 25/tcp # 允许其它主机使用tcp协议访问本机25端口
+ufw allow smtp   # UFW也可以检查 /etc/services文件，明白服务的名字及对应的端口和协议
+
+# UFW同时支持出入口过滤。用户可以使用in或out来指定向内还是向外。如果未指定，默认是inufw allow in http # 许可访问本机http端口
+ufw reject out smtp         # 禁止访问外部smtp端口，不告知“被防火墙阻止”
+ufw deny out to 192.168.1.1 # 禁止本机192.168.1.1对外访问，告知“被防火墙阻止”
+ufw delete deny 80/tcp      # 要删除规则，只要在命令中加入delete就行了
+
+
+设置允许访问 SSH
+sudo ufw allow 22/tcp
+
+设置允许访问 http
+sudo ufw allow 80/tcp
+
+设置允许访问 https
+sudo ufw allow 443/tcp
+
+设置允许访问 pptp
+sudo ufw allow 1723/tcp
+
+#------------------------------------------ 教程二
+* 将 IP6 与 ufw 一直使用（可选）
+   - vim /etc/default/ufw # 然后确保 ipv6 的值为 yes，它应该是这样的 IPV6=yes
+   - 保存并关闭文件，当再次启用 ufw 时生效
+
+* 设置默认策略
+   - 默认策略（将阻止所有对本机访问，允许本机所有出行数据）
+      - ufw default deny incoming
+      - ufw default allow outgoing
+* 允许ssh连接
+   - ufw allow ssh # 将创建允许端口 22 上所有连接的防火墙规则，这是 ssh 守护进程默认监听的端口
+      - ufw allow 22 # 同等
+   - 如果ssh服务器监听端口不是 22 而是 2222，则可以命令 ufw allow 2222 来允许
+* 启用 ufw
+   - ufw enable
+* 查看防火墙所有规则
+   - ufw status verbose
+* 允许其它连接
+   - ufw allow 80 或 ufw allow http   # 允许 http
+   - ufw allow 443 或 ufw allow https # 允许 https
+   - ufw allow 21 或 ufw allow ftp    # 允许 ftp
+   - 注意
+      - 在端口后面应该紧跟 /protocol，如果不加默认支持 tcp 和 udp
+      - ufw allow 80/tcp + ufw allow 80/udp 等效于 ufw allow 80
+* 允许特定端口范围
+   - ufw allow 6000:6007/tcp
+   - ufw allow 6000:6007/udp
+   - 注意
+      - 指定端口范围时，必须指定规则应用到的协议（tcp 或 udp）
+* 允许特定ip地址
+   - ufw allow from x.x.x.x
+   - ufw allow from x.x.x.x to any port 22 # 允许 x.x.x.x 连接到端口22
+* 允许子网访问
+   - 如果要允许ip地址的子网，则可以使用 CIDR 表示法指定网络掩码
+   - ufw allow from 15.15.15.0/24 # 允许 15.15.15.1 到 15.15.15.254 范围访问主机
+      - 15.15.15.0 是网络地址
+      - 15.15.15.255 是广播地址
+   - ufw allow from 15.15.15.0/24 to any port 22 # 允许 15.15.15.1 到 15.15.15.254 范围访问主机的端口22
+* 拒绝连接
+   - ufw deny http             # 拒绝http连接
+   - ufw deny from 15.15.15.15 # 拒绝来自 15.15.15.15 的所有连接
+* 删除策略
+   - 有两种策略：按规则号，按实际规则
+   - ufw status numbered # 查看所有规则，并且显示规则的规则号在最左边
+   - ufw delete 2 # 删除规则 2
+   - ufw delete allow http 等价于 ufw delete allow 80
+      - 这是按实际规则删除
+* 检查防火墙状态
+   - ufw status verbose # 查看详细状态
+   - ufw enable         # reload 防火墙并且系统启动开启防火墙
+   - ufw disable        # unload 防火墙并且系统启动不开启防火墙
+   - ufw reset          # 重置防火墙为安装时状态
+
+
+
+* 连接到特定网络接口（一般是面对一台主机有多个网络接口时）
+   - 先要“允许启用”后根网络接口名
+   - ip addr # 查询网络接口
+   - ufw allow in on eth0 to any port 80
+      - 如果服务器有 eth0 的公共网络接口，可以使用此命令让 http 流量（端口80）通过
+   - ufw allow in on eth1 to any port 3306
+      - 如果希望mysql数据库服务器（端口3306）监听专用网络接口 eth1 上的连接，这将允许你的私有网络上的其它服务器连接到你的 mysql 数据库
