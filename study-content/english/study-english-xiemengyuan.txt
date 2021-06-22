@@ -64,13 +64,14 @@
       - 48:               （音画不同步，不太严重）
       - 53: 全程音画不同步（但音画不同步率不算高，少许影响学习）
       - 54: 00:40:19 卡死
-   2. 中级：06, 14, 16，19, 28, 44, 54, 116
+   2. 中级：06, 14, 16，19, 28, 44, 54, 55, 116
       - 06: 00:35:46 开始没有声音或卡死
       - 14: 16:46:00 乱音，后续将没有声明（没有弥补问题文件）
       - 16: 00:54:00 突然卡顿一下
       - 19: 音画不同步（不太影响学习）
       - 28: 00:36:18 音画不同步（不太影响学习）
       - 44: 32:49 音画不同步（不太影响学习）
+      - 55: 17:13 音画不同步（不太影响学习）
 
 不清楚的集数：
    - 11 集 的主词和动名词不同时 是什么意思
@@ -276,8 +277,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：54 集 30:21
-   - 看视频学习进度：the <4832> line 
+* 谢孟媛英语视频 高中部分复习进度：56 集
+   - 看视频学习进度：the <4913> line 
    - 复习进度 588 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -4832,39 +4833,84 @@
          - 主格（+动词）I have a friend who/that likes music very much.
          - 所有格（+名词）The student whose mother died yesterday is absent today.
          - 受格（+主词+动词<+介词>）This is the man whom/that I spoken of. 这是我说话提到过的人
+      - 关系代名词的主格用法
+         - I don't like people. + They lose their tempers easily.
+            - I don't like people who lose their tempers easily. # 我不喜欢容易发脾气的人
+         - I have a classmate. + Her mother is a famouse singer.
+            - I have a classmate whose mother is a famouse singer. # 我有个她妈妈是名歌手的同学
+          - I met some friends. + I hadn't seen them for ages.
+             - I met some friends <whom> I hadn't seen for ages. # 我有些很久没有见到的朋友
+          - 不吃肉类的人称为素食主义者
+             - People who don't eat meat are called vegetarian.
+          - 所有你所照顾的孩子都会喜爱游泳
+             - All the children whom you take care of will enjoy swimming.
       - 关系代名词的用法
-         - He looked for a car. The engine of the car was in good condition
+         - English is a language. + It is spoken all over the world.
+            - English is a language which is spoken all over the world. # 英语是全世界都在说的语言
+         - He looked for a car. + The engine of the car was in good condition
+            - 等价：He looked for a care whose the engine was in good condition.
             - 等价：He looked for a car the engine of which was in good condition.
                - 这里的 which 实际上是关系代名词
             - 等价：He looked for a car of which the engine was in good condition.
-         - Who that has common sense could believe such a thing? 有常识的人谁会相信这件事情呢
-            - 这里的 who 不是关系代名词，因为前面没有先行词，所以这里解释成“谁”
-            - that 是关系代名词，关系代替 who，由于已经有 who 存在了，所以用 that
-         - Which is the picture that Mary painted? 哪个是玛莉绘画的图画
-         - 先行词为 the only,the very,the same 等使用的关代用 that
-            - He is the only man that I love
+               - 这里是为了让关系代名词更接近先行词
+         - Where is the parcel? + We received it this morning.
+            - Where is the parcel <which> we received this morning. # 我们今天早上收到的包裹在哪里
+         - This is a statement which must be corrected. # 这是份必须更正的声明
+         - He's in love with a girl who has red hair. # 他正和一位红发女孩谈恋爱
+         - Baseball is a sport <which/that> most boys like. # 棒球是大多数男孩喜欢的运动 
          - 必须用 that 作关代的条件总结
-            - 序数，最高级的情况
-            - 先行词中有人和物混杂或不清的情况
-            - 已经有 which,who 出现的情况
-            - the only,the very,the same 等
+            - 概念
+               - 序数，最高级的情况
+               - 先行词中有人和物混杂或不清的情况
+               - 先行词有 which,who 出现的情况
+               - the only,the very,the same 等
+               - 先行词为 the only,the very,the same 等
+               - 先行词为不定代名词
+            - 举例
+               - Today is the coldest day <that> we have ever experienced. # 今天是我们经历过的最寒冷的一天
+               - The first thing that you have to do is <to> study mathmatics. 头一件你需要做的事就是学习数学
+                  - 这里的不定式 to 被省略掉了
+               - The driver and the car that had fallen into the sea were quickly recovered. # 掉到海里的车和司机很快被找到了
+               - Who that has common sense could believe such a thing? 有常识的人谁会相信这件事情呢
+                  - 这里的 who 不是关系代名词，因为前面没有先行词，所以这里解释成“谁”，是疑问词
+                  - that 是关系代名词，关系代替 who，由于已经有 who 存在了，所以用 that
+         - 关系代名词和介词 
+            - Is that the man? + You lent the money to him.
+               - 受格 + S + V + 介词 => 介词 + 受格 + S + V
+                  - 如果介词放在受格前面的情况，关系代名词不能用 that，且不能省略
+               - Is that the man <whom> you lent the money to.
+               - Is that the man to whom you lent the money.
+            - 那班我正在等的火车现在已经晚了半小时
+               - The train which I'm waiting for is now half an hour late.
+                  - The train for which I'm waiting is now half an hour late.
+         - 其它例子
+            - Which is the picture that Mary painted? 哪个是玛莉绘画的图画
+            - He is the only man that I love. # 他是我唯一深爱的人
+            - All that he said was not true. # 他说的都不是真的
+            - My brother fixed almost anything that needed repairing. # 我兄弟几乎修理了大多数需要被修理的东西
       - 若为 动词/形容词 + 介词，组成的片语时，介词只能放后面
          - This is the man whom I worked with.
-            - This is the man with whom I worked.（这里的 with 不是一个片语，只是一个介词）
+            - This is the man with whom I worked.
+            - 这里的 with 不是一个片语，只是一个介词，所以可以拿到前面
          - This is the habit which you must to do with.
-            - do with the habbit 养成习惯
-            - do with 是养成...（是一个片语），所以不能把 with 放到 which 前面
+            - do with the habbit # 戒掉...的习惯 ** 到底是 养成...的习惯 还是 戒掉...的习惯
+            - do with 是戒掉...（是一个片语），所以不能把 with 放到 which 前面
       - 关系代名词的省略
          1. 受格关代可省略
-            - This is a girl (whom) you loves.
+            - 我们在街上遇见的女士是我们的老师
+               - The lady <whom> we met on the street is our teacher.
          2. 当补语的主格关代可省略
-            - She was a cheerful girl. 她是个充满朝气的女孩， She is not the cheerful girl. 她不是个充满朝气的女孩
-            - She is not the cheerful girl (that) she was. 她不是像以前一样有朝气的女孩
+            - She was a cheerful girl. # 她是个充满朝气的女孩（以前）
+            - 结合
+            - She is not the cheerful girl. # 她不是个充满朝气的女孩（现在）
+               - She is not the cheerful girl <that> she was. # 她不是像以前一样有朝气的女孩
+                  - 去过先是个有朝气的女孩，现在是没有朝气的，然而现在是对朝气女孩的重复说明，有特指的意思，所以加 the
+                  - that 是第二个 she 的补语，即主题的“当补语的主格关代”
          3. There/Here be 的句型中，关代可省略（先行词的前面有 There/here be）
-            - There is someone (who) wants to see you. 有人想要见你
+            - There is someone <who> wants to see you. # 有人想要见你
          4. 关代后有 There/Here be... 时，关代可省略（先行词的后面有 There/here be）
             - This is the only bow tie that is in the store. 这是这家店里唯一的一个蝴蝶结
-            - This is the only bow tie (that) there is in the store. 这是这家店里唯一的一个蝴蝶结
+            - This is the only bow tie <that> there is in the store. 这是这家店里所有的唯一一个蝴蝶结
       - 关系代名词和先行词的结合
          1. what = the thing(s) which, anything that, all that
             - What I want is of peace of mind. 我所要的是心灵的平静
