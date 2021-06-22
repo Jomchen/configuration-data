@@ -277,8 +277,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：56 集
-   - 看视频学习进度：the <4913> line 
+* 谢孟媛英语视频 高中部分复习进度：57 集 18:53
+   - 看视频学习进度：the <4922> line 
    - 复习进度 588 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -4912,8 +4912,8 @@
             - This is the only bow tie that is in the store. 这是这家店里唯一的一个蝴蝶结
             - This is the only bow tie <that> there is in the store. 这是这家店里所有的唯一一个蝴蝶结
       - 关系代名词和先行词的结合
-         1. what = the thing(s) which, anything that, all that
-            - What I want is of peace of mind. 我所要的是心灵的平静
+         1. what = the thing<s> which, anything that, all that
+            - What I want is peace of mind. # 我所要的是心灵的平静
             - She told the detectives all (that) they wanted. 她告诉侦探们他们想要知道的所有事情
                - 因为这里用了 all 所以一定要用 that 作关系代名词
                - 也等价于：She told the detectives what they wanted.
