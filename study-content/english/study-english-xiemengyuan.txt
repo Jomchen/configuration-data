@@ -277,8 +277,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：57 集 18:53
-   - 看视频学习进度：the <4922> line 
+* 谢孟媛英语视频 高中部分复习进度：60 集 30:06
+   - 看视频学习进度：the <5062> line 
    - 复习进度 861 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -4926,30 +4926,32 @@
                   - 等价：He is what we call working dictionary.
                - She is what we call a musical genius. 她是所谓的音乐天才
          3. A is to ~ what B is to ~ （A之对~的关系正如B之对于~的关系）（指某两个的关系重要性和另外两个的关系重要性相同）
-            - Air is to us what water is to fish. 空气之于人犹如水之于鱼
-            - Culture is to mind what food is to body. 文化之于心犹如食物之于身体
-         4. what A is/was/used to be （今日的A  / 昔日的A / 昔日的A）
+            - Air is to us what water is to fish. # 空气之于人犹如水之于鱼
+            - Culture is to mind what food is to body. # 文化之于心犹如食物之于身体
+         4. what A is / what A was / what A used to be （今日的A  / 昔日的A / 昔日的A）
             - She is not what she was ten years ago. 她不再是十年前的她
-            - What has make China what she is? 什么使得中国变成今天这种样子
-         5. what is + 比较级（更加.的是）
+            - What has made China what she is? 什么使得中国变成今天这个样子？
+         5. what is + 比较级（更加...的是）
             - what is more 更好的是...；而且...（这是比较正面的表现）
-               - He is a bright what boy,(and) what is more,he is kindhearted. 他是个阳光的男孩，而且他很热心
+               - He is a bright boy,(and) what is more,he is kindhearted. 他是个阳光的男孩，而且他很热心
             - what is worse => to make matters worse 使事情更糟糕（这是比较负面的表现）
                - They lost their way,what was worse,night was coming on. 他迷路了，更糟糕的，夜晚将至
-            - what with ~ and (what with) ~    一则因~；一则因~
+            - what with ~ and (what with) ~    一则因~；一则因~（一般用于负面的情况）
                - What with overwork and (what with) poor meals,she fell ill. 一则因过量工作，一则因应为营养不良，她生病了
+               - fall-fell-fallen
+               - feel-felt-felt
       - 限定用法和非限定用法
          - We have two daughters who became nurses（限定用法，并不知道总共有几个女儿，只知道有两个成为了护士）
             - 这里的 who 可以和 that 代替
          - We have two daughters,and they became nurses（非限定用法-补述，第一句就说明了只有两个女儿，逗号以作区分进行补充叙述）
-            - and they 可以用 who 代替
-            - 代替后的 who 不能用 what 代替
+            - and they 可以用 who 代替（and 是连接词，they 是代名词，合并成关系代名词 who）
+            - 代替后的 who 不能用 that 代替（逗号后的非限定不能替换为 that）
          - 非限定用法
             1. I called Brian,who had called me while I was out. 我打电话给布伦特，当我出门时布伦特打电话给我了
                - 这里的 who 指 Brian，可以替换为 because he
-            2. I bought a hat,which was too big for me. 我买了一顶帽子，这顶帽子来讲太大了
+            2. I bought a hat,which was too big for me. 我买了一顶帽子，这顶帽子对我来讲太大了
             3. He bought some apples,two of which he gave her. 他买了些苹果，他给了她两个
-               - two of which 可以替换为 and two of them
+               - two of which 相当于 and two of them
                - 这里的 which 指 apples，而且代替 he gave her 的受词
                - 因为 he gave her two of them，为了表现为关代，关代和先行词又要靠近，所以就放到了逗号后
             4. This poem,which everybody knows,is by Shelley. 每个人知道这首诗是 Shelley 写的
@@ -4970,21 +4972,23 @@
          - 先行词为 case（场景，情况）,point（这一点，这一方面）,situtuation（情况）等，也可用 where
             - These are the cases where this rule does not apply. 这些是不适用这些规则的情形
       - when
-         - Sunday is then day when I have no school. 星期日是我不上学的日子
-            - Sunday is then day.
+         - Sunday is the day then I have no school. 星期日是我不上学的日子
+            - Sunday is the day.
             - then I have no school.
+            - Sunday is the day when I have no school.
          - That was the time when Dinosaurs lived. 那是恐龙生存的时期
             - That was the time.
             - then Dinosaurs lived.
          - The day when we can live in outer space will come. 我们能够居住在外太空的那天会来临
+            - The day will come when we can live in outer space.
       - why
          - The reason Why he was absent wasn't clear. 他缺席的原因不明
          - I really like sweets,that is the reason why my teeth are bad. 我真的很喜欢甜食，那就是我牙齿不好的原因
       - how
          - how 通常没有明确的先行词
-         - This is how the riot happened. 这是这个暴动发生的原委
-         - This is the way that he solved the problem. 这个是他如何解决问题的方式
-            - 等价：this is how he solved the problem.
+            - This is how the riot happened. 这是这个暴动发生的原委
+            - This is the way that he solved the problem. 这个是他如何解决问题的方式
+               - 等价：this is how he solved the problem.
          - 注意关系副词的先行词通常是可以省略的
             1. Tuesday is the day when the garbage truck come. 星期二是垃圾车来的日子
                - 等价：Tuesday is when the garbage truck come.
@@ -5002,27 +5006,27 @@
                1. I remember the day little （如果以这句作子句的连接，则会让人以为在修饰 little）
                2. 所以把 little 放到前面，而否定的词放句首则一定要使用 倒装句
                3. 动词是be动词，则直接接 be动；动词是一般动词则接原型动词，然后一般动词还原
-               4. Little do I remember that I first met her.（这种句型支持）
-               5. Little do I remember the day I first met her.（这种句型支持）
-               6. Little do I remember the day that I first met her.（这种句型支持）
+               ###4. Little do I remember that I first met her.（这种句型支持）正确性存疑
+               5. Little do I remember the day that I first met her.（这种句型支持）
+               6. Little do I remember the day when I first met her.（这种句型支持）
             -  我不喜欢他说话的样子
-               1. I don't like the way that he talks.
+               1. I don't like the way <that> he talks.
                2. I don't like that he talks.
-               3. I don't like he talks.
+               ###3. I don't like he talks. 正确性存疑
          - 关系副词 where 及 when 可用于非限定用法（补充用法）
             - She moved to New York,where she opened a boutique. 他移居到纽约去了，他在纽约开了家精品店
             - I was taking a shower,when the lights went out. 我正在洗澡，正当我在洗澡时电灯灭了
 
    - 复合关系词
       - 关系代名词 + ever 任何...
-         - whoever = anyone who；whomever = anyone who(m)（这里包括了m是因为美国通常把 whom 也作为 who 用）
-         - whichever = any one that；whatever = anything that
-            - any one 代替单数 n.
+         - whoever = anyone who / whomever = anyone who<m>（这里包括了m是因为美国通常把 whom 也作为 who 用）
+         - whichever = any one that / whatever = anything that
+            - one 代替单数 n.
          - whenever = at any time when
          - wherever = at any place where
       - 例子
          - 他设法帮助需要帮助的任何的人
-            - He tried to help any one that was in need of help.
+            - He tried to help anyone who/that was in need of help.
             - 等价：He tried to help whoever was in need of help.
          - 自行取用你想要的东西
             - Help yourself to any one that you want.
@@ -5040,9 +5044,9 @@
             - wherever = no matter where
             - however = no matter how
          - 例子 
-            - Whoever is calling,I don't want to answer the phone. 无论是谁打电话来，我都不想接
-            - Whatever happens,I always love you. 无论发生什么，我将永远爱你
-            - I'll be thinking at you wherever I am. 无论我在什么地方，我都会想起你
+            - Whoever is calling,I don't want to answer the phone. # 无论是谁打电话来，我都不想接
+            - Whatever happens,I always love you. # 无论发生什么，我将永远爱你
+            - I'll be thinking of you wherever I am. # 无论我在什么地方，我都会想起你
             - However fast you may walk,you won't be able to arrive before dark. 无论你能走得多快，天黑前还是无法到达
                - 这里 be able to 不能替换为 can，因为 can 是助动词，will 也是助动词，形成两个助动词，所以否决
 
