@@ -277,8 +277,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：60 集
-   - 看视频学习进度：the <5104> line 
+* 谢孟媛英语视频 高中部分复习进度：62 集 12:58
+   - 看视频学习进度：the <5160> line 
    - 复习进度 861 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -5111,39 +5111,52 @@
          - ~thing,~body,~one（~可以是some,any,none,every）放在名词后面
       - 限定用法（对对象的直接说明）
          - 形容词 + 名词
-            - the old man lived in a small village.（old 限定 man，small 限定 village）
-            - His elder brother is a famous musician.（elder 限定 brother，famous 限定 musician）
-         - 名词 + 形容词
-            - I want to drink something cold.（code 限定 something）
+            - the old man lived in a small village. # 老人家住在小的村庄里（old 限定 man，small 限定 village）
+            - His elder brother is a famous musician. # 他的哥哥是流行歌手（elder 限定 brother，famous 限定 musician）
          - 复合形容词
-            - a five-year-old girl 一个五岁的女孩（形容词是复合形的，因为形容词没有复数，所以全是单数表现，以“-”连接）
+            - a five-year-old girl. # 一个五岁的女孩（形容词是复合形的，因为形容词没有复数，所以全是单数表现，以“-”连接）
+         - 名词 + 形容词
+            - I want to drink something cold. # 我想喝些冷饮（code 限定 something）
+            - Is there anyting interesting in today's paper.
+            - I don't like riding on trains full of people. # 我不喜欢搭充满人的火车
+            - He tried to blimb a fence two meters high. # 他试图把两米高的篱笆撬起来
+            - He is a boy five years old. # 他是个五岁的孩子
+               - He is a five-year-old boy.
       - 叙述用法（对对象的叙述完整）
          - 主词补语
-            - Sea water tastes salty. 海水尝起来是咸的
-            - The rainboow is very beautiful. 彩虹非常漂亮
+            - Sea water tastes salty. # 海水尝起来是咸的
+            - The rainbow is very beautiful. # 彩虹非常漂亮
          - 受词补语
-            - You'll find the book difficult.你会发现这本书很难（difficult 修饰 book）
-               - You'll find the difficult book. 你会发现本很难的书
-            - I left the windows open. 我把窗户打开了
-            - I let the windows be opened. 我让窗户开着
+            - You'll find the book difficult. #你会发现这本书很难（difficult 修饰 book）
+               - You'll find the difficult book. # 你会发现本很难的书
+            - I left the windows open. # 我把窗户打开了
+               - 本人并没有去动窗户，只是让这个对象保持打开的状态
+               - 这里的 open 是形容词
+               - 这里的 left 是 leave 的过去式，翻译为“保留”的意思
+               - 这里不能用 let，let 是一个动作，然而这里并没有发生动作
+            - I let the windows be opened. # 我让窗户被打开
       - 只能用限定用法的形容词
          - only（仅仅，只）,mere（仅，只）,main（主要）,wooden（木头制的）,upper（上面的）,inner（内部的）,lone（孤单的，寂寞的）（这个词比较老了，一般用 alone 代替了）...
          - This is a wooden house. 这是个木制的房子
          - this is a only person who love you. 这是唯一爱你的人
          - He is a mere child. 他是唯一的孩子
       - 只能用叙述用法的形容词
-         - alive,alone,afraid,asleep,awake... 等
+         - alive,alone,afraid,glad,asleep,awake... 等
+            - fall asleep # 睡着了
+            - feel sleepy # 感觉想睡觉
          - I'm afraid of dogs. 我怕狗
          - the baby is still asleep. 这个婴儿仍然是睡着的
       - 同一个形容词，限定用法和叙述用法意思不同
-         1. I met a certain lady. 我遇到某个女士
-         2. It is quite certain. 他相当确定
-         3. He is my present assistant. 他是我最近的助手
-         4. He is present today. 他今天有出席
-         5. The late Mr.Smith was an able man. 已故的史密斯是个有才能的人
-         6. He was late for the meeting. 他的会议迟到了
-         7. She gave me a fond look. 她很和气地看了我一眼
-         8. I am very fond of ice creen. 我是非常喜爱冰qi凌
+         1. I met a certain lady. # 我遇到某个女士
+         2. It is quite certain. # 他相当确定
+         3. He is my present assistant. # 他是我最近的助手
+         4. He is present today. # 他今天有出席
+         5. The late Mr.Smith was an able man. # 已故的史密斯是个有才能的人
+         6. He was late for the meeting. # 他的会议迟到了
+         7. She gave me a fond look. # 她很和气地看了我一眼
+         8. I am very fond of ice creen. # 我是非常喜爱冰qi凌
+            - be fond of = like
+            - 这里的 fond 是形容词
       - 形容词的顺序
          - 冠词/代名词 + 数量形容词 + 性状形容词 + 形容词化的名词 + n.
             - 性状形容词 -> 主观的判断 -> 大小，形状，状态，新旧，颜色，材料
