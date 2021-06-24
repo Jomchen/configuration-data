@@ -277,8 +277,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：60 集 30:06
-   - 看视频学习进度：the <5062> line 
+* 谢孟媛英语视频 高中部分复习进度：60 集
+   - 看视频学习进度：the <5104> line 
    - 复习进度 861 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -5084,7 +5084,8 @@
          3. He came late for class today,and that is often the case with him. 一如往常，他上学又迟到了
             - and that 替换为 what
             - 等价：He came late for class today,that is often the case with him.
-               - 等价：As is often the case (with him) ,he came late for class today.
+               - 等价：As is often the case <with him> ,he came late for class today.
+               - and that 替换为 as
          4. Read such books as your teacher has recommended. 读像你老师推荐过的那本的书
       2. but 用于否定句，形成双重否定
          - There is no rule that doesn't have any exceptions. 没有规则是没有有例外的
