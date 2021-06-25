@@ -277,8 +277,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：62 集 12:58
-   - 看视频学习进度：the <5160> line 
+* 谢孟媛英语视频 高中部分复习进度：63 集
+   - 看视频学习进度：the <5260> line 
    - 复习进度 861 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -5176,10 +5176,10 @@
             1. We were excited about the baseball game. 那场棒球赛令我们兴奋
                - The game was exciting to us.
             2. I'm sorry to hear the news. 听到这消息真令人遗憾
-            3. sorry 的表现
-               - be sorry to v
-               - be sorry for ving
-               - be sorry that S + V
+               - sorry 的表现
+                  - be sorry to v
+                  - be sorry for ving/n.
+                  - be sorry that S + V
          3. the + adj. = n.（可以代表 一群人，抽象名词）
             - The rich are not always happy. 富人并非总是快乐的
             - We search for the true,the good and the beautiful. 我们寻求真善美
@@ -5192,45 +5192,71 @@
          1. 数量形容词
             - many + 复数名词；much + 不可数名词
             - 否定句中听鈫 many 和 much 翻译成不太多
-         2. many,much 也有名词性用法
-            1 Many of the students were absent. 许多学生缺席（这里的 much 是主词，充当名词）
+            - Do you have many books in your study? # 在你的书房有很多书吗？
+            - They've spent much money on advertising. # 他们花了很多时间在广告上
+         - 否定中的 many 或 much 可译成“不太多”
+            - This garden doesn't have many trees. # 这个花园中没有太多树
+            - My son hasn't made much money. # 我的儿子没有赚太多钱
+         - many,much 也具有名词性用法
+            1 Many of the students were absent. # 许多学生缺席（这里的 much 是主词，充当名词）
             2 a lot of,lots of,plenty of 等可以代替 many 或 much
+               - 肯定句中 用 a lot of 代替 much 比较多
+               - much 一般用于 否定，疑问 句中居多
             3. There were a lot of(=> lots of,plenty of) people in the shop.
-            4. She ate a lot of(=> lots of,plenty of) ice cream.
-            5. a large number of = large numbers of（根可数复数名词）（这里的 number 指 数）
-            6. a large amount of = large amounts of（根不可数名词）（这里的 amount 指 量）
-         3. a few,few
+            4. She ate a lot of(=> lots of,plenty of) ice cream. # 她吃了很多冰漆凌
+            5. large number of, large numbers of, large amount of, large amounts of
+               - a large number of = large numbers of # 大批的
+                  - 这里的 number 是可数的，指“数”，所以这两个之后根可数名词
+               - a large amount of = large amounts of # 大量的
+                  - 这里的 amount 是不可数的，指“量”，所以这两个之后根不可数名词
+         - a few,few
             - 词法
                - a few = some
                - few = not many
             - 例子
-               - There are a few vetgetables in the refrigerator.
-               - Few people were injured in the accident.
-               - Few can understand this poem.（这里的 Few 指人，虽然没有人的名词，但它已经充当了名词使用了）
+               - There are a few vetgetables in the refrigerator. # 一些蔬菜在冰箱里
+               - Few people were injured in the accident. # 几乎没有人在事故中受伤了
+               - Few can understand this poem. # 几乎没有人理解这首诗（这里的 Few 指人，虽然没有人的名词，但它已经充当了名词使用了）
          4. a little/little
             - 词法
                - a little = some
                - little = not much
             - 例子
-               - I have a little money with me.
-               - We need little butter to make this cake.
-               - The little of his work that remains should be done within today.
-         5. not many/hardly any => few；not much/hardly any = little
-            1. There were not many/hardly any people in the park.
-            2. There is not much/hardly any danger of an earthquake.
+               - I have a little money with me. # 我身上有一些钱
+               - We need little butter to make this cake. # 我需要一点黄油做这个蛋糕
+               - The little of his work that remains should be done within today. # 他应该在今天内完成他的一点工作
+         5. not many = hardly any = few；not much = hardly any = little
+            1. There were not many(=> hardly any) people in the park. # 公园里几乎没有人
+            2. There is not much(=> hardly any) danger of an earthquake. # 这次地震几乎没有危险
          6. some/any
             1. some 的用法
                - 用于肯定直述句
+                  - Some students take lessons in Spanish. # 有些学生选修西班牙文这门课
                - 表示邀请或希望回答肯定的疑问句
+                  - Won't you have some more tea? # 你不要再来一些茶吗？
+                  - 客气的程序 please < will < won't
             2. any 的用法
                - 用于疑问句或否定句或条件句中
+                  - Do you have any questions? # 你有什么问题吗？
+                     - Yes, I have some questions.
+                     - No, I don't have any questions.
+                  - There aren't any letters for you. # 没有任何信件给你
                - 翻译为“任何，皆可”时，可以用于肯定句中
+                  - You may come any time. # 你可以任何时候来
+               - 用于条件
+                  - Ask him if you have any doubt. # 去问他，如果你有任何疑问
          7. no = not any/not a
+            - I have no brothers = I don't have any brothers. # 我没有任何兄弟
+            - There is no(=>not any) water in the glass. # 这个杯子没有一点滴水
          8. 表示数量的惯用表现
             - a great/large number of,a good/great many（根可数）大量的...
+               - There are a great number of books in this library. # 这个图书馆内有大量的书籍
+               - A good many books have been published. # 大量的书发售了
             - a good/great deal of,a great quantity of（根不可数） 大量的...
+               - She spent a good deal of time <in> shopping. # 她花了太多的时间在购物上了
             - not a few（根可数）,not a little（根不可数） 不少的...
-               - quite a few（根可数）,quite a little（根不可数）不少的...（语气更强烈些）
+               - Not a few students come to school by bicycle. # 不少的学生骑单上学
+            - quite a few（根可数）,quite a little（根不可数）不少的...（这两个语气更强烈些）
             - only a few（根可数）,only a little（根不可数） 仅仅一点...，很少的...
 
       - 序数形容词
