@@ -277,8 +277,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：63 集
-   - 看视频学习进度：the <5260> line 
+* 谢孟媛英语视频 高中部分复习进度：65 集
+   - 看视频学习进度：the <5394> line 
    - 复习进度 861 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -5257,21 +5257,28 @@
             - not a few（根可数）,not a little（根不可数） 不少的...
                - Not a few students come to school by bicycle. # 不少的学生骑单上学
             - quite a few（根可数）,quite a little（根不可数）不少的...（这两个语气更强烈些）
+               - Quite a few people have lost their own houses. # 不少的人失去了他们的房子
+               - We had guite a little snow last winter. # 去年下了不少雪
             - only a few（根可数）,only a little（根不可数） 仅仅一点...，很少的...
+               - There are only a few houses in my neighborhood. # 我们家的附近只有很少的房子
+               - She takes only a little coffee for breakfast. # 她早餐仅喝了很少的咖啡
 
       - 序数形容词
          - 基础
-            - 基数：one,two,three,four,...
-            - 序数：first,second,third,fourth,...
+            - 基数：one,two,three,four,five...twelve
+            - 序数：first,second,third,fourth,fifth...twelfth
+               - 对于十位整数变幻方式为：变y为i加eth，例如 twenty-twentieth
          - 数的读法
             - 注意
                - 从右往左三位作一个间隔
-               - 每个间隔内的 十位和个位由“-”间隔
+               - 每个间隔内的 十位和个位由"-"间隔
                - 每个间隔内的 百位和十位间的 and 可省略或不省略
             - 时间描述的顺序：时间 星期几 日期 年 纪元
             - 修饰名词
                - 数字 + hundred + 复数n. 具体多少百的...（thounsand,million,billion 同理）
+                  - two hundred of dollars # 两百美元
                - hundreds of + 复数n. 数以百计的...（thounsand,million,billion 同理）
+                  - hundreds of dollars # 数以百计的美元
             - 整数
                - 438: four hundred (and) thirty-eight.
                - 5,621: five thousand six hundred (and) twenty-one.
@@ -5284,19 +5291,26 @@
                - August 12(th) => August twelfth => 8月12号（美语中念 August twelve）
                   - August twelfth（因为 twelfth 后面是 th，所以括号内是 th）
             - 年号
-               - 1936 => (the year)nineteen thirty-six
-               - 1804 => (the year)eighteen (and) four/(the year)eighteen hundred and four
-               - 1600 => (the year)six hundred ????
-               - 853 => (the year)eight hundred fifty-three
-               - 200B.C. => (the year)two hundred B.C.
+               - 1936 => <the year> nineteen thirty-six
+               - 1804 => <the year> eighteen <and> four 
+                  - <the year> eighteen hundred and four
+               - 1600 => <the year> six hundred
+               - 853 => <the year> eight hundred fifty-three
+               - 200B.C. => (the year)two hundred B.C. # 西元前两百年
                - 2004 => (the year)two thousand and four 
             - 时间
-               - 7:00 => seven o'clock（七点）=> seven o'clock sharp（七点整）=> seven o'clock to the minute => seven o'clock to the dot（七点整）
+               - Do you have the time? # 现在几点了？（想从被寻问者那里知道时间）
+               - Do you have time? # 你有空吗？（想问被寻问者是否有时间约谈或办事）
+               - 7:00 => seven o'clock（七点）
+                  - seven o'clock sharp（七点整）
+                  - seven o'clock to the minute （七点整）
+                  - seven o'clock to the dot（七点整）
                - 8:15 => eight fifteen => fifteen past/after eight => a quarter past/after eight
                   - 分 past/after 小时，这种表述只能是非整点且时间不超过 30 分钟
                   - a quarter 四分之一
                - 9:30 => nine thirty => half past/after nine
-               - 10:40 => ten forty => twenty to eleven
+               - 10:40 => ten forty 
+                  - twenty to eleven # 差二十分到十一点
                   - 分 to 小时，这种表述只能是非整点且时间超过 30 分钟
             - 电话号码
                - 8780-3589 => eight seven eight zero/o,three five eight nine
@@ -5306,28 +5320,34 @@
                - 4.63 => four point six three
                - 52.75 => fifty-two point seven five
                - 0.03 => point zero three, point naught three, zero point zero three 
+                  - naught 一般是英国人在用
+                  - zero/o 一般是美国人在用
             - 分数
                - 分子（基数） / 分母（序数，分子在2及以上则分母要加 s）
                - 1/2 => one/a second => one/a half
                - 1/4 => one/a fourth => one/a quarter
                - 3/4 => three fourths => three quarters
                - 4/5 => four fifths
-               - 3又2/3 => three and two thirths
+               - 3又2/3 => three and two thirds
             - 算术
                - 5+2=7
                   - Five plus two equals seven.（这种讲法比较正式）
                   - Five and two is seven.（这种是一般的说法）
+                     - Five and two are seven.（有的会有这种说法）
                - 5-2=3
                   - five minus two equals three.
                   - Two from five is three.
+                     - Two out of five is three.（有的会有这种说法）
                - 5*2=10
                   - Five multiplied by two equals ten.
                   - Five times two is ten.
+                     - 这里的 times 是倍数的意思
+                     - 5 的两倍
                - 10/2=5
                   - Ten divided by two equals five.
                   - Two into ten goes five times.
                - 3^2=9
-                  - Three squared/The square of three is nine.
+                  - Three squared / The square of three is nine.
                   - square 是正方体的意思
                - 2^3=8
                   - Two cubed / The cube of two is eight
@@ -5335,23 +5355,25 @@
                   - cube 是立方体的意思
                - 根号4=2
                   - The square root of four is two
-               - 8 的3次方根是 2
+               - 8 的 3次方根是 2
                   - The cube root of eight is two
             - 其它
-               1. the 3:30pm express => the three tirty p.m. express 下午3:30列车
-               2. No.3 => number three 第三名
-               3. Book 罗马的5 => Book Four 第四册
-               4. P.31 => page thirty-one 第三十一页
-               5. Elizabeth 罗马的2 => Elizabeth the second. 伊利莎白二世
-               6. Hamlet 罗马的2.罗马的3.4 => Hamlet,act two,scene three,line four 哈姆雷特 第二幕，第三场，第四行
-               7. 18摄氏度 => eighteen degress centigrade/Celsius（Celsius 比较正式）
-               8. 92华氏度 => ninety-two degress Fahrenheit
+               1. the 3:30p.m. express => the three tirty p.m. express 下午3:30列车
+                  - an express train # 一列快车
+                  - local train # 普通列车
+               2. No.3 => number three # 第三名
+               3. Book 罗马的四 => Book Four # 第四册
+               4. P.31 => page thirty-one # 第三十一页
+               5. Elizabeth 罗马的2 => Elizabeth the second. # 伊利莎白二世
+               6. Hamlet 罗马的二.罗马的三.4 => Hamlet,act two,scene three,line four # 哈姆雷特 第二幕，第三场，第四行
+               7. 18摄氏度 => eighteen degrees centigrade/Celsius（Celsius 比较正式）
+               8. 92华氏度 => ninety-two degrees Fahrenheit
             - 含数词的惯用表现
-               1. The children went away by twos and threes. 小朋友三三两两地离开
-               2. He was born in the nineteen-thirties 他出生在1930年年代
-               3. We are planning to employ a woman in her twenties 我们计划雇佣一个年龄20几岁的女人
-               4. I am at one with you on that point. 我和你有同一个立场
-               5. He is principal,teacher,clerk,all in one. 校长，老师，事务员一体
+               1. The children went away by twos and threes. # 小朋友三三两两地离开
+               2. He was born in the nineteen-thirties. # 他出生在1930年代
+               3. We are planning to employ a woman in her twenties. # 我们计划雇佣一个年龄20几岁的女人
+               4. I am at one with you on that point. # 我和你有同一个立场
+               5. He is principal,teacher,clerk,all in one. # 校长，老师，事务员一体
                6. Dozens of people were injured in the accident. 好几十人在事故中受伤了
                7. Tens of thousands of people were killed in the earthouake. 数以万计的人在地震中死亡了
             - 复合形容词有下列五种形式
@@ -5360,14 +5382,16 @@
                   - 形容词 - 及物动词之过去分词
                   - a good-looking man 帅哥, a white-painted people 白墙
                - 名词
-                  - 名词-现在分词 / 过去分词
+                  - 名词-现在分词/过去分词
                   - a hand-made cake 手工蛋糕, a peace-loving people 一个爱好和平的民族
-               - 副词-现在分词 / 过去分词
+               - 副词-现在分词/过去分词
                   - a rapidly-moving tornado 移动迅速的龙卷风, a well-behaved boy 有礼貌的男孩
                - 名词/形容词-名词ed
                   - a gray-haired old man 灰白头发的老人,a open-minded leader 心胸开阔的领导 
                - 数词-名词ed
-                  - a two-headed manster 两个头的怪兽
+                  - a two-headed manster # 两个头的怪兽
+                  - a two-headed snake # 两个头蛇
+                  - a three-legged table # 一张三脚桌
 
 * 副词
    - 形成
