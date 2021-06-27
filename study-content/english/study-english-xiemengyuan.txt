@@ -5205,7 +5205,7 @@
                - much 一般用于 否定，疑问 句中居多
             3. There were a lot of(=> lots of,plenty of) people in the shop.
             4. She ate a lot of(=> lots of,plenty of) ice cream. # 她吃了很多冰漆凌
-            5. large number of, large numbers of, large amount of, large amounts of
+            5. a large number of, large numbers of, a large amount of, large amounts of
                - a large number of = large numbers of # 大批的
                   - 这里的 number 是可数的，指“数”，所以这两个之后根可数名词
                - a large amount of = large amounts of # 大量的
@@ -5295,7 +5295,7 @@
                - 1936 => <the year> nineteen thirty-six
                - 1804 => <the year> eighteen <and> four 
                   - <the year> eighteen hundred and four
-               - 1600 => <the year> six hundred
+               - 1600 => <the year> sixteen hundred
                - 853 => <the year> eight hundred fifty-three
                - 200B.C. => (the year)two hundred B.C. # 西元前两百年
                - 2004 => (the year)two thousand and four 
