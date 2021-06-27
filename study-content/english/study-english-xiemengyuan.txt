@@ -64,7 +64,7 @@
       - 48:               （音画不同步，不太严重）
       - 53: 全程音画不同步（但音画不同步率不算高，少许影响学习）
       - 54: 00:40:19 卡死
-   2. 中级：06, 14, 16，19, 28, 44, 54, 55, 116
+   2. 中级：06, 14, 16，19, 28, 44, 54, 55, 66, 116
       - 06: 00:35:46 开始没有声音或卡死
       - 14: 16:46:00 乱音，后续将没有声明（没有弥补问题文件）
       - 16: 00:54:00 突然卡顿一下
@@ -72,6 +72,7 @@
       - 28: 00:36:18 音画不同步（不太影响学习）
       - 44: 32:49 音画不同步（不太影响学习）
       - 55: 17:13 音画不同步（不太影响学习）
+      - 66: 42:44 音画不同步（不太影响学习）
 
 不清楚的集数：
    - 11 集 的主词和动名词不同时 是什么意思
@@ -277,8 +278,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：65 集
-   - 看视频学习进度：the <5394> line 
+* 谢孟媛英语视频 高中部分复习进度：67 集 00:38
+   - 看视频学习进度：the <5449> line 
    - 复习进度 861 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -5394,6 +5395,10 @@
                   - a three-legged table # 一张三脚桌
 
 * 副词
+   - 种类
+      - 情状副词
+         - He was happy.（这里的 happy 是形容词）
+         - He laughed happly. # 他笑得很开心（这里的 happily 是副词）
    - 形成
       - 一般是在形容词后 + ly (careful carefuly)
       - 形容词字尾为子音 + y -> 去 y + ily (happy happily)
@@ -5404,36 +5409,45 @@
       - good-well，但是well也可以当做形容词使用
    - 形容词和副词同形
       - back,deep,direct,enough,hard,late,near,straight
-      - Come back soon.快点回来（back副词）/the back door 门背后（back形容词）
-      - You can dial London direct 你可以直拨伦敦（direct副词）. the direct rays of the sun 太阳直接的光线（direct形容词）
+         - hardly # 几乎不，虽然加了 ly，但是和原来的词意思完全不一样
+      - Come back soon.# 快点回来（back副词）/the back door 门背后（back形容词）
+      - You can dial London direct. # 你可以直拨伦敦（direct副词）. the direct rays of the sun 太阳直接的光线（direct形容词）
+      - an ill-made road # 造得很差的路 / You look ill（ill 是形容词）
+         - made 是副词，但是 ill-made 整体是形容词
+      - Turn right here. # 转到右边（right 是副词） / the right answer # 正确的答案（right 是形容词）
+      - She went straight home. # 她直接回家（straight 是副词） / a straight line # 一条直线（straight 是形容词）
    - 有些形容词加ly 形成副词，其原意稍有不同
-      - She welcomed us warmly/[in a friendly way].（warmly 热情地）
-      - They denied the accusation hotly/indigmantly.（hotly 强烈地，愤怒地）
-      - He behaved coolly/calmly in the dangerous situation. 在这个危机的情况下他能够保持冷静（coolly 冷静地）
-      - I looked at him coldlly/[in an unfriendly way].（coldlly 冷漠地）
-   - 特别注意的副词
+      - She welcomed us warmly/[in a friendly way]. # 她很热情地欢迎我们（warmly 热情地）
+      - They denied the accusation hotly/indignantly. # 他们强烈地否认了这个指控（hotly 强烈地，愤怒地）
+      - He behaved coolly/calmly in this dangerous situation. 在这个危机的情况下他能够保持冷静（coolly 冷静地）
+      - I looked at him coldly/[in an unfriendly way]. # 我冷漠地看着他（coldlly 冷漠地）
+   - 特别注意的副词（以下的有ly的和没有ly的情况并非变化而来，而是相互完全独立的词）
       - He always works hard. 他总是努力工作（hard 是副词）
-         - I hardly know him. 我几乎不了解他（hardly 是副词，但是意思和 hard 相差甚远）
+         - I hardly know him. 我几乎不了解他
+         - hardly 是副词，解释为“几乎不”，但是意思和 hard 相差甚远
       - He came near to me. 他往我这边靠近（near 是副词）
-         - My homework is nearly finished. 我的工作几乎完成了（nearly 是副词，和 near 意思相差甚远）
-      - He came home very late last night. 他很晚回家（late 副词）
-         - He has been trying to lose weight lately. 最近他一直在尝试减肥（lately 副词，翻译为“最近”）
+         - My homework is nearly finished. # 我的工作几乎完成了
+         - nearly 是副词，解释为“几乎”，和 near 意思相差甚远
+      - He came home very late last night. # 他很晚回家（late 副词）
+         - He has been trying to lose weight lately. 最近他一直在尝试减肥
+         - lately 副词，翻译为“最近”，和 late 意思相差甚远
       - This picture interested me most. 这幅图画使我最感兴趣（most 副词，最）
-         - She mostly goes shopping on Sundays. 他大概在星期天购物（mostly 副词，翻译“大概”）
+         - She mostly goes shopping on Sundays. 他大概在星期天购物
+         - mostly 副词，翻译“大概”，和 most 意思相差甚远
 
    - 情状副词
       - 情状副词位置不同其意义也不一样
       - 情状副词是描述情况与状态的
       - 位置
-         - She danced beautifully. 他跳舞很优美（beautifully 副词）
+         - She danced beautifully. = She beautifully danced. 他跳舞很优美（beautifully 副词）
          - He took my advice happily. 他愉快地接受了我的意见（happily 副词）
          - She picked up all the bits of broken glass carefully. 她小心地捡起所有的玻璃碎片
             - She carefully picked up all the bits of broken glass carefully. （这里因为句子长，而怕忘记了副词，所以可以把副词提到前面去）
-         - He looked at me suspiously.（suspiously 副词）
+         - He looked at me suspiously. # 他怀疑地看着我（suspiously 副词）
             - He looked suspiciously at me（suspiously 副词）
             - He suspiciously looked at me（suspiously 副词）
          - He <doubtly> looked <doubtly> at everyone who got off the plane <doubtly>. 他怀疑地看下飞机的人
-            - doubtly 可以是所有三个位置其中一个位置，但是最后一个位置不恰当，因为句子太长了容易忘记前面的内
+            - doubtly 可以是所有三个位置其中一个位置，但是最后一个位置不恰当，因为句子太长了容易忘记前面的内容
       - 不同位置的不同意义
          - He answered the questions foolishly.（注意副词位置不同意义也不一样）
             - 他回答了愚蠢的答案（强调回答愚蠢）
