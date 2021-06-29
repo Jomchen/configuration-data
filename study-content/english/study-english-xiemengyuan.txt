@@ -278,8 +278,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：68 集
-   - 看视频学习进度：the <5588> line 
+* 谢孟媛英语视频 高中部分复习进度：70 集
+   - 看视频学习进度：the <5666> line 
    - 复习进度 861 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -5589,58 +5589,70 @@
 
 * 分词
    - 分词 = 动词 + 形容词
-
-   - The woman waving from the window is my mother. 在窗户那边挥手的人是我的妈妈
-      - 因为是从“窗户那边”，所以介词用 from
-      - 等价：The woman who is waving from the window is my mother.
-
+   - 种类
+      - 现在分词（表主动和进行）
+      - 过去分词（表过去和完成）
+   - 修饰名词的现在分词 - 现在分词 + 名词
+      - A drowning man will catch at a straw. # 一个溺水的人会抓住一根稻草
+      - I saw a lot of falling stars last night. # 昨晚我看到了许多流星
+   - 名词 + 现在分词
+      - 我认识那位正和老师聊天的女孩
+         - I know that girl talking to the teacher.
+            - 等价：I know that girl who is talking to the teacher.
+      - 在窗户那边挥手的人是我的妈妈
+         - 等价：The woman who is waving from the window is my mother.
+         - The woman waving from the window is my mother.
+         - 因为是从“窗户那边”，所以介词用 from
    - 现在分词前伴随着受词，补语或副词也可当形容词使用
-      - a heartbreaking story 一个令人悲伤的故事（heart 是 breaking 的受词）
-      - a hardworking man 努力工作的人
-      - a man-eating tiger 吃人的老虎
-      - a healthy-looking man 看起来健康的人
-      - an English-speaking people 说英语的民族
-      - a life-saving machine 救命的机器
-
+      - a heartbreaking story      # 一个令人悲伤的故事
+        - heart 是 breaking 的受词，即心碎
+      - a hardworking man          # 努力工作的人
+      - a man-eating tiger         # 吃人的老虎
+      - a healthy-looking man      # 看起来健康的人
+      - an English-speaking people # 说英语的民族
+      - a life-saving machine      # 救命的机器
    - 形容词化的现在分词
       - a exciting game 令人兴奋的游戏
       - an interesting performance 有趣的表演
       - an amusing joke 一个滑稽的玩笑
       - a charming lady 一个迷人的女士
       - a promising boy 一个有前途的人
-
    - 有些现在分词放在形容词前，可当副词
       - freezing cold 冻寒的
       - a burning red dress 火红的洋装
       - boiling hot 酷热的
       - scorching hot 酷热的
       - dripping wet 湿淋淋的
-
    - 修饰名词的过去分词 -- 过去分词 + 名词
       - A broken bottle lay on the floor. 一个破碎的瓶子躺在地板上
       - The tired worker took a rest. 这个累了的工人休息了一下
-
+   - 名词+过去分词
+      -  Shirts made of is very expensive. # 丝制的衬衫很贵
+      - We keep/have a dog named/called Snoopy. # 我们养了一只叫 Snoopy 的狗
    - 形容词化的过去分词
       - He was/looked surprised at the news. 这消息使他看起来很惊讶
          - The news was surprising to him.
       - I am satisfied with the result. 我对这结果非常满意
-      - How pleased she will be to see you! 他将要和你见面了好愉快啊
+      - How pleased she will be to see you! 他将要和你见面了多么愉快啊
       - How learned he is ! 他好博学啊
 
    - 和形容词一样， the + 现在分词/过去分词 也可以做为名词使用
       - 一般来说是复数
-      - the dying = those who are dying 即将要死的人
-      - the killed and the wounded => those who were killed and wounded 伤亡的人
-      - the accused（复数）
-      - the deceased（复数）
-      - the unexpected（复数）
+      - the dying = those who are dying # 即将要死的人
+      - the killed and the wounded => those who were killed and wounded # 伤亡的人
+      - the accused（单数名词）
+      - the deceased（单数名词）
+      - the unexpected（单数名词）
 
    - 现在分词或过去分词当形容词代表的意义不同
       - 不及物动词
          - 不及物动词的现在分词 表 “进行” 
          - 不及物动词的过去分词 表 “完成” 
-         - falling leaves 在落的叶子（正在掉落的叶子，进行）
-         - fallen leaves 落叶（已经落下的叶子，完成）
+         - falling leaves # 在落的叶子（正在掉落的叶子，进行）
+         - fallen leaves  # 落叶（已经落下的叶子，完成）
+            - leaf 的复数是 leave
+         - boiling water  # 沸水
+         - boiled water   # 开水
       - 及物动词
          - 概念
             - 及物动词的现在分词 => 译为 “令人...的”
