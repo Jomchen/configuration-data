@@ -278,8 +278,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：70 集
-   - 看视频学习进度：the <5666> line 
+* 谢孟媛英语视频 高中部分复习进度：72 集
+   - 看视频学习进度：the <5747> line 
    - 复习进度 1124 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -5658,37 +5658,38 @@
             - 及物动词的现在分词 => 译为 “令人...的”
             - 及物动词的过去分词 => 译为 “感到...的”
          - 例子
-            - a refreshing breeze 清爽的微风
-            - feel refreshed 感到清爽的
-            - a frighting scene 令人恐惧的画面
-            - a frightened child 感到恐惧的小孩
-            - a disappointing matter 令人失望的事
-            - a disappointed look 感到失望的表情
+            - a refreshing breeze    # 清爽的微风
+            - feel refreshed         # 感到清爽的
+            - a frightening scene    # 令人恐惧的画面
+            - a frightened child     # 感到恐惧的小孩
+            - a disappointing matter # 令人失望的事
+            - a disappointed look    # 感到失望的表情
 
    - S + V + C(=>分词)
-      - 可做为 go,come,keep,lie,sit,stand,walk 等动词之后的主词补语，用来表示伴随着的动作
-         - The children came running to meet their parents. 孩子们跑来迎接他们的父母亲
-         - We stood looking at the monkeys. 我们站着看猴子
+      - 可做为 go,come,keep,lie,sit,stand,walk,躺（这个单词不知道怎么写） 等动词之后的主词补语，用来表示伴随着的动作
+         - The children came running to meet their parents. # 孩子们跑来迎接他们的父母亲
+         - We stood looking at the monkeys. # 我们站着看猴子
             - 不能 look 写在 stand 前面，因为这种伴随的情况受部分词性的影响
       - 可放在 appear,seem,look,become,feel,get,sit,lie,remain 等字的后面用来表示动作所产生的结果
-         - The house appeared(=> seemed/looked) deserted. 那栋房子看起来像是荒废了似的
-         - She sat surrounded by her grandchildren. 她被孙子们围坐着
+         - The house appeared(=> seemed/looked) deserted. # 那栋房子 似乎/看起来像是/似乎 荒废了似的
+         - She sat surrounded by her grandchildren. # 她被孙子们围坐着
 
    - S + V + O + C(=>分词)
       - 可做为感官动词及 keep,leave,set,start,catch,find 等动词之后的受词补语
-         - He left the engine be running. 他让引擎运转着（这是指状态，因为分词有形容词的概念）
-         - He let her daughter watch TV. 他让他女儿看电视（这是动作，使役动词）
-         - We heard the rain beating against the window. 我们听到雨水拍打着窗户（beating 形式 强调有点进行的感觉，是那时的一个动作）
-            - We hearded the rain beat against the window. 我听到了雨水拍打着窗户（beat 用原型 强调陈述过去一个事实）
+         - He left the engine running. # 他让引擎运转着（这是指状态，因为分词有形容词的概念）
+            - 这是为了让引擎保持运转的状态，起到保持状态的情况
+         - He let her daughter watch TV. # 他让他女儿看电视（这是动作，使役动词）
+            - 这是为了让女儿看电视的动作，起到使役动词的作用
+         - We heard the rain beating against the window. # 我们听到雨水拍打着窗户（beating 形式 强调有点进行的感觉，是那时的一个动作）
+            - We hearded the rain beat against the window. # 我听到了雨水拍打着窗户（beat 用原型 强调陈述过去一个事实）
             - 句中加 against 是因为在汉文中有说明雨水有撞击的效果，所以要加上这个词
-         - The smoko started her coughing. 那股烟使她开始咳嗽
+         - The smoko started her coughing. # 那股烟使她开始咳嗽
             - 这里的 start 是“使某人开始...”
 
    - 过去分词可做为感官动词及 let,like,make,want,would,like,wish 等动词后的受词补语
-      - The smoko started her coughing. 那股烟使她开始咳嗽
-      - I coundn't make myself understood in english. 我无法用英文表达我的意思
-         - I coundn't make myself understand english. 我无法使我自己了解英文
-      - I want the work finished by noon. 我要这工作在中午前完成
+      - I coundn't make myself understood in english. # 我无法用英文表达我的意思（因为是自己用英语让别人无法了解，即自己英语不好）
+         - I coundn't make myself understand english. # 我无法使我自己了解英文（这里突出自己无法理解英语，也侧面表达了自己英语不好）
+      - I want the work finished by noon. # 我要这工作在中午前完成
 
    - have + O. + 现在分词
       - 表允许 => 用于“否定句”中
@@ -5710,39 +5711,40 @@
    - 分词构句
       - 概念
          - 分词构句是由分词为首的句型，可以表示时间，条件，理由等副词子句，具有相同掋 功能，可用来修饰主要子句
-         - ## beeing 后面 不管是形容词还是名词，beeing 都不可以省略 ##
          - 用分词构句时，如果原连接词去掉后会造成意思不明，则连接词不能省略
          - 分词作从句的替代，所以对时态不那么严谨，所以只要主要子句的时态明确就可以了
       - 举例
-         - When I opened the door,I heard a strange sound. 我我开门后，听到了奇怪的声音
+         - When I opened the door,I heard a strange sound. # 我开门后，听到了奇怪的声音
             - (When) Opening the door,I heard a strange sound.
                - 因为 I 前后重复，所以去掉  I 后，剩下的动词是 open，但是动词不能单独存在，所以要考虑分词
                - 因为对于 I 来说是主动打开门，所以用现在分词（通过句意而定）
                - 然后，when 不管省略或不省略，意思不变，所以可以省略
-            - As I'll ill,I coundn't go to school. 因为我生病了，我不能去上学了
-               - (As) Being ill,I coundn't go to school.
+            - As I'll ill,I coundn't go to school. # 因为我生病了，我不能去上学了
+               - As being ill / Being ill,I coundn't go to school.
          - 分词的含意
             - 表时间 -> 意指 when,while 等
-               - When she saw the accident, She begain to cry. 看到意外，她开始哭了起来
+               - When she saw the accident, She begain to cry. # 看到意外，她开始哭了起来
                   - seeing the accident, She begain to cry.
-               - While she kept him waiting outside ,she did her shopping. 当她让他在外边等时，她已经逛完街了
+               - While she kept him waiting outside ,she did her shopping. # 当她让他在外边等时，她已经逛完街了
+                  - while 和 when 都有“当...”的意思，但是 while 也有和后面动作并行的情况
                   - do shopping 正在逛街，did shopping 逛完街了
                   - keeping him waiting outside, she did her shopping.
             - 表原因；理由 => 意指because,since,as 等
-               - Because he is kind,he is loved by everyone. 因为亲切，他深受大家喜爱
-                  - Beeing kind,he is loved by everyone.
-               - Because I didn't know what to say,I kept/remained silent. 因为不知道说什么，所以我得保持沉默
+               - ## being 后面 不管是形容词还是名词，being 都不可以省略 ##
+               - Because he is kind,he is loved by everyone. # 因为亲切，他深受大家喜爱
+                  - Being a kind man,he is loved by everyone.
+               - Because I didn't know what to say,I kept/remained silent. # 因为不知道说什么，所以我得保持沉默
                   - Not knowing what to say,I kept.remained silent.
             - 表附带状况
-               - I ran all the way,and I arrived just in time. 我一路跑着，那么我就可以及时到达
+               - I ran all the way,and I arrived just in time. # 我一路跑着，那么我就可以及时到达
                   - I ran all the way,arriving just in time.（因为没有了连接词，所以加上逗号）
                - I washed the dishes as I listened to my favorite music. 我洗碗盘，我会听我喜欢的音乐
                   - I washed the dishes,listening to my favorite music. （注意，因为没有了连接词，所以一定要加逗号）
 
          - 分词构句的位置
-            - Hearing the news,he got angry.
-            - Romeo,beliving that Juliet was dead,decided to kill himself.
-            - The teacher went out of the classoom,mumbling something. 老师走出教室，念念有词地
+            - Hearing the news,he got angry. # 听到这则新闻时，他变得生气了
+            - Romeo,believing that Juliet was dead,decided to kill himself. # 罗密欧认为朱丽叶已经死了，决定自杀
+            - The teacher went out of the classoom,mumbling something. # 老师走出教室，念念有词地
 
          - 分词构句的被动形，完成形，否定形
             1. 被动形：being + p.p.
