@@ -280,7 +280,7 @@
 
 * 谢孟媛英语视频 高中部分复习进度：70 集
    - 看视频学习进度：the <5666> line 
-   - 复习进度 861 line
+   - 复习进度 1124 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
    - 2740 line 高一动名词和不定式哪种情况必须使用
@@ -1113,7 +1113,7 @@
             - He always goes to school late. = He is always late to school.
         - 简答句或简述句时放在 be动词 或 助动词之 前（对于简单回答的情况）
           - Mr. Wang usually goes to the office by bus,but Mrs.Wang never does.（注意这里的 never 在 does 之前）
-          - Did you ever talk to freigners in English?No, I never did. # 你曾经用英语和外国人说过话吗？我从来没有（注意这里的 never 在 did 之前）
+          - Did you ever talk to foreigner in English?No, I never did. # 你曾经用英语和外国人说过话吗？我从来没有（注意这里的 never 在 did 之前）
         - 频率副词 除了 always 外，也可用于句首（否则必须是 always 根祈使句）
           - Sometimes we eat dinner in that restaurant. # 偶尔我们会在那个餐厅吃晚餐
           - 因为一般 always 放在句首是用在原型动词开头的歧使句
