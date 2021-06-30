@@ -1,5 +1,3 @@
 1. 备份家用机中 work.txt 关于驱动等内容
 
-大数据解决方案
-   - https://www.cnblogs.com/owenma/p/8723339.html
 
