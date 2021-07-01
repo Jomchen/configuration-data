@@ -278,8 +278,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：72 集
-   - 看视频学习进度：the <5747> line 
+* 谢孟媛英语视频 高中部分复习进度：74 集
+   - 看视频学习进度：the <5830> line 
    - 复习进度 1400 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -5740,32 +5740,49 @@
                   - I ran all the way,arriving just in time.（因为没有了连接词，所以加上逗号）
                - I washed the dishes as I listened to my favorite music. 我洗碗盘，我会听我喜欢的音乐
                   - I washed the dishes,listening to my favorite music. （注意，因为没有了连接词，所以一定要加逗号）
-
+            - 表条件
+               - 过了银行之后左转，你就会在右手边看到我的家
+                  - If you turn left after the bank, you will see our house on the right.
+                  - If turning left after the bank, you will see our house on the right.
+               - 如果你早到了，你必须等一会儿
+                  - If you arrive earlier, you will have to wait for a while.
+                  - If arriving earlier, you will have to wait for a while.
+               - 若会造成意思不明时，则连接词不能省略
+            - 表让步 -> 意指 though, although 等
+               - 虽然承认你是对的，我仍然无法同意你
+                  - Though I admit <that> you are right, I still can't agree with you.
+                  - Admitting your're right, I still can't agree with you.
+               - 虽然住得近，但他很少来看我
+                  - Although He lives near my house, he seldom comes to see me.
+                  - Living near my house, he seldom comes to see me.
          - 分词构句的位置
             - Hearing the news,he got angry. # 听到这则新闻时，他变得生气了
             - Romeo,believing that Juliet was dead,decided to kill himself. # 罗密欧认为朱丽叶已经死了，决定自杀
             - The teacher went out of the classoom,mumbling something. # 老师走出教室，念念有词地
-
          - 分词构句的被动形，完成形，否定形
             1. 被动形：being + p.p.
                - being + p.p. 可以省略 being，但是 being 后面是 adj. 或 n. 则不能省略（因为p.p.已经可以表明被动了）
-               - As he was exhausted by hard work,he went to bed earlier than usual.
+               - As he was exhausted by hard work,he went to bed earlier than usual. #由于工作太累，他比平时早睡了
+                  - exhausted 比 tired 更重
                   - 这里 by 后面不能是 work hard，因为介词后面要跟名词？？
-                  - 等价：(Being) exhausted by hard work,he went to bed earlier than usual.
+                  - 等价：<Being> exhausted by hard work,he went to bed earlier than usual.
                - 由于是用简单的英文写的，这本书很容易读
-                  - As it was written in simple english,the book is easy to read.
-                     - (Being) written in simple english,the book is easy to read.
+                  - As it was written in easy/simple english,the book is easy to read.
+                     - <Being> written in easy/simple english,the book is easy to read.
             2. 完成形 => having +p.p.
                - 由于以前看过他，所以知道他
                   - Since I have seen him,I knows him well.
                      - having seen him,I knows him well.
                - 从大学毕业之后，他成为了新闻记者
                   - After he had graduated from university, he became a journadist.
-                     - Having (been) graduated from university,he became a journalist.
+                     - Having graduated from university,he became a journalist.
                      - 注意：完成形的被动 having been p.p.（这里的 having been 是可以省略的）
-               - Since she has been brought up in Paris,she speak French very well. 因为他是在巴黎养大的，她说法语很好
-                  - (Having been) brought up in Paris,she speaks French very well.
-            3. 否定形
+               - 完成形的被动 having been p.p.
+                  - Since she has been brought up in Paris,she speak French very well. 因为他是在巴黎养大的，她说法语很好
+                     - <Having been> brought up in Paris,she speaks French very well.
+                     - 因为原因只是起到一个辅助说明的作用，所以时态显得不那么重要了
+                     - 所以可以省略 Having been
+            3. 否定形 => not/never + Ving. 或 not/never having p.p.
                - As the teacher didn't hear the bell,the teacher kept on teaching. 老师没有听到铃声，所以老师继续讲课
                   - Not hearing the bell,the teacher kept on teaching.
                - Because he had not done his homework,he felt uneasy. 因为他没有做完他的作业，所以他感觉不安心
@@ -5776,7 +5793,7 @@
                1. When the sun had set,we started for home. 太阳下山后，我们启程回家
                   - The sun having set,we started for home.
                2. Because it was Sunday,the stores were all closed. 因为星期天所有的商店都打烊
-                  - It beeing Sunday,the stores were al closed.
+                  - It beeing Sunday,the stores were all closed.
                3. As there was no bridges.we had to swim across the river. 因为没有桥，我们必须游泳过河
                   - There being no bridges.we had to swim across the river.
                4. We'll go on a picnic if the weather permits. 如果天气许可，我们将野餐
@@ -5784,23 +5801,29 @@
 
          - with + （代）名词 + 分词 - 附带状况
             - I stood there with my heart beating violently. 我站在那里，心脏跳得很厉害
-            - The table was rather disorderly with serveral magazines lying open on the top. 桌子相当乱，因为有几份杂志摊开在上面
+            - The table was rather disorderly with serveral magazines lying open on the top. # 桌子相当乱，因为有几份杂志摊开在上面
                - 因为躺是非及物动词，所以没有被动词，所以用主动进行表现
-               - 这里的 open 是 adj.
-            - He came in with his boots covered in mud. 他走进来，靴子上尽是泥巴
-            - He stood in front of us with his arms folded. 他双手交叉站在我们前面
-
+               - 这里的 open 是 adj. 表示的是一种状态
+               - lie,lied,lied # 说谎
+                  - 现在分词是 lying
+               - lie,lay,lain  # 躺，存在
+                  - 现在分词也是 lying
+               - lay,laid,laid # 放置
+            - He came in with his boots covered in mud. # 他走进来，靴子上尽是泥巴
+            - He stood in front of us with his arms folded. # 他双手交叉站在我们前面
          - 分词惯用表现
             - 片语
                - generally speaking（一般来说）, strictly speaking（严格来说）
-               - frankly speaking（老实说）,judging from（从..判断）
+               - frankly speaking（坦白说）,judging from（从..判断）
                - talking(=>speaking) of 考虑到，记起
                - according to,considering
             - 举例
-               1. Frankly speaking,I found the job boring. 老实说，我发现这工作很无聊
-               2. Judging from her the way she is dressed,she must be going to (go to) the party. 从她的穿着看来，她一定是要去参加宴会
+               1. Frankly speaking,I found the job boring. # 坦白说，我发现这工作很无聊
+                  - To be frank, I found the job boring.
+               2. Judging from her the way she is dressed,she must be going to <go to> the party. 从她的穿着看来，她一定是要去参加宴会
                   - be going to 是将要
                   - 注意这里是用 is dressed
+                  - dress n. # 洋装，裙子；v. 穿着，穿（当动词时要配合 be）
                3. Talking of the radio,what program do you like. 谈到广播，你喜欢什么节目呢
                4. According to the papers,There was a big fire in that hotel. 根据报载，那家饭店曾经发生大火
 
