@@ -280,7 +280,7 @@
 
 * 谢孟媛英语视频 高中部分复习进度：72 集
    - 看视频学习进度：the <5747> line 
-   - 复习进度 1124 line
+   - 复习进度 1400 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
    - 2740 line 高一动名词和不定式哪种情况必须使用
@@ -1192,7 +1192,7 @@
         - become, get, grow, come, go, 
           - The weather became cold. # 天气变得冷了
           - The thing gotten wrong. # 这件事变得不对劲
-          - Come home befor it gets dark. # 天黑前回家
+          - Come home before it gets dark. # 天黑前回家
           - My dreams will come true in the future. # 我的梦想未来会实现
           - She went red with anger. # 她气到满脸通红
         - look, sound, smell, feel, taste + adj. / like + n.
@@ -1296,7 +1296,7 @@
     - has/have + 主词 + 过分分词（p.p.）
   - 例子
     1. He has been busy since yesterday. # 他从昨天开始就始忙了
-    2. He has studied for two days. # 他学习两年了（这里的for是表示“持续”的意思）
+    2. He has studied for two days. # 他学习两天了（这里的for是表示“持续”的意思）
     3. 肯/否/疑/回答
       - He has heard a lot of Mr.Li.
       - He has not heard a lot of Mr.Li.
@@ -1321,11 +1321,11 @@
         - We have knowned each other for ten years.
         - We have knowned each other since ten years ago.
       - 好久不见
-        - I havn't seen you for a long time.（好久不见）
-        - It has been a long time since I last saw you.（好久不见）
-        - Long time no see.（好久不见）
+        - I havn't seen you for a long time. # 好久不见
+        - It has been a long time since I last saw you. # 好久不见
+        - Long time no see. # 好久不见
       - all day（整天）.these days（这些天）,lately（最近）,recently（最近）,always（一直）,this week（这周）
-        - I have had a headache all day (long). # 我头疼了一整天
+        - I have had a headache all day <long>. # 我头疼了一整天<这么久了>
     - 表完成的副词
       - already（已经）=> has/have already p.p.
       - just（刚才）=> has/have just p.p.
@@ -1366,15 +1366,15 @@
         - 这里的 ever 不表示“曾经”，而是表示“习惯”，由 in your free time 是时间副词来判断
       - 其它的一些差别
         - 完成式和过去式
-          - Mr.Green has gone to New York on business.（格林先生已经去枢纽出差了）
-          - Mr.Green went to New York on business.（格林先生去过枢纽出差）
+          - Mr.Green has gone to New York on business. # 格林先生已经去枢纽出差了
+          - Mr.Green went to New York on business. # 格林先生去过枢纽出差
         - has/have been to 和 has/have gone to
           - 语法
             - has/have been to # 已经去了 （曾经去过/刚才去过，人物在现场）
             - has/have gone to # 已经去了 （已经去了什么地方，只能用于第三人称，因为这里的人已经不在现场）
           - 例子
             - I have just been to station to see her off. # 我刚才去了车站替她送行（see off 是“送行”的意思）
-            - Have you ever been to the library? # 你曾经过过图书馆吗？
+            - Have you ever been to the library? # 你曾经到过图书馆吗？
         - 现在完成式后面不能跟 瞬间动作
         - 瞬时动作，用现在完成式时，其后不可加一段时间（因为瞬时动词是不能持续的）
           - die
@@ -1388,7 +1388,7 @@
             - Amy has bought the car for ten years.(x)
               - 买是瞬时动词，不能够持续，for ten years 是一个持续的时间段，所以这句话不对
             - Amy has bought the car already. # 艾米已经买了这辆车
-              - bought 是 buy 的过去分词，是瞬音动作
+              - bought 是 buy 的过去分词，是瞬间动作
             - Amy has bought the car and has owned it for ten years. # 艾米买了那辆车10年了
           - go
             - 如果想表达去了美国，在美国三天的表达方式
