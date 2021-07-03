@@ -278,8 +278,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：74 集
-   - 看视频学习进度：the <5830> line 
+* 谢孟媛英语视频 高中部分复习进度：75 集
+   - 看视频学习进度：the <5856> line 
    - 复习进度 1400 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -5832,8 +5832,12 @@
       - The terrorists bombed the station. 恐怖分子炸掉了车站
          - The station was bombed by the terrorists.
       - We keep a dog named Lucky. 我养了一只被命名为 Lucky 的狗
+         - named 是过去分词
       - Lucky is an old dog and can't move quickly. Lucky 是只老狗且不能快速移动
       - He was almost run over by a car yesterday. 他昨天差点被汽车撞到 
+      - My sister isn't very good at driving. # 我妹妹开车技术不行
+      - Yesterday she insisted on driving my car, and she almost ran over an old dog.
+         - # 昨天她坚持要开我的车子，并且她差点撞到一只老狗
    - 句型
       - 现在式 + 被动：is/am/are + p.p.
       - 过去式 + 被动：was/were + p.p.
@@ -5845,25 +5849,26 @@
       - 过去完成式 + 被动：had + been + p.p.
       - 未来完成式 + 被动：will have been p.p.（will have p.p. + be p.p.）
    - 例子
-      - People all over the world watch the Olympics 全世界的人都关注奥林匹克
+      - People all over the world watch the Olympics. # 全世界的人都关注奥林匹克
          - The Olympics is watched by people all over the world.
-      - Tom threw the paper plane during the break. 汤姆在休息时丢纸飞机
-         - The paper plane was threwn by Tom during the break.
-      - They do not permit talking on cell phones in the train. 他们不允许在火车上用手机讲话
+      - Tom threw the paper plane during the break. # 汤姆在休息时丢纸飞机
+         - The paper plane was thrown by Tom during the break.
+         - throw - threw - thrown
+      - They do not permit talking on cell phones in the train. # 他们不允许在火车上用手机讲话
          - Talking on cell phones isn't permitted (by them) in the train.
    - by + 受词可省略的情形有三
       1. 动作者为一般人或泛指一群人时
-         - Wild monkeys are seen around this area. 在这地区随时可看见野生猴子
+         - Wild monkeys are seen around this area. # 在这地区随时可看见野生猴子
       2. 动作者不清楚的时候
          - This seat was taken. 这个座位有人坐了
       3. 从前后文的关系可清楚动作者是谁时
-         - The newspapers are delivered by 5:00a.m. 报纸约在早上五点到达
+         - The newspapers are delivered by 5:00a.m. # 报纸约在早上五点到达
    - 例子
-      1. This swimmer will make a new record. 这个游泳者将创造一个新记录
+      1. This swimmer will make a new record. # 这个游泳者将创造一个新记录
          - A new record will be made by this swimmer.
-      2. The wind had blown away the ballons before they came. 在他们来之前风吹走了气球
+      2. The wind had blown away the ballons before they came. # 在他们来之前风吹走了气球
          - The balloons had been blown away by the wind before they came.
-      3. The teacher is counting the number of students. 老师正在数学生的个数
+      3. The teacher is counting the number of students. # 老师正在数学生的个数
          - The number of students is being counted by the teacher.
    - 第四句型（SVOO）的被动语态
       - 原生句型
