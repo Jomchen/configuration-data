@@ -278,8 +278,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：76 集
-   - 看视频学习进度：the <5878> line 
+* 谢孟媛英语视频 高中部分复习进度：78 集
+   - 看视频学习进度：the <5980> line 
    - 复习进度 1400 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -5878,19 +5878,20 @@
          - They sent all the customers a card about the sale.
             - all the customers were sent (by them) a card about the sale.
             - A card about the sale was sent (by them) to all the customers.
-         - The embassy gave me a new passport.
+         - The embassy gave me a new passport. # 大使馆给了我一本新的护照
             - I was given a new passport by the embassy.（如果 by ~ 不省略，放在最后会语气更顺畅一些）
-            - A new passport was given (to) me by the embassy.（被动语态形成的介词如果是 to，那么这个 to 可以省略）
+            - A new passport was given <to> me by the embassy.（被动语态形成的介词如果是 to，那么这个 to 可以省略）
          - My father bought me a motorcycle.
             - I was bought a motorcycle by my father.（buy 的被动语态一般不用这种句法）
             - A motorcycle was bought for me by my father.
-      - 注意 buy,get,make...等，其被动语态，多不用间接受词当主词；被动语态形成的介词如果是 to，那么这个 to 可以省略
+               - 注意 buy,get,make...等，其被动语态，多不用间接受词当主词；
+               - 被动语态形成的介词如果是 to，那么这个 to 可以省略
    - 第五句型（SVOC）的被动语态
       - His grandfather named the baby Doris.
          - The baby was named Doris by his grandfather.
       - They painted the wall blue.
          - The wall was painted blue by them.
-      - John persuaded me to go to the dentist.
+      - John persuaded me to go to the dentist. # John 说服了我去看牙医
          - I was persuaded to go to the dentist by John.
    - 使役动词及感官动词的被动语态
       - 被动句型
@@ -5898,7 +5899,7 @@
          - 感官v + O + v./ving => bev 感官p.p. + to v/ving
       - 例子
          - They made the students wait in line.
-            - The students were made to wait in line (by them).
+            - The students were made to wait in line <by them>.
          - He heard his dog bark/barking at a cat.
             - His dog was hearded to bark at a cat by him.
             - His dog was hearded barking at a cat by him.
@@ -5906,23 +5907,24 @@
             - A man was seen to jump into the river by me.
             - A man was seen jumping into the river by me.
    - 疑问句的被动语态
+      - beV 或 助动词 为首的问句
       - Yes/No 问句
          - Does your wife cook your meals?
             - Are your meals cooked by your wife?
          - Did your father bake this pizza?
             - Was this pizza baked by your father?
          - Will you finish the work tomorrow?
-            - Will the work be finished by you?
+            - Will the work be finished <by you> tomorrow?
                - 因为原型非疑问句的 be 是在 will 后面，但是will后面的动必须是原型，所以这里用 be
       - Wh问句
          - Who produced this CD?
             - this CD was produced by 某人（主动）
-            - Whom was this CD produced by?（被动）
+            - Who/Whom was this CD produced by?（被动）
             - By whom was this CD produced?（被动）
          - Who do the police suspect? 警方怀疑谁
             - Who is suspected by the police.
          - What do you call this in English.
-            - what is this called (by you) in English.
+            - what is this called <by you> in English.
          - What kind of program do you favor?
             - What kind of program is favored by you?
       - 祈使句的被动语态
@@ -5932,17 +5934,17 @@
                - 因为 Let 是个使役动词，使役动词后面是根原型的，所以用 be 而不是 is/am/are
             - Don't forget this lesson.
                - Don't let this lesson be forgotten.
-               - Let this less not be forgotten.
+               - Let this lesson not be forgotten.
          - Let + 受词 + 原型动词 ~
             - Let my daughters pack the things.
                - Let the things be packed by my daughters.
          - 使役动词
-            - make/have + O + v.或make/have + O + p.p.
             - get + O + to v.或get + O + p.p.
             - let + O + v.或let + O + be + p.p.
+            - make/have + O + v.或make/have + O + p.p.
          - 比较特殊的情况：say,believe,expect,know,think,consider 等的被动语态
             - It's said that ~ => (that 后的S) bev said to v
-            - They say that yawns are catching. 他们说打哈欠会传染的
+            - They say that yawns are catching. 据说打哈欠会传染的
                - It is said (by them) that yawns are catching.
                - Yawns are said to be catching.
             - We expect that the plane will land on time. 我期望飞机会准时降落
@@ -5957,6 +5959,8 @@
                      - English interests me. 英语使我感到兴趣
                      - English is interesting to me 英语对我而言是有趣的
                      - I am intersted in English. 我对英语感兴趣
+                  - 基本情绪动词转变的现在分词或过去分词都可以在字典中直接查到
+                  - 因为经常用所以被字典中被定格为单词，而非现在分词和过去分词
                - 例子
                   - 被动语态行为者前面不加 by
                      1. by + 行为者，as + 身价，with + 物品
@@ -5964,13 +5968,17 @@
                         - She was shacked at the man's bad manners.
                      3. 她父母亲对她的成绩单满意
                         - Her parents were satisfied with her grades.
+                        - be known to # 为...所知
                      4. 许多年轻学子久仰王老师的大名
                         - Mr.Wang is known to many young students.
+                           - 因为老师太出名，所以所有人知道他，所以这里的学子不是个
+                           - 刻意的行为动作，所以这里的介词不用 by
                         - 注意
                            - The language is known by everyone in this class. 这个语言被班级里的每个人认识
+                              - 因为有个“知道”动作的行为者，所以用 by
                            - She is know as an excellent pianist. 她是作为一位出色的钢琴家被熟知
                      5. That box was covered with a black cloth by the magician. 那盒子被魔术师盖上黑布
-                     6. Many people were killed in the plane crash. 许多人在那次坠机中身亡
+                     6. Many people were killed in the plane crash. 许多人在那次空难中身亡
                      7. He is absorbed in buying and selling real estate.  他热衷于买卖房地产
                   - 具有被动语态功能的过去分词，有时可修饰名词
                      - These are home-made cakes. 这些是家里制造的蛋糕
