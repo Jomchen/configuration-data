@@ -278,8 +278,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：78 集
-   - 看视频学习进度：the <5980> line 
+* 谢孟媛英语视频 高中部分复习进度：80 集
+   - 看视频学习进度：the <6081> line 
    - 复习进度 1400 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -5982,28 +5982,32 @@
                      7. He is absorbed in buying and selling real estate.  他热衷于买卖房地产
                   - 具有被动语态功能的过去分词，有时可修饰名词
                      - These are home-made cakes. 这些是家里制造的蛋糕
-                     - Excited sectator rushed into the playground. 兴奋的观众冲进操场
+                     - Excited spectator rushed into the playground. 兴奋的观众冲进操场
                   - 不定词，动名词也可用于被动
                      - 句型
                         - to v -> to be p.p.
                         - ving -> being p.p.
                      - 举例
-                        - I don't like to be tolked (by others). 我不喜欢成为别人的话题
-                        - Nobody likes to made fun of. 没有人喜欢被捉弄
+                        - I don't like to be tolked (by others). # 我不喜欢成为别人的话题
+                        - Nobody likes to made fun of. # 没有人喜欢被捉弄
                   - 被动语态，有时表示动作，有时表状态
-                     - The street lights are switched on at sunset. 路灯在黄昏时被打开（表动作）
-                        - The street lights are switched now. 现在路灯是打开的
+                     - The street lights are switched on at sunset. # 路灯在黄昏时被打开（表动作）
+                        - The street lights are switched now. # 现在路灯是打开的（表状态）
                         - switched on 是一个词组，表示“切换为开”
-                     - My little brother is dressed by my mother. 我的妈妈为我的弟弟穿衣（表状态）
-                        - My little brother is dressed in red pants today. 我的弟弟在今天穿红色裤子
+                     - My little brother is dressed by my mother. # 我的妈妈为我的弟弟穿衣（表状态）
+                        - My little brother is dressed in red pants today. # 我的弟弟在今天穿红色裤子
                         - be dressed 为...穿
                         - dress oneself 为自己穿
                      - 有时为了强调动作，经常用get,grow,become...代替be动词
-                        - She got dressed very quickyly. 她穿衣非常快
+                        - She got dressed very quickyly. # 她穿衣非常快
                      - 有时为了强调状态，会为用lie,stand,remain,stay...等
-                        - The city lies buried under the sond. 一个城市被埋藏在沙子底下
+                        - lie,stand,remain,stay.. + ving/ved
+                           - 对于这里的 ving/ved 是动作附带的状况
+                        - The city lies buried under the sand. # 一个城市被埋藏在沙子底下
                            - 因为强调状态，不是一个动作，所以没有用 be 动词
-                        - The door remained closed until morning. 这个门一直关到早上
+                           - lies # 坐落在...
+                           - buried # 埋藏在...
+                        - The door remained closed until morning. # 这个门一直关到早上
                      - 比如 lie,stand,come,go + ving/p.p. 表明附带状态
                   - 主动语态表示被动语态
                      - 词
@@ -6012,65 +6016,69 @@
                         - keep,lock,catch,cut,peel
                      - 举例
                         - 注意注重事务的本质，所以没有用被动的词
-                        - Chicken doesn't bake well. 鸡烤得不好
+                        - Chicken doesn't bake well. # 鸡烤得不好
                            - 虽然鸡是被烤的，但是是烤后变得不好，最后的结果是表现的鸡的本质，所以不用被动而表被动
-                        - Your paper reads like a novel. 你的报告读起来像小说
-                        - Long use has worn his gloves at the tips. 长久的使用使他的手套在指尖被磨损了
-                        - Red wine stains doesn't wash out easily. 红酒的污渍不容易洗掉
-                        - The door doesn't lock. 门没有锁
-                        - This tough steak doesn't cut easily. 很硬的牛排不容易切
+                        - Your paper reads like a novel. # 你的报告读起来像小说
+                        - Long use has worn his gloves at the tips. # 长久的使用使他的手套在指尖被磨损了
+                        - Red wine stains doesn't wash out easily. # 红酒的污渍不容易洗掉
+                        - The door doesn't lock. # 门没有锁
+                        - This tough steak doesn't cut easily. # 很硬的牛排不容易切
                   - 经验性的被动语态
                      - have/get + 受词 + 过去分词 =>（有被害的意义）
-                        - I had my house burned down in the fire. 我让我我的房子被烧掉了
-                        - I got my pocket picked. 我使得我的口袋被偷
+                        - I had my house burned down in the fire. # 我的房子被烧掉了（我让我的房子被烧掉了）
+                        - I got my pocket picked. # 我的口袋被偷了（我使得我的口袋被偷）
+                        - I got my wrist broken. # 我的手腕折断了
                         - 注意：
                            - get 的形式除了可能是纯被动，也可能是有被害的意义
                            - have 只可能是 纯被动的意义
-                           - I got my tooth pulled out 我拔牙了（
+                           - I got my tooth pulled out. 
                               - 有人拔掉我的牙齿（受害）
                               - 我请牙医帮我拔牙（被动）
-                           - I had my hair cut.
+                           - I had my hair cut. # 我剪头发了（这里就没有受害的成份了，纯被动）
                   - 惯用的被动表现
                      - a be born 出生
                         - I was born in 1975
-                        - 生产；忍受 bear-bore-borne
+                        - 生产；忍受 bear-bore-borne（注意翻译为“生产”时，是生孩子的生产）
                         - 出生       bear-bore-born
                         - 例子
-                           - My mother has borne four children. 我母亲生了四个小孩
-                           - You were borne by me. 你是我生的
-                           - He was born on january first(st). 他出生在一月一日
-                     - be married 结婚
-                        - marry 原意是“嫁，娶”，用 married 表现结婚的状态
-                        - They have been married for seven years. 他们结婚七年了
+                           - My mother has borne four children. # 我母亲生了四个小孩
+                           - You were borne by me. # 你是我生的
+                           - He was born on january first(st). # 他出生在一月一日
+                     - be married 结婚（指状态）
+                        - marry 原意是“嫁，娶”（指动作），用 married 表现结婚的状态
+                        - They have been married for seven years. # 他们结婚七年了
                      - be injured/be wounded/be hurt 受伤
                         - be hurt 一般用于精神心灵上的伤害
                         - be wounded 一般用于刀枪伤
                         - be injured 没有区分什么伤用 injured
                         - hurt 原意为“痛，伤害”，受伤一定要配合 get,be,become等词
-                        - She was badly/slightly injured in the accident 他因事故受伤严重/轻微
+                        - She was badly/slightly injured in the accident 他因事故受重伤/轻伤
                         - He was wounded in the left leg. 他伤了左胳膊
                         - Aren't you hurt? 你是不是受伤了呢
-                     - be acquainted with~ 熟悉
-                        - They are acquainted with each other 他们彼此熟悉
-                     - be engaged 从事/订婚
-                        - My father is engaged in business. 我爸爸忙于工作
-                        - Jonn is engaged to Mary. 
-                     - be used/accustomed to 习惯
+                     - be acquainted with~ # 熟悉
+                        - They are acquainted with each other. # 他们彼此熟悉
+                     - be engaged # 从事/订婚，忙于...
+                        - be engaged 也可以用于线路正忙
+                        - My father is engaged in business. # 我爸爸忙于工作
+                        - Jonn is engaged to Mary. # Jonn 和 Mary 订婚了
+                     - be used/accustomed to 习惯（注意这里的 to 介词）
                         - They are accustomed to foreign manners. 他习惯了外国礼仪（注意这里的 to 是介词）
                         - I am used to staying up late at night. 我习惯在晚上熬夜（注意这里的 to 是介词）
                         - 注意
                            - 词性
                               - be used to v.     # 被用于做...
                               - be used to n/ving # 习惯于做...
-                              - used to v. 以前习惯；过去常常~
+                              - used to v. 过去常常...；过去习惯...
                            - 举例
-                              - My father used to smoke.(but now he doesn't)
-                              - He used to be a naughty boy.
+                              - My father used to smoke. <but now he doesn't> # 我爸爸过去常常抽烟，但是现在没有了
+                              - He used to be a naughty boy. # 他过去常常是个顽皮的男孩
                      - be seated 坐下
                         - Please be seated => Please seat yourself.
                            - Please sit down.
-                           - Please take a seat.
-
+                           - Please take a seat. # 请坐
+                           - be hurt = hurt oneself
+                              - be hurt 的 hurt 是 p.p.
+                              - hurt oneself 的 hurt 是 v.
 
 * 助动词
    - 特征
