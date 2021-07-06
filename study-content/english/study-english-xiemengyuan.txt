@@ -278,8 +278,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：80 集
-   - 看视频学习进度：the <6081> line 
+* 谢孟媛英语视频 高中部分复习进度：82 集
+   - 看视频学习进度：the <6178> line 
    - 复习进度 1400 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -6092,42 +6092,45 @@
          - Can he speak English? Does he can speak English?
       - 两个助动词不能连用
          - You will can swim soon.（这句是错的，因为 will 和 can 连用了）
+            - You will be albe to swim soon.（这句是对的）
             - You can be albe to swim soon.（这句是对的）
    - 用法
       - can-could - 表“能力，可能，许可，请求”
          - can 和 could 相比，有时也有客气的语气，但是 could 是对自己要以客气的语气
          - 表“能力”时 = be able to 有能力的
-            1. He can speak English,but he cannot write it. 他能说英语，但不能写
-            2. She tried to lie the rope,but she counldn't. 他试图把绳子绑起来，但他做不到
-            3. I will be able to the finish the paper and go out to see the exhibition tomorrow. 明天我将能完成报告并出去看展览
+            1. He can speak English,but he cannot write it. # 他能说英语，但不能写
+            2. She tried to lie the rope,but she counldn't. # 他试图把绳子绑起来，但他做不到
+            3. I will be able to finish the paper and go out to see the exhibition tomorrow. # 明天我将能完成报告并出去看展览
                - 其实 got 前面是有一个隐含的 to 作不定式，因为 out 是介词，所以就不写 to 了
-            4. I haven't been able to recall his name. 我一直想不起他的名字
+            4. I haven't been able to recall his name. # 我一直想不起他的名字
                - 在完成式中的 has/have/had 是准助动词
          - 表“可能”
-            - It cannot be true. 它不可能是真的
-            - This kind of thing can happen every now and then. 这类事情 随时可能发生
-            - A quarrel can sometimes cause trouble. 发生口角可能会发生麻烦
-            - The light in the sky can be UFOs. 天空中的光线可能是幽浮
+            - It cannot be true. # 它不可能是真的
+            - This kind of thing can happen every now and then. # 这类事情 随时可能发生
+            - A quarrel can sometimes cause trouble. # 发生口角可能会发生麻烦
+            - The light in the sky can be UFOs. # 天空中的光线可能是幽浮
+               - 如果表示过去式，can 可以替代为 could
          - 表“许可”
-            - You can come in if you have a ticket. 如果你有通告证，你可以进入
-            - I'm afraid you can't park your car here. 我恐怕你不能把你的车停在这里
-            - Can I leave early because I'm not well today? --Certainly. 我能早点离开吗，因为今天我不太舒服。--可以
+            - You can come in if you have a ticket. # 如果你有通告证，你可以进入
+            - I'm afraid <that> you can't park your car here. # 我恐怕你不能把你的车停在这里
+            - Can I leave early because I'm not well today? --Certainly. # 我能早点离开吗，因为今天我不太舒服。--可以
          - 表“请求”
-            - Can you do me a favor? 你能帮我个忙吗
-            - Could you repeat your tell phone number please? 你能再说一遍你的电话号码吗
+            - Can you do me a favor? # 你能帮我个忙吗
+            - Could you <please> repeat your tell phone number <please>? # 你能再说一遍你的电话号码吗
+            - 如果是面对长辈，则应该用 can 而不用 could 表示请求
 
       - may-might
          - 表“许可”
-            - You may not chew gum in class. 上课时你不可以嚼口香糖
-            - May I interrupt you? --Sure. 我可以打断你的话吗？--可以
+            - You may not chew gum in class. # 上课时你不可以嚼口香糖
+            - May I interrupt you? --Sure. # 我可以打断你的话吗？--可以
          - 表“可能”
-            - You may be right but I an against your opinion. 你可能是对的，但是我反对你的意思
-            - His health may or may not turn for the better. 他的健康可能好转也可能不好转
-            - She might not know that you are here. 她不可能知道你在这里
+            - You may be right but I an against your opinion. # 你可能是对的，但是我反对你的意思
+            - His health may or may not turn for the better. # 他的健康可能好转也可能不好转
+            - She might not know that you are here. # 她不可能知道你在这里
                - 这里用 might 不是作过去式，而是 might 比 may 的可能性低更多
          - 表“祈愿”
-            - May I never see asight like that agin. 愿我不会再看见那样的影像了
-            - May you succeed. 祝你成功（succeed 是动词）
+            - May I never see asight like that agin. # 愿我不会再看见那样的影像了
+            - May you succeed. # 祝你成功（succeed 是动词）
                - succeed (v.)
                - success (n.)
                - successful (adj.)
@@ -6136,15 +6139,14 @@
          1. 表“义务，命令”
             1. must 必须, must not 不可以
                - You must return the book by next Tuesday. 下周二前你必须归还这本书
-               - You mustn't talk when when you eat. 你不可以在嘴巴有东西的时候说话
+               - You mustn't talk when you eat. 你不可以在嘴巴有东西的时候说话
                   - You mustn't talk with your mouth full.（with 后面连接的是伴随）
                - Must I really attend the meeting 我真的要出席这个会议吗
-                  - Yes, you must
-                  - No, you need not
-                  - No, you don't have to（这个 have 是一般动词）
+                  - Yes, you must    # 是的，你必须
+                  - No, you need not # 不，你不需要
+                  - No, you don't have to # 不，你不必（这个 have 是一般动词）
             2. must = have to，过去式 had to；未来式 will have to；完成式 have had to
-               - I must go to see the doctor because I caught a cold. 我必须去看医生，因为我得感冒了
-                  - I have to go to see the doctor because I caught a cold.
+               - I had to go to see the doctor because I caught a cold. # 我必须去看医生，因为我得感冒了
                - I caught a cold.I had to see a doctor. 我得了感冒，我必须去看医生
                - You will have to replace this light bulb. 你必须更换这个灯光了
                - I have had to keep stay here, because it is rainning heavily outside. 我们必须一直待在这儿因为外面正下着大雨
