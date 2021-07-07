@@ -6230,7 +6230,7 @@
                   - 物 be used to v. => （物）被用来~
                - 举例
                   - The knife is used to cut bread. # 刀子被用来切面包
-                  - I am used to going keeping good hours. # 我习惯早睡早起
+                  - I am used to keeping good hours. # 我习惯早睡早起
 
       - should
          - 表“义务”
