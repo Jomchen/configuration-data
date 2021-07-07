@@ -278,8 +278,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：82 集
-   - 看视频学习进度：the <6178> line 
+* 谢孟媛英语视频 高中部分复习进度：83 集
+   - 看视频学习进度：the <6233> line 
    - 复习进度 1400 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -6170,52 +6170,56 @@
                - 因为窗户和打开是一定的，所以用主动
             - He will insist on his right. 他会坚持他的权利
          3. 表“习惯；倾向”
-            - Accidents will happen. 事故会发生
-            - A drowning man will catch at a straw. 一个溺水的水会抓住一根稻草
+            - Accidents will happen. # 事故会发生
+            - A drowning man will catch at a straw. # 一个溺水的水会抓住一根稻草
          4. 表“请求；劝诱”
-            - Will you bring me a ladder? 你拿个梯子给我好吗
+            - Will you bring me a ladder? # 你拿个梯子给我好吗
                - 可以加个 please 在 you 后面或句尾，可以让语气更委婉，翻译为“请你拿个梯子给我好吗”
-            - Will you have one more coffee? 你要再来一杯咖啡吗
+            - Will you have one more coffee? # 你要再来一杯咖啡吗
 
       - would
-         1. 表“客气的请求”
+         1. 表“客气的请求”，比 will 更客气
             - mind + ving / mind if + S + V
-            - Would you mind if I sit next to you? 你介意我坐在你旁边吗
+            - Would you mind if I sit next to you? # 你介意我坐在你旁边吗
                - Would you mind me sitting next to you?
                - Would you mind my sitting next to you?
-            - Would you (please) call me back later? 请你稍后再打给我好吗
+            - Would you <please> call me back later? # 请你稍后再打给我好吗
                - call 一定要原型，因为 would 是助动词，后面必须是动词原型
          2. 表“过去的习惯”
             - 表“过去的习惯”，常伴随着，sometimes, often 等
-               - Before they had television,people would listen to the radio. 在有电视之前，人们习惯听收音机
+               - Before they had television,people would listen to the radio. # 在有电视之前，人们习惯听收音机
                   - 加了 would 才明白有电视之前，人们常做的是什么
-               - Susan would often chat with us at this coffee shop. 苏姗经常在咖啡厅和我们聊天
+               - Susan would often chat with us at this coffee shop. # 苏姗经常在咖啡厅和我们聊天
          3. 表“过去的意志；固执”
-               - You wouldn't eat carrots when you were a boy. 当你是个孩子时，你怎么都不吃胡萝卜的
-               - the rusty screw wouldn't come loose. 生锈的镙丝怎样都拧不动
+               - You wouldn't eat carrots when you were a boy. # 当你是个孩子时，你怎么都不吃胡萝卜的
+               - the rusty screw wouldn't come loose. # 生锈的镙丝怎样都拧不动
 
       - used to
          - 表“过去习惯”（used to + 原型动词）
             1. John 以前在下课后常到餐厅打工
-               - John used to work part time at a restaurant after school.
+               - John used to work part time at a restaurant after class.
+                  - work part time # 做兼职
+                  - after class  # 下课
+                  - after school # 放学
             2. 我以前常在午休时去游泳，但现在则不
                - I used to go for a swim on lunch break,but now I don't.
                   - 因为强调时间，所以这里把 now 放在前面了
-            3. I used to go to the movies every Sunday. 我习惯每周日看电影（指以前的习惯）
-            4. I would often go to the movies when I was young. 当我年轻时我经常看电影（指以前的重复性）
+            3. I used to go to the movies every Sunday. # 我习惯每周日看电影（指以前的习惯）
+            4. I would often go to the movies when I was young. # 当我年轻时我经常看电影（指以前的重复性）
             5. 注意
                - used to 是表示过去相当长时间的习惯
-               - would 表示过去动作的重复，习惯的意味淡
+               - would 表示过去动作的重复，习惯的意味比较淡
             6. used to 的一些情况
                - 词性
-                  - 否定：used not to/didn't use to
-                  - 疑问：Used + S + to ~/ Did + S + use to ~
+                  - 否定：used not to 等价 didn't use to
+                  - 疑问：Used + S + to ~ 等价 Did + S + use to ~
                - 举例
                   - He used not to drink. = He didn't use to drink 他以前不习惯喝酒
-                  - Used he to go to school with you? = Did you use to go to school with you? 他以前常和你一直上演吗
-                  - We used to talk about our future, 我过去经常谈论未来
-                     - Usedn't we? 
-                     - didn't we? 
+                  - Used he to go to school with you? = Did he use to go to school with you? 他以前常和你一直上演吗
+                  - We used to talk about our future, # 我过去经常谈论未来
+                     - Usedn't we?  # 不是吗？
+                     - didn't we?   # 不是吗？
+                  - He is drunk # 他喝醉了
             7. 表“过去持续的状态”
                - There used to be an old temple here. 从前这里有一座古庙
                - He isn't what he used to be three years ago. 他不再是三年前的他
@@ -6225,8 +6229,8 @@
                   - 人 be used to ving => （人）习惯~（现在的习惯）
                   - 物 be used to v. => （物）被用来~
                - 举例
-                  - The knife is used to cut bread. 刀子被用来切面包
-                  - I am used to going keeping good hours. 我习惯早睡早起
+                  - The knife is used to cut bread. # 刀子被用来切面包
+                  - I am used to going keeping good hours. # 我习惯早睡早起
 
       - should
          - 表“义务”
