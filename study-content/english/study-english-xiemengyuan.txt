@@ -6369,11 +6369,11 @@
                      - 等价：I feel like having a date with him.
                      - 等价：I want to have a date with him.
                - 几个差不多的用法
-                  - would like to v.
+                  - would like to v. # 想要做...
                   - would like n.
-                  - feel like n.
-                  - feel like ving
-                  - want to v.
+                  - feel like n.   # 摸起来像...，想要...（某件物体）
+                  - feel like ving # 想要做...
+                  - want to v.     # 想要做...
 
 
 * 特殊构句
