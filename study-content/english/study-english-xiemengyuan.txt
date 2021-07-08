@@ -278,8 +278,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：83 集
-   - 看视频学习进度：the <6233> line 
+* 谢孟媛英语视频 高中部分复习进度：85 集
+   - 看视频学习进度：the <6376> line 
    - 复习进度 1400 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -6234,12 +6234,12 @@
 
       - should
          - 表“义务”
-            - You should exercise more and eat less. 你应该多运动并且少吃东西（这里的 exercise 是动词，more 是副词）
-               - exercise 可以做 v. 也可以作 n.
-               - take exercise 做运动
-               - take more exercise 做更多的运动（这里的 more 是作形容词）
-            - The government should spend more money on education. 政府应该多花点钱在教育上
-               - spend-spent-spent 花费（可以是花钱，也可以是时间）
+            - You should exercise more and eat less. # 你应该多运动并且少吃东西（这里的 exercise 是动词，more 是副词）
+               - exercise 可以作 v. 也可以作 n.
+               - take exercise # 做运动
+               - take more exercise # 做更多的运动（这里的 more 是作形容词）
+            - The government should spend more money on education. # 政府应该多花点钱在教育上
+               - spend-spent-spent 花费（主词一定要是人，可以是花钱，也可以是时间）
                - take-took-taken 花费（只能是花时间）
                - cost-cost-cost 花费（只能是花钱，而且主词只能是物品，相当于是某样物品花费了多少钱）
          - 表“推测”
@@ -6249,28 +6249,30 @@
                   - invite v. 邀请
                   - invitation n. 邀请
          - 表“强烈的惊奇” -- 怎么会
-            - Who should make such a foolish mistake? 谁怎么会犯这样的错误呢？
-            - How should I know it? 我怎么会知道呢？
+            - Who should make such a foolish mistake? # 谁怎么会犯这样的错误呢？
+            - How should I know it? # 我怎么会知道呢？（这是表述我不知道这件事）
+               - How do I know it? # 我怎么知道它？（这是问知道的方法）
 
       - ought to 语气较 should 较强，在口语中更常用
-         - ought to 没有强烈惊奇的意思，只有“推测”，相较于should语气较强
+         - ought to 没有强烈惊奇的意思；只有“推测”，相较于should语气较强
          - My bicycle ought to be here.because I left it just beside the telegraph pole. 我的踏车应该在这里，因为我就把它停在电线杆旁
             - is supposed to 应该
             - should 应该
             - ought to 应该
-         - You oughtn't to do so. 你不应该做那样子的事情（美语中这个 to 会省略）
-         - Ought we (to) tell him about it? 我们应该告诉他关于那件的事吗
+         - You oughtn't to do so. # 你不应该做那样子的事情（美语中这个 to 会省略）
+         - Ought we (to) tell him about it? # 我们应该告诉他关于那件的事吗
             - 在否定和疑问中可以省略 to
 
       - need 需要 -> 动词，助动词（否定句，疑问句）
-         - need(v.) + 人 + need + to + v.
-         - need(v.) + 物 + need(s) + ving/to be p.p.
+         - need(v.)
+            - S（人） + need + to + v.
+            - S（物） + need<s> + ving / to be p.p.
          - 你不需要说这么大声，我听得很清楚
             - You don't need to speak so loud,I hear you very well.（这里的 need 作一般动词）
             - You needn't speak so loud,I hear you very well.（这里的 need 作助动词）
-            - like + to + v.
+            - like + ving / to v.
             - enjoy + ving.
-            - want + ving/ to v.
+            - want + ving / to v.
          - 我需要把节目录下来吗？不，你不需要
             - Do I need to record the program on the tape? -- No,you don't need to.
             - Need I record the program? - No,you needn't
@@ -6284,34 +6286,38 @@
             - dare 有 一般动词，助动词的用法
             - 她不敢说实话
                - She dare not tell the truth.
-               - She doesn't dare (to) tell the truth.
+               - She doesn't dare <to> tell the truth.
+                  - 因为在发音上 to 比较轻，所以就一般省略了
                   - dare not = daren't
             - 那时我不敢嘲笑他
-               - I dare not laugh at him at that time.
-               - I did't dare (to) laugh at hime at that time.
-            - How dare you ask me for help? 你怎么敢要求我帮你呢
-            - I dare say he is right. 我敢说他是正确的
+               - I dared not laugh at him at that time.
+               - I did't dare <to> laugh at hime at that time.
+            - How dare you ask me for help? # 你怎么敢要求我帮你呢？
+            - I dare say he is right. # 我敢说他是正确的
 
       - 含助动词的惯用表现
          - 助动词 + have + 过去分词
             1. You may have heard this joke before. 你可能已经听过了这个笑话了
-               - 虽然听过这个笑话是 过去，但是 may 后面必须接动词原型，而 heard 是过去式，且为了有个过去的时态
+               - 虽然听过这个笑话整体是过去的时态，但是 may 后面必须接动词原型，而 heard 是过去式，且为了有个过去的时态
                - 所以 过去完成式刚好满足需求
-               - 虽然这里用的过去完成式，但是内容是发生在过去
+               - 虽然这里用的过去完成式，但是内容是发生在过去的时态（通过间接的方式表示的）
             2. The keys might have fallen out of your packet. 你的钥匙可能已经从你的口袋掉出来了
+               - might 表可能的时候，可能性比 may 更低
+               - 这里整体的时间是过去的时态
             3. I must have been asleep.I didn't hear your footsteps. 我一定睡着了，没有听到你的脚步声
+               - 这里整体的时间是过去的时态
             4. 从前三句中的可能性的比较，从大到小的顺序是：must > may > might
-            5. He cannot have survived in the accident. 他可能无法在这次事故中存活
-            5. You should(=>ought to) have applied for the job sooner. 你应该快一点应争那份工作
+            5. He cannot have survived in the accident. # 他可能无法在这次事故中存活
+            5. You should(=>ought to) have applied for the job sooner. # 你应该快一点应争那份工作
                - should + have + p.p.（内容有“责备”的语气）
-            6. She need not have come so early. 你不应该来得这么早
+            6. She need not have come so early. # 你不需要来得这么早
                -因为她已经来了，又为了兼容 need 这个助动词，所以用了 have 原型并实现 现在完成式
 
          - 含 can 的惯用表现 
             - cannot help + ving 禁不住
                - cannot help + ving 禁不住...
                - I cannot help crying whenever I hear the song. 无论何时我听到那首歌都忍不住哭了
-            - cannot help but v. 不能不...
+            - cannot help but v. 不能不...，禁不住...
                - I cannot help but think so 我不能不这么想
             - cannot...too... 无论再...也不为过
                - You cannot be too careful when you choose a husband. 当你在选丈夫的时候，你无论再小心也不为过
@@ -6321,35 +6327,37 @@
             - may well + v. 大可，恐怕是
                - He may well say so. 她大可以这么说
                - She may well be lost.She has a poor sense of direction. 她恐怕是迷路了，她方向感很差
+                  - a sense of + n. # ...感
             - may(might) as well + v. 不妨
-               - You'll never solve that problem.You might as well give up. 你绝不会解决不了这个问题，不妨放弃吧
+               - You'll never solve that problem.You may/might as well give up. 你绝不会解决不了这个问题，不妨放弃吧
             - may(might) as well v. as v. 与其...不如...（这两件事情都是不好的事，只不过其中一个稍好点）
                - You might as well throw your money into the sea as lend it to him. 你与其把钱借给他不如把钱丢到海里去
 
          - should 用于 that 子句中
             - 表“感情因素”
                - 常用的形容词：surprising,strange,lucky,sad...
-                  - It is natwal that she should want to have children. 她想要有小孩是自然的
+                  - It is natural that she should want to have children. 她想要有小孩是自然的
+                     - 这里的 should 不能翻译为“应该”，是更加体现 natural 的程度
                   - It's a pity that he should be sick in bed. 他躺在床上是很遗憾的
                      - 也可说成 It's a pity that he <should> is sick in bed.
                         - 此处没有加 should，但是加了 should 的感情因素更强烈些
-                        - 此处若加 should 则，动词就按正常的来，就不是be 而是 is
+                        - 此处若加 should 则动词就按正常的来，就不是is而是 be
             - 表“当然，必要” ######################## 重点 ########################
                - 在 should 表示 “当然，必要”时，在 that 子句中，should通常省略，从句中不管主词是否是第三人称，动词都应该用原型（因为是大家都清楚的情况，所以省略）
                - 常用的有：important,cecessary,essential,right
-                  - It is necessary that you (should) take this medicine right away.  你必需吃药是有必要的
-                     1. 这里如果把 you 改成 he
+                  - It is necessary that you <should> take this medicine right away.  你必需吃药是有必要的
+                     1. 这里的 you 如果是任意形式的主词
                      2. 去掉 should
                      3. 以上两个条件满足后， take 也该用原型而不用第三人称
-                  - It is important that you (should) remember this formula.
-                     1. 这里如果把 you 改成 he
+                  - It is important that you <should> remember this formula.
+                     1. 这里的 you 如果是任意形式的主词
                      2. 去掉 should
                      3. 以上两个条件满足后， remember 也该用原型而不用第三人称
             - 表“提案，要求” ######################## 重点 ########################
-               - 在 should 表示“提案，要求”时，在 that 子句中，should通常省略，从句中不管主词是否是第三人称，动词都应该用原型（因为是大家都清楚的情况，所以省略）
+               - 在 should 表示“提案，要求”时，在 that 子句中，should通常省略，从句中不管主词是否是第三人称，动词都应该用原型（因为是大家都清楚的情况，所以省略了）
                - 常用的有：advise,decide,demand,insist,order...
-                  - I suggest that the meeting (should) be postponce.
-                  - Mother insist that my brother (sould) get up at five every morning. 妈妈坚持我的兄弟该在每天早上五点起床
+                  - I suggest that the meeting <should> be postponce.
+                  - Mother insist that my brother <sould> get up at five every morning. 妈妈坚持我的兄弟该在每天早上五点起床
 
          - 含 would 的惯用表现
             - would rather v. than ... 宁愿...不愿...
@@ -6357,10 +6365,15 @@
                   - 等价：I had rather go today than yesterday.
                2. would like to v. 想要
                   - would like + n.
-                  - would like + to + ving.
                   - I would like to have a date with him. 我想和他来次约会
-                     - 等价：I fell like having a date with him.
+                     - 等价：I feel like having a date with him.
                      - 等价：I want to have a date with him.
+               - 几个差不多的用法
+                  - would like to v.
+                  - would like n.
+                  - feel like n.
+                  - feel like ving
+                  - want to v.
 
 
 * 特殊构句
