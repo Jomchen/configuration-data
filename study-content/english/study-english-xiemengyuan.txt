@@ -278,8 +278,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：85 集
-   - 看视频学习进度：the <6376> line 
+* 谢孟媛英语视频 高中部分复习进度：86 集
+   - 看视频学习进度：the <6437> line 
    - 复习进度 1400 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -6375,7 +6375,6 @@
                   - feel like ving # 想要做...
                   - want to v.     # 想要做...
 
-
 * 特殊构句
    - 倒装句可分下列三种
       1. 动词 + 主词
@@ -6389,41 +6388,42 @@
       - 举例
          1. He is never late for school.
             - Never is he late for school.
-         2. He never goes to school late.
-            - Never does he go to school late.
+         2. He never goes to school late.（这里的 late 是形容词）
+            - Never does he go to school late.（这里的 late 是副词）
          3. He rarely tells a joke.
             - Rarely does he tell a joke.
-         4. I have never seen such beautiful scenery.
+         4. I have never seen such beautiful scenery. # 我从未见过如此美丽的风景
             - Never have I seen such beautiful scenery.
                - have 是助动词，所以提前
                - seen 不能还原，因为 have/has p.p. 是固定形式
-         5. I had hardly sat in the chair when someone knocked at the door.
+         5. 当有人敲门时，我几乎没有坐在椅子上
+            - 注意坐在椅子上是发生在有人敲门之前，所以敲门是过去式，坐在椅子上是过去完成式
+            - I had hardly sat in the chair when someone knocked at the door.
             - Hardly had I sat in the chair when someone knocked at the door.
             - 注意：hardly...when... = scarcely...before...
-         6. He had no sooner reached his house than it began to rain. 他一回到家，然后就开始下雨
+         6. He had no sooner reached his house than it began to rain. # 他一回到家，然后就开始下雨
             - no sooner...than... 一...就...
             - No sooner had he reached his house than it began to rain.
-         7. In(=>Under) no circumstances will I allow you to go there. 无论在什么情形下我都不会允许你到那里
-         8. He not only draws illustrations but he (also) writes novels.（这句后半句的 he 可以省略，因为前面出现过，并且 but 可以直接根动词）
-            - Not only does he draw illustrations but he (also) writes novels.
+         7. In(=>Under) no circumstances will I allow you to go there. # 无论在什么情形下我都不会允许你到那里
+            - In(=>Under) no circumstances # 无论在什么情形下
+         8. He not only draws illustrations but he <also> writes novels. # 他不仅画插图，而且还写小说（这句后半句的 he 可以省略，因为前面出现过，并且 but 可以直接根动词）
+            - Not only does he draw illustrations but he <also> writes novels.
             - not only...but also... 是对等连接词
             - 其它例子：Not only I but also you are coming to visit the teacher.
-         9. I didn't know (that) he was homesick until I talked to him. 直到我根他聊过才知道他得了思乡病（我不知道他得了思乡病，直到我和他聊过之后[暗指在聊之前不知道]）
-            - Not until I talked to him did I know (that) he was homesick.
+         9. I didn't know <that> he was homesick until I talked to him. # 直到我根他聊过才知道他得了思乡病 （我不知道他得了思乡病，直到我和他聊过之后[暗指在聊之前不知道]）
+            - Not until I talked to him did I know <that> he was homesick.
             - until I talked to him 只是位置放到前面来，需要倒装的仍然是前面半句
 
       - 否定字后有受词，则形成：否定字 + 受词 + 倒装句
-         - I had no hope at that time. => No hope did I have at that time.
-         - My father did not say a word. => Not a word did my father say.
+         - I had no hope at that time. => No hope did I have at that time. # 我不报希望
+         - My father did not say a word. => Not a word did my father say. # 我爸爸一句话都没有说
          - That red car I like very much,but this blue one I dislike.
             - 这里把受词放句首，是为了作强调
             - 这里只是动词本身是否定字，不是倒装句
 
       - only 在意义上近乎否定字，故可放句首，其后接倒装句
-         - 这里只是动词本身是否定字，不是倒装句
-         - Only in case of emergency can we use this exit. 只有在紧急状况下才能使用这个出口
-         - Only when it rains do we feel cool. 只有下雨时才觉得凉爽一些
-
+         - Only in case of emergency can we use this exit. # 只有在紧急状况下才能使用这个出口
+         - Only when it rains do we feel cool. # 只有下雨时才觉得凉爽一些
       - only if 和 if only
          - 句型
             - Only if + 副词子句，倒装句...（只要）
@@ -6431,8 +6431,8 @@
          - 举例
             - Only if you pass the examination and become a college student,will I accept you as a friend.
                - 只要你通过考试并成为一个大学生，我才会接受你作朋友
-            - If only I had money,I could buy some new clothes. 要是我有钱，我就可以买新衣服了
-            - If only he had arrived in time. 要是他及时到达了
+            - If only I had money,I could buy some new clothes. # 要是我有钱，我就可以买新衣服了（假设语句）
+            - If only he had arrived in time. 要是他及时到达就好了（假设语句）
 
    - 表方向或场所的副词放句首
       - 句型
