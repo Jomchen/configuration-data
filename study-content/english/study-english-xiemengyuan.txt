@@ -278,8 +278,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：86 集
-   - 看视频学习进度：the <6437> line 
+* 谢孟媛英语视频 高中部分复习进度：88 集
+   - 看视频学习进度：the <6524> line 
    - 复习进度 1400 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -6432,7 +6432,7 @@
             - Only if you pass the examination and become a college student,will I accept you as a friend.
                - 只要你通过考试并成为一个大学生，我才会接受你作朋友
             - If only I had money,I could buy some new clothes. # 要是我有钱，我就可以买新衣服了（假设语句）
-            - If only he had arrived in time. 要是他及时到达就好了（假设语句）
+            - If only he had arrived in time. 要是他那时及时到达就好了（假设语句）
 
    - 表方向或场所的副词放句首
       - 句型
@@ -6445,7 +6445,7 @@
             - Here comes the teacher.
             - Here he/she comes.（注意，需要这里的 he 或 she 一定要明确是个老师）
          - A shower of stones came over the wall. 像阵雨般的石头越过墙壁
-            - Over the wall came A shower of stones
+            - Over the wall came A shower of stones.
 
    - 程度副词放句首
       - 句型
@@ -6462,15 +6462,15 @@
          - It was such a boring lecture that half the students fell asleep. 一堂好无聊课，以至于半数的学生睡着了
             - Such a boring lecture was it that half the students fell asleep.
                - 这里 such 是 adj. 虽然不是程度副词，但是 such a boring lecture 形成一个整体的副词修饰，所以也拿到句首
-               - so boring a lecture = such a boring lecture
+               - so boring a lecture was it ... = such a boring lecture was it...
 
    - 补语放在句首
       - 补语 + beV + 主词（名词）
          - 连缀动词也可以倒装，例如 He looks happy. => Happy looks he.
-         - The country that has no war is happy.
+         - The country that has no war is happy. # 没有战争的国家很幸福
             - Happy is the country that has no war.
          - The sound of the bell grew faint. 钟声渐隐
-            - Faint grew the sound of the bell grew
+            - Faint grew the sound of the bell.
          - 注意，若主词为代名词，则不用倒装句（重点，重点，重点，，，，，，，，，，）
             - He is happy. 他很快乐
                - Happy he is.（因为这里的主词是 he，代名词不能作倒装，所以只能变成这样）
@@ -6482,42 +6482,43 @@
                - so,neither,nor + beV + 主词 
                - so,neither,nor + 助动词 + 主词 + 原型动词
             - 举例
-               - Amy spent the whole evening <in> watching TV,
+               - Amy spent the whole evening <in> watching TV, # 艾米整个晚上都在看电视
                   - in 可以省略
-                  - and her sister did,too.
-                  - and so did her sister.
-               - You don't feel like eating any more,
-                  - and I don't,either.
-                  - and neither(=> nor) do I.
-                  - me,either.（这种是口语上的说法）
+                  - and her sister did,too. # 而她姐姐也是
+                  - and so did her sister.  # 而她姐姐也是
+               - You don't feel like eating any more, # 你不想再多吃一些吗
+                  - and I don't,either. # 我也不想
+                  - and neither(=> nor) do I. # 我也不想
+                  - me,either. # 我也不想（这种是口语上的说法）
          - 下列句子的意思和上例不同
-            - It is getting dark in this room. 房间的光线渐渐暗了
-               - So is that room. 那个房间也是
-               - So it is. 的确如此
+            - It is getting dark in this room. # 房间的光线渐渐暗了
+               - So is that room. # 那个房间也是
+               - So it is. # 的确如此
 
    - 强调-特别加强句中某字词的意义者为强调
       - 概念
          - It beV 强调部分 that 剩余部分
-         - 强调部分：动词，形容词 不能用
+         - 强调部分：动词，形容词 不能用（副词可以用）
          - 这里的 that 不可以省略
       - 举例
          - My father caught a carp in this river last week. 我的爸爸上周在河里抓到一条鲤鱼
-            1. 强调“my father”：It was my father that [who] caught a carp in this river last week.上周在河里抓到里鱼的就是我爸爸（注意这里的 who 代表 my father）
-            2. 强调“a carp”：It was a carp that [which] my father caught in this river last week. 上周在我爸爸在河里抓的就是里鱼（注意这里的 which 代表 a carp）
-            3. 强调“in this river”：It was in this river that [where] my father caught a carp last week. 上周我爸爸抓到里鱼就是在这条河里（注意这里的 where 代表 in this river）
-            4. 强调“last week”：It was last week that when my father caught a carp in this river. 我爸爸在这条河里抓到里鱼就是在上周（注意这里的 when 代表 in this river）
+            1. 强调“my father”：It was my father that[=>who] caught a carp in this river last week.上周在河里抓到鲤鱼的就是我爸爸（注意这里的 who 代表 my father）
+            2. 强调“a carp”：It was a carp that[=>which] my father caught in this river last week. 上周在我爸爸在河里抓的就是鲤鱼（注意这里的 which 代表 a carp）
+            3. 强调“in this river”：It was in this river that[=>where] my father caught a carp last week. 上周我爸爸抓到鲤鱼就是在这条河里（注意这里的 where 代表 in this river）
+            4. 强调“last week”：It was last week that[=>when] my father caught a carp in this river. 我爸爸在这条河里抓到鲤鱼就是在上周（注意这里的 when 代表 in this river）
             5. 总结：剩余部分的关系代名词的选用是以强调部分而决定的
 
    - 助动词，形容词，副词的强调
       - 强调动词 => do,does,did
-         1. Do feel free to call me at any time. 在任何时候打电话给我都可以
+         1. Do feel free to call me at any time. 在任何时候打电话给我都可以（任何时间给我打电话都觉得自由）
             - 在任何时候打电话给我都很自由（Do 强调 feel）
          2. She rarely speaks at our meetings,but when she does speak,she is always to the point. 她很少在会议上说话，当她真的说话时，她往往讲到重点
-            - beside the point 离题
-            - to the point 讲到要点，切中主题
+            - beside the point # 离题，偏题
+            - to the point # 讲到要点，切中主题
       - 强调名词 => 反身代名词或 very
-         1. This is the very spot where I found the purse. 这就是我找到这个钱包的地点（不加 very，翻译就没有“就是”，少了强调）
-         2. He is happiness itself. 他非常幸福
+         1. This is the very spot where I found the purse. # 这就是我找到这个钱包的地点
+            - 不加 very，翻译就没有“就是”，少了强调
+         2. He is happiness itself. # 他非常幸福
             - He is very happy.
             - He is all happiness.
       - 强调形容词或副词
@@ -6526,11 +6527,12 @@
             2. 比较级：much,even,a lot,far,still
             3. 最高级：much,far and away,by far,possible
          - 举例
-            1. The dog is terribly smart. 这只狗非常聪明
-            2. The question was much easier than I had thought. 这个问题比我想的容易多了
-            3. That's much the best plan. 那是最好的计划
+            0. It flys high. # 它飞得很高（注意这里r high 是副词）
+            1. The dog is terribly smart. # 这只狗非常聪明
+            2. The question was much easier than I had thought. # 这个问题比我想的容易多了
+            3. That's much the best plan. # 那是最好的计划
                - That's the very best plan.
-            4. They are selling computers at the lowest possible prices at that store. 他们在那家店里正在以可能最低的低格卖电脑
+            4. They are selling computers at the lowest possible prices at that store. # 他们在那家店里正在以可能最低的低格卖电脑
 
    - 疑问词的强调
       1. Who on earth is calling at this hour? 当前这个时间谁正打电话给我啊（on earth 强调 who）
