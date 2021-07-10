@@ -278,8 +278,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：88 集
-   - 看视频学习进度：the <6524> line 
+* 谢孟媛英语视频 高中部分复习进度：90 集
+   - 看视频学习进度：the <6639> line 
    - 复习进度 1400 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -6532,47 +6532,55 @@
             2. The question was much easier than I had thought. # 这个问题比我想的容易多了
             3. That's much the best plan. # 那是最好的计划
                - That's the very best plan.
-            4. They are selling computers at the lowest possible prices at that store. # 他们在那家店里正在以可能最低的低格卖电脑
+            4. They are selling computers at the lowest possible prices at that store. # 他们在那家店里正在以尽可能最低的价格卖电脑
+               - I'll do everything <possible> to help you. # 我会尽一切可能帮你的忙
+               - possible 除了修饰最高级外也可以修饰 everything, all 之类的词
 
    - 疑问词的强调
-      1. Who on earth is calling at this hour? 当前这个时间谁正打电话给我啊（on earth 强调 who）
-      2. What in the world did you mean by that? 你那样说到底是什么意思啊（in the world 强调 what）
+      1. Who on earth is calling at this hour? # 到底这个时间谁正打电话给我啊
+         - on earth 强调 who
+         - 这里的 on earth 翻译为“到底”，作强调
+      2. What in the world did you mean by that? # 你那样说到底是什么意思啊
+         - in the world 强调 what
+         - in the world 翻译为“到底”，作强调
       3. 口语中也有用 the hell,the devil,the deuce 等，但是这些强调比较偏粗鲁
 
    - 否定句的强调
-      1. We will never make such a mistake again. 我将不会再犯这样的错误
-         - Never again will we make such a mistake. 这样的错误我不会再犯了
+      1. We will never make such a mistake again.   # 我将不会再犯这样的错误
+         - Never again will we make such a mistake. # 这样的错误我不会再犯了
          - 因为这里又有否定，又有程度副词，所以都拿到前面去进行倒装强调
-      2. The dress does not suit her. 这件洋装不适合她
-         - The dress does not suit her at all. 这件洋装一点也不适合她
+      2. The dress does not suit her. # 这件洋装不适合她
+         - The dress does not suit her at all. # 这件洋装一点也不适合她
       3. 注意：at all 也可强调：否定句，疑问句或条件句
-         - Did you follow the doctor's advice at all? 你究竟有遵循医生的建议吗
-         - If you learn English at all,learn it well. 既然你学了英语，学好它
+         - Did you follow the doctor's advice at all? # 你究竟有遵循医生的建议吗
+         - If you learn English at all,learn it well. # 既然你学了英语，学好它
             - 如果句子是 If，并且有 at all 附置，at all 翻译为既然
       4. 否定的强调，可将否定字放句首，或用 at all
-         - far from,in the least,by no means,anything but 等
-         - He is not a liar at all. 他决不是个骗子
+         - far from,in the least,by no means（绝非）,anything but 等
+         - He is not a liar at all. 他绝不是个骗子
             - He is no liar.
-         - He is far from a liar. 他离骗子差得远
-         - He is not in the least a liar. 最少程度来说他都不是骗子
-         - He is by no means a liar. 他绝非骗子
-         - He is anything but a liar. 他什么都是但不是骗子
+            - He is far from a liar. # 他绝不会是骗子（他离骗子差得远）
+            - He is not in the least a liar. # 他绝不会是骗子（最少程度来说他都不是骗子）
+            - He is by no means a liar. # 他绝非是骗子
+            - He is anything but a liar. # 他绝不是骗子（他什么都是但不是骗子）
    - 字词重复的强调
-      - I waited for hours and hours. 我等了好几个小时
-      - He read the romantic letter aloud again and again/over and over(again). 他一次次地读这封来自罗曼地克的信（read 这里是过去式，因为read三态一致，且这里没有体现三单）
+      - I waited for hours and hours. # 我等了好几个小时
+         - 这里 hours and housr 除了表示时间外也有强调时间的作用
+      - He read the romantic letter aloud again and again/over and over(again). # 他一次次地读这封来自罗曼地克的信
+         - read 这里是过去式，因为read三态一致，且这里没有体现三单
    - 其它
       - She is the most beautiful girl that I'v ever seen. 她是我曾经见过最美丽的女孩
       - What surprised me was her scream. 让我讶异的是她的尖叫声
          - 相当于 what => The thing which 这样来理解
          - all that = what = the thing which
          - 这里 what 是关代，并且 what surprised me 是一个整体
-      - The first thing to remember is not to criticize anyone. 第一件要记的事是不要批评任何人
-      - All you have to do is study hard. 所有你必须做的是努力学习
+      - The first thing to remember is not to criticize anyone. # 第一件要记的事是不要批评任何人
+      - All you have to do is study hard. # 所有你必须做的是努力学习
          - 这里在 All 后面省略了关系代名词
-         - have to do 改为了 had to do，那么 is 也要改为 was，对方时态
-         - be 动词后面要用原型不定式，所以这里 study 是原型
          - 虽然用了 all，但是动词还是用 is，因为做的事很多，但是作为一个整体
-      - All I have to do is get on the Internet. 我要做的事情是上网
+         - have to do 改为了 had to do，那么 is 也要改为 was，对应时态
+         - be 动词后面要用原型不定式，所以这里 study 是原型
+      - All I have to do is get on the Internet. # 我要做的事情是上网
          - What I have to do is get on the Internet.
          - The only thing I have to do is surf the Internet.
          - The first thing I have to do is surf the Internet.
@@ -6580,57 +6588,61 @@
 - 省略
    1. 词性的省略
       0. 省略一般是对于：大家都知道，有重复的情况
-      1. I bought a bunch flowers on my way home from my uncle's (home). 我在我从叔叔那里回家的路上买了一束花（省略了home）
-      2. The girls were brave,but the boys were not (brave). 这些女孩很勇敢，但这些男孩不勇敢
-      3. Cathy ate a hamburger,and I (ate) French fries. 凯瑟吃了一个汉堡，而我吃薯条
-      4. You may go home now if you want to (go home). 如果你想回家你可以回家了
-      5. What she said made him happy,but (what she said made) me disappointed. 她所说的使他快乐，但是我失望了
-      5. I like her better than (I like) him. 我喜欢这个男生胜过喜欢这个女生
-      6. I like her better than he (like her). 我比他更喜欢她
-      7. To some life is pleasure,to others (life is) suffering. 对一些人生活是幸福的，对有些人是遭难的
-      9. He is rich,but his uncle is twice as rich (as he). 他很富有，他的叔叔是像他的两倍富有
-      10. I had no difficulty (in) finding his house. 在找到他的房子是没有任何困难的
-      11. (It) Sounds great. 它听起来不错（具体省略词视环境而定，不固定）
-      12. (I) Don't know what to say. 它不知道说什么（具体省略词视环境而定，不固定）
-      13. (It/He/She) Doesn't look very well. 它看起来不好（具体省略词视环境而定，不固定）
+      1. I bought a bunch flowers on my way home from my uncle's <home>. # 我在我从叔叔那里回家的路上买了一束花（省略了home）
+      2. The girls were brave,but the boys were not <brave>. # 这些女孩很勇敢，但这些男孩不勇敢
+      3. Cathy ate a hamburger,and I <ate> French fries. # 凯瑟吃了一个汉堡，而我吃薯条
+      4. You may go home now if you want to <go home>. # 如果你想回家你可以回家了
+      5. What she said made him happy,but <what she said made> me disappointed. # 她所说的使他快乐，但是我失望了
+      5. I like her better than <I like> him. # 我喜欢这个男生胜过喜欢这个女生
+      6. I like her better than he <like her>. # 我比他更喜欢她
+      7. To some life is pleasure,to others <life is> suffering. # 对一些人生活是幸福的，对有些人是遭难的
+      9. He is rich,but his uncle is twice as rich <as he>. # 他很富有，他的叔叔是像他的两倍富有
+      10. I had no difficulty <in> finding his house. # 要找到他的房子是没有任何困难的
+      11. <It> Sounds great. # 它听起来不错（具体省略词视环境而定，不固定）
+      12. <I> Don't know what to say. # 不知道说什么（具体省略词视环境而定，不固定）
+      13. <It/He/She> Doesn't look very well. # 它看起来不好（具体省略词视环境而定，不固定）
 
    2. 从属子句的主词及主要子句的主词相同时，则省略（省略后要考虑对应的动词是否要省略）
-      - When (they were) in school,they were good friends. 当他们在学校时，他们是好朋友
-      - When (you are) in rome,(you) do as the Romans do. 当在罗马的时候，像罗马人一样做事
+      - When <they were> in school,they were good friends. # 当他们在学校时，他们是好朋友
+      - When <you are> in rome,<you> do as the Romans do. # 当在罗马的时候，像罗马人一样做事
          - 这种是省略了 you are
          - 这种也是从句的 you 和 主名的 you 重复而省略
-      - Though (he is) poor,he is an honest man. 虽然他很贫穷，但他是个诚实的人
-      - If (meat) put in the refrigerator,meat will keep for a week. 如果肉放在冰箱里，肉可以保持一周
+      - Though <he is> poor,he is an honest man. 虽然他很贫穷，但他是个诚实的人
+      - If <meat is> put in the refrigerator,meat will keep for a week. 如果肉放在冰箱里，肉可以保持一周（省略 meat is）
+         - 主要子句用未来式，if子句要用现在式
       - 注意 if 之后，所省略的主词及动词，可能和主要子句不同
-         - Please point out the mistakes if (there are) any (mistakes). 如果有任何错误，请指出错误
-         - I'd like to see you off if (it is) possible.
+         - Please point out the mistakes if <there are> any <mistakes>. 如果有任何错误，请指出错误
+         - I'd like to see you off if <it is> possible.
 
    3. 感叹句中的主词及动词省略
-      1. How careless (it is) of you to lose your wallet. 搞丢你的钱包多么粗心啊
-      2. What a pity (it is) that you can't come with us! 你不能和我一直回来多么可惜啊（这里的 pity 是名词）
+      1. How careless <it is> of you to lose your wallet. # 搞丢你的钱包多么粗心啊
+      2. What a pity <it is> that you can't come with us! # 你不能和我一直回来多么可惜啊（这里的 pity 是名词）
       3. 注意 感叹句中的形容词或副词，有时也可省略
-         1. How (hard) it rains! 雨下得好大啊（省略的具体下得怎么样，视具体的环境决定）
-         2. What a (wouderful/terrible) day! 多么糟糕/惊险的一天啊（省略的具体的怎么样 ，视具体的环境决定）
+         1. How <hard> it rains! # 雨下得好大啊
+            - 省略的具体下得怎么样，视具体的环境决定，本例指的雨下得大
+         2. What a <wouderful/terrible> day! 多么糟糕/惊险的一天啊
+            - 省略的具体的怎么样 ，视具体的环境决定，本例指的糟糕/惊险的一天
 
    4. 关系词的省略
-      1. Is this the key (which) you are looking for? 这是你在找的钥匙吗（关代中，关代作从句的受词可省略）
-      2. I visited the village (where) my parents were born. 我在参观过了我父母出生的村落
-         - in which = where
-         - where 也可以省略，因为前面有具体的地点
-      3. What are the languages (which are) spoken in Canada?
+      1. Is this the key <which> you are looking for? 这是你在找的钥匙吗（关代中，关代作从句的受词时可省略）
+      2. I visited the village <which> my parents were born <in>. 我参观了我父母出生的村落
+         - 以上的完整的关系代名词从句可以变化为 in which...
+            - in which = where
+            - where 也可以省略，因为前面有具体的地点
+      3. What are the languages <which are> spoken in Canada?
          - 省略后，spoken in Canada 可以形成形容词片语修饰 the languages
 
    5. 连接词 + that 的省略
       1. 连接词连接两个 that 子句时，第一个子句的 that 可省，第二个不可省
-         1. He said (that) his brother was out,but that his sister was home.
+         1. He said <that> his brother was out,but that his sister was home.
             - 第一个that子句很近，所以知道是他说的，
-            - 但是第二个that从句省略了that后子句会误会为不是他说的
-         2. Mike told his wife (that) he had bought the lottery and that they could go to Europe in the near future.
+            - 但是第二个that比较远，省略后，子句会误会为不是他说的，所以不能省略
+         2. Mike told his wife <that> he had bought the lottery and that they could go to Europe in the near future.
             - Mike 告诉了他的太太他买了乐透并且不久之后就可以去欧洲了
             - 第二个 that 也是因为隔得太远而担心引起意义冲突，怕认为不是 Mike 说的
       2. that 引导的名词子句，在 say,hope,wish,know,explain,believe 等动词之后，常省略
-         1. My girlfriend doesn't know (that) I'm going to give her a big surprise.
-         2. I believe (that) he is a great scholor. 我认为他是个有名的学者
+         1. My girlfriend doesn't know <that> I'm going to give her a big surprise.
+         2. I believe <that> he is a great scholor. 我认为他是个有名的学者
 
       3. that 子句若接在表示“建议，要求，命令”等意义的动词之后，that 不可省略，但句中的 should 可省略
          - I suggested that Jack (should) finish the work as soon as possible. 我建议杰克应该尽快完成这个工作
