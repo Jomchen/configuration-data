@@ -278,8 +278,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：90 集
-   - 看视频学习进度：the <6639> line 
+* 谢孟媛英语视频 高中部分复习进度：92 集
+   - 看视频学习进度：the <6761> line 
    - 复习进度 1400 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -6642,22 +6642,22 @@
             - 第二个 that 也是因为隔得太远而担心引起意义冲突，怕认为不是 Mike 说的
       2. that 引导的名词子句，在 say,hope,wish,know,explain,believe 等动词之后，常省略
          1. My girlfriend doesn't know <that> I'm going to give her a big surprise.
-         2. I believe <that> he is a great scholor. 我认为他是个有名的学者
+         2. I believe <that> he is a great scholor. # 我认为他是个有名的学者
 
       3. that 子句若接在表示“建议，要求，命令”等意义的动词之后，that 不可省略，但句中的 should 可省略
-         - I suggested that Jack (should) finish the work as soon as possible. 我建议杰克应该尽快完成这个工作
+         - I suggested that Jack <should> finish the work as soon as possible. 我建议杰克应该尽快完成这个工作
             - 这里省略了 should，should 已经表明了过去式
             - 因为 should 是助动词，助动词后面必须根动词原型，所以这里是 finish
-         - He insisted that the meeting (should) be adjourned till tommorow. 他坚持会议延后至后天
+         - He insisted that the meeting <should> be adjourned till tommorow. 他坚持会议延后至后天
             - 这里省略了 should，should 已经表明了过去式
             - 因为 should 是助动词，助动词后面必须根动词原型，所以这里是 be
 
    6. 广告，告示，新闻标题等的省略
-      1. HOUSE FOR SALE. 房子出售
+      1. HOUSE FOR SALE. # 房子出售
         - The house is for sale.
-      2. Road Closed. 道路封闭
+      2. Road Closed. # 道路封闭
         - The road is closed.
-      3. Kidnapper Arrested in Chicago. 绑匪在芝加哥被歹捕
+      3. Kidnapper Arrested in Chicago. # 绑匪在芝加哥被歹捕
          - Kidnapper was arrested in Chicago.
 
 - 插入（能更表达说话人想表达的心情）
@@ -6668,7 +6668,7 @@
       - She is,undoubtedly,an able secretary. 他无疑是个能力很强的秘书
          - 说这句话的人认为是 无疑的，所以在 is 和 an 之间加了 undoubtedly 并加以 逗号 分隔
          - 也可以把 undoubtedly 放句首：Undoubtedly she is an able secretary.
-      - She was very tired,nevertieless,she went to work as usual. 她很疲倦了，然而，她照常去上班（as usual 像平常一样）
+      - She was very tired,nevertheless,she went to work as usual. 她很疲倦了，然而，她照常去上班（as usual 像平常一样）
          - nevertheless 是“然而”的意思，这里作为连接副词使用
    2. 片语的插入
       - It is,after all,due to his misunderstanding. 毕竟这件事是由于他的误会引起的
@@ -6677,15 +6677,16 @@
          - in my opinion 在我的意见里
       - He's rude,bad-tempered and conceited -- in short,he's a very unpleasant man. 他很..他很...，简而言之，他是个非常难取愉的人
          - 这里的括折号
-      - She seldom.if ever,goes to the movies by herself. 如果有的话，她很少独自一个人去看电影
+      - She seldom,if ever,goes to the movies by herself. 如果有的话，她很少独自一个人去看电影
          - if ever 如果曾经有的话
       - It was cold,and what was worse(=>to make matters worse),it began to rain. 天气很冷，更糟糕的是，天开始下雨了
-         - what was worse 更糟糕的是
+         - what was worse = to make matters worse # 更糟糕的是
    3. 子句的插入
       - I thought he would get better,but as it is,he is getting worse. 我认为他会好转，但像他现在这样，他变得更糟了
          - as it is 像他现在这样
-      - He is,as it were(->so to speak),a walking dictionary. 他就是个所谓的活字典
+      - He is,as it were(=>so to speak),a walking dictionary. 他就是个所谓的活字典
          - as it were 所谓的（之所以这里用 were 是因为想表达所谓的..，但是所谓的.. 有 假设的语气，所以用 were）
+         - working dictionary # 活字典（活字典一般指有学问或知识丰富的人）
       - Fishing in this river,as far as I know,is prohibited. 就我所知：在这条河流里吊鱼是被禁止的
          - as far as I know 就我所知
       - Something ought to be done,I agree.It's worth thinking about. 我同意：应该要做些事情，这个事情是值得考虑的
@@ -6697,22 +6698,22 @@
          - as you know
 
 - 同位语
-   1. Her best friend Lisa is a nurse. 她最好的朋友丽莎是个护士
+   1. Her best friend Lisa is a nurse. # 她最好的朋友丽莎是个护士
       - Lisa 是插入的，且和 best friend 是同义的，所以是同位语
-   2. Carter,a friend of mine,graduated from Oxford University. 卡特，我的一个朋友，毕业于牛津大学
+   2. Carter,a friend of mine,graduated from Oxford University. # 卡特，我的一个朋友，毕业于牛津大学
       - Carter 和 a friend of mine 是同义的；a friend of mine 是插入的
-   3. She was born and raised in the city of New York. 她在纽约这个城市出生和长大的
+   3. She was born and raised in the city of New York. # 她在纽约这个城市出生和长大的
       - of New York 同义于 the city
-   4. The question whether he would agree with us was discussed. 他是否同意我们这个问题已经讨论过了
+   4. The question whether he would agree with us was discussed. # 他是否同意我们这个问题已经讨论过了
       - whether... 和 the question 同义
-   5. It is a fiddle,or a viollin. 这是把fiddle琴，也就是你们所熟悉的小提琴
+   5. It is a fiddle,or a viollin. # 这是把fiddle琴，也就是你们所熟悉的小提琴
       - a fiddle 和 a violin 同义
-   6. He came home two hours later than usual,that is (to say) about nine o'clock. 他回家比平时晚了两小时，也就是大概九点钟
+   6. He came home two hours later than usual,that is <to say> about nine o'clock. # 他回家比平时晚了两小时，也就是大概九点钟
       - about nine o'clock 和 two hours later 同义
-   7. All of us knew the fact that she was trying to conceal the scandal. 我们所有人都知道她试着隐瞒这个丑闻的事实
+   7. All of us knew the fact that she was trying to conceal the scandal. # 我们所有人都知道她试着隐瞒这个丑闻的事实
       - fatc 和 that she was trying to conceal the scandal 同义
       - 这个是同义句
-   8. All of us knew the fact that she was trying to conceal. 我们所有人都知道她试图隐瞒的这个事实
+   8. All of us knew the fact that she was trying to conceal. # 我们所有人都知道她试图隐瞒的这个事实
       - 这个是形容词子句
       - that 代替的 the fact
 
@@ -6725,37 +6726,41 @@
       - 关系代名词：who,which 等
    - 人称代名词
       - 主格，所有格，受格，所有代名词，反身代名词（ 例：I,my,me,mine,myself）
+         - She is from a small village in the north. # 她来自北方的一个小村庄
+         - His shirt has his initials on it. # 他的衬衫上有他的姓名缩写在上面
+         - Please tell me the way to the post office. # 请告诉我到邮局的路
+         - Send the fax to her as soon as possible. # 请尽快把传真发给她
       - 注意
-         - I love you more than her. 比她我更喜欢你
-         - I love you more than she. 我比她更喜欢你
+         - I love you more than her. # 比起她我更喜欢你
+         - I love you more than she. # 我比她更喜欢你
       - 人称代名词的顺序
          - 1,2,3 分别对应（我，你，他/她/它）
          - 单数：2.3.1 / 复数：1.2.3
-         - You and I had better start at once. 你和我最好立即开始
+         - You and I had better start at once. # 你和我最好立即开始
          - 注意：遇到不好的事端，先说 I
-            - I and Bob were arrested for speeding. 我和Bob因为超速被逮捕
+            - I and Bob were arrested for speeding. # 我和Bob因为超速被逮捕
       - we,you,they 的特殊用法
-         - We should try to learn from our mistakes. 我们应该试图从错误中学习
+         - We should try to learn from our mistakes. # 我们应该试图从错误中学习
             - 包含自己在内的，表述这件事
-         - You can't get a driver's license till you're eighteen. 直到你十八岁才能拿到驾照
+         - You can't get a driver's license till you're eighteen. # 直到你十八岁才能拿到驾照
             - 不包含说话者，只是为了为除自己的所有人表述这件事
-         - They say that she will marry. 据说他们要结婚了
+         - They say that she will marry. # 据说他们要结婚了
             - 不是我，也不是你说的，是第三人称说的
          - 注意
-            - We live on rice in Taiwan. 台湾以米食为生（说话和听话的都是台湾人）
-            - You live on rice in Taiwan. 台湾人以米食为生（非台湾人说的，听话的是台湾人）
-            - They live on rice in Taiwan. 台湾人以米食为生（说话和听话的都不是台湾的人）
-            - People live on rice in Taiwan. 台湾人以米食为生（这里对听话的和说话的不清楚是哪里的人，只是一个叙述）
-      - it 可以代替：时间，天气，温度，距离，不明所以 等情况
-         - My brother has been married for three years. 我哥已经结婚三年了
+            - We live on rice in Taiwan. # 台湾以米食为生（说话和听话的都是台湾人）
+            - You live on rice in Taiwan. # 台湾人以米食为生（非台湾人说的，听话的是台湾人）
+            - They live on rice in Taiwan. # 台湾人以米食为生（说话和听话的都不是台湾的人）
+            - People live on rice in Taiwan. # 台湾人以米食为生（这里对听话的和说话的不清楚是哪里的人，只是一个叙述）
+      - it 可以代替：时间，天气，温度，距离，不明所以的人事物 等情况
+         - My brother has been married for three years. # 我哥已经结婚三年了
             - It has been three years since my brother got married.
                - 这里的 got 是过去式，married 是为了表明结婚了的固定写法
-         - It(=>the weather) is humid and hot in summer. 天气又热又湿
-         - It is about two kilometers to the town from here. 从这里到镇上大约两公里的路
+         - It(=>the weather) is humid and hot in summer. # 天气又热又湿
+         - It is about two kilometers to the town from here. # 从这里到镇上大约两公里的路
             - It is about two kilometers from here to town.
-         - It gets dark early at this time of the year每年此时，天都黑得很早
+         - It gets dark early at this time of the year. # 每年此时，天都黑得很早
          - How is it going at school? 上学上得何
-         - How do you like it here? I like it (here) very much. 你觉得这里如何？我很喜欢
+         - How do you like it here? I like it (here) very much. # 你觉得这里如何？我很喜欢
             -  不能写为 How do you like here，因为 here 是副词
       - 形式主语 it（假主词，虚主词）
          - It's no use + ving.（...是没有用的）
