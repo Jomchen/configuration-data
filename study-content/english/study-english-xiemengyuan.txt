@@ -278,8 +278,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：92 集
-   - 看视频学习进度：the <6761> line 
+* 谢孟媛英语视频 高中部分复习进度：93 集 44:46
+   - 看视频学习进度：the <6784> line 
    - 复习进度 1400 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -6759,8 +6759,8 @@
          - It is about two kilometers to the town from here. # 从这里到镇上大约两公里的路
             - It is about two kilometers from here to town.
          - It gets dark early at this time of the year. # 每年此时，天都黑得很早
-         - How is it going at school? 上学上得何
-         - How do you like it here? I like it (here) very much. # 你觉得这里如何？我很喜欢
+         - How is it going at school? # 上学上得何
+         - How do you like it here? I like it <here> very much. # 你觉得这里如何？我很喜欢
             -  不能写为 How do you like here，因为 here 是副词
       - 形式主语 it（假主词，虚主词）
          - It's no use + ving.（...是没有用的）
@@ -6772,14 +6772,16 @@
             - It is not easy to get out of a bad habit.
             - Getting out 有“滚出去，少来了”的意思
          - 覆水难收
-            - It's no use crying over spilt milk.
-            - 对打翻的牛奶哭是没有用的（这是一个典故，翻译为“覆水难收）
+            - It's no use crying over spilt milk. # 覆水难收（对打翻的牛奶哭是没有用的）
+            - 这是一个典故，翻译为“覆水难收”
          - 遵守规则很重要
             - It's important to obey the rules.
                - It's important that you (should) obey the rules.
          - 你怎么做没有差别
             - It makes no difference how you do it.
-      - 形式受词
+               - make a difference # 有差别
+               - make no difference # 没有差别
+      - 形式受词 it
          - Air tanks make it possible for divers to breathe underwater. 汽罐使潜水员可以在水下呼吸
             - it 指 to breathe underwater
          - I found that it was surprising that she didn't know who Michael Jordan was. 我惊奇地发现她不知道迈克约翰是谁
