@@ -278,8 +278,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：93 集 44:46
-   - 看视频学习进度：the <6784> line 
+* 谢孟媛英语视频 高中部分复习进度：94 集
+   - 看视频学习进度：the <6856> line 
    - 复习进度 1400 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -6791,15 +6791,19 @@
          - 注意：find,think,consider,believe,make 可以 + it + O + C 表达
       - It be ~ that ~ 的强调句
          - 这种句型中，强调句中的 that 不可以省略
-         - 这种句型中，动词，副词（程序，样态）不可用于强调部分
+         - 这种句型中，动词，副词（程度，样态）不可用于强调部分
          - I met Miss white in the park yesterday. 我昨天在公园遇到怀特小姐
             - It was [I] that/who met Miss White in the park yesterday.
             - It was [Miss white] that/whom I met in the park yesterday.
             - It was [in the park] that/where I met Miss White yesterday.
             - It was [yesterday] that/when I met Miss White in the park.
       - it 的其它重要表现
-         - It cost thirty dollars to fix the computer. 修电脑花了三十元
-         - It takes two hours to get to the airport. 到机场要两小时
+         - 语法
+            - spend 人 时间/钱 Ving
+            - take 人 时间 to v.
+            - cost 物/事 钱 to v.
+         - It cost thirty dollars to fix the computer. # 修电脑花了三十元
+         - It takes two hours to get to the airport.   # 到机场要两小时
          - 他们会离婚我认为是理所当然的
             - I take it for granted that they got divorced.
             - take...for granted 视...为理所当然
@@ -6808,6 +6812,21 @@
       1. 概念
          - 所有代名词 = 所有格 + 名词
          - 所有格，冠词，指示代名词 + 不定代名词 不能放在一起
+         - 举例
+            - my -> mine
+            - your -> yours
+            - his -> his
+            - her -> hers
+            - its -> its
+            - our -> ours
+            - your -> yours
+            - their -> theirs
+         - 一般用法
+            - my coat is brown, and his is black. # 我的甲克是棕色的，他的是黑色的
+            - Your bike is so different from mine. # 你的自行车和我的相当的不同
+               - A and B are different = A is different from B # A 和 B 不同
+               - A is the same as B # A 和 B 相同
+               - A is similar to B  # A 和 B 相似
       2. 双重所有格 a/this/some 等 + n. of 所有代名词
          - 她的一本书 
             - A book of hers.
@@ -6815,8 +6834,10 @@
          - 我碰巧在车站遇到我的一位朋友
             - I happened to meet a friend of mine at the station.
             - I happened to meet one of my friends at the station.
+         - I really like that charming smile of hers. # 我真的喜欢她那迷人的笑容
       3. 惯用表现
-         - Yours sincerely (truly,faithfully). 真诚
+         - Yours sincerely (truly,faithfully). 真诚地，诚挚地
+            - 一般在写在书信最后面，以表诚诚挚的祝福
          - With best wishes to you and yours. 致上最诚挚的祝福给你和你的家人
 
    - 反身代名词
@@ -6826,16 +6847,17 @@
          - 强调用法：放名词或代名词后加强语气
       - 例子
          - You should accustom yourself to your new surroundings. 你应该使你自己适应你的新环境
-            - accustom 使某人适应
+            - accustom + O # 使...适应
          - I have never been to Paris myself,but I hear it's nice. 我从未自己一个人去过巴黎，但我听说它很美丽
             - 为了强调 myself 可以：I myself have never been to Paris,...
-         - Lisa's mom looked at her in the mirror. 丽莎的妈妈在镜子中看丽莎
-         - Lisa's mom looked at herself in the mirror.丽莎的妈妈在镜子中看到自己
-         - He is talking to himself. 他在自言自语
+         - Lisa's mom looked at her in the mirror.     # 丽莎的妈妈在镜子中看丽莎
+         - Lisa's mom looked at herself in the mirror. # 丽莎的妈妈在镜子中看着自己
+         - He is talking to himself. # 他在自言自语
       - 惯用表现
          - Help yourself to the food. 自行取用食物
-         - Take (good) care of yourself. 照顾（好）你自己
-            - Take care 保重
+         - Take <good> care of yourself. 照顾<好>你自己
+            - Take care    # 保重
+            - Take care of # 照顾
          - Please make yourself at home. 请不要拘束；请别客气
          - Take it easy. 放轻松
          - I couldn't make myself understood English. 我无法用英文表达我自己（我无法使我自己以英语被理解）
