@@ -75,6 +75,7 @@
       - 66: 42:44 音画不同步（不太影响学习）
 
 不清楚的集数：
+   - 1504 line 的附加疑问句
    - 11 集 的主词和动名词不同时 是什么意思
    - 26 集 倒装句
    - 40 集 01:12:00 附近的反向疑问回答问句
@@ -280,7 +281,7 @@
 
 * 谢孟媛英语视频 高中部分复习进度：93 集 44:46
    - 看视频学习进度：the <6784> line 
-   - 复习进度 1400 line
+   - 复习进度 1612 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
    - 2740 line 高一动名词和不定式哪种情况必须使用
@@ -1446,7 +1447,7 @@
       - had better # 最好... => had 为助动词
     - 举例
       - We have to finish the work by ourselves, don't we?（注意  have to 的 have 是动词而不是助动词）
-      - He's fond of pop music, has he?（注意这里的 He's 是 He is 的简写）
+      - He's fond of pop music, isn't he?（注意这里的 He's 是 He is 的简写）
       - He's decided to quit smoking, hasn't he?（注意这里的 He's 是 He has 的简写）
       - Mary and her friends had a very good time, didn't they?
       - You had better keep silent in the meeting,hadn't you?
@@ -1464,7 +1465,7 @@
       - 若为 someone,anyone,no one,everyone 则用 they（注意 不是 noone，因为这样会造成发音有冲突，所以没有 noone 这种词）
     - 举例
       - Something had happened to the student, didn't it? # 这个学生发生了某事不好的事，不是吗？ 
-      - Soneone took my notebook without asking me first, didn't it? # 某人没有先询问我就拿走了我的笔记本，不是吗？
+      - Someone took my notebook without asking me first, didn't it? # 某人没有先询问我就拿走了我的笔记本，不是吗？
   - 在主要子句和附加子句同时出现时，附加问句要根据主句的内容进行作问，形成附加疑问
       - If it is fine tomorow,they will go picnicking,won't they?（这里 if 是连接词）
       - Many readers thought that it was an interesting novel,didn't they? # 许多读者认为这是本有趣的小说，不是吗？ （这里 that 是连接词）
@@ -1475,6 +1476,7 @@
       - 如果不是第一人称，则这个准则不生效
     - 举例
       - I know that you don't want to hurt me,do you? # 我知道你并不想伤害我，不是吗？
+         - ?????? 这里是否应该改为 I don't know that you want to hurt me, do you?
       - I believe that he will try his best,won't he? # 我认为他会尽力而为，不是吗？
       - I don't think that we can spend so much money on clothes,can we? # 我并不认为我们能在衣服上花这么多钱，不是吗？
         - 主词 + think + 肯定子句，即 主词+think 之后一定只能加肯定句，所以这个例子的否定不能加在 can 上，只能加在 think 上
