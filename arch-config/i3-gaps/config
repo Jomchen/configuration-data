@@ -215,6 +215,8 @@ bindsym $mod+Shift+f exec --no-startup-id thunar
 
 # screenshot, the package <flameshot> must be installed
 bindsym $mod+Shift+x exec --no-startup-id flameshot gui
+# galculator
+bindsym $mod+g exec --no-startup-id galculator
 
 # start personal applications
 exec --no-startup-id fcitx5
