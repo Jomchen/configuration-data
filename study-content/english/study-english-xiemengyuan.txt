@@ -279,8 +279,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：93 集 44:46
-   - 看视频学习进度：the <6784> line 
+* 谢孟媛英语视频 高中部分复习进度：95 集
+   - 看视频学习进度：the <6920> line 
    - 复习进度 1612 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -6793,15 +6793,19 @@
          - 注意：find,think,consider,believe,make 可以 + it + O + C 表达
       - It be ~ that ~ 的强调句
          - 这种句型中，强调句中的 that 不可以省略
-         - 这种句型中，动词，副词（程序，样态）不可用于强调部分
+         - 这种句型中，动词，副词（程度，样态）不可用于强调部分
          - I met Miss white in the park yesterday. 我昨天在公园遇到怀特小姐
             - It was [I] that/who met Miss White in the park yesterday.
             - It was [Miss white] that/whom I met in the park yesterday.
             - It was [in the park] that/where I met Miss White yesterday.
             - It was [yesterday] that/when I met Miss White in the park.
       - it 的其它重要表现
-         - It cost thirty dollars to fix the computer. 修电脑花了三十元
-         - It takes two hours to get to the airport. 到机场要两小时
+         - 语法
+            - spend 人 时间/钱 Ving
+            - take 人 时间 to v.
+            - cost 物/事 钱 to v.
+         - It cost thirty dollars to fix the computer. # 修电脑花了三十元
+         - It takes two hours to get to the airport.   # 到机场要两小时
          - 他们会离婚我认为是理所当然的
             - I take it for granted that they got divorced.
             - take...for granted 视...为理所当然
@@ -6810,6 +6814,21 @@
       1. 概念
          - 所有代名词 = 所有格 + 名词
          - 所有格，冠词，指示代名词 + 不定代名词 不能放在一起
+         - 举例
+            - my -> mine
+            - your -> yours
+            - his -> his
+            - her -> hers
+            - its -> its
+            - our -> ours
+            - your -> yours
+            - their -> theirs
+         - 一般用法
+            - my coat is brown, and his is black. # 我的甲克是棕色的，他的是黑色的
+            - Your bike is so different from mine. # 你的自行车和我的相当的不同
+               - A and B are different = A is different from B # A 和 B 不同
+               - A is the same as B # A 和 B 相同
+               - A is similar to B  # A 和 B 相似
       2. 双重所有格 a/this/some 等 + n. of 所有代名词
          - 她的一本书 
             - A book of hers.
@@ -6817,8 +6836,10 @@
          - 我碰巧在车站遇到我的一位朋友
             - I happened to meet a friend of mine at the station.
             - I happened to meet one of my friends at the station.
+         - I really like that charming smile of hers. # 我真的喜欢她那迷人的笑容
       3. 惯用表现
-         - Yours sincerely (truly,faithfully). 真诚
+         - Yours sincerely (truly,faithfully). 真诚地，诚挚地
+            - 一般在写在书信最后面，以表诚诚挚的祝福
          - With best wishes to you and yours. 致上最诚挚的祝福给你和你的家人
 
    - 反身代名词
@@ -6828,66 +6849,76 @@
          - 强调用法：放名词或代名词后加强语气
       - 例子
          - You should accustom yourself to your new surroundings. 你应该使你自己适应你的新环境
-            - accustom 使某人适应
+            - accustom + O # 使...适应
          - I have never been to Paris myself,but I hear it's nice. 我从未自己一个人去过巴黎，但我听说它很美丽
             - 为了强调 myself 可以：I myself have never been to Paris,...
-         - Lisa's mom looked at her in the mirror. 丽莎的妈妈在镜子中看丽莎
-         - Lisa's mom looked at herself in the mirror.丽莎的妈妈在镜子中看到自己
-         - He is talking to himself. 他在自言自语
+         - Lisa's mom looked at her in the mirror.     # 丽莎的妈妈在镜子中看丽莎
+         - Lisa's mom looked at herself in the mirror. # 丽莎的妈妈在镜子中看着自己
+         - He is talking to himself. # 他在自言自语
       - 惯用表现
-         - Help yourself to the food. 自行取用食物
-         - Take (good) care of yourself. 照顾（好）你自己
-            - Take care 保重
-         - Please make yourself at home. 请不要拘束；请别客气
-         - Take it easy. 放轻松
-         - I couldn't make myself understood English. 我无法用英文表达我自己（我无法使我自己以英语被理解）
-         - Did you tie your shoelaces by yourself? 你是自己绑鞋带的吗
-         - Look up the word in the dictionary for yourself. 你自己查字典
-         - Consult the dictionary for the word 查字典
+         - Help yourself to the food.    # 自行取用食物
+         - Take <good> care of yourself. # 照顾<好>你自己
+            - Take care    # 保重
+            - Take care of # 照顾
+         - Please make yourself at home. # 请不要拘束；请别客气
+         - Take it easy. # 放轻松
+         - I couldn't make myself understood in English. # 我无法用英文表达我自己（我无法使我自己以英语被理解）
+         - Did you tie your shoelaces by yourself? # 你是自己绑鞋带的吗
+         - Look up the word in the dictionary for yourself. # 你自己查字典
+         - Consult the dictionary for the word # 查字典
          - 注意
             - 词性
-               - talk to oneself（自言自语）, dress oneself（打扮自己）
-               - come to oneself（恢复）, behave oneself, enjoy oneself(have a good time)（玩得愉快）
-               - beside oneself
+               - talk to oneself #自言自语, dress oneself # 打扮自己
+               - come to oneself # 恢复, behave oneself # 守规矩
+               - enjoy oneself = have a good time # 玩得愉快
+               - beside oneself # ...忘了形
             - 举例
-               - Please allow me to introduce myself. 请容我自我介绍
-               - She was beside herself with joy. 她高兴得忘了形
-               - He soon come to himself. 他不久即恢复知觉
+               - Please allow me to introduce myself. # 请容我自我介绍
+               - She was beside herself with joy.     # 她高兴得忘了形
+               - He soon come to himself.             # 他不久即恢复知觉
 
    - 指示代名词
       - this(thest),that(those)
          - 一般用法，this是近的，that是远的
-         - This is my son.
-         - I will go out this afternoon. 下午我会出去（现在还不是下午）
-         - I went shopping this morning. 上午我购了物（已经购过物了）
-         - Lots of people go abroad these days. 这些天许多人去外国
+         - This is my son and that is my daughter.
+         - This is not the dessert I ordered.   # 这不是我点的甜点
+         - Lots of people go abroad these days. # 这些天许多人去外国
+         - 注意 this 根据环境决定已经发生了或还没有发生
+            - I will go out this afternoon.        # 下午我会出去（现在还不是下午）
+            - I went shopping this morning.        # 上午我购了物（已经购过物了）
       - 电话用语
-         - Who is this? 你是谁（打电话时使用）
-         - Who is this,please? 请问你是谁（打电话时使用）
+         - Who is this <,please> # 请问你是谁（打电话时的寻问）
+            - Who is it? 你是谁（打电话时使用）
+            - 回答者回答：This is xxx <speaking>. / Xxx speaking.
+            - May I speak to xxx please? # 请问我能和xxx讲话吗？
          - This is xxx? 我是xxx（打电话时使用，在回答对方询问是谁的情况下）
             - 当对方明确了自己身份后就可以用 I 了
-         - You have the wrong number. 你打错电话了
+         - You have the wrong number. # 你打错电话了
       - this,that 表前述句子
          - To be or not to be - that is the question. 生或者是死，那是个问题
-           - 这里的 that 指 To be or not to be，因为已经出现过了所以替代
+           - 这里的 that 指 To be or not to be，因为已经出现过了，所以用that替代
          - We have the right to express our opinions freely. This is called freedom of speech.
            - 我们有权利自由地表达我们的意见，这被称为言论自由
-           - 这里的 this 指 前面的整句
+           - 这里的 this 指 We have.....freely.
       - this 指后续句子
          - I'll just say this--you should follow your father's advice. 我只说你应该听从你爸爸的意见
+            - this 指 you should....advice.
          - He told me to call her--this I did at once. 他告诉我要打电话给他，这件事我立刻就做了 
+            - this 指 He told...her
       - this(these)表“后者”；that(those)表“前者”
          - 工作和玩乐对健康都很必要。后者给予我们休息；前者赋予我们精力
             - Work and play are both necessary to health;this gives us rest and that gives us energy.
-               - 比较近的是 玩乐，远的是 工作，因为根据前文提到的先后
+               - 比较近的是 玩乐，远的是 工作，根据前文提到的先后
+         - 烟和酒都是有伤害的，但是酒较烟伤害较少
+            - Tobbacco and alcohol are both injurious;but this is less injurious than that.
       - that(those)可避免名词重复
          - 注意，代替的名词
             - one = a/an + n.
             - it = the + n.
             - that 当名词后面有修饰语的时候，并且这个名词有重复可用 that 而不用另外两个进行替代
-         - 我国的气候较印度的温和
-            - The climate in China is milder than that in India.
-               - The climate is milder in China than India. 
+         - 中国的气候较印度的温和
+            - The climate in China is milder than the climate of India.
+               - The climate in China is milder than that of India. 
          - Smokers' lungs are more likely to get cancer than those of nonsmokers.
             - 吸烟的人比不吸烟的人更容易得癌症
       - this/that 的惯用法
