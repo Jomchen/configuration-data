@@ -281,7 +281,7 @@
 
 * 谢孟媛英语视频 高中部分复习进度：95 集
    - 看视频学习进度：the <6920> line 
-   - 复习进度 2039 line
+   - 复习进度 2068 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
    - 2740 line 高一动名词和不定式哪种情况必须使用
@@ -2066,7 +2066,7 @@
           - while 当连接词时翻译成“当..”，当名词时翻译成“一会儿”
           - while 引导的从属子句时，常使用进行式
       - 表示地点的副词子句由 where 引导
-        - Where there is a will,there is a way. # 有志者，事尽成
+        - Where there is a will,there is a way. # 有志者，事尽成（有意志的地方就有方式）
         - Put it back where it was. # 把它放到它原来的地方
       - 表示原因，理由的副词子句由 because,since,as（这里的as作“因为”） 引导；语气的强弱由高到底 because>since>as；because 和 so 不能同时出现
         - 概念
