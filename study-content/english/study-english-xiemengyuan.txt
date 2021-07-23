@@ -281,7 +281,7 @@
 
 * 谢孟媛英语视频 高中部分复习进度：95 集
    - 看视频学习进度：the <6920> line 
-   - 复习进度 1845 line
+   - 复习进度 2039 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
    - 2740 line 高一动名词和不定式哪种情况必须使用
@@ -1947,8 +1947,8 @@
   - 对等连接词 => 连接同词性的 单字，片语，子句
     - and # 和；并且；那么
       - Being a college student and studying at college are two different things. # 当个大学生和在大学求学是两回事
-      - We can have fresh air and enjoy the builtiful scenery. # 我们可以呼吸新鲜的空气和享受美丽的风景
-      - go straight and you will see the restaurant on your right. # 直直走，那么你会看见那家餐厅在你右手边
+      - We can have fresh air and enjoy the beautiful scenery. # 我们可以呼吸新鲜的空气和享受美丽的风景
+      - Go straight and you will see the restaurant on your right. # 直直走，那么你会看见那家餐厅在你右手边
     - but # 但是
       - The little girl fell down but <she> didn't crying. # 那小女孩跌倒了，但没有哭
       - My parents agree to Let me go out with you,but They ask me to come home before 12 o'clock. # 我爸妈答应让我跟你出去，但是他们要求我必须在12点前回家
@@ -1987,7 +1987,7 @@
           - not only...but also... 强调的是后者，这里的 are 是对应 but also 后面的主词(they)决定了复数
         - Either you or I am in the right. # 不是你就是我是正确的
           - either...or... 强调的是后者，这里的 am 强调的是 or 后面的主词(I) 所决定单复数，所以用 am
-        - Neither my mother nor I was listening to the  news on TV. # 我和妈妈都没有在电视上听新闻
+        - Neither my mother nor I was listening to the news on TV. # 我和妈妈都没有在电视上听新闻
           - neither...nor... 强调的是后者，这里的 was 强调的是 nor 后面的主词(I) 所决定单复数，所以用 was
         - Mr.Wang as well as the students was late for class. # 王先生和这些学生上课迟到了
           - as well as 强调的是前者，所以 was 是对于 Mr.Wang 的单数转过去式，所以用了 was
