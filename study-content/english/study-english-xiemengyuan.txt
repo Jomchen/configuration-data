@@ -64,7 +64,7 @@
       - 48:               （音画不同步，不太严重）
       - 53: 全程音画不同步（但音画不同步率不算高，少许影响学习）
       - 54: 00:40:19 卡死
-   2. 中级：06, 14, 16，19, 28, 44, 54, 55, 66, 116
+   2. 中级：06, 14, 16，19, 28, 44, 54, 55, 66, 98, 116
       - 06: 00:35:46 开始没有声音或卡死
       - 14: 16:46:00 乱音，后续将没有声明（没有弥补问题文件）
       - 16: 00:54:00 突然卡顿一下
@@ -73,6 +73,7 @@
       - 44: 32:49 音画不同步（不太影响学习）
       - 55: 17:13 音画不同步（不太影响学习）
       - 66: 42:44 音画不同步（不太影响学习）
+      - 98: 1:03:16 音画不同步（不太影响学习）
 
 不清楚的集数：
    - 1504 line 的附加疑问句
@@ -279,8 +280,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：95 集
-   - 看视频学习进度：the <6920> line 
+* 谢孟媛英语视频 高中部分复习进度：98 集 37:31
+   - 看视频学习进度：the <7152> line 
    - 复习进度 1845 line
 * 重新复习地方
    - 2379 line 高一不定式副词用法
@@ -6925,12 +6926,13 @@
          - She went to this doctor and that. 她四处求医（她这个医生看了，那个医生也看了）
          - We talked about this and that. 我们聊了种种事情（我们谈论这件事也谈论那件事）
          - We talked about this,that and the other. 我们聊了种种事情
-         - At this,she stood up. 在这件事的同时，她站了起来
+         - At this,she stood up. 在听到/得知这件事的同时，她站了起来
          - With this,he left the room. 伴随着这件事，他离开了房间
          - He yawned,and that very often. 他经常在打哈欠 
          - It's an idea;and a good one at that. 它是个主意，而且它还是个好主意
          - He told me about his trip and what he bought and all that. 她告诉我她所有的旅行还有她买的东西
             - what = the thing which
+            - all that 这里指的是 它的旅行
          - He kissed her and with that he left. 他亲吻了她并且她离开了
             - and with that 可以替换为 and then
             - 这里的 and with that 是指“伴随着他亲吻她”,起到了伴随事情的发生的情况
@@ -6939,59 +6941,60 @@
          - I didn't know you were that tired. 我不知道你是那么累
       - so
          - 当动作的受词
-            - He told me to wait in line and I did so. 他告诉我排除等待，我也是
+            - He told me to wait in line and I did so. 他告诉我排队等待，我也是
             - Do you think (that) it will be sunny tomorrow. -- I hope so. 你认为明天会是晴天吗？-- 我希望如此
                - 如果不希望如此，可以回答 I hope not.
          - 当补语
             - Is that so? 它真的如此吗
             - Do you still feel sick?If so, you must see the doctor? 你仍然感觉不适吗，如果如此，你必须看医生
-         - 当副词
+         - 当副词 => 程度副词 + 形容词/另一个副词
             - Don't talk so fast. 不要说那么快（这里的 fast 是副词，可以以quaickly替代）
-            - I often donate money to charity,and so does my wife. 我经常，我妻子也是
+            - I often donate money to charity,and so does my wife. 我经常捐钱给慈善机构，我妻子也是
             - 注意 The greatest gift we have is our health,and so it is. 我们最棒的礼物是我们的健康，它的确如此
          - 惯用表现
             - They sell apples,oranges,bananas and so on. 他们出售苹果，橙子，香蕉，等等
             - It's risky.--Maybe.But even so,I have to do it. 这很冒险，或许吧，即使如此，我也必须这么做
             - He stayed here a year or so. 他呆在这里大概一年（or so 大概，需要放在时间后面）
-         - such
-            - such a + adj. + n.
-               - I don't know such a man. 我不认识那样的一个人
-               - I have never heard such nonsense in all my life. 我一生从未听到过这样子的废话
-            - all(any,few等) + such + n. 
-               - Have you tasted any such food before. 你尝任何这样的食物吗
-               - I like lions,tigers and some such wild animals. 我喜欢狮子，老虎 以及类似一些如此的野生动物
-            - 惯用表现
-               - I visited several European countries,such as France,Italy and Switzerland. 我到访过几个欧洲国，例如法国，意大利瑞士
-                  - such as 可以替换为 like 
-                  - 这里的 such as 当做介词连接名词
-               - I have never read books such as he mentioned. 我从未读过像他提到过的书
-                  - 这里的 such as 当连接词连接主词和动词
-                  - for example, S + V = for instance, S + V
-               - 注意
-                  - I don't like such fish as an eel. 我不喜欢像鳗鱼那样的鱼
-                     - He is a gentleman and must be treated as such. 他是位绅士必须被像绅士那样对待
-                  - My income,such as it is,supports my family. 我的收入，像我收入那样，养活我一家人
-                     - 暗示收入不多
-                     - it 指 My income（如果 My incom 部分是复数，则 it is 应改为 they are）
-                  - The news gave her such a shock (that) she nearly fainted. 这个消息给他如此震惊，以至于她几乎要晕倒
-                     - a shock 这里是名词
-                     - 这里的句型为 such...that...，翻译为“如此的...以至于...”
-         - same
-            1. 一般用法，当代名词，形容词
-               - I said it was a good buy and she said the same. 我说过那是庄好买卖，她说一样（same 作不定代名词）
-               - I don't like to have the same food every day. 我不喜欢每天吃相同的食物（same 作形容词）
-            2. the same...as + n./(S + V.)  /  the same...that + S + V
-               - I want the same shoes as yours. 我想要和你一样的鞋子
-               - He is the same man that I saw yesterday. 他就是我昨天看到的同一个人
-            3. 惯用表现
-               1. His opinion about this plane is much the same as yours. 他对这架飞机的看法根你的看法大致相同
-               2. He is rude,but I like him all the same. 他很粗鲁，但是我全都一样地喜欢他
-               3. It's all the same to me. 对我来说都一样
-               4. It's all the same to me. 对我来说都一样
-                  - It makes no difference to me. 来说都一样（它造成没有不同对我）
-               5. Happy New Year! --(The) same to you. 新年快乐，也祝你快乐（same 充当 Happy New Year!）
-                  - 这个 The 是在读的时候才可以省略，但是写的时候不可以省略
-               6. You may go today or tomorrow;it comes to the same thing. 你可以今天或明天走，结果都是一样的（it 指前面半句）
+      - such
+         - such a/an + adj. + n. = so adj. a/an n.
+            - such a lovely girl = so lovely a girl
+            - I don't know such a man. 我不认识那样的一个人
+            - I have never heard such nonsense in all my life. 我一生从未听到过这样子的废话
+         - all(any,few等) + such + n. 
+            - Have you tasted any such food before. 你尝过任何这样的食物吗
+            - I like lions,tigers and some such wild animals. 我喜欢狮子，老虎 以及类似一些如此的野生动物
+         - 惯用表现
+            - I visited several European countries,such as France,Italy and Switzerland. 我到访过几个欧洲国，例如法国，意大利瑞士
+               - such as 可以替换为 like 
+               - 这里的 such as 当做介词连接名词
+            - I have never read books such as he mentioned. 我从未读过像他提到过的书
+               - 这里的 such as 当连接词连接主词和动词
+               - for example, S + V = for instance, S + V
+            - 注意
+               - I don't like such fish as an eel. 我不喜欢像鳗鱼那样的鱼
+                  - He is a gentleman and must be treated as such. 他是位绅士必须被像绅士那样对待
+               - My income,such as it is,supports my family. 我的收入，像我收入如此，能养活我一家人
+                  - 暗示收入不多
+                  - it 指 My income（如果 My incom 部分是复数，则 it is 应改为 they are）
+               - The news gave her such a shock <that> she nearly fainted. 这个消息给他如此震惊，以至于她几乎要晕倒
+                  - a shock 这里是名词
+                  - 这里的句型为 such...that...，翻译为“如此的...以至于...”
+      - same
+         1. 一般用法，当代名词，形容词
+            - I said it was a good buy and she said the same. 我说过那是庄好买卖，她说一样（same 作不定代名词）
+            - I don't like to have the same food every day. 我不喜欢每天吃相同的食物（same 作形容词）
+               - not 与 every day # 并非每天...，不是每天...
+         2. the same...as + n./(S + V.)  /  the same...that + S + V
+            - I want the same shoes as yours. 我想要和你一样的鞋子
+            - He is the same man that I saw yesterday. 他就是我昨天看到的同一个人
+         3. 惯用表现
+            1. His opinion about this plan is much the same as yours. 他对这个计划的看法根你的看法大致相同
+            2. He is rude,but I like him all the same. 他很粗鲁，但是我仍然地喜欢他
+            3. It's all the same to me. 对我来说都一样
+               - It makes no difference to me. 对我来说都一样（它造成没有不同对我）
+            5. Happy New Year! --(The) same to you. 新年快乐，也祝你快乐（same 充当 Happy New Year!）
+               - 这个 The 是在读的时候才可以省略，但是写的时候不可以省略
+            6. You may go today or tomorrow;it comes to the same thing. 你可以今天或明天走，结果都是一样的（it 指前面半句）
 
 
    - 不定代名词
@@ -7007,6 +7010,7 @@
                - I lost my umbrella yesterday;I must buy a new one. 我昨天丢了雨伞，我必须买把新的雨伞
                - These boots have worn out I need to buy some new ones. 这些鞋子已经穿破了，我需要买些新的鞋子
                - I like that picture -- I mean the third one from the left. 我喜欢那幅画，我指的是从左边的第三幅
+                  - mean # 意思是指...
                   - 因为这里限定是限定的 the third，而不是准确的那幅画，所以用 one
                - the guitar is similar to the one I have. 这个吉他和我的很相似
                   - I have 是修饰的作用，不能用 it，因为 it 需要在限定且没有修饰的情况使用
@@ -7016,12 +7020,17 @@
                - He likes white wine better than red (wine).
                   - 因为 酒是不可数，所以不能用 one 代替
                   - 因为前文出现过 酒了，所以可以省略
+                  - better than ... # 胜于...，超过...
             - 惯用表现
-               - She is nurse and mother all in one to the orphans. 他是孤儿的母亲和护士（他是护士和母亲都在一个人身上在孤儿身上）
+               - She is nurse and mother <all> in one to the orphans. 他是孤儿的母亲和护士（他是护士和母亲都在一个人身上在孤儿身上）
+                  - nurse and mother 这里指代的 all
+                  - orphan    # 孤儿
+                  - orphanage # 孤儿院
                - They left by/in ones and twos. 他们三三两两地离开了
                - They came,one and all,to welcome him. 他们全体都来欢迎他
                   - one and all 是为了修饰 They came
                - The teacher interviewed the students one by one. 老师逐一地对学生面试（老师对学生一个接着一个面试）
+                  - one by one # 逐一地
                - I,for one,do not agree. 就我个人来说不同意
 
    - both/all
@@ -7030,9 +7039,14 @@
          - both 和 not 结合 解释为 “并非两者都”；all 和 not 结合 解释为 并非全都
       - 例子
          - Both of my parents are happy about the result. 我父母两位对这个结果都很高兴
+            - 这里不能用 all，因为 both 是指两个，all 是指三者或三者以上的
          - All (the) villagers knew of the accident. 所有的村民知道这个事故（这里 All 充当形容词）
-            - All of the villagers knew of the accident. 所有村民知道这个事故（这里 All 充当代名词作主词，毕竟 of 前后都应该是名词）
-            - The villagers all knew of the acident. 村民都知道这个事故（这里 all 充当同谓语，即充当了 The villagers）
+            - 这里的 all 当形容词使用
+            - All of the villagers knew of the accident. 所有村民都知道这个事故
+               - 这里 All 充当代名词作主词，毕竟 of 前后都应该是名词
+               - of the villagers 是补充说明 all 的
+            - The villagers all knew of the acident. 村民都知道这个事故
+               - 这里 all 充当同谓语，即充当了 The villagers
          - 注意 know 可以直接根名词，这样体现是自己亲自知道的
          - 如果 know 加介词 再加名词，这样 know 变成了不及物动词，体现出是间接知道的
       - all + 单数名词 => 表“全体”
@@ -7042,10 +7056,12 @@
       - all + 抽象名词/身体部位之复数
          - The lady was all smiles. 这个女人满脸都是笑容
          - She was all ears. 她听力好（她全身都是耳朵，表明听力好）
-         - all thumbs 笨手笨脚（所有都是大拇指，大拇指不灵活，所以不灵活，所以翻译为 笨手笨脚）
+         - His fingers are all thumbs # 他不灵活 / 他笨手笨脚
+            - 所有都是大拇指，大拇指不灵活，所以不灵活，所以翻译为 笨手笨脚
       - all 的惯用表现
-         - There are 700 boys and girls in all in our school. 我们学校全部有700个学生（in all 全部；一共）
-         - He ate the meat,bone and all. 他连同肉和骨头都吃了
+         - There are 700 boys and girls in all in our school. 我们学校全部有700个学生
+            - in all 全部；一共
+         - He ate the meat,bone and all. # 他吃内，连同骨头都吃了（他连同肉和骨头都吃了）
          - We have all but finished the work. 我们几乎要完成了所有工作
             - all but = almost
             - all but “所有但是”这样理解那就是 almost
@@ -7054,23 +7070,25 @@
             - 全然 => 用于否定句
             - 究竟 => 用于疑问句
             - 既然 => 用于条件句（if子句)
-         - 疑问
-            - I wasn't surprised at all. 我不全然讶异
+         - 例句
+            - I wasn't surprised at all. 我一点也不讶异（我全然不讶异）
             - Do you know her at all? 你究竟认识她吗
             - If you learn English at all,learn it well. 既然你要学英语，学好它
             - For all her efforts,she failed. 尽管她很努力，但还是失败了
                - 这里的 all 是 adj. 用于修饰 her efforts
-               - For all 可以替换为 In spite of
+               - For all 可以替换为 In spite of 翻译为“尽管...”
       - some/any
          - 表示“一些”
             - 用于肯定句中 => some
-            - 否定，疑问，条件句中 => any
+            - 否定，疑问，条件句中 => some 应该用 any 替代，但是仍然翻译为 “一些”
+            - 后面根 复数n. 或 不可数n.
             - 例子
-            - I need some coins. Have you got any?
-            - Please lend me some money if you have any.
+               - I need some coins. Have you got any? # 我需要一些硬币，你有吗？
+                  - Have you got any? 也可以替换为 Do you have any?
+               - Please lend me some money if you have any. # 请借给我一些钱，如果你有的话
          - some => 表“某个”，any => 表“任何一个...都...”
             - How about having dinner at some good restaurant? 在某个好的餐厅吃晚饭怎样
-            - Any of the magazines will do. 杂志的任何一本都可以读
+            - Any of the magazines will do. 任何一本的杂志都可以读
          - some 用于疑问句
             - 表示邀请或请求的疑问句，或当说话者希望得到对方肯定的答案的时候 用 some
                - Would you like some coffee? 你想来些咖啡吗（这里是邀请）
@@ -7078,23 +7096,25 @@
          - some 及 any 的副词用法
             - some（大约）；any（一点点<也>...）
                - Some forty people were present at the party. 大约40个人出席了这个派对
-               - I can't wait any longer. 我不能再等一下子了
+               - I can't wait any longer. 我一点也不能再等了
                - It's not any too big for you. 对你来说一点也不会太大
          - 惯用表现
             - I hope to visit London some day. 我某天希望参观伦敦
                - one day 某一天（可用于 过去式 或 未来式）
+                  - 比如“白雪公主某天吃了一颗毒苹果”
                - some day 某一天（只能用于未来式）
             - Let's discus it some other day. 改天讨论它吧
             - We'll call on him in any case. 我们无论如何都会拜访他
+               - in any case # 无论如何（在任何情况下）
             - He was determined to finish the work at any lost. 他不惜任何代价都决定完成这个工作
-               - at any lost 任何的损失下
+               - at any lost # 不惜任何代价（有任何的损失下）
             - Correct mistakes,if any. 如果有任何错，纠正错误
             - There is little water,if any. 如果有任何的水，也几乎很少（if there is any of water 缩写？)
       - other/another
          - 一般用法
             - 我不喜欢这个，请给我看另一个
                - I don't like this one;please show me the other.（这里 the other，the 限定另外一部分，因为 other 没有用复数，所以限定另一个，即一共两个）
-               - I don't like this one;please show me the another.（这里 another，表明给我看另外一个，但是另外一个没有限定一定是两者的，所以总数不明）
+               - I don't like this one;please show me another.（这里 another，表明给我看另外一个，但是另外一个没有限定一定是两者的，所以总数不明，another 一般用于三者及以上）
             - Would you like another piece of pie? 你要另外再来一块派吗（一共有不确定的数目）
          - 列举
             - I have two sisters: one is married and the other isn't. 我有两个姐妹，一个结婚了，另一个没有结婚（the other 限定了另一个）
@@ -7104,10 +7124,12 @@
                - 数量为四时：one-another-another-the other（区分四个不同的对象）
                - I have three young friends:one is eight years old,another is ten,and the other is twelve.
                   - 我有三个朋友，一个是8岁，另一个是10岁，最后一个是12岁
+                  - 注意有三样的时候，在第三样的前面需要有个 and
                - some of the club members came on time,but the others were all late. 俱乐部的一些成员准时到来了，其它全都迟到了
+                  - the club members 因为有 the 所以有限定，所以之后用 the others
                - some of people are good at dancing and others aren't.（因为没有限定范围，所以用 others 不用 the others）
-               - She hung her raincoat the hook and her umbrella on one another 她挂起了她的雨衣在挂勾上，雨伞挂在另一个挂勾上
-                  - 第二个挂勾用 one 代替 hook，因为不清楚多少个挂勾所以没有限定，所以用 one another
+               - She hung her raincoat on one hook and her umbrella on another <hook> 她挂起了她的雨衣在挂勾上，雨伞挂在另一个挂勾上
+                  - 因为不清楚多少个挂勾所以没有限定，不清楚是两个还是两个以上的hook，所以用 another
                - 注意
                   - 未列举完
                      - some...,and some...（可数，不可数）
@@ -7116,7 +7138,7 @@
                      - some...,and the rest...（可数，不可数）
                      - some...,and the others...（可数）
       - 惯用表现
-         - I have a black cat and a white one:the one(->former) likes to play,and the other(->other) sleeps most of the day. 
+         - I have a black cat and a white one: the one(->former) likes to play,and the other(->latter) sleeps most of the day. 
             - 我有一只黑猫和一只白猫，一只喜欢玩耍，另一只几乎整天在睡觉
          - To know is one thing,and to teach is quite another. 了解是一回事，教别人知识是另外的一回事
          - They shouted each other. 他们彼此吼叫（each other 彼此）
@@ -7124,9 +7146,13 @@
          - 注意
             - each other 和 one other 都是彼此的意思
          - The restaurant seved dishes one after another. 餐厅一道道上菜（菜不止两道，所以 用 another）
+            - dish # 盘子（装菜的盘子）
+            - plate # 盘子（从大盘子装一部分菜到自己吃饭的盘子）
+            - saucer # 盘子（小盘子，小碟子，喝咖啡下面的小托盘）
+            - served dishes # 上菜
          - The two girls rowed the boat one after the other. 两个女孩轮流划船（一个在另一个之后划）
  
-         - On (the) one hand we look for excitement,but on the other (hand),we look for peace in mind,
+         - On <the> one hand we look for excitement,but on the other (hand),we look for peace in mind,
             - 一方面我们寻找刺激，但在另一方面,我们寻找心灵平和
       - each/every（每一）
          - 概念
