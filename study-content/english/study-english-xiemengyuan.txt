@@ -282,8 +282,11 @@
 
 * 谢孟媛英语视频 高中部分复习进度：98 集 37:31
    - 看视频学习进度：the <7152> line 
-   - 复习进度 2068 line
+   - 复习进度 2416 line
 * 重新复习地方
+   - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
+      - 有争议，是岁数大还是岁数小？
+
    - 2379 line 高一不定式副词用法
    - 2740 line 高一动名词和不定式哪种情况必须使用
 * 注意点
@@ -2198,7 +2201,7 @@
       - among 一般是在三者或三个之上的之间
       - Mr.White sat between his wife and daughter. # 怀特先生坐在他的妻子和他的女儿之间
       - She failed to find his little brother among the crowd. # 他未能在人群中找到他的弟弟
-        - crow v. 拥挤 n. 人群
+        - crowd v. 拥挤 n. 人群
         - failed to v. # 未能（这里的 to 是不定式）
     - near（在..附近），by（在..旁），beside（在..旁），around（在..四周）
       - by 表示前后，左右位置的旁边
@@ -2217,7 +2220,7 @@
         - There is a blackboard in the front of the classroom. # 黑板在教室前面（黑板是在教室内部的前面，所以有 the）
         - He stood behind his master. # 他站在他的主人后面
       - behind 和 before
-        - behind（在..之后）=> 时间，地点 之前
+        - behind（在..之后）=> 时间，地点 之后
         - before（在..之前）=> 只能是 时间 之前
         - 举例
           - A car has topped in front of the store. # 一辆车停在商店的前面
@@ -2285,7 +2288,7 @@
         - A-mei is famouse as a singer. # 阿妹作为一名歌手而出名（as 作为...）
     - to 的举例
       - All roads lead to Rome. # 所有的道路通往罗马（to 到...地方）
-      - We stayed there to the end of May. # 我们呆在这里到五月底（to 到...时）
+      - We stayed here to the end of May. # 我们呆在这里到五月底（to 到...时）
       - Listen to me. # 听我的（to 对...[表动作的对象]）
       - To your health. # 为了你的健康（to 为了...）
     - with 的举例
@@ -2311,7 +2314,7 @@
       - I have to be home by ten o'clock. # 我必须在10点前回家（by 不晚于...[表期限]）
       - We go to school by bus. # 我坐公车上学（by 乘坐...[交通工具]）
       - What time is it by your watch? # 你的手表时间多久了？（by 以...为基准）
-      - He is older than I by two years. # 他比我小两岁（by 只差...[表差异或程度）
+      - He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
 
 ----------------------------------- 高 一 -----------------------------------
 
@@ -2349,7 +2352,7 @@
        - It's kind of you to help me. 或 You are kind to help me.（你帮助我真好）
           - 因为帮助我是 “你” 的特质，所以用of，如果把of改为for 则意义变为了“帮助我这件事对于你是很好的）
        - I was stupid to do such thing. # 做这件事的我真是太蠢了
-          - Its stupid of me to do such thing.
+          - It's stupid of me to do such thing.
     - 不定式的否定形式：not to v.
        - Not to depend on others is the best way to success.（不依赖别人是到成功最佳的途径）
          - 第一个 to 是不定式中的 to
@@ -2415,7 +2418,7 @@
                1. To hear him talk on the phone,you would take him for his brother. # 如果你听到它在打电话，你会以为是他的哥哥
                   - If you heard him talk on the phone,you would take him for his brother.
                      - 假设语气，前后时态应该一致且都为过去式
-                     - 这里的 heard 是 hear 的过去分词
+                     - 这里的 heard 是 hear 的过去式
                2. I would give you anything to go to the concert.（如果你去音乐会，我会给你任何东西）
                   - 由 would 是过去式推测出这是假设的虚拟语气，所以不定式作条件
                   - I would give you anything,if I could go to the concert.
