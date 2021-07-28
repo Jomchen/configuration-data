@@ -280,8 +280,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：101 集
-   - 看视频学习进度：the <7305> line 
+* 谢孟媛英语视频 高中部分复习进度：102 集 17:27
+   - 看视频学习进度：the <7325> line 
    - 复习进度 2416 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
@@ -7306,13 +7306,20 @@
       1. 简单式
          1. 表习惯
             - I always drink coffee for breakfast. 我早上总是喝咖啡（我总是喝咖啡当早餐）
+            - My family go to church on Sundays. # 我的家人每逢星期天都去教堂
+               - ## 注意 Sundays 而不是 Sunday
+               - ## 因为表示了习惯在很多个周日的活动，是经常性的，所以是 sundays
          2. 表不变的真理及事实
-            - The earth goes around the sun. 地球围绕太阳转
+            - The earth goes around the sun.         # 地球围绕太阳转
+            - Water consists of hydrogen and oxygen. # 水是由氢和氧组成的
+            - Three times four is/are twelve.        # 3乘以4是12
          3. 表示眼前的动作或状态
-            - Here comes the bus. 公车来了
+            - Here comes the bus. # 公车来了
+            - I see some sparrows on the roof. # 我看到屋顶上有一些麻雀
          4. 表确定的未来，计划（因为确定的未来相当于是 真理或事实，那么就可以当做第二条准则使用）
             - 一定要是明确的，计划，确定的 未来
             - Tomorrow is Mother's Day. 明天是母亲节
+            - Our flight leaves at 11:45. # 我们的航班在 11:45 离开
          5. 主要子句为未来式时，表时间，条件的副词子句用现在式 
             1. The birds will fly south when winter come. 冬天鸟会飞到南方
             2. What will consumers do if prices rise? 如果涨价了，消费者会怎样
