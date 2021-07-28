@@ -280,8 +280,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：99 集
-   - 看视频学习进度：the <7179> line 
+* 谢孟媛英语视频 高中部分复习进度：101 集
+   - 看视频学习进度：the <7305> line 
    - 复习进度 2416 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
@@ -7179,7 +7179,7 @@
                - 这里的 every kindness 充当整体
       - every
          - 概念
-            - every + 基数 + 复数名词（每隔...）
+            - every + 基数 + 复数名词（每隔.../反复.../重复...）
             - every + 序数 + 单数名词
          - 举例
             - 情况1
@@ -7190,11 +7190,14 @@
                    - 注重：从 A 数数，数到第四个即 E
             - 情况2
                - I come here every other week. 我每隔一周来这一次（因为隔了一周，其实就是每两周来一次）
+                  - hold # v.举办... v.保持...
+                  - 也可以用 every second week，但是这种用法比较少
                - I come here every two weeks. 我两周来一次（来的那次是包含在这两周内的）
       - either / neither
          - 概念1
             - either 两者中任一都...（随便一个的肯定）
             - neither 两者中任一都不...（两者的否定）
+            - 通常这两个是根单数
             - 举例
                1. Either of the two answers will do. 两个回答的任意一个都可以
                   - 这里的 either 作 代名词
@@ -7209,9 +7212,10 @@
                   - 注意单数动词的使用，这里用的 was
                6. Neither of the titles is suitable for the essay. 这两个短文都不适合这篇短文
          - 概念2 
-            - either /neither （也不）
+            - either / neither （也不）
             - 举例
-               - Bill didn't come to the party,and Jack didn't either. 比利没来派对，杰克也没有来
+               - Bill didn't come to the party,and Jack didn't, either. 比利没来派对，杰克也没有来
+                  - either 解释成“也不”时，肯定会配上 not
                - Bill didn't come to the party,and neither did Jack. 比利没来派对，杰克也没有来（否定提前，应用倒装）
                - 注意：Bill came to the party, and Jack did,too. 比利没来派对，杰克也没来
                - 注意：Bill came to the party, so did Jack. 比利没来派对，杰克也没来（这里 so 解释成“如此”，且是副词，所以倒装句）
@@ -7221,7 +7225,8 @@
       - no / none
          - no + 单数名词/复数名词
             - no = not a/an/any
-            - He has no money. 他没有钱 = He doesn't have any money.
+            - He has no money. 他没有钱 
+               - 等价 He doesn't have any money.（not 和 any 合并为 no，doesn't 没有了 not 后就没有了 does，但是第三人称后根三单，所以转为 has）
             - She has no children. 她没有孩子
             - The policeman arrived in no time. 警察立刻就出现了（警察在没有时间之内到达）
          - not => 不~；no => 绝非~
@@ -7237,30 +7242,34 @@
             - None of the information is useful. 没有一条信息是有用的
                - information 不可数，所以用 is
             - It's none of your business. 不关你的事/多管闲事
-         - somebody ~ / something ~
-            - somebody + 形容词
+         - somebody ~ / something ~ 系列
+            - something/anything/everything/nothing
+            - somebody/anybody/everybody/nobody
+            - someone/anyone/everyone/ no one
+            - someXXX + 形容词
                - 其它的
                   - other + 名词
                   - else
-                     - 疑问词 + else
+                     - 疑问词 + else（who else 还有其它人吗）
                      - 放在 somebody... 等的后面
                - Will somebody else be present? 还有任何其它人要出席吗
+                  - else 作 somebody 的形容词
             - 所有格 -> ~body's
                - Everybody's business is nobody's business. 所有人的事就是没有人的事
             - 特殊表现
-               - He thinks he is somebody. 他以为他很了不起
+               - He thinks he is somebody. 他以为他很了不起（这里的somebody翻译为“了不起的人”）
                - If you want to be anybody,you must work hard. 如果你想成为某个人，你必须努力工作
             - 惯用表现
-               - He is a lawyer or something. 他是律师类的人物
+               - He is a lawyer or something. 他是律师类的人物（这里的 or something 是根 lawyer 一类的）
                   - Are you crazy or something? 你是疯了还是怎样
-               - He would not go with (me) for anything. 他怎么样也不根我去
+               - He would not go with me for anything. 他怎么样也不根我去
                - Peter isn't called a playboy for nothing. He had one girlfriend after another.
                   - 皮特被叫做花花公子不是没有道理的，他在另一个女朋友之后有了一个女朋友
                   - 皮特被叫做花花公子不是没有道理的，他交了一个女朋友后又交了女朋友
                - He did nothing but laugh. 他只会笑（他什么都没有做，但他笑了）
                - I had nothing to do with the accident. 我和这次意外无关
-                  - I had much to do with ... 我和...很有关
-                  - I had little to do with ... 我和...有一点关
+                  - I had much to do with ... 我和...很有关系
+                  - I had little to do with ... 我和...有一点关系
                - He is nothing but a fool. 他就是个笨蛋（他什么都不是，但就是个笨蛋）
 
 
@@ -7282,19 +7291,21 @@
          - 现在完成式 She has written a letter.
          - 过去完成式 She had written a letter.
          - 未来完成式 She will have written a letter.
+            - 这里的 have 是准助动词
       - 完成进行式 has/have/had + being + p.p.
          - 现在完成进行式 She has been writing a letter.
          - 过去完成进行式 She had been writinga letter.
          - 未来完成进行式 She will have been writing a letter.
+            - 这里的 have 是准助动词
    - 举例
-      - Everything is in order. 每样东西是有序的
-      - Everything is out of order. 每样东西是无序的
-      - Joe owns a house by the sea. Joe 有楼在海边的房子
+      - Everything is in order.      # 每样东西都是井然有序的
+      - Everything is out of order.  # 每样东西都是无序的
+      - Joe owns a house by the sea. # Joe 有栋在海边的房子
 
    - 时态
       1. 简单式
          1. 表习惯
-            - I always drink coffee for breakfast 我早上总是喝咖啡（我总是喝咖啡当早餐）
+            - I always drink coffee for breakfast. 我早上总是喝咖啡（我总是喝咖啡当早餐）
          2. 表不变的真理及事实
             - The earth goes around the sun. 地球围绕太阳转
          3. 表示眼前的动作或状态
