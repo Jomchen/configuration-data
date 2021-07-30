@@ -282,7 +282,7 @@
 
 * 谢孟媛英语视频 高中部分复习进度：99 集
    - 看视频学习进度：the <7179> line 
-   - 复习进度 2416 line
+   - 复习进度 2526 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
       - 有争议，是岁数大还是岁数小？
@@ -2448,7 +2448,7 @@
                - 等价于 so adj./adv. + that + S + (can) ~（如此...以至于...）
                - enough 有形容词和副词的形式，形容词可以等于sufficient，副词等于sufficiently
                1. She was kind enough to offer me her seat. # 她好心让位给我
-                  - She was so kind that she offered me.
+                  - She was so kind that she offered me her seat.
                   - 这两个 enough 是副词
                2. I have an enough income to support you. # 我有足够的薪水可以养你
                   - 这个 enough 是形容词
@@ -2493,7 +2493,7 @@
                3. 表思考，认为：think（认为）, believe（相信）, consider（认为）, find（发现）, recognize（认为，认出）等
                   - We believe him to be honest. # 我相信他是诚实的
                      - We believe (that) he is honest.
-                  - I thought the idea to be practical. # 我认为这个注意是实际的
+                  - I thought the idea to be practical. # 我认为这个主意是实际的
                      - I thought (that) the idea is practical. # 我认为这个注意是实际的
             4. 表依赖，建议，要求，命令
                - 举例的词
