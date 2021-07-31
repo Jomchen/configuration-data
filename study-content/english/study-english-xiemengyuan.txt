@@ -280,8 +280,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：102 集 17:27
-   - 看视频学习进度：the <7325> line 
+* 谢孟媛英语视频 高中部分复习进度：103 集 13:11
+   - 看视频学习进度：the <7351> line 
    - 复习进度 2416 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
@@ -296,6 +296,7 @@
    - 中级 37 集，no more than 系列
    - 中级 38 集，what about 系列
    - 中级 40 集，附加疑问句
+   - 中级 102 集，过去式的发音和变形
 
 没有搞清楚的问题：
  - 替代
@@ -7321,12 +7322,29 @@
             - Tomorrow is Mother's Day. 明天是母亲节
             - Our flight leaves at 11:45. # 我们的航班在 11:45 离开
          5. 主要子句为未来式时，表时间，条件的副词子句用现在式 
-            1. The birds will fly south when winter come. 冬天鸟会飞到南方
+            1. The birds will fly south when winter comes. 冬天鸟会飞到南方
             2. What will consumers do if prices rise? 如果涨价了，消费者会怎样
    
       2. 过去式
+         - 规则变化
+            - 原型字尾加 ed - 发音 [t][d][Id]
+               - helped[t] | opened[d] | started[Id]
+            - 原型字尾有 e，则加d，liked[t], moved[d]
+            - 原型字尾为子音 + y，则去掉y + ied，studied[Id], applied[Id]
+            - 原型字尾为短母音加子音，则重复字尾加 ed
+               - stop -> stopped[t], rob -> robbed[d]
+            - 注意2个母音字母的动词，2个子音字母的动词或子音有2个的动词，加ed即可
+               - look -> looked[t], jump -> jumped[t], mix -> mixed[t]
+               - oo              um              x必音[ks]
+            - 原型字尾为 c 之动词，
+               - picnic -> picnicked, panic -> panicked
+         - 不规则变化
+            - buy/bought, bring/brought, sell/sold, find/found
          - 表明过去的动作或状态
-            - These was a traffic jam on the expressway. 在高速公路上有堵车
+            - These was a traffic jam on the expressway. # 在高速公路上有堵车
+            - Suntanned men and women strolled along the beach. # 晒黑的男人和女人沿着海滩漫步
+               - 名词性的 stroll -> take a stroll # 漫步
+               - stroll # n. 漫步 v. 漫步
          - 表示过去的习惯
             - I usually rode my bicycle to school when I was a school boy. 当我还是个学童的时候，我通常骑我的自行车去学校
             - We used to swim in the river. 我们过去习惯在这条河里游泳
