@@ -280,9 +280,9 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：103 集 13:11
-   - 看视频学习进度：the <7351> line 
-   - 复习进度 2416 line
+* 谢孟媛英语视频 高中部分复习进度：106 集
+   - 看视频学习进度：the <7525> line 
+   - 复习进度 2526 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
       - 有争议，是岁数大还是岁数小？
@@ -2449,7 +2449,7 @@
                - 等价于 so adj./adv. + that + S + (can) ~（如此...以至于...）
                - enough 有形容词和副词的形式，形容词可以等于sufficient，副词等于sufficiently
                1. She was kind enough to offer me her seat. # 她好心让位给我
-                  - She was so kind that she offered me.
+                  - She was so kind that she offered me her seat.
                   - 这两个 enough 是副词
                2. I have an enough income to support you. # 我有足够的薪水可以养你
                   - 这个 enough 是形容词
@@ -2494,7 +2494,7 @@
                3. 表思考，认为：think（认为）, believe（相信）, consider（认为）, find（发现）, recognize（认为，认出）等
                   - We believe him to be honest. # 我相信他是诚实的
                      - We believe (that) he is honest.
-                  - I thought the idea to be practical. # 我认为这个注意是实际的
+                  - I thought the idea to be practical. # 我认为这个主意是实际的
                      - I thought (that) the idea is practical. # 我认为这个注意是实际的
             4. 表依赖，建议，要求，命令
                - 举例的词
@@ -7350,15 +7350,21 @@
             - We used to swim in the river. 我们过去习惯在这条河里游泳
          - 表经验，多随着 ever,never 等
             - I never heard from him before. 我以前从来没有他的消息
+               - hear from + 人 # 得到...（人）的讯息
             - Did you ever see a panda? 你曾经看到过熊猫吗
    
       3. 未来式
+         - will 纯粹表示未来；be going to 表示未来要做的动作且经过事先的计划或安排（要到了的年龄不能用 be going to，因为年龄不是计划性的）
+            - Will it rain tomorrow? # 明天会下雨吗？
+            - My brother will be twenty next year. # 我哥明年就20岁了
+            - I will give you my answer. # 我明天会给你答案
+            - The telephone is ringing. --OK,I'll answer it. 电话在响（另外一个人说的），我来接
+            - What are your plans for tonight? # 你今晚有什么计划呢？
+               - I'm going to meet a friend for dinner. # 我约了一个朋友吃晚餐
          - be going to 表示未来式
             - I'm going to learn how to drive a car. 我打算学习如何开车
             - Are you going to sell that car? 你打算出售那辆车吗
-            - My dog is very ill.I'm afraid he's going to die. 我的狗病得很严重，我怕他快死了
-         - 注意：will 纯粹表示未来；be going to 表示未来要做的动作且经过事先的计划或安排（要到了的年龄不能用 be going to）
-            - The telephone is ringing. --OK,I'll answer it. 电话在响，我来接
+            - My dog is very ill.I'm afraid <that> he's going to die. 我的狗病得很严重，我怕他快死了
          - 一般现在式，现在进行式 表将来
             - Please take your seats;the performance is about to begin. 请就坐，演出要开始了
                - is about to （在时间很短暂的未来使用，即将发生的未来）
@@ -7369,12 +7375,24 @@
                - on the point of 在...的时间点上
             - The President is to make address. 总统将在今晚的电视上演讲
                - beV + 不定词 也可以表未来
+               - President # 总统
+               - president # 董事，总裁
    
       5. 现在进行式 => am/are/is + 现在分词(Ving)
          - 分词
             - 现在分词(Ving)
                - 动作进行
                - 主动
+               - 形成
+                  - 原型字尾加ing => play-playing, work-working
+                  - 原型字尾有e，去掉e并加ing => come-coming, write=writing, have-having
+                  - 注意 die-dying, lie-lying, dye-dyeing
+                  - 原型字尾为短母音加子音，则重复字尾加ing, spur-spurring, begin-beginning, bar-barring
+                     - bar # n. 酒吧 n. 长条状的物体 v. 阻拦，阻碍，禁止
+                  - 最后重音节为短母音加子音时，则重复字尾加ing admit-admitting, occur-occurring
+                     - admit 的 a 和 i 是两个母音，形成ad,mit两个音节
+                  - 原型字尾为c则加k再加ing
+                     - picnic-picnicking, panic-panicking
             - 过去分词(p.p.)
                - 动作完成
                - 被动
@@ -7383,10 +7401,11 @@
                - Where is Jack? -- He is playing tennis with Bob now. 杰克在哪里？-- 他正在和饱博打网球
                - Why are you driving so fast?You usually drive very carefully. 你为什么开得这么快？你通常开得很小心
                - John,you are being naughty. 约翰，你很调皮
-            - 现在发生的反复的动作，多伴随者 always,all the time, constantly, repeatedly 等
-               - Tom is always interrupting me when I'm talking. 汤姆一直打断我，当我讲话的时候
+            - 现在发生的反复的动作，多伴随者 always,all the time, constantly（持续不断地）, repeatedly（反复地） 等
+               - Tom is always interrupting me when I'm talking. 汤姆 一直/老是 打断我，当我讲话的时候
                   - 这种情况 always 通常翻译为“一直，老是”
-               - You're constantly making excuses. 你一直在找借口
+               - You're constantly making poor excuses. 你老是一直在找很烂的借口
+                  - 这里的 poor 是修饰 excuses 的，翻译为“很烂，很糟糕的”
             - 表示未来
                - He is dying. 他要死了
                - They are opening a new boutique at the street corner. 他们要在街角开一家新的精品店
@@ -7407,13 +7426,14 @@
             - I was washing dishes when my wife came home. 当我妻子回家时，我正在洗盘子
             - They were suffering from influenza. 他们患有流行性感冒
          - 表示过去习惯性的行为
-            - At a teenager,he was always causing trouble for others. 在青少年，他老人给别人制造麻烦
-            - In those days,we were getting up at seven o'clock. 在那些日子，她在七点钟起床
+            - At a teenager,he was always causing trouble for others. 在青少年，他老是给别人制造麻烦
+            - In those days,we were getting up at seven o'clock. 在那些日子，我们在七点钟起床
          - 以过去某一个时间点为基准，可确定的未来或计划
             - I thought you were coming home at six. 我认为你要在六点钟回来
             - He was coming to see me yesterday,but he didn't. 他昨天要去看你，但是他却没有
          - 表示过去反复的动作，常伴随 continually,constantly 等
             - She was constantly seeking the topic for a novel. 那个时候她一直在寻找写小说的题材
+               - hide-and-seek # 捉迷藏
 
       7. 未来进行式 => will be Ving
          - 表示未来某一时间点正在进行的动作
@@ -7427,9 +7447,9 @@
             - ABC型
                - drink-drank-drunk
                - break-broke-broken
-               - rise-rose-risen（升起，举起）（这个是不及物动词）
+               - rise-rose-risen（升起）（这个是不及物动词，一般是太阳的升起）
             - ABB型
-               - raise-raised-raised（升起，举起）（这个是及物动词）
+               - raise-raised-raised（升起，举起）（这个是及物动词，一般是手的举起来）
                - buy-bought-bought
                - sleep-slept-slept
                - feed-fed-fed
@@ -7439,45 +7459,68 @@
                - run-ran-run
             - AAA型
 	       - cost-cost-cost
-	       - hit-hit-hit
+	       - hit-hit-hit # v. 打击 n. 最红的人/事/物
+	          - strike # n. 打击（一般棒球击中的好球，用这个词表示，而不用well, good）
 	       - set-set-set
+	          - a set of n. # 一套...
             - 特别注意的动词三态
                - fall-fell-fallen
                - fell-felled-felled
                - feel-felt-felt
+                  - sleepy # adj. 困乏的，困倦的（想睡但是没有睡着）
+                  - asleep # adj. 睡着的（已经睡着了）
+                  - fall asleep # 睡着了
+                  - feel sleepy # 感觉很困倦
                - find-found-found（找，寻找）
-               - fine-fined-fined
+               - fine-fined-fined # 罚款
                - found-founded-founded（建立，成立）
-               - lie-lied-lied
-               - lie-lay-lain
-               - lay-laid-laid
+               - 特别注意
+                  - lie-lied-lied # 说谎
+                  - lie-lay-lain  # 躺
+                  - lay-laid-laid # 下蛋
+               - seesaw # n. 跷跷板 adv. 上下
                - see-saw-seen
-               - saw-sawed-sawn/sawed
-               - sew-sewed-sewed/sewn
+               - saw-sawed-sawn/sawed # v. 锯 n. 锯子
+               - sew-sewed-sewed/sewn # 缝纫，绣
                - fly-flew-flown
                - flee-fled-fled
+               - flea # 跳zao
                - flow-flowed-flowed
-               - hang-hung-hung
-               - hang-hanged-hanged
-               - shine-shone-shone
-               - shine-shined-shined
-               - bind-bound-bound
-               - bound-bounded-bounded
-               - wind-wound-wound
-               - wound-wounded-wounded
+               - hang-hung-hung         # 挂
+               - hang-hanged-hanged     # 吊
+               - shine-shone-shone      # 闪耀（一般指本身就很亮的）
+               - shine-shined-shined    # 亮的（一般指擦一擦就亮的）
+               - bind-bound-bound       # 绑
+               - bound-bounded-bounded  # 绑（一般指限制的绑，比如人被绑起来了）
+               - wind-wound-wound       # v. 飘，缠绕，萦
+               - wound-wounded-wounded  # 受伤（指物理上的伤害）
             - 使用时机
                - 表示从过去持续到现在的动作
                   - I have known Paul since we were children.
                   - 好久不见
                      - I haven't seen you for a long time.（for a long time 可以替换为 for years/ages）
+                        - for a long time 也可以替换为 for years/ages
                      - It has been a long time since I last saw you.
+                     - Long time no see.
                - 表示动作或事件的完成
-                  - I've just finished the work. 我刚刚完成了这个工作
+                  - I've just finished the work. # 我刚刚完成了这个工作
+                  - Has it struck seven yet? # 已经七点了吗？
                - 表示经验
-                  - I have visited New York twice. 我参观过纽约两次
+                  - I have visited New York twice. # 我参观过纽约两次
+                  - Have you ever taken the MRT?   # 你坐过捷运吗？
+                     - Subway     # 地铁（美国的称呼）
+                     - Uderground # 地铁（英国的称呼）
+                     - MRT        # 地铁（台湾的称呼）
                - 现在完成式及过去式的不同
-                  - My brother went to China yesterday. 我哥昨天去了中国（人已经回来了）
-                  - My brother has gone to China. 我哥哥去了中国（现在不在这里，在去中国的路上或已经到了中国）
+                  - 语法
+                     - has/have been to + 地点 -> 曾经去过了
+                     - has/have gone to + 地点 -> 已经去了
+                  - 例句
+                     - I have been to the airpart to see my uncle off. # 我为我叔叔送过行
+                     - My father has gone to HK on business. # 我父亲因公到香港去了
+                     - 重点
+                        - Did you ever see such a beautiful sunset? # 你以前看过如此美丽的日落吗？
+                        - Have you ever seen such a beautiful sunset? # 你看到过如此美丽的日落吗？
                   - I have lost my pen so I have to buy one.
                   - I lost my pen
                - 表示未来的副词子句中
