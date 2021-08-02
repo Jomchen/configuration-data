@@ -64,7 +64,7 @@
       - 48:               （音画不同步，不太严重）
       - 53: 全程音画不同步（但音画不同步率不算高，少许影响学习）
       - 54: 00:40:19 卡死
-   2. 中级：06, 14, 16，19, 28, 44, 54, 55, 66, 98, 116
+   2. 中级：06, 14, 16，19, 28, 44, 54, 55, 66, 98, 108, 116
       - 06: 00:35:46 开始没有声音或卡死
       - 14: 16:46:00 乱音，后续将没有声明（没有弥补问题文件）
       - 16: 00:54:00 突然卡顿一下
@@ -74,6 +74,7 @@
       - 55: 17:13 音画不同步（不太影响学习）
       - 66: 42:44 音画不同步（不太影响学习）
       - 98: 1:03:16 音画不同步（不太影响学习）
+      - 108: 09:40 之前音画不同步（不太影响学习）
 
 不清楚的集数：
    - 1504 line 的附加疑问句
@@ -280,8 +281,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：106 集
-   - 看视频学习进度：the <7525> line 
+* 谢孟媛英语视频 高中部分复习进度：110 集 05:19
+   - 看视频学习进度：the <7682> line 
    - 复习进度 2526 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
@@ -7521,8 +7522,10 @@
                      - 重点
                         - Did you ever see such a beautiful sunset? # 你以前看过如此美丽的日落吗？
                         - Have you ever seen such a beautiful sunset? # 你看到过如此美丽的日落吗？
-                  - I have lost my pen so I have to buy one.
-                  - I lost my pen
+                     - My brother went to Kenting yesterday.
+                     - My brother has gone to Kenting.
+                     - I have lost my pen so I have to buy one.
+                     - I lost my pen，but I found it later.
                - 表示未来的副词子句中
                   - Wait till I've finished my coffee. 等我喝完咖啡
                      - Wait 其实已经有未来的效果了，作副词
@@ -7532,6 +7535,7 @@
       9. 过去完成式 => had + p.p.
          - 表示到过去某一时间点为止动作或状态的持续及完成
             - The game had already begun when we arrived at the statium. 当我到达体育场时，比赛已经开始了
+            - They had known each other for ten years when they finally got married. # 当他们结婚时，他们已经互相认识10年了
          - 表过去一段时间中的经验
             - I had never spoken to a foreigner before I got into university. 我进入大学之前，我从未和外国人说过话
             - She told me the story of the opera because she had seen it before. 她告诉我这部歌剧的故事，因为在之前她看过这部歌剧
@@ -7547,11 +7551,11 @@
             - The concert will have finished by the time we get there. 我们到那里，音乐会才结束
             - The lake will have frozen by tomorrow morning. 明天早上，这个湖会结冰
          - 表示在未来某时间点前可预测的经验或持续的状态
-            - I will have failed the driving test three times if I fail tomorrow. 如果明天失败了，我会驾测失败
+            - I will have failed the driving test three times if I fail tomorrow. 如果明天失败了，我就驾测失败三次了
                - if 条件句如果是配合 未来的主句，那么条件句 可以直接用 一般式
             - You will have studied English for six years by the time you finish high school. 在你完成中学之前，你的英语会学满六年
 
-      11. 完成进行式 => have/has + been + Ving
+      11. 现在完成进行式 => have/has + been + Ving
             - 表从过去某一时间点到现在为止会可能再持续或反复的动作
                - I have been doing this puzzle for 20 minutes. 我已经拼图20分钟了
                - How long have you been waiting here? 你在这里等多久了
@@ -7560,10 +7564,11 @@
 
       12. 过去完成式 => had been Ving
          - 从过去的以前到去过，再进行下去
-            - They had been searching for six months,when they found the treasure. 当他们找到宝藏时他们搜索了六个月（可能还会继续搜下去）
+            - They had been searching for six months,when they found the treasure. 当他们找到宝藏时他们搜索了六个月（可能还会继续搜下去，山里可能还有宝藏）
             - we had been going to paris for advanced study,but we never went. 我们早就打算去巴黎留学，但我们从未出发
 
       13. 未来完成进行式 => will have been Ving
+         - 表到未来某一时间点为止，仍然在继续进行的动作
          - You will have been studying English for five years by next March. 到明年三月你英语就学满五年了
          - She will have been teaching Japanese for ten years by next April. 到明年四月她就教日语十年了
 
@@ -7571,9 +7576,9 @@
       - 过去往未来预测，那么那个未来还是在过去，不会跨到现在（依据叙述不能往后跨越一个阶段），只不过比过去更靠未来一点
       - 时态的一致
          - 例子1
-            - My sister knows that I love the girl. 我姐姐知道我喜欢这个女孩
-            - My sister knows that I loved the girl. 我姐姐知道我喜欢过这个女孩
-            - My sister knows that I will fall in love with the girl. 我姐姐知道我会爱上这个女孩
+            - My sister knows that I love the girl. 我姐姐知道我喜欢这个女孩（知道我现在爱女孩）
+            - My sister knows that I loved the girl. 我姐姐知道我喜欢过这个女孩（知道我爱过女孩）
+            - My sister knows that I will fall in love with the girl. 我姐姐知道我会爱上这个女孩（知道我未来会爱上女孩）
          - 例子2
             - My sister knew that I loved the girl. 我姐姐当时知道我喜欢那个女孩
             - My sister knew that I had loved the girl. 我姐姐当时知道我喜欢过那个女孩
@@ -7585,6 +7590,20 @@
             - She will say                    she has been free lately.
                                               she will be free tomorrow.
                                               she had been busy before.
+            ```
+         - 例子4
+            ```
+                                     he did it./he was doing it.
+                                     he had done it.
+            He said     that         he had been doing it.
+                                     he would do it.
+                                     he would have done it.
+                                     he would have been doing it.
+            ```
+         - 例子5
+            ```
+            He had said     that     he hadn't done it.
+            He had said     that     he had been here for two hours.
             ```
          - 时态的例外
             - 不变的真理 -> 现在式
@@ -7599,7 +7618,7 @@
                   - 不可能每个学校都是在八点开始，而且这里的 school 是抽象的，所以只能是学校内部的活动
             - 历史的事实 -> 一般过去式
                - The teacher said that Columbus discovered America in 1492. 哥伦布是在 1492 年发现新大陆的
-               - He said that World in War 2 ended 1945. 她说过 第二次世界大战是在 1945年结束的
+               - He said that World in War 2 ended in 1945. 她说过 第二次世界大战是在 1945年结束的
             - 假设语气 -> 不受时态一致的限制
                - If he were a bird,he could fly. 如果他是一只鸟，他就能飞（纯假设语气）
                - He says/said if he were a bird,he could fly.（前面不管什么时态，假设语气不受时态一致的影响，假设语气该什么时态自己就什么时态）
@@ -7623,7 +7642,7 @@
                         - 时态一致，前面是过去式，在叙述她说也应该是过去式
                   2. The student answered,"An hour consists of sixty minutes."
                      - The student answered that an hour consists of sixty minutes.
-                        - 一小时由六时分组成是不变的真理，所以后面只用一般式
+                        - 一小时由六十分组成是不变的真理，所以后面只用一般式
                   3. Helen answered,"The rain has stopped."
                      - Helen answered that the rain had stopped.
                         - 由原句可知海伦说话发生在过去，而说的话又是在过去为中心的过去完成式
@@ -7631,17 +7650,17 @@
 
             - 人称代名词的变化
                1. She always says,"I don't like my hairstyle."
-                  - She always says (that) she doesn't like her hair style.
+                  - She always says <that> she doesn't like her hairstyle.
                   - 注意 I 变成了 she
                   - 注意 don't 变成了 doesn't
                   - 注意 my  变成了 her
-               2. I said to her,"I'm sorry you don't understand me."
-                  - I told her (that) I was sorry she didn't understand me.
+               2. I said to her,"I'm sorry you don't understand me." # 我对她说，“你不理解我实在太遗憾了”
+                  - I told her <that> I was sorry she didn't understand me.
                   - 注意 said 改为了 told 并且 去年了 to
                   - 注意 am 改为了 was
                   - 注意 you 改为了 she
                   - 注意 don't 改为了 didn't
-               3. She said,"I read this book."
+               3. She said,"I read this book." # 她说，“我已经看过这本书了”
                   - She said that she had read that book."
                   - 注意 第一句的 read 是过去式，第二句的 read 是完成式
                   - 注意 this 改为了 that
@@ -7660,6 +7679,7 @@
             - 转变注意
                - 主词 say[said] to A,"直述句"
                - 主词 tell[told] A (that) 直述句
+                  - 这里教程写的是 直述句，但是根据经验，感觉应该是 转述句
             - 概念
                - 主要子句的动词有时须改变
                - 补充连接词，代名词须改变
