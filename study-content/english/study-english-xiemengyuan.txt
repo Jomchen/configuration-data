@@ -281,8 +281,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：110 集 05:19
-   - 看视频学习进度：the <7682> line 
+* 谢孟媛英语视频 高中部分复习进度：112 集
+   - 看视频学习进度：the <7788> line 
    - 复习进度 2526 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
@@ -7632,7 +7632,7 @@
       - 叙述法
          - 举例
             - Bill says,"I hate math."（直接叙述法）
-            - Bill says (that) he hates math.（间接叙述法）
+            - Bill says <that> he hates math.（间接叙述法）
                - 间接叙述法需要把内容的时态描述为应该所在的时态
 
          - 直接叙述法及间接叙述法的不同
@@ -7677,8 +7677,8 @@
                - here -> there
          - 直接叙述句 -> 间接叙述句
             - 转变注意
-               - 主词 say[said] to A,"直述句"
-               - 主词 tell[told] A (that) 直述句
+               - 主词 say[said] to 人,"直述句"
+               - 主词 tell[told] 人 <that> 直述句
                   - 这里教程写的是 直述句，但是根据经验，感觉应该是 转述句
             - 概念
                - 主要子句的动词有时须改变
@@ -7686,17 +7686,17 @@
                - 间接叙述句的动词，须注意时态
                - 副词随内容做改变
             - 举例
-               1. Mr.Wang said to me,"You will be able to get a free concert ticket at the charity bazaor tomorrow."
+               1. Mr.Wang said to me,"You will be able to get a free concert ticket at the charity bazaor tomorrow." # 王先生告诉我，“你明天会在慈善义卖会上得到一张免费的音乐会门票”
                   - Mr.Wang told me that I would be able to get a free concert ticket at the charity bazaor the next day.
                   - 注意 told, I, would, the next day
          - 直述句的间接叙述句
             - 转变注意
-               - 主词 say[said] to A,"直述句"
-               - 主词 tell[told] A (that) 直述句
+               - 主词 say[said] ,"直述句"
+               - 主词 say[said] <that> 直述句
             - She said,"I'm going to quit my job." 她说，“我打算辞掉我的工作”
-               - She said (that) she was going to quit her job.
+               - She said <that> she was going to quit her job.
             - She said to me,"I can go to the movies with you tomorrow." 她说，“我明天可以和你去看电影”
-               - She told me (that) she could go to the movies with me the next day"
+               - She told me <that> she could go to the movies with me the next day"
          - 疑问句的间接叙述句
             - 疑问词问句 转变注意
                - 主词 + say(to A), "WH问句"
@@ -7721,26 +7721,26 @@
                - 主词 say to A,"命令句"
                - 主词 tell A to v.
             - 词性
-               - 命令 -> order,command 等
+               - 命令 -> tell, order, command 等
                - 要求 -> ask, beg, request 等
                - 劝告 -> advise 等
                - 提议 -> suggest, propose 等
                - 禁止 -> forbid, prohibit 等
             - 举例
-               - Mother said to me"come back home by five."
+               - Mother said to me,"come back home by five."
                   - Mother told me to come back home by five.
                - My father said to me,"Don't give up your hope."
-                  - My father told me not to give up my hope.
+                  - My father told me not/never to give up my hope.
                - His secretary said to me,"Please call back after lunch."
                   - His secretary asked me to call back after luch, please.
                   - 因为直述句中有 please，有客气的成分，所以 把 told 改成了 asked
                - 注意：order,command,request,suggest 等时，其后常接 that 子句，而 that 子句中的 should 在美语中，通常省略
-                  - I suggest that he (should) study hard. 我建议他应该用功读书
+                  - I suggest that he <should> study hard. 我建议他应该用功读书
                - He said to me,"You should give up smoking."
                   - He advised me to give up smoking.
                   - 因为从语境中其实是 轻微的的语气，所以这里改为了 advised
                - She said,"Let's go for a walk."
-                  - She suggested that we (should) go for a walk.
+                  - She suggested that we <should> go for a walk.
                - 重点：表示禁止的否定祈使句，用 forbid, prohibit 等
                   - The teacher said to us,"Don't leave your seats."
                      - The teacher forbade us to leave our seats. 这个老师禁止我们离开我们的座位
@@ -7755,13 +7755,15 @@
                   - shout：喊叫，呼叫
                   - sigh：叹，感叹，欢息
                3. 伴随动词的副词有：gladly（快乐地）,regretfully（遗憾地）,bitterly（很苦闷地）,with joy,with delight,with relief 等
+                  - 注意：with + 名词 = 副词
+                     - He looked at me angrily. = He looked at me with anger.
             - 举例
                - Ms.Lee said,"What a good idea you have!"
                   - Ms.Lee said that I had a very good idea.
                   - Ms.Lee shouted that I had a very good idea.
-               - She said,"How convenient on-line shopping is!"
+               - She said,"How convenient on-line shopping is!" # 她说，线上购物多么方便啊
                   - She exclaimed with delight how convenient on-line shopping was.（结尾的标点也可以用 “!”）
-                  - She said (that) on-line shopping was very convenient.（结尾的标点也可以用 “!”）
+                  - She said <that> on-line shopping was very convenient.（结尾的标点也可以用 “!”）
                - 重点：表祈愿时，和感叹句雷同，都是在加强情绪的表达，常用 pray,express 等动词
                   - He said,"May God help us!" 他说，“祈祷上帝能帮助我们”
                      - He prayed/expressed his wish that God might help them.
