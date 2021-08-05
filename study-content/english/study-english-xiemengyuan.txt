@@ -281,8 +281,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：112 集
-   - 看视频学习进度：the <7788> line 
+* 谢孟媛英语视频 高中部分复习进度：114 集
+   - 看视频学习进度：the <7840> line 
    - 复习进度 2526 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
@@ -7787,11 +7787,11 @@
                      - He told me that I would be late unless I got up at once.
                      - He told me if I got up at once,I would not be late.
                   - She said to me,"Wash my car,and I'll give you len dollars."
-                     - He told me to wash her car, and her would give me len dollars.
+                     - He told me to wash her car, and she would give me len dollars.
                      - He told me if I washed her car,she would give me len dollars.
          - 复句的间接叙述句
             - She said to me,"I gave him a big box of chocalates because I like him."
-               - She told me (that) she had given him a big box of chocaltes because she liked him.
+               - She told me <that> she had given him a big box of chocaltes because she liked him.
             - Joe said to me,"Do you think that she will help me."
                - Joe asked me if I thought that she would help him.
          - 有两个句子时的间接叙述句
@@ -7800,8 +7800,8 @@
                - 注意：添加了 asked (her) 作两个句子的连接
             - He said to me,"Your face looks familiar.Have you ever been on television?"
                - He told me that my face looked familiar and asked (me) whether I had ever been on television.
-            - "He went to the barber's an hour ago,"said his wife to me,"and I hink he will be back very soon.Will you please step in and wait?"
-               - His wife told me that he had gone to the barber's an hour before and that she thought he would be back very soon and asked me to step in and wait.
+            - "He went to the barber's an hour ago," said his wife to me, "and I think he will be back very soon.Will you please step in and wait?" # 他的妻子对我说：“他一个小时前去了理发店”，“我认为他会很快回来。你要不要进来等呢？”
+               - His wife told me that he had gone to the barber's an hour before and she thought he would be back very soon and asked me to step in and wait.
 
 * 连接词
    - 依形态分为：
@@ -7818,11 +7818,13 @@
             - Soldiers moved quickly and quietly. 士兵迅速又安静地移动
             - The book is of use and of interest. 这本书既有用又有趣
                - of + n. => adj.
+               - of use => useful, of interest => interesting
+               - 这里的 of 是介词，use 和 interest 是名词
             - Everybody sat down and the meeting began.
             - Hurry up,and you'll be in time for the train.
                - 前面半部分是祈使句，且是省略了主句等情况，所以 and 可以进行连接两个句子
             - There are magazines and magazines in that bookstore.
-            - Go and (buy) some eggs.
+            - Go <and> buy some eggs. # 去买一些鸡蛋
             - 注意：在动词 come,go,see,try,write 之后的 and，可以 代替 to 不定式中的 to，即 Go to buy some eggs.
             - Bread and butter is my favorite at breakfast 奶油面包是我最喜欢的早餐
       - 相关连接词 
@@ -7839,7 +7841,7 @@
                - 这里的 but 只是起了一个语气，明明打扰了别人，但是还是要打扰别人
             - 重点：相关连接词 not-but~（不是...而是...） 及 not only~ but also~（不仅...而且...）
                - He awns not one but two computers. 他拥有不是一个，而是两台电脑
-               - She is not only wise but (also) kindhearted. 她不仅聪明而且善良
+               - She is not only wise but <also> kindhearted. 她不仅聪明而且善良
                   - She is both wise and kindhearted.
                   - She is wise and kindhearted alike.
                   - She is wise as well as kindhearted. 她即聪明又善良
