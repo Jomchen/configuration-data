@@ -281,8 +281,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：114 集
-   - 看视频学习进度：the <7840> line 
+* 谢孟媛英语视频 高中部分复习进度：116 集
+   - 看视频学习进度：the <7924> line 
    - 复习进度 2526 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
@@ -7840,8 +7840,8 @@
             - Excuse me,but could you tell me the way to the station? 对不起，你能告诉我去车站的路吗
                - 这里的 but 只是起了一个语气，明明打扰了别人，但是还是要打扰别人
             - 重点：相关连接词 not-but~（不是...而是...） 及 not only~ but also~（不仅...而且...）
-               - He awns not one but two computers. 他拥有不是一个，而是两台电脑
-               - She is not only wise but <also> kindhearted. 她不仅聪明而且善良
+               - He awns not one but two computers. # 他拥有不是一台，而是两台电脑
+               - She is not only wise but <also> kindhearted. # 她不仅聪明而且还善良
                   - She is both wise and kindhearted.
                   - She is wise and kindhearted alike.
                   - She is wise as well as kindhearted. 她即聪明又善良
@@ -7849,12 +7849,14 @@
             - 重点：下列句子中动词的单复数
                   - Both you and I are in the wrong.（bot and 的情况 动词是以 and 为准，and 肯定是复数）
                   - Not only you but also I am in the wrong（not only but also 的情况 动词以靠近的词作判断，这里即 but also 后面的 I 判断）
+                     - 如果这里r I 改为 he，那么 am 改为 is
                   - You as well as I are in the wrong.（as well as 的情况，动词以第一个 as 前面，即 You 作判断）
+                     - 如果这里的 You 改为 He，那么 are 应该是 is
          - or（或者；否则）
             - Do you want to go on foot or by bus? 你想步行还是乘公车去
             - This is a picture of an igloo or Eskimo snow house. 这是个雪屋即艾斯基摩人雪屋的照片
                - 这里的 or 翻译成 “即”
-            - You had better take a taxi,or you'll your miss appointment. 你最好乘出租车，否则你会错过你的约会
+            - You had better take a taxi,or you'll miss your appointment. 你最好乘出租车，否则你会错过你的约会
                - had better 后面的动词 一定要是 原型
          - 重点：相关连接词 either~or~ 不是...就是...）和 neither / nor
             - either...or... 不仅仅是相关连接词，还是对等连接词
@@ -7862,9 +7864,9 @@
                - Either you leave the house or I'll call the police. 不是你离开这个家就是我报警
                - Either you or Jane is in the right. 不是你就是简是正确的
             - neither（也不） / nor（也不）
-               - I've not visited the North Pole,neither/nor do I plan to.
-                  - I have not visited the North Pole. 我没有参观过北极
-                  - I don't plan to visit the North Pole. 我不打算参观北极
+               - I've not visited the North Pole,neither/nor do I plan to. # 我没有参观过北极，我也不打算去
+                  - I have not visited the North Pole. # 我没有参观过北极
+                  - I don't plan to visit the North Pole. # 我不打算参观北极
                   - 以上两句的二合一，并且有省略多余部分
                - Tom is not good at math. -- Neither/Nor am I. 汤姆不擅长数学，我也不擅长
                - 注意：neither或nor 为否定字，不可和not 连用，用倒装句
@@ -7874,12 +7876,12 @@
                   - 注意 admits 和 denies 这里是 第三人称单数的形式
                - Neither my brother nor I have been invited. 我哥哥和我都没有被邀请
          - so（所以）
-            - 只能连接两个子句
+            - so 翻译为“所以”时，这个对等连接词只能连接两个子句
             - The buss broken down,so I was late (for school/work). 公车故障，所以我（上学/工作）迟到了
             - I practiced my speech hard,so I won a prize in the contest.我努力练习，所以能在演讲比赛中得奖
          - for（因为）
             - I am sleepy today,for I coundn't sleep well last night. 我今天很想睡觉，因为昨晚没睡好
-               - I am sleepy today because I coundn't sleep well last night. 我今天很想睡觉，因为昨晚没睡好
+               - I am sleepy today because I couldn't sleep well last night. 我今天很想睡觉，因为昨晚没睡好
                - 注意 because 是从属连接词，所以不需要逗号
             - because 是从属连接词
             - 注意：for（因为）只能连接两个子句，为较文章式的用法，口语中多用 because，但两者用法有差别
@@ -7897,6 +7899,7 @@
                - I'm taking an umbrella with me;otherwise,I am going to get wet. 我有随身带伞，否则我会淋湿
                   - 如果 把 otherwise 改为 or 那么 “;” 应该改为 “,”
                - It may rain;nevertheless,we will start on our trip. 可能下雨，尽管如此，我们还是会开始我们的旅程
+                  - rain check 一般为承诺下一次会怎么样的时候
                - It rained that day;consequently the baseball game was called off. 那天下了雨，因此比赛取消了
                - She will come in half an hour;meanwhile,we will have coffee 她将在半小时后进来，在此同时，我们可以喝咖啡
                - His headache grew worse,but still he didn't complain. 他的头疼变得更坏了，但是他仍然没有报怨
@@ -7910,12 +7913,12 @@
             1. 引导名词子句
                - that
                   1. 当主词
-                     - 他会成功。这件事是真的
+                     - 他会成功。这件事是一定的
                         - He will succeed.The thing is certain.
                         - That he will successed is certain.
                      - Bill 通过入学考试是真的
                         - That Bill passed the entrance exam is true. （这句话显得头重脚轻）
-                        - It is true that Bill passed the entrance exam is true.
+                        - It is true that Bill passed the entrance exam.
                      - That the world's climate is getting hotter is beyond any doubt. 世界气候正在变热是无庸置疑的
                        - It is beyond any doubt that the world's climate is getting hotter.
                   2. 当补语 => that子句放在 be 动词之后充当补语
