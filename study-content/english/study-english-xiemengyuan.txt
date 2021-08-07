@@ -281,8 +281,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：116 集
-   - 看视频学习进度：the <7924> line 
+* 谢孟媛英语视频 高中部分复习进度：119 集
+   - 看视频学习进度：the <8078> line 
    - 复习进度 2526 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
@@ -2016,15 +2016,18 @@
           - 这里的 if 是副词子句，所以这里的应该遵循 第三条准则
 
     - 名词子句 => 由 that 或 whether/if（是否） + S + V ，充当 S,O,C（主词，受词，补语）
-      - I know her name. 
-      - I know that he is Jomchen.
-      - She will come. It is almost certain. => 
-        - That she will come is almost certain.（That 是连接两个句子的连接词）
-        - It is almost certain that she will come.
-      - That the world's climate is getting hotter is beyond any doubt. # 全球气候变得逐渐热起来是不用怀疑的（不用怀疑的 <=> 排除/超过 一切怀疑的）
-        - It's beyond any doubt that the world's climate is getting hotter.
-      - that子句当主要子句的补语 => 放 be 动词后，当主词补语， that 不可省略
-        - The trouble is that I have no money with me.（麻烦的事是我身上没有钱）
+      - 当受词
+         - I know her name. 
+         - I know that he is Jomchen.
+      - 当主词
+         - She will come. It is almost certain. => 
+           - That she will come is almost certain.（That 是连接两个句子的连接词）
+           - It is almost certain that she will come.
+         - That the world's climate is getting hotter is beyond any doubt. # 全球气候变得逐渐热起来是不用怀疑的（不用怀疑的 <=> 排除/超过 一切怀疑的）
+           - It's beyond any doubt that the world's climate is getting hotter.
+      - 当补语
+         - that子句当主要子句的补语 => 放 be 动词后，当主词补语， that 不可省略
+           - The trouble is that I cannot speak French. # 麻烦的事是我不能说法语
       - that子句当主要子句的受词 => 放一般动词后，当受词，that 可以省略
         - He said <that> he was thinking of moving his office from Taibei to Gaoxiong. # 他说他正考虑将办公室从台北搬到高雄去
           - 这里的 that 可以省略，moving 是动名词，因为在 of 介词后面，只能是名词
@@ -7915,7 +7918,7 @@
                   1. 当主词
                      - 他会成功。这件事是一定的
                         - He will succeed.The thing is certain.
-                        - That he will successed is certain.
+                           - That he will successed is certain.
                      - Bill 通过入学考试是真的
                         - That Bill passed the entrance exam is true. （这句话显得头重脚轻）
                         - It is true that Bill passed the entrance exam.
@@ -7925,17 +7928,20 @@
                      - The trouble is that I cannot speak French. 麻烦的是我不会说法语
                      - 在口语中会省略 that，省略时，在原处加逗点
                      - 事实上他根本不可能关心我
-                        - In fact is that he couldn't care about me in the least. 
-                        - In fact is,he couldn't care about me in the least.
+                        - The fact is that he couldn't care about me in the least. 
+                        - The fact is,he couldn't care about me in the least.
                      - 问题是，我身上没带钱
                         - The problem is that I have no money with me. 
                         - The problem is,I have no money with me. 
+                        - question mark # n. 问号
+                        - solve the problem   # 解决问题/难题
+                        - answer the question # 回答问题
                   3. 当受词
                      - 当动词的受词 -> that 引导的名词子句，若接在 say,explain,hope,wish,know 等动词后，常省略 that
-                        - I believe (that) he will do his best.
+                        - I believe <that> he will do his best.
                            - I believe that thing. 结合 He will do his best.
-                        - The radio said (that) today is the hottest day this summer. 收音机里报道说今天是今夏以来最热的一天
-                        - He said (that) he would surely come and but that he might be ten or twenty minutes late.
+                        - The radio said <that> today is the hottest day this summer. 收音机里报道说今天是今夏以来最热的一天
+                        - He said <that> he would surely come and but that he might be ten or twenty minutes late.
                            - He said that he would surely come. 他说过他会来
                            - He said that he might be ten or twenty minutes late. 他说过他可能会晚10或20分钟到
                            - 注意 but 后面的 that，因为这两句都是他讲的，但是 but 连接了两个子句，要形成子句，所以是 but that
@@ -7943,11 +7949,12 @@
                         - 重点：不可接 that 子句作受词的动词
                            - He offered that he would drive me to the station. (x)
                            - He offered to drive me to the station. (O) 他提议载我到车站
+                           - sugguest 可以根 that 子句，但是 offer 不行
                         - 重点：动词之后不能直接接 that 子句的有
                            - tell,inform,remind,assure,instruct 等
                               - He reminded that I had promised to help him. (x)
                               - He reminded me that I had promised to help him. 他提醒了我我答应过要帮助他
-                        - 重点：主词 + suggest（建议）,advise（忠告）,order（命令）,reguire（要求） 等 + that + S + (should) + v.（that 不可以省略，should 可以省略）
+                        - 重点：主词 + suggest（建议）,advise（忠告）,order（命令）,require（要求） 等 + that + S + <should> + v.（that 不可以省略，should 可以省略）
                            - It be动词 + 形容词(necessary...等） + that + S + should + v. （that 不可以省略，should 可以省略）
                            - My mother insisted that my elder sister (should) arrive back before midnight. 我母亲坚持我姐姐应该在午夜前到家
                            - It is nessary that you (should) make up your mind. 你下定决心是必要的
@@ -7963,12 +7970,12 @@
                            - I thought it rather odd that he hadn't come to the party which he had been looking forward to so much.
                               - 我认为他没有来参加他之前一直很期待的宴会很奇怪
                         - 重点： that 子句的同位格表现
-                           - I'll see to it that the doors are all fastened. 我会看看门都是栓好了
-                           - You may depend on it that we shall never give up. 你相信我们决不放弃
-                              - depend on 后面如果根人，那么解释成“依赖”
+                           - I'll see to it that the doors are all fastened. # 我会留意门都是栓好了的
+                           - You may depend on it that we shall never give up. # 你相信我们决不放弃
+                              - depend on 后面如果根人，那么解释成“依赖，依靠”
                               - depend on 后面如果根事物，那么解释成“相信”
                            - He insisted on it that he was innocent. 他坚持他是无辜的
-                           - I took it for granted that they would marry. 我把他们会结婚视为理所当然
+                           - I took it for granted that they would marry. 我把他们会结婚这件事视为理所当然
                         - 注意：当介词的受词（仅限于 but,except,in 等）
                            - I don't deny but that they still insist on their opinions. 我不否认但他们仍然还一直坚持己见
                            - I remember nothing about her except that she wore glasses. 我不记得关于她的事情，除了她带眼镜
@@ -7986,7 +7993,7 @@
                            - 等价：It is questionable whether the report is true.（这里不能用if，因为是作的补语）
                         - The problem was whether we should call on ambulance at once.  问题是我们是否应该马上叫救护车（这里不应该用 if，因为这里是作主词的补语）
                         - It depends on whether they will appear. 这件事决定于他们是否会出现（这里不能用 if，因为是介词后面的受词）
-                        - The question whether we have time to disscuss still remain. 我们是否有时间讨论的问题仍然存在（不能用if代替，因为这里是作同位格）
+                        - The question whether we have time to disscuss still remains. 我们是否有时间讨论的问题仍然存在（不能用if代替，因为这里是作同位格）
                            - 这里的 whether 不是形容词子句，而是同位格
                            - 这里 whether 是同位格，和 The question 是同位
                         - I don't care whether your car will break down or not. 我不介意你的车子是否会出故障
@@ -8004,17 +8011,21 @@
                   - 名词子句 - that+S+V，whether+S+V，疑问词+S+V
                   - 副词子句 - when+S+V,where+S+V
                - 表“时间”的从属连接词-when,as,while,after... 等
-                  - 注意：as soon as,no sooner~ than~,hardly~when,scarcely~before,immediately,the moment...等（一...就...）
-                  - As soon as she heard the bell,she turned over the test sheet. 他一听到铃声，她就翻开测验卷（这里的 heard, turned 是过去式）
+                  - 注意：as soon as,no sooner~ than~,hardly~when,scarcely~before,immediately,the moment...等 ===> 这几个词都翻译为“一...就...”
+                     - 这四个可以完全同等
+                        - hardly ~ before, scarcely ~ when
+                        - scarecely ~ before, hardly ~ when
+                     - 如果用 no sooner~than, hardly~when, scarecely~before 的“一...就 ...”时，要注意一个是过去式，一个是过去完成式，因为它们注重时间的先后，但是 as soon as 就只需要时间统一
                      - 这几个词组，不同的词组要求的时态也不一样
-                     - She had no sooner heard the bell than she turned over the test sheet.
+                        - As soon as she heard the bell,she turned over the test sheet. 他一听到铃声，她就翻开测验卷（这里的 heard, turned 是过去式）
+                        - She had no sooner heard the bell than she turned over the test sheet.
                         - No sooner had she heard the bell than she turned over the test sheet.
-                     - She had hardly heard the bell when she turned over the test sheet.
+                        - She had hardly heard the bell when she turned over the test sheet.
                         - Hardly had she heard the bell when she turned over the test sheet.
-                     - She had scarcely heard the bell before she turned over the test sheet.
+                        - She had scarcely heard the bell before she turned over the test sheet.
                         - Scarcely had she heard the bell before she turned over the test sheet.
-                     - Immediately she heard the bell,she turned over the test sheet.
-                     - The moment she heard the bell,she turned over the test sheet.
+                        - Immediately she heard the bell,she turned over the test sheet.
+                        - The moment she heard the bell,she turned over the test sheet.
                   - 直到许多天后，我才得知真相
                      - I didn't learn the truth until/till many days had passed.
                      - It was not until many days had passed that I learned the truth. 
@@ -8023,34 +8034,41 @@
 
                - 表“地点”的连接词
                   - You may go wherever you like. 你可以去你喜欢的地方（wherever = anywhere that）
-                  - Where there is a will,there is a way. 有志者，事竟成（有意志的地方就会有路）
+                  - Where there is a will,there is a way. 有志者，事竟成（有意志的地方就有路）
 
                - 表“原因；理由”的从属连接词
                   - Because Mary refused his offers,Tom was in no mod to spend weekend. 因为 Mary 拒绝他的要求，Tom失去了欢度周末的心情
-                  - Since you can't come,we had better asked for someone else for help. 既然你不能来，我们只好向别人寻求协助了
+                     - in no mod   # 没有心情
+                     - in bad mod  # 心情不好
+                     - in good mod # 心情好
+                  - Since you can't come,perhaps we had better ask someone else for help. 既然你不能来，我们只好向别人寻求协助了
+                     - had better v. # 最好做...
                   - As I was exhausted,I went to bed early. 因为我太累了，所以很早就睡了
                   - 例子 
-                  ```
-                    In the United States,the front seat next to the driver is considered the best in a private car,
-                    partly because the driver is likely to be the host himself,and partly because the front windows offers the best view.
-                  ```
-                     - 在美国，私家车中驾驶旁的前座被认为是最好的，部分因为司机本身是主人，部分原因是前窗提供一个比较好的视野
+                     ```
+                       In the United States,the front seat next to the driver is considered the best in a private car, 
+                       partly because the driver is likely to be the host himself,
+                       and partly because the front windows offers the best view.
+
+                       在美国，私家车中驾驶旁的前座被认为是最好的，部分因为司机本身是主人，部分原因是前窗提供一个比较好的视野
+                     ```
                   - I don't like her（语气上昂） because she is conservative. 
-                     - 等价：I like her but it is not because she is conservative. 我喜欢她但是不是因为她很保守
+                     - 等价：I like her but it is not because she is conservative. 我喜欢她但不是因为她很保守
                   - I don't like her（语气下降） because she is conservative.
                      - 等价：I don't like her,Because she is conservative. 我不喜欢她，因为她太保守了
-                  - Now (that) you mention it,I do remember. 现在你提到这件事情，我就真的记起它来了
-                  - Seeing (that) you do not know the fact youself,we can do nothing to help you. 你自己都不知道事实，我们做不了任何事来帮你
+                  - Now <that> you mention it,I do remember. 现在你提到这件事情，我就真的记起它来了（这里的 do 作强调）
+                  - Seeing <that> you do not know the fact youself,we can do nothing to help you. 既然你自己都不知道事实，我们做不了任何事来帮你
                - 表“目的”的从属连接词
-                  - He worked hard (so) that he might pass the exam. 他用功，那么就会通过考试
+                  - He worked hard <so> that he might pass the exam. 他用功，那么就会通过考试
                      - 等价：He worked hard,so he pass the exam. 他用功，那么就会通过考试
+                        - 这里的 so 是对等连接词，所以用了逗号
                   - I got up early so that I could catch the first train. 我起得早，以至于我能赶上第一班火车
                      - I got up early to catch the first train. 我早起为了赶上第一班火车
-                     - I got up early in so as to catch the first train.（so as to = in order to)
+                     - I got up early so as to catch the first train.（so as to = in order to)
                      - I got up early in order that I could catch the first train.
                   - He walked coutiously lest he stumbled. 他谨慎地走，以免跌倒
-                     - He wolked cautiously for fear he stumbled.（这种写法比较正式）
-                     - He walked cautiously in case he stumbled.（这种写法比较口语化）
+                     - He wolked cautiously for fear <that> he stumbled.（这种写法比较正式）
+                     - He walked cautiously in case he stumbled.（这种写法比较口语化，in case 翻译为“以免，如果”）
                      - 重点 so...that... 及 such...that... 表示“结果”（如此...以至于...）
                         - 他是如此勤奋的男孩以至于所有老师都夸奖他
                            - He is so deligent a boy that all the teacher praise him. （so 作副词）
