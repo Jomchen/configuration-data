@@ -281,8 +281,8 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：119 集
-   - 看视频学习进度：the <8078> line 
+* 谢孟媛英语视频 高中部分复习进度：120 集
+   - 看视频学习进度：the <8118> line 
    - 复习进度 2526 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
@@ -8083,7 +8083,8 @@
                   2. Though/(Although) I was very tired,I went on working. 虽然我非常累了，我仍继续工作
                      - though/Although 和 but 不能同时使用（和 because 和 so 不同同时使用是一个道理）
                   3. Even if(=>though) you don't like cheese cake,try a piece of this. 即使你不喜欢乳酪蛋糕，还是吃一片吧
-                  4. 无论下次选择输赢，我都将底支持他到底
+                     - 通常别人在照相或叫你笑一下时，会让你念 cheese，因为发这个音嘴角会形成微笑的形状
+                  4. 无论他下次选举是输还是赢，我都将支持他到底
                      - Whether he wins or loses at the next election,I'll support him to the very end.
                   5. Wherever/(No matter where) he goes,he alwasy takes an umbrella with him. 无论他去哪里，他总是随身携带一把伞
                      - 表示现在的习惯可以用一般现在式
@@ -8091,9 +8092,11 @@
                   7. Young as he is,he is an able man. 虽然她很年轻，但他是个有能力的人
                      - 这里的 as 翻译为 “虽然”
                      - Though he is young,he is an able man. 虽然她很年轻，但他是个有能力的人
-                  8. Teacher as she is,she cloes not like small children very much. 虽然她是个老师，但她非常不喜欢小孩
+                  8. Teacher as she is,she does not like small children very much. 虽然她是个老师，但她非常不喜欢小孩
                      - 这里 Teacher 是 she is 的受词，放在前面不需要加冠词
+                     - Though she is a teacher,she does not like small children very much.
                - 表“比较”的从属连接词
+                  - as...as 是原型式的比较（中间可以放：n., adj., adv.），比较一共三种：原型级，比较级，最高级
                   - I am usually as busy as I am now. 我通常像我现在一样忙
                   - I did not study so hard in my youth as you do now. 我在青年时没有像你现在这样那么努力
                   - You must read as many books as you can possible. 你必须尽可能地读许多书
@@ -8105,12 +8108,11 @@
                   - As the lion is the king of beasts,so the eagle is the king of birds. 因为狮子是百兽之王，所以鹰是百禽之王
                - 表“范围“的从属连接词
                   - As far as I know,he has nothing to do with the matter. 就我所知，他和这件事毫无关系
-                     - have ~ to do with + O（谁和什么有关系）
-                     - have much to do with + O（谁和什么有很大关系）
-                     - have nothing to do with + O（谁和什么没有关系）
+                     - have ~ to do with + O       # 和什么有关系
+                     - have much to do with + O    # 和什么大有关系
+                     - have nothing to do with + O # 和什么没有关系
                   - As far as the eyes could reach,the city was a sea of fire. 放眼望去，这个城市陷于一片火海
                   - As far as I'm concerned,you can stay out all night. 以我而言，你可以呆在外面过夜
                   - As long as there were books and stationary,he never felt lonely. 只要有书和文具的陪伴，他就不会觉得寂寞
                      - As long as 这里翻译为“只要”
                   - He went on talking as long as three hours. 他持续讲了三个小时
-
