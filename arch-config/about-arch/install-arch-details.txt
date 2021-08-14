@@ -252,13 +252,18 @@
       - pacman -S keynav               # 鼠标替代
       - pacman -S ranger               # 快速搜索
       - pacman -S tlp                  # 电源管理
-      - pacman -S alsa-utils           # 安装音频工具
-         - alsa 默认在内核所以只需安装调度工具
-         - 包含 alsamixer, amixer 命令
-         - 默认静音，解决方案
-            - amixer sset Master unmute
-            - amixer sset Speaker unmute
-            - amixer sset Headphone unmute
+      - 声卡
+         - pacman -S alsa-utils           # 安装音频工具
+            - alsa 默认在内核所以只需安装调度工具
+            - 包含 alsamixer, amixer 命令
+            - 默认静音，解决方案
+               - amixer sset Master unmute
+               - amixer sset Speaker unmute
+               - amixer sset Headphone unmute
+      - 蓝牙
+         - pacman -S bluez                   # 提供蓝牙协议栈
+         - pacman -S bluez-utils             # 提供蓝牙 bluetoothctl 命令工具
+         - pacman -S blueman                 # 蓝牙可视化工具（推荐）
       - pacman -S vlc                     # 视频播放器
       - pacman -S wine                    # windows 的虚拟容器
       - pacman -S wireshark-qt            # 视图化的抓包工具（与命令性质的择其一安装）
@@ -270,6 +275,7 @@
       - pacman -S ntfs-3g                 # 可以挂载 ntfs 的软件支持
       - pacman -S openssh                 # openssh 工具
       - pacman -S tigervnc                       # 远程视图工具（已包含客户端和服务端）
+         - 安装完后可以使用 vncviewer 命令调出远程窗口
       - pacman -S git                            # 版本控制工具
       - pacman -S flameshot                      # 截图工具
          - 引用教程地址 https://linux265.com/soft/3848.html
