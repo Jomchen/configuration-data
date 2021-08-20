@@ -288,7 +288,7 @@
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
       - 有争议，是岁数大还是岁数小？
 
-   - 2379 line 高一不定式副词用法
+   - 2379 line 高一不定式副词用法 | 2632-2654 line 时态理解不顺
    - 2740 line 高一动名词和不定式哪种情况必须使用
 * 注意点
    - 1577 ~ 1594 line 的 前面被动，后面主动 的情况
@@ -2602,7 +2602,7 @@
                   - He was never to see his wife and his family again. # 他再也没有看到他的妻子和家人了
                - 表意图 => 打算~
                   - 通常采用 if 子句，而主要子句中以 must, need, necessary 等，来表示[必要]
-                  -  If you are to succeed, you must study harder. 如果你想成功，你必须努力学习
+                  - If you are to succeed, you must study harder. 如果你想成功，你必须努力学习
                      - 这里不能用 want to，因为前面半句是努力的结果
             10. 不定词的被动态，进行式，完成不词
                - 不定词的被动： to v. => to be p.p
@@ -2634,7 +2634,7 @@
                         - 本来不定式在 have 前应该有个 to，但是 could 是助动词，而助动词后不能有 to 所以省略了 to
                         - 这是没有 to 的不定式
                         - could 表示了是在过去，have been 表示在 could 之前，即从现在为起点表示过去的过去，所以是过去完成时
-                     - Her man must have been seriously ill. # 她的妈妈一定病重了
+                     - Her mother must have been seriously ill. # 她的妈妈一定病重了
                         - must 表示现在
                         - have been 表示 must 的过去，所以是一般现在时
                   - should, ought to 之后，表示未能实现的事情
