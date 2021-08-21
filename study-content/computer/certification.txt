@@ -1,0 +1,36 @@
+### openvpn 中 .ovpn 中文件解释
+
+* ca证书，客户端证书cert，客户端key，写入到配置文件的写法
+   ```
+   <ca>
+   ca证书内容
+   </ca>
+   <cert>
+   客户端证书内容
+   </cert>
+   <key>
+   客户端key内容
+   </key>
+
+   auth_user_pass 用户密码
+   ```
+
+用写字板打开各个client.ovpn文件在最后面添加
+   ```
+   <ca>
+   </ca>
+   <cert>
+   </cert>
+   <key>
+   </key>
+   key-direction 1
+   <tls-auth>
+   </tls-auth>
+
+   auth_user_pass 用户密码
+   
+   用记事本打开ca.crt把文件内容复制到<ca>和</ca>的中间，
+   用记事本打开client.crt把文件内容复制到<cert>和</cert>的中间，
+   用记事本打开client.key把文件内容复制到<key>和</key>的中间，
+   用记事本打开ta.key把文件内容复制到<tls-auth>和</tls-auth>的中间
+   ```
