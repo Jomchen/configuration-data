@@ -241,6 +241,13 @@
       - pacman -S wpa_supplicant       # 动态ip分配
       - pacman -S NetworkManager       # 网络管理工具
       - pacman -S iproute2             # 提供对 network interface, ipaddress, routing table 的管理，工具包中饮食 ip, ss, 等命令
+         - iproute2 是对 net-tool 包的替换
+            ```
+            arp      -> ip neighbor
+            ifconfig -> ip address, ip link
+            netstat  -> ss
+            route    -> ip route
+            ```
       - pacman -S net-tool             # 提供了 arp 命令等
       - pacman -S nmap                 # 提供网络发现和探索功能，且有对查看远程端口是否开放的功能
    - 其它重要软件
