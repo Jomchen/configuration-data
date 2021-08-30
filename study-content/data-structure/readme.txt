@@ -6,6 +6,8 @@
    - https://leetcode-cn.com
       - 中文网站
 
+* 银行家算法
+
 
 * 复杂度
    - 说明

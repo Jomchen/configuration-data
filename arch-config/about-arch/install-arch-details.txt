@@ -212,6 +212,7 @@
       - pacman -S i3-gaps       # 安装 i3-gaps 窗口管理器
       - pacman -S dmenu         # 安装 dmenu
       - 配置一个文件，以选择性启动
+         - 如果使用 lightdm 托管，则可以不用以下配置，而参考 xfce4 的方案，在 ~/.xprofile 中配置使用语言
          ```
          编辑 ~/.xinitrc
          #!/bin/bash
