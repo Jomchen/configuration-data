@@ -11,7 +11,7 @@ ctrl + enter             # 在当前行下新启一行并编辑
 ctrl + shift + enter     # 在当前行上新启一行并编辑
 alt + up/down            # 光标所在行往上/下移动
 alt + shift + left/right # 选中当前光标所在单词
-alt + left/right         # 标签的左右切换
+ctrl + pageUp/pageDown   # 标签的左右切换
 ctrl + shift + t         # 查找类名
 ctrl + shift + r         # 全局查找资源
 ctrl + t                 # 显示光标所在类的继承和实现结构
@@ -20,5 +20,21 @@ ctrl + h                 # 高级搜索
 alt + shift + s          # 调出代码生成视图（一般用于生成 get/set, toString, hash 等方法）
 ctrl + f7                # 工作区，导航区，等视图的切换
 ctrl + shift + g         # 查询当前光标类或方法被引用的地方
+f3                       # 进入光标所在的类或方法
 ctrl + shift y/x         # 变小写/大写
 ctrl + shift + up/down   # 查找当前文件中内容中上/下一个属性或方法
+ctrl + /                 # 行注释
+ctrl + \                 # 行反注释
+ctrl + shift + /         # 块注释
+ctrl + shift + \         # 块反注释
+
+ctrl + shift + b         # 当前行设置或取消断点
+f11                      # 调试最后一次执行的程序
+ctrl + f11               # 运行最后一次执行的程序
+f5                       # 跟踪到方法中，当程序执行到某方法时，可以按f5键跟踪到方法中
+f6                       # 单步执行程序
+f7                       # 执行完方法，返回到调用此方法的后一条语句
+f8                       # 继续执行，到下一个断点或程序结束
+
+一个不错的 eclipse快捷键教程地址
+https://www.zhihu.com/question/19964292
