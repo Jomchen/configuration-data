@@ -14,9 +14,11 @@ alt + shift + left/right # 选中当前光标所在单词
 alt + left/right         # 标签的左右切换
 ctrl + shift + t         # 查找类名
 ctrl + shift + r         # 全局查找资源
-ctrl + h                 # 高级搜索
 ctrl + t                 # 显示光标所在类的继承和实现结构
+ctrl + o                 # 显示当前文件的所有属性和方法
+ctrl + h                 # 高级搜索
 alt + shift + s          # 调出代码生成视图（一般用于生成 get/set, toString, hash 等方法）
-ctrl + f7                # 工作区，导航区，等区域的切换
+ctrl + f7                # 工作区，导航区，等视图的切换
 ctrl + shift + g         # 查询当前光标类或方法被引用的地方
 ctrl + shift y/x         # 变小写/大写
+ctrl + shift + up/down   # 查找当前文件中内容中上/下一个属性或方法
