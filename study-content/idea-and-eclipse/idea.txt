@@ -1,0 +1,31 @@
+alt + enter          # 补全
+ctrl + n             # 通过类名查找类
+ctrl + + shift + n   # 查找文件名
+ctrl + shift + f     # 全局关键字查找
+shift shift          # 全局搜索
+ctrl + u             # 进入父类
+ctrl + b             # 进入光标声明的地方
+ctrl + + alt + b     # 进入光标的实现类
+alt + f7             # 查找引用了光标选中的地方
+ctrl + shift + f10   # 运行当前类的 main 方法
+ctrl + shift + f9    # debug运行当前类的 main 方法
+alt + 1              # 光标进入导航栏，隐藏导航栏
+esc                  # 光标进入编辑区
+ctrl + w             # 扩选当前区域
+ctrl + shift + J     # 依次把下列行和光标所在行列为一行
+ctrl + f             # 编辑区查找
+ctrl + r             # 替换
+alt + left/right     # 编辑区的标签切换（切换为左边/右边）
+alt + 关闭标签       # 被点击的标签不关闭，反而关闭其它标签
+shift + f9           # debug 运行配置好的运行类
+shift + f10          # 运行配置好的运行类
+ctrl + y             # 删除光标当前行
+ctrl + d             # 复制当前行并粘贴到下一行
+shift + enter        # 光标下新启空白行，光标定位在新的空白行
+ctrl + alt + up/down # 光标所在行往上/下移
+ctrl + [/]           # 移动光标在代码块的开始/结束（往往用于中括号或小括号）
+ctrl + f4            # 关闭标签页
+alt + f1             # 当前编辑区所在文件显示在工作区的目录树中并定位于树
+alt + f12            # 调出控制台
+shift + esc          # 隐藏最近活跃的窗口
+alt + insert         # 新建...（光标需要定位在导航栏）
