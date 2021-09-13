@@ -7,7 +7,7 @@ ctrl + shift + b         # 启用或停止面包屑功能（在顶部显示，�
 ctrl + shift + p         # 从括号对之前相互跳转（列如当前光标在左括号，按键后可以跳转到对应的右括号）
 ctrl + l                 # 跳转到指定行号
 ctrl + shift + l         # 在当前文件中搜索内容
-ctrl + enter             # 在当前行下新启一行并编辑
+shift + enter             # 在当前行下新启一行并编辑
 ctrl + shift + enter     # 在当前行上新启一行并编辑
 alt + up/down            # 光标所在行往上/下移动
 alt + shift + left/right # 选中当前光标所在单词
