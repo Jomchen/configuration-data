@@ -1,13 +1,15 @@
+两个打开的文件，点击其中一个在另外的编辑区域 # 形成两个不同文件的分栏显示（可以水平或垂直）
 alt + /                  # 内容辅助，补全功能
 ctrl + e                 # 显示当前打开的所有文件
 ctrl + d                 # 复制当前行到下一行
 ctrl + w                 # 关闭当前标签
 ctrl + shift + w         # 关闭打开的所有标签
-ctrl + shift + b         # 启用或停止面包屑功能（在顶部显示，其实就是当前文件所在目录情况）
+alt + shift + b          # 启用面包屑功能（在顶部显示，其实就是当前文件所在目录情况）
+   - 取消按钮在功能栏 breadcrumb
 ctrl + shift + p         # 从括号对之前相互跳转（列如当前光标在左括号，按键后可以跳转到对应的右括号）
 ctrl + l                 # 跳转到指定行号
-ctrl + shift + l         # 在当前文件中搜索内容
-shift + enter             # 在当前行下新启一行并编辑
+ctrl + shift + l         # 在当前文件中搜索内容 ######### 实际显示的是快捷键视图
+shift + enter            # 在当前行下新启一行并编辑
 ctrl + shift + enter     # 在当前行上新启一行并编辑
 alt + up/down            # 光标所在行往上/下移动
 alt + shift + left/right # 选中当前光标所在单词
@@ -28,6 +30,7 @@ ctrl + shift + /         # 块注释，再次点击则取消
 f12                      # 激活代码编辑区
 ctrl + _                 # 当前文件水平分栏显示，再次点击则取消（Window -> Editor -> Toggle Split Editor）
 ctrl + {                 # 当前文件垂直显示，再次点击则取消（Window -> Editor -> Toggle Split Editor）
+ctrl + m                 # 最大化活跃视图或编辑区，再次点击则取消最大化区域
 
 ctrl + shift + b         # 当前行设置或取消断点
 f11                      # 调试最后一次执行的程序
