@@ -23,10 +23,8 @@ ctrl + shift + g         # 查询当前光标类或方法被引用的地方
 f3                       # 进入光标所在的类或方法
 ctrl + shift y/x         # 变小写/大写
 ctrl + shift + up/down   # 查找当前文件中内容中上/下一个属性或方法
-ctrl + /                 # 行注释
-ctrl + \                 # 行反注释
-ctrl + shift + /         # 块注释
-ctrl + shift + \         # 块反注释
+ctrl + /                 # 行注释，再次点击则取消
+ctrl + shift + /         # 块注释，再次点击则取消
 f12                      # 激活代码编辑区
 ctrl + _                 # 当前文件水平分栏显示，再次点击则取消（Window -> Editor -> Toggle Split Editor）
 ctrl + {                 # 当前文件垂直显示，再次点击则取消（Window -> Editor -> Toggle Split Editor）
