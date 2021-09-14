@@ -1,44 +1,44 @@
 两个打开的文件，点击其中一个在另外的编辑区域 # 形成两个不同文件的分栏显示（可以水平或垂直）
-alt + /                  # 内容辅助，补全功能
-ctrl + e                 # 显示当前打开的所有文件
-ctrl + d                 # 复制当前行到下一行
-ctrl + w                 # 关闭当前标签
-ctrl + shift + w         # 关闭打开的所有标签
-alt + shift + b          # 启用面包屑功能（在顶部显示，其实就是当前文件所在目录情况）
+Alt + /                  # 内容辅助，补全功能
+Ctrl + E                 # 显示当前打开的所有文件
+Ctrl + D                 # 复制当前行到下一行
+Ctrl + W                 # 关闭当前标签
+Ctrl + Shift + W         # 关闭打开的所有标签
+Alt + Shift + B          # 启用面包屑功能（在顶部显示，其实就是当前文件所在目录情况）
    - 取消按钮在功能栏 breadcrumb
-ctrl + shift + p         # 从括号对之前相互跳转（列如当前光标在左括号，按键后可以跳转到对应的右括号）
-ctrl + l                 # 跳转到指定行号
-ctrl + shift + l         # 在当前文件中搜索内容 ######### 实际显示的是快捷键视图
-shift + enter            # 在当前行下新启一行并编辑
-ctrl + shift + enter     # 在当前行上新启一行并编辑
-alt + up/down            # 光标所在行往上/下移动
-alt + shift + left/right # 选中当前光标所在单词
-ctrl + pageUp/pageDown   # 标签的左右切换
-ctrl + shift + t         # 查找类名
-ctrl + shift + r         # 全局查找资源
-ctrl + h                 # 高级搜索（包括搜索文件内容或文件名）
-ctrl + t                 # 显示光标所在类的继承和实现结构
-ctrl + o                 # 显示当前文件的所有属性和方法
-alt + shift + s          # 调出代码生成视图（一般用于生成 get/set, toString, hash 等方法）
-ctrl + f7                # 工作区，导航区，等视图的切换
-ctrl + shift + g         # 查询当前光标类或方法被引用的地方
-f3                       # 进入光标所在的类或方法
-ctrl + shift y/x         # 变小写/大写
-ctrl + shift + up/down   # 查找当前文件中内容中上/下一个属性或方法
-ctrl + /                 # 行注释，再次点击则取消
-ctrl + shift + /         # 块注释，再次点击则取消
-f12                      # 激活代码编辑区
-ctrl + _                 # 当前文件水平分栏显示，再次点击则取消（Window -> Editor -> Toggle Split Editor）
-ctrl + {                 # 当前文件垂直显示，再次点击则取消（Window -> Editor -> Toggle Split Editor）
-ctrl + m                 # 最大化活跃视图或编辑区，再次点击则取消最大化区域
+Ctrl + Shift + P         # 从括号对之前相互跳转（列如当前光标在左括号，按键后可以跳转到对应的右括号）
+Ctrl + L                 # 跳转到指定行号
+Ctrl + Shift + L         # 在当前文件中搜索内容 ######### 实际显示的是快捷键视图
+Shift + Enter            # 在当前行下新启一行并编辑
+Ctrl + Shift + Enter     # 在当前行上新启一行并编辑
+Alt + Up/Down            # 光标所在行往上/下移动
+Alt + Shift + Left/Right # 选中当前光标所在单词
+Ctrl + pageUp/pageDown   # 标签的左右切换
+Ctrl + Shift + T         # 查找类名
+Ctrl + Shift + R         # 全局查找资源
+Ctrl + H                 # 高级搜索（包括搜索文件内容或文件名）
+Ctrl + T                 # 显示光标所在类的继承和实现结构
+Ctrl + O                 # 显示当前文件的所有属性和方法
+Alt + Shift + S          # 调出代码生成视图（一般用于生成 get/set, toString, hash 等方法）
+Ctrl + F7                # 工作区，导航区，等视图的切换
+Ctrl + Shift + G         # 查询当前光标类或方法被引用的地方
+F3                       # 进入光标所在的类或方法
+Ctrl + Shift Y/X         # 变小写/大写
+Ctrl + Shift + Up/Down   # 查找当前文件中内容中上/下一个属性或方法
+Ctrl + /                 # 行注释，再次点击则取消
+Ctrl + Shift + /         # 块注释，再次点击则取消
+F12                      # 激活代码编辑区
+Ctrl + _                 # 当前文件水平分栏显示，再次点击则取消（Window -> Editor -> Toggle Split Editor）
+Ctrl + {                 # 当前文件垂直显示，再次点击则取消（Window -> Editor -> Toggle Split Editor）
+Ctrl + M                 # 最大化活跃视图或编辑区，再次点击则取消最大化区域
 
-ctrl + shift + b         # 当前行设置或取消断点
-f11                      # 调试最后一次执行的程序
-ctrl + f11               # 运行最后一次执行的程序
-f5                       # 跟踪到方法中，当程序执行到某方法时，可以按f5键跟踪到方法中
-f6                       # 单步执行程序
-f7                       # 执行完方法，返回到调用此方法的后一条语句
-f8                       # 继续执行，到下一个断点或程序结束
+Ctrl + Shift + B         # 当前行设置或取消断点
+F11                      # 调试最后一次执行的程序
+Ctrl + F11               # 运行最后一次执行的程序
+F5                       # 跟踪到方法中，当程序执行到某方法时，可以按f5键跟踪到方法中
+F6                       # 单步执行程序
+F7                       # 执行完方法，返回到调用此方法的后一条语句
+F8                       # 继续执行，到下一个断点或程序结束
 
 一个不错的 eclipse 快捷键教程地址
 https://www.zhihu.com/question/19964292
