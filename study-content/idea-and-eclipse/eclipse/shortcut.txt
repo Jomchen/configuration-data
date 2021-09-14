@@ -28,6 +28,8 @@ ctrl + \                 # 行反注释
 ctrl + shift + /         # 块注释
 ctrl + shift + \         # 块反注释
 f12                      # 激活代码编辑区
+ctrl + _                 # 当前文件水平分栏显示，再次点击则取消（Window -> Editor -> Toggle Split Editor）
+ctrl + {                 # 当前文件垂直显示，再次点击则取消（Window -> Editor -> Toggle Split Editor）
 
 ctrl + shift + b         # 当前行设置或取消断点
 f11                      # 调试最后一次执行的程序
