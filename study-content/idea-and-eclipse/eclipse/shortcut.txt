@@ -27,6 +27,7 @@ ctrl + /                 # 行注释
 ctrl + \                 # 行反注释
 ctrl + shift + /         # 块注释
 ctrl + shift + \         # 块反注释
+f12                      # 激活代码编辑区
 
 ctrl + shift + b         # 当前行设置或取消断点
 f11                      # 调试最后一次执行的程序
