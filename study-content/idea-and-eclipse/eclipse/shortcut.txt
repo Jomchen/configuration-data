@@ -31,6 +31,8 @@ F12                      # 激活代码编辑区
 Ctrl + _                 # 当前文件水平分栏显示，再次点击则取消（Window -> Editor -> Toggle Split Editor）
 Ctrl + {                 # 当前文件垂直显示，再次点击则取消（Window -> Editor -> Toggle Split Editor）
 Ctrl + M                 # 最大化活跃视图或编辑区，再次点击则取消最大化区域
+Ctrl + k                 # 向后查找（先ctrl + f 调出查找后，查找一次，关闭查找窗口可使用 ctrl + k）
+Ctrl + Shift + k         # 向前查找（先ctrl + f 调出查找后，查找一次，关闭查找窗口可使用 ctrl + k）
 
 Ctrl + Shift + B         # 当前行设置或取消断点
 F11                      # 调试最后一次执行的程序
