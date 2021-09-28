@@ -264,8 +264,6 @@ https://www.cnblogs.com/shenh/p/10031635.html
    - 国外优质的VPS
       - Virtual private Server 简称 VPS
          - Hostwinds
-            - 104.168.211.250
-            - yueqige159357>h
          - vultr
    - 国外的账号情况
       - 国外各网站密码统一格式：密码>网站拼音首字母

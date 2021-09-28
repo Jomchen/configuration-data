@@ -21,9 +21,9 @@
    connection from the VNC viewer.
    ```
 
+* 可能是 /etc/lightdm/lightdm.conf 中 VNCServer 中 depth 应该改为 24（根据验证，目前遇到的原因就是这个原因）
 * 是否 服务端的 /etc/vncpasswd 没有相应的读取权限？
 * sshd_config 的文件 #PasswordAuthentication yes 应该这样注释起来
-* 可能是 /etc/lightdm/lightdm.conf 中 VNCServer 中 depth 应该改为 24
 * ssh 的 -L 命令 详解 
    - https://zhuanlan.zhihu.com/p/57630633
    - https://www.cnblogs.com/keerya/p/7612715.html
