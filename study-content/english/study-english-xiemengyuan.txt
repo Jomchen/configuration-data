@@ -76,13 +76,12 @@
       - 98: 1:03:16 音画不同步（不太影响学习）
       - 108: 09:40 之前音画不同步（不太影响学习）
 
-不清楚的集数：
+* 不清楚的集数：
    - 1504 line 的附加疑问句
    - 11 集 的主词和动名词不同时 是什么意思
    - 26 集 倒装句
    - 40 集 01:12:00 附近的反向疑问回答问句
    - 60 集 关系形容词
- 
 * 小经验归纳
    - 易搞混的内容
       - be used to do      # 被用于做...（used 作非谓语动词）
@@ -281,9 +280,9 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频 高中部分复习进度：120 集
-   - 看视频学习进度：the <8118> line 
-   - 复习进度 2743 line
+* 谢孟媛英语视频：504line中such的位置，531line中both的位置
+   - 看视频学习进度：finished
+   - 复习进度 897 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
       - 有争议，是岁数大还是岁数小？
@@ -735,7 +734,7 @@
       - much / a lot / far + 比较级 => ~ 得多了
       - even + 比较级               => 更加 ~
       - a little + 比较级           => ~ 一点
-    - 蓝裤子的价格比那绿洲裤子的价格高得多。
+    - 蓝裤子的价格比那绿色裤子的价格高得多。
       - The price of blue pants is far higher than the price of that green pants.
       - The price of blue pants is far higher than that of the green pants.
       - 当有重复的词出现时，并且这个重复的词由限定修饰时，这个重复的用that代替，如果是复数则用those代替（price由那个绿色的裤子限定）
@@ -2853,7 +2852,7 @@
          - It is impossible to account for tastes. # 诉说口味是不可能的
          - We cannot account for tastes. # 我不能诉说口味
       - It is no use/good ving ~ （~是没有用的）
-         - It is no use crying over spilled milk. # 对洒出来的牛奶哭泣是没有用的 / 覆水难收
+         - It is no use crying over spilt milk. # 对洒出来的牛奶哭泣是没有用的 / 覆水难收
          - It is no use trying to persuade him. # 试图说服他是不可能的
             - It is of no use trying to persuade him.（注意这里也可以改形式为 it is of）
             - There is no use in trying to persuade him.（注意如果这里要有 in）
