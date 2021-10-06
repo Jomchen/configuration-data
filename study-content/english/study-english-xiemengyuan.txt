@@ -897,7 +897,7 @@
       - go shopping # 逛街（有买东西的意向） | go window shopping # 逛逛橱窗（但是只是逛逛不买）
       - go golfing # 打高尔夫 | go fishing # 去钓鱼
       - go hunting # 打猎 | go bowling # 打保龄球
-      - go stating # 去溜冰 | go swimming # 去游泳
+      - go skating # 去溜冰 | go swimming # 去游泳
       - go hiking # 去远足 | go sailing # 去航行
       - go picnicking # 去野炊（picnic 转为 picnicking）
     - go mountain climbing # 去爬山（这是指“爬山”的这件事件或运动 | go climb a mountain # 去爬山（但是这个是表明“爬山”的这个动作过程
@@ -1058,7 +1058,7 @@
       - 数词 + 单数名词 = 形容词
         - 冠词和名词中间的是形容词，所以不能有复数
           - It's only a ten-minute walk from here to the station. # 从这里步行到站只有十分钟路程
-             - a 是冠词，ten-minute 是形容词，wakl 是名词，翻译为“路径”
+             - a 是冠词，ten-minute 是形容词，walk 是名词，翻译为“路径”
           - The young man married a 70-year-old woman. # 这个年轻男人娶了一个七十多岁的女人
              - a 是冠词，70-year-old 是形容词，woman 是名词
 
