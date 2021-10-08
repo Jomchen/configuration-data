@@ -1243,7 +1243,7 @@
         - His mother bought a CD player for him.
         - His mother bought it for him.（这种情况是讲话的人和听话的人都知道物品是 CD player 的情况下）
 
-  5. 使吏动词（叫/命令...<人>做...<事>）
+  5. 使役动词（叫/命令...<人>做...<事>）
     - 语法
       - get（叫）+ 受词 + to v./ p.p.
       - let（让）+ 受词 + v./ be p.p.
