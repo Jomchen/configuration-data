@@ -280,9 +280,9 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频：504line中such的位置，531line中both的位置，987line中多个形容词位置，990line中国家的形容词
+* 谢孟媛英语视频：504line-such的位置，531line-both的位置，987line-多个形容词位置，990line-国家的形容词，1147line-多个副词的顺序
    - 看视频学习进度：finished
-   - 复习进度 1066 line
+   - 复习进度 1219 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
       - 有争议，是岁数大还是岁数小？
@@ -1146,7 +1146,7 @@
               - It's warm enough for you to play outside.
         - 多个副词出现时的顺序：地方副词+情状副词+频率副词+时间副词
           - My sister went upstairs quietly a minute ago. # 我的妹妹不久前安静地上楼
-          - A time bomb exploded at the station yesterday. # 一个定时炸弹爆炸了
+          - A time bomb exploded at the station yesterday. # 昨天车站一个定时炸弹爆炸了
         - very 和 much 作程度副词的区别
           - 修饰时的区别
             - 概念
@@ -1214,7 +1214,7 @@
           - 根 like + n. 情况
             - It soulds like a true story. # 它听起来像一个真实的故事
               - It soulds great. # 它听起来很棒（这里是根形容词情况）
-            - The cloth feels like silk. # 这块布摸起来像
+            - The cloth feels like silk. # 这块布摸起来像丝绸
               - The cloth feels soft. # 这块布摸起来很软（这里是根形容词情况）
           - 注意 feel like + Ving # 想要... ；feel like n. # 摸起来像... ；feel like adj. # 大概...似的
             - I feel like playing outside. # 我想要在外面玩
