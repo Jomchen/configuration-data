@@ -1750,7 +1750,7 @@
       - Remember the advice which I gave you. # 记住我给你的忠告
     - The little girl is very cute. 与 My dad is talking to her.
       - The little girl that/whom my dad is talking to is very cute. # 和我父亲交谈的小女孩很可爱
-    - The sandwiches which/that we ate for lunch were notdelicious. # 我们午餐吃的三明治不好吃
+    - The sandwiches which/that we ate for lunch were not delicious. # 我们午餐吃的三明治不好吃
       - eat 物品 for 餐 # 吃...当做..餐
     - Football/Soccer is the sports that I like <the> best. # 足球是我最喜欢的运动
   - 介系词 + 受格关系代名词 的形式
