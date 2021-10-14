@@ -282,7 +282,7 @@
 
 * 谢孟媛英语视频：504line-such的位置，531line-both的位置，987line-多个形容词位置，990line-国家的形容词，1147line-多个副词的顺序，1497line-赋加疑问句
    - 看视频学习进度：finished
-   - 复习进度 1722 line
+   - 复习进度 2121 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
       - 有争议，是岁数大还是岁数小？
@@ -1783,7 +1783,7 @@
           - 关系代词 what = 先行词 + 关系代名词（只有all可以用what的关系代词）
       - She has everything that a woman could wish for. # 她拥有女人能想要的一切
       - He was the only one that trusted me. # 他是唯一相信我的人（先行词前有 the only,the same,the very）
-      - This is the very novel that I've looked for. # 这正是我一直在寻找的小说（先行词前有 the lonly,the same,the very）
+      - This is the very novel that I've looked for. # 这正是我一直在寻找的小说（先行词前有 the only,the same,the very）
       - make it. # 达成，成功
 
   - 关系代词的限定和非限定用法
@@ -1882,7 +1882,7 @@
         - 但实际问的是非 yes/no 的问题
       - Who do you think will be send to the United States?
         - 把疑问词放到前面，其它照写
-    - What time will the class begin? Do you say?
+    - What time will the class begin? Do you say? # 什么时候开始上课？你说呢？
       - What time do you say the class will begin? # 你说呢这堂课什么时候开始
     - 注意区分
       - Do you know what the answer is? # 你知道答案是什么吗？
@@ -1906,7 +1906,7 @@
         - 名词片语作主语
       - The problem is who to bell the cat. # 这个问题是谁担当这危险的任务
         - 名词片语作补语
-      - We don't know who to bell the cat is a big problem. # 我不知道谁担当这个危险的任务
+      - We don't know who to bell the cat is a big problem. # 我不知道谁担当这个危险的任务是个大问题
         - 名词片语作受词
 
   - 不含疑问词的问句
@@ -1962,7 +1962,7 @@
         - 等价 What would you like better,coffe or tea?
         - prefer... 可以用 like...better 替换
       - You can turn coal into diamands or <you can turn> sand into computer chips # 你可将碳转变为金刚石或是将沙子变成电脑晶片
-      - The book fair must be held,or the books won't be sold out in a week. # 书展一定要办，否则无法在一周内办完
+      - The book fair must be held,or the books won't be sold out in a week. # 书展一定要办，否则这些书无法在一周内售完
     - 注意祈使句的 and 和 or
       - 祈使句, and（那么）+ s + v ~.
       - 祈使句, or（否则）+ s + v ~.
