@@ -2133,7 +2133,7 @@
       - 举例
         - I'll see her in the afternoon. # 我会在这个下午去看她
           - at noon # 在中午
-          - at afternoon # 在下午
+          - in the afternoon # 在下午
         - I'll see her on Sunday afternoon. # 我会在星期天下午看她（因为有 Sunday 这种星期的日期，所以用 on）
         - We went to the zoo in July. # 我们七月去过动物园
         - We went to the zoo on July 3. # 我们在七月三号去过动物园
