@@ -282,7 +282,7 @@
 
 * 谢孟媛英语视频：504line-such的位置，531line-both的位置，987line-多个形容词位置，990line-国家的形容词，1147line-多个副词的顺序，1497line-赋加疑问句
    - 看视频学习进度：finished
-   - 复习进度 2121 line
+   - 复习进度 2325 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
       - 有争议，是岁数大还是岁数小？
@@ -2127,8 +2127,11 @@
     - at,on,in（在...）
       - at + 时刻，年龄，正午，半夜
         - at ten o'clock, at the age of five, at noon, at night
+        - night # 是指 22:00 至午夜的时间段（22:00 - 太阳出来之前），反义词为 day. Afternoon（吃过午饭的时间）
       - on + 特定的日期，星期~，~月~日（快速记忆，有天的）
       - in + 年，月，周，季节，早上，下午，晚上
+        - in the evening
+        - evening # 是指 18:00 - 22:00 的时间段，晚上就寝之前的时间，反义词为 morning
       - （注意：有日期限定的组合用 on）
       - 举例
         - I'll see her in the afternoon. # 我会在这个下午去看她
@@ -2228,6 +2231,31 @@
         - before（在..之前）=> 只能是 时间 之前
         - 举例
           - A car has topped in front of the store. # 一辆车停在商店的前面
+      - behind, after, back 区别
+        这些词均有“在……后面”之意。
+        - after 和 behind 用来表地点时，前者强调的是顺序的先后，而后者侧重方向和位置的前后关系。请比较
+          The student sat after me.
+          那个学生坐在我后面。（我坐在他前面）
+          The student sat behind me.
+          那学生坐在我背后。
+        - after 与 behind 用于指时间时，前者强调时间的先后顺序，而后者则着重于表示“落后……”或“迟于……”的概念。试比较：
+        
+          Who ruled after James I?
+          詹姆斯一世之后是谁统治的？
+          You are forty minutes behind schedule.
+          你比规定的时间迟了40分钟。
+        - after 多用于表示因时间上的先后而造成顺序的前后场合，behind则常用于仅指位置上的前后关系。请比较：
+        
+          Please shut the door after you.
+          请随手关门。
+          Please shut the door behind you.
+          请关上你身后的门。
+        - at the back of ：这个前置词短语既可指具体的位置的先后，又可用于指抽象的概念。
+        
+          Hamstrings are supporting muscles at the back of the thigh.
+          腿筋是位于大腿后侧起支撑作用的肌肉。
+          There was a metallic taste at the back of his throat.
+          他喉咙深处有一股金属味儿。
     - along（沿着..），across（穿越..），through（通过..）
       ```
       - - - -> along
@@ -2258,7 +2286,6 @@
       - into 从外面向里面，out of 是从里面向外面
       - 举例
         - Mary hurried into her room. # 玛莉匆忙进入她的卧室
-        - I jumped out of the bed. 我从床上跳起来了
         - I jumped out of the bed. 我从床上跳起来了
     - in 的举例
       - Tom lives in New York. # 汤姆住在纽约（in 在...地方）
