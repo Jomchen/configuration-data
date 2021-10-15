@@ -8,7 +8,7 @@
    - namesilo www.namesilo.com
       - https://www.namesilo.com/register.php?rid=775dd38gf
 * wall remote proxy tools 
-   - TEACH WEBSITE => https://www.v2rayssr.com/tag/trojan
+   - TEACHING WEBSITE => https://www.v2rayssr.com/tag/trojan
    - [ BBR 可以为代理服务器提速 ]
    - v2ray
       - 是一个系统体系
