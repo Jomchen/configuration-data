@@ -3,11 +3,16 @@
      - https://wiki.archlinux.org/index.php/System_time
      - 或者搜索 `System time arch` 搜索到双系统的时间解决方案
 
+* 域名
+   - godaydy www.godaddy.com
+   - namesilo www.namesilo.com
+      - https://www.namesilo.com/register.php?rid=775dd38gf
 * wall remote proxy tools 
    - TEACH WEBSITE => https://www.v2rayssr.com/tag/trojan
    - [ BBR 可以为代理服务器提速 ]
    - v2ray
    - wireguard
+      - 官方地址 www.WireGuard.com www.wireguard.com
       - 国内教程地址 http://www.lixh.cn/archives/2134.html
    - Trojan（在 v2ray 的官方文档有提到使用方法）（本身定位于加密为 https, tls 1.3）
    - Tor 洋葱路由器，匿名通信的Free软件
