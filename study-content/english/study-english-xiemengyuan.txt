@@ -282,7 +282,7 @@
 
 * 谢孟媛英语视频：504line-such的位置，531line-both的位置，987line-多个形容词位置，990line-国家的形容词，1147line-多个副词的顺序，1497line-赋加疑问句
    - 看视频学习进度：finished
-   - 复习进度 2490 line
+   - 复习进度 2594 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
       - 有争议，是岁数大还是岁数小？
@@ -2575,7 +2575,7 @@
                      - Can you help me <to> put up the tent.  # 你可以帮我搭起帐篷吗
                - 使役动词的被动语态
                   - 使役动词 make 在被动语态中用 to 不定式
-                     - The teacker made the students try again.（这个老师让这个学生再试一次）
+                     - The teacher made the students try again.（这个老师让这个学生再试一次）
                         - The students were made to try again by the teacher.
                         - The students were made by the teacher to try again.
             7. S + v. + it + ~ + to 不定式（这里的 it 是假受词）
