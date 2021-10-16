@@ -1,0 +1,318 @@
+* cdn 选择的网址
+   - https://www.10besty.com/best-cdn-services/
+   - 注意 Cloudflare 只支持 http1 而不支持 http2
+   - GoDaddy主要还是服务器和域名相关服务做的比较好，如果要申请SSL证书建议选择国际权威的大品牌如Symantec、Comodo、GeoTrust、Thawte等。
+   - Godaddy 证书申请流程
+      - https://sg.godaddy.com/zh/help/ssl-ssl-32151
+
+## V2ray 安装和配置教程
+   - v2ray 的链式传递会造成 streamSettings 失效
+   - 常见的国内网站域名 https://github.com/v2fly/domain-list-community
+   - 一些广告域名，被 GFW 限定的域名 https://github.com/ToutyRater/V2Ray-SiteDAT/tree/master/geofiles 
+      - 这个文件每周更新
+      - 这个文件只包含两个标签 ad 和 gfw
+         - ad 是广告域名标签
+         - gfw 是被 GFW 限定的域名标签
+
+* 预前准备
+   1. 准备至少一台 VPS
+   2. 准备一个域名
+   3. 准备一个 CDN（可选）
+
+* 查看时间和时区
+   - 服务端和客户端的世界时间误差不能超过 90s
+   - 服务端运行 date -R
+      - Sun, 22 Jan 2017 10:10:36 -0500 
+      - 输出结果中的 -0500 代表的是时区为西 5 区，
+      - 而客户端在东 8 区举例，时间应该则为 2017-01-22 23:10:36
+         - 因为从 西5区 到 东8区，相差了 13 个小时
+      - 如果时间不准确，那么可以通过 date --set="xxxx-xx-xx xx:xx:xx" 格式设置时间
+
+* v2ray 安装
+   1. 程序安装
+      1. Debian 系上预处理
+      2. apt update                 # 更新源信息
+      3. apt-get install curl       # 下载http请求工具
+      4. 下载主程序脚本 curl -O https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh
+      5. bash install-release.sh    # 执行v2ray的脚本安装
+         - 升级更新 bash install-release.sh
+         - 安装后配置文件可能在下列之一
+            - /usr/local/etc/v2ray/config.json
+            - /usr/local/share/etc/v2ray/config.json
+         - 访问日志目录 /var/log/v2ray/access.log
+         - 错误日志目录 /var/log/v2ray/error.log
+      6. 启动 systemctl start v2ray
+      7. 设置开机启动 systemctl enable v2ray
+      8. 查看状态 systemctl status v2ray
+      9. 关闭程序 systemctl stop v2ray
+   2. 程序文件认识
+      - v2ray.exe                # 运行的执行程序
+      - wv2ray.exe               # 同 v2ray.exe 一样，但是是在后台运行的,所以可以和v2ray.exe 择其一执行
+      - config.json              # v2ray 的配置文件,这个是配置的核心
+      - v2ctl.exe                # v2ray 的工具,有多种功能，除特殊用途外，一般由v2ray.exe 灭调用，用户不用太关心
+      - geosite.dat              # 用于路由的域名文件
+      - geoip.dat                # 用于路由的IP文件
+      - 其它                     # 除上面提到的文件外，其他的不是运行v2ray的必要文件，更详细的说明可以查看doc文件夹下的 readme.md 文件，可以通过记事本或其它的广西编辑器打开查看
+
+   3. 基本情况说明
+      - v2ray 的配置文件中都是json，所以不支持注释
+      - v2ray 配置文件中使用 id 是UUID
+      - v2ray -test -config /xxx/xxx/config.json  # 检查以某个配置文件作为配置执行是否正确
+
+* 证书处理
+   - 证书
+      - ECC（内置公钥是 ECDSA 公钥）
+      - RSA（内置 RSA 公钥）
+      - 同等长度 ECC 比 RSA 更安全；同样安全性下，ECC的密钥长度比RSA短得多（加密解密会更快）
+      - 问题是 ECC 的兼容性会差一些，Android 4.x 以下和 Windows XP 不支持，只要您的设备不是非常古老，建议使用 ECC 证书
+   1. 特殊说明
+      - 将 域名的 dns 解析地址改为 cdn 提供的（注意在 cdn 管理中应该设置正确，
+      - 比如 cloudflare 中一个地址应该设置为最后一项）
+   2. 安装 acme.sh
+      - curl  https://get.acme.sh | sh   # 下载证书脚本
+      - source ~/.bashrc                 # 以确保脚本所设置的别名生效
+      - 如果安装失败可能是缺少依赖，执行 apt-get install openssl cron socat curl
+   3. 证书生成
+      - 以下只给出 ECC 证书的部分
+         - ~/.acme.sh/acme.sh --issue -d 你的域名 --standalone --keylength ec-256 --force
+            - 这个命令会临时占用 80 端口，确保之前没有占用 80 端口
+            - 注意最后几行，证书放在哪里了
+            - --keylength 表示密钥长度，后面的值可以是 ec-256 、ec-384、2048、3072、4096、8192，带有 ec 表示生成的是 ECC 证书，没有则是 RSA 证书。在安全性上 256 位的 ECC 证书等同于 3072 位的 RSA 证书。
+   4. 证书操作
+      - 证书更新
+         - 由于 Let's Encrypt 的证书有效期只有 3 个月，因此需要 90 天至少要更新一次证书，acme.sh 脚本会每 60 天自动更新证书。也可以手动更新。
+         - 手动更新 ~/.acme.sh/acme.sh --renew -d 你的域名 --force --ecc
+            - 由于本例把证书放到 /etc/v2ray 中，所以新证书和密钥生成后需放到 /etc/v2ray 中
+      - 将证书和密钥安装到 /etc/v2ray 中：
+         ```
+         $ sudo ~/.acme.sh/acme.sh --installcert -d 你的域名 --ecc \
+                                   --fullchain-file /etc/v2ray/v2ray.crt \
+                                   --key-file /etc/v2ray/v2ray.key
+         ```
+
+
+
+* 配置相关
+   - 配置注意事项
+   ```
+     # V2Ray 自 4.18.1 后支持 TLS1.3，如果开启并强制 TLS1.3 请注意 v2ray 客户端版本.
+     # 较低版本的 nginx 的 location 需要写为 /ray/ 才能正常工作
+     # 请保持服务器和客户端的 wsSettings 严格一致，对于 V2Ray，/ray 和 /ray/ 是不一样的
+     
+     # Nginx 配置证书后启动需要密码解决方案
+        # https://blog.csdn.net/zouyongjin/article/details/7329892
+     # godaddy 证书安装在nginx教程
+        # https://blog.csdn.net/tylcheck/article/details/82423624
+     # 注意：在 json 中，反斜杠 \ 有特殊意义，因此 Windows 操作系统目录的 \ 符号在配置中要使用 \\ 表示
+     # 当声明多个具有相同监听性质的 outbound 时（比如都监听同一个端口），默认第一个为出口,如果要分流需要配置路由规则
+   ```
+
+   - Nginx Configuration
+   ```
+   server {
+     listen 443 ssl;
+     listen [::]:443 ssl;
+     
+     # >>>>>>>> Important, the two configuration must be specified correctly.
+     ssl_certificate       xxx/yyy/zzz.crt;
+     ssl_certificate_key   xxx/yyy/zzz.key;
+   
+     ssl_session_timeout 1d;
+     ssl_session_cache shared:MozSSL:10m;
+     ssl_session_tickets off;
+     
+     ssl_protocols         TLSv1.2 TLSv1.3;
+     ssl_ciphers           ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384;
+     ssl_prefer_server_ciphers off;
+     
+     # >>>>>>>> Important, this is your domain.
+     server_name           YOUR_DOMAIN;
+   
+     # >>>>>>>> Important, the location rule must be the same as the path of v2ray
+     location /PATH {
+       if ($http_upgrade != "websocket") { # WebSocket协商失败时返回502
+           return 502;
+       }
+       proxy_redirect off;
+   
+       # >>>>>>>> Important, assume our server's nginx was listening 10377 port.
+       proxy_pass http://127.0.0.1:10377; 
+   
+       proxy_http_version 1.1;
+       proxy_set_header Upgrade $http_upgrade;
+       proxy_set_header Connection "upgrade";
+       proxy_set_header Host $host;
+   
+       # Show real IP in v2ray access.log
+       proxy_set_header X-Real-IP $remote_addr;
+       proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+     }
+   }
+   ```
+
+   - Server Configuration
+   ```
+   # 日志级别有：debug, info, warning, error, none
+   
+   {
+     "log": {
+       "loglevel": "warning",
+       "access": "/opt/v2ray-logs/access.log",
+       "error": "/opt/v2ray-logs/error.log"
+     },
+   
+     "inbounds": [
+       {
+         # >>>>>>>> Important, the port must be same as one listened by nginx
+         "port": 10377,
+         # >>>>>>>> just listen address of 127.0.0.1
+         "listen":"127.0.0.1",
+         "protocol": "vmess",
+         "settings": {
+           "clients": [
+             {
+               # >>>>>>>> Important, the id must be same as one of client config
+               "id": "2753b530-414e-4fdb-862a-78e5a200c282",
+               # >>>>>>>> Important, the alterId must be same as one of client config
+               "alterId": 70
+             }
+           ]
+         },
+         "streamSettings": {
+           "network": "ws",
+           "wsSettings": {
+           # >>>>>>>> Important, the location rule must be the same as the path intercepted by nginx
+           "path": "/PATH"
+           }
+         }
+       }
+     ],
+   
+     "outbounds": [
+       {
+         "protocol": "freedom",
+         "settings": {}
+       }
+     ]
+   }
+   ```
+
+   - Client Configuration
+   ```
+   # 日志级别有：debug, info, warning, error, none
+   
+   {
+     "log": {
+       "loglevel": "warning",
+       "access": "/opt/v2ray-logs/access.log",
+       "error": "/opt/v2ray-logs/error.log"
+     },
+   
+     "inbounds": [
+       {
+         "port": 1080,
+         "listen": "127.0.0.1",
+         "protocol": "socks",
+         "sniffing": {
+           "enabled": true,
+           "destOverride": ["http", "tls"]
+         },
+         "settings": {
+           "auth": "noauth",
+           "udp": false
+         }
+       }
+     ],
+   
+     "outbounds": [
+       {
+         "protocol": "vmess",
+         "settings": {
+           "vnext": [
+             {
+               "address": "YOUR_DOMAIN",
+               "port": 443,
+               "users": [
+                 {
+                   # >>>>>>>> Important, the id must be same as one of client config
+                   "id": "2753b530-414e-4fdb-862a-78e5a200c282",
+                   # >>>>>>>> Important, the alterId must be same as one of client config
+                   "alterId": 70
+                 }
+               ]
+             }
+           ]
+         },
+         "streamSettings": {
+           "network": "ws",
+           "security": "tls",
+           "wsSettings": {
+             # >>>>>>>> Important, the location rule must be the same as the path intercepted by nginx
+             "path": "/PATH"
+           }
+         },
+         "tag": "proxy"
+       },
+       {
+         "protocol": "freedom",
+         "settings": {},
+         "tag": "direct"
+       },
+       {
+         "protocol": "blackhole",
+         "settings": {},
+         "tag": "blacklist"
+       }
+     ],
+   
+     "routing": {
+       "domainStrategy": "IPOnDemand",
+       "rules": [
+         {
+           "type": "field",
+           "outboundTag": "direct",
+           "domain": [
+             "geosite:cn"
+           ]
+         },
+         {
+           "type": "field",
+           "outboundTag": "direct",
+           "ip": [
+             "geoip:cn",
+             "geoip:private"
+           ]
+         },
+         {
+           "type": "field",
+           "outboundTag": "blacklist",
+           "domain": [
+             "ext:h2y.dat:ad"
+           ]
+         },
+         {
+           "type": "field",
+           "outboundTag": "proxy",
+           "domain": [
+             "ext:h2y.dat:gfw"
+           ]
+         },
+         {
+           "type": "field",
+           "network": "tcp,udp",
+           "outboundTag": "direct"
+         }
+       ]
+     }
+   }
+
+   # 这个文件下载后放到 v2ray 的运行文件目录下 https://github.com/ToutyRater/V2Ray-SiteDAT/tree/master/geofiles 
+      # 包含广告域名和被封域名
+   # 路由在最后加上这个表明所有没有匹配的就走 direct
+      #{
+      #  "type": "field",
+      #  "network": "tcp,udp",
+      #  "outboundTag": "direct"
+      #}
+
+   ```
