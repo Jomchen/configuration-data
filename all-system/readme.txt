@@ -1,7 +1,9 @@
 * 一些重要的网址
    - 检查域名ssl生效 https://www.ssllabs.com/ssltest/analyze.html?d=www.lemon-wind.website
    - 测试IP健康 http://ping.chinaz.com/104.168.211.218
-   - 检查ip是否被墙 https://www.vps234.com/ipchecker/
+   - 检查ip是否被墙 
+      - https://www.vps234.com/ipchecker/
+      - http://ping.pe/
 
 * Win 和 Linux 双系统时间同步解决方案
    - win 和 Linux 双系统时间同步解决方案
@@ -14,7 +16,6 @@
       - https://www.namesilo.com/register.php?rid=775dd38gf
 * wall remote proxy tools 
    - TEACHING WEBSITE => https://www.v2rayssr.com/tag/trojan
-   - [ BBR 可以为代理服务器提速 ]
    - v2ray
       - 是一个系统体系
    - wireguard
@@ -27,24 +28,11 @@
    - Tor 洋葱路由器，匿名通信的Free软件
    - Brook
    - ssr
+   - [ BBR 可以为代理服务器提速 ]
 * 系统网络全局代理
    - Surge
    - Clash
 
-* 下载证书后，将 key 与 证书安装在 nginx 上后，nginx -t 验证不通过,错误形同如下
-   ```
-   报错nginx: [emerg] SSL_CTX_use_PrivateKey_file("/etc/nginx/ssl/myxxxxgame201904.key") failed (SSL: error:0906D06C:PEM routines:PEM_read_bio:no start line:Expecting: ANY PRIVATE KEY error:140B0009:SSL routines:SSL_CTX_use_PrivateKey_file:PEM lib)
-   ```
-   ```
-   解决方案是因为编码问题，用 vim 分别打开 证书 与 私钥，并执行
-   :set fileencoding=cp936
-   :wq!
-   微软的CP936通常被视为等同为GBK，连IANA也以CP936为GBK之别名，但是事实上比较起来
-   GBK定义的字符较CP936多出95字（15个非汉字及80个汉字）
-      CP936就是 GB2312
-   两个文件修改编码后即可验证成功
-   原因是证书与私钥必须以 ANSI 编码，而不能用 utf-8
-   ```
 
 * Arch 上数据库视图工具不能记住密码的解决方案（此方案仍不能解决问题）
    - 解决 Arch 上 数据库视图工具不能记住密码的解决方案
@@ -104,10 +92,3 @@
 
 * 配置网卡的教程
    - https://www.cnblogs.com/w-s-y/p/9498115.html
-
-* idea 不能下载源码的解决方案
-   - https://www.icode9.com/content-1-116950.html
-
-git 解决每次拉取代码都需要用户名和密码的情况
-   - git config --global credential.helper store
-   - 执行完毕后会在 ~/.gitconfig 中生成一个文件，记录了你的相关信息
