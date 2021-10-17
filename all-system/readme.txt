@@ -5,15 +5,12 @@
       - https://www.vps234.com/ipchecker/
       - http://ping.pe/
 
-* Win 和 Linux 双系统时间同步解决方案
-   - win 和 Linux 双系统时间同步解决方案
-     - https://wiki.archlinux.org/index.php/System_time
-     - 或者搜索 `System time arch` 搜索到双系统的时间解决方案
-
 * 域名
    - godaydy www.godaddy.com
    - namesilo www.namesilo.com
       - https://www.namesilo.com/register.php?rid=775dd38gf
+* VPS 主机厂商介绍
+   - http://www.367783.net/bandwagonhost/2051.html
 * wall remote proxy tools 
    - TEACHING WEBSITE => https://www.v2rayssr.com/tag/trojan
    - v2ray
@@ -33,6 +30,11 @@
    - Surge
    - Clash
 
+
+* Win 和 Linux 双系统时间同步解决方案
+   - win 和 Linux 双系统时间同步解决方案
+     - https://wiki.archlinux.org/index.php/System_time
+     - 或者搜索 `System time arch` 搜索到双系统的时间解决方案
 
 * Arch 上数据库视图工具不能记住密码的解决方案（此方案仍不能解决问题）
    - 解决 Arch 上 数据库视图工具不能记住密码的解决方案
