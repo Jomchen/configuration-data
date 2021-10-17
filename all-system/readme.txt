@@ -31,6 +31,7 @@
       - https://ahuigo.github.io/b/net/net-proxy-tool#/
       - 网址介绍系列
    - 基本的软件
+      - cow
       - graftcp
          - 可以把任何指定程序（应用程序，脚本，shell等）的TCP连接重定向到SOCKS5或HTTP代理
          - graftcp 不使用 LD_PRELOAD 技巧劫持共享库的 connect(), getaddrinfo() 等系列函数
