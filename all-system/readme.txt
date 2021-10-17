@@ -27,6 +27,15 @@
    - ssr
    - [ BBR 可以为代理服务器提速 ]
 * 系统网络全局代理
+   - graftcp
+      - 可以把任何指定程序（应用程序，脚本，shell等）的TCP连接重定向到SOCKS5或HTTP代理
+      - graftcp 不使用 LD_PRELOAD 技巧劫持共享库的 connect(), getaddrinfo() 等系列函数
+      - 达到重定向目的，这种方法只对使用动态链接编译的程序有效，对于表态链接编译的程序
+      - 例如黑夜选项编译的 Go 程序，proxychains-ng就无效了。graftcp 使用 ptrace(2)系统调
+      - 用跟踪或修改任意指定程序的 connect 信息，对任何程序都有效。
+   - proxychains-ng（是 proxychains 的新一代）
+   - proxychains
+   - tsocks（这个具说没有 proxychains 好用）
    - Surge
    - Clash
 
