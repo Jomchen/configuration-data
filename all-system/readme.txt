@@ -1,5 +1,5 @@
 * 一些重要的网址
-   - 检查域名ssl生效 https://www.ssllabs.com/ssltest/analyze.html?d=www.lemon-wind.website
+   - 检查域名ssl生效 https://www.ssllabs.com/ssltest/analyze.html
    - 测试IP健康 http://ping.chinaz.com/104.168.211.218
    - 检查ip是否被墙 
       - https://www.vps234.com/ipchecker/
