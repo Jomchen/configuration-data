@@ -15,6 +15,8 @@ ctrl + shift + f10   # 运行当前类的 main 方法
 ctrl + shift + f9    # debug运行当前类的 main 方法
 alt + 1              # 光标进入导航栏，隐藏导航栏
 esc                  # 光标进入编辑区
+shift + esc          # 光标进入编辑区，并且隐藏当前所在的非编辑区
+f12                  # 光标进入控制台
 ctrl + w             # 扩选当前区域
 ctrl + shift + J     # 依次把下列行和光标所在行列为一行
 ctrl + f             # 编辑区查找
@@ -34,6 +36,7 @@ alt + f12            # 调出控制台
 shift + esc          # 隐藏最近活跃的窗口
 alt + insert         # 新建...（光标需要定位在导航栏）
 f11                  # 切换书签
+ctrl + h             # 下拉出菜单栏
 ctrl + f11           # 以助记符切换书签
 ctrl + 0-9           # 通过数字跳转到书签
 shirt + f11          # 显示书签
