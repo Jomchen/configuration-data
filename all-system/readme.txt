@@ -9,8 +9,10 @@
    - godaydy www.godaddy.com
    - namesilo www.namesilo.com
       - https://www.namesilo.com/register.php?rid=775dd38gf
+
 * VPS 主机厂商介绍
    - http://www.367783.net/bandwagonhost/2051.html
+
 * across-GFW
    - TEACHING WEBSITE => https://www.v2rayssr.com/tag/trojan
    - v2ray
@@ -26,6 +28,7 @@
    - Brook
    - ssr
    - [ BBR 可以为代理服务器提速 ]
+
 * proxy-tool
    - 介绍网址
       - https://ahuigo.github.io/b/net/net-proxy-tool#/
@@ -41,8 +44,8 @@
       - proxychains-ng（是 proxychains 的新一代）
       - tsocks（这个具说没有 proxychains 好用）
       - privoxy
-      - Surge
-      - Clash
+      - Surge # 貌似是 Mac 上的软件
+      - Clash # 可以在 Linux 上使用
 
 
 * Win 和 Linux 双系统时间同步解决方案

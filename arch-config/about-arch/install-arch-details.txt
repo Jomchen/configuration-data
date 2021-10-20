@@ -28,7 +28,7 @@
    - 注意
       - Secure Boot 无法更改
          1. 找到 OS Optimized Defaults，设置为 Disabled 或 Other OS
-         2. 如果依赖显示灰色，则 Load Default Settings 恢复默认设置
+         2. 如果依然显示灰色，则 Load Default Settings 恢复默认设置
          3. 部分品牌电脑需设置 BIOS 密码才能修改 BIOS 选项
             - Set Supervisotr Password 为 Enabled
 
