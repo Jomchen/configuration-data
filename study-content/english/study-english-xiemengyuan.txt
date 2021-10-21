@@ -280,9 +280,9 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频：504line-such的位置，531line-both的位置，987line-多个形容词位置，990line-国家的形容词，1147line-多个副词的顺序，1497line-赋加疑问句，2641line-不定式的时态
+* 谢孟媛英语视频：504line-such的位置，531line-both的位置，987line-多个形容词位置，990line-国家的形容词，1147line-多个副词的顺序，1497line-赋加疑问句，2641line-不定式的时态，2706line-即使不能说是...，更不用说...
    - 看视频学习进度：finished
-   - 复习进度 2706 line
+   - 复习进度 3075 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
       - 有争议，是岁数大还是岁数小？
@@ -2741,7 +2741,7 @@
                   - used to v. # 以前习惯~;过去经常
                      - My father used to smoke, but now he does'nt # 我父亲以前常吸烟，但现在不抽了
                   - be used to ving 习惯~ # 现在的习惯
-                     - I used to staying up late at night. # 我习惯熬夜很晚
+                     - I am used to staying up late at night. # 我习惯熬夜很晚
                   - be used to do 被用于做~
 
 * 动名词
@@ -2760,7 +2760,7 @@
    - 当及物动词的受词
       - give up + ving, enjoy ving
       - You must give up traveling. 你必须放弃旅行
-      - My father enjoys playing golf very much. 我父亲很喜爱喜爱打高尔夫
+      - My father enjoys playing golf very much. 我父亲很喜爱打高尔夫
          - My father love/like to play ...
          - My father love/like playing ...
          - 如果动词是 love 或 like，则后面根不定式或动名词都可以
@@ -2860,7 +2860,7 @@
             2. The regulation saves the area from being damaged. 这项规定拯救了这个区域免于被破坏
                - 这里的 from 被翻译为“免于”
          - 完成形
-            - 动名词所表示的时间，若比，述词动词所表达的行为或状态时间更早，则用 having + p.p.
+            - 动名词所表示的时间，若比，述诉动词所表达的行为或状态时间更早，则用 having + p.p.
             - 她没察觉到她已做错了
                - She isn't aware of having done wrong.
                   - She isn't aware that she did wrong.
@@ -2889,7 +2889,7 @@
          - feel like n. （感觉起来像.../想要...）
          - I feel like having a drink 我想要喝一杯
             - I want to have a drink.
-               - want 只能根不不定式
+               - want 只能根不定式
             - I would like to have a drink.（would like 最为客气）
                - I'd like to have a drink.
       - cannot help ving （忍不住...）
@@ -3009,7 +3009,7 @@
          -  表示与过去事实相反的假设（假设在过去的过去，事实在过去）
          - If 主词 had + p.p., 主词 + would/could/should/might + have p.p.
             - 后面的 have p.p. 没有和前面的 had p.p. 前后对应，因为受助动词限制用原型
-            - 但是由于 would,could,should,might 是过去式的，所以过去式+完成式 间接形成过去完成式
+            - 但是由于 would,could,should,might 是过去式的，所以过去式+现在完成式 间接形成过去完成式
             - If I had known the gossip then, I would have told you. 如果我那时知道流言，我就会告诉你
                - 事实是：As I didn't know the gossip then,I woundn't tell you.
             - We would not have dozed off if our teacher had spoken louder. 如果那时我们的老师讲课大声点，我们就不会打瞌睡 
@@ -3076,7 +3076,7 @@
             - It's time/about time/almost time/hight time + (that) + S + 假设法过去式
                - It's time（注重于对到了时间应该做什么了）
                - It's about time（注重于到了该做某事的时间了）
-            - It's past midnight.It's time that the children gone to bed. 过了半夜了，该是小孩睡觉的时间了（小孩还没有睡觉，所以是对睡觉的假设）
+            - It's past midnight.It's time that the children went to bed. 过了半夜了，该是小孩睡觉的时间了（小孩还没有睡觉，所以是对睡觉的假设）
                - It's time for the children to go to bed.
             - It's about time you apologized to her for what you did. 该是你为你做的事情向她道歉的时候了（你还没有对她道歉，所以是对道歉的假设）
                - It's time for you to apologize to her for what you did.
@@ -3108,7 +3108,7 @@
          - 代替 if 子句的用法
             - 不定词
                - If you heard him talk,you would think he knew all about the secret. 如果你听到他说话，你会认为他知道所有的秘密
-                  => to heard him talk, you would think he knew all about the secret.
+                  => To heard him talk, you would think he knew all about the secret.
                      - 主词相同，省略之并以不定式表示假设
                      - 不定式前面的 talk 的时态可以和后面相匹配
             - 副词连接词/副词片语
