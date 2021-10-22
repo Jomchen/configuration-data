@@ -282,7 +282,7 @@
 
 * 谢孟媛英语视频：504line-such的位置，531line-both的位置，987line-多个形容词位置，990line-国家的形容词，1147line-多个副词的顺序，1497line-赋加疑问句，2641line-不定式的时态，2706line-即使不能说是...，更不用说...
    - 看视频学习进度：finished
-   - 复习进度 3075 line
+   - 复习进度 3414 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
       - 有争议，是岁数大还是岁数小？
@@ -2704,7 +2704,7 @@
                   - to make matters worse 更糟的是
                   - to be sure 的确
                   - not to say + adj. 即使不能说是~
-                  - 更不用说
+                  - 更不用说/更别提
                      - to say nothing of n.
                      - not to speak of n.
                      - not to mention
@@ -3399,7 +3399,7 @@
                   - What is your favarite subject? - History. # 什么是你最喜欢的科目？- 历史
                   - Who left the window open? - I did. # 谁把窗户打开的？我打开的
             - 选择疑问句
-               - Is Mr.Brown a pianist or a cellist? A pianist.
+               - Is Mr.Brown a pianist or a cellist? A pianist. # 布朗先生是钢琴家还是大提琴家？钢琴家
                - Would you like coffee or tea? Coffee, please.
                - Who runs faster, Tom or John? Tom does.
             - 附加疑问句
