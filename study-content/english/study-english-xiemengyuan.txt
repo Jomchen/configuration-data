@@ -280,9 +280,9 @@
             7. 让步状语从句（转折的前奏，强调前的不强调，虽然...）虽然
             8. 方式状语从句
 
-* 谢孟媛英语视频：504line-such的位置，531line-both的位置，987line-多个形容词位置，990line-国家的形容词，1147line-多个副词的顺序，1497line-赋加疑问句，2641line-不定式的时态，2706line-即使不能说是...，更不用说...
+* 谢孟媛英语视频：504line-such的位置，531line-both的位置，987line-多个形容词位置，990line-国家的形容词，1147line-多个副词的顺序，1497line-赋加疑问句，2641line-不定式的时态，2706line-即使不能说是...，更不用说...，3796line-not so much 的用法，3879line-的all the more 的用法重看视频确定，3905line-no more than 用法，
    - 看视频学习进度：finished
-   - 复习进度 3581 line
+   - 复习进度 4015 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
       - 有争议，是岁数大还是岁数小？
@@ -3678,9 +3678,9 @@
                - 感观动词
                   - 基本概念
                      ```
-                     - feel, see, watch -----------*
-                     - look at, notice, observe  --* + O + v./ving/p.p.
-                     - hear, listen to  -----------*
+                     - feel, see, watch -----------*\
+                     - look at, notice, observe  --*-* + O + v./ving/p.p.
+                     - hear, listen to  -----------*/
                      - 以上的感观动词 加 动词原型或现在分词 是有区别的
                         - 原型 表示简单的发生（只是简单的叙述）
                         - 现在分词 表示正在的进行（有动作的进行）
@@ -3722,7 +3722,7 @@
    - 原级-比较级-最高级 的 不规则变化
       - 词性举例
          - good/well - better -best
-         - had/ill - worse - worst
+         - bad/ill - worse - worst
          - many/much - more - most
          - little - less - least
       - 两种不同的比较级，最高级
@@ -3917,7 +3917,7 @@
             - no more/not more/no less/not less ~ than ~
             - 例子
                1. I am no more mad than you are. 我根你一样没有发疯
-              2. I am not more mad than you are. 我没有你那么疯
+               2. I am not more mad than you are. 我没有你那么疯
                3. I am no less mad than you are. 我比你疯 我不会比你少发疯
                4. I am not less mad than you are. 我不会比你少发疯
 
@@ -3958,11 +3958,11 @@
             2. Even the most talented student in our class wasn't able to answer it. 甚至我们班最有才能的人也不能回答它
                - talent # n. 才华，才能，天赋
                - 而这里是加 ed 变形成形容词
-         - at (the) most/best 顶多
-            - It will take at (the) most/best three hours to reach our destination. 顶多花三个小时到达目的地
+         - at <the> most/best 顶多
+            - It will take at <the> most/best three hours to reach our destination. 顶多花三个小时到达目的地
             - The plum blossoms there are now at their best. 在那里梅花盛开的状态是那里最好的情形
                - at one's best 在某某的最佳状态
-         - at (the) least 最少 ；at (the) worst 最差
+         - at <the> least 最少 ；at <the> worst 最差
             - It will take at (the) least three hours to reach our destination. 最少花三个小时到达目的地
             - Our team will at (the) worst get the third prize. 我们的队伍最差会得到第三名
          - make the most of/make the best of 尽全力
@@ -4026,7 +4026,7 @@
             - playing a game of basketball with us 是 意见的对象
          - What if it rains? 万一下雨怎么办
             - what if 这里指“万一”
-         - What will become of the whales if we don't protect them? 如果我们不保护金鱼，它们会变成什么样
+         - What will become of the whales if we don't protect them? 如果我们不保护鲸鱼，它们会变成什么样
             - the whales 将会产生一个什么样的结果
             - 这里的 of 不是“的”的意思，只是介词，起连接对象的作用
          - I know what. 我有个主意，或我知道些什么（what 是指事情的关系代名词）
