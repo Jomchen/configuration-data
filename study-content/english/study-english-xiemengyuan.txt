@@ -4320,7 +4320,7 @@
                   - 河川，海洋，海峡：the Amazon, the facific 
                   - 公共建筑物：the White House,the British Museum
                   - 报纸，杂志：the Times,the Asahi
-            10. 加不定冠词或得数形式的专有名词
+            10. 加不定冠词或复数形式的专有名词
                - A Mr.Brown has come to see you. # 一个叫布朗先生的人来看你了（不认识布朗先生）
                - He is the Edison of Taiwan. # 他是台湾的爱迪生（不是真的爱迪生，只是把这个人作比喻）
                - My wife was a Smith. # 我的妻子是姓史密斯的其中一个人（妻子是史密斯家族的人）
@@ -4360,7 +4360,7 @@
                - ash（灰）     * ashes（骨灰）
                - force（力量） * forces（军队）
                - arm（手臂）   * arms（武器，或其它解释）
-               - custom（海关）* customs（风俗，习惯）
+               - custom（n. 风俗，习俗；adj. 定制的）* customs（n. 海关，关税）
                - manner（方法）* manners（礼貌，礼仪）
                - letter（信）  * letters（文学）
                - air（空气）   * airs（装腔作势）
@@ -4441,7 +4441,7 @@
                2. 话题中第一次提到的单数名词前
                   - I saw a bird,The bird is flying in the sky.
                      - 注意
-                        - see - sae - seen  # v. 看
+                        - see - saw - seen  # v. 看
                         - say - said - said # v. 说
                3. 表示[个]
                   - Rome was not built in a day. 罗马不是一天就建成的
