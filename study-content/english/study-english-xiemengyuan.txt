@@ -4601,7 +4601,7 @@
          2. We had to stay indoors all day because of the storm. # 由于暴风雨，我们不得不整天待在室内
             - We had to stay indoors all day because there was a storm.
          3. Thanks to your advice,I was able to win
-         4. He sent his brother instead of going himsel. # 他改派他弟弟代替他去
+         4. He sent his brother instead of going himself. # 他改派他弟弟代替他去
          5. He saved the child at the risk of his life. # 他冒着生命危险救了他的生命
          6. We express our thoughts by means of words. 我们通过词语的意思表达我们的想法
          7. I did my best with a view to pleasing my father. 为了取悦我的父亲我尽我的全力
