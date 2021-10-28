@@ -282,7 +282,7 @@
 
 * 谢孟媛英语视频：504line-such的位置，531line-both的位置，987line-多个形容词位置，990line-国家的形容词，1147line-多个副词的顺序，1497line-赋加疑问句，2641line-不定式的时态，2706line-即使不能说是...，更不用说...，3796line-not so much 的用法，3879line-的all the more 的用法重看视频确定，3905line-no more than 用法，4139line-反义疑问句，4293line-名词的量化，
    - 看视频学习进度：finished
-   - 复习进度 4277 line
+   - 复习进度 4580 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
       - 有争议，是岁数大还是岁数小？
@@ -4320,7 +4320,7 @@
                   - 河川，海洋，海峡：the Amazon, the facific 
                   - 公共建筑物：the White House,the British Museum
                   - 报纸，杂志：the Times,the Asahi
-            10. 加不定冠词或得数形式的专有名词
+            10. 加不定冠词或复数形式的专有名词
                - A Mr.Brown has come to see you. # 一个叫布朗先生的人来看你了（不认识布朗先生）
                - He is the Edison of Taiwan. # 他是台湾的爱迪生（不是真的爱迪生，只是把这个人作比喻）
                - My wife was a Smith. # 我的妻子是姓史密斯的其中一个人（妻子是史密斯家族的人）
@@ -4360,7 +4360,7 @@
                - ash（灰）     * ashes（骨灰）
                - force（力量） * forces（军队）
                - arm（手臂）   * arms（武器，或其它解释）
-               - custom（海关）* customs（风俗，习惯）
+               - custom（n. 风俗，习俗；adj. 定制的）* customs（n. 海关，关税）
                - manner（方法）* manners（礼貌，礼仪）
                - letter（信）  * letters（文学）
                - air（空气）   * airs（装腔作势）
@@ -4441,7 +4441,7 @@
                2. 话题中第一次提到的单数名词前
                   - I saw a bird,The bird is flying in the sky.
                      - 注意
-                        - see - sae - seen  # v. 看
+                        - see - saw - seen  # v. 看
                         - say - said - said # v. 说
                3. 表示[个]
                   - Rome was not built in a day. 罗马不是一天就建成的
@@ -4457,7 +4457,7 @@
                   - Fine feathers make fine birds. # 人要衣装，佛要金装（好羽毛造就好的鸟）
                7. 表示每一个(->per)
                   - We have six English classes a week. # 我们每周有六节英语课
-               8. 重点：伴随 a 掋惯用表现
+               8. 重点：伴随 a 的惯用表现
                   - a great many, a little, a few, as a rule~（按...来说）
                   - As a rule it rains little in Chongqing in winter. 一般来说，在重庆冬天几乎不下雨
                   - He was at a loss for words. # 他惊慌得不知所措
@@ -4601,7 +4601,7 @@
          2. We had to stay indoors all day because of the storm. # 由于暴风雨，我们不得不整天待在室内
             - We had to stay indoors all day because there was a storm.
          3. Thanks to your advice,I was able to win
-         4. He sent his brother instead of going himsel. # 他改派他弟弟代替他去
+         4. He sent his brother instead of going himself. # 他改派他弟弟代替他去
          5. He saved the child at the risk of his life. # 他冒着生命危险救了他的生命
          6. We express our thoughts by means of words. 我们通过词语的意思表达我们的想法
          7. I did my best with a view to pleasing my father. 为了取悦我的父亲我尽我的全力
