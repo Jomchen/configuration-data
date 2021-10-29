@@ -278,6 +278,7 @@
       - pacman -S wine                    # windows 的虚拟容器
       - pacman -S wireshark-qt            # 视图化的抓包工具（与命令性质的择其一安装）
          - pacman -S wireshark-cli        # 命令性质的抓包工具
+      - Telerik Fiddler Web Debugger      # 手机抓包工具
       - pacman -S screenkey               # 按键动态展示（当有键盘按键时，在屏幕底层会显示，一般录屏比较有用）
       - pacman -S arp-scan             # 一个靠 arp 协议发现本地网络设备的工具
       - pacman -S zip                     # zip 压缩工具
