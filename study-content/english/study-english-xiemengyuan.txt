@@ -282,7 +282,7 @@
 
 * 谢孟媛英语视频：504line-such的位置，531line-both的位置，987line-多个形容词位置，990line-国家的形容词，1147line-多个副词的顺序，1497line-赋加疑问句，2641line-不定式的时态，2706line-即使不能说是...，更不用说...，3796line-not so much 的用法，3879line-的all the more 的用法重看视频确定，3905line-no more than 用法，4139line-反义疑问句，4293line-名词的量化，
    - 看视频学习进度：finished
-   - 复习进度 4580 line
+   - 复习进度 4780 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
       - 有争议，是岁数大还是岁数小？
@@ -1417,7 +1417,7 @@
       - The other day,my father gave me a computer as a birthday present. # 前几天，爸爸给了我一台电脑作生日礼物
       - I have been so lucky so far in my life. # 这辈子我都很幸运
         - so far # 到目前为止
-        - in my life # 在我的生命当中
+        - in my life # 我一生中/在我的生命当中
         - so far in my life # 这辈子
 
 * 附加问句（反义疑问句）
@@ -4629,7 +4629,7 @@
        - 词1
           - until/till 动作继续的期限
           - by（直到）动作完成的最后期限
-          - befor 之前（不包含期限限定的那一刻）
+          - before 之前（不包含期限限定的那一刻）
           - I am going to work till seven tonigh.      # 我会工作到晚上七点
           - I'll finish the work by noon.              # 我会在中午之前完成
           - I began to work before eight this morning. # 我是在早上八点以前开始工作的
