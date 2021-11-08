@@ -1,9 +1,12 @@
-* cdn 选择的网址
+## cdn 选择的网址
    - https://www.10besty.com/best-cdn-services/
    - 注意 Cloudflare 只支持 http1 而不支持 http2
    - GoDaddy主要还是服务器和域名相关服务做的比较好，如果要申请SSL证书建议选择国际权威的大品牌如Symantec、Comodo、GeoTrust、Thawte等。
    - Godaddy 证书申请流程
       - https://sg.godaddy.com/zh/help/ssl-ssl-32151
+
+## CSR 生成器地址
+   - https://csrgenerator.com/
 
 ## V2ray 安装和配置教程
    - v2ray 的链式传递会造成 streamSettings 失效
