@@ -1,3 +1,8 @@
+* CSR 生成器地址
+   - https://csrgenerator.com/
+* SSL Certificates Help Address
+   - https://sg.godaddy.com/help/add-or-remove-subject-alternative-names-from-my-ucc-certificates-4649
+
 * Godaddy 下载证书并合并成证书
    - csr-key
       - **.csr.txt 的为证书的签名内容文件
