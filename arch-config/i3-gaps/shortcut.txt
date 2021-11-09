@@ -1,10 +1,20 @@
 ### i3wm 快捷键 ###
 --------- $mod 暂定为 win ---------
-win + shift + space # 平铺和浮动的转换
-win + f             # 全屏和非全屏转换
-win + shift + q     # 关闭当前窗口
-win + enter         # 打开终端
-win + a             # 焦点向父级定焦
+win + shift + space     # 平铺和浮动的转换
+win + shift + r         # 重启i3
+win + shift + c         # 重新加载配置
+win + f                 # 全屏和非全屏转换
+win + shift + q         # 关闭当前窗口
+win + enter             # 打开终端
+win + a                 # 焦点向父级定焦，多次操作多次上级定焦
+win + e                 # 窗口平铺式显示
+win + w                 # 窗口标签式显示
+win + s                 # 窗口堆栈式显示
+win + h/j/k/l           # 焦点向当前窗口的 左/下/上/右 定焦
+win + shift + h/j/k/l   # 当前窗口向 左/下/上/右 移动
 浮动状态下
    win按住 + 鼠标左键按住窗口拖动 # 移动窗口
    win按住 + 鼠标右键按住窗口拖动 # 比例缩放窗口大小
+
+如果安装有 dmenu 情况下 
+   win+d # 会在左上角唤起环境命令窗口，根据键盘输入内容逐渐定位最精确的命令
