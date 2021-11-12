@@ -282,7 +282,7 @@
 
 * 谢孟媛英语视频：504line-such的位置，531line-both的位置，987line-多个形容词位置，990line-国家的形容词，1147line-多个副词的顺序，1497line-赋加疑问句，2641line-不定式的时态，2706line-即使不能说是...，更不用说...，3796line-not so much 的用法，3879line-的all the more 的用法重看视频确定，3905line-no more than 用法，4139line-反义疑问句，4293line-名词的量化，
    - 看视频学习进度：finished
-   - 复习进度 5419 line
+   - 复习进度 5570 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
       - 有争议，是岁数大还是岁数小？
@@ -5437,7 +5437,7 @@
    - 种类
       - 情状副词
          - He was happy.（这里的 happy 是形容词）
-         - He laughed happly. # 他笑得很开心（这里的 happily 是副词）
+         - He laughed happily. # 他笑得很开心（这里的 happily 是副词）
    - 形成
       - 一般是在形容词后 + ly (careful carefuly)
       - 形容词字尾为子音 + y -> 去 y + ily (happy happily)
@@ -5490,7 +5490,7 @@
       - 不同位置的不同意义
          - He answered the questions foolishly. # 他回答了这个问题（注意副词位置不同意义也不一样）
             - foolishly 靠近 questions，所以突出回答的是愚蠢的问题
-            - 他回答了愚蠢的答案（强调回答愚蠢）
+            - 他回答了愚蠢的答案（强调回答问题这件事愚蠢）
          - He foolishly answered the questions. # 他愚蠢到回答这个问题（注意副词位置不 同意义也不一样）
             - foolishly 靠近 answered，突出回答方式的愚蠢
             - 他愚蠢地回答这个问题（强调回答方式的愚蠢）
