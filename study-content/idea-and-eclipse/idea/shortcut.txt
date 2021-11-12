@@ -13,6 +13,9 @@ ctrl + + alt + b     # 进入光标的实现类
 alt + f7             # 查找引用了光标选中的地方
 ctrl + shift + f10   # 运行当前类的 main 方法
 ctrl + shift + f9    # debug运行当前类的 main 方法
+shift + f9           # debug 运行配置好的运行类
+shift + f10          # 运行配置好的运行类
+ctrl + f2            # 停止当前运行的程序
 alt + 1              # 光标进入导航栏，隐藏导航栏
 esc                  # 光标进入编辑区
 shift + esc          # 光标进入编辑区，并且隐藏当前所在的非编辑区
@@ -23,8 +26,6 @@ ctrl + f             # 编辑区查找
 ctrl + r             # 替换
 alt + left/right     # 编辑区的标签切换（切换为左边/右边）
 alt + 关闭标签       # 被点击的标签不关闭，反而关闭其它标签
-shift + f9           # debug 运行配置好的运行类
-shift + f10          # 运行配置好的运行类
 ctrl + y             # 删除光标当前行
 ctrl + d             # 复制当前行并粘贴到下一行
 shift + enter        # 光标下新启空白行，光标定位在新的空白行
