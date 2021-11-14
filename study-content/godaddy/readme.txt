@@ -1,7 +1,27 @@
-* CSR 生成器地址
-   - https://csrgenerator.com/
-* SSL Certificates Help Address
-   - https://sg.godaddy.com/help/add-or-remove-subject-alternative-names-from-my-ucc-certificates-4649
+* 关于证书生成
+   - CSR 生成器地址
+      - https://csrgenerator.com/
+   - SSL Certificates Help Address
+      - https://sg.godaddy.com/help/add-or-remove-subject-alternative-names-from-my-ucc-certificates-4649
+   - 命令行生成证书 https://www.howtoing.com/generate-csr-certificate-signing-request-in-linux
+      - `openssl req -new -newkey rsa:2048 -nodes -keyout xxx.key -out xxx.csr`
+         - req 启用 openssl # 的一部分来处理证书请求签名
+         - -newkey rsa: 2048 # 创建一个2048位的RSA密钥
+         - -nodes # 表示“不加密密钥”
+         - -keyout xxx.key # 私钥生成的文件名
+         - -out xxx.csr # csr 签名生成的文件名
+      - 生成过程的提示含义
+         ```
+         Country Name             --- ISO国家代码（两位字符）   -- CN
+         State or Province Name   --- 所在省份                  -- ZheJiang
+         Locality Name            --- 所在城市                  --- HangZhou
+         Organization Name        --- 公司名称                  --- HangZhou xxx Technologies,Inc.
+         Organizational Unit Name --- 部门名称                  --- IT Dept.
+         Common Name              --- 申请证书的域名            --- www.example.com
+         Email Address            --- 邮箱地址（不需要输入）
+         A challenge password     ---（不需要输入）
+         ```
+
 
 * Godaddy 下载证书并合并成证书
    - csr-key
