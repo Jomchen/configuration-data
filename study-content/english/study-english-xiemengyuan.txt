@@ -5773,7 +5773,7 @@
                - Because he is kind,he is loved by everyone. # 因为亲切，他深受大家喜爱
                   - Being a kind man,he is loved by everyone.
                - Because I didn't know what to say,I kept/remained silent. # 因为不知道说什么，所以我得保持沉默
-                  - Not knowing what to say,I kept.remained silent.
+                  - Not knowing what to say,I kept/remained silent.
             - 表附带状况
                - I ran all the way,and I arrived just in time. # 我一路跑着，那么我就可以及时到达
                   - I ran all the way,arriving just in time.（因为没有了连接词，所以加上逗号）
