@@ -295,6 +295,9 @@
       - yay -S wps-office-cn           # 安装 wps 主体
       - yay -S wps-office-fonts        # 安装 wps 需要字体
       - yay -S wps-office-mui-zh-cn    # 如果wps不是中文界面，可以安装此组件
+   - 其它将要软件
+      - rtorrent # 命令行BT客户端
+      - ffmpeg # 音视频流化工具
 
    - 重要安装和配置
       1. 安装 aur 和 google-chrome
