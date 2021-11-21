@@ -6,13 +6,6 @@
 
 ## Arch Linux 安装过程
 
-* 时间科普
-   - GMT：Greenwich Mean Time，即格林尼治标准时间，也就是世界时。GMT 以地球自转为基础的时间计量系统，但由于地球自转不均匀，导致 GMT 不精确，现在已经不再作为世界标准时间使用。
-   - UTC：Universal Time Coordinated，即协调世界时。UTC 是以原子时秒长为基础，在时刻上尽量接近于 GMT 的一种时间计量系统。为确保 UTC 与 GMT 相差不会超过 0.9 秒，在有需要的情况下会在 UTC 内加上正或负闰秒。UTC 现在作为世界标准时间使用。
-   - RTC：Real-Time Clock，即实时时钟，在计算机领域作为硬件时钟的简称。
-   - 世界上不同地区所在的时区是不同的，这些时区决定了当地的本地时间。比如北京处于东八区，即北京时间为 UTC + 8，如果 UTC 时间现在是上午 6 点整，那么北京时间为 14 点整。
-   - Windows 与 Linux 看待硬件时间的方式不同。Windows 把电脑的硬件时钟（RTC）看成是本地时间，即 RTC = Local Time，Windows 会直接显示硬件时间；而 Linux 则是把电脑的硬件时钟看成 UTC 时间，即 RTC = UTC，那么 Linux 显示的时间就是硬件时间加上时区。
-
 * 事前注意
    1. Windows 平台下
       - msinfo32     # 查看系统的引导方式
@@ -33,9 +26,17 @@
             - Set Supervisotr Password 为 Enabled
 
 * Windows 和 Linux 双系统时间不同步
-   1. win 和 Linux 双系统时间同步解决方案
-     - https://wiki.archlinux.org/index.php/System_time
-     - 或者搜索 `System time arch` 搜索到双系统的时间解决方案
+   - Linux+Windows 双系统时间同步解决方案
+      1. 时间科普
+         - GMT：Greenwich Mean Time，即格林尼治标准时间，也就是世界时。GMT 以地球自转为基础的时间计量系统，但由于地球自转不均匀，导致 GMT 不精确，现在已经不再作为世界标准时间使用。
+         - UTC：Universal Time Coordinated，即协调世界时。UTC 是以原子时秒长为基础，在时刻上尽量接近于 GMT 的一种时间计量系统。为确保 UTC 与 GMT 相差不会超过 0.9 秒，在有需要的情况下会在 UTC 内加上正或负闰秒。UTC 现在作为世界标准时间使用。
+         - RTC：Real-Time Clock，即实时时钟，在计算机领域作为硬件时钟的简称。
+         - 世界上不同地区所在的时区是不同的，这些时区决定了当地的本地时间。比如北京处于东八区，即北京时间为 UTC + 8，如果 UTC 时间现在是上午 6 点整，那么北京时间为 14 点整。
+         - Windows 与 Linux 看待硬件时间的方式不同。Windows 把电脑的硬件时钟（RTC）看成是本地时间，即 RTC = Local Time，Windows 会直接显示硬件时间；而 Linux 则是把电脑的硬件时钟看成 UTC 时间，即 RTC = UTC，那么 Linux 显示的时间就是硬件时间加上时区。
+      2. 解决方案
+         - https://wiki.archlinux.org/index.php/System_time
+         - 或者搜索 `System time arch` 搜索到双系统的时间解决方案
+         - https://zhuanlan.zhihu.com/p/81895948
 
 * 其它
    1. linux 中用 wine 安装 qq方案
@@ -171,6 +172,7 @@
       10. passwod           # 输入两次密码修改 root 密码
    5. 引导
       - pacman -S grub efibootmgr intel-ucode os-prober wpa_supplicant man networkmanager
+         - 注意 intel-ucode 是对于 intel 的处理器，如果是 amd 请查看官网判定应该安装什么
       - mkdir /boot/grub
       - grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=grub
          - 这里的 x86_64 是通过 uname -m 查询得到的，如果根文档不同，需要把 x86_64 替换之
@@ -348,11 +350,17 @@
          3. 如果还不能预览图片说明当前终端不支持预览图片，需要安装一个支持预览图片的终端
 
 * 注意事项
-   1. win 和 Linux 双系统时间同步解决方案
-     - https://wiki.archlinux.org/index.php/System_time
-     - 或者搜索 `System time arch` 搜索到双系统的时间解决方案
-   2. linux 中用 wine 安装 qq方案
-     - https://wiki.archlinux.org/index.php/Tencent_QQ_
+   - 安装 virtualbox 启动失败的情况，在安装提示中，选择安装 virtualbox-host-modules-arch 模块，而非 virtualbox-host-dkms
+      - https://wiki.archlinux.org/index.php/VirtualBox_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#%E5%9C%A8_Arch_%E9%87%8C%E5%AE%89%E8%A3%85_VirtualBox
+   - linux 中用 wine 安装 qq方案
+      - https://wiki.archlinux.org/index.php/Tencent_QQ_
+   - 解决 安装 i3 后不能打开的问题
+      - https://bbs.archlinuxcn.org/viewtopic.php?id=10115
+   - vnc
+      - http://blog.itpub.net/69976627/viewspace-2708322/
+      - https://blog.csdn.net/zhongqill/article/details/107912592
+
+
 
 * 其它问题
    - 解决 Arch 上 mysql-workbench 报 org.freedesktop.secrets was provided by any .service files 的异常
