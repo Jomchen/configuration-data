@@ -255,6 +255,7 @@
          - 由 iproute2 包中的 ip neighbor 命令替代
       - pacman -S nmap                 # 提供网络发现和探索功能，且有对查看远程端口是否开放的功能
    - 其它重要软件
+      - pacman -S github-desktop       # git 操作视图工具
       - pacman -S fzf                  # 终端下命令行快速查找工具（即时输入即时查询）
       - pacman -S neofetch             # 优雅显示系统信息
       - pacman -S xf86-input-synaptics # 触摸板驱动，笔记本可装，台式不装
