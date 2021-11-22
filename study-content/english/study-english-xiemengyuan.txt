@@ -282,7 +282,7 @@
 
 * 谢孟媛英语视频：504line-such的位置，531line-both的位置，987line-多个形容词位置，990line-国家的形容词，1147line-多个副词的顺序，1497line-赋加疑问句，2641line-不定式的时态，2706line-即使不能说是...，更不用说...，3796line-not so much 的用法，3879line-的all the more 的用法重看视频确定，3905line-no more than 用法，4139line-反义疑问句，4293line-名词的量化，
    - 看视频学习进度：finished
-   - 复习进度 5686 line
+   - 复习进度 5881 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
       - 有争议，是岁数大还是岁数小？
@@ -5813,7 +5813,7 @@
                   - Since I have seen him,I knows him well.
                      - having seen him,I knows him well.
                - 从大学毕业之后，他成为了新闻记者
-                  - After he had graduated from university, he became a journadist.
+                  - After he had graduated from university, he became a journalist.
                      - Having graduated from university,he became a journalist.
                      - 注意：完成形的被动 having been p.p.（这里的 having been 是可以省略的）
                - 完成形的被动 having been p.p.
@@ -5832,7 +5832,7 @@
                1. When the sun had set,we started for home. 太阳下山后，我们启程回家
                   - The sun having set,we started for home.
                2. Because it was Sunday,the stores were all closed. 因为星期天所有的商店都打烊
-                  - It beeing Sunday,the stores were all closed.
+                  - It being Sunday,the stores were all closed.
                3. As there was no bridges.we had to swim across the river. 因为没有桥，我们必须游泳过河
                   - There being no bridges.we had to swim across the river.
                4. We'll go on a picnic if the weather permits. 如果天气许可，我们将野餐
@@ -5841,7 +5841,7 @@
          - with + （代）名词 + 分词 - 附带状况
             - I stood there with my heart beating violently. 我站在那里，心脏跳得很厉害
             - The table was rather disorderly with serveral magazines lying open on the top. # 桌子相当乱，因为有几份杂志摊开在上面
-               - 因为躺是非及物动词，所以没有被动词，所以用主动进行表现
+               - 因为躺是非及物动词，所以没有被动情况，所以用主动进行表现
                - 这里的 open 是 adj. 表示的是一种状态
                - lie,lied,lied # 说谎
                   - 现在分词是 lying
