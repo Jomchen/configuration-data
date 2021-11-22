@@ -1,3 +1,7 @@
+* ps cpu占用排序查看进程
+   - ps aux --sort=-pcpu # 按cpu使用率倒序排序
+   - ps aux --sort=pcpu # 按cpu使用率升序排序
+
 * top 命令查看是否有异常占用内存或cpu的进程
    - root 命令执行 ls -ilha /proc/进程号/exe
       - 这条指令发现病毒文件执行的所在位置，如果是引用文件则进入引用文件所在的位置
