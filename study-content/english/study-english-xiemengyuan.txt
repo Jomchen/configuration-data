@@ -4485,11 +4485,14 @@
             - 介词 + the + 身体的某部分（只是为了限定部位）
                - He shook her roughly by the shoulder. 他很粗鲁地搂着她的肩膀摇晃她
                - He kissed the girl on the forehead. 他亲吻了女孩的额头
-                  - forefather # 祖先
-                  - forefinger # 十指
-                  - middlefinger # 中指
-                  - ringfinger # 无名指
-                  - littlefinger # 小指
+                  - forefather    # 祖先
+                  - thumbs        # 笨手笨脚
+                  - thumb         # 大拇指
+                  - forefinger    # 十指
+                     - index finger 或 first finger
+                  - middle finger # 中指
+                  - ring finger   # 无名指
+                  - little finger # 小指
                - The man was shot through the heart. # 那个男人被射穿心脏
          - 冠词的特别注意的用法
             - half,many,quite,rather,such,what + a/an + N.
