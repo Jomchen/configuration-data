@@ -17,7 +17,6 @@
 
 * 重要的软件或配置
    - jp2a # 转换 jpg 图像为 ascii 码图
-   - 改变用户名@主机名 的颜色 https://www.cnblogs.com/Rosen-Walk/p/11143325.html
    - zsh  # 一个更好用的终端（但是所有的配置需要自己重新配置）
       - oh-my-zsh # 整理了常用的 zsh 扩展和主题，所以先安装 oh-my-zsh
          - oh-my-zsh官网 https://ohmyz.sh/
@@ -40,8 +39,10 @@
       - mv incr-0.2.zsh ~/.oh-my-zsh/plugins/incr
       - echo 'source ~/.oh-my-zsh/plugins/incr/incr*.zsh' >> ~/.zshrc
       - source ~/.zshrc
-   
-   - 理性终端目录提示的颜色
+   - 改变 用户名@主机名 的颜色 
+      - 普通bash https://www.cnblogs.com/Rosen-Walk/p/11143325.html
+      - zsh终端 https://www.jianshu.com/p/bf488bf22cba
+   - 更改终端目录提示的颜色
       - 找到 oh-my-zsh 安装目录，进入主题文件夹，打开对应的主题文件，找到 prompt_dir() 方法中，找到对应的颜色更改之
          - 官方的颜色为：white black yellow cyan magenta blue grey green red
    - 如何使用配置 oh-my-zsh 的教程
