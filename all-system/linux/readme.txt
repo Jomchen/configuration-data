@@ -19,6 +19,8 @@
    - jp2a # 转换 jpg 图像为 ascii 码图
    - zsh  # 一个更好用的终端（但是所有的配置需要自己重新配置）
       - oh-my-zsh # 整理了常用的 zsh 扩展和主题，所以先安装 oh-my-zsh
+         - oh-my-zsh官网 https://ohmyz.sh/
+         - oh-my-zsh github网址 https://github.com/robbyrussell/oh-my-zsh
          - 可以选择安装 agnoster 主题
          - 安装之前需要 powerline font 字体，因为 agnoster 主题依赖于它
             - Ubuntu安装：apt-get install fonts-powerline
