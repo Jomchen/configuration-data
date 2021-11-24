@@ -17,3 +17,17 @@
 
 * 重要的软件或配置
    - jp2a # 转换 jpg 图像为 ascii 码图
+   - zsh  # 一个更好用的终端（但是所有的配置需要自己重新配置）
+      - oh-my-zsh # 整理了常用的 zsh 扩展和主题，所以先安装 oh-my-zsh
+         - 可以选择安装 agnoster 主题
+         - 安装之前需要 powerline font 字体，因为 agnoster 主题依赖于它
+            - Ubuntu安装：apt-get install fonts-powerline
+            - 其它系统根据情况查询 powerline
+         - 建议安装 powerline，因为这可能提供多个程序或终端的提示
+         - 检验该主题需要的特殊字符是否存在
+            - echo "\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699"
+         - 配置文件 ~/.zshrc
+            - ZSH_THEME="robbyrussell" # 这个是主题名（只改这里即可）
+         - 打开 zsh 看看效果
+         - 执行这条语句
+            - chsh -s `which zsh` # 改变默认的登录系统
