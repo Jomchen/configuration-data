@@ -40,6 +40,9 @@
       - echo 'source ~/.oh-my-zsh/plugins/incr/incr*.zsh' >> ~/.zshrc
       - source ~/.zshrc
    
+   - 理性终端目录提示的颜色
+      - 找到 oh-my-zsh 安装目录，进入主题文件夹，打开对应的主题文件，找到 prompt_dir() 方法中，找到对应的颜色更改之
+         - 官方的颜色为：white black yellow cyan magenta blue grey green red
    - 如何使用配置 oh-my-zsh 的教程
       - https://www.zhihu.com/question/21418449
       - https://blog.csdn.net/qq_35753140/article/details/79551560
