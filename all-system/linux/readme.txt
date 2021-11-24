@@ -33,13 +33,19 @@
          - 打开 zsh 看看效果
          - 执行这条语句
             - chsh -s `which zsh` # 改变默认的登录系统
-
-- 如何使用配置 oh-my-zsh 的教程
-   - https://www.zhihu.com/question/21418449
-   - https://blog.csdn.net/qq_35753140/article/details/79551560
-   - https://blog.csdn.net/it_male/article/details/83376965
-   - https://www.jianshu.com/p/27c8088dc8f7
-   - zsh 教程地址 https://www.jianshu.com/p/27c8088dc8f7
+   - 安装自动补全插件
+      - wget http://mimosa-pudica.net/src/incr-0.2.zsh
+      - mkdir ~/.oh-my-zsh/plugins/incr
+      - mv incr-0.2.zsh ~/.oh-my-zsh/plugins/incr
+      - echo 'source ~/.oh-my-zsh/plugins/incr/incr*.zsh' >> ~/.zshrc
+      - source ~/.zshrc
+   
+   - 如何使用配置 oh-my-zsh 的教程
+      - https://www.zhihu.com/question/21418449
+      - https://blog.csdn.net/qq_35753140/article/details/79551560
+      - https://blog.csdn.net/it_male/article/details/83376965
+      - https://www.jianshu.com/p/27c8088dc8f7
+      - zsh 教程地址 https://www.jianshu.com/p/27c8088dc8f7
 
 You have to execute 'cp /usr/share/oh-my-zsh/zshrc ~/.zshrc' to use it.
 Optional dependencies for oh-my-zsh-git
