@@ -31,3 +31,16 @@
          - 打开 zsh 看看效果
          - 执行这条语句
             - chsh -s `which zsh` # 改变默认的登录系统
+
+- zsh 教程地址 https://www.jianshu.com/p/27c8088dc8f7
+
+You have to execute 'cp /usr/share/oh-my-zsh/zshrc ~/.zshrc' to use it.
+Optional dependencies for oh-my-zsh-git
+    ruby: for some plugin functionality
+    python: for some plugin functionality [installed]
+    oh-my-zsh-powerline-theme-git: great theme
+    bullet-train-oh-my-zsh-theme-git: better powerline theme
+    git: most themes use git (highly recommended but still optional) [installed]
+:: Running post-transaction hooks...
+(1/1) Arming ConditionNeedsUpdate...
+
