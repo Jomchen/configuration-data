@@ -34,7 +34,12 @@
          - 执行这条语句
             - chsh -s `which zsh` # 改变默认的登录系统
 
-- zsh 教程地址 https://www.jianshu.com/p/27c8088dc8f7
+- 如何使用配置 oh-my-zsh 的教程
+   - https://www.zhihu.com/question/21418449
+   - https://blog.csdn.net/qq_35753140/article/details/79551560
+   - https://blog.csdn.net/it_male/article/details/83376965
+   - https://www.jianshu.com/p/27c8088dc8f7
+   - zsh 教程地址 https://www.jianshu.com/p/27c8088dc8f7
 
 You have to execute 'cp /usr/share/oh-my-zsh/zshrc ~/.zshrc' to use it.
 Optional dependencies for oh-my-zsh-git
