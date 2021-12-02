@@ -51,14 +51,21 @@
       - https://blog.csdn.net/it_male/article/details/83376965
       - https://www.jianshu.com/p/27c8088dc8f7
       - zsh 教程地址 https://www.jianshu.com/p/27c8088dc8f7
+   - 安装 oh-my-zsh 后的提示
+      ```
+      You have to execute 'cp /usr/share/oh-my-zsh/zshrc ~/.zshrc' to use it.
+      Optional dependencies for oh-my-zsh-git
+          ruby: for some plugin functionality
+          python: for some plugin functionality [installed]
+          oh-my-zsh-powerline-theme-git: great theme
+          bullet-train-oh-my-zsh-theme-git: better powerline theme
+          git: most themes use git (highly recommended but still optional) [installed]
+      :: Running post-transaction hooks...
+      (1/1) Arming ConditionNeedsUpdate...
+      ```
 
-You have to execute 'cp /usr/share/oh-my-zsh/zshrc ~/.zshrc' to use it.
-Optional dependencies for oh-my-zsh-git
-    ruby: for some plugin functionality
-    python: for some plugin functionality [installed]
-    oh-my-zsh-powerline-theme-git: great theme
-    bullet-train-oh-my-zsh-theme-git: better powerline theme
-    git: most themes use git (highly recommended but still optional) [installed]
-:: Running post-transaction hooks...
-(1/1) Arming ConditionNeedsUpdate...
+* Linux 的消息通知软件
+   - dbus 总线
+   - Linux Notification Center
+
 
