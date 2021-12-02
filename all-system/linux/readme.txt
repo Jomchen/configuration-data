@@ -64,8 +64,32 @@
       (1/1) Arming ConditionNeedsUpdate...
       ```
 
+* 一些软件
+   - dwm              # suckless开发的极简窗口管理器WM，本文的主人公
+   - dmenu            # suckless开发的极简应用程序选择器
+   - slock            # suckless开发的极简锁屏程序
+   - alacritty        # 通过GPU渲染加速的终端，在dwm和i3wm用户中比较流行；但是编译rust的时间较长，请耐心等待
+   - picom            # 用于窗口特效(透明、毛玻璃、阴影)的渲染，与美化有关
+   - xbacklight       # 用于屏幕亮度的调节
+   - sys-power/acpilight     #由于使用了mesa驱动(modesetting)的intel核显无法通过x11-apps/xbacklight调节屏幕亮度，所以用这个替代，应当作为首选
+      - rc-update add acpilight boot
+   - alsa-utils       # 用于系统音量的调节
+   - habak            # 极简的屏幕壁纸切换程序，与美化有关
+   - xsetroot         # 定制、显示简易的系统状态栏(电池电量、音量、日期、时间等)
+   - acpi             # 用于显示笔记本电脑电池的电量
+   - numlockx         # 用于进入dwm桌面后自动开启数字键盘
+   - 特殊说明
+      - 要想在 linux 上真正做到流畅地玩游戏，你还需要 Vulkan 作为游戏图形的渲染后端
+      - Vulkan 是新一代的图形渲染 api，相比 openGL 有着质一般飞跃的性能，许多用 openGL
+      - 运行卡顿的游戏，一旦换用 Vulkan 之后刽流畅很多。"Vulkan is the future"，Vulkan
+      - 的出现让 linux 和 android 平台的用户实现了如同在 windows 下畅玩游戏的理想，这
+      - 是 linux 开源世界近几年来最伟大的技术革新
+      - 参考 https://zhuanlan.zhihu.com/p/183861786
+
 * Linux 的消息通知软件
    - dbus 总线
-   - Linux Notification Center
+   - linux_notification_center
+      - 可以到 github 下查找
+         - https://github.com/phuhl/linux_notification_center
 
 
