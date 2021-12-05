@@ -1,11 +1,11 @@
-* 进度：93
 * 源码安装
   - 46 ~ 58 页讲源码安装所需要的组件
   - 93 附近的垃圾回收算法
 
 
 * 工具
-   - 内在映像分析工具：Eclipse Memory Analyzer
+   - JClassLib # Java 反编译工具
+   - Eclipse Memory Analyzer # 内存映像分析工具
    - Jconsole 调试工具，可以看到许多线程在运行，但是不包括 public static void main 和 它所创建的线程
 * 代码和参数细节
    - -Xmx 堆最大值
@@ -266,14 +266,19 @@
          - Java 核心库的加载器就是引导加载器，比如 java.lang.String
       - 自定义加载器
          - 扩展于 ClassLoader 抽象的派生加载器都可以称为自定义加载器
+         - ExtClassLoader 和 AppClassLoader 都是间接或直接派生于它的
    - 详细分类
       - 引导加载器（BootstrapClassLoader）
       - 扩展加载器（ExtClassLoader）
          - 主要加载 jre/lib/ext 子目录下加载类库
       - 系统加载器（AppClassLoader）
          - 用 Java 语言编写
-         - 加载 java.class.path 路径下的程序，是程序中默认的类加载器
-      - 自定义加载器
+         - 负责加载环境变量 classpath 或系统属性 java.class.path 路径下的类库，是程序中默认的类加载器
+      - 用户自定义加载器
+         - 隔离加载类
+         - 修改类加载的方式
+         - 扩展加载源
+         - 防止源码泄漏
    - 类加载器的获取方式
       - ClassLoader.forName(".....").getClassLoader(); // 获取指定类的加载器
       - Thread.currentThread().getContextClassLoader(); // 获取当前线程环境的类加载器
@@ -314,6 +319,7 @@
                - 局部变量表定义为一个数字数组，主要用于存储方法参数和定义在方法体内的局部变量
                - 局部变量表的大小是在编译时就确定了的
                - 局部变量表的变量的 start ~ length 表示这个变量在字节码中的有效范围
+               - 局部变量表中的变量也是重要的垃圾回收根节点，只要被局部变量表中直接或间接引用的对象都不会被回收
             - Slot
                - 局部变量表最基本的存储单元是 Slot（变量槽），一个 Slot 占用 4 个字节
                - 局部变量表中存放编译期可知的各种基本数据类型，引用类型，returnAddress类型的变量
