@@ -1,4 +1,3 @@
-
 * wall-mother
    ```
    # append following content to your hosts file to access wall-mother website.
@@ -6,11 +5,6 @@
    # Windows: C:\windows\System32\drivers\etc\hosts
    104.26.5.36 www.wallmama.com wallmama.com
    ```
-* v2ray 搭建 dns 的配置参考
-   - https://shinta.ro/posts/v2ray-as-a-dns-server/
-   - https://github.com/v2ray/discussion/issues/147
-   - https://lin.moe/posts/v2ray_with_nat/
-   - https://github.com/v2ray/discussion/issues/751
 
 * wall remote proxy networking technology
    - https://pincong.rocks/article/5489

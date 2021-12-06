@@ -16,3 +16,11 @@
       - xev       # 执行后，交互式地点击按键可以在终端输出键位码等信息
    - xprop        # 执行后，鼠标点击某窗口，可以得到窗口所在程序的名称
    - pidof 程序名 # 查看指定程序的 pid
+
+* 关于网络的一些命令
+   - NetworkManager
+      - nmcli general status          # 查看网络状态
+      - nmcli networking connectivity # 查看网络健康状态
+      - nmcli connection show         # 显示连接的网络
+      - nmcli device show             # 查看各网络接口的详细信息
+      - nmcli device status           # 查看各网络接口的状态

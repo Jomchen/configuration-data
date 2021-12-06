@@ -71,7 +71,7 @@
 
 * Linux 的消息通知软件
    - dbus 总线
-   - linux_notification_center
+   - deadd-notification-center
       - 可以到 github 下查找
          - https://github.com/phuhl/linux_notification_center
 
