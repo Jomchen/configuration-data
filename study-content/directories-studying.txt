@@ -34,4 +34,5 @@
       - 注意这个数组放的都是对象的地址值
    - 大数据解决方案
       - https://www.cnblogs.com/owenma/p/8723339.html
-
+   - Java 中 Unsafe 类的源码理解
+      - https://blog.csdn.net/a7980718/article/details/83661613
