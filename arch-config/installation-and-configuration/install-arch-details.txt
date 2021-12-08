@@ -301,6 +301,7 @@
       - pacman -S flameshot                      # 截图工具
          - 引用教程地址 https://linux265.com/soft/3848.html
       - pacman -S galculator                     # 计算器
+      - pacman -S thunar                         # 文件管理器，此包如果安装xfce桌面环境则会自动安装
       - yay -S wps-office-cn           # 安装 wps 主体
       - yay -S wps-office-fonts        # 安装 wps 需要字体
       - yay -S wps-office-mui-zh-cn    # 如果wps不是中文界面，可以安装此组件
@@ -344,7 +345,7 @@
                - yay --aururl “https://aur.tuna.tsinghua.edu.cn” --save # aur 使用清华源
                - yay -P -g # 查看 aur 的配置信息
 
-      2. 安装文件管理器,终端预览图片
+      2. 安装终端性文件管理器,终端预览图片
          1. pacman -S w3m    # 终端浏览器，实际可在终端预览视频和图片
          2. pacman -S ranger # 命令行文件管理器
             - 把文件 /usr/share/doc/ranger/config/rc.conf 文件复制到 ~/.config/ranger/rc.conf 并修改点内容
