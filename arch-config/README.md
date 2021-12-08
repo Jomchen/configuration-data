@@ -1,7 +1,22 @@
-# configuration-data
-   * 一些个人计算机配置。
+* configuration-data
+   - 一些个人计算机配置。
 
-# Some tools connectting directly to google store 
+* 在archlinux在安装intel驱动后，如果使用有问题建议回滚
+   ```
+   This driver(xf86-video-intel) now uses DRI3 as the default Direct Rendering
+   Infrastructure. You can try falling back to DRI2 if you run into trouble.
+   to do so, save a file with the following content as /etc/X11/xorg.conf.d/20-intel.conf:
+   
+   /etc/X11/xorg.conf.d/20-intel.conf
+   Section "Device"
+     Identifier "Intel Graphics"
+     Driver     "intel"
+     Option     "DRI" "2"            # DRI3 is now default
+     #Option     "AccelMethod" "sna" # default
+     #Option     "AccelMethod" "uxa" # fallback
+   EndSection
+   ```
+* Some tools connectting directly to google store 
    - PP谷歌访问助手:https://chrome.zzzmh.cn/info?token=kahndhhhcnignmbbpiobmdlgjhgfkfil
    - 集装箱:https://chrome.zzzmh.cn/info?token=kbgigmcnifmaklccibmlepmahpfdhjch
    - 谷歌访问助手:https://chrome.zzzmh.cn/info?token=gocklaboggjfkolaknpbhddbaopcepfp
