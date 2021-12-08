@@ -355,6 +355,10 @@
                set preview_images_method w3m
                ```
          3. 如果还不能预览图片说明当前终端不支持预览图片，需要安装一个支持预览图片的终端
+      3. 消息通知弹窗
+         - 下载 deadd-notification-center 并配置配置文件 ~/.config/deadd/deadd.conf
+            - Github 地址 https://github.com/phuhl/linux_notification_center
+
 
 * 注意事项
    - 安装 virtualbox 启动失败的情况，在安装提示中，选择安装 virtualbox-host-modules-arch 模块，而非 virtualbox-host-dkms
