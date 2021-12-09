@@ -51,8 +51,7 @@
 
 
 
-################################# 安装步骤
-
+## 安装步骤 ###########################3################################ 安装步骤
 
 
 * 配置联网
@@ -98,10 +97,12 @@
             - 其它为 Linux 类型
       - p # 查看下分区情况是否正确
       - w # 把分区信息写入磁盘，注意避免分错
+
 * 分区格式化
    - mkfs.fat -F32 /dev/对应的efi分区
    - mkfs.ext4     /dev/主分区
    - mkfs.ext4     /dev/家目录分区
+
 * 挂载
    - 注意先挂载 根分区，否则会出现问题
    - mount /dev/主分区  /mnt         # 挂载根分区
@@ -218,31 +219,54 @@
    - i3-gaps
       - pacman -S i3-gaps       # 安装 i3-gaps 窗口管理器
       - pacman -S dmenu         # 安装 dmenu 程序命令启动软件
-      - 配置一个文件，以选择性启动
-         - 如果使用 lightdm 托管，则可以不用以下配置，而参考 xfce4 的方案，在 ~/.xprofile 中配置使用语言 `#!/bin/bash LANG=zh_CN.UTF-8`
-         ```
-         编辑 ~/.xinitrc
-         #!/bin/bash
-         
-         ... 省略号部分内容应该复制源于 /etc/X11/xinit/xinitrc 中的内容
-         # 但是也应该注意 复制的内容中有些指令应该注释掉，比如：xterm, xclock, twm
-         # 复制内容时注意 exex 命令行应该出现在最后，否则其它的资源加载可能不生效（参考 xorg, xinit, display manager, 的维基文档）
+      - 配置启动 i3-gaps 的方案（以下择其一即可）
+         1. 如果使用 lightdm 托管，则可以不用以下配置，
+            - 而参考 xfce4 的方案，在 ~/.xprofile 中配置使用语言 
+               ```
+               #!/bin/bash
+               LANG=zh_CN.UTF-8
+               # Whether to configure the LC_LANG or not?
+               # LC_LANG=und
+               ```
+         2. 命令行启动图形界面（根据情况选择性启动 i3-gaps 或 xfce ）
+            ```
+            编辑 ~/.xinitrc
+            #!/bin/bash
+            
+            ... 省略号部分内容应该复制源于 /etc/X11/xinit/xinitrc 中的内容
+            # 但是也应该注意 复制的内容中有些指令应该注释掉，比如：xterm, xclock, twm
+            # 复制内容时注意 exex 命令行应该出现在最后，否则其它的资源加载可能不生效（参考 xorg, xinit, display manager, 的维基文档）
 
-         LANG=zh_CN.UTF-8
-         LC_LANG=und
-         deskTopChoice=${1:-xfce}
-         case $deskTopChoice in
-         	i3	) exec i3 -V >> ~/i3-$(date +%Y-%m-%d)-log.txt 2>&1;;
-         	xfce	) exec startxfce4;;
-         	*	) exec $1;;
-         esac
-         ```
-         ```
-         在字符界面执行
-         startx ~/.xinitrc i3   # 启动i3
-         startx ~/.xinitrc xfce # 启动xfce
-         记得要在i3里配置让 fcitx 预先执行
-         ```
+            LANG=zh_CN.UTF-8
+            LC_LANG=und
+            deskTopChoice=${1:-xfce}
+            case $deskTopChoice in
+            	i3	) exec i3 -V >> ~/i3-$(date +%Y-%m-%d)-log.txt 2>&1;;
+            	xfce	) exec startxfce4;;
+            	*	) exec $1;;
+            esac
+            ```
+            ```
+            在字符界面执行
+            startx ~/.xinitrc i3   # 启动i3
+            startx ~/.xinitrc xfce # 启动xfce
+            记得要在i3里配置让 fcitx 预先执行
+            ```
+
+   - 字体配置
+      - 对于全局用户有两个文件夹注意
+         - /usr/local/share/fonts # 这个才是应该手动添加字段的地方
+            - mkdir -p /usr/local/share/fonts # 手动创建文件夹
+            - 一个类别的字段应该有它对应的文件夹，再把文件夹放到 /usr/local/share/fonts 下
+         - /usr/share/fonts  # 这个是由包安装器管理的，不应该手动添加和删除和修改处理
+      - 对于单个用户
+         - /home/用户家目录/.local/share/fonts # 存放字段文件夹位置
+      - 字段安装后处理
+         - 注意字段文件夹的权限，至少有目录的 555，文件的 444 权限
+         - fc-cache -vf # 刷新字体
+         - fc-list      # 查看可用的字体，输出信息中每一行是一个字体文件和字体文件对应的字体名字和风格
+         - fc-match     # 查看默认被使用的字段
+
 
    - 必装软件
       - pacman -S dhcpcd               # 动态ip分配
