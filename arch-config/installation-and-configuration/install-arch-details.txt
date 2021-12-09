@@ -272,6 +272,7 @@
       - 设置字体分辨率
          - https://wiki.archlinux.org/title/HiDPI_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)
          - https://www.jianshu.com/p/d8963538bcd9
+         - 百度搜索 “archlinux 设置默认字段大小”
 
    - 必装软件
       - pacman -S dhcpcd               # 动态ip分配
