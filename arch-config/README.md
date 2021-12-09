@@ -1,7 +1,7 @@
 * configuration-data
    - 一些个人计算机配置。
 
-* 在archlinux在安装intel驱动后，如果使用有问题建议回滚
+* 在archlinux在安装intel显卡驱动后，如果使用有问题建议回滚
    ```
    This driver(xf86-video-intel) now uses DRI3 as the default Direct Rendering
    Infrastructure. You can try falling back to DRI2 if you run into trouble.
