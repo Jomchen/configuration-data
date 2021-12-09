@@ -255,24 +255,65 @@
             ```
 
    - 字体配置
-      - 对于全局用户有两个文件夹注意
-         - /usr/local/share/fonts # 这个才是应该手动添加字段的地方
-            - mkdir -p /usr/local/share/fonts # 手动创建文件夹
-            - 一个类别的字段应该有它对应的文件夹，再把文件夹放到 /usr/local/share/fonts 下
-         - /usr/share/fonts  # 这个是由包安装器管理的，不应该手动添加和删除和修改处理
-      - 对于单个用户
-         - /home/用户家目录/.local/share/fonts # 存放字段文件夹位置
-      - 字段安装后处理
+      - 安装字体
+         - 安装器在线安装，一般安装在 /usr/share/fonts 下
+         - 手动安装，将字体文件手动存放在某目录
+            - 全局用户-存放字体文件的位置
+               - /usr/local/share/fonts # 这个才是应该手动添加字体的地方
+                  - mkdir -p /usr/local/share/fonts # 手动创建文件夹
+                  - 一个类别的字体应该有它自己的文件夹，再把文件夹放到 /usr/local/share/fonts 下
+               - /usr/share/fonts  # 这个是由包安装器管理的，不应该手动添加和删除和修改处理
+            - 单个用户-存放字体文件的位置
+               - /home/用户家目录/.local/share/fonts # 存放字段文件夹位置
+      - 字体安装后置处理
          - 注意字段文件夹的权限，至少有目录的 555，文件的 444 权限
          - fc-cache -vf # 刷新字体
          - fc-list      # 查看可用的字体，输出信息中每一行是一个字体文件和字体文件对应的字体名字和风格
          - fc-match     # 查看默认被使用的字段
-      - 可能比较正确的配置教程地址
-         - https://www.cnblogs.com/hugetong/p/6103526.html
-      - 设置字体分辨率
-         - https://wiki.archlinux.org/title/HiDPI_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)
-         - https://www.jianshu.com/p/d8963538bcd9
-         - 百度搜索 “archlinux 设置默认字段大小”
+      - 配置全局用户的默认系统字体
+         - 创建文件，添加内容 /home/用户家目录/fontconfig/fonts.conf
+            - 如果文件夹不存在则手动创建，内容为几种字体类型下，分别用哪些字体显示，如果不合适则向下回滚
+            ```
+            <?xml version="1.0"?>
+            <!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+            <fontconfig>
+            	<!--<dir>~/.fonts</dir>-->
+            
+            	<alias>
+            	        <family>serif</family>
+            	        <prefer>
+            	                <family>Microsoft YaHei</family>
+            	                <family>DejaVu Serif</family>
+            	                <family>Source Han Sans CN</family>
+            	        </prefer>
+            	</alias>
+            	
+            	<alias>
+            	        <family>sans-serif</family>
+            	        <prefer>
+            	                <family>Microsoft YaHei</family>
+            	                <family>DejaVu Sans</family>
+            	                <family>Source Han Sans CN</family>
+            	        </prefer>
+            	</alias>
+            	
+            	<alias>
+            	        <family>monospace</family>
+            	        <prefer>
+            	                <family>Microsoft YaHei</family>
+            	                <family>DejaVu Sans Mono</family>
+            	                <family>Source Han Sans CN</family>
+            	        </prefer>
+            	</alias>
+            </fontconfig>
+            ```
+      - 配置字体其它教学
+         - 配置默认字体
+            - https://www.cnblogs.com/hugetong/p/6103526.html
+         - 设置字体大小和屏幕分辨率
+            - https://wiki.archlinux.org/title/HiDPI_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)
+            - https://www.jianshu.com/p/d8963538bcd9
+            - 百度搜索 “archlinux 设置默认字段大小”
 
    - 必装软件
       - pacman -S dhcpcd               # 动态ip分配
