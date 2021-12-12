@@ -2,11 +2,35 @@
   - 46 ~ 58 页讲源码安装所需要的组件
   - 93 附近的垃圾回收算法
 
+* 概念
+  - JDK：java 程序设计语言，java 虚拟机，java API 类库 这三部分统称为 JDK（Java Development Kit），JDK 是用于支持 Java 程序开发的最小环境
+  - JRE：Java API 类库中的 Java SE API 子集 和 Java 虚拟机 这两部分统称为 JRE（Java Runtime Environment），JRE 是支持 Java 程序运行的标准环境
 
-* 工具
-   - JClassLib # Java 反编译工具
+* jvm学习工具
+   - JDK 命令行
    - Eclipse Memory Analyzer # 内存映像分析工具
    - Jconsole 调试工具，可以看到许多线程在运行，但是不包括 public static void main 和 它所创建的线程
+   - Jprofiler
+      - IDEA 可插件安装
+   - Java Flight Recorder
+   - GCViewer
+   - GC Easy
+   - JClassLib # Java 反编译工具
+      - IDEA 可插件安装
+
+* 性能监控与故障处理工具
+   - jps # JVM Process Status Tool 显示指定系统内所有的 HotSpot 虚拟机进程
+      - q 只输出 LVMID，省略主类的名称
+      - -m 输出虚拟机进程启动时传递给主类 main() 函数的参数
+      - -l 输出主类的全名，如果是进程执行的是 jar 包，输出 jar 路径
+      - -v 输出虚拟机进程启动时 JVM 参数
+   - jstat # JVM Statistics Monitoring Tool，用于收集HotSpot 虚拟机各方面的运行数据
+      - jstat -gc java进程号 # 查看内存使用情况
+   - jinfo # Configuration Info for Java 显示虚拟机配置信息
+      - jinfo -flag SurvivorRatio 进程号 # 显示相应进程的幸存者配置
+   - jmap # Memory Map for Java，生成虚拟机的内存转储快照（heapdump 文件）
+   - jhat # JVM Heap Dump Browser，用于分析 heapdump 文件，它会建立一个 HTTP/HTML 服务器，让用户可以在浏览器上查看分析结果
+   - jstack Stack Trace for Java，显示虚拟机的线程快照
 * 代码和参数细节
    - -Xmx 堆最大值
    - -Xms 堆最小值
@@ -14,12 +38,10 @@
    - -Xss 每个线程分配的内存大小
    - -XX:HeapDumpOnOutOfMemoryError 可以让虚拟机在出现内存溢出异常时Dump 出当前的内存堆转储快照以便事后进行分析
    - -XX:PermSize 和 -XX:MaxPermSize 限制方法区大小
+   - -XX:+PrintGCDetails      # 可以把程序运行的堆信息打印出来
 
 
 
-* 概念
-  - JDK：java 程序设计语言，java 虚拟机，java API 类库 这三部分统称为 JDK（Java Development Kit），JDK 是用于支持 Java 程序开发的最小环境
-  - JRE：Java API 类库中的 Java SE API 子集 和 Java 虚拟机 这两部分统称为 JRE（Java Runtime Environment），JRE 是支持 Java 程序运行的标准环境
 
 
 * 运行时数据区域
@@ -150,17 +172,6 @@
          - 基于 标记-整理 的不会产生内存空间碎片的算法
          - 可预测的停顿
 
-* 性能监控与故障处理工具
-   - jps # JVM Process Status Tool 显示指定系统内所有的 HotSpot 虚拟机进程
-      - q 只输出 LVMID，省略主类的名称
-      - -m 输出虚拟机进程启动时传递给主类 main() 函数的参数
-      - -l 输出主类的全名，如果是进程执行的是 jar 包，输出 jar 路径
-      - -v 输出虚拟机进程启动时 JVM 参数
-   - jstat # JVM Statistics Monitoring Tool，用于收集HotSpot 虚拟机各方面的运行数据
-   - jinfo # Configuration Info for Java 显示虚拟机配置信息
-   - jmap # Memory Map for Java，生成虚拟机的内存转储快照（heapdump 文件）
-   - jhat # JVM Heap Dump Browser，用于分析 heapdump 文件，它会建立一个 HTTP/HTML 服务器，让用户可以在浏览器上查看分析结果
-   - jstack Stack Trace for Java，显示虚拟机的线程快照
 
 
 
@@ -366,6 +377,16 @@
             - invokestatic: 调用静态方法，解析阶段确定唯一方法版本（非虚方法）
             - invokespecial: 调用<init>方法，私有及父类方法，解析阶段确定唯一方法版本（非虚方法）
             - invokevirtual: 调用所有虚方法（虚方法）
+               - 注意如果 B extend A，A 中有 public final YY xxx() 的方法，在B的一个方法中调用它。
+                  - 不同情况编译后，B的那个调用方法结果是不一样的，虚方法和非虚方法是取决于编译器，而非程序员
+                     - B 的方法中调用写法是 xxx()
+                        - 编译后是 invokevirtual 方法
+                     - B 的方法中调用写法是 super.xxx()
+                        - 编译后是 invokespecial 方法
+                     - 这里 invokevirtual 不是取决于是否是final，而是取决于 private 还是 public
+                        - 这是 java 遗留问题，《Java语言规范》规定 final 是非虚方法
+               - 父类有个没有被重写的方法，在 B 中有个方法以没有 super关键字的形式调用它，B的这个调用方法编译后是 invokevirtual
+               - B 中有个非 final 的普通方法，在 B 中有另一个方法了它，那么这个另一个方法编译后调用方法也为 invokevirtual
             - invokeinterface: 调用接口方法（虚方法）
          - 动态调用指令
             - invokedynamic: 动态解析出需要调用换方法，然后执行，lambda 表达式会造成这种情况
@@ -397,7 +418,13 @@
       - java 方法结果注意
          - Runtime.getRuntime().totalMemory() # 可以获取初始堆大小
          - Runtime.getRuntime().maxMemory() # 可以获取最大堆大小
-         - 这两个方法获取到的可能和分配的不一样，要小一些，因为 JVM 的堆分配中可能存在空闲的，然而这两个方法是计算已经用了的，所以要小一些
+         - 这两个方法获取到的可能和参数分配的大小不一样，比参数分配的要小一些
+            - 因为 JVM 的堆的 survivor 有两个，分别是 s0 和 s1区，在实际情况中总有一个是空闲的
+            - 而方法获取到的实际有一个空闲的 survivor 空间没有计算。所以和参数分配的比较会小一些
+            - 结论是两个方法计算的是实际使用的内存空间
+      - 默认堆情况下
+         - 初始内存大小：物理电脑内存大小 / 64
+         - 最大内存大小：物理电脑内存大小 / 4
    - 新生代和老年代参数设置
       - 存在 java 中对象可分为两类
          - 1. 一类是生命周期较短的瞬时对象，这类对象的创建和消亡都非常迅速
@@ -419,14 +446,15 @@
             - 几乎所有的 java 对象都是在 Eden 区被 new 出来的
             - 绝大部分对象销毁都是在新生代中进行的
             - 很多情况，实际查询出来不是 8:1:1，因为有默认有自适应的设定（-XX:+UseAdaptiveSizePolicy），关闭是 -XX:-UseAdaptiveSizePolicy
-               - 所以需要显示指定 -XX:SurvivorRatio=8 才会有效果
+               - 所以需要显式指定 -XX:SurvivorRatio=8 才会有效果
    - 对象分配过程
       - 一般概念
-         - 新生代的回收叫 YGC，老年代的回收是 FGC
+         - 新生代的回收叫 YGC / Minor GC，老年代的回收是 Major GC / Old GC
          - new 对象先放在 Eden 区
          - Survivor0 或 Survivor1 简称 s0 或 s1
-         - 在内存回收过程中，对象经过Eden -> s0/1, s0 -> s1, s1 -> s0 过程中，对象的阈值会增加，对象的阈值默认是 15，15之后会 Promotion 到老年代
-            - 也有没到 15 就升为老年代的情况
+         - 在内存回收过程中，对象经过Eden -> s0/1, s0 -> s1, s1 -> s0 
+            - 放入 s0/s1 的过程中，对象的阈值会增加，对象的阈值默认是 15，15之后会 Promotion 到老年代
+            - 额外也有没到 15 就升为老年代的情况
          - Eden 满会触发 GC，但是 S0,s1 满的时候不会触发，Eden 触发的时候会同时判断 s0和s1 是否满了
          - 垃圾回收：频繁在新生区回收，很少在老年代回收，几乎不在永久区/元空间回收
          - 针对幸存者 s0,s1区的总结，复制之后有交换，谁空谁是 to，因为 from to 是一个 从 from 复制到 to 的位置的过程
@@ -439,7 +467,7 @@
       - 分类
          - Minor GC / Young GC          # 相当于 新生代回收
          - Major GC / Old GC            # 会回收 老年代
-         - Full GC                      # 会回收 整个堆空间，包括年代代和永久代
+         - Full GC                      # 会回收 整个堆空间，包括老年代和永久代
       - 在 GC 时，并非每次都对三个内存进行一起回收（新生代，老年代，方法区/永久代）
          - 部分收集（Partial GC）
             - 新生代收集（Minor GC）：只是新生代 Eden,s0,s1 的垃圾回收
@@ -450,11 +478,16 @@
                - 目前，只有 G1 GC 会有这种行为
          - 整堆收集（Full GC）：收集整个 java 堆和方法区的垃圾收集
       - 年轻代 GC 触发时机
-         - 速度最快
-         - Eden 空间不足时触发
+         - Eden 空间不足时触发，就会触发 Minor GC，这里的年轻代满指的
+         - 是 Eden 代满，Survivor 满不会引发 GC，每次 Minor GC会清理年轻代的内存
+         - 因为 Java 对象大多都具备朝生夕灭的特性，所以 Minor GC非常频繁，一般回收速度也比较快。这一定义既清晰又易于理解
          - 会引发 STW，暂停其它用户的线程，等垃圾回收完后才会恢复
       - 老年代 GC
-         - 速度比 Minor GC 慢10倍
+         - 指发生在老年代的GC，对象从老年代消失时，我们说“Major GC”或“Full GC”发生了
+         - 出现了 Major GC，经常会伴随至少一次的Minor GC（但非绝对的，在Parallel Scavenge收集器的收集策略里就有直接进行 Major GC的策略选择过程）
+            - 也就是在老年代空间不足时，会先尝试触发Minor GC，如果之后空间还不足，则触发Major GC
+         - 速度比 Minor GC 慢10倍以上，STM时间更长
+         - 如果 Major GC后，内存还不足，就报OOM了
       - Full GC 触发条件
          1. 调用 System.gc() 时，系统建议执行 Full GC，但是不必然执行
          2. 方法区空间不足时（此时会触发 Full GC 进行 Class, Method 元信息的卸载
@@ -470,7 +503,6 @@
          - 如果 Survivor 区中相同年龄的所有对象大小的总和大于 Survivor 空间的一半，年龄大于或等于该年龄的对象可以直接进入老年代，无须等到 MaxTenuringThreshold 中要求的年龄 
       - 分配担保
          - -XX:HandlePrmotionFailure
-         - jdk7 及之后这个参数不再影响虚拟机内存分配担保策略，默认是 true
          - 在发生 MIinor GC 之前，虚拟机会检查老年代最大可用的连续空间是否大于新生代所有对象的总空间
             - 如果大于，则此次 Minor GC 是安全的
             - 如果小于，则虚拟机会查看 -XX:HandlePromotionFailure 设置值是否允许担保失败
@@ -478,6 +510,9 @@
                   - 如果大于，则尝试进行一次 Minor GC，但这次Minor GC依然是有风险的
                   - 如果小于，则改为进行一次 Full GC
                - 如果这个值为 false 则改为进行一次 Full GC
+         - jdk7 及之后这个参数不再影响虚拟机内存分配担保策略，默认是 true
+            - 这及之后，HandlePromotionFailure 参数将不会再影响到虚拟机的空间分配担保策略
+            - 只要老年代连续空间大于新生代对象总大小或者历次晋升的平均大小就会进行 Minor GC，否则将进行 Full GC
       - 堆空间初始值和最大值
          - 两者最好设置为一致，
             - 避免生产环境中由于 heap 内存扩大和缩小导致应用停顿，也避免每次垃圾回收完成后JVM重新分配内存
