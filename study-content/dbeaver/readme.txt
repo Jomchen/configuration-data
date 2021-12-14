@@ -1,4 +1,4 @@
-安装 dbeaver 的方式
+* 安装 dbeaver 的方式
    1. 下载 解压版的jdk11或更高版本，解压版的dbeaver
    2. 解压两个文件，并配置 dbeaver 的dbeaver.ini
    ```
@@ -14,6 +14,7 @@
    -Dfile.encoding=UTF-8
    ```
 
-设置
+* 设置
    - 窗口 -> 首选项 -> Editors -> SQL编辑器 -> 执行查询时连接
       - 建议勾上此选项，否则长时间不使用，连接会断开，再次查询会假死
+
