@@ -27,8 +27,6 @@
    5. wireshark 抓包教程
    6. 小码哥-汇编
 
-
-
 * 笔记
    - Java 通过泛型数组
       - 当需要创建一个泛型的数组时，可以创建 E[] array = (E[]) new Object[number]
@@ -37,3 +35,12 @@
       - https://www.cnblogs.com/owenma/p/8723339.html
    - Java 中 Unsafe 类的源码理解
       - https://blog.csdn.net/a7980718/article/details/83661613
+
+
+* 要做的事
+   * ReentrantLock 源码
+   * Mybatis 源码
+   * Mysql 索引原理
+   * SpringCloud
+   * Jvm
+   * 数据结构与算法
