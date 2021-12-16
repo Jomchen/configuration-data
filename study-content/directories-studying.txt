@@ -10,23 +10,17 @@
       3. 第三季
    3. 韩立刚 TCP/IP 协议
    4. JAVA NIO
-   5. JVM 100
+   5. JVM
       - 54-55 建议重看
-      - 109 集
+      - 进度：109 集
    6. nginx
-   7. WireShark 软件使用
+   7. Wireshark 软件使用
       - P4 02:25
+   8. 小码哥-汇编
+
 * 复习
    2. 恋上数据结构
       - 04 快速排序的优化
-
-* 主要
-   1. 恋上数据结构与算法
-   2. JVM
-   3. SpringCloud
-   4. mybatis 的封装，源码解析
-   5. wireshark 抓包教程
-   6. 小码哥-汇编
 
 * 笔记
    - Java 通过泛型数组
@@ -40,7 +34,7 @@
 
 * 要做的事
    * ReentrantLock 源码
-   * Mybatis 源码
+   * Mybatis 封装和源码
    * Mysql 索引原理
    * SpringCloud
    * Jvm
