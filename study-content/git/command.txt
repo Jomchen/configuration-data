@@ -1,0 +1,10 @@
+git log                       # 查询提交日志
+   git log --pretty=oneline   # 只显示版本号和说明
+git reflog                    # 查询本地提交日志
+git show 版本号               # 查询具体提交记录的修改内容
+git status                    # 查询本地状态
+git commit -m "MESSAGE"       # 提交代码
+git checkout -- FILE_PATH     # 将工作区恢复和缓存区一致（缓存区有变更）；将工作区恢复和本地仓库一致（缓存区无变更）
+git reset 版本号 -- FILE_PATH # 将指定文件恢复到指定版本
+git reset 版本号 --hard       # 将本地仓库恢复到指定版本
+git [-b] checkout BRANCH           # 切换到指定分支，如果加 -b 则是新建分支
