@@ -27,6 +27,7 @@
    - jstat # JVM Statistics Monitoring Tool，用于收集HotSpot 虚拟机各方面的运行数据
       - jstat -gc java进程号 # 查看内存使用情况
    - jinfo # Configuration Info for Java 显示虚拟机配置信息
+      - jinfo -flag 配置参数 进程号 # 显示相应进程是否使用了相应的参数设置
       - jinfo -flag SurvivorRatio 进程号 # 显示相应进程的幸存者配置
    - jmap # Memory Map for Java，生成虚拟机的内存转储快照（heapdump 文件）
    - jhat # JVM Heap Dump Browser，用于分析 heapdump 文件，它会建立一个 HTTP/HTML 服务器，让用户可以在浏览器上查看分析结果
@@ -844,12 +845,17 @@
          - 以根对象为起点，按照从上至下的方式搜索被根对象集合所连接的目标对象是否可达
          - GC Roots 包括以下几类元素
             1. 虚拟机栈中引用的对象
+               - 比如各个线程被调用的方法中使用到的参数，局部变量等
             2. 本地方法栈内 JNI（通常说的本地方法）引用的对象
             3. 方法区中类静态属性引用的对象
+               - 比如Java类的引用类型表态变量
             4. 方法区中常量引用的对象
+               - 比如字符串常量池（String Table）里的引用
             5. 所有被同步锁 synchronized 持有的对象
             6. java 虚拟机内部的引用
-            7. 除了以上几种固定的 GC Roots 夜校合外，根据用户所选用的垃圾收集器以及当前回收的内存区域不同，还可以有其他对象“临时性”地加入，共同构成完整GC Roots集合
+               - 基本数据类型对应的Class对象，一些常驻的异常对象，如NullPointerException, OutOfMemoryError，系统类加载器
+            7. 反映java虚拟机内部情况的JMXBean, JVMTI中注册的回调，本地代码缓存等 
+            8. 除了以上几种固定的 GC Roots 夜校合外，根据用户所选用的垃圾收集器以及当前回收的内存区域不同，还可以有其他对象“临时性”地加入，共同构成完整GC Roots集合
                - 比如：分代收集和局部回收
          - 小技巧：由于 Root 采用栈方式存放变量和指针，所以如果一个指针，它保存了堆内存里面的对象，但是自己又不存放在堆内存里面，那它就是一个 Root
    - finalization 机制
@@ -1099,6 +1105,7 @@
          - 在 GC 时，终结器引用入队，由 Finalizer 线程终结器引用找到被引用对象并调用它的 finalize() 方法，第二次 GC 时才能回收被引用对象
 
 - 垃圾回收器
+   - 并发 Concurrent；并行 Parallel
    - 平衡垃圾回收器的性能指标
       - 吞吐量：运行用户代码的时间占总运行时间的比例
       - 暂停时间：执行垃圾收集时，程序的工作线程被暂停的时间
@@ -1132,14 +1139,15 @@
       - Serial GC 断开-> CMS GC // jdk8 中取消这个组合，但还可以用，但是jdk9中已经完全移除
       - ParNew GC ---> CMS GC
       - ParNew GC 断开-> Serial Old GC // jdk8 中取消这个组合，但还可以用，但是jdk9中已经完全移除
-      - CMS GC ---> Serial Old GC // CMS 在用户线程开辟空间速度大于回收速度时可能回收失败，此时需要 Serial Old GC 停掉所有线程再回收，即这是备份方案
+      - CMS GC 与 Serial Old GC 共同处理老年代// CMS 在用户线程开辟空间速度大于回收速度时可能回收失败，此时需要 Serial Old GC 停掉所有线程再回收，即这是备份方案
       - Parallel Scavenge GC ---> Parallel Old GC
-      - Parallel Scavenge GC 特殊-> Serial Old GC // jdk14中序幕用这个组合
+      - Parallel Scavenge GC 特殊-> Serial Old GC // jdk14中弃用这个组合
       - --------------------------- CMS GC 在 jdk14 中删除了 ---------------------------
 
       - 如何查看默认的垃圾收集器
          - -XX:+PrintCommandLineFlags # 查看命令行相关的参数（包含使用的垃圾收集器）
          - 使用命令行指令：jinfo -flag 相关垃圾回收器参数 进程ID
+            - 例如：jinfo -flag UseG1GC 进程号 # 如果输出有+号则是使用的G1GC
    - 经典垃圾回收器组合的分别介绍
       1. Seria
          - 是基本，历史最悠久的垃圾收集器，JDK1.3之前回收新生代唯一的选择，作为 HotSpot 中 Client 模式下默认新生代垃圾收集器
@@ -1258,7 +1266,7 @@
          - 总结
             - 最小化使用内存和并行开销首选：Serial GC
             - 最大化应用程序的吞量首选：Parallel GC
-            - 最小化GC的中断或停顿时间首选：CMS GC
+            - 最小化GC的中断或停顿时间首选（减少延迟）：CMS GC
 
       5. G1 收集器（区域化分代式）
          - 概述
