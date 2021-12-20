@@ -1,6 +1,7 @@
 解释 java 类的几个 name 的区别
    - https://www.codenong.com/15202997/
 Type 类型
+   - https://www.cnblogs.com/linghu-java/p/8067886.html
    - https://www.jianshu.com/p/39cc237ad815
 
 * 一些要测试的代码
