@@ -282,7 +282,7 @@
 
 * 谢孟媛英语视频：504line-such的位置，531line-both的位置，987line-多个形容词位置，990line-国家的形容词，1147line-多个副词的顺序，1497line-赋加疑问句，2641line-不定式的时态，2706line-即使不能说是...，更不用说...，3796line-not so much 的用法，3879line-的all the more 的用法重看视频确定，3905line-no more than 用法，4139line-反义疑问句，4293line-名词的量化，
    - 看视频学习进度：finished
-   - 复习进度 6060 line
+   - 复习进度 6420 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
       - 有争议，是岁数大还是岁数小？
@@ -6333,7 +6333,7 @@
                   - dare not = daren't
             - 那时我不敢嘲笑他
                - I dared not laugh at him at that time.
-               - I did't dare <to> laugh at hime at that time.
+               - I did't dare <to> laugh at him at that time.
             - How dare you ask me for help? # 你怎么敢要求我帮你呢？
             - I dare say he is right. # 我敢说他是正确的
 
@@ -6350,7 +6350,7 @@
                - 这里整体的时间是过去的时态
             4. 从前三句中的可能性的比较，从大到小的顺序是：must > may > might
             5. He cannot have survived in the accident. # 他可能无法在这次事故中存活
-            5. You should(=>ought to) have applied for the job sooner. # 你应该快一点应争那份工作
+            6. You should(=>ought to) have applied for the job sooner. # 你应该快一点应争那份工作
                - should + have + p.p.（内容有“责备”的语气）
             6. She need not have come so early. # 你不需要来得这么早
                -因为她已经来了，又为了兼容 need 这个助动词，所以用了 have 原型并实现 现在完成式
