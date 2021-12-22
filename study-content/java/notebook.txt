@@ -1,7 +1,21 @@
-解释 java 类的几个 name 的区别
-   - https://www.codenong.com/15202997/
-Type 类型
-   - https://www.jianshu.com/p/39cc237ad815
+* 一些内容
+   - 解释 java 类的几个 name 的区别
+      - https://www.codenong.com/15202997/
+   - Type 类型
+      - https://www.cnblogs.com/linghu-java/p/8067886.html
+      - https://www.jianshu.com/p/39cc237ad815
+   - Spring Event 事件通知机制 https://blog.csdn.net/chengbinbbs/article/details/88409951
+   - Maven resource include exclude filtering 讲解 
+      - https://blog.csdn.net/weixin_45881248/article/details/115257195?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link
+      - 官网 http://maven.apache.org/plugins/maven-resources-plugin/examples/filter.html
+   - GIT 的一些重要命令 https://emila-github.github.io/2017/03/24/git%20-%20%E7%9C%8B%E6%9F%90%E6%AC%A1commit%E6%94%B9%E4%BA%86%E5%93%AA%E4%BA%9B%E6%96%87%E4%BB%B6/
+   - ApplicationContextAware
+      - https://segmentfault.com/a/1190000040781855
+   - maven scope
+      - https://blog.csdn.net/u010002184/article/details/87989164
+
+
+
 
 * 一些要测试的代码
    ```
