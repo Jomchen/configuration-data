@@ -1,6 +1,8 @@
 * 学习资料，学习工具大全览地址
    - https://www.r2coding.com/#/
 
+* IPLC IEPL 专线
+
 * 重要的软件或配置
    - jp2a # 转换 jpg 图像为 ascii 码图
    - zsh  # 一个更好用的终端（但是所有的配置需要自己重新配置）
