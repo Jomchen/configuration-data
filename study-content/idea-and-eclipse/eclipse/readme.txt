@@ -11,6 +11,7 @@
          - Java Compiler，选定 自己JDK版本进行编译
          - Java Build Path -> Libraries -> JRE System Library 编辑为自己的 JDK
    - 设定相应的编码为 UTF-8
+   - Window -> Show Viewer -> Project Explorer # 文件目录以工程树的方式显示
 
 * 必装插件
    Windows -> Eclipse MarketPlace wizard -> 安装 sts 插件
