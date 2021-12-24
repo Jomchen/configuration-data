@@ -33,9 +33,10 @@
 
 
 * 要做的事
-   * ReentrantLock 源码
+   * ResultSet 结果集：数据敏感，可滚动，可更新
+   * Mysql 事务/索引/锁原理
+   * synchronized 和 ReentrantLock 原理
    * Mybatis 封装和源码
-   * Mysql 索引原理
    * SpringCloud
    * Jvm
    * 数据结构与算法
