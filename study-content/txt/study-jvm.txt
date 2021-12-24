@@ -203,6 +203,7 @@
    - 虚引用
    - G1 垃圾回收的流程
 * 常用参数
+   - javac -g xxx.java        # 编译文件生成字节码，如果加上 -g 会生成局部变量表到字节码中
    - javap -v -p 字节码文件   # 反编译，-p 是因为可以反编译出私有方法和字段
    - jps                      # 查看java进程
    - jstat -gc 进程号         # 查看 gc 时内存的使用情况
@@ -1777,3 +1778,6 @@
    - AppClassLoader 和 ExtClassLoader 和 BootstrapClassLoader 全部都直接继承于 BuiltinClassLoader
    - BuiltinClassLoader 直接继承于 SecureClassLoader
    - 不同模块的类 由 不同的加载器加载
+
+
+* 字节码指令
