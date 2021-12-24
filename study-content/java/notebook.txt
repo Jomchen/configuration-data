@@ -14,7 +14,9 @@
    - maven scope
       - https://blog.csdn.net/u010002184/article/details/87989164
 
-
+* Maven 工程打包模组
+   - 注意所处目录需在工程目录下
+   - `mvn package -pl 模组名 -Dmaven.test.skip=true -am -amd`
 
 
 * 一些要测试的代码
