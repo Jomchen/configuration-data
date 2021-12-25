@@ -1781,3 +1781,66 @@
 
 
 * 字节码指令
+   - 对于大部分数据类型相关的字节码指令：它们的操作码助记符中都有特殊字符来表明专门为哪种数据类型服务
+   - 操作指令数不超过 256 个指令，一个指令占一个字节
+      - i 代表int类型的数据操作
+      - l 代表long
+      - s 代表 short
+      - b 代表 byte
+      - c 代表 char
+      - f 代表 float
+      - d 代表 double
+   - 常用指令
+      - 局部变量压栈指令，将一个局部变量加载到操作数栈：xload, xload_<n>，其中 x 为i,l,f,d,a；n为0 到 3或其它
+         - iload_0 # 将局部变量表索引位置0的变量压入操作数栈中
+            - 这里操作指令总共一个字节
+         - iload 0 # 将局部变量表索引位置0的变量压入操作数栈中
+            - 这里操作指令总共一个字节，如果操作数占两个节点，那么总共三个节点
+            - 与上一个指令作用相同，但是这里更占空间一些
+      - 常量入栈指令，将一个常量加载到操作数栈：bipush,sipush,ldc,ldc_w,ldc2_w,aconst_null,iconst_m1,iconst_<i>,lconst_<l>,fconst_<f>,dconst_<d>
+      - 出栈装入局部变量表指令，将一个数值从操作数栈存储到局部变量表：xstore,xstore_<n>，其中x为i,l,f,d,a等；n 为0到3；xstore（其中x为i,l,f,d,a,b,c,s）
+      - 出栈装入局部变量表指令，将一个数值从操作数栈存储到局部变量表：xstore,xstore_<n>，其中x为i,l,f,d,a等；n 为0到3；xstore（其中x为i,l,f,d,a,b,c,s）
+      - 挔充局部变量表的访问索引的指令：wide
+   - 局部变量压栈指令
+      - xload_<n>（x 为 i,l,f,d,a；n为0到3）
+      - xload（x为i,l,f,d,a）
+      - 指令 xload_n 表示将第n个局部变量压入操作数栈，比如iload_1,fload_0,aload_0等指令，其中 aload_n 表示将一个对象引用压栈
+      - 指令xload通过指定参数的形式，把局部变量压入操作数栈，当使用这个命脉时，表示局部变量的数量可能超过了4个，比如指令iload, fload等
+   - 常量入栈
+      - 指令const系列：用于待定的常量入栈，入栈的常量隐含在指令本身里，指令有:iconst_<i>（i从-1到5），lconst_<l>（l从0到1），fconst_<f>（f从0到2），dconst_<d>（d从0到1），aconst_null
+         - iconst_m1将-1压入操作数栈
+         - iconst_x（x为0到5）将x压入栈
+         - lconst_0，lconst_1分别将长整数0和1压入栈
+      - 指令push系列：主要包括bipush和sipush,它们的区别在于接收数据类型不同，bipush接收8位整数作为参数，sipush接收16位整数，它们都将参数压入栈中
+      - 指令ldc系列：以上指令都不满足需求，那么可以使用万能的ldc指令，接收一个8位的参数，该参数指向常量池中的int，float或者String的索引，将指定的内容压入栈中，类似的还有 ldc_w，它接收两个8位参数，能支持的索引范围大于ldc，如果要压入的元素是long或者double类型，鶄ldc2_w指令，使用方式都是类似的
+   - 出栈
+      - store，比如xstore（x为i,l,f,d,a），xstore_n（x为i,l,f,d,a；n为0至3）
+   - 创建指令
+      - new # 创建类实例的指令
+      - 创建数组的指令
+         - newarray # 创建基本类型数组
+         - anewarray # 创建引用类型数组
+         - multianewarray # 创建多维数组
+      - 上述创建指令可以用于创建对象或者数组，由于对象和数组在java中的广泛使用，这些指令的使用频率也非常高
+   - 字段访问指令
+      - 访问类字段（static字段，或者称为类变量）的指令：getstatic, putstatic
+      - 访问类实例字段（非static字段，或者称为实例变量）的指令：getfield,putfield
+   - 数组操作指令
+      - 数组操作指令主要有：xastore和xaload指令，具体为：
+         - 把一个数组元素加载到操作数栈的指令：baload,caload,saload,iaload,laload,faload,daload,aaload
+         - 将一个操作数栈的值存储到数组元素中的指令：bastore,castore,sastore,iastore,lastore,fastore,dastore,aastore
+   - 类型检查指令
+         - 检查类实例或数组类型的指令：instancdof,checkcast
+         - 指令checkcast用于检查类型强制转换是否可以进行，如果可以，那么checkcast指令不会改变操作数栈，否则它会抛出ClassCastException异常
+         - 指令instanceof用来判断给定对象是否是某一个类的实例，它会将判断结果压入操作数栈
+   - 方法调用与返回指令
+      - 调用 # 省略#############
+      - 返回
+         - ireturn（返回值是 boolean,byte,char,short和int类型时），lreturn,freturn,dreturn和areturn
+         - 另外还有一个 return 指令供声明为 void 的方法，实例初始化以及类和接口的类初始化方法使用
+         - 如果当前返回的是 synchronized 方法，那么还会执行一个隐含的 monitorexit 指令，退出临界区
+         - 最后会丢弃当前方法的整个帧，恢复调用者的帧，并将控制权转交给调用者
+   - 操作数栈管理指令
+      - 省略 #############
+   - 条件判断指令
+      - 省略 #############
