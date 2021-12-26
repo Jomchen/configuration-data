@@ -1648,137 +1648,6 @@
       什么都不做的指令 nop，一般可用于调试，占位等
       ```
 
-* 类的加载过程
-   - 对于类的二进制数据流，虚拟机可以通过多种途径产生或获取（只要所读取的字节码符合JVM规范即可）
-      1. 虚拟机可能通过文件系统读入一个class后缀的文件
-      2. 读入jar,zip等归档数据包，提取类文件
-      3. 事先存放在数据库中的类的二进制数据
-      4. 使用类似于 HTTP 之类的协议通过网络进行加载
-      5. 在运行时生成一段 class 的二进制信息等
-   - 类加载过程
-      1. 加载
-         - 对类的加载后，会把类模板信息放在 方法区/元空间，然后在堆中创建类的 Class 对象
-         - -XX:TraceClassLoading # 可以打印加载信息的数据
-      2. 链接
-         - 验证
-         - 准备
-            - 简而言之，为类静态变量分配内存，并将其初始化为默认值
-               - 基本类型为0, boolean 为 false，引用类型为 null 
-               - 不包含 [static final] 的，因为 [static final] 的在编译的时候就赋值了，那么会在准备阶段显式赋值
-               - 而且要注意赋值不能有构造方法和代码执行，否则会在初始化阶段赋值
-               - 如果使用字面量的方式定义一个字符串的常量的话，也是在准备环节直接进行显式赋值
-                  - public static final str = new String("kk"); // 因为 String 的赋值是 new String()，所以会在初始化阶段赋值
-                  - public static final str2 = "Linux" // 因为 String 的赋值是字面量，所以在准备阶段赋值
-            - 这里不包含基本数据类型的字段用 static final 修饰的情况，因为 final 在编译的时候就会分配了，准备阶段会显式赋值
-            - 注意这里不会实例变量分配初始化，类变量会分配在方法区中，而实例变量会是随着对象一起分配到 Java 堆中
-            - 在这个阶段并不会像初始化阶段中那样会有初始化或者代码被执行
-         - 解析 
-            - 将类，接口，方法，字段等符号引用变为直接引用
-      3. 初始化
-         - 概念
-            - clinit 是 jvm 生成的初始化方法，遵循父级先初始化的原则
-            - 在一些类的运行逻辑都可以在这个阶段执行，比如 static { new String("kk"); }
-         - 一些没有 clinit 的情况
-            ```
-            public class Test {
-               public int num = 1; // 成员变量赋值，不管是否显式赋值，都不会有 clinit
-               public static int num1; // 静态的变量，因为没显式赋值，所以不会有 clinit
-               public static final int num2 = 3; // static final 的基本数据类型的字段，不管是否显式赋值，都不会生成 clinit 
-            }
-            ```
-         - 虚拟机会保证一个类的 <clinit>() 方法在多线程环境中被正确地加锁，同步，如果多个线程同时去初始化一个类，那么只会有一个线程去执行这个类的<clinit>()方法，
-            - 其他线程需要阻塞等待，直到活动线程执行<clinit>()方法完毕
-         - 正是因为函数 <clinit>() 带锁线程安全的，因此，如果在一个类的 <clinit>() 方法中有耗时很长的操作，就可能造成多个线程阻塞，引发死锁。并且这种死锁是很验证发现的
-            - 因为看起来它们并没有可用的锁信息
-      4. 使用
-         - 被动使用不会造成 初始化
-            - 概念
-               - 被动使用不会引起类的初始化，也就是说：并不是在代码中出现的类，就一定会被加载或者初始化。如果不符合主动使用的条件，类就不会初始化
-            - 情况
-               - 当访问一个静态字段时，只有真正声明这个字段的类才会被初始化
-                  - 当通过子类引用父类的静态变量，不会导致子类初始化
-               - 通过数组定义类引用，不会触发此类的初始化
-               - 引用常量不会触发此类或接口的初始化，因为常量在链接阶段就已经被显式赋值了
-               - 调用 ClassLoader 类的 loadClass() 方法加载一个类，并不是对类的主动使用， 不会导致类的初始化
-                  - ClassLoader.forName("xxx.xx.xx"); // 是主动使用
-                  - ClassLoader.getSystemClassLoader().loadClass("xxx.xx.xx"); // 是被动使用
-      5. 缷载
-         - 判定一个常量是否“废弃”还是相对简单的，而要判定一个类型是否属于“不再被使用的类”的条件就比较苛刻了。需要同时满足下面三个条件（满足条件后只是“被允许”回收）
-            1. 该类所有的实例都已经被回收，也就是 Java 堆中不存在该类及其任何派生子类的实例
-            2. 加载该类的类加载器已经被回收，这个条件除非是经过精心设计的可替换类加载器的场景，如OSGi,JSP的重加载等否则通常是很验证达成的
-            3. 该类对应的 java.lang.Class 对象没有在任何地方被引用，无法在任何地方通过反射访问该类的方法
-
-* 类加载器
-   - 类的加载
-      - 加载类型
-         - 显式加载
-            - 显式加载指的是在代码中通过调用 ClassLoader 加载 class 对象，如直接使用 
-            - Class.forName(name)
-            - this.getClass().getclassLoader().loadClass(name)
-            - ClassLoader.getSystemClassLoader().loadClass(name);
-         - 隐式加载
-            - 隐式加载则是不直接在代码中调用 ClassLoader 的方法加载 class 对象，而是通过虚拟机自动加载到内存中，如在加载某个类的 class 文件时，
-            - 该类的 class 文件中引用了另外一个类的对象，此时额外引用的类将通过 JVM 自动加载到内存中
-      - 类的唯一性
-         - 同一个加载器加载的同一个字节码的二进制
-      - BootstrapClassLoader
-         - 由 C/C++ 语言编写，嵌套在 JVM 内部
-         - 它用来加载 Java 的核心库 JAVA_HOME/jre/lib/rt.jar 或 sun.boot.class.path 路径下的内容。用于提供 JVM 自身需要的类，并不继承自 java.lang.ClassLoader，没有父加载器
-         - 出于安全考虑，启动类加载器只加载包名为 java,javax,sun 等开头的类
-         - 加载扩展类和应用程序类加载器，并指定为他们的父类加载器
-      - ExtClassLoader
-         - 由 Java 语言编写，由 sun.misc.Launcher$ExtClassLoader 实现
-         - 间接继承于 ClassLoader 类
-         - 父类加载器为启动类加载器
-         - 从 java.ext.dirs 系统属性所指定的目录中中加载类库，或从 JDK 的安装目录的 jre/lib/ext 子目录下加载类库。如果用户创建的 JAR 放在此目录下，也会自动由扩展类加载器加载
-      - AppClassLoader
-         - java 语言编写，由 sun.misc.Launcher$AppClassLoader 实现
-         - 间接继承于 ClassLoader 类
-         - 父类加载器为扩展类加载器
-         - 负责加载环境变量 classpath 或系统属性 java.class.path 指定路径下的类库
-         - 应用程序中的类加载器默认是系统类加载器（重要）
-         - 它是用户自定义类加载器的默认父加载器
-         - 通过 ClassLoader 的 getSystemClassLoader() 可以获取到该类加载器
-      - 用户自定义类加载器
-         - 在 Java 的日常应用程序开发中，类的加载几乎是由上述3种加载器相互配合执行的。在必要时，我们还可以自定义类加载器，来定制类的加载方式
-         - 体现 Java 语言强大生命力和巨大魅力的关键因素之一是，Java 开发者可以自定义类加载器来实现类库的动态加载，加载源可以是本地的 jar 包，也可以是网络上的远程资源
-         - 通过类加载器可以实现非常绝妙的插件机制，这方面的实际应用安全举不胜举。例如，著名的OSGI组件框架，再如Eclipse的插件机制。类加载器为应用程序提供了一种动态增加新功能的机制
-            - 这种机制无须重新打包发布应用程序就能实现
-         - 同时，自定义加载器能够实现应用隔离，例如 Tomcat,Spring 等中间件和组件框架都在内部实现了自定义的加载器，并通过自定义加载器隔离不同的组件模块。这种机制比 C/C++ 程序要好太多
-            - 想不修改 C/C++ 程序就能为其新增功能，几乎是不可能的，仅仅一个兼容性便能阻挡住所有美好的设想
-         - 自定义类加载器通常需要继承于 ClassLoader
-   - 获取 ClassLoader 的途径
-      - 对象.getClassLoader(); // 获得当前类的 ClassLoader
-      - Thread.currentThread().getContextClassLoader(); // 获得当前线程上下文的 ClassLoader，上下文 ClassLoader 其实就是 AppClassLoader（通过源码可知）
-      - ClassLoader.getSystemClassLoader(); // 获得系统的 ClassLoader
-      - 对于 数组获取加载器，是根据数组所用的对象类型的加载器而约定的
-         ```
-         // 如果自己定义了类 User
-         String [] s = new String[2]; s.getClass().getClassLoader(); // 是 null，因为 String 的加载器是 BootstrapClassLoader，所以获取不了
-         int[] s = new int[2]; s.getClass().getClassLoader(); // 是 null，因为 int 是基本数据类型，不具有加载器
-         int[] i = new int[2]; i.getClass().getClassLoader(); // 是 null，因为 int 是基本数据类型，不具有加载器
-         User[] u = new User[2]; u.getClass().getclassLoader(); // 是 AppClassLoader，因为 User 的加载器是 AppClassLoader
-         ```
-   - 加载类的区别
-      - Class.forName() 是一个静态方法，最常见的是 Class.forName(String className);根据传入的类的全限定名返回一个 Class 对象。
-         - 该方法在将 Class 文件加载到内存的同时，会执行类的初始化，如：Class.forName("com.test.java.HelloWorld");
-      - ClassLoader.loadClass() 是一个实例方法，需要一个 ClassLoader 对象来调用该方法。该方法将 Class 文件加载到内存时，并不会
-         - 执行类的初始化，直到这个类第一次使用时才进行初始化。该方法因为需要得到一个 ClassLoader 对象，所以可以根据需要指定使用哪个类加载器，
-         - ClassLoader cl = ...; cl.loadClass("com.test.java.HelloWorld");
-   - 双亲行派原则的优点和弊端
-      - 优点
-         - 保护程序安全，防止核心 API 被随意篡改
-         - 避免类的重复加载，确保一个类的全局唯一性
-      - 缺点
-         - 检查类是否加载的委托过程是单向的，这个方式虽然从结构上说比较清晰，使各个 ClassLoader 的职责非常明确，但是同时会带来一个问题
-            - 即顶层的 ClassLoader 无法访问底层的 ClassLoader 所加载的类
-
-* JDK9新特性
-   - ExtClassLoader 不再存在，而是由 PlateformClassLoader 替代
-   - AppClassLoader 和 ExtClassLoader 和 BootstrapClassLoader 全部都直接继承于 BuiltinClassLoader
-   - BuiltinClassLoader 直接继承于 SecureClassLoader
-   - 不同模块的类 由 不同的加载器加载
-
 
 * 字节码指令
    - 对于大部分数据类型相关的字节码指令：它们的操作码助记符中都有特殊字符来表明专门为哪种数据类型服务
@@ -1844,3 +1713,224 @@
       - 省略 #############
    - 条件判断指令
       - 省略 #############
+   - 其它指令 ##### 省略
+   ```
+   public static String fun() {
+      String str = "hello";
+      try {
+        return str;
+      } finally {
+        str = "Linux";
+      }
+   }
+   // 最终返回结果为 "hello"
+   ```
+
+
+* 类的加载过程
+   - 对于类的二进制数据流，虚拟机可以通过多种途径产生或获取（只要所读取的字节码符合JVM规范即可）
+      1. 虚拟机可能通过文件系统读入一个class后缀的文件
+      2. 读入jar,zip等归档数据包，提取类文件
+      3. 事先存放在数据库中的类的二进制数据
+      4. 使用类似于 HTTP 之类的协议通过网络进行加载
+      5. 在运行时生成一段 class 的二进制信息等
+   - 类加载过程
+      1. 加载
+         - 对类的加载后，会把类模板信息放在 方法区/元空间，然后在堆中创建类的 Class 对象
+         - -XX:TraceClassLoading # 可以打印加载信息的数据
+      2. 链接
+         - 验证
+         - 准备
+            - 简而言之，为类静态变量分配内存，并将其初始化为默认值
+               - 基本类型为0, boolean 为 false，引用类型为 null 
+               - 不包含 [static final] 的，因为 [static final] 的在编译的时候就赋值了，那么会在准备阶段显式赋值
+               - 而且要注意赋值不能有构造方法和代码执行，否则会在初始化阶段赋值
+               - 如果使用字面量的方式定义一个字符串的常量的话，也是在准备环节直接进行显式赋值
+                  - public static final str = new String("kk"); // 因为 String 的赋值是 new String()，所以会在初始化阶段赋值
+                  - public static final str2 = "Linux" // 因为 String 的赋值是字面量，所以在准备阶段赋值
+            - 这里不包含基本数据类型的字段用 static final 修饰的情况，因为 final 在编译的时候就会分配了，准备阶段会显式赋值
+            - 注意这里不会实例变量分配初始化，类变量会分配在方法区中，而实例变量会是随着对象一起分配到 Java 堆中
+            - 在这个阶段并不会像初始化阶段中那样会有初始化或者代码被执行
+         - 解析 
+            - 将类，接口，方法，字段等符号引用变为直接引用
+      3. 初始化
+         - 概念
+            - clinit 是 jvm 生成的初始化方法，遵循父级先初始化的原则
+            - 在一些类的运行逻辑都可以在这个阶段执行，比如 static { new String("kk"); }
+         - 一些没有 clinit 的情况
+            ```
+            public class Test {
+               public int num = 1; // 成员变量赋值，不管是否显式赋值，都不会有 clinit
+               public static int num1; // 静态的变量，因为没显式赋值，所以不会有 clinit
+               public static final int num2 = 3; // static final 的基本数据类型的字段，不管是否显式赋值，都不会生成 clinit 
+            }
+            ```
+         - 虚拟机会保证一个类的 <clinit>() 方法在多线程环境中被正确地加锁，同步，如果多个线程同时去初始化一个类，那么只会有一个线程去执行这个类的<clinit>()方法，
+            - 其他线程需要阻塞等待，直到活动线程执行<clinit>()方法完毕
+         - 正是因为函数 <clinit>() 带锁线程安全的，因此，如果在一个类的 <clinit>() 方法中有耗时很长的操作，就可能造成多个线程阻塞，引发死锁。并且这种死锁是很验证发现的
+            - 因为看起来它们并没有可用的锁信息
+      4. 类的初始化
+         - 主动使用，会造成初始化
+            1. 当创建一个类的实例时，比如使用new关键字，或者通过反射，克隆，反序列化
+            2. 当调用类的静态方法时，即当使用了字节码 invokestatic 指令
+            3. 当使用类，接口的静态字段时（final修饰特殊考虑），比如，使用getstatic或者putstatic指令（对应访问变量，赋值变量）
+               ```
+               public class TestA {
+                  public statis final int i = 2 # 这个属性被调用不会触发初始化
+                  public statis final int i = new Randome().nextInt(10) # 这个属性被调用会触发初始化
+               }
+               public interface TestB {
+                  // 这个属性只是为了作初始化验证输出
+                  public static final Thread = new Thread() {
+                     {
+                        System.out.println("Compare的初始化");
+                     }
+                  };
+                  public static final int NUM1 = 1; # 这个属性被调用不会触发初始化
+                  public static final int NUM2 = new Random().nextInt(10); # 这个属性被调用会触发初始化
+               }
+               ```
+            4. 当使用java.lang.reflect包中的方法反射类的方法时，比如：Class.forName("com.atguigu.java.Test")
+            5. 当初始化子类时，如果发现其父类还没有初始化过，则需要先触发父类的初始化
+               - 注意
+                  - 当Java虚拟机初始化一个类时，要求它的所有父类都已经被初始化，但是这条规则并不适用于接口
+                  - 在初始化一个类时，并不会先初始化它所实现的接口
+                  - 在初始化一个接口时，并不会先初始化它的父接口
+                  - 因此，一个父接口并不会因为它的子接口或者实现类的初始化而初始化，只有当程序首次使用特定接口的静态字段时，才会导致该接口初始化
+            6. 如果一个接口定义了default方法，那么直接实现或者间接实现该接口的类的初始化，该接口要在其之前被初始化
+            7. 当虚拟机启动时，用户需要指定一个要执行的主oudu（包含main()方法的那个类），虚拟机会先初始化这个类
+            8. 当初次调用MethodHandle实例时，初始化该MethodHandle指向的方法所在的类（涉及解析REF_getstatic,REF_putstatic）
+         - 被动使用不会造成 初始化
+            - 概念
+               - 被动使用不会引起类的初始化，也就是说：并不是在代码中出现的类，就一定会被加载或者初始化。如果不符合主动使用的条件，类就不会初始化
+            - 情况
+               - 当访问一个静态字段时，只有真正声明这个字段的类才会被初始化
+                  - 当通过子类引用父类的静态变量，不会导致子类初始化
+               - 通过数组定义类引用，不会触发此类的初始化
+               - 引用常量不会触发此类或接口的初始化，因为常量在链接阶段就已经被显式赋值了
+               - 调用 ClassLoader 类的 loadClass() 方法加载一个类，并不是对类的主动使用， 不会导致类的初始化
+                  - ClassLoader.forName("xxx.xx.xx"); // 是主动初始化；注意如果是加载的话，此句是主动加载
+                  - ClassLoader.getSystemClassLoader().loadClass("xxx.xx.xx"); // 是被动初始化；注意如果是加载的话，此句是主动加载
+      5. 缷载
+         - 判定一个常量是否“废弃”还是相对简单的，而要判定一个类型是否属于“不再被使用的类”的条件就比较苛刻了。需要同时满足下面三个条件（满足条件后只是“被允许”回收）
+            1. 该类所有的实例都已经被回收，也就是 Java 堆中不存在该类及其任何派生子类的实例
+            2. 加载该类的类加载器已经被回收，这个条件除非是经过精心设计的可替换类加载器的场景，如OSGi,JSP的重加载等否则通常是很验证达成的
+            3. 该类对应的 java.lang.Class 对象没有在任何地方被引用，无法在任何地方通过反射访问该类的方法
+
+* 类加载器
+   - 类的加载
+      - 加载类型
+         - 显式加载
+            - 显式加载指的是在代码中通过调用 ClassLoader 加载 class 对象，如直接使用 
+            - Class.forName(name)
+            - this.getClass().getclassLoader().loadClass(name)
+            - ClassLoader.getSystemClassLoader().loadClass(name);
+         - 一些方法
+            - Class clazz = Class.forName(全路径名）; # 获取指定的类
+            - Method[] ms = clazz.getDeclareMethods(); # 获取所有的声明方法
+            - Method method = ms[0];
+            - method.getModifiers(); # 获取方法的修饰符
+            - Modifier.toString(method.getModifiers()); # 打印指定方法的修饰符
+            - method.getReturnType().getSImpleName(); # 获取方法的返回值类型名
+            - Class[] types = method.getParameterTypes(); # 获取方法的参数类型列表
+         - 特殊说明
+            ```
+            public class InitializationTest {
+               // 当只有这一句时，对应非静态字段，不管是否进行了显式赋值，都不会生成<clinit>()方法
+               public int num = 1;
+               // 当只有这一句时，对应静态的字段，没有显式的赋值，不会生成<clinit>()方法
+               public static int num1;
+               // 当只有这一句时，声明为 static final 的基本数据类型的字段，不管是否进行了显式赋值，都不会生成<clinit>()方法
+               // 这个赋值是在 链接中的准备阶段赋值的
+               public static final int num2 = 1;
+               // 当只有这一句时，是在初始化阶段赋值
+               public static Integer ii = Integer.valueOf(2);
+               // 当只有这一句时，是在初始化阶段赋值
+               public static final Integer ii2 = Integer.valueOf(2);
+               // 当只有这一句时，是在准备阶段赋值
+               public static String s = "helloworld";
+               // 当只有这一句时，是在准备阶段赋值
+               public static final String s2 = "helloworld";
+               // 当只有这一句时，是在初始化阶段赋值
+               public static final String s2 = new String("helloworld");
+            }
+            ```
+         - 隐式加载
+            - 隐式加载则是不直接在代码中调用 ClassLoader 的方法加载 class 对象，而是通过虚拟机自动加载到内存中，如在加载某个类的 class 文件时，
+            - 该类的 class 文件中引用了另外一个类的对象，此时额外引用的类将通过 JVM 自动加载到内存中
+      - 类的唯一性
+         - 同一个加载器加载的同一个字节码的二进制
+      - BootstrapClassLoader
+         - 由 C/C++ 语言编写，嵌套在 JVM 内部
+         - 它用来加载 Java 的核心库 JAVA_HOME/jre/lib/rt.jar 或 sun.boot.class.path 路径下的内容。用于提供 JVM 自身需要的类，并不继承自 java.lang.ClassLoader，没有父加载器
+         - 出于安全考虑，启动类加载器只加载包名为 java,javax,sun 等开头的类
+         - 加载扩展类和应用程序类加载器，并指定为他们的父类加载器
+      - ExtClassLoader
+         - 大致结构
+            - ClassLoader
+               - SecureClassLoader
+                  - URLClassLoader
+                     - ExtClassLoader in Launcher
+                     - AppClassLoader in Launcher
+         - 由 Java 语言编写，由 sun.misc.Launcher$ExtClassLoader 实现
+         - 间接继承于 ClassLoader 类
+         - 父类加载器为启动类加载器
+         - 从 java.ext.dirs 系统属性所指定的目录中中加载类库，或从 JDK 的安装目录的 jre/lib/ext 子目录下加载类库。如果用户创建的 JAR 放在此目录下，也会自动由扩展类加载器加载
+      - AppClassLoader
+         - java 语言编写，由 sun.misc.Launcher$AppClassLoader 实现
+         - 间接继承于 ClassLoader 类
+         - 父类加载器为扩展类加载器
+         - 负责加载环境变量 classpath 或系统属性 java.class.path 指定路径下的类库
+         - 应用程序中的类加载器默认是系统类加载器（重要）
+         - 它是用户自定义类加载器的默认父加载器
+         - 通过 ClassLoader 的 getSystemClassLoader() 可以获取到该类加载器
+      - 用户自定义类加载器
+         - 在 Java 的日常应用程序开发中，类的加载几乎是由上述3种加载器相互配合执行的。在必要时，我们还可以自定义类加载器，来定制类的加载方式
+         - 体现 Java 语言强大生命力和巨大魅力的关键因素之一是，Java 开发者可以自定义类加载器来实现类库的动态加载，加载源可以是本地的 jar 包，也可以是网络上的远程资源
+         - 通过类加载器可以实现非常绝妙的插件机制，这方面的实际应用安全举不胜举。例如，著名的OSGI组件框架，再如Eclipse的插件机制。类加载器为应用程序提供了一种动态增加新功能的机制
+            - 这种机制无须重新打包发布应用程序就能实现
+         - 同时，自定义加载器能够实现应用隔离，例如 Tomcat,Spring 等中间件和组件框架都在内部实现了自定义的加载器，并通过自定义加载器隔离不同的组件模块。这种机制比 C/C++ 程序要好太多
+            - 想不修改 C/C++ 程序就能为其新增功能，几乎是不可能的，仅仅一个兼容性便能阻挡住所有美好的设想
+         - 自定义类加载器通常需要继承于 ClassLoader
+   - 获取 ClassLoader 的途径
+      - 对象.getClassLoader(); // 获得当前类的 ClassLoader
+      - Thread.currentThread().getContextClassLoader(); // 获得当前线程上下文的 ClassLoader，上下文 ClassLoader 其实就是 AppClassLoader（通过源码可知）
+      - ClassLoader.getSystemClassLoader(); // 获得系统的 ClassLoader
+      - 对于 数组获取加载器，是根据数组所用的对象类型的加载器而约定的
+         ```
+         // 如果自己定义了类 User
+         String [] s = new String[2]; s.getClass().getClassLoader(); // 是 null，因为 String 的加载器是 BootstrapClassLoader，所以获取不了
+         int[] s = new int[2]; s.getClass().getClassLoader(); // 是 null，因为 int 是基本数据类型，不具有加载器
+         int[] i = new int[2]; i.getClass().getClassLoader(); // 是 null，因为 int 是基本数据类型，不具有加载器
+         User[] u = new User[2]; u.getClass().getclassLoader(); // 是 AppClassLoader，因为 User 的加载器是 AppClassLoader
+         ```
+   - 加载类的区别
+      - Class.forName() 是一个静态方法，最常见的是 Class.forName(String className);根据传入的类的全限定名返回一个 Class 对象。
+         - 该方法在将 Class 文件加载到内存的同时，会执行类的初始化，如：Class.forName("com.test.java.HelloWorld");
+      - ClassLoader.loadClass() 是一个实例方法，需要一个 ClassLoader 对象来调用该方法。该方法将 Class 文件加载到内存时，并不会
+         - 执行类的初始化，直到这个类第一次使用时才进行初始化。该方法因为需要得到一个 ClassLoader 对象，所以可以根据需要指定使用哪个类加载器，
+         - ClassLoader cl = ...; cl.loadClass("com.test.java.HelloWorld");
+   - 类加载器主要的方法
+      - abstract ClassLoader 有几个重要方法
+         1. loadClass(String) 
+            - 加载相应名称的类，返回结果为java.lang.Class类的实例，如果找不到类，则返回 ClassNotFoundException 异常。该方法中的逻辑就是双亲委派模式的实现。不建议重写，重写可以制定打破双亲委派机制
+         2. resolveClass(Class<?>)
+            - 解析类
+         3. findClass(String) # 查询类的逻辑
+            - 查询相应名称的二进制类，返回结果为java.lang.Class类的实例，这是一个受保护的方法，JVM鼓励我们重写此方法，需要自定义加载器遵循双亲委托机制，该方法会在检查完父类加载器之后被loadClass()方法调用
+         4. defineClass(byte[], int, int)
+            - 根据给定的字节数组b转换为Class的实例，off和len参数表示实际Class信息在byte数组中的位置和长度，其中byte数组b是ClassLoader从外部获取的。这是受保护的方法，只有在自定义ClassLoader子类中可以使用
+   - 双亲行派原则的优点和弊端
+      - 优点
+         - 保护程序安全，防止核心 API 被随意篡改
+         - 避免类的重复加载，确保一个类的全局唯一性
+      - 缺点
+         - 检查类是否加载的委托过程是单向的，这个方式虽然从结构上说比较清晰，使各个 ClassLoader 的职责非常明确，但是同时会带来一个问题
+            - 即顶层的 ClassLoader 无法访问底层的 ClassLoader 所加载的类
+
+* JDK9新特性
+   - ExtClassLoader 不再存在，而是由 PlateformClassLoader 替代
+   - AppClassLoader 和 ExtClassLoader 和 BootstrapClassLoader 全部都直接继承于 BuiltinClassLoader
+   - BuiltinClassLoader 直接继承于 SecureClassLoader
+   - 不同模块的类 由 不同的加载器加载
+
