@@ -1934,3 +1934,90 @@
    - BuiltinClassLoader 直接继承于 SecureClassLoader
    - 不同模块的类 由 不同的加载器加载
 
+
+* JVM 调优
+   - 性能优化的步骤
+      1. 发现问题-性能监控
+         - GC 频繁
+         - cpu load过高
+         - OOM
+         - 内存泄漏
+         - 死锁
+         - 程序响应时间较长
+      2. 排查问题-性能分析
+         - 打印GC日志，通过GC viewer 或者 http://gceasy.io来分析日志
+         - 灵活运用命令行工具：jstack,jmap,jinfo等
+         - dump 出堆文件，使用内存分析工具分析文件
+         - 使用阿里Arthas或jconsole,jVisualVM来实时查看JVM状态
+         - jstack查看堆栈信息
+      3. 解决问题-性能调优
+         - 适当增加内存，根据业务背景选择垃圾回收器
+         - 优化代码，控制内存使用
+         - 增加机器，分散节点压力
+         - 合理设置线程池线程数量
+         - 使用中间件提高程序效率，比如缓存，消息队列等
+   - 性能评价/测试指标
+         - 停顿时间
+            - 响应时间
+         - 吞吐量
+            - 单位时间内完成的工作量（请求）的量度
+            - 在GC中：运行用户代码的时间占总运行时间的比例（总运行时间：程序的运行时间+内存回收的时间）；吞吐量为 1-1/(1+n) -XX:GCTimeRatio=n
+         - 并发数
+            - 同一时刻，对服务器有实际交互的请求数
+         - 内存占用
+            - Java 堆区所占的内存大小
+         - 相互间的关系
+            - 以调整公路通行状态为例
+   - 命令
+      - jps <options> <hostid> # 查看当前存在的java进程
+         - options
+            - -q # 只查看进程不显示程序名
+            - -l # 展示更完整的程序全名
+            - -m # 输出虚拟机进程启动时传给主类main()的参数
+            - -v 列出虚拟机进程启动时jvm参数，比如 -Xms20m -Xmx50m 是启动程序指定的jvm参数
+            - 如果某java进程关闭了默认开启的 UsePerfData 参数（即使用参数 -XX:-UsePerfData），那么 jps命令（以及下面介绍的jstat）将无法探知该Java进程
+         - hostid # 用于远程连接
+            - <hostid>: <hostname>:[:<port>]
+            - 如果想要远程监控主机上的 java 程序，需要安装 jstatd
+            - 对于具有更严格的安全实践的网络场所而言，可能使用一个自定义的策略文件来显示对特定的可信主机或网络的访问，尽管这种技术容易受到IP地址欺诈攻击
+            - 如果安全问题无法使用一个定制的策略文件来处理，那么最安全的操作是不运行jstatd服务器，而是本地使用 jstat 和 jps 工具
+      - jstat -<option> [-t] [-h<lines>] <vmid> [<interval> [<count>]] # 查看jvm统计信息
+         - 基本
+            - -class # 显示ClassLoader 的相关信息：类的装载，卸载数量，总空间，类装载所消耗的时间等
+            - interval # 用于指定刷新打印的频率 单位秒
+            - count # 对于指定刷新打印频率的打印次数
+            - -t # 可以在输出信息前加上一个 Timestamp 列，显示程序的运行时间 单位秒
+            - -h # 可以在周期性数据输出时，输出多少行数据后输出一个表头信息
+         - JIT相关
+            - -compiler # 显示JIT编译器编译过的方法，耗时等
+            - -printcompilation # 输出已经被JIT编译的方法
+         - 垃圾回收相关的
+            - -gc 显示与GC相关的堆信息，包括Eden区，两个Survivor区，老年代，永久代等的容量，已用空间，GC时间合计等信息
+            - -gccapacity # 显示内容与-gc基本相同，但输出主要关注Java堆各个区域使用到的最大，最小空间
+            - -gcutil # 显示内容与-gc基本相同，但输出主要关注使用空间占总空间的百分比
+            - -gccause # 与-gc基本相同，但是会额外输出导致最后一次或当前正在发生的GC产生的原因
+            - -gcnew # 显示新生代GC状况
+            - -gcnewcapacity # 显示内容与-gcnew基本相同，输出主要关注使用到的最大，最小空间
+            - -geold # 显示老年代GC状况
+            - -gcoldcapacity # 显示内容与-gcold基本相同，输出主要关注使用到的最大，最小空间
+      - jinfo # 实时查看和修改jvm配置参数
+         - jinfo [option] <PID>
+            - jinfo -sysprops PID # 查看由 System.getProperties()取得的参数
+            - option
+               - no option # 输出全部的参数和系统属性
+               - -flag name # 输出对应名称的参数
+               - -flag[+-]name # 开户或关闭对应名称的参数，只有被标记为manageable的参数才可以被动态修改
+               - -flag name=value # 设定对应名称的参数
+               - -flags # 输出全部的参数
+               - -sysprops # 输出系统属性
+         - jinfo [option] <executable core>
+      - 拓展
+         - java -XX:+PrintFlagsInitial # 查看所有jvm参数启动的初始值
+         - java -XX:+PrintFlagsFinal # 查看所有jvm参数的最终值
+            - java -XX:+PrintFlagsFinal -version | grep manageable # 查看被标记为 manageable 的参数
+         - java -XX:+PrintCommandLineFlags # 查看那些已经被用户或者jvm设置过的详细的xx参数的名称和值
+      - jmap # 导出内存映像文件&内存使用情况
+      - jhat # jdk自带堆分析工具
+      - jstack # 打印jvm中线程快照
+      - jcmd # 多功能命令行
+      - jstatd # 远程主机信息收集
