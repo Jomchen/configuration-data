@@ -1969,6 +1969,7 @@
          - 相互间的关系
             - 以调整公路通行状态为例
    - 命令
+      - 以下的所有命令可以根据：`命令 -h` 来查看相应的帮助手册
       - jps <options> <hostid> # 查看当前存在的java进程
          - options
             - -q # 只查看进程不显示程序名
@@ -2017,7 +2018,96 @@
             - java -XX:+PrintFlagsFinal -version | grep manageable # 查看被标记为 manageable 的参数
          - java -XX:+PrintCommandLineFlags # 查看那些已经被用户或者jvm设置过的详细的xx参数的名称和值
       - jmap # 导出内存映像文件&内存使用情况
+         - 作用一方面是获取dump文件（堆转储快照文件，二进制文件），它还可以获取目标Java进程的内存相关信息，包括Java堆各区域的使用情况，堆中对象的统计信息，类加载信息等
+         - jmap [option] <pid>
+         - jmap [option] <executable <core>
+         - jmap [option] [server_id]@<remote server IP or hostname>
+         - option
+            - -dump # 生成dump文件
+               - -dump:live # 只保存堆中的存活对象
+            - -finalizerinfo # 以ClassLoader为统计口径输出永久代的内存状态信息
+            - -heap # 输出整个堆空间的详细信息，包括GC的使用，堆配置信息，以及内存的使用信息等
+            - -histo # 输出堆空间中对象的统计信息，包括类，实例数量和合计容量
+            - -permstat # 以ClassLoader为统计口径输出永久代的内存状态信息
+            - -F # 当虚拟机进程对 -dump 选项没有任何响应时，强制执行生成dump文件
+         - 通常在写Heap Dump文件前会触发一次Full GC，所以heap dump文件里保存的都是FullGC后留下的对象信息；由于生成dump文件比较耗时，因此大家需要耐心等等，尤其是大内存镜像生成dump文件则需要耗费更长的时间来完成
+         - dump文件生成方式
+            - 手动的方式
+               1. jmap -dump:format=b,file=<filename hprof> <pid>
+                  - 所有的对象
+               2. jmap -dump:live,format=b,file=<filename.hprof> <pid>
+                  - 只有存活的对象
+            - 自动的方式的两个参数
+               - -XX:+HeapDumpOnOutOfMemoryError
+                  - 在程序发生OOM时，导出应用程序的当前堆快照
+               - -XX:HeapDumpPath=<filename.hprof>
+                  - 可以指定堆快照的保存位置
       - jhat # jdk自带堆分析工具
+         - jhat xxx.hprof # 解析文件
+         - 与jmap命令搭配使用，用于分析jmap生成的heap dump文件（堆转储快照）。jhat内置了一个微型HTTP/HTML服务器，生成dump文件的分析结果后，用户可以在浏览器中查看分析结果（分析虚拟机转储快照信息）
+         - 使用了jhat命令，就启动了一个http服务，端口是7000,即http://localhost:7000 就可以在浏览器里分析
+         - jhat命令在jdk9,jdk10中已经被删除，官方建议使用VisualVM代替
       - jstack # 打印jvm中线程快照
+         - 语法 jstack [option] pid
+         - 可以用以分析线程死锁等问题
+         - jstack管理远程进程的话，需要在远程程序的启动参数中增加：
+            - -Djava.rmi.server.hostname=主机地址
+            - -Dcom.sun.management.jmxremote
+            - -Dcom.sun.management.jmxremote.port=8888
+            - -Dcom.sun.management.jmxremote.authenticate=false
+            - -Dcom.sun.management.jmxremote.ssl=false
+         - 在 thread dump 中，要贩几种状态
+            - 死锁：Deadlock（重点关注）
+            - 等待资源：Waiting on condition（重点关注）
+            - 等待获取监视器：Waiting on monitor entry（重点关注）
+            - 阻塞：Blocked（重点关注）
+            - 执行中：Runnable
+            - 暂停：Suspended
+         - option
+            - -F # 当正常输出的请求不被响应时，强制输出线程堆栈
+            - -l # 除堆栈外，显示关于锁的附加信息
+            - -m # 如果调用到本地方法的话，可以显示C/C++的堆栈
+            - -h # 帮助操作
       - jcmd # 多功能命令行
+         - 它是一个多功能的工具，可以用来实现前面除了jstat之外所有命令的功能，比如：用它来导出堆，内存使用，查看Java进程，导出线程信息，执行GC，JVM运行时间等
+         - jcmd 拥有 jmap 的大部分功能，并且在 Oracle 的官方网站上也推荐使用 jcmd 命令代替 jmap 命令
+         - jcmd -l # 列出所有jvm进程
+         - jcmd pid help # 针对指定的进程，列出支持的所有命令
+         - jcmd pid 具体命令 # 显示指定进程的指令命令的数据
       - jstatd # 远程主机信息收集
+         - 之前的指令只涉及到监控本机的java应用程序，而在这些工具中，一些监控工具也支持对远程计算机的监控（如jps, jstat），为了启用远程监控，则需要配合使用 jstatd 工具
+         - 命令 jstatd 是一个 RMI 服务端程序，它的作用相当于代理服务器，建立本地计算机与远程监控工具的通信。jstatd 服务器将本机的 java应用程序信息传递到远程计算机
+
+   - 视图工具
+      - JDK自带工具
+         - jconsole
+            - JDK自带的可视化监控工具，查看java应用程序的运行概况，监控堆信息，永久区（或元空间）使用情况，类加载情况等
+         - Visual VM
+            - Visual VM是一个工具，它提供了一个可视界面，用于查看java虚拟机上运行的基于java技术的应用程序的详细信息
+         - JMC
+            - Java Mission Control，内置Java Flight Recorder。能够以极低的性能开销收集Java虚拟机的性能数据
+      - 第三方工具
+         - MAT
+            - MAT(Memory Analyzer Tool)是基于Eclipse的内存分析工具，是一个快速，功能丰富的Java heap分析工具，它可以帮助我们查找内存泄漏和减少内存消耗
+            - Eclipse的插件gaaa
+         - JProfiler：商业软件，需要付费，功能强大
+            - 与 VisualVM类似
+         - Arthas
+            - Alibaba开源的Java诊断工具。深受开发者喜爱
+         - Btrace
+            - Java运行时追踪工具，可以在不停机的情况下，跟踪指定的方法调用，构造函数调用和系统内存等信息
+      - 介绍
+         - jvisualvm 
+            - 插件可以在 https://visualvm.github.io/pluginscenters.html 下载再放到相应文件夹下，也可以在工具中在线安装
+            - IDEA安装 VisualVM Launcher 插件
+               - Preferences -> Plugins -> 搜索 VisualVM Launcher 安装重启
+               - 安装后，需要在 Settings 中的 VisualVM Launcher 配置 jdk_home 目录以及 VisualVM executable 的可执行文件位置
+            - 远程方案
+               - 确定远程服务器的ip地址
+               - 添加JMX（通过JMX技术具体监控远端服务器哪个Java进程）
+               - 修改bin/catalina.sh文件，连接远程的tomcat
+               - 在.../conf中添加jmxremote.access 和 jmxremote.password 文件
+               - 将服务器地址改为公网ip地址
+               - 设置阿里云安全策略和防火墙策略
+               - 启动 tomcat，查看 tomcat 启动日志和端口监听
+               - JMX中输入端口号，用户名，密码登录
