@@ -14,7 +14,10 @@
    - Window -> Show Viewer -> Project Explorer # 文件目录以工程树的方式显示
 
 * 必装插件
-   Windows -> Eclipse MarketPlace wizard -> 安装 sts 插件
+   - 开发相关（关联 mybatis 的 xml，spring 集成等）
+      - Windows -> Eclipse MarketPlace wizard -> 安装 sts 插件
+   - 颜色和主题
+      - https://blog.csdn.net/dadajixxx/article/details/81627783
 
 * 安装 lombok 插件方式
    将 lombok 的jar 文件放在 eclipse 的目录文件夹中（注意 lombok-xxx.jar 的版本，最新的 eclipse 不要和旧的 lombok 文件一起处理）
