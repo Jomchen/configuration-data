@@ -1,5 +1,6 @@
 ### i3wm 快捷键 ###
 --------- $mod 暂定为 win ---------
+win + shift + e         # 退出i3
 win + shift + space     # 平铺和浮动的转换
 win + shift + r         # 重启i3
 win + shift + c         # 重新加载配置
