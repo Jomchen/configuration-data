@@ -8,9 +8,7 @@ Shift Shift          # 全局搜索
 Ctrl + u             # 进入父类
 Ctrl + b             # 进入光标声明的地方
 Ctrl + g             # 跳转到指定行
-Ctrl + Shift + b     # 进入光标所在类声明的地方或光标所在接口的实现类中
-   - Ctrl + Alt + b     ?
-Ctrl + Alt + b       # 进入光标的实现类
+Ctrl + Alt + b       # 进入光标所在类或接口的实现类
 Alt + f7             # 查找引用了光标选中的地方
 Ctrl + Shift + f10   # 运行当前类的 main 方法
 Ctrl + Shift + f9    # debug运行当前类的 main 方法
