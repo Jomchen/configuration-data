@@ -28,7 +28,8 @@ Alt + 关闭标签       # 被点击的标签不关闭，反而关闭其它标�
 Ctrl + y             # 删除光标当前行
 Ctrl + d             # 复制当前行并粘贴到下一行
 Shift + enter        # 光标下新启空白行，光标定位在新的空白行
-Ctrl + Alt + up/down # 光标所在行往上/下移
+Shift + Alt + up/down  # 光标所在行往上/下移
+Ctrl + Shift + up/down # 光标所在行往上/下移
 Ctrl + [/]           # 移动光标在代码块的开始/结束（往往用于中括号或小括号）
 Ctrl + f4            # 关闭标签页
 Ctrl + 4             # 显示/隐藏run运行控制台
