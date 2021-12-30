@@ -1,5 +1,7 @@
 * 学习资料，学习工具大全览地址
    - https://www.r2coding.com/#/
+* Linux终端中的字符串使用总结（截取，切片，查找替换，转换，变量赋值等）
+https://www.cnblogs.com/oboth-zl/p/10314071.html
 
 * IPLC IEPL 专线
 
