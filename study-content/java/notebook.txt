@@ -19,6 +19,8 @@
       - https://segmentfault.com/a/1190000040781855
    - maven scope
       - https://blog.csdn.net/u010002184/article/details/87989164
+   - 非递归遍历二叉树算法讲解
+      - https://zhuanlan.zhihu.com/p/136124168
 
 * Maven 工程打包模组
    - 注意所处目录需在工程目录下
