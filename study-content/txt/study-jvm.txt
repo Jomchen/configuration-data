@@ -1985,9 +1985,9 @@
       - jstat -<option> [-t] [-h<lines>] <vmid> [<interval> [<count>]] # 查看jvm统计信息
          - 基本
             - -class # 显示ClassLoader 的相关信息：类的装载，卸载数量，总空间，类装载所消耗的时间等
-            - interval # 用于指定刷新打印的频率 单位秒
-            - count # 对于指定刷新打印频率的打印次数
-            - -t # 可以在输出信息前加上一个 Timestamp 列，显示程序的运行时间 单位秒
+            - interval # 用于指定刷新打印的频率 单位毫秒（将 interval 替换成秒数）
+            - count # 对于指定刷新打印频率的打印次数（将 count 替换成 次数）
+            - -t # 可以在输出信息前加上一个 Timestamp 列，显示程序从开始到现在的运行时间 单位秒
             - -h # 可以在周期性数据输出时，输出多少行数据后输出一个表头信息
          - JIT相关
             - -compiler # 显示JIT编译器编译过的方法，耗时等
@@ -2012,6 +2012,9 @@
                - -flags # 输出全部的参数
                - -sysprops # 输出系统属性
          - jinfo [option] <executable core>
+         - jinfo 不仅可以查看运行时某一个java虚拟机参数的实际取值，甚至可以在运行时修改部分参数，并使之立即生效
+            - 但是，并非所有参数都支持动态修改。参数只有被标记为manageable的flag可以被实时修改。其实，这个修改能力是极其有限的
+            - java -XX:+PrintFlagsFinal -version | grep manageable # 查看被标记为 manageable 的参数
       - 拓展
          - java -XX:+PrintFlagsInitial # 查看所有jvm参数启动的初始值
          - java -XX:+PrintFlagsFinal # 查看所有jvm参数的最终值
@@ -2030,7 +2033,8 @@
             - -histo # 输出堆空间中对象的统计信息，包括类，实例数量和合计容量
             - -permstat # 以ClassLoader为统计口径输出永久代的内存状态信息
             - -F # 当虚拟机进程对 -dump 选项没有任何响应时，强制执行生成dump文件
-         - 通常在写Heap Dump文件前会触发一次Full GC，所以heap dump文件里保存的都是FullGC后留下的对象信息；由于生成dump文件比较耗时，因此大家需要耐心等等，尤其是大内存镜像生成dump文件则需要耗费更长的时间来完成
+         - 通常在写Heap Dump文件前会触发一次Full GC，所以heap dump文件里保存的都是FullGC后留下的对象信息；（这是对于自动方式，手动方式是即时快照，不会先执行 Full GC）
+         - 由于生成dump文件比较耗时，因此大家需要耐心等等，尤其是大内存镜像生成dump文件则需要耗费更长的时间来完成
          - dump文件生成方式
             - 手动的方式
                1. jmap -dump:format=b,file=<filename hprof> <pid>
@@ -2042,6 +2046,17 @@
                   - 在程序发生OOM时，导出应用程序的当前堆快照
                - -XX:HeapDumpPath=<filename.hprof>
                   - 可以指定堆快照的保存位置
+         - 显示堆内存信息
+            - jmap -heap pid # 显示堆内存信息
+            - jmap -histo pid # 显示堆内存信息
+            - jmap -permstat pid # 查看系统的ClassLoader信息
+            - jmap -finalizerinfo # 查看堆积在finalize队列中的对象
+         - 其它说明
+            - 由于jmap将访问堆中的所有对象，为了保证在此过程中不被应用线程干扰，jmap需要借助安全点机制，让所有线程
+            - 在不改变堆中数据状态。也就是说，由jmap导出的堆快照必定是安全点位置的。这可能导致基于该堆快照的分析结果存在偏差
+            - 举个例子，假设在编译生成的机器码中，某些对象的生命周期在两个安全点之间，那么:live选项将无法探知到这些对象
+            - 另外，如果某个线程长时间无法跑到安全点，jmap将一直等下去
+            - 与前面讲的jstat则不同，垃圾回收器会主动将jstat所需要摘要数据保存至固定位置之中，而jstat只需直接读取即可
       - jhat # jdk自带堆分析工具
          - jhat xxx.hprof # 解析文件
          - 与jmap命令搭配使用，用于分析jmap生成的heap dump文件（堆转储快照）。jhat内置了一个微型HTTP/HTML服务器，生成dump文件的分析结果后，用户可以在浏览器中查看分析结果（分析虚拟机转储快照信息）
