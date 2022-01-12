@@ -358,6 +358,7 @@
       - pacman -S vlc                     # 视频播放器
       - pacman -S wine                    # windows 的虚拟容器
       - pacman -S github-desktop          # git的视图化管理工具
+      - pacman -S Fiddler4                # 抓包工具（未使用过，不清楚情况）
       - pacman -S wireshark-qt            # 视图化的抓包工具（与命令性质的择其一安装）
          - pacman -S wireshark-cli        # 命令性质的抓包工具
       - Progress Telerik Fiddler Web Debbugger # 手机抓包工具
