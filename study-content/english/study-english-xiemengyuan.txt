@@ -282,7 +282,7 @@
 
 * 谢孟媛英语视频：504line-such的位置，531line-both的位置，987line-多个形容词位置，990line-国家的形容词，1147line-多个副词的顺序，1497line-赋加疑问句，2641line-不定式的时态，2706line-即使不能说是...，更不用说...，3796line-not so much 的用法，3879line-的all the more 的用法重看视频确定，3905line-no more than 用法，4139line-反义疑问句，4293line-名词的量化，
    - 看视频学习进度：finished
-   - 复习进度 6420 line
+   - 复习进度 6514 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
       - 有争议，是岁数大还是岁数小？
@@ -6508,8 +6508,8 @@
                - so boring a lecture was it ... = such a boring lecture was it...
 
    - 补语放在句首
-      - 补语 + beV + 主词（名词）
-         - 连缀动词也可以倒装，例如 He looks happy. => Happy looks he.
+      - 补语 + beV/连缀动词 + 主词（名词）
+         - 连缀动词也可以倒装
          - The country that has no war is happy. # 没有战争的国家很幸福
             - Happy is the country that has no war.
          - The sound of the bell grew faint. 钟声渐隐
