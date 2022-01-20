@@ -6630,20 +6630,20 @@
 
 - 省略
    1. 词性的省略
-      0. 省略一般是对于：大家都知道，有重复的情况
-      1. I bought a bunch flowers on my way home from my uncle's <home>. # 我在我从叔叔那里回家的路上买了一束花（省略了home）
-      2. The girls were brave,but the boys were not <brave>. # 这些女孩很勇敢，但这些男孩不勇敢
-      3. Cathy ate a hamburger,and I <ate> French fries. # 凯瑟吃了一个汉堡，而我吃薯条
-      4. You may go home now if you want to <go home>. # 如果你想回家你可以回家了
-      5. What she said made him happy,but <what she said made> me disappointed. # 她所说的使他快乐，但是我失望了
-      5. I like her better than <I like> him. # 我喜欢这个男生胜过喜欢这个女生
-      6. I like her better than he <like her>. # 我比他更喜欢她
-      7. To some life is pleasure,to others <life is> suffering. # 对一些人生活是幸福的，对有些人是遭难的
-      9. He is rich,but his uncle is twice as rich <as he>. # 他很富有，他的叔叔是像他的两倍富有
-      10. I had no difficulty <in> finding his house. # 要找到他的房子是没有任何困难的
-      11. <It> Sounds great. # 它听起来不错（具体省略词视环境而定，不固定）
-      12. <I> Don't know what to say. # 不知道说什么（具体省略词视环境而定，不固定）
-      13. <It/He/She> Doesn't look very well. # 它看起来不好（具体省略词视环境而定，不固定）
+      1. 省略一般是对于：大家都知道，有重复的情况
+      2. I bought a bunch flowers on my way home from my uncle's <home>. # 我在我从叔叔那里回家的路上买了一束花（省略了home）
+      3. The girls were brave,but the boys were not <brave>. # 这些女孩很勇敢，但这些男孩不勇敢
+      4. Cathy ate a hamburger,and I <ate> French fries. # 凯瑟吃了一个汉堡，而我吃薯条
+      5. You may go home now if you want to <go home>. # 如果你想回家你可以回家了
+      6. What she said made him happy,but <what she said made> me disappointed. # 她所说的使他快乐，但是我失望了
+      7. I like her better than <I like> him. # 我喜欢这个男生胜过喜欢这个女生
+      8. I like her better than he <like her>. # 我比他更喜欢她
+      9. To some life is pleasure,to others <life is> suffering. # 对一些人生活是幸福的，对有些人是遭难的
+      10. He is rich,but his uncle is twice as rich <as he>. # 他很富有，他的叔叔是像他的两倍富有
+      11. I had no difficulty <in> finding his house. # 要找到他的房子是没有任何困难的
+      12. <It> Sounds great. # 它听起来不错（具体省略词视环境而定，不固定）
+      13. <I> Don't know what to say. # 不知道说什么（具体省略词视环境而定，不固定）
+      14. <It/He/She> Doesn't look very well. # 它看起来不好（具体省略词视环境而定，不固定）
 
    2. 从属子句的主词及主要子句的主词相同时，则省略（省略后要考虑对应的动词是否要省略）
       - When <they were> in school,they were good friends. # 当他们在学校时，他们是好朋友
