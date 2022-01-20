@@ -6570,12 +6570,12 @@
             2. 比较级：much,even,a lot,far,still
             3. 最高级：much,far and away,by far,possible
          - 举例
-            0. It flys high. # 它飞得很高（注意这里r high 是副词）
-            1. The dog is terribly smart. # 这只狗非常聪明
-            2. The question was much easier than I had thought. # 这个问题比我想的容易多了
-            3. That's much the best plan. # 那是最好的计划
+            1. It flys high. # 它飞得很高（注意这里的 high 是副词）
+            2. The dog is terribly smart. # 这只狗非常聪明
+            3. The question was much easier than I had thought. # 这个问题比我想的容易多了
+            4. That's much the best plan. # 那是最好的计划
                - That's the very best plan.
-            4. They are selling computers at the lowest possible prices at that store. # 他们在那家店里正在以尽可能最低的价格卖电脑
+            5. They are selling computers at the lowest possible prices at that store. # 他们在那家店里正在以尽可能最低的价格卖电脑
                - I'll do everything <possible> to help you. # 我会尽一切可能帮你的忙
                - possible 除了修饰最高级外也可以修饰 everything, all 之类的词
 
