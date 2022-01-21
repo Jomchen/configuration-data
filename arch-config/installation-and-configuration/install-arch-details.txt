@@ -175,7 +175,9 @@
       10. passwod           # 输入两次密码修改 root 密码
    5. 引导
       - pacman -S grub efibootmgr intel-ucode os-prober wpa_supplicant man networkmanager
-         - 注意 intel-ucode 是对于 intel 的处理器，如果是 amd 请查看官网判定应该安装什么
+         - 注意 intel-ucode
+         - 如果是 intel 处理器 请写作  intel-ucode
+         - 如果是 amd 处理器 请写作 amd-ucode
       - mkdir /boot/grub
       - grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=grub
          - 这里的 x86_64 是通过 uname -m 查询得到的，如果根文档不同，需要把 x86_64 替换之
