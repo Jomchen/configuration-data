@@ -1,3 +1,4 @@
+326 02:05
 * 源码安装
   - 46 ~ 58 页讲源码安装所需要的组件
   - 93 附近的垃圾回收算法
@@ -2071,7 +2072,7 @@
             - -Dcom.sun.management.jmxremote.port=8888
             - -Dcom.sun.management.jmxremote.authenticate=false
             - -Dcom.sun.management.jmxremote.ssl=false
-         - 在 thread dump 中，要贩几种状态
+         - 在 thread dump 中，要关注几种状态
             - 死锁：Deadlock（重点关注）
             - 等待资源：Waiting on condition（重点关注）
             - 等待获取监视器：Waiting on monitor entry（重点关注）
@@ -2085,7 +2086,7 @@
             - -h # 帮助操作
       - jcmd # 多功能命令行
          - 它是一个多功能的工具，可以用来实现前面除了jstat之外所有命令的功能，比如：用它来导出堆，内存使用，查看Java进程，导出线程信息，执行GC，JVM运行时间等
-         - jcmd 拥有 jmap 的大部分功能，并且在 Oracle 的官方网站上也推荐使用 jcmd 命令代替 jmap 命令
+         - jcmd 拥有f jmap 的大部分功能，并且在 Oracle 的官方网站上也推荐使用 jcmd 命令代替 jmap 命令
          - jcmd -l # 列出所有jvm进程
          - jcmd pid help # 针对指定的进程，列出支持的所有命令
          - jcmd pid 具体命令 # 显示指定进程的指令命令的数据
