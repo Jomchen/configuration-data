@@ -282,7 +282,7 @@
 
 * 谢孟媛英语视频：504line-such的位置，531line-both的位置，987line-多个形容词位置，990line-国家的形容词，1147line-多个副词的顺序，1497line-赋加疑问句，2641line-不定式的时态，2706line-即使不能说是...，更不用说...，3796line-not so much 的用法，3879line-的all the more 的用法重看视频确定，3905line-no more than 用法，4139line-反义疑问句，4293line-名词的量化，
    - 看视频学习进度：finished
-   - 复习进度 6420 line
+   - 复习进度 6514 line
 * 重新复习地方
    - 2317 line -> He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
       - 有争议，是岁数大还是岁数小？
@@ -6501,14 +6501,15 @@
          - Amily is so beautiful that I am head over heels in love with her. 艾米莉如此美丽，以至于我彻底地爱上她了
             - So beautiful is Amily that I am head over heels in love with her.
             - 因为 so beautiful 是副词的一个整体，是整体作为副词作用的
+            - head 是头，heel 是脚后跟，加上 in love with 即从头到脚地爱上...，相当于“坠入情网”的意思
          - It was such a boring lecture that half the students fell asleep. 一堂好无聊课，以至于半数的学生睡着了
             - Such a boring lecture was it that half the students fell asleep.
                - 这里 such 是 adj. 虽然不是程度副词，但是 such a boring lecture 形成一个整体的副词修饰，所以也拿到句首
                - so boring a lecture was it ... = such a boring lecture was it...
 
    - 补语放在句首
-      - 补语 + beV + 主词（名词）
-         - 连缀动词也可以倒装，例如 He looks happy. => Happy looks he.
+      - 补语 + beV/连缀动词 + 主词（名词）
+         - 连缀动词也可以倒装
          - The country that has no war is happy. # 没有战争的国家很幸福
             - Happy is the country that has no war.
          - The sound of the bell grew faint. 钟声渐隐
@@ -6569,12 +6570,12 @@
             2. 比较级：much,even,a lot,far,still
             3. 最高级：much,far and away,by far,possible
          - 举例
-            0. It flys high. # 它飞得很高（注意这里r high 是副词）
-            1. The dog is terribly smart. # 这只狗非常聪明
-            2. The question was much easier than I had thought. # 这个问题比我想的容易多了
-            3. That's much the best plan. # 那是最好的计划
+            1. It flys high. # 它飞得很高（注意这里的 high 是副词）
+            2. The dog is terribly smart. # 这只狗非常聪明
+            3. The question was much easier than I had thought. # 这个问题比我想的容易多了
+            4. That's much the best plan. # 那是最好的计划
                - That's the very best plan.
-            4. They are selling computers at the lowest possible prices at that store. # 他们在那家店里正在以尽可能最低的价格卖电脑
+            5. They are selling computers at the lowest possible prices at that store. # 他们在那家店里正在以尽可能最低的价格卖电脑
                - I'll do everything <possible> to help you. # 我会尽一切可能帮你的忙
                - possible 除了修饰最高级外也可以修饰 everything, all 之类的词
 
@@ -6629,20 +6630,20 @@
 
 - 省略
    1. 词性的省略
-      0. 省略一般是对于：大家都知道，有重复的情况
-      1. I bought a bunch flowers on my way home from my uncle's <home>. # 我在我从叔叔那里回家的路上买了一束花（省略了home）
-      2. The girls were brave,but the boys were not <brave>. # 这些女孩很勇敢，但这些男孩不勇敢
-      3. Cathy ate a hamburger,and I <ate> French fries. # 凯瑟吃了一个汉堡，而我吃薯条
-      4. You may go home now if you want to <go home>. # 如果你想回家你可以回家了
-      5. What she said made him happy,but <what she said made> me disappointed. # 她所说的使他快乐，但是我失望了
-      5. I like her better than <I like> him. # 我喜欢这个男生胜过喜欢这个女生
-      6. I like her better than he <like her>. # 我比他更喜欢她
-      7. To some life is pleasure,to others <life is> suffering. # 对一些人生活是幸福的，对有些人是遭难的
-      9. He is rich,but his uncle is twice as rich <as he>. # 他很富有，他的叔叔是像他的两倍富有
-      10. I had no difficulty <in> finding his house. # 要找到他的房子是没有任何困难的
-      11. <It> Sounds great. # 它听起来不错（具体省略词视环境而定，不固定）
-      12. <I> Don't know what to say. # 不知道说什么（具体省略词视环境而定，不固定）
-      13. <It/He/She> Doesn't look very well. # 它看起来不好（具体省略词视环境而定，不固定）
+      1. 省略一般是对于：大家都知道，有重复的情况
+      2. I bought a bunch flowers on my way home from my uncle's <home>. # 我在我从叔叔那里回家的路上买了一束花（省略了home）
+      3. The girls were brave,but the boys were not <brave>. # 这些女孩很勇敢，但这些男孩不勇敢
+      4. Cathy ate a hamburger,and I <ate> French fries. # 凯瑟吃了一个汉堡，而我吃薯条
+      5. You may go home now if you want to <go home>. # 如果你想回家你可以回家了
+      6. What she said made him happy,but <what she said made> me disappointed. # 她所说的使他快乐，但是我失望了
+      7. I like her better than <I like> him. # 我喜欢这个男生胜过喜欢这个女生
+      8. I like her better than he <like her>. # 我比他更喜欢她
+      9. To some life is pleasure,to others <life is> suffering. # 对一些人生活是幸福的，对有些人是遭难的
+      10. He is rich,but his uncle is twice as rich <as he>. # 他很富有，他的叔叔是像他的两倍富有
+      11. I had no difficulty <in> finding his house. # 要找到他的房子是没有任何困难的
+      12. <It> Sounds great. # 它听起来不错（具体省略词视环境而定，不固定）
+      13. <I> Don't know what to say. # 不知道说什么（具体省略词视环境而定，不固定）
+      14. <It/He/She> Doesn't look very well. # 它看起来不好（具体省略词视环境而定，不固定）
 
    2. 从属子句的主词及主要子句的主词相同时，则省略（省略后要考虑对应的动词是否要省略）
       - When <they were> in school,they were good friends. # 当他们在学校时，他们是好朋友

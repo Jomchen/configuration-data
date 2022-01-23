@@ -175,7 +175,9 @@
       10. passwod           # 输入两次密码修改 root 密码
    5. 引导
       - pacman -S grub efibootmgr intel-ucode os-prober wpa_supplicant man networkmanager
-         - 注意 intel-ucode 是对于 intel 的处理器，如果是 amd 请查看官网判定应该安装什么
+         - 注意 intel-ucode
+         - 如果是 intel 处理器 请写作  intel-ucode
+         - 如果是 amd 处理器 请写作 amd-ucode
       - mkdir /boot/grub
       - grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=grub
          - 这里的 x86_64 是通过 uname -m 查询得到的，如果根文档不同，需要把 x86_64 替换之
@@ -356,6 +358,31 @@
          - pacman -S bluez-utils             # 提供蓝牙 bluetoothctl 命令工具
          - pacman -S blueman                 # 蓝牙可视化工具（推荐）
       - pacman -S vlc                     # 视频播放器
+      - Linux 视频剪辑软件
+         - https://www.linuxprobe.com/linux-best-video.html
+         - 如果你需要一个简单的视频编辑器，OpenShot、Kdenlive 和 Flowblade 是一个不错的选择。这些软件是适合初学者的，并且带有标准规范的系统。
+         - 如果你有一个高性能的计算机，并且需要高级功能，你可以使用 Lightworks。如果你正在寻找更高级的功能， Blender 可以帮助你。
+         - 这就是我写的 5 个最佳的视频编辑软件，它们可以在 Ubuntu、Linux Mint、Elementary 和其他 Linux 发行版下使用。 请与我们分享您最喜欢的视频编辑器。
+         - 注意
+            - lightworks 有两个版本：Lightworks 免费版和 Lightworks 专业版。
+            - 不过免费版本不支持 Vimeo（H.264 / MPEG-4）和 YouTube（H.264 / MPEG-4） - 高达 2160p（4K UHD）、蓝光和 H.264 / MP4 导出选项，
+            - 以及可配置的位速率设置，但是专业版本支持
+         - 软件
+            - Kdenlive   通用视频编辑       自由开源
+            - OpenShot   通用视频编辑       自由开源
+            - Shotcut    通用视频编辑       自由开源
+            - Flowblade  通用视频编辑       自由开源
+            - Lightworks 专业级视频编辑     免费增值
+            - Blender    专业级三维编辑     自由开源
+            - Cinelerra  通用视频编辑       自由开源
+            - DaVinci    专业级视频处理编辑 免费增值
+            - VidCutter  简单视频拆分合并   自由开源
+      - Linux 图片编辑软件
+         - GIMP（堪称 The true Photoshop alternative）
+         - Krita
+         - Darktable
+         - Inkscape
+         - digiKam
       - pacman -S wine                    # windows 的虚拟容器
       - pacman -S github-desktop          # git的视图化管理工具
       - pacman -S Fiddler4                # 抓包工具（未使用过，不清楚情况）
