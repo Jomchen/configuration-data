@@ -1,6 +1,9 @@
 * VPS
    - HostDare
    - Hostwinds
+   - BandWagon
+   - DigitalOcean
+   - Linode
 * hostname
    - Godaddy
    - freenom 申请免费域名
