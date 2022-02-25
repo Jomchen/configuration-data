@@ -127,61 +127,73 @@
 
 ## 书签
 - 书签分为 文件书签 和 全局书签
+   ```
    - 文件书签是你标记文件中的不同位置，然后可以在文件内快速跳转到你想要的位置。 
    - 全局书签是标记不同文件中的位置。也就是说你可以在不同的文件中快速跳转 
-   - `m{a-zA-Z} ` 在当前光标处标记书签
+   - m{a-zA-Z} 在当前光标处标记书签
    - 例如 ma 或 mA 
    - 小写的是文件书签，可以用(a-z）中的任何字母标记。
    - 大写的是全局书签，用大写的(A-Z)中任意字母标记。
-   - \``{a-zA-Z}` 中转到某个标签
+   - `{a-zA-Z} 中转到某个标签
    - 如果是全局书签，则会开启被书签标记的文件跳转至标记的行
-   - \`0 跳转入现在编辑的文件中上次退出的位置 (go to last exit in file)
-   - \`\` 跳转如最后一次跳转的位置 (go to last jump   -> go back to last jump)
-   - \`\`\` 跳转至最后一次编辑的位置 (go to last edit)
+   - `0 跳转入现在编辑的文件中上次退出的位置 (go to last exit in file)
+   - `` 跳转如最后一次跳转的位置 (go to last jump   -> go back to last jump)
+   - ``` 跳转至最后一次编辑的位置 (go to last edit)
    - g`{mark} 跳转到书签 (jump to {mark})
-   - `:delm{marks}` 删除一个书签 (delete a mark) 例如:delma那么就删除了书签a 
-   - `:delm!` 删除全部书签 (delete all marks)
-   - `:marks` 显示系统全部书签 (show all bookmarks)
+   - :delm{marks} 删除一个书签 (delete a mark) 例如:delma那么就删除了书签a 
+   - :delm! 删除全部书签 (delete all marks)
+   - :marks 显示系统全部书签 (show all bookmarks)
+   ```
 
 
 ## 寄存器
    - vim 默认是没有系统剪贴板的，如果要在vim中复制到系统剪贴板中则要安装 `sudo apt-get install vim-gnome`
    - 寄存器的 + 和 * 的区别
-      - \+ 是指外部在剪贴板中的内容，这里才是要粘贴出来的内容
-      - \* 是指鼠标选中的内容
+      ```
+      "+ 是指外部在剪贴板中的内容，这里才是要粘贴出来的内容
+      "* 是指鼠标选中的内容
+      ```
    - 在插入模式下
-      - "= 可以进入指命模式寄存器，在下栏中输入一个计算表达式可以计算值并存在指命寄存器中
-      - "对应的寄存器名 可以把相应寄存器中的数据粘贴出来
+      ```
+      "= 可以进入指命模式寄存器，在下栏中输入一个计算表达式可以计算值并存在指命寄存器中
+      "寄存器名 可以把相应寄存器中的数据粘贴出来
+      ```
    - 在普通模式下
-      - "a~z 再执行复制或删除或剪切命令，可以把相应的操作内容放在相应的寄存器中
-      - 如果是用大写的字母作为寄存器名，则是把操作内容累加在相应小写的寄存器中
-      - "a~z 再执行粘贴可以把相应寄存器中的内容粘贴出来
+      ```
+      "a~z 再执行复制或删除或剪切命令，可以把相应的操作内容放在相应的寄存器中
+      如果是用大写的字母作为寄存器名，则是把操作内容累加在相应小写的寄存器中
+      "a~z 再执行粘贴可以把相应寄存器中的内容粘贴出来
+      ```
 
 
 ## 正则表达式
    - 区别
       - 在 vim 中使用的正则表达式差不多只有 . * [] 元字符可以直接用,其它元字符只能加 \
-      - \\= 表示函数式
-      - 加上行号 :%s/^/\\=line(".")/g
-      - 加上行号和一个空格 :%s/^/\\=line(".")." "/g
-      - 换行匹配
-      - \\n 换行符（行尾）
-      - \\_s 是一个空白字符，空格或制表符或换行符
-      - \\_^ 开始一行（零宽度）
-      - \\_$ 一行的结束（零宽度）
-      - \\_. 表示包含换行符在内的所有字符
-      - \\_s 匹配空格或断行
+         ```
+         \= 表示函数式
+         加上行号 :%s/^/\\=line(".")/g
+         加上行号和一个空格 :%s/^/\\=line(".")." "/g
+         换行匹配
+         \n 换行符（行尾）
+         \_s 是一个空白字符，空格或制表符或换行符
+         \_^ 开始一行（零宽度）
+         \_$ 一行的结束（零宽度）
+         \_. 表示包含换行符在内的所有字符
+         \_s 匹配空格或断行
+         ```
       - 未明确的知识1
-      - 在Vim中, 还可以对正则表达式的分组进行大小写的转换, 要用到的参数有:
-      - \u （将分组第一个字母转换成大写）
-      - \U （将整个分组转换成大写）
-      - \l （将分组第一个转换成小写）
-      - \L （将整个分组转换成小写）
+         ```
+         在Vim中, 还可以对正则表达式的分组进行大小写的转换, 要用到的参数有:
+         \u （将分组第一个字母转换成大写）
+         \U （将整个分组转换成大写）
+         \l （将分组第一个转换成小写）
+         \L （将整个分组转换成小写）
+         ```
       - 示例:
-            ```
-      - :%s/\v(\w)(\w*)/\u\1\L\2/g
-      - 将所有单词转换成首字母大写
-            ```
+         ```
+         :%s/\v(\w)(\w*)/\u\1\L\2/g
+         将所有单词转换成首字母大写
+         ```
       - 未明确的知识2
          ```
          要在查找或替换中完全使用正则表达式, 可以在pattern之前使用参数:
@@ -204,44 +216,55 @@
 - ### 贪婪/懒惰
    - #### 一般情况下默认是匹配尽可能长的
    - #### perl 正则格式
-    |符号|说明|
-    |--|--|
-    |\{-}|0个或多个，尽可能少的匹配|
-    |\{-n,m}|n个或多个，尽可能少的匹配|
-    |\{-n, }|至少匹配n次，尽可能少的匹配|
-    |\{-, m}|至多匹配m次，尽可能少的匹配|
+    ```
+    *------*---------------------------*
+    | 符号 |        说明               |
+    *------*---------------------------*
+    |{-}   |0个或多个，尽可能少的匹配  |
+    *------*---------------------------*
+    |{-n,m}|n个或多个，尽可能少的匹配  |
+    *------*---------------------------*
+    |{-n, }|至少匹配n次，尽可能少的匹配|
+    *------*---------------------------*
+    |{-, m}|至多匹配m次，尽可能少的匹配|
+    *------*---------------------------*
+    ```
    - #### vim 正则格式
-   - vim中的匹配实在是不如perl好用，一直想实现非贪婪匹配，今天偶然发现可以用量词匹配来实现，具体可以看:h /\{
-   - \{n,m} Matches n to m of the preceding atom, as many as possible
-   - \{n} Matches n of the preceding atom
-   - \{n,} Matches at least n of the preceding atom, as many as possible
-   - \{,m} Matches 0 to m of the preceding atom, as many as possible
-   - \{} Matches 0 or more of the preceding atom, as many as possible (like *)
-   - \{-n,m} matches n to m of the preceding atom, as few as possible
-   - \{-n} matches n of the preceding atom
-   - \{-n,} matches at least n of the preceding atom, as few as possible
-   - \{-,m} matches 0 to m of the preceding atom, as few as possible
-   - \{-} matches 0 or more of the preceding atom, as few as possible
-   - 也就是.\{-}可以实现.*的非贪婪匹配，.\{-1,}可以实现.+的非贪婪匹配。
+      ```
+      - vim中的匹配实在是不如perl好用，一直想实现非贪婪匹配，今天偶然发现可以用量词匹配来实现，具体可以看:h /\{
+      \{n,m} Matches n to m of the preceding atom, as many as possible
+      \{n} Matches n of the preceding atom
+      \{n,} Matches at least n of the preceding atom, as many as possible
+      \{,m} Matches 0 to m of the preceding atom, as many as possible
+      \{} Matches 0 or more of the preceding atom, as many as possible (like *)
+      \{-n,m} matches n to m of the preceding atom, as few as possible
+      \{-n} matches n of the preceding atom
+      \{-n,} matches at least n of the preceding atom, as few as possible
+      \{-,m} matches 0 to m of the preceding atom, as few as possible
+      \{-} matches 0 or more of the preceding atom, as few as possible
+      也就是.\{-}可以实现.*的非贪婪匹配，.\{-1,}可以实现.+的非贪婪匹配。
+      ```
 
    - ### 零宽断言
-   - 在各种常用工具对比中，我看到vim是支持计数的，而且似乎大部分常用的正则元字符都与perl兼容，比如\s,\d,\D,\w,\W, <
-   - 但vim不支持\b，即单次边界。另外，vim中比较麻烦的是它似乎支持的是BRE（基本正则表达式，posix定义的），BRE中所有括号都不是元字符，因为作为元字符的是\(,\{。比如vim中匹配连续3个9，你得用9\{3\}，原来我一直以为不支持，但我还是觉得麻烦了一点，grep默认也是使用的这种BRE。好吧，我发现网上文章说了一个小小的偷懒情况，VIM中匹配999也可以写成9\{3}，也就是说少了结尾的\。
-   - 与perl相比，(?换成了\@，并且这个符号应该跟在匹配模式的后边。
-   - vim Perl 意义 
-   - \\@=   (?= 顺序环视 
-   - eg:查找后面是sql的my： /my\(sql\)\\@=
-   - \\@!   (?! 顺序否定环视 
-   - eg:查找后面不是sql的my： /my\(sql\)\\@!
-   - \\@<=   (?<= 逆序环视 
-   - eg: 查找前面是my的sql： /\(my\)\\@<=sql
-   - \\@<!   (?<! 逆序否定环视 
-   - eg:查找前面不是my的sql： /\(my\)\\@<!sql
-   - \\@>   (?> 固化分组 
-   - \\%(atom\)   (?: 非捕获型括号
-   - 意思是，此分组不捕获，可以理解为不算在分组信息中，eg：
-   - :%s/\%(my\)sql\(ok\)/\1
-   - 上面的命令会将mysqlok替换为 ok ，由于my为捕获在分组中，故组中\1 为ok。
+      ```
+      在各种常用工具对比中，我看到vim是支持计数的，而且似乎大部分常用的正则元字符都与perl兼容，比如\s,\d,\D,\w,\W, <
+      但vim不支持\b，即单次边界。另外，vim中比较麻烦的是它似乎支持的是BRE（基本正则表达式，posix定义的），BRE中所有括号都不是元字符，因为作为元字符的是\(,\{。比如vim中匹配连续3个9，你得用9\{3\}，原来我一直以为不支持，但我还是觉得麻烦了一点，grep默认也是使用的这种BRE。好吧，我发现网上文章说了一个小小的偷懒情况，VIM中匹配999也可以写成9\{3}，也就是说少了结尾的\。
+      与perl相比，(?换成了\@，并且这个符号应该跟在匹配模式的后边。
+      vim    Perl 意义 
+      \@=    (?= 顺序环视 
+      eg:查找后面是sql的my： /my\(sql\)\\@=
+      \@!    (?! 顺序否定环视 
+      eg:查找后面不是sql的my： /my\(sql\)\\@!
+      \@<=   (?<= 逆序环视 
+      eg: 查找前面是my的sql： /\(my\)\\@<=sql
+      \@<!   (?<! 逆序否定环视 
+      eg:查找前面不是my的sql： /\(my\)\\@<!sql
+      \@>    (?> 固化分组 
+      \%(atom\)   (?: 非捕获型括号
+      意思是，此分组不捕获，可以理解为不算在分组信息中，eg：
+      :%s/\%(my\)sql\(ok\)/\1
+      上面的命令会将mysqlok替换为 ok ，由于my为捕获在分组中，故组中\1 为ok。
+      ```
 
 ## 宏（高级功能）
    - 宏的步骤
