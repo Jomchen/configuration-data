@@ -1990,6 +1990,9 @@
             - count # 对于指定刷新打印频率的打印次数（将 count 替换成 次数）
             - -t # 可以在输出信息前加上一个 Timestamp 列，显示程序从开始到现在的运行时间 单位秒
             - -h # 可以在周期性数据输出时，输出多少行数据后输出一个表头信息
+         - 举例
+            - jstat -class pid # 查看pid这个进程的class信息
+            - jstat -class pid 1000 10 # 查看pid这个进程的class信息，并且1000毫秒打印一次，一共打印10次
          - JIT相关
             - -compiler # 显示JIT编译器编译过的方法，耗时等
             - -printcompilation # 输出已经被JIT编译的方法

@@ -17,6 +17,8 @@
    - Maven resource include exclude filtering 讲解 
       - https://blog.csdn.net/weixin_45881248/article/details/115257195?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link
       - 官网 http://maven.apache.org/plugins/maven-resources-plugin/examples/filter.html
+   - Java 的 Xml 解析类 Node 相关的方法讲述
+      - https://developer.mozilla.org/zh-CN/docs/Web/API/Node/replaceChild
    - GIT 的一些重要命令 https://emila-github.github.io/2017/03/24/git%20-%20%E7%9C%8B%E6%9F%90%E6%AC%A1commit%E6%94%B9%E4%BA%86%E5%93%AA%E4%BA%9B%E6%96%87%E4%BB%B6/
    - ApplicationContextAware
       - https://segmentfault.com/a/1190000040781855
