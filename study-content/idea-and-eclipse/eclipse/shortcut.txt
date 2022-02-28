@@ -42,6 +42,15 @@ F6                       # 单步执行程序
 F7                       # 执行完方法，返回到调用此方法的后一条语句
 F8                       # 继续执行，到下一个断点或程序结束
 
+Alt + Shift + Q
+   - Q # 显示
+   - B # 显示断点
+   - C # 显示控制台
+   - O # 显示 Outline
+   - V # 显示 Variable
+   - H # 显示 History
+   - S # 显示 Search
+
 一个不错的 eclipse 快捷键教程地址
 https://www.zhihu.com/question/19964292
 
