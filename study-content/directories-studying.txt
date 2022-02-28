@@ -46,6 +46,8 @@
       - https://byoungd.gitbook.io/english-level-up-tips/
    - ReentrantLock 锁讲解
       - https://www.cnblogs.com/waterystone/p/4920797.html
+   - LoockSupport.park() 讲解
+      - https://www.cnblogs.com/tong-yuan/p/11768904.html
 
 ## 一些要测试的代码
    ```
