@@ -28,8 +28,86 @@
       - 注意这个数组放的都是对象的地址值
    - 大数据解决方案
       - https://www.cnblogs.com/owenma/p/8723339.html
+
+* 未搞清楚的知识点
    - Java 中 Unsafe 类的源码理解
       - https://blog.csdn.net/a7980718/article/details/83661613
+   - 补码
+      - https://www.zhihu.com/question/374450559/answer/1036793793
+      - https://blog.csdn.net/modi000/article/details/113841959
+      - https://zhidao.baidu.com/question/304039834642540444.html
+   - Maven resource include exclude filtering 讲解 
+      - https://blog.csdn.net/weixin_45881248/article/details/115257195?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link
+      - 官网 http://maven.apache.org/plugins/maven-resources-plugin/examples/filter.html
+   - 进程的解释
+      - https://zhuanlan.zhihu.com/p/53527981
+      - https://zhuanlan.zhihu.com/p/51194025
+   - 英语Gitbook
+      - https://byoungd.gitbook.io/english-level-up-tips/
+
+## 一些要测试的代码
+   ```
+    static ReentrantLock lock = new ReentrantLock();
+    static final Condition condition = lock.newCondition();
+    
+    public static void main(String[] args) throws InterruptedException {
+    	Test tt1 = new Test(lock, condition, -1);
+    	Test tt2 = new Test(lock, condition, 2);
+    	Thread t1 = new Thread(tt1, "Thead-1");
+    	Thread t2 = new Thread(tt2, "Thread-2");
+    	t1.start();
+    	Thread.sleep(2000);
+    	t2.start();
+    }
+    
+    static class Test implements Runnable {
+    	ReentrantLock lock;
+        Condition condition;
+        int data;
+        public Test(ReentrantLock lock, Condition condition, int data) {
+        	this.lock = lock; this.condition = condition; this.data = data;
+        }
+        
+        @Override
+        public void run() {
+	        try {
+	        	myRun();
+	        } catch( Exception e) {
+	        	e.printStackTrace();
+	        }
+        }
+        
+            
+	    public void myRun() throws InterruptedException {
+	    	String threadName = Thread.currentThread().getName();
+	    	System.out.println(threadName + " 准备抢锁");
+	      	//lock.lockInterruptibly();
+	    	lock.lock();
+	    	
+	    	try {
+	    		System.out.println(threadName + " 进入了方法区");
+	    		if (this.data > 0) {
+	    			this.condition.signalAll();
+	    			System.out.println(threadName + " 唤醒者，当前是否有锁：" + lock.isLocked());
+	    			System.out.println(threadName + " 唤醒者执行线程结束");
+	    			return;
+	    		}
+	    		
+	      		//for (;;) {
+	    			System.out.println(threadName + " 开始阻塞");
+	    			condition.await();
+	    			System.out.println(threadName + " 阻塞后，现在是否有锁：" + lock.isLocked());
+	      		//}
+	    	} finally {
+	    		System.out.println(threadName + " finished 之前是否有锁：" + lock.isLocked());
+	    		System.out.println(threadName + " FINISHED");
+	    		lock.unlock();
+	    		System.out.println(threadName + " 释放锁成功");
+	    	}
+	    }
+    }
+   ```
+
 
 
 * 要做的事

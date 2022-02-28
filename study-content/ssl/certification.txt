@@ -1,3 +1,8 @@
+* csr 生成器
+   - https://csrgenerator.com/
+* SSL Certificates Help
+   - https://sg.godaddy.com/help/add-or-remove-subject-alternative-names-from-my-ucc-certificates-4649
+
 ### openvpn 中 .ovpn 中文件解释
 
 * ca证书，客户端证书cert，客户端key，写入到配置文件的写法

@@ -1,3 +1,5 @@
+## 讲述地址
+   - https://selierlin.github.io/v2ray/addition/clients.html
 ## cdn 选择的网址
    - https://www.10besty.com/best-cdn-services/
    - 注意 Cloudflare 只支持 http1 而不支持 http2
