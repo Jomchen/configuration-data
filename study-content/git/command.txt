@@ -1,10 +1,17 @@
-git log                       # 查询提交日志
-   git log --pretty=oneline   # 只显示版本号和说明
-git reflog                    # 查询本地提交日志
-git show 版本号 -- FILE_PATH  # 查询具体版本号提交记录的修改内容，如果加上 -- FILE_PATH 则是查看指定版本号指定文件的变更内容
-git status                    # 查询本地状态
-git commit -m "MESSAGE"       # 提交代码
-git checkout -- FILE_PATH     # 将工作区恢复和缓存区一致（缓存区有变更）；将工作区恢复和本地仓库一致（缓存区无变更）
-git reset 版本号 -- FILE_PATH # 将指定文件恢复到指定版本
-git reset 版本号 --hard       # 将本地仓库恢复到指定版本
-git [-b] checkout BRANCH           # 切换到指定分支，如果加 -b 则是新建分支
+* 命令
+   ```
+   git log                            # 查询提交日志
+      git log --pretty=oneline        # 只显示版本号和说明
+   git reflog                         # 查询本地提交日志
+   git show 版本号 -- FILE_PATH       # 查询具体版本号提交记录的修改内容，如果加上 -- FILE_PATH 则是查看指定版本号指定文件的变更内容
+   git status                         # 查询本地状态
+   git commit -m "MESSAGE"            # 提交代码
+   git checkout -- FILE_PATH          # 将工作区恢复和缓存区一致（缓存区有变更）；将工作区恢复和本地仓库一致（缓存区无变更）
+   git reset 版本号 -- FILE_PATH      # 将指定文件恢复到指定版本
+   git reset 版本号 --hard            # 将本地仓库恢复到指定版本
+   git [-b] checkout BRANCH           # 切换到指定分支，如果加 -b 则是新建分支
+   ```
+
+* git 解决每次拉取代码都需要用户名和密码的情况
+   - git config --global credential.helper store
+   - 执行完毕后会在 ~/.gitconfig 中生成一个文件，记录了你的相关信息
