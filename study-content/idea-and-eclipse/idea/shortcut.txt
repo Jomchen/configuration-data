@@ -30,6 +30,7 @@ Ctrl + d             # 复制当前行并粘贴到下一行
 Shift + enter        # 光标下新启空白行，光标定位在新的空白行
 Shift + Alt + up/down  # 光标所在行往上/下移
 Ctrl + Shift + up/down # 光标所在行往上/下移
+Ctrl + Shift + up/down # 如果光标是在控制台，则是把控制台高度升高/降低
 Ctrl + [或]           # 移动光标在代码块的开始/结束（往往用于中括号或小括号）
 Ctrl + f4            # 关闭标签页
 Ctrl + 4             # 显示/隐藏run运行控制台
