@@ -10,6 +10,8 @@
 * 一些教程地址
    - 解释 java 类的几个 name 的区别
       - https://www.codenong.com/15202997/
+   - 解析 wait() await() sleep() park() 的区别
+      - https://blog.csdn.net/weixin_43587472/article/details/114106369
    - Type 类型
       - https://www.cnblogs.com/linghu-java/p/8067886.html
       - https://www.jianshu.com/p/39cc237ad815
