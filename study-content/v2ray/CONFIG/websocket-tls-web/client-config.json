@@ -1,0 +1,117 @@
+# 日志级别有：debug, info, warning, error, none
+
+{
+  "log": {
+    "loglevel": "warning",
+    "access": "/opt/v2ray-logs/access.log",
+    "error": "/opt/v2ray-logs/error.log"
+  },
+
+  "inbounds": [
+    {
+      "port": 1080,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": ["http", "tls"]
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": false
+      }
+    }
+  ],
+
+  "outbounds": [
+    {
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "YOUR_DOMAIN",
+            "port": 443,
+            "users": [
+              {
+                # >>>>>>>> Important, the id must be same as one of client config
+                "id": "2753b530-414e-4fdb-862a-78e5a200c282",
+                # >>>>>>>> Important, the alterId must be same as one of client config
+                "alterId": 70
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          # >>>>>>>> Important, the location rule must be the same as the path intercepted by nginx
+          "path": "/PATH"
+        }
+      },
+      "tag": "proxy"
+    },
+    {
+      "protocol": "freedom",
+      "settings": {},
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {},
+      "tag": "blacklist"
+    }
+  ],
+
+  "routing": {
+    "domainStrategy": "IPOnDemand",
+    "rules": [
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+          "geosite:cn"
+        ]
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "ip": [
+          "geoip:cn",
+          "geoip:private"
+        ]
+      },
+      {
+        "type": "field",
+        "outboundTag": "blacklist",
+        "domain": [
+          "ext:h2y.dat:ad"
+        ]
+      },
+      {
+        "type": "field",
+        "outboundTag": "proxy",
+        "domain": [
+          "ext:h2y.dat:gfw"
+        ]
+      },
+      {
+        "type": "field",
+        "network": "tcp,udp",
+        "outboundTag": "direct"
+      }
+    ]
+  }
+}
+
+# 这个文件下载后放到 v2ray 的运行文件目录下 https://github.com/ToutyRater/V2Ray-SiteDAT/tree/master/geofiles 
+   # 包含广告域名和被封域名
+# 路由在最后加上这个表明所有没有匹配的就走 direct
+   #{
+   #  "type": "field",
+   #  "network": "tcp,udp",
+   #  "outboundTag": "direct"
+   #}
+
+

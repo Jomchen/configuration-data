@@ -1,0 +1,49 @@
+{
+  "inbounds": [
+    {
+      #### 端口
+      "port": 1080,
+      #### 地址
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": ["http", "tls"]
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": false
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            #### 域名
+            "address": "mydomain.me",
+            "port": 443,
+            "users": [
+              {
+                #### UUID
+                "id": "b831381d-6324-4d53-ad4f-8cda48b30811",
+                #### 一个序列号
+                "alterId": 64
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "h2",
+        ### 关于http2的访问路径
+        "httpSettings": {
+          "path": "/ray"
+        },
+        "security": "tls"
+      }
+    }
+  ]
+}

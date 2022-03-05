@@ -114,6 +114,14 @@
 
    - Nginx Configuration
    ```
+   #这里不应该加，防止重定向并引起非websocket
+   #server {
+   #   listen 80 default_server;
+   #   return 301 https://$host$request_uri;
+   #}
+
+   # 其实这里也可以加页面
+
    server {
       listen 80 default_server;
       # server_name _;
@@ -157,6 +165,12 @@
        proxy_set_header X-Real-IP $remote_addr;
        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
      }
+
+     #这里是做的页面
+     #location / {
+     #  root /opt/my-page; 
+     #  index index.html index.htm;
+     #}
    }
    ```
 

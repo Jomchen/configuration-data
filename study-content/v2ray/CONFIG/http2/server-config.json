@@ -1,0 +1,43 @@
+{
+  "inbounds": [
+    {
+      "port": 443,
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            ### 和客户端保持一致
+            "id": "b831381d-6324-4d53-ad4f-8cda48b30811",
+            ### 和客户端保持一致
+            "alterId": 64
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "h2",
+        "httpSettings": {
+          ### 和客户端保持一致
+          "path": "/ray"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "certificates": [
+            {
+              ### 证书文件
+              "certificateFile": "/etc/v2ray/v2ray.crt",
+              ### 私钥文件
+              "keyFile": "/etc/v2ray/v2ray.key"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
+

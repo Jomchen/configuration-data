@@ -1,0 +1,43 @@
+# 日志级别有：debug, info, warning, error, none
+{
+  "log": {
+    "loglevel": "warning",
+    "access": "/opt/v2ray-logs/access.log",
+    "error": "/opt/v2ray-logs/error.log"
+  },
+
+  "inbounds": [
+    {
+      # >>>>>>>> Important, the port must be same as one listened by nginx
+      "port": 10377,
+      # >>>>>>>> just listen address of 127.0.0.1
+      "listen":"127.0.0.1",
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            # >>>>>>>> Important, the id must be same as one of client config
+            "id": "2753b530-414e-4fdb-862a-78e5a200c282",
+            # >>>>>>>> Important, the alterId must be same as one of client config
+            "alterId": 70
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+        # >>>>>>>> Important, the location rule must be the same as the path intercepted by nginx
+        "path": "/PATH"
+        }
+      }
+    }
+  ],
+
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
+
