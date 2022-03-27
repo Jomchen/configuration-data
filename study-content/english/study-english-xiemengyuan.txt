@@ -6599,7 +6599,7 @@
          - If you learn English at all,learn it well. # 既然你学了英语，学好它
             - 如果句子是 If，并且有 at all 附置，at all 翻译为既然
       4. 否定的强调，可将否定字放句首，或用 at all
-         - far from,in the least,by no means（绝非）,anything but 等
+         - far from（离...远，远非，完全不）,in the least（一点，丝毫）,by no means（绝非）,anything but 等
          - He is not a liar at all. 他绝不是个骗子
             - He is no liar.
             - He is far from a liar. # 他绝不会是骗子（他离骗子差得远）
