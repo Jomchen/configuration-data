@@ -7,8 +7,8 @@ Ctrl + Shift + n       # 查找文件名
 Ctrl + Shift + f       # 全局关键字查找
 Shift + Esc            # 隐藏当前窗口
 Ctrl + Shift + Enter   # 代码分号补全
-Ctrl + Shift + 左箭头  # 代码跳回（经常和显卡的图形显示冲突）
-Ctrl + Shift + 右箭头  # 代码跳前（经常和显卡的图形显示冲突）
+Ctrl + Shift + 左箭头  # 代码跳回（经常和显卡的图形显示冲突，可以在 keyMaps 菜单中搜索 Back）
+Ctrl + Shift + 右箭头  # 代码跳前（经常和显卡的图形显示冲突，可以在 keyMap 菜单中搜索 Forward）
 Shift Shift            # 全局搜索
 Ctrl + u               # 进入父类
 Ctrl + b               # 进入光标声明的地方
