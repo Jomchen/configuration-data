@@ -6,3 +6,13 @@
    - https://www.icode9.com/content-1-116950.html
    - setting -> Build,Execution,Deployment -> Build Tools -> Maven -> Importing
       - 勾上 Automatically download [Sources]
+* 如果发现没有 run Dashboard 则可以：在Edit Configurations -> Run -> 复制一个运行程序 -> 确定
+   - 此时应该会有提示，如果没有提示需要修改idea的配置文件 workspace.xml
+      - 在 component 标签中添加
+      ```
+      <option name="configurationTypes">
+          <set>
+              <option valud="SpringBootApplicationConfigurationType"/>
+          </set>
+      </option>
+      ```
