@@ -1,3 +1,4 @@
+Alt + Up/Down          # 往上/下一个方法的光标跳转
 Ctrl + workspace       # 代码提示（经常和系统输入法冲突）
 Alt + enter            # 补全
 Ctrl + n               # 通过类名查找类
