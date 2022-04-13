@@ -350,6 +350,7 @@
       - pacman -S tlp                  # 电源管理
       - 声卡
          - pacman -S alsa-utils           # 安装音频工具
+            - alsa-mixer                  # 调起声音控制台
             - alsa 默认在内核所以只需安装调度工具
             - 包含 alsamixer, amixer 命令
             - 默认静音，解决方案
