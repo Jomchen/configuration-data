@@ -347,7 +347,7 @@
       - pacman -S feh                  # 图片查看器
       - pacman -S keynav               # 鼠标替代
       - pacman -S ranger               # 快速搜索
-      - pacman -S tlp                  # 电源管理
+      - pacman -S tlp                  # 电源管理（可能造成 蓝牙键盘无法连接或其它因为节能造成的问题，熟悉后再安装）
       - 声卡
          - pacman -S alsa-utils           # 安装音频工具
             - alsa-mixer                  # 调起声音控制台
