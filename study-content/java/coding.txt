@@ -1,3 +1,9 @@
+* 随机数范围
+   ```
+   // [min, max]
+   Random random = new Random();
+   int result = random.nextInt(max) % (max-min+1)+min;
+   ```
 * 泛型相关
    ```
    ResultObj<String> resultObj = ResultObj.success("Linux");
