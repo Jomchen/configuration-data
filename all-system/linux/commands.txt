@@ -30,3 +30,4 @@
       - nmcli device                  # 网络接口管理
          - nmcli device show          # 查看各网络接口的详细信息
          - nmcli device status        # 查看各网络接口的状态
+         - nmcli device wifi connect wifi名 wifi密码 # 连接wifi
