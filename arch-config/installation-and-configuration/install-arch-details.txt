@@ -338,6 +338,8 @@
          - 由 iproute2 包中的 ip neighbor 命令替代
       - pacman -S nmap                 # 提供网络发现和探索功能，且有对查看远程端口是否开放的功能
    - 其它重要软件
+      - filezilla                      # FTP 文件传输工具
+      - pacman -S vlc                  # 视频播放器
       - pacman -S github-desktop       # git 操作视图工具
       - pacman -S fzf                  # 终端下命令行快速查找工具（即时输入即时查询）
       - pacman -S neofetch             # 优雅显示系统信息
@@ -361,7 +363,6 @@
          - pacman -S bluez                   # 提供蓝牙协议栈
          - pacman -S bluez-utils             # 提供蓝牙 bluetoothctl 命令工具
          - pacman -S blueman                 # 蓝牙可视化工具（推荐）
-      - pacman -S vlc                     # 视频播放器
       - Linux 视频剪辑软件
          - https://www.linuxprobe.com/linux-best-video.html
          - 如果你需要一个简单的视频编辑器，OpenShot、Kdenlive 和 Flowblade 是一个不错的选择。这些软件是适合初学者的，并且带有标准规范的系统。
