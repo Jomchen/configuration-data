@@ -40,6 +40,7 @@
 
 * 知识
    - 线程
+      - https://www.jb51.net/article/212700.htm
       - Thread 对象的 interrupt()     # 非静态方法，给指定线程设定一个中断标志（不影响线程执行）
       - Thread 对象的 isInterrupted() # 非静态方法，查看指定线程是否中断
       - Thread 对象的 isAlive()       # 非静态方法，查看指定线程是否活跃
