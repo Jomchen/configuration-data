@@ -400,16 +400,17 @@
       - pacman -S unzip                   # zip 解压工具
       - pacman -S ntfs-3g                 # 可以挂载 ntfs 的软件支持
       - pacman -S openssh                 # openssh 工具
-      - pacman -S tigervnc                       # 远程视图工具（已包含客户端和服务端）
-         - 安装完后可以使用 vncviewer 命令调出远程窗口
-      - pacman -S git                            # 版本控制工具
-      - pacman -S flameshot                      # 截图工具
-         - 引用教程地址 https://linux265.com/soft/3848.html
-      - pacman -S galculator                     # 计算器
-      - pacman -S thunar                         # 文件管理器，此包如果安装xfce桌面环境则会自动安装
-      - yay -S wps-office-cn           # 安装 wps 主体
-      - yay -S wps-office-fonts        # 安装 wps 需要字体
-      - yay -S wps-office-mui-zh-cn    # 如果wps不是中文界面，可以安装此组件
+      - pacman -S tigervnc                # 远程视图工具（已包含客户端和服务端）
+         - 安装完后可以使用 vncviewer 命令 窗口
+      - pacman -S git                     # 版本控制工具
+      - pacman -S flameshot               # 截图工具
+         - 引用教程地址 https://linux265.c/3848.html
+      - pacman -S galculator              # 计算器
+      - pacman -S thunar                  # 文件管理器，此包如果安装xfce桌面环境则会自动安装
+      - yay -S wps-office-cn              # 安装 wps 主体
+      - yay -S wps-office-fonts           # 安装 wps 需要字体
+      - yay -S wps-office-mui-zh-cn       # 如果wps不是中文界面，可以安装此组件
+      - pacman -S gucharmap               # 用以查找指定字体是否有相同的字符
    - 其它将要软件
       - rtorrent # 命令行BT客户端
       - ffmpeg # 音视频流化工具
