@@ -226,6 +226,7 @@
    - i3-gaps
       - pacman -S i3-gaps       # 安装 i3-gaps 窗口管理器
       - pacman -S dmenu         # 安装 dmenu 程序命令启动软件
+      - pacman -S rofi          # 安装 rofi 这是作为 dmenu 的替代品，更加强大
       - 配置启动 i3-gaps 的方案（以下择其一即可）
          1. 如果使用 lightdm 托管，则可以不用以下配置，
             - 需要让 lightdm 自启动
