@@ -411,6 +411,9 @@
       - yay -S wps-office-fonts           # 安装 wps 需要字体
       - yay -S wps-office-mui-zh-cn       # 如果wps不是中文界面，可以安装此组件
       - pacman -S gucharmap               # 用以查找指定字体是否有相同的字符
+      - 安装字体
+         - yay -S ttf-font-awesome
+         - yay -S ttf-material-design-icons-git
    - 其它将要软件
       - rtorrent # 命令行BT客户端
       - ffmpeg # 音视频流化工具
