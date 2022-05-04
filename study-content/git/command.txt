@@ -1,15 +1,21 @@
 * 命令
    ```
-   git log                            # 查询提交日志
-      git log --pretty=oneline        # 只显示版本号和说明
-   git reflog                         # 查询本地提交日志
-   git show 版本号 -- FILE_PATH       # 查询具体版本号提交记录的修改内容，如果加上 -- FILE_PATH 则是查看指定版本号指定文件的变更内容
-   git status                         # 查询本地状态
-   git commit -m "MESSAGE"            # 提交代码
-   git checkout -- FILE_PATH          # 将工作区恢复和缓存区一致（缓存区有变更时）；将工作区恢复当前本地仓库一致（缓存区无变更时）
-   git reset 版本号 -- FILE_PATH      # 将指定文件恢复到指定版本的内容
-   git reset 版本号 --hard            # 将本地仓库恢复到指定版本
-   git [-b] checkout BRANCH           # 切换到指定分支，如果加 -b 则是新建分支
+   git fetch                                # 拉取代码记录到本地，不影响本地仓库，缓存区，工作树
+   git log                                  # 查询提交日志
+      git log --pretty=oneline              # 只显示版本号和说明
+   git reflog                               # 查询本地提交日志
+   git show 版本号 -- FILE_PATH             # 查询具体版本号提交记录的修改内容，如果加上 -- FILE_PATH 则是查看指定版本号指定文件的变更内容
+   git status                               # 查询本地状态
+   git commit -m "MESSAGE"                  # 提交代码
+   git checkout -- FILE_PATH                # 将工作区恢复和缓存区一致（缓存区有变更时）；将工作区恢复当前本地仓库一致（缓存区无变更时）
+   git reset 版本号 -- FILE_PATH            # 将指定文件恢复到指定版本的内容
+   git reset 版本号 --hard                  # 将本地仓库恢复到指定版本索引
+   git [-b] checkout BRANCH                 # 切换到指定分支，如果加 -b 则是新建分支
+   git merge 分支名A                        # 合并本地分支A到当前分支
+   git merge original/分支A                 # 合并远程分支A到当前分支
+   git merge cherry-pick 某分支提交记录A [某分支提交记录B...]    # 将某几个分支指定提交记录中涉及到的内容合并到当前分支（多个提交记录以空格隔开）
+   git merge cherry-pick 某分支提交记录A                         # 将某分支指定提交记录中涉及到的内容合并到当前分支
+   git merge cherry-pick 某分支提交记录A..某分支提交记录B        # 将某分支的提交记录范围 (A,B] 合并到当前分支，如果想包含 A 则写成 提交记录A^
    ```
 
 * git 解决每次拉取代码都需要用户名和密码的情况
