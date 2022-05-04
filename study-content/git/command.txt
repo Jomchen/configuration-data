@@ -22,6 +22,23 @@
    - git config --global credential.helper store
    - 执行完毕后会在 ~/.gitconfig 中生成一个文件，记录了你的相关信息
 
+* git 设置请求代理
+   1. 方案择其一（经测试，第一种方案有效，第二种方案无效，第三种方案未测试，第四种方案未测试。建议用第一种方案）
+      1. 设置 socks5 代理
+         - git config --global http.proxy 'socks5://127.0.0.1:1080' && git config --global https.proxy 'socks5://127.0.0.1:1080'
+      2. 设置 git@ 走代理
+         - ~/.ssh/ssh_config
+         - ProxyCommand nc -x 127.0.0.1:1080 %h %p
+         - 如果不确定，或希望全部走代理，则添加第一行
+      3. 设置 http/https 代理
+         - git config --global https.proxy http://127.0.0.1:1080 && git config --global https.proxy https://127.0.0.1:1080
+      4. 强制转换协议以使用代理
+         - git config --global url."https://github".insteadOf git://github
+         - git config --global url."git@github.com:".insteadOf "https://github.com/"
+         - git config --global url.ssh://git@bitbucket.org/.insteadOf https://bitbucket.org/
+   2. 取消代理
+      git config --global --unset http.proxy && git config --global --unset https.proxy
+
 * git 合并指定代码到指定分支
    - https://jasonrudolph.com/blog/2009/02/25/git-tip-how-to-merge-specific-files-from-another-branch/
    - http://www.javashuo.com/article/p-zxgtghbw-gc.html
