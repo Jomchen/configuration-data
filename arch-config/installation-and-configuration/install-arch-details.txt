@@ -413,8 +413,9 @@
       - yay -S wps-office-mui-zh-cn       # 如果wps不是中文界面，可以安装此组件
       - pacman -S gucharmap               # 用以查找指定字体是否有相同的字符
       - 安装字体
+         - yay -S nerd-fonts-3270
          - yay -S ttf-font-awesome
-         - yay -S ttf-material-design-icons-extended
+         - yay -S ttf-material-design-icons-extended（可能安装不了，可以暂时延后）
          - yay -S ttf-material-design-icons-webfont
          - yay -S ttf-devicons
          - yay -S powerline-fonts
