@@ -1,4 +1,14 @@
-- 一些问题
+* 要做的事
+   * ResultSet 结果集：数据敏感，可滚动，可更新
+   * Mysql 事务/索引/锁原理
+   * synchronized 和 ReentrantLock 原理
+   * Mybatis 封装和源码
+   * SpringCloud
+   * Jvm
+   * 数据结构与算法
+   * HashMap扩容机制，防死循环处理方案
+
+* 一些问题
    - ExecutorService 中 submit() 和 execute() 区别
    - Java 泛型中 extends 和 super 的区别
    - Java 中 Proxy 类使用
@@ -8,6 +18,23 @@
       - https://www.cnblogs.com/precedeforetime/p/14697837.html
 
 * 一些教程地址
+   - Java 中 Unsafe 类的源码理解
+      - https://blog.csdn.net/a7980718/article/details/83661613
+   - 补码
+      - https://www.zhihu.com/question/374450559/answer/1036793793
+      - https://blog.csdn.net/modi000/article/details/113841959
+      - https://zhidao.baidu.com/question/304039834642540444.html
+   - Maven resource include exclude filtering 讲解 
+      - https://blog.csdn.net/weixin_45881248/article/details/115257195?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link
+      - 官网 http://maven.apache.org/plugins/maven-resources-plugin/examples/filter.html
+   - 进程的解释
+      - https://zhuanlan.zhihu.com/p/53527981
+      - https://zhuanlan.zhihu.com/p/51194025
+   - ReentrantLock 锁讲解
+      - https://www.cnblogs.com/waterystone/p/4920797.html
+   - LoockSupport.park() 讲解
+      - https://www.cnblogs.com/tong-yuan/p/11768904.html
+
    - NIO 的源码解析
       - https://blog.csdn.net/flyzing/article/details/116705925
    - 解释 java 类的几个 name 的区别
@@ -47,6 +74,9 @@
       - Thread 对象的 isInterrupted() # 非静态方法，查看指定线程是否中断
       - Thread 对象的 isAlive()       # 非静态方法，查看指定线程是否活跃
       - Thread 对象的 interrupted()   # 静态方法，测试当前线程是否被中断（检查中断标志），返回当前线程的 interrupt 状态并重置，当第二次调用时中断状态已经被重置，将返回一个 false
+
+
+
    - 设计模式
       1. 工厂模式
          - 不同的收费方式实现一个抽象，通过标识判断返回哪个实现方式
