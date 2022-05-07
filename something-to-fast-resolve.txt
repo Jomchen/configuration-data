@@ -1,9 +1,0 @@
-* xfce主题
-   - https://www.pling.com/p/1669395/
-   - https://www.xfce-look.org/browse/
-   - http://blog.sina.com.cn/s/blog_553c6d4e0102wd59.html
-   - https://www.xfce-look.org/p/1157147
-* 进程的解释
-   - https://zhuanlan.zhihu.com/p/53527981
-   - https://zhuanlan.zhihu.com/p/51194025
-

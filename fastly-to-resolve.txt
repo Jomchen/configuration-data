@@ -1,0 +1,19 @@
+* xfce主题
+   - https://www.pling.com/p/1669395/
+   - https://www.xfce-look.org/browse/
+   - http://blog.sina.com.cn/s/blog_553c6d4e0102wd59.html
+   - https://www.xfce-look.org/p/1157147
+* 进程的解释
+   - https://zhuanlan.zhihu.com/p/53527981
+   - https://zhuanlan.zhihu.com/p/51194025
+
+* LockSupport.park() 会释放锁资源吗？
+   - https://www.cnblogs.com/tong-yuan/p/11768904.html
+* 在 Bash 完成中，关于${array[*]} 与 ${array[@]} 的混淆
+   - https://developer.aliyun.com/ask/272239
+* Java 的 LockSupport.park() 实现分析
+   - https://blog.csdn.net/hengyunabc/article/details/28126139
+* jdk1.8 Unsafe 类 park 和 unpark 方法解析
+   - https://blog.csdn.net/a7980718/article/details/83661613
+* Guava 缓存教程
+   - https://github.com/google/guava/wiki/CachesExplained
