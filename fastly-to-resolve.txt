@@ -18,3 +18,10 @@
 * Guava 缓存教程
    - https://github.com/google/guava/wiki/CachesExplained
    - https://juejin.cn/post/7014459433077964808
+
+
+* redis setNx 的问题
+   - 任务超时引起获取锁并发问题
+   - 锁释放时可能删除非自己加的锁
+   - 锁不可重入
+   - 主从异步复制时引起的锁丢失
