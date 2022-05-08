@@ -512,6 +512,14 @@
       3. 消息通知弹窗
          - 下载 deadd-notification-center 并配置配置文件 ~/.config/deadd/deadd.conf
             - Github 地址 https://github.com/phuhl/linux_notification_center
+      4. 命令输出颜色
+         ```
+         alias ls='ls --color=auto'
+         alias ll='ls -ilh --color=auto'
+         alias grep='grep --color=auto'
+         alias ip='ip --color=auto'
+         alias neofetch="neofetch | lolcat"
+         ```
 
 
 * 注意事项
