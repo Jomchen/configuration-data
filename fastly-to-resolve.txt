@@ -7,14 +7,17 @@
    - https://zhuanlan.zhihu.com/p/53527981
    - https://zhuanlan.zhihu.com/p/51194025
 
-* LockSupport.park() 会释放锁资源吗？
-   - https://www.cnblogs.com/tong-yuan/p/11768904.html
+* Unsafe 相关
+   - LockSupport.park() 会释放锁资源吗？
+      - https://www.cnblogs.com/tong-yuan/p/11768904.html
+   - jdk1.8 Unsafe 类 park 和 unpark 方法解析
+      - https://blog.csdn.net/a7980718/article/details/83661613
+   - Java 中 Unsafe 类的原理详解与使用案例
+      - https://blog.csdn.net/weixin_38405253/article/details/120520356
+   - Java 的 LockSupport.park() 实现分析
+      - https://blog.csdn.net/hengyunabc/article/details/28126139
 * 在 Bash 完成中，关于${array[*]} 与 ${array[@]} 的混淆
    - https://developer.aliyun.com/ask/272239
-* Java 的 LockSupport.park() 实现分析
-   - https://blog.csdn.net/hengyunabc/article/details/28126139
-* jdk1.8 Unsafe 类 park 和 unpark 方法解析
-   - https://blog.csdn.net/a7980718/article/details/83661613
 * Guava 缓存教程
    - https://github.com/google/guava/wiki/CachesExplained
    - https://juejin.cn/post/7014459433077964808
