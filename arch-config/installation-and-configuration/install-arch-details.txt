@@ -402,6 +402,7 @@
       - pacman -S ntfs-3g                 # 可以挂载 ntfs 的软件支持
       - pacman -S openssh                 # openssh 工具
       - pacman -S remmina                 # 一个远程工具，支持多种协议
+         - pacman -S freerdp              # 安装rdp组件以支持连接windows
       - pacman -S tigervnc                # 远程视图工具（已包含客户端和服务端）
          - 安装完后可以使用 vncviewer 命令 窗口
       - pacman -S git                     # 版本控制工具
