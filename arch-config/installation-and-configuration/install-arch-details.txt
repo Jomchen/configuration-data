@@ -496,6 +496,13 @@
                - pacman -Syy 进行更新源信息
                - pacman -S archlinuxcn-keyring # 安装国内archlinux的签名
                   - 没有这一步后续的部分软件升级可能会失败
+                  ```
+                  如果更新密钥步骤出现错误，就是那种连着一串ERROR的情况，则执行以下命令
+                  rm -rf /etc/pacman.c/gnupg
+                  pacman-key --init
+                  pacman-key --populate archlinux archlinuxcn
+                  pacman -Syy
+                  ```
                - pacman -Syu 更新升级所有包和软件
                - pacman -S yay # 安装 yay
                - yay --aururl “https://aur.tuna.tsinghua.edu.cn” --save # aur 使用清华源
