@@ -17,6 +17,8 @@
 
 * across-GFW
    - TEACHING WEBSITE => https://www.v2rayssr.com/tag/trojan
+   - GSOU CLOUD # Ji Chang
+   - Quantumult X
    - v2ray
       - 是一个系统体系
    - wireguard
