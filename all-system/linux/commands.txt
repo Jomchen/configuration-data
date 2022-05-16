@@ -1,7 +1,13 @@
 ## 一些 Linux 上重要的命令
-* ps cpu占用排序查看进程
-   - ps aux --sort=-pcpu # 按cpu使用率倒序排序
-   - ps aux --sort=pcpu # 按cpu使用率升序排序
+* 查看系统中占用cpu或内存最高的进程信息
+   - https://blog.csdn.net/myli_binbin/article/details/121249985
+   - ps memory占用排序查看进程
+      - ps aux --sort -rss | head
+      - ps -eo pid,ppid,%mem,%cpu,cmd --sort=-%mem | head # 输出中仅展示有关内存消耗过程的特定信息
+      - ps -eo pid,ppid,%mem,%cpu,comm --sort=-%mem | head # 只看命令名称而不是命令的绝对路径，则使用这个
+   - ps cpu占用排序查看进程
+      - ps aux --sort=-pcpu # 按cpu使用率倒序排序
+      - ps aux --sort=pcpu # 按cpu使用率升序排序
 
 * top 命令查看是否有异常占用内存或cpu的进程
    - root 命令执行 ls -ilha /proc/进程号/exe
