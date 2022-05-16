@@ -21,6 +21,8 @@
 * Guava 缓存教程
    - https://github.com/google/guava/wiki/CachesExplained
    - https://juejin.cn/post/7014459433077964808
+* Java 描点
+   - https://blog.csdn.net/ilo114/article/details/88377935
 
 
 * redis setNx 的问题
