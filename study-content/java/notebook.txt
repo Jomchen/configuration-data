@@ -18,12 +18,27 @@
       - https://www.cnblogs.com/precedeforetime/p/14697837.html
 
 * 一些教程地址
-   - Java 中 Unsafe 类的源码理解
+   - Unsafe 相关
       - https://blog.csdn.net/a7980718/article/details/83661613
+      - LockSupport.park() 会释放锁资源吗？
+         - https://www.cnblogs.com/tong-yuan/p/11768904.html
+      - jdk1.8 Unsafe 类 park 和 unpark 方法解析
+         - https://blog.csdn.net/a7980718/article/details/83661613
+      - Java 中 Unsafe 类的原理详解与使用案例
+         - https://blog.csdn.net/weixin_38405253/article/details/120520356
+      - Java 的 LockSupport.park() 实现分析
+         - https://blog.csdn.net/hengyunabc/article/details/28126139
+   - Guava 缓存教程
+      - https://github.com/google/guava/wiki/CachesExplained
+      - https://juejin.cn/post/7014459433077964808
+   - Java 描点
+      - https://blog.csdn.net/ilo114/article/details/88377935
+
    - 补码
       - https://www.zhihu.com/question/374450559/answer/1036793793
       - https://blog.csdn.net/modi000/article/details/113841959
       - https://zhidao.baidu.com/question/304039834642540444.html
+
    - Maven resource include exclude filtering 讲解 
       - https://blog.csdn.net/weixin_45881248/article/details/115257195?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-2.no_search_link
       - 官网 http://maven.apache.org/plugins/maven-resources-plugin/examples/filter.html
@@ -76,106 +91,172 @@
       - Thread 对象的 interrupted()   # 静态方法，测试当前线程是否被中断（检查中断标志），返回当前线程的 interrupt 状态并重置，当第二次调用时中断状态已经被重置，将返回一个 false
 
 
+## 一些要测试的代码
+   ```
+    static ReentrantLock lock = new ReentrantLock();
+    static final Condition condition = lock.newCondition();
+    
+    public static void main(String[] args) throws InterruptedException {
+    	Test tt1 = new Test(lock, condition, -1);
+    	Test tt2 = new Test(lock, condition, 2);
+    	Thread t1 = new Thread(tt1, "Thead-1");
+    	Thread t2 = new Thread(tt2, "Thread-2");
+    	t1.start();
+    	Thread.sleep(2000);
+    	t2.start();
+    }
+    
+    static class Test implements Runnable {
+    	ReentrantLock lock;
+        Condition condition;
+        int data;
+        public Test(ReentrantLock lock, Condition condition, int data) {
+        	this.lock = lock; this.condition = condition; this.data = data;
+        }
+        
+        @Override
+        public void run() {
+	        try {
+	        	myRun();
+	        } catch( Exception e) {
+	        	e.printStackTrace();
+	        }
+        }
+        
+            
+	    public void myRun() throws InterruptedException {
+	    	String threadName = Thread.currentThread().getName();
+	    	System.out.println(threadName + " 准备抢锁");
+	      	//lock.lockInterruptibly();
+	    	lock.lock();
+	    	
+	    	try {
+	    		System.out.println(threadName + " 进入了方法区");
+	    		if (this.data > 0) {
+	    			this.condition.signalAll();
+	    			System.out.println(threadName + " 唤醒者，当前是否有锁：" + lock.isLocked());
+	    			System.out.println(threadName + " 唤醒者执行线程结束");
+	    			return;
+	    		}
+	    		
+	      		//for (;;) {
+	    			System.out.println(threadName + " 开始阻塞");
+	    			condition.await();
+	    			System.out.println(threadName + " 阻塞后，现在是否有锁：" + lock.isLocked());
+	      		//}
+	    	} finally {
+	    		System.out.println(threadName + " finished 之前是否有锁：" + lock.isLocked());
+	    		System.out.println(threadName + " FINISHED");
+	    		lock.unlock();
+	    		System.out.println(threadName + " 释放锁成功");
+	    	}
+	    }
+    }
+   ```
 
-   - 设计模式
-      1. 工厂模式
-         - 不同的收费方式实现一个抽象，通过标识判断返回哪个实现方式
-      2. 策略模式
-         - 不同的收费方式实现一个抽象，通过标识判断返回哪个实现方法，但是返回的抽象方式是注
-            - 入到一个 contex 里的，使用的时候直接使用 contex 即可
-      3. 单一职责原则
-         - 每个功能尽量分散耦合，做得到功能独立单一
-      4. 开放封闭原则
-         - 对于代码来说，对扩展开放（允许扩展增加功能），对理性封闭（禁忌修改代码）
-      5. 依赖倒转原则
-         - 高层模块不应该依赖低层模块，两个都应该依赖抽象
-         - 抽象不应该依赖细节，细节应该依赖抽象
-         - 里氏代替
-            - 子类必须能够替代父类进行工作
-      6. 装饰模式
-         ```
-         public abstract class Component {
-           public abstract void operation();
-         }
-         public class Decorator extend Component {
-           private Component base;
-           @Override
-           public void operation() {
-             if ( base != null) { base.operation(); }
-           }
-         }
-         public class A extend Decorator {
-           @Override
-           public void operation() {
-             super.base.operation();
-             aMethod();
-           }
-           private void aMethod() {
-             // 自己的方法
-           }
-         }
-         public class B extend Decorator {
-           @Override
-           public void operation() {
-             super.base.operation();
-             bMethod();
-           }
-           private void bMethod() {
-             // 自己的方法
-           }
-         }
-         public class C extend Decorator {
-           // 省略
-         }
-   
-   
-         public static void main(String[] args) {
-   	A a = new A();        
-   	B b = new B();        
-   	C c = new C();        
-   	b.base = a;
-   	c.base = c;
-   	c.operation();
-         }
-         ```
-      7. 代理模式
-         - A 和 B 都实现了相同的 接口，如果A是代理，那么在执行某个方法时，实际执行的是内聚对象B的方法（这两个方法都是实现相同接口的相同抽象方法的实现）
-      8. 工厂方法模式
-         - 之前的简单工厂模式是通过标识拿到对象，但是工厂方法模式是用工厂方法获取具体的计算对象
-      9. 原型模式
-         - 就是简单的克隆，如果有深克隆就更好了
-      10. 模板方法模式
-      11. 迪米特拉法则
-         - 如果两个类不必彼此直接通信，那么这两个类就不应当发生直接的相互作用
-         - 如果其中一个类需要调用另一个类的某一个方法的话，可以通过第三者转发这个调用
-      12. 外观模式
-         - A类一个任务方法，B类一个任务方法，C类一个任务方法。都集中在 Z 类中，Z类提供一个方法用于统一执行 A, B, C,... 等各自的对应方法
-      13. 建造者模式
-         - D 类是个抽象类，有一堆细节抽象方法（这堆细节方法是作为建造任务需要的所有细节）
-            - 并且 D 类还内聚有细节所需要的其它类，比如 B 和 C 类
-            - 在 D 类的实现类中，实际就是用 B 和 C 实现具体的系列抽象方法
-         - A 类用于建造任务，内部聚合有 B，并且设定系列任务方法，在任务方法中的实现就是 B 的细节方法的排列组合
-      14. 观察者模式
-         - ***事件委托***
-      15. 抽象工厂模式
-      16. 状态模式
-         - 用类代替许多的 if 判断
-         - 一个任务类 A，内聚有 状态类B 和 A的状态属性，A 执行工作就是执行 B 类的状态处理逻辑
-         - B 的抽象方法带有 类A的参数，B的所有实现用于判断A的状态并选择执行自己逻辑或理性A内部的B属性
-      17. 适配器模式
-         - 类似于代理模式，但是是处理没有共同继承和实现的情况
-         - A 主要业务类，B 和 A 没有共同的接口或抽象父类；用B随便实现一个抽象类或接口
-         - 在抽象方法的实现中内聚 A，并且实现方法逻辑为执行 A 的业务逻辑
-      18. 备忘录模式
-      19. 组合模式
-         - 就是森林的结构
-      20. 迭代模式
-         - 就是封装遍历对象，并且同时有中断遍历的遍历器
-      21. 单例模式
-         - 饿汉式
-         - 懒汉式
-      22. 桥接模式
-         - 将各个功能抽象化，独立化
-         - 最终一个抽象内聚一个或多个其它的抽象，然后提供一个方法用于执行内聚对象的抽象方法
+
+
+
+
+- 设计模式
+   1. 工厂模式
+      - 不同的收费方式实现一个抽象，通过标识判断返回哪个实现方式
+   2. 策略模式
+      - 不同的收费方式实现一个抽象，通过标识判断返回哪个实现方法，但是返回的抽象方式是注
+         - 入到一个 contex 里的，使用的时候直接使用 contex 即可
+   3. 单一职责原则
+      - 每个功能尽量分散耦合，做得到功能独立单一
+   4. 开放封闭原则
+      - 对于代码来说，对扩展开放（允许扩展增加功能），对理性封闭（禁忌修改代码）
+   5. 依赖倒转原则
+      - 高层模块不应该依赖低层模块，两个都应该依赖抽象
+      - 抽象不应该依赖细节，细节应该依赖抽象
+      - 里氏代替
+         - 子类必须能够替代父类进行工作
+   6. 装饰模式
+      ```
+      public abstract class Component {
+        public abstract void operation();
+      }
+      public class Decorator extend Component {
+        private Component base;
+        @Override
+        public void operation() {
+          if ( base != null) { base.operation(); }
+        }
+      }
+      public class A extend Decorator {
+        @Override
+        public void operation() {
+          super.base.operation();
+          aMethod();
+        }
+        private void aMethod() {
+          // 自己的方法
+        }
+      }
+      public class B extend Decorator {
+        @Override
+        public void operation() {
+          super.base.operation();
+          bMethod();
+        }
+        private void bMethod() {
+          // 自己的方法
+        }
+      }
+      public class C extend Decorator {
+        // 省略
+      }
+
+
+      public static void main(String[] args) {
+	A a = new A();        
+	B b = new B();        
+	C c = new C();        
+	b.base = a;
+	c.base = c;
+	c.operation();
+      }
+      ```
+   7. 代理模式
+      - A 和 B 都实现了相同的 接口，如果A是代理，那么在执行某个方法时，实际执行的是内聚对象B的方法（这两个方法都是实现相同接口的相同抽象方法的实现）
+   8. 工厂方法模式
+      - 之前的简单工厂模式是通过标识拿到对象，但是工厂方法模式是用工厂方法获取具体的计算对象
+   9. 原型模式
+      - 就是简单的克隆，如果有深克隆就更好了
+   10. 模板方法模式
+   11. 迪米特拉法则
+      - 如果两个类不必彼此直接通信，那么这两个类就不应当发生直接的相互作用
+      - 如果其中一个类需要调用另一个类的某一个方法的话，可以通过第三者转发这个调用
+   12. 外观模式
+      - A类一个任务方法，B类一个任务方法，C类一个任务方法。都集中在 Z 类中，Z类提供一个方法用于统一执行 A, B, C,... 等各自的对应方法
+   13. 建造者模式
+      - D 类是个抽象类，有一堆细节抽象方法（这堆细节方法是作为建造任务需要的所有细节）
+         - 并且 D 类还内聚有细节所需要的其它类，比如 B 和 C 类
+         - 在 D 类的实现类中，实际就是用 B 和 C 实现具体的系列抽象方法
+      - A 类用于建造任务，内部聚合有 B，并且设定系列任务方法，在任务方法中的实现就是 B 的细节方法的排列组合
+   14. 观察者模式
+      - ***事件委托***
+   15. 抽象工厂模式
+   16. 状态模式
+      - 用类代替许多的 if 判断
+      - 一个任务类 A，内聚有 状态类B 和 A的状态属性，A 执行工作就是执行 B 类的状态处理逻辑
+      - B 的抽象方法带有 类A的参数，B的所有实现用于判断A的状态并选择执行自己逻辑或理性A内部的B属性
+   17. 适配器模式
+      - 类似于代理模式，但是是处理没有共同继承和实现的情况
+      - A 主要业务类，B 和 A 没有共同的接口或抽象父类；用B随便实现一个抽象类或接口
+      - 在抽象方法的实现中内聚 A，并且实现方法逻辑为执行 A 的业务逻辑
+   18. 备忘录模式
+   19. 组合模式
+      - 就是森林的结构
+   20. 迭代模式
+      - 就是封装遍历对象，并且同时有中断遍历的遍历器
+   21. 单例模式
+      - 饿汉式
+      - 懒汉式
+   22. 桥接模式
+      - 将各个功能抽象化，独立化
+      - 最终一个抽象内聚一个或多个其它的抽象，然后提供一个方法用于执行内聚对象的抽象方法
 
 
