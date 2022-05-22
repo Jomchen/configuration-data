@@ -17,6 +17,9 @@
       - https://blog.csdn.net/smith789/article/details/103560900/
       - https://www.cnblogs.com/precedeforetime/p/14697837.html
 
+* 专业名词
+   - QPS # 每秒的请求数量
+
 * 一些教程地址
    - Unsafe 相关
       - https://blog.csdn.net/a7980718/article/details/83661613
