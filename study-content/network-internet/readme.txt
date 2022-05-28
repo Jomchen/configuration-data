@@ -1,7 +1,8 @@
-薯条
-RixCloud
-魅影
-BlinkLoad
-海豚湾
-佩奇
-Boslife(Abc, AAEX)
+- plan_chang
+   - 薯条
+   - RixCloud
+   - 魅影
+   - BlinkLoad
+   - 海豚湾
+   - 佩奇
+   - Boslife(Abc, AAEX)
