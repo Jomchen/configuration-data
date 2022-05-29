@@ -233,6 +233,7 @@
             - 参考 xfce4 的方案，在 ~/.xprofile 中配置使用语言 
                ```
                #!/bin/bash
+               ##### 注意注意！！！！！！！！！！！！！！！！！应该将 ~/.xinitrc 中的部分内容复制到此文本中
                LANG=zh_CN.UTF-8
                # Whether to configure the LC_LANG or not?
                # LC_LANG=und
