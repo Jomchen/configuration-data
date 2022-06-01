@@ -5,6 +5,9 @@ https://www.cnblogs.com/oboth-zl/p/10314071.html
 
 * IPLC IEPL 专线
 
+* 远程让服务器执行命令的方式
+   - https://www.jb51.net/article/171544.htm
+
 * 重要的软件或配置
    - jp2a # 转换 jpg 图像为 ascii 码图
    - zsh  # 一个更好用的终端（但是所有的配置需要自己重新配置）
