@@ -15,6 +15,7 @@ Shift + Enter            # 在当前行下新启一行并编辑
 Ctrl + Shift + Enter     # 在当前行上新启一行并编辑
 Alt + Up/Down            # 光标所在行往上/下移动
 Alt + Shift + Left/Right # 选中当前光标所在单词
+Alt + Shift + R          # 全局变更名，如果是变更的类，当更改完成并回车时会自动检索引用的地方以确认全局替换
 Ctrl + pageUp/pageDown   # 标签的左右切换
 Ctrl + Shift + T         # 查找类名
 Ctrl + Shift + R         # 全局查找资源
