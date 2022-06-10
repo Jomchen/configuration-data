@@ -349,6 +349,7 @@
       - pacman -S xf86-input-synaptics # 触摸板驱动，笔记本可装，台式不装
       - pacman -S w3m                  # 终端浏览器，实际可在终端预览视频和图片
       - pacman -S picom                # 窗口透明
+         - 全局配置文件一般是 /etc/xdg/picom.conf
       - pacman -S feh                  # 图片查看器
       - pacman -S keynav               # 鼠标替代
       - pacman -S ranger               # 快速搜索
