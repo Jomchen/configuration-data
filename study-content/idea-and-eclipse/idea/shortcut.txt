@@ -10,6 +10,8 @@ Shift + Esc            # 隐藏当前窗口
 Ctrl + Shift + Enter   # 代码分号补全
 Ctrl + Shift + 左箭头  # 代码跳回（经常和显卡的图形显示冲突，可以在 keyMaps 菜单中搜索 Back）
 Ctrl + Shift + 右箭头  # 代码跳前（经常和显卡的图形显示冲突，可以在 keyMap 菜单中搜索 Forward）
+Ctrl + Shift + o       # 选中全文的情况下再按此快捷键会去除多余的引包
+Ctrl + w               # 选中光标所在单词
 Shift Shift            # 全局搜索
 Ctrl + u               # 进入父类
 Ctrl + b               # 进入光标声明的地方
@@ -22,6 +24,7 @@ Shift + f9             # debug 运行配置好的运行类
 Shift + f10            # 运行配置好的运行类
 Ctrl + f2              # 停止当前运行的程序
 Alt + 1                # 光标进入导航栏，隐藏导航栏
+Alt + f1 -> 1          # 聚焦当前文件所在的目录里
 esc                    # 光标进入编辑区
 Shift + esc            # 光标进入编辑区，并且隐藏当前所在的非编辑区
 f12                    # 光标进入控制台
