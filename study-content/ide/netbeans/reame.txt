@@ -16,3 +16,6 @@
    如果想使用本机语言，把--locale en:US 去掉。
    我喜欢用dialog字体，大小14，感觉很好。
    ```
+## 主题
+   - https://netbeansthemes.com/
+   - 下载主题压缩包后放在某位置，然后在ide中 appearance 导入主题包（注意导入后会覆盖当前主题，如有必要备份当前主题）
