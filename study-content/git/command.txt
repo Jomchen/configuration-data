@@ -1,6 +1,8 @@
 * 命令
    ```
    git fetch                                # 拉取代码记录到本地，不影响本地仓库，缓存区，工作树
+   git branch -a                            # 查看所有分支（包含本地和上游分支）
+   git branch -vv                           # 查看本地分支跟踪的哪个上游分支
    git log                                  # 查询提交日志
       git log --pretty=oneline              # 只显示版本号和说明
    git reflog                               # 查询本地提交日志
