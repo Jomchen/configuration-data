@@ -1,5 +1,6 @@
 ## 设置抗锯齿字体的方式
    - 在安装目录下的 etc 目录下有个 netbeans.conf 文件，编辑它
+      - http://t.zoukankan.com/scue-p-4089396.html
       - 在其中有 netbeans_default_options="xxxxxxx..xxxxx" 的命令行，在命令行参数中加上 -J-Dawt.useSystemAAFontSettings=on 即可
 ## linux 下netbeans 字体难看问题解决  
       - 其它说明
