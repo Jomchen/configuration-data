@@ -17,19 +17,22 @@
          如果想使用本机语言，把--locale en:US 去掉。
          我喜欢用dialog字体，大小14，感觉很好。
          ```
-## 主题
-   - https://netbeansthemes.com/
-   - 下载主题压缩包后放在某位置，然后在ide中 appearance 导入主题包（注意导入后会覆盖当前主题，如有必要备份当前主题）
-## 编辑区建议配色
-   - All Languages
-      - 注释(Comment)：墨绿色
-      - 注释(Comment)：墨绿色
-      - 关键字(Keyword)：深紫色
-      - 声明(Identifier)：黄色
-      - 字符(Character)：红
-      - 字符串(String)：红
-      - 方法(Method)：紫红
-      - 数字(Number)：红
-      - 操作符(Operator)：白
-      - 间隔符(Separator)：白
-   - Java
+## 配置
+   - 字体
+      - 文泉驿微米黑 18 Bold
+   - 主题
+      - https://netbeansthemes.com/
+      - 下载主题压缩包后放在某位置，然后在ide中 appearance 导入主题包（注意导入后会覆盖当前主题，如有必要备份当前主题）
+   - 编辑区建议配色
+      - All Languages
+         - 注释(Comment)：墨绿色 (0,153,0)
+         - (Entity Reference)：Cyan
+         - 关键字(Keyword)：深紫色 Magenta
+         - 声明(Identifier)：黄色 Yellow
+         - 字符(Character)：红 Red
+         - 字符串(String)：红 Red
+         - 方法(Method)：水蓝 (51,102,255)
+         - 数字(Number)：红 Red
+         - 操作符(Operator)：白 White
+         - 间隔符(Separator)：白 White
+      - Java
