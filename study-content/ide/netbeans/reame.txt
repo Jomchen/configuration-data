@@ -27,13 +27,15 @@
    - 编辑区建议配色
       - All Languages
          - 注释(Comment)：墨绿色 (0,153,0)
-         - (Entity Reference)：Cyan
-         - 关键字(Keyword)：深紫色 Magenta
+         - (Entity Reference)：Cyan (0,255,255)
+         - 关键字(Keyword)：深紫色 (102,0,102)
          - 声明(Identifier)：黄色 Yellow
-         - 字符(Character)：红 Red
-         - 字符串(String)：红 Red
+         - 字符(Character)：红 Red(255,0,0)
+         - 字符串(String)：红 Red(255,0,0)
          - 方法(Method)：水蓝 (51,102,255)
-         - 数字(Number)：红 Red
-         - 操作符(Operator)：白 White
-         - 间隔符(Separator)：白 White
+         - 数字(Number)：红 Red (255,0,0)
+         - 操作符(Operator)：白 White (255,255,255)
+         - 间隔符(Separator)：白 White(255,255,255)
       - Java
+         - Field Declaration： Magenta (255,0,255)
+         - Field Use： Magenta (255,0,255)
