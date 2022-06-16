@@ -2,20 +2,34 @@
    - 在安装目录下的 etc 目录下有个 netbeans.conf 文件，编辑它
       - 在其中有 netbeans_default_options="xxxxxxx..xxxxx" 的命令行，在命令行参数中加上 -J-Dawt.useSystemAAFontSettings=on 即可
 ## linux 下netbeans 字体难看问题解决  
-   ```
-   在netbeans 在安装目录下找到 etc/netbeans.conf 然后在netbeans_default_options 添加参数 
-   -J-Dswing.aatext=true --locale en:US 
-    
-   如果想使用本机语言，把--locale en:US 去掉。
-   我喜欢用dialog字体，大小14，感觉很好。
-    
-   我的电脑设置
-   在netbeans 在安装目录下找到 etc/netbeans.conf 然后在netbeans_default_options 添加参数 
-   -J-Dswing.aatext=true --locale en:US 
-    
-   如果想使用本机语言，把--locale en:US 去掉。
-   我喜欢用dialog字体，大小14，感觉很好。
-   ```
+      - 其它说明
+         ```
+         在netbeans 在安装目录下找到 etc/netbeans.conf 然后在netbeans_default_options 添加参数 
+         -J-Dswing.aatext=true --locale en:US 
+          
+         如果想使用本机语言，把--locale en:US 去掉。
+         我喜欢用dialog字体，大小14，感觉很好。
+          
+         我的电脑设置
+         在netbeans 在安装目录下找到 etc/netbeans.conf 然后在netbeans_default_options 添加参数 
+         -J-Dswing.aatext=true --locale en:US 
+          
+         如果想使用本机语言，把--locale en:US 去掉。
+         我喜欢用dialog字体，大小14，感觉很好。
+         ```
 ## 主题
    - https://netbeansthemes.com/
    - 下载主题压缩包后放在某位置，然后在ide中 appearance 导入主题包（注意导入后会覆盖当前主题，如有必要备份当前主题）
+## 编辑区建议配色
+   - All Languages
+      - 注释(Comment)：墨绿色
+      - 注释(Comment)：墨绿色
+      - 关键字(Keyword)：深紫色
+      - 声明(Identifier)：黄色
+      - 字符(Character)：红
+      - 字符串(String)：红
+      - 方法(Method)：紫红
+      - 数字(Number)：红
+      - 操作符(Operator)：白
+      - 间隔符(Separator)：白
+   - Java
