@@ -4499,7 +4499,7 @@
                   - little finger # 小指
                - The man was shot through the heart. # 那个男人被射穿心脏
          - 冠词的特别注意的用法
-            - half,many,quite,rather,such,what + a/an + N.
+            - half,many,quite,rather,such,what + a/an + <adj.> N.
                - It lasted for half an hour. # 它持续了半小时
                   - last # adj. 最后的 v. 持续
                - Many a little makes a mickle. # 聚少成多
