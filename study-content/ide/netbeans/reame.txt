@@ -39,3 +39,10 @@
       - Java
          - Field Declaration： Magenta (255,0,255)
          - Field Use： Magenta (255,0,255)
+   - 配置 maven 和 jdk
+      - Tools -> options -> Java
+         - 配置 Maven Home 和 Default JDK
+   - 配置缩近
+      - Tools -> options -> Editor -> Formatting
+         - Tab Size 设置为 4（Tab 键的缩近空格长度）
+         - Continuation Indentation Size 设置为 4（编码换行时离上一行的缩近空格长度）
