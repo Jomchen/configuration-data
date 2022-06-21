@@ -46,3 +46,5 @@
       - Tools -> options -> Editor -> Formatting
          - Tab Size 设置为 4（Tab 键的缩近空格长度）
          - Continuation Indentation Size 设置为 4（编码换行时离上一行的缩近空格长度）
+   - 配置目录树的显示
+      - 默认工作树是显示的行，可以对工作区空白处右键 -> View java packages as -> reduced tree
