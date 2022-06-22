@@ -51,4 +51,7 @@
       - 默认工作树是显示的行，可以对工作区空白处右键 -> View java packages as -> reduced tree
 
 ## 问题解决
-   - 如果发现SpringBoot的项目不能启动，对项目右键 -> clean -> 重新运行
+   - 实践可能不能马上解决问题
+      - Tool -> options -> Java -> Maven -> Index -> Index Update Frequency -> 设置为 "On every startup"
+      - 如果发现SpringBoot的项目不能启动，对项目右键 -> clean -> 重新运行
+      - 如果发现快捷键进入不了类,对项目右键 -> reload POM
