@@ -86,6 +86,38 @@ $http_x_forwarded_for http请求携带的http信息
 ## 压测工具
 httpd-tool 压测工具
 
+## nginx 容易搞混的问题（root 与 alias 区别）
+   ```
+   # 如果系统中有文件 /opt/soft/share/picture/weigong.jpeg
+   location /jomkie/download {
+      # 假设监听localhost,请求为：http://localhost/jomkie/download/weigong.jpeg
+      # 符合规则，/jomkie/download 符合规则，被替换为 /opt/soft/share
+      # 剩下部分为：http://localhost 与 /weigong.jpeg
+      # 组装 http://localhost + /opt/soft/share + /weigong.jpeg
+      # 最终结果为 http://localhost/opt/soft/share/weigong.jpeg
+
+      # 注意！！！！！
+      # 注意！！！！！
+      # 不要在规则模式后面加 “/”，即 /jomkie/download
+      # 这样会变为 http://localhost + /opt/soft/share + weigong.jpeg
+      # 错误最终结果为 http://localhost/opt/soft/share/weigong.jpeg
+      alias /opt/soft/share;
+   }
+   location /soft/share/picture/ {
+      # 假设监听localhost,请求为：http://localhost/soft/share/picture/weigong.jpeg
+      # 符合规则 /soft/share/picture/
+      # 裁分为 http://localhost /soft/share/picture/ weigong.jpeg
+      # /soft/share/picture/ 加在 /opt 后形成 http://localhost/opt/soft/share/picture/
+      # 再加上剩余部分 weigong.jpeg
+      # 最终结果为 http://localhost/opt/soft/share/picture/weigong.jpeg
+
+      # 注意！！！！！
+      # 注意！！！！！
+      # 不要在 /opt 后加 “/”,这样就会形成 http://localhost/opt//soft/share/picture/weigong.jpeg
+      # 虽然对于web访问没有问题，但是不标准，不确保在特殊情况下会引起不正确
+      root /opt;
+   }
+   ```
 ## nginx 的监控
   - 使用的模块是 --with-http_stub_status_module
     - 可以定义在 server 或 location 下
