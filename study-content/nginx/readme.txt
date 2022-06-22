@@ -88,6 +88,9 @@ httpd-tool 压测工具
 
 ## nginx 容易搞混的问题（root 与 alias 区别）
    ```
+   https://blog.csdn.net/m0_60215634/article/details/124867752
+   在 http 链接中有对加不加斜杠的解释
+
    # 如果系统中有文件 /opt/soft/share/picture/weigong.jpeg
    location /jomkie/download {
       # 假设监听localhost,请求为：http://localhost/jomkie/download/weigong.jpeg
