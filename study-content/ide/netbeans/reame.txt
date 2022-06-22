@@ -49,3 +49,6 @@
          - Continuation Indentation Size 设置为 4（编码换行时离上一行的缩近空格长度）
    - 配置目录树的显示
       - 默认工作树是显示的行，可以对工作区空白处右键 -> View java packages as -> reduced tree
+
+## 问题解决
+   - 如果发现SpringBoot的项目不能启动，对项目右键 -> clean -> 重新运行
