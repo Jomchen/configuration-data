@@ -27,6 +27,7 @@
    - 编辑区建议配色
       - All Languages
          - 注释(Comment)：墨绿色 (0,153,0)
+            - 粉红色（255,204,255）
          - (Entity Reference)：Cyan (0,255,255)
          - 关键字(Keyword)：深紫色 (102,0,102)
          - 声明(Identifier)：黄色 Yellow
