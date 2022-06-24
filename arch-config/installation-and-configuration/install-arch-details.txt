@@ -328,7 +328,7 @@
          ```
 
    - 主题
-      - yay -S gtk-theme-switch2 # 切换主题的工具
+      - yay -S gtk-theme-switch2 # 切换 DTK 相关主题的工具
 
    - 字体配置
       - 安装字体
