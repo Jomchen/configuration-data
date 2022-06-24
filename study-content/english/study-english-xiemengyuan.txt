@@ -8147,6 +8147,7 @@
                      - have ~ to do with + O       # 和什么有关系
                      - have much to do with + O    # 和什么大有关系
                      - have nothing to do with + O # 和什么没有关系
+                     - have little to do with + O  # 和什么关系不大
                   - As far as the eyes could reach,the city was a sea of fire. 放眼望去，这个城市陷于一片火海
                   - As far as I'm concerned,you can stay out all night. 以我而言，你可以呆在外面过夜
                   - As long as there were books and stationary,he never felt lonely. 只要有书和文具的陪伴，他就不会觉得寂寞
