@@ -262,6 +262,73 @@
             startx ~/.xinitrc xfce # 启动xfce
             记得要在i3里配置让 fcitx 预先执行
             ```
+   - 重要安装和配置
+      1. 安装 aur 和 google-chrome
+         - git clone https://aur.archlinux.org/yay.git
+         - 解压相应的包
+         - cd yay
+         - makepkg -is            # 安装yay
+         - yay -S google-chrome   # 安装谷歌浏览器
+      2. 安装 aur 失败的处理方案
+         - 目前 yay 不能安装成功，怀疑是依赖需要下载 google 相关的包，而地址被墙
+            - 解决方案是使用 git 的socket代理
+            - 使用国内源进行安装
+               - cp /etc/pacman.conf /etc/pacman.conf.backup # 备份pacman配置文件
+               - 添加（注意，下列的源只添加一个即可，建议添加清华源）
+                  ```
+                  [archlinuxcn]
+                  # The Chinese Arch Linux communities packages.
+                  # SigLevel = Optional TrustedOnly
+                  SigLevel = Optional TrustAll
+                  # 官方源
+                  #Server   = http://repo.archlinuxcn.org/$arch
+                  # 163源
+                  #Server = http://mirrors.163.com/archlinux-cn/$arch
+                  # 清华大学
+                  #Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+                  # 中国科技大学源
+                  Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
+                  ```
+               - 这里建议使用中国科技大学的源，清华大学经常有问题
+               - pacman -Syy 进行更新源信息
+               - pacman -S archlinuxcn-keyring # 安装国内archlinux的签名
+                  - 没有这一步后续的部分软件升级可能会失败
+                  ```
+                  如果更新密钥步骤出现错误，就是那种连着一串ERROR的情况，则执行以下命令
+                  rm -rf /etc/pacman.c/gnupg
+                  pacman-key --init
+                  pacman-key --populate archlinux archlinuxcn
+                  pacman -Syy
+                  ```
+               - pacman -Syu 更新升级所有包和软件
+               - pacman -S yay # 安装 yay
+               - yay --aururl “https://aur.tuna.tsinghua.edu.cn” --save # aur 使用清华源
+               - yay -P -g # 查看 aur 的配置信息
+
+      2. 安装终端性文件管理器,终端预览图片
+         1. pacman -S w3m    # 终端浏览器，实际可在终端预览视频和图片
+         2. pacman -S ranger # 命令行文件管理器
+            - 把文件 /usr/share/doc/ranger/config/rc.conf 文件复制到 ~/.config/ranger/rc.conf 并修改点内容
+            - 注意 /usr/share/doc/ranger/config/scope.h 文件包含了预览图片，文件，视频，pdf 等的方式，可以按之前方式复制后把相应注释打开
+               ```
+               set preview_images true
+               set preview_images_method w3m
+               ```
+         3. 如果还不能预览图片说明当前终端不支持预览图片，需要安装一个支持预览图片的终端
+      3. 消息通知弹窗
+         - 下载 deadd-notification-center 并配置配置文件 ~/.config/deadd/deadd.conf
+            - Github 地址 https://github.com/phuhl/linux_notification_center
+      4. 命令输出颜色
+         ```
+         alias ls='ls --color=auto'
+         alias ll='ls -ilh --color=auto'
+         alias grep='grep --color=auto'
+         alias ip='ip --color=auto'
+         alias neofetch="neofetch | lolcat"
+         ```
+
+   - 主题
+      - yay -S gtk-theme-switch2 # 切换主题的工具
 
    - 字体配置
       - 安装字体
@@ -471,70 +538,6 @@
                   - ffmpeg # 音视频流化工具
             ```
 
-   - 重要安装和配置
-      1. 安装 aur 和 google-chrome
-         - git clone https://aur.archlinux.org/yay.git
-         - 解压相应的包
-         - cd yay
-         - makepkg -is            # 安装yay
-         - yay -S google-chrome   # 安装谷歌浏览器
-      2. 安装 aur 失败的处理方案
-         - 目前 yay 不能安装成功，怀疑是依赖需要下载 google 相关的包，而地址被墙
-            - 解决方案是使用 git 的socket代理
-            - 使用国内源进行安装
-               - cp /etc/pacman.conf /etc/pacman.conf.backup # 备份pacman配置文件
-               - 添加（注意，下列的源只添加一个即可，建议添加清华源）
-                  ```
-                  [archlinuxcn]
-                  # The Chinese Arch Linux communities packages.
-                  # SigLevel = Optional TrustedOnly
-                  SigLevel = Optional TrustAll
-                  # 官方源
-                  #Server   = http://repo.archlinuxcn.org/$arch
-                  # 163源
-                  #Server = http://mirrors.163.com/archlinux-cn/$arch
-                  # 清华大学
-                  #Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
-                  # 中国科技大学源
-                  Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
-                  ```
-               - 这里建议使用中国科技大学的源，清华大学经常有问题
-               - pacman -Syy 进行更新源信息
-               - pacman -S archlinuxcn-keyring # 安装国内archlinux的签名
-                  - 没有这一步后续的部分软件升级可能会失败
-                  ```
-                  如果更新密钥步骤出现错误，就是那种连着一串ERROR的情况，则执行以下命令
-                  rm -rf /etc/pacman.c/gnupg
-                  pacman-key --init
-                  pacman-key --populate archlinux archlinuxcn
-                  pacman -Syy
-                  ```
-               - pacman -Syu 更新升级所有包和软件
-               - pacman -S yay # 安装 yay
-               - yay --aururl “https://aur.tuna.tsinghua.edu.cn” --save # aur 使用清华源
-               - yay -P -g # 查看 aur 的配置信息
-
-      2. 安装终端性文件管理器,终端预览图片
-         1. pacman -S w3m    # 终端浏览器，实际可在终端预览视频和图片
-         2. pacman -S ranger # 命令行文件管理器
-            - 把文件 /usr/share/doc/ranger/config/rc.conf 文件复制到 ~/.config/ranger/rc.conf 并修改点内容
-            - 注意 /usr/share/doc/ranger/config/scope.h 文件包含了预览图片，文件，视频，pdf 等的方式，可以按之前方式复制后把相应注释打开
-               ```
-               set preview_images true
-               set preview_images_method w3m
-               ```
-         3. 如果还不能预览图片说明当前终端不支持预览图片，需要安装一个支持预览图片的终端
-      3. 消息通知弹窗
-         - 下载 deadd-notification-center 并配置配置文件 ~/.config/deadd/deadd.conf
-            - Github 地址 https://github.com/phuhl/linux_notification_center
-      4. 命令输出颜色
-         ```
-         alias ls='ls --color=auto'
-         alias ll='ls -ilh --color=auto'
-         alias grep='grep --color=auto'
-         alias ip='ip --color=auto'
-         alias neofetch="neofetch | lolcat"
-         ```
 
 
 * 注意事项
