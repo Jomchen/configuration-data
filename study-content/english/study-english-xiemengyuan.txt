@@ -316,7 +316,7 @@
  - What day 一般是问星期几；What date 一般是问几月几号
  - 比较级的几种情况，范围和个体，个体和范围等的比较
 
-
+自我学习进度 ----------------------------------> 870 line
 ----------------------------------- 国 一 -----------------------------------
 
 * 几种词性的英文写法
@@ -617,7 +617,7 @@
       - 一般是加 ing
       - 一种是去掉结尾的 e 并加上 ing
       - 以 子音+短母音+子音 则双写结尾的子音并加上 ing
-    - 表示重复发生的动作，常伴随always，此法用现在进行时
+    - 表示最近 重复/反复 发生的动作，常伴随always，此法用现在进行时
       - He is always complaining. # 他总是报报怨
       - The car is breaking down all the time. # 这辆车总是出毛病
     - 表示最近的未来即将发生的动作用现在进行时（现在在进行时表将来，注意虽然是在未来，但是距现在很近）
@@ -631,9 +631,9 @@
         - I'm seeing the bird in the tree.(x)
         - I'm looking at the bird in the tree.(o)
   - 过去进行式
-    - 表示过去某一时间正在进行的动作
+    - 表示 过去某一时间正在进行的动作
       - We were playing chess at eight yesterday evening. # 我昨天晚上在下国际象棋
-    - 表过去某一期限中反复的动作
+    - 表示 过去某一期限中反复的动作
       - Whenever I visited him,he was watching TV. # 不管我什么时候遇到他，他都是在看电视
       - In those days,we were getting up at six o'clock. # 在那段日子里，我们都会在六点钟起床
   - 将来式
