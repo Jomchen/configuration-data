@@ -1,0 +1,4 @@
+yay -S dingtalk-bin
+yay -S wps-office-cn
+yay -S wps-office-fonts
+yay -S wps-office-mui-zh-cn
