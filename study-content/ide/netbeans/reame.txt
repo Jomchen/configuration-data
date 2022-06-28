@@ -25,21 +25,27 @@
       - https://netbeansthemes.com/
       - 下载主题压缩包后放在某位置，然后在ide中 appearance 导入主题包（注意导入后会覆盖当前主题，如有必要备份当前主题）
    - 编辑区建议配色
-      - All Languages
-         - 注释(Comment)：墨绿色 (0,153,0)
-            - 粉红色（255,204,255）
-         - (Entity Reference)：Cyan (0,255,255)
-         - 关键字(Keyword)：深紫色 (102,0,102)
-         - 声明(Identifier)：黄色 Yellow
-         - 字符(Character)：红 Red(255,0,0)
-         - 字符串(String)：红 Red(255,0,0)
-         - 方法(Method)：水蓝 (51,102,255)
-         - 数字(Number)：红 Red (255,0,0)
-         - 操作符(Operator)：白 White (255,255,255)
-         - 间隔符(Separator)：白 White(255,255,255)
-      - Java
-         - Field Declaration： Magenta (255,0,255)
-         - Field Use： Magenta (255,0,255)
+      - Tool -> options -> Fonts & Colors
+         - Syntax
+            - All Languages
+               - 注释(Comment)：墨绿色 (0,153,0)
+                  - 粉红色（255,204,255）
+               - (Entity Reference)：Cyan (0,255,255)
+               - 关键字(Keyword)：深紫色 (102,0,102)
+               - 声明(Identifier)：黄色 Yellow
+               - 字符(Character)：红 Red(255,0,0)
+               - 字符串(String)：红 Red(255,0,0)
+               - 方法(Method)：水蓝 (51,102,255)
+               - 数字(Number)：红 Red (255,0,0)
+               - 操作符(Operator)：白 White (255,255,255)
+               - 间隔符(Separator)：白 White(255,255,255)
+            - Java
+               - Field Declaration： Magenta (255,0,255)
+               - Field Use： Magenta (255,0,255)
+         - Highlighting
+            - Text Limit Line 设置前景色为 红
+            - Line Number     设置前景色为 黄
+            - Readonly Files  设置背景色为 (25,25,25)
    - 配置 maven 和 jdk
       - Tools -> options -> Java
          - 配置 Maven Home 和 Default JDK
