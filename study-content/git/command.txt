@@ -19,6 +19,10 @@
    git merge cherry-pick 某分支提交记录A                         # 将某分支指定提交记录中涉及到的内容合并到当前分支
    git merge cherry-pick 某分支提交记录A..某分支提交记录B        # 将某分支的提交记录范围 (A,B] 合并到当前分支，如果想包含 A 则写成 提交记录A^
    ```
+* 删除分支
+   git branch -d 本地分支名            # 删除本地分支
+   git branch -D 本地分支名            # 强制删除本地分支
+   git push origin --delete 远程分支名 # 删除远程的分支
 
 * git 解决每次拉取代码都需要用户名和密码的情况
    - git config --global credential.helper store
