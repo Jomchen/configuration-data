@@ -418,6 +418,7 @@
       - pacman -S picom                # 窗口透明
          - 全局配置文件一般是 /etc/xdg/picom.conf
       - pacman -S feh                  # 图片查看器
+      - pacman -S htop                 # 进程查看器
       - pacman -S keynav               # 鼠标替代
       - pacman -S ranger               # 快速搜索
       - pacman -S tlp                  # 电源管理
