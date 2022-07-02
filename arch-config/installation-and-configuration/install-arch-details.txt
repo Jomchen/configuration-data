@@ -223,7 +223,8 @@
             ```
       - pacman -S xfce4-goodies # 包含额外的组件（可选择性安装）
       - systemctl enable lightdm # 让 lightdm 托管自启视图界面
-   - i3-gaps
+   - wayfire                    # 另一种窗口管理器
+   - i3-gaps                    # 窗口管理器
       - pacman -S i3-gaps       # 安装 i3-gaps 窗口管理器
       - pacman -S dmenu         # 安装 dmenu 程序命令启动软件
       - pacman -S rofi          # 安装 rofi 这是作为 dmenu 的替代品，更加强大
@@ -489,6 +490,8 @@
       - pacman -S gucharmap               # 用以查找指定字体是否有相同的字符
       - yay -S weylus                     # 远程同屏软件（需要 aur 支持）
       - 安装字体
+         - yay -S nerd-fonts-incon
+            - 如果有多个选项，则选 archlinuxcn/nerd-fonts-inconsolata-lgc 的版本
          - yay -S nerd-fonts-3270
          - yay -S ttf-font-awesome
          - yay -S ttf-material-design-icons-extended（可能安装不了，可以暂时延后）
