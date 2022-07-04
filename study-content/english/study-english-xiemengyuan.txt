@@ -1101,8 +1101,8 @@
       - The old man looked at me angrily.（这里的 looked 是非及物动词）
       - We felt sad for his death. # 我们对他的死感到很难过
       - The doctor felt the pulse carefully. # 这个医生仔细地把脉
-      - Mark appeared calm. # 马克似乎很冷静
-      - Mark appeared suddenly at the door. 马克突然出现在门口
+      - Mark appeared calm. # 马克似乎很冷静（这里 appreared 翻译为 似乎）
+      - Mark appeared suddenly at the door. 马克突然出现在门口（这里的 appreared 翻译为 出现）
     - 修饰动词时副词的位置
       - 位置
         - 一般用法 动词 + 副词 = 副词 + 动词                                             # 注意这里的动词一定是不及物动词
