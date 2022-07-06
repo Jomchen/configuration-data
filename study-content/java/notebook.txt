@@ -9,6 +9,17 @@
    * 数据结构与算法
    * HashMap扩容机制，防死循环处理方案
 
+* java 运行的命令
+```
+-D部分的是环境的变量，-- 部分是程序运行后需要的参数
+mvn clean compile package && java -jar \
+	-Denv=FAT \
+	-Djasypt.encryptor.password=humi \
+	target/platform-operate-service-1.0.0.jar \
+	--spring.profiles.active=FAT 
+```
+
+
 * 一些问题
    - ExecutorService 中 submit() 和 execute() 区别
    - Java 泛型中 extends 和 super 的区别
