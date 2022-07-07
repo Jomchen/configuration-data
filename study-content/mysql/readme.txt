@@ -11,6 +11,14 @@
    - Sequel Pro           # 收费
 * Mysql 事务和锁的详解
    - https://www.cnblogs.com/crazylqy/p/7611069.html
+* 学习地址
+   - [数据库事务/锁/隔离级别原理](https://www.cnblogs.com/crazylqy/p/7611069.html)
+   - 索引
+      - https://www.cnblogs.com/zhangxufeng/p/8308558.html
+      - https://www.cnblogs.com/duanxz/p/5244736.html
+      - https://cloud.tencent.com/developer/article/1770563
+      - https://www.cnblogs.com/lijiaman/p/14364171.html
+
 * 一些稀有的命令
    - 将分组中每条的数据按 字段名1 进行拼接，拼接顺序取决于 字段名2，拼接的分隔符为 seq
       - GROUP_CONCAT([DISTINCT] 字段名1 [ORDER BY 字段名2 ASC/DESC] [SEPARATOR seq]);
