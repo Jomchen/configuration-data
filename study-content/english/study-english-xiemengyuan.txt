@@ -1543,9 +1543,9 @@
       - 现在式
         - 省略
       - 过去式
-        - They sold many kinds of child seats at the shop.
+        - They sold many kinds of child seats at the shop. # 它们在商店里卖了许多种儿童座椅(sell-sold-sold)
           - => Many kinds of child seats were sold (by them) at the shop. 
-        - The police ran after the thief in the street.
+        - The police ran after the thief in the street.    # 警察在街上追赶小偷
           - => The thief was run after by the police in the street.
     - 现在进行式的被动语态
       - 形式：is/am/are being + p.p.
@@ -1556,11 +1556,11 @@
         - The exam papers were being printed by Mr.Smith.
     - 未来式的被动语态
       - 形式
-        - will be p.p.（这是对于 will v. 的未来式情况）
-        - beV going to be p.p.（这是对于 be going to v. 的未来式情况）
+        - will v. -> will be p.p.（这是对于 will v. 的未来式情况）
+        - beV going to v. -> beV going to be p.p.（这是对于 be going to v. 的未来式情况）
       - 例子
-        - They will hold the school sports in October => The school sports will be held (by them) in October.（多余的词可以省略）
-        - Our class are going to discuss the problem. => The problem are going to be discuss (by our class).
+        - They will hold the school sports in October => The school sports will be held <by them> in October.（多余的词可以省略，hold-held-held）
+        - Our class are going to discuss the problem. => The problem are going to be discussed <by our class>. （discuss-discussed-discussed）
       - 其他的词，如：can,must,should... 等的被动语态和未来式形式是一样的
         - Every one of us should follow school rules.
           - School rules should be followed by every one of us.
@@ -1568,7 +1568,7 @@
           - Everyone （只能指人）
           - Every one （可以指人也可以指物）
     - 现在完成式
-      - has/have been p.p.
+      - has/have p.p. -> has/have been p.p.
       - The teacher has already punished the naughty boy. => The naughty boy has already been punished by The teacher. # 这个老师已经处罚了这个玩皮的孩子
 
   2. 被动语态的疑问句
@@ -1584,8 +1584,8 @@
       - What language is spoken in China? # 中国说什么语言？
     - Who + 动词 的问句 => By whom + beV + 主词 + p.p. ?
       - Who bought the fish? => whom was the fish bought by ? = By whom was the fish bought?
-        - ? bought the fish? => the fish was bought by ? => Whom(?) was the fish bought by?
-          - By whom(?) was the fish bought
+        - X bought the fish? => the fish was bought by X => Whom(X) was the fish bought by?
+          - By whom(X) was the fish bought
           - 注意 为什么用 whom 而不用 who，因为由转换过程中可以了解到：? 是 by 的受词，所以用 whom
     - 否定句的被动 => S + beV not p.p 和 S + aux not be p.p
       - They don't collect recyclable paper every day. # 不是每天他们都回收可回收纸类
@@ -5886,7 +5886,7 @@
    - 基本步骤
       ```
       第一步：宾变主：即把主动语态句子的宾语(连同宾语的定语)变为被动语态句的主语，放在被动句句首。(如果原主动语态句的宾语为代词宾格形式，变为被动语态句主语时应变为主格形式)
-      第二步：谓变被：把主动语态句子的谓语结构变为被动语态句的谓语结构(be + done)，这时要注意：被动语态谓语动词要与主语单复数保持一致，副词一般放在谓语结构中过去分词之前。
+      第二步：谓变被：把主动语态句子的谓语结构变为被动语态句的谓语结构(be + done)，这时要注意：被动语态谓语动词要与主语单复数保持一致（和变化后的主词一致），副词一般放在谓语结构中过去分词之前。
       第三步：主变宾，前加by：把主动语态句主语放在被动语态句谓语部分之后，前加介词by(主格代词应该变为宾格代词)。
       第四步：状不变：一般状语结构不变化，原样放在句末或句首。
       ```
