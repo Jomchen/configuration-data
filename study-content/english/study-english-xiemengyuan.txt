@@ -1585,8 +1585,8 @@
     - Who + 动词 的问句 => By whom + beV + 主词 + p.p. ?
       - Who bought the fish? => whom was the fish bought by ? = By whom was the fish bought?
         - X bought the fish? => the fish was bought by X => Whom(X) was the fish bought by?
-          - By whom(X) was the fish bought
-          - 注意 为什么用 whom 而不用 who，因为由转换过程中可以了解到：? 是 by 的受词，所以用 whom
+          - => By whom(X) was the fish bought
+          - 注意 为什么用 whom 而不用 who，因为由转换过程中的第二句可以了解到：X 是 by 的受词，所以用 whom
     - 否定句的被动 => S + beV not p.p 和 S + aux not be p.p
       - They don't collect recyclable paper every day. # 不是每天他们都回收可回收纸类
         - Recyclable paper isn't collected by them every day.
