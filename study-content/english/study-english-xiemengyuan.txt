@@ -1006,7 +1006,7 @@
     - Korea   - Korean  - Korean  - the Koreans
     - France  - French  - French  - the French
     - Germany - German  - German  - the Germans
-    - Spain   -Spanish  - Spanish - the Spanish
+    - Spain   - Spanish - Spanish - the Spanish
   - 表数量多少的形容词：
     - many + 可数名词
     - much + 不可数名词
