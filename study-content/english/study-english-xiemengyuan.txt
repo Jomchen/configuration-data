@@ -317,7 +317,7 @@
  - 比较级的几种情况，范围和个体，个体和范围等的比较
 
 
-自我学习进度 ----------------------------------> 989 line
+自我学习进度 ----------------------------------> 1525 line
 ----------------------------------- 国 一 -----------------------------------
 
 * 几种词性的英文写法
@@ -1119,7 +1119,7 @@
         - quick -> quickly | careful -> carefully
         - terrible -> terribly | comfortable -> comfortably
         - happy ->happily | heavy -> heavily
-        - full -> fully | dull -> dully
+        - full -> fully | dull（adj. => 乏味，沉闷，单调，呆，笨拙） -> dully
       - 特殊用法
         - be + 副词 + Ving
           - He was anxiously waiting for her arrival # 他很焦急地等待着她到来
@@ -1221,10 +1221,10 @@
             - The old man looked at me angrily.（这里的 looked 是非及物动词）
               - 连缀动词 和 be动词 有相似的作用，后面根 形容词
               - He was anxious. = He looked anxious.
-            - We felt sad for his death. # 我们对他的死感到很难过
-            - The doctor felt the pulse carefully. # 这个医生仔细地把脉
-            - Mark appeared calm. # 马克似乎很冷静
-            - Mark appeared suddenly at the door. 马克突然出现在门口
+            - We felt sad for his death. # 我们对他的死感到很难过（这里的 felt 是“感觉”，是连缀动词使用）
+            - The doctor felt the pulse carefully. # 这个医生仔细地把脉（这里的 felt 是“感觉”，是动词，不是作连缀动词使用）
+            - Mark appeared calm. # 马克似乎很冷静（这里 appeared 是“似乎”是动词，作连缀动词使用）
+            - Mark appeared suddenly at the door. 马克突然出现在门口（这里 appeared 是“出现”，是动词，不是作连缀动词使用）
           - 根 like + n. 情况
             - It soulds like a true story. # 它听起来像一个真实的故事
               - It soulds great. # 它听起来很棒（这里是根形容词情况）
@@ -1270,7 +1270,7 @@
 
   6. 感官动词（感觉，器官）
     - feel
-    - （眼）看：notic（注意到，这个不是感官动词，但是用法一样），see（指看到的），watch（看的时间较长），look at（比较专注的）
+    - （眼）看：notice（注意到，这个不是感官动词，但是用法一样），see（指看到的），watch（看的时间较长），look at（比较专注的）
     - （耳）听：hear（听到的), listen to（仔细听）
     - 语法：感观动词 + 受词 + v./ving
     - I looked carefully but saw nothing. # 我很注意地看，但什么也没有看到
@@ -1337,14 +1337,14 @@
           - for 作介词，介词后面只能根名词
         - since + 时间起始点 + 过去式子句
           - since 有介词，连接词 的用法，如果是连接词那么就可以接从句
-      - 我们认识彼此已经10年了
-        - We have knowned each other for ten years.
-        - We have knowned each other since ten years ago.
+      - 我们认识彼此已经10年了（know-knew-known）
+        - We have known each other for ten years.
+        - We have known each other since ten years ago.
       - 好久不见
         - I havn't seen you for a long time. # 好久不见
         - It has been a long time since I last saw you. # 好久不见
         - Long time no see. # 好久不见
-      - all day（整天）.these days（这些天）,lately（最近）,recently（最近）,always（一直）,this week（这周）
+      - all day（整天）.these days（这些天）,lately（新近，近来（一般用于否定或疑问句，非正式也较多））,recently（最近，不久前（一般用于肯定句，可用现在进行式表正在进行的动作也可用现在完成式表到时目前为止的动作））,always（一直）,this week（这周）
         - I have had a headache all day <long>. # 我头疼了一整天<这么久了>
     - 表完成的副词
       - already（已经）=> has/have already p.p.
@@ -1416,7 +1416,7 @@
                 - 这句话是错误的，因为 go 这个动词是瞬时动词，所以这句话是错误的
               - Mr.Li has gone to America and has been in America for three days.(o)
             - 如果想 表达去了美国三天，但是有没有到达目的地不清楚
-              - Mr.Li has been leave for America for threee days. 
+              - Mr.Li has been leave for America for threee days. （这里是否应该改 leave 为 leaving ??）
             - 如果想表达离开美国，但是时间过去三天，到没有到达目的地不清楚
               - Mr.Li has been away from America for three days.
               - Mr.Li has been away from America since three days ago.
@@ -1459,7 +1459,7 @@
     - 例：I am the right man for the job, aren't I? 我是适合这个工作的人，不是吗？
   - 直述句若是 There is(are) 句型，附加问句用 isn't(aren't) there 回应
     - There is an old man waiting in the playground,isn't there? # 有个在操场上等待的老人，不是吗？
-    - There are not any pepole in the street, aren there? # 没有任何人在街道上，不是吗？
+    - There are not any pepole in the street, are there? # 没有任何人在街道上，不是吗？
   - 直述句中有 has/have/had 的附加问句
     - 语法
       - has/have + p.p. => has 和 have 是助动词
@@ -1476,30 +1476,29 @@
       - 这里附加疑问句用了 he/she 而没有用 it 是因为已经确定了是某个人，所以不用虚拟的 it
   - too...to... # 太...而不能...（用否定附加问句）
     - You are too young to have the right to vote, aren't you? # 你太年轻了以致于不能投票的权利
-      - 虽然否定是在 to 之后，但是附加疑问的叙述是对于“你太年轻的相关的事”，
-      - 而不是“你不年轻的相关的事”，所以应该用 否定附加疑问句
+      - 虽然 to 加之后的句子部分因为 too..to 的结构形式 表否定，但是附加疑问的叙述是对于 你太年轻的相关的事，
+      - 而不是 你不年轻的相关的事，所以应该用->否定附加疑问句
   - 直述句的不定代词的情况
     - 语法
       - 直述句的主词如果是 something,anything,nothing,everything，附加疑问句用 it，
       - 若为 someone,anyone,no one,everyone 则用 they（注意 不是 noone，因为这样会造成发音有冲突，所以没有 noone 这种词）
     - 举例
       - Something had happened to the student, didn't it? # 这个学生发生了某事不好的事，不是吗？ 
-      - Someone took my notebook without asking me first, didn't it? # 某人没有先询问我就拿走了我的笔记本，不是吗？
+      - Someone took my notebook without asking me first, didn't it? # 某人没有先询问我就拿走了我的笔记本，不是吗？（不用 they 吗??）
   - 在主要子句和附加子句同时出现时，附加问句要根据主句的内容进行作问，形成附加疑问
       - If it is fine tomorow,they will go picnicking,won't they?（这里 if 是连接词）
       - Many readers thought that it was an interesting novel,didn't they? # 许多读者认为这是本有趣的小说，不是吗？ （这里 that 是连接词）
-        - （这里应该搞错了？，应该是 wasn't it?）
+        - （这里与以下案例不冲突，因为主词不是第一人称 ??）
   - 如果主要子句是 I（或we）know/think/belive/imagine/guess/hear...等，应该根据 that 子句形成附加问句
     - 概念
-      - 注意，子句在语法上是不能有否定形式的，否定形式会提到前面去的
+      - 注意，子句在语法上是不能有否定形式的，否定形式会提到前面去的（注意 think + 肯定子句 的特殊性 ??）
       - 如果不是第一人称，则这个准则不生效
     - 举例
       - I know that you don't want to hurt me,do you? # 我知道你并不想伤害我，不是吗？
-         - ?????? 这里是否应该改为 I don't know that you want to hurt me, do you?
       - I believe that he will try his best,won't he? # 我认为他会尽力而为，不是吗？
       - I don't think that we can spend so much money on clothes,can we? # 我并不认为我们能在衣服上花这么多钱，不是吗？
         - 主词 + think + 肯定子句，即 主词+think 之后一定只能加肯定句，所以这个例子的否定不能加在 can 上，只能加在 think 上
-        - 注意，这里的赋加问句是肯定，虽然 not 没有加在 can 上，但是整个意思相当于是 can 的否定，所以这里赋加问句应该是 can we?
+        - 注意，这里的附加问句是肯定，虽然 not 没有加在 can 上，但是整个意思相当于是 can 的否定，所以这里赋加问句应该是 can we?
   - 感叹句用否定的附加问句，主词仍与感叹句一致
     - What a kind man he is, isn't he?
     - How interesting this comic book is, isn't it?
@@ -5884,6 +5883,13 @@
                4. According to the papers,There was a big fire in that hotel. 根据报载，那家饭店曾经发生大火
 
 * 被动语态
+   - 基本步骤
+      ```
+      第一步：宾变主：即把主动语态句子的宾语(连同宾语的定语)变为被动语态句的主语，放在被动句句首。(如果原主动语态句的宾语为代词宾格形式，变为被动语态句主语时应变为主格形式)
+      第二步：谓变被：把主动语态句子的谓语结构变为被动语态句的谓语结构(be + done)，这时要注意：被动语态谓语动词要与主语单复数保持一致，副词一般放在谓语结构中过去分词之前。
+      第三步：主变宾，前加by：把主动语态句主语放在被动语态句谓语部分之后，前加介词by(主格代词应该变为宾格代词)。
+      第四步：状不变：一般状语结构不变化，原样放在句末或句首。
+      ```
    - 例子
       - The terrorists bombed the station. 恐怖分子炸掉了车站
          - The station was bombed by the terrorists.
@@ -8163,3 +8169,16 @@
                   - As long as there were books and stationary,he never felt lonely. 只要有书和文具的陪伴，他就不会觉得寂寞
                      - As long as 这里翻译为“只要”
                   - He went on talking as long as three hours. 他持续讲了三个小时
+
+
+
+* 注意的事项
+   - 对于上文有疑问的地方：用两介英文问号备注 ??
+   - be full of 与 be filled with # 充满，装满
+      - be full of 更侧重于表示充满的状态
+         - The room is full of people # 房间里挤满了人
+         - The bottle is full of water # 瓶子里装满了水
+         - The students here are full of energy # 这里的学生精力充沛
+      - be filled with 侧重于表示装满的动作和东西
+         - I want my life to be filled with happiness # 我想要我的生活充满快乐
+         - Besides the name of each candidate, there was a box to be filled with a number # 每个候选人名字旁边都有一个有待装选票的盒子
