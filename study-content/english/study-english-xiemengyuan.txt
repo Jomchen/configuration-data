@@ -1067,8 +1067,8 @@
         - He has one hundred kinds of stamps. # 他有百种类型的邮票
         - Hundreds of children gathered in the playground. # 数以百计的小朋友聚焦在操场上
       - in + 所有格/the 数词的复数形 # 用以表达模糊的数字的表达
-        - She is in her twenties. # 她二十多岁
-        - There was an antiwar movement in the nineteen-sixties. # 反二战运动发生在一九六零年代
+        - She is in her twenties. # 她二十多岁（in 所有格 用法）
+        - There was an antiwar movement in the nineteen-sixties. # 反二战运动发生在一九六零年代（in the 数词复数形 用法）
       - 数词 + 单数名词 = 形容词
         - 冠词和名词中间的是形容词，所以不能有复数
           - It's only a ten-minute walk from here to the station. # 从这里步行到站只有十分钟路程
