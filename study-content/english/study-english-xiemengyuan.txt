@@ -1531,7 +1531,7 @@
       4. He praised me. => I was praised by him. # 他夸奖了我
     - 及物动词才有被动语态，但是有些不及物动词后根介词的情况可以被视为及物动词片语，所以也有被动语态
       1. I listen to music.
-        - Music was listen to by me.
+        - Music was listened to by me.
       2. Something happened to Mark.
         - 没有被动语态，因为这里的happened是不及物动词，虽然介词后面跟了 Mark
       3. He takes care of the newcomer to the club. # 他照顾这个到俱乐部的新手
