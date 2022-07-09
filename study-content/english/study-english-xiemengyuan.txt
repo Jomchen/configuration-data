@@ -317,7 +317,7 @@
  - 比较级的几种情况，范围和个体，个体和范围等的比较
 
 
-自我学习进度 ----------------------------------> 1666 line
+自我学习进度 ----------------------------------> 1946 line
 ----------------------------------- 国 一 -----------------------------------
 
 * 几种词性的英文写法
@@ -1664,7 +1664,7 @@
         - make 一般指 使... 叫... 有强迫指定的意思
         - have 一般指 使... 叫... 
     - 例句
-      1. My brother got me run errands for him. # 我哥哥/弟弟叫我帮他跑腿（没有命令的语气）
+      1. My brother got me run errands for him. # 我哥哥/弟弟叫我帮他跑腿（没有命令的语气）(这里的 run 是过去分词 ??)
       2. I had my hair cut yesterday. # 我昨天剪发了（有“使”的意义，这里的 cut 是过去分词表被动）
       3. Let it be done at once. # 让它一次完成
       4. Mr.Lin made me do the work. # 林先生叫我做作业（这里有命令的意思）
@@ -1697,10 +1697,10 @@
       - I met two girls and one of them is my cousin.（由 and 和 them 形成关系代名词）
         - and 是连词，them是代名词，所以结合形成关系代名词
   - 关系代名词的系列用法
-    - 先行词 * 主格 + v * 所有格 + n. * 受格+s+v+(介)
-    - 人 - who * whose * whom（现在老外也一般用who了）
-    - 事物，动物 * which * whose *  which
-    - 人/事/物 * that * whose * that
+    - 先行词     * 主格 + v * 所有格 + n. * 受格+s+v+(介)
+    - 人         * who      * whose       * whom（现在老外也一般用who了）
+    - 事物，动物 * which    * whose       * which
+    - 人/事/物   * that     * whose       * that
   - 关系代名词的注意情况
     - 关系代名词作受格是可以省略的
     - 关系代名词作受格时，且介词放在关系代名词的前面的形式时，关系代名词是不可以省略的，并且不能用通用的关系代名词的形式（that不能用）
@@ -1741,8 +1741,10 @@
       - Look at that girl.
     - 关系代名词
       - The girl that is playing the guitar is Jane. # 在弹吉它的女孩是简
-      - 受格的关系代名词可以省略
-        - 足球是我最喜欢的运动 => Football is my favorat sports => Football is that my favorat sports.
+      - 作关系子句的受词的关系代名词可以省略
+        - She is all <that> a teacher should be.   He is the nicest teacher <that> the students consider him in their school. 
+      - 作表语的关系代名词可以省略
+        - 足球是我最喜欢的运动 => Football is <that> my favorat sports.
     - 连接词
       - I think that honesty is the best policy. # 我认为诚实是最好的原则
   - 所有格的关系代名词
@@ -2098,7 +2100,7 @@
             - 有 not 和 but 的
             - 举例
               - Why is he absent? Because he is ill. # 为什么他缺席了，因为他病了
-              - He is absent not because he is busy but becase he is ill. # 他缺席不是因为他很忙而是因为他病了
+              - He is absent not because he is busy but because he is ill. # 他缺席不是因为他很忙而是因为他病了
         - 因为我非常累，所以我没去
           - exhausted # 精疲力尽
           - 连接词摆句首，两个句子要用逗号分开
