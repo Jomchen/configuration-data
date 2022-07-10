@@ -11,7 +11,7 @@
 
 * java 运行的命令
 ```
--D部分的是环境的变量，-- 部分是程序运行后需要的参数
+-D部分的是环境的变量，-- 部分是程序运行后需要的参数，两者对于 ***.jar 文件的前后是有如此道理的
 mvn clean compile package && java -jar \
 	-Denv=FAT \
 	-Djasypt.encryptor.password=humi \

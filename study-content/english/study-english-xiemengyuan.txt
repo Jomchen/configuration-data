@@ -317,7 +317,8 @@
  - 比较级的几种情况，范围和个体，个体和范围等的比较
 
 
-自我学习进度 ----------------------------------> 1946 line
+自我学习进度 *********************************** 复习：321 line <--> 学习：1143 line
+
 ----------------------------------- 国 一 -----------------------------------
 
 * 几种词性的英文写法
@@ -594,7 +595,7 @@
     - none（没有），several（数个，几个），most（大部分）
       - 概念
         - none 可以是可数或不可数，可以作单数或复数
-        - several 一定是可数名词，一定是复数
+        - several（adj. 几个，数个） 一定是可数名词，一定是复数
         - most 可以是可数或不可数，但是要看most形容的东西是单数还是复数
       - 举例
         - None of the telephones is/are working. # 没有一个电话在动作（因为 none 作主词，所以单复数都可以）
@@ -629,7 +630,7 @@
       - 以 子音+短母音+子音 则双写结尾的子音并加上 ing
     - 表示最近 重复/反复 发生的动作，常伴随always，此法用现在进行时
       - He is always complaining. # 他总是报报怨
-      - The car is breaking down all the time. # 这辆车总是出毛病
+      - The car is breaking down all the time. # 这辆车总是出毛病（all the time # adv. 成天，每时每刻）
     - 表示最近的未来即将发生的动作用现在进行时（现在在进行时表将来，注意虽然是在未来，但是距现在很近）
       - I'm leaving for Chongqing tomorrow. # 明天我将要去重庆
       - 可以根的动词为：come,go,start.leave,arrive 等
@@ -752,7 +753,7 @@
       - The price of blue pants is far higher than the price of that green pants.
       - The price of blue pants is far higher than that of the green pants.
       - 当有重复的词出现时，并且这个重复的词由限定修饰时，这个重复的用that代替，如果是复数则用those代替（price由那个绿色的裤子限定）
-      - 注意 expensive 和 cheap 是修饰物品的，不能是修饰 price 的，修饰 price 的昂贵和便宜应该用  in hight/low price
+      - 注意 expensive 和 cheap 是修饰物品的（但是 cheap 一般有物品低廉的意义，所以表示物品便宜应该用 inexpensive），不能是修饰 price 的，修饰 price 的昂贵和便宜应该用  in hight/low price
     - 北京的天气比重庆的天气高得多
       - The weather in Beijing is even hotter than the weather in Chongqing.
       - The weather in Beijing is even hotter than that in Chongqing.
@@ -813,7 +814,7 @@
       - He is fast.（这里的 fast 是形容词）<->  He runs fast.（这里的 fast 是副词）
       - 副词比较：He can sing better than Lisa.
       - the + 副词最高级：+ 地点/of （ 副词的 the 限定可省略）
-        - My father gets up <the> earliest of us all. # 我爸爸是我们中起床最早的（这里的 earlies 是副词，这句的 the 可省略）
+        - My father gets up <the> earliest of us all. # 我爸爸是我们中起床最早的（这里的 earlies 是副词，这句的 the 可省略，这里的 all 是 us 的同位语）
         - Jane dances <the> most beautifully. # Jane 跳舞跳得最漂亮（这里的 beautifully 是副词，这句的 the 可省略）
       - 形容词和副词的的不同状况
         - Tome is the fastest boy of all.（这里的 fastest 是形容词，因此 the 不可以省略）
@@ -899,7 +900,7 @@
     - It's no use crying over spilt milk. # 为洒出来的牛奶哭泣是没有用的 => 覆水难收
     - can't help/stand + Ving 忍不住...
     - It's no use/good + Ving 做...是没有用的
-    - grow up + Ving # ...长大（不能加不定式，drinking 表示喝酒）
+    - grow up + Ving # ...长大（不能加不定式，drinking 表示喝酒），例：We grow up eating rice. # 我们吃米饭长大
     - 但是也要看这些词的环境决定是否用于加ing，比如mind解释成介意时要用ing
     - 介系词后面动词必根 ing（不定式虽然也有 to 但是这个 to 不是作为介词的）
   - 用不定式和用动名词的一般区别（不包含必须加ing或不定式的情况）
@@ -981,7 +982,7 @@
     - The woman sitting in the middle is Bob's mother. # 坐在中间的的女士是 Bob 的母亲
     - Some of the people waiting for the bus became angry. # 在等公车中的有些人变得很生气
     - I know the boy running in the garden. # 我认识在公园跑步的男孩
-    - Do you have any friends living in Japan. # 你有任何住在日本的人吗？
+    - Do you have any friends living in Japan. # 你有任何住在日本的朋友吗？
     - Subway/underground is the railway running under the ground. # 地铁是在地下行驶的铁路
       - 地铁美式叫法是 Subway，地铁英国叫法是 underground
     - A nurse is a person taking care of sick people. # 护士是照顾病人的人
@@ -1001,12 +1002,12 @@
       -（性质，状态） =>（大小形状->颜色，新旧->材料，地点）
       - His an expensive global watch. # 他的一个昂贵的金表
   - 国名-某国的-语言-全国人民（复数）（某国的 = 这个国家的语言）
-    - 国名    - 某国的  - 语言    - 全国人民（复数）
-    - China   - Chinese - Chinese - the Chinese
-    - Korea   - Korean  - Korean  - the Koreans
-    - France  - French  - French  - the French
-    - Germany - German  - German  - the Germans
-    - Spain   - Spanish - Spanish - the Spanish
+    - 国名                  - 某国的  - 语言    - 全国人民（复数）
+    - China（中国）         - Chinese - Chinese - the Chinese
+    - Korea（朝鲜/韩国）    - Korean  - Korean  - the Koreans
+    - France（法国）        - French  - French  - the French
+    - Germany（德国）       - German  - German  - the Germans
+    - Spain（西班牙）       - Spanish - Spanish - the Spanish
   - 表数量多少的形容词：
     - many + 可数名词
     - much + 不可数名词
@@ -1026,10 +1027,10 @@
   - 表数量的词
     - 简单基数 和 序数
       - 注意
-        - eight->eigth，nine->ninth，twelve->twelfth，forty没有u
+        - eight->eigth，nine->ninth，twelve->twelfth，forty（四十）没有u，fortieth 第四十
       - one->first two->second three->third four->fourth five-fifth six->sixth
         seven-seventh eight->eighth nine->ninth ten->tenth eleven->eleventh twelve->twelfth
-      - thirteen ~ nineteen -> thirteenth ~ nineteenth
+      - thirteen ~ nineteen -> thirteenth ~ nineteenth，注意 fourteen # 十四，注意 fourteenth # 第十四
       - twenty ~ ninety -> twentieth ~ ninetieth
       - 两位数 （十位原型-个位序数词）例：twenty-one -> twenty-first
     - 复杂计数
@@ -1045,7 +1046,7 @@
       - 2/3 -> two thirds
       - 2又3/4 -> two and three fourths
     - 年月日
-      - 2000年 -> (the year)two thousand 
+      - 2000年 -> <the year> two thousand 
       - 1984年7月4日 -> July 4(th)(可以念four/fourth) ,nineteen eighty-four
     - 时刻
       - 6:15 -> six fifteen -> a quarter past/after six
@@ -1970,12 +1971,13 @@
       - We can have fresh air and enjoy the beautiful scenery. # 我们可以呼吸新鲜的空气和享受美丽的风景
       - Go straight and you will see the restaurant on your right. # 直直走，那么你会看见那家餐厅在你右手边
     - but # 但是
-      - The little girl fell down but <she> didn't crying. # 那小女孩跌倒了，但没有哭
+      - The little girl fell down but <she> didn't crying. # 那小女孩跌倒了，但没有哭（是否有误，crying 应该改为 cry ??）
       - My parents agree to Let me go out with you,but They ask me to come home before 12 o'clock. # 我爸妈答应让我跟你出去，但是他们要求我必须在12点前回家
     - or # 或者；否则
       - What would you prefer,coffee or tea? # 你较喜欢哪一种或茶
         - 等价 What would you like better,coffe or tea?
         - prefer... 可以用 like...better 替换
+        - prefer A to B # 相较于B更喜欢A
       - You can turn coal into diamands or <you can turn> sand into computer chips # 你可将碳转变为金刚石或是将沙子变成电脑晶片
       - The book fair must be held,or the books won't be sold out in a week. # 书展一定要办，否则这些书无法在一周内售完
     - 注意祈使句的 and 和 or
