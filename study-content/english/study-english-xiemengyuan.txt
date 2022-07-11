@@ -1138,7 +1138,7 @@
         - 频率副词 除了 always 外，也可用于句首（否则必须是 always 根祈使句）
           - Sometimes we eat dinner in that restaurant. # 偶尔我们会在那个餐厅吃晚餐
           - 因为一般 always 放在句首是用在原型动词开头的歧使句
-      - 询问频率，用 How often
+        - 询问频率，用 How often
           - How often do the busses run between the station and your school? # 这辆车多久在这个站和你的学校之间行驶一次？
       - 地方副词 there,here,downstairs,upstairs,inside 等（如果有大地名和小地名，则小地名应该在大地名之前）
         - Her parents lived on a small farm in a remote country. # 她的父母在一个遥远的乡村的小农场居住
@@ -8177,6 +8177,10 @@
 
 
 * 注意的事项
+   - 修饰
+      - much,very much 修饰动词；    very 不能修饰动词
+      - much,very much 修饰过去分词；very 修饰现在分词
+      - much 修饰原级和最高级；      very 修饰比较级和最高级
    - 对于上文有疑问的地方：用两介英文问号备注 ??
    - be full of 与 be filled with # 充满，装满
       - be full of 更侧重于表示充满的状态
