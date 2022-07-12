@@ -7167,7 +7167,7 @@
                - one day 某一天（可用于 过去式 或 未来式）
                   - 比如“白雪公主某天吃了一颗毒苹果”
                - some day 某一天（只能用于未来式）
-            - Let's discus it some other day. 改天讨论它吧
+            - Let's discuss it some other day. 改天讨论它吧
             - We'll call on him in any case. 我们无论如何都会拜访他
                - in any case # 无论如何（在任何情况下）
             - He was determined to finish the work at any lost. 他不惜任何代价都决定完成这个工作
