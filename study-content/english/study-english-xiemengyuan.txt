@@ -317,7 +317,7 @@
  - 比较级的几种情况，范围和个体，个体和范围等的比较
 
 
-自我学习进度 *********************************** 复习：321 line <--> 学习：1143 line
+自我学习进度 *********************************** 复习：321 line <--> 学习：1482 line
 
 ----------------------------------- 国 一 -----------------------------------
 
@@ -5435,7 +5435,7 @@
                4. I am at one with you on that point. # 我和你有同一个立场
                5. He is principal,teacher,clerk,all in one. # 校长，老师，事务员一体
                6. Dozens of people were injured in the accident. 好几十人在事故中受伤了
-               7. Tens of thousands of people were killed in the earthouake. 数以万计的人在地震中死亡了
+               7. Tens of thousands of people were killed in the earthquake. 数以万计的人在地震中死亡了
             - 复合形容词有下列五种形式
                - 形容词
                   - 形容词 - 连缀动词之现在分词
@@ -5509,7 +5509,7 @@
             - doubtly 可以是所有三个位置其中一个位置，但是最后一个位置不恰当，因为句子太长了容易忘记前面的内容
       - 不同位置的不同意义
          - He answered the questions foolishly. # 他回答了这个问题（注意副词位置不同意义也不一样）
-            - foolishly 靠近 questions，所以突出回答的是愚蠢的问题
+            - foolishly 靠近 questions，所以突出回答问题的整个结果是愚蠢
             - 他回答了愚蠢的答案（强调回答问题这件事愚蠢）
          - He foolishly answered the questions. # 他愚蠢到回答这个问题（注意副词位置不 同意义也不一样）
             - foolishly 靠近 answered，突出回答方式的愚蠢
@@ -8177,11 +8177,12 @@
 
 
 * 注意的事项
+   - 对于上文有疑问和错误可能的地方：由两个英文问号备注 ??
    - 修饰
       - much,very much 修饰动词；      very 不能修饰动词
       - much,very much 修饰过去分词；  very 修饰现在分词
       - much 修饰比较级和最高级；      very 修饰原级和最高级
-   - 对于上文有疑问的地方：用两介英文问号备注 ??
+   - 附加疑问句/反向问句 重看
    - be full of 与 be filled with # 充满，装满
       - be full of 更侧重于表示充满的状态
          - The room is full of people # 房间里挤满了人
