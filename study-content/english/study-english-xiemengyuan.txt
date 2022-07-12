@@ -8178,9 +8178,9 @@
 
 * 注意的事项
    - 修饰
-      - much,very much 修饰动词；    very 不能修饰动词
-      - much,very much 修饰过去分词；very 修饰现在分词
-      - much 修饰原级和最高级；      very 修饰比较级和最高级
+      - much,very much 修饰动词；      very 不能修饰动词
+      - much,very much 修饰过去分词；  very 修饰现在分词
+      - much 修饰比较级和最高级；      very 修饰原级和最高级
    - 对于上文有疑问的地方：用两介英文问号备注 ??
    - be full of 与 be filled with # 充满，装满
       - be full of 更侧重于表示充满的状态
