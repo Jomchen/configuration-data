@@ -317,7 +317,7 @@
  - 比较级的几种情况，范围和个体，个体和范围等的比较
 
 
-自我学习进度 *********************************** 复习：321 line <--> 学习：2089 line
+自我学习进度 *********************************** 复习：321 line <--> 学习：2364 line
 
 ----------------------------------- 国 一 -----------------------------------
 
@@ -2086,12 +2086,12 @@
         - It's a custom Taking off the shoses before you go into Chinese man's house. 在进中国人的屋子之前先脱掉鞋子是个习俗
         - Heat the cookies at 350 degrees until they turn light brown.  # 以350度来加热饼干直到呈现淡棕色
         - When you take medicine,be sure to follow the doctor's directions below. # 当你吃药时，务必遵照下述医师的指示
-        - while I was sleeping, there was noise outside. # 当我正在睡觉时，外面有噪音
+        - While I was sleeping, there was noise outside. # 当我正在睡觉时，外面有噪音
           - There was noise outside while I was sleeping.
           - while 当连接词时翻译成“当..”，当名词时翻译成“一会儿”
           - while 引导的从属子句时，常使用进行式
       - 表示地点的副词子句由 where 引导
-        - Where there is a will,there is a way. # 有志者，事尽成（有意志的地方就有方式）
+        - Where there is a will,there's a way. # 有志者，事尽成（有意志的地方就有方式）
         - Put it back where it was. # 把它放到它原来的地方
       - 表示原因，理由的副词子句由 because,since,as（这里的as作“因为”） 引导；语气的强弱由高到底 because>since>as；because 和 so 不能同时出现
         - 概念
@@ -2125,6 +2125,7 @@
         - as（虽然） => 形容词/副词/前面无冠词的名词 + as + s + v ~, s + v ~
           - Although she is a teacher,she isn't patient with children. # 她虽然是个老师，但他对小孩没有耐心
             - Teacher as she is,she isn't patient with children. # 虽然她是个老师，但他对小孩没有耐心
+            - patience n. 耐心，毅力，忍耐力，恒心
             - patient adj. 有耐心的 n. 病人
             - be patient with # 对...有耐心
         - Whether it rains or not,the final games will be played. # 无论是否下雨，决赛仍会进行
@@ -2177,7 +2178,7 @@
       - in 表示经过的时间 A....B 最后时间会在 B 时间之后
         - I'll be back in a few days. # 我会过几天回来
       - within 表示在时间期限之内，时间一定会在 A和B之间
-        - He'll come back within an hour. # 我会在一个小时回来
+        - He'll come back within an hour. # 我会在一个小时内回来
     - for（持续）/during（在..期间）
       - for 表示动作或状态持续的时间长度
         - He will stay for a few days. # 他会呆几天
@@ -2190,7 +2191,7 @@
         - I have been busy since yesterday.（他从昨天就很忙）
 
   - 表示地点的介系词
-    - in + 都市，国名/on + 街道/at + 门牌号码
+    - in + 都市，国名   /   on + 街道   /   at + 门牌号码
     - 介词 + the/所有格 + 地点
       - at 表示确切的地点
         - The train stopped at Taipei Station. # 这辆火车在台北车站停靠
@@ -2257,7 +2258,7 @@
           那学生坐在我背后。
         - after 与 behind 用于指时间时，前者强调时间的先后顺序，而后者则着重于表示“落后……”或“迟于……”的概念。试比较：
         
-          Who ruled after James I?
+          Who ruled after James I?（注意这里的 I 是罗马数字的 1，由于输入法不便于输入，所以替代之）
           詹姆斯一世之后是谁统治的？
           You are forty minutes behind schedule.
           你比规定的时间迟了40分钟。
@@ -2302,7 +2303,7 @@
     - into（向..里面），out of（在..之外），in，on
       - into 从外面向里面，out of 是从里面向外面
       - 举例
-        - Mary hurried into her room. # 玛莉匆忙进入她的卧室
+        - Mary hurried into her room. # 玛莉匆忙进入她的卧室（这里的各词性不了解??）
         - I jumped out of the bed. 我从床上跳起来了
     - in 的举例
       - Tom lives in New York. # 汤姆住在纽约（in 在...地方）
@@ -8183,6 +8184,8 @@
       - straight
       - do one's part  # 尽某人的本份
       - ramor # 谣言
+      - Parise # n. 巴黎
+      - praise # v. 称赞，表扬，赞扬，歌颂 n. 表扬
    - 对于上文有疑问和错误可能的地方：由两个英文问号备注 ??
    - 修饰
       - much,very much 修饰动词；      very 不能修饰动词
