@@ -2459,9 +2459,9 @@
             - We could not but laugh to see them. # 看到它我们不禁笑了，cant not but + v 表示禁不住~
          - 表结果
             - 有时会伴随 only，never，有[失望]之意
-            - He awoke in the middle of the night to see him softly go out of the room. # 他在半夜醒来看到他轻轻地悄悄地走出房间
+            - He awoke in the middle of the night to see him softly go out of the room. # 他在半夜醒来看到他轻轻地悄悄地走出房间（awake-awoke-awoken）
             - We were separated never to see each other again. # 我们被分开没有再见到彼此
-            - The police hurried to the house only to find (that) it was empty. # 警察赶到那栋房子结果只见它已经空无一人
+            - The police hurried to the house only to find <that> it was empty. # 警察赶到那栋房子结果只见它已经空无一人
          - 表条件
             - 用来修饰假设语气的主要子句
                1. To hear him talk on the phone,you would take him for his brother. # 如果你听到它在打电话，你会以为是他的哥哥
