@@ -2479,11 +2479,11 @@
                - We are apt to make mistakes. # 我们容易犯错 
                - 虽然easy也是“容易”的意思，但是easy是对于事务的
                - 而 be apt to 这里的“容易”是一种倾向性的，区别明显要分开
-            - be ready to v. # 愿意~，易于~
+            - be ready to v. # 愿意~，易于~（这里的 ready 是 adj.）
                - I am ready to help you. # 我愿意帮助你
                   - ready 是形容词
                - He is too ready to suspect anything. # 他极为容易怀疑任何事
-            - be willing to # 乐意~ （这里的 willing 是形容词）
+            - be willing to # 乐意~ （这里的 willing 是 adj.）
                - be glad to v. # 很乐意...，很高兴...
                - I am willing to play games with you. # 我乐意和你玩游戏
             - be eager to v.        # 渴望...（这里的 eager 是形容词）
