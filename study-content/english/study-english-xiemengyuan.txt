@@ -2363,8 +2363,8 @@
       - I have to be home by ten o'clock. # 我必须在10点前回家（by 不晚于...[表期限]）
       - We go to school by bus. # 我坐公车上学（by 乘坐...[交通工具]）
       - What time is it by your watch? # 你的手表时间多久了？（by 以...为基准）
-      - He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）
-
+      - He is older than I by two years. # 他比我大两岁（by 只差...[表差异或程度）（这里 I 应该改为 me，此处语法错误了??）
+ 
 ----------------------------------- 高 一 -----------------------------------
 
 * 不定式
