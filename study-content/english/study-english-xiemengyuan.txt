@@ -1227,8 +1227,8 @@
             - Mark appeared calm. # 马克似乎很冷静（这里 appeared 是“似乎”是动词，作连缀动词使用）
             - Mark appeared suddenly at the door. 马克突然出现在门口（这里 appeared 是“出现”，是动词，不是作连缀动词使用）
           - 根 like + n. 情况
-            - It soulds like a true story. # 它听起来像一个真实的故事
-              - It soulds great. # 它听起来很棒（这里是根形容词情况）
+            - It sounded like a true story. # 它听起来像一个真实的故事（sound-sounded-sounded）
+              - It sounded great. # 它听起来很棒（这里是根形容词情况）
             - The cloth feels like silk. # 这块布摸起来像丝绸
               - The cloth feels soft. # 这块布摸起来很软（这里是根形容词情况）
           - 注意 feel like + Ving # 想要... ；feel like n. # 摸起来像... ；feel like adj. # 大概...似的
@@ -2054,10 +2054,10 @@
           - 当然如果有多个 that 子句，那么除了第一个 that 可以省略外其它都是不可以省略的
       - that作同位语
         - My friend Maria is a good student.（这里的 Maria 是 My friend，地位相同，称为同位语）
-        - 例如：a ramor that + s + v 及 news that + s + v 中
+        - 例如：a rumor that + s + v 及 news that + s + v 中
           - that 子句 和 a rumor/news 为同位语
           - news # 新闻（不可数）
-          - ramor # 谣言
+          - rumor # 谣言
           - I heard the news that a new student would join our class.
             - that a new student would join our class 是 the news 的同位语
 
@@ -2482,7 +2482,7 @@
             - be ready to v. # 愿意~，易于~（这里的 ready 是 adj.）
                - I am ready to help you. # 我愿意帮助你
                   - ready 是形容词
-               - He is too ready to suspect anything. # 他极为容易怀疑任何事
+               - He is too ready to suspect anything. # 他极为容易怀疑任何事（这里不是 too...to 形式 ??）
             - be willing to # 乐意~ （这里的 willing 是 adj.）
                - be glad to v. # 很乐意...，很高兴...
                - I am willing to play games with you. # 我乐意和你玩游戏
@@ -2611,12 +2611,12 @@
                - He makes it a rule to keep good hours. # 他习惯早睡早起
                   - make it a rule to v. # 习惯...
             8. seem（似乎）, appear（似乎）, happen（碰巧）, prove（证明） 等 + to v.
-               - S + seem[appear] + adj./to v. => It seems(appears) that + S + 动词
+               - 以上动词除了 prove 都右边的格式：S + seem[appear] + adj./to v. => It seems(appears) that + S + 动词
                - seem 和 appear 后面可以根形容词，注意 prove 后面不能根形容词
                1. My dog seems to understand what I said.（我的狗似乎了解我说的话）
                   - 这里用 said 表明我的狗了解我刚刚说的话，如果用 say 则是表明我的狗一直了解我说的话
                   - 转型：It seems that my dog understands what I said.
-               2. children appeared (to be) pleased with their presents.（小朋友们似乎很喜欢他们的礼物）
+               2. children appeared <to be> pleased with their presents.（小朋友们似乎很喜欢他们的礼物）
                   - appeared 之后可以根形容词，所以可以省略 to be
                   - 转型：It appeared that the children were pleased with their presents.
                3. happen(chance) to v. # 碰巧~
@@ -2650,15 +2650,15 @@
                      - 这里不能用 want to，因为前面半句是努力的结果
             10. 不定词的被动态，进行式，完成不词
                - 不定词的被动： to v. => to be p.p
-                  - I like to teach.
-                     - I like to be taught.
+                  - I like to teach. # 我喜欢教导
+                     - I like to be taught. # 我喜欢被人教
                   - There is a lot to do yet.
                      - There is a lot to be done yet.
                - 不定词的进行式：to v. => to be ving.
                   - They seem to be waiting for us. # 他们似乎正在等我们
                - 表示比术语动词更早的时态 to has/have/had p.p
                   - 不定式的完成式：to v. => to has/have/had p.p.
-                     - The child seems (to be) sick. # 这个孩子似乎病了
+                     - The child seems <to be> sick. # 这个孩子似乎病了
                         - It seems that the child is sick.
                         - 这个孩子现在在生病
                      - The child seems to have been sick. # 这个孩子似乎病了
@@ -2715,7 +2715,7 @@
                      - 如果副词本身有否定的含义则放到 to 前面
                - 独立不定词
                   - to speak strictly 严格来说
-                  - to be frank (with you) 坦白说
+                  - to be frank <with you> 坦白说
                   - to begin with 一开始
                   - to tell the truth 老实说
                   - to be honest 诚实说
@@ -2725,11 +2725,11 @@
                   - 更不用说/更别提
                      - to say nothing of n.
                      - not to speak of n.
-                     - not to mention
+                     - not to mention n.
                - 例子
                   1. To begin with,I'll tell you about my cnaracter. # 一开始，我要跟你说我的习惯
                   2. The weather is cold, to make matters worse, it began to rain. # 天气很冷，更糟的是天空又开始下起雨来
-                  3. He can speak French and German, to say nothing of english.
+                  3. He can speak French and German, to say nothing of english. # 他能说法语和德语，更不用说英语了
                   4. To say such a thing would be foolish, not to say crazy. # 说这样的话，即使不能说是疯狂，也是愚蠢的
                      - It would be foolish, not to say crazy, to say such a thing
                         - 这种方式是为了避免头重脚轻，所以用 it 代替一个不定式
@@ -8178,20 +8178,25 @@
 
 
 * 注意的事项
+   - 对于上文有疑问和错误可能的地方：由两个英文问号备注 ??
    - 不熟悉的词
       - convenient # adj. 方便，便宜
       - convertible # n. 敞篷车 adj. 可兑换的；可转换的；可改变的
       - straight
       - do one's part  # 尽某人的本份
-      - ramor # 谣言
+      - rumor # 谣言
       - Parise # n. 巴黎
       - praise # v. 称赞，表扬，赞扬，歌颂 n. 表扬
-   - 对于上文有疑问和错误可能的地方：由两个英文问号备注 ??
    - 修饰
       - much,very much 修饰动词；      very 不能修饰动词
       - much,very much 修饰过去分词；  very 修饰现在分词
       - much 修饰比较级和最高级；      very 修饰原级和最高级
    - 附加疑问句/反向问句 重看
+   - 2527 ~ 2553 line 对特殊动词必须用 to 不定式的情况，2527 ~ 不定式结束 的所有内容
+   - 名词的“声音”
+      - sound # 侧重于：统称意义的声音
+      - voice # 侧重于：指嗓音，歌唱音，电台音，叫声等具备发出的声音
+      - noise # 侧重于：噪音，喧音
    - be full of 与 be filled with # 充满，装满
       - be full of 更侧重于表示充满的状态
          - The room is full of people # 房间里挤满了人
