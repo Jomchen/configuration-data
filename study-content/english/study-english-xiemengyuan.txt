@@ -317,7 +317,7 @@
  - 比较级的几种情况，范围和个体，个体和范围等的比较
 
 
-自我学习进度 *********************************** 复习：321 line <--> 学习：2364 line
+自我学习进度 *********************************** 复习：321 line <--> 学习：2788 line
 
 ----------------------------------- 国 一 -----------------------------------
 
@@ -2801,7 +2801,7 @@
          - He is given to lying. # 他爱说谎
          - given 有~样的习惯，作形容词
       - He prefers skiing to skating. # 他喜欢滑雪而不是溜冰（这里的 to 是介词）
-      - He prefers to ski rather than skate. # 他喜欢滑雪而不是沑冰（to 是不定式）
+      - He prefers to ski rather than skate. # 他喜欢滑雪而不是溜冰（to 是不定式）
       - 下列表现，to 之后用不定式或动名词皆可
          1. He is accustomed to live alone. # 他习惯个人住
             - to live 可以改为 to living 
@@ -2819,8 +2819,8 @@
       - 必须动名词当受词
          - admit（承认）, avoid, finish, escape（免除）, suggest（建议）等
          - Have you finished writing an answer to his letter? 你写完回信了吗？
-         - Forturnately, he escaped getting hurt.（很幸运地，他恢复了）
-            - Forturnately 幸运地
+         - Fortunately, he escaped getting hurt.（很幸运地，他恢复了）
+            - Fortunately 幸运地
             - escap 免于...
       - 下列动词，其受词为不定式或动名词 意思不变
          - start, begin, cease（停止）, intend（意图..，想要..）, propose（建议，提议） 等
