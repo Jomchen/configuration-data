@@ -2997,7 +2997,7 @@
                - 这里 rains 是一个动词
                - 这里的 will/shall 是助动词
                - ##假设是在未来，事实是在现在##
-            - I think (that) it will rain tomorrow. 我认为明天会下雨（这是对一个情况的陈述，不是假设）
+            - I think <that> it will rain tomorrow. 我认为明天会下雨（这是对一个情况的陈述，不是假设）
          4. 主词 + 动词 + that + 假设法现在式
             - suggest(建议), demand(要求）, insist(坚持), agree(同意)...等
             - I suggest that everyone <should> help in some way. 我建议每个人应该以某种方式帮忙
