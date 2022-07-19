@@ -1,0 +1,12 @@
+如果调试的是 C/C++ 则
+* C/C++
+   - 安装基础环境
+      - 安装 gcc（windows 应该安装 MinGW 并配置环境变量）
+         - 执行 g++ -v 命令检测是否环境变量配置成功
+   - 安装debug调试工具，否则debug调试时会出错
+      - 安装 gdb
+   - 安装插件
+      - C/C++
+      - C/C++ Extension Pack
+      - C/C++ Themes
+      - Code Runner
