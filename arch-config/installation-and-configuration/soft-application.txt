@@ -1,4 +1,5 @@
-yay -S dingtalk-bin
-yay -S wps-office-cn
-yay -S wps-office-fonts
-yay -S wps-office-mui-zh-cn
+yay -S dingtalk-bin               # 钉钉
+yay -S wps-office-cn              # wps
+yay -S wps-office-fonts           # wps字体
+yay -S wps-office-mui-zh-cn       # wps的中文依赖包
+yay -S wechat-uos                 # 微信
