@@ -3232,7 +3232,7 @@
                - go aboard 上到船上去
                - overseas “海外地”，也是作副词
                - overseas Chinese “海外华侨”
-            - 否定：Neither/None of my friends went abroad for abroad advanced study. 我的两个朋友都没有到国外深造
+            - 否定：Neither/None of my friends went abroad for abroad advanced study. 我的两个朋友都没有到国外深造/我没有一个朋友去国外进修
                - neither / none # 无一
       2. all 相关的否定
          - 数量在三或三以上用 all
@@ -3313,6 +3313,7 @@
          - alarm 报警，警报，clock 时钟，所以两个单词连起来的意思则是 “闹钟”
          - go off 本来是“下车”，但是和 clock 配合则表示 “响” 的意思
       11. Heavy fog kept us from driving fast. # 浓雾使得我们免于开快车（浓雾防止我们开快车）
+         - fog # n. 雾 frog # n. 青蛙
          - 阻止...；防止...
             - keep...from...; hinder...from...
             - stop...from...; protect...from...
