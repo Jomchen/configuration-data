@@ -3380,7 +3380,7 @@
          2. I have met him at the meeting.
          3. I began to sing(= singing). # 我开始唱歌
          4. He enjoyed playing tennis. # 他享受打网球
-         5. He knew who to ask. # 他知道问什么
+         5. He knew who to ask. # 他知道问谁
          6. I believed what he said. # 我相信他说的
          7. The ambulances sent the injured to the hospital. # 救护车将伤员送到了医院
       - 补语-名词，形容词，副词的相等语
@@ -3459,13 +3459,12 @@
                         - outgo # 支出
                      - Happy memories came and went in my mind. # 快乐的回忆在我脑海中流过
                      - Jason and Jack rushed into the class room. # Jason and Jack 冲进了教室
-                        - 这句真的是单句吗？难道 the class room 不是受词吗？
                - 合句->由对等连接词连接的两对等子句
                   - I missed the last train,so I took a taxi home. # 我错过了末班火车，所以搭计程车回家
                      - so 是连接词
+                     - 这里的 home 是作副词
                      - taxi 和 home 之间不能加 to，因为副词不能配介系词，
                      - 介系词一定要配名词前面，介系词放在名词前面表示特殊含义的
-                     - 这里的 home 是作副词
                   - 驾驶员试着要控制住那辆车，但它还是撞上树干
                      - The driver tried to control the car, but it crashed into a tree.
                         - crashed 可以替换为 bump 的过去式
@@ -3492,7 +3491,7 @@
             - 完全动词 S.+V. => I cried.
                                 - -----
             - 不完全动词 S.+V.+C. => I am a teacher.
-                                  - -- - -------
+                                     - -- - -------
          3. 及物动词vt.
             - 完全动词 S.+V.+O. => I love you.
                                    - ---- ----
@@ -8198,6 +8197,11 @@
       - sound # 侧重于：统称意义的声音
       - voice # 侧重于：指嗓音，歌唱音，电台音，叫声等具备发出的声音
       - noise # 侧重于：噪音，喧音
+   - 一些容易搞混的单词或词组区别
+      - ask of # 向（某人）要求
+         - I have a favour to ask of you. # 我要请你帮个忙
+      - ask for # 请求，要求；寻找
+         - He asked me for the book. # 他向我要那本书
    - be full of 与 be filled with # 充满，装满
       - be full of 更侧重于表示充满的状态
          - The room is full of people # 房间里挤满了人
