@@ -3346,7 +3346,7 @@
       - The book on the desk is mine. # 放在桌面上的书是我的
       - I put my books on the desk. # 我把书放到桌上
       - I don't know what to do. # 我不知道做什么
-   - 子句-子句为兔子的一部分，其本身含有主词+动词
+   - 子句-子句为句子的一部分，其本身含有主词+动词
       - That I love you is true. # 我爱你是真的
       - 对等子句
          - Jane went out, but Mike stayed home. # 简出去了，但是迈克呆在家
