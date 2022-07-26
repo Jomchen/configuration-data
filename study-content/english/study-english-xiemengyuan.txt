@@ -3548,7 +3548,7 @@
                   - The poor little girl ran away from the two-headed snake in a fright. # 那可怜的小女孩惊恐地逃离两头蛇
          - 第二句型 S + V + C（这里的 V 是连缀动词）
             - 此句型中的动词可分下列四种：
-               0. “躺”的三态 lie - lay -lain
+               0. “躺”的三态 lie - lay - lain
                1. 表状态的 be, lie, sit, stand, start, rest, remain, keep 等
                   1. He lay still on the bed. # 他仍躺在床上
                   2. My uncle stayed a bachelor all his life. # 我叔叔一辈子都是单身汉
