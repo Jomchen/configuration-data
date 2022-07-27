@@ -3596,7 +3596,7 @@
                      3. feel like n./ving
                - 翻译练习
                   - They look lively in the picture <which> I took. # 它们在我拍的照片中看起来很生动
-                  - The problem of air problem in cities has become more and more serious. # 都市中空气污染的问题已经变得越来严重了
+                  - The problem of air pollution in cities has become more and more serious. # 都市中空气污染的问题已经变得越来严重了
          - 第三句型 S + V + O
             - I didn't understand the meaning of his words. # 我不理解他话里的意思
             - The man robbed hime of all his money. # 这个男人抢了他所有的钱（这样语法有问题，会认为他抢了他自己的钱）
@@ -3610,7 +3610,7 @@
             - 动词 dream,sleep,live,die,fight,smile 等 都既可以作动词又可以作名词的词 => 同族受词
                1. I dreamed a strange dream last night. 昨晚我做了一个奇怪的梦
                2. I slept a sound sleep in the soft bed. 我在柔软的床上睡了一个好觉
-               3. She lived an unhappy life. 她过了个不开心的生活
+               3. She lived an unhappy life. 她过了个不开心的生活（这里应该把 life 改为 live 吗??）
                4. He died a miserable death. 他死得很凄惨
                5. They fought a good fight. 他们赢了架
                6. She smiled a sweet smile. 她笑得很甜/她微笑起来很甜蜜
