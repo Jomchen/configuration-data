@@ -71,7 +71,7 @@ mvn clean compile package && java -jar \
       - https://www.codenong.com/15202997/
    - 解析 wait() await() sleep() park() 的区别
       - https://blog.csdn.net/weixin_43587472/article/details/114106369
-   - Type 类型
+   - Type 类型（泛型）
       - https://www.cnblogs.com/linghu-java/p/8067886.html
       - https://www.jianshu.com/p/39cc237ad815
    - Spring Event 事件通知机制 https://blog.csdn.net/chengbinbbs/article/details/88409951
