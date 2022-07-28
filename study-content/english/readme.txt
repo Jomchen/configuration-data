@@ -1410,7 +1410,7 @@ worry about 为...而担心
           - some...,and the others...（可数）
 
     26. 注意
-       - had nothing to do with 与...有关
+       - had nothing to do with 与...无关
        - had much to do with 与...很有关
        - had little to do with 与...有一点关
 
