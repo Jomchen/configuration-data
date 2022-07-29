@@ -22,6 +22,13 @@
      4. 因为 cscope 只识别后缀为 h,p,c 的文件，即只支持c语言，所以需要手工处理
    - 在vim 中只需要 `:cscope add cscope.file` 即可建立索引
 
+## 四大模式
+   - 普通模式
+   - 命令模式
+      - :a,$s/原字符串/替换字符串/gc          # 从a行到最后一行进行替换
+   - 插入模式
+   - 视图模式
+
 ## 小技巧
    - 其它
       - 如果把光标放在一个数字上，按 数字 ctr + a 则可以递增对光标所在数字增加递增数字个数(ctrl + x 是递减)
@@ -157,16 +164,21 @@
       "+ 是指外部在剪贴板中的内容，这里才是要粘贴出来的内容
       "* 是指鼠标选中的内容
       ```
-   - 在插入模式下
-      ```
-      "= 可以进入指命模式寄存器，在下栏中输入一个计算表达式可以计算值并存在指命寄存器中
-      ctrl + r 再输入寄存器名 可以把相应寄存器中的数据粘贴出来
-      ```
    - 在普通模式下
       ```
       "a~z 再执行复制或删除或剪切命令，可以把相应的操作内容放在相应的寄存器中
       如果是用大写的字母作为寄存器名，则是把操作内容累加在相应小写的寄存器中
       "a~z 再执行粘贴可以把相应寄存器中的内容粘贴出来
+      ```
+   - 在插入模式下
+      ```
+      "= 可以进入指命模式寄存器，在下栏中输入一个计算表达式可以计算值并存在指命寄存器中
+      ctrl + r 再输入寄存器名 可以把相应寄存器中的数据粘贴出来
+      ```
+   - 在命令模式下
+      ```
+      把 [a,b] 行范围的内容复制到 指定寄存器中
+      :a,by 寄存器名
       ```
 
 
@@ -219,58 +231,58 @@
          ```
 
 
-- ### 贪婪/懒惰
-   - #### 一般情况下默认是匹配尽可能长的
-   - #### perl 正则格式
-    ```
-    *------*---------------------------*
-    | 符号 |        说明               |
-    *------*---------------------------*
-    |{-}   |0个或多个，尽可能少的匹配  |
-    *------*---------------------------*
-    |{-n,m}|n个或多个，尽可能少的匹配  |
-    *------*---------------------------*
-    |{-n, }|至少匹配n次，尽可能少的匹配|
-    *------*---------------------------*
-    |{-, m}|至多匹配m次，尽可能少的匹配|
-    *------*---------------------------*
-    ```
-   - #### vim 正则格式
-      ```
-      - vim中的匹配实在是不如perl好用，一直想实现非贪婪匹配，今天偶然发现可以用量词匹配来实现，具体可以看:h /\{
-      \{n,m} Matches n to m of the preceding atom, as many as possible
-      \{n} Matches n of the preceding atom
-      \{n,} Matches at least n of the preceding atom, as many as possible
-      \{,m} Matches 0 to m of the preceding atom, as many as possible
-      \{} Matches 0 or more of the preceding atom, as many as possible (like *)
-      \{-n,m} matches n to m of the preceding atom, as few as possible
-      \{-n} matches n of the preceding atom
-      \{-n,} matches at least n of the preceding atom, as few as possible
-      \{-,m} matches 0 to m of the preceding atom, as few as possible
-      \{-} matches 0 or more of the preceding atom, as few as possible
-      也就是.\{-}可以实现.*的非贪婪匹配，.\{-1,}可以实现.+的非贪婪匹配。
-      ```
-
-   - ### 零宽断言
-      ```
-      在各种常用工具对比中，我看到vim是支持计数的，而且似乎大部分常用的正则元字符都与perl兼容，比如\s,\d,\D,\w,\W, <
-      但vim不支持\b，即单次边界。另外，vim中比较麻烦的是它似乎支持的是BRE（基本正则表达式，posix定义的），BRE中所有括号都不是元字符，因为作为元字符的是\(,\{。比如vim中匹配连续3个9，你得用9\{3\}，原来我一直以为不支持，但我还是觉得麻烦了一点，grep默认也是使用的这种BRE。好吧，我发现网上文章说了一个小小的偷懒情况，VIM中匹配999也可以写成9\{3}，也就是说少了结尾的\。
-      与perl相比，(?换成了\@，并且这个符号应该跟在匹配模式的后边。
-      vim    Perl 意义 
-      \@=    (?= 顺序环视 
-      eg:查找后面是sql的my： /my\(sql\)\\@=
-      \@!    (?! 顺序否定环视 
-      eg:查找后面不是sql的my： /my\(sql\)\\@!
-      \@<=   (?<= 逆序环视 
-      eg: 查找前面是my的sql： /\(my\)\\@<=sql
-      \@<!   (?<! 逆序否定环视 
-      eg:查找前面不是my的sql： /\(my\)\\@<!sql
-      \@>    (?> 固化分组 
-      \%(atom\)   (?: 非捕获型括号
-      意思是，此分组不捕获，可以理解为不算在分组信息中，eg：
-      :%s/\%(my\)sql\(ok\)/\1
-      上面的命令会将mysqlok替换为 ok ，由于my为捕获在分组中，故组中\1 为ok。
-      ```
+   - ### 贪婪/懒惰
+      - #### 一般情况下默认是匹配尽可能长的
+      - #### perl 正则格式
+       ```
+       *------*---------------------------*
+       | 符号 |        说明               |
+       *------*---------------------------*
+       |{-}   |0个或多个，尽可能少的匹配  |
+       *------*---------------------------*
+       |{-n,m}|n个或多个，尽可能少的匹配  |
+       *------*---------------------------*
+       |{-n, }|至少匹配n次，尽可能少的匹配|
+       *------*---------------------------*
+       |{-, m}|至多匹配m次，尽可能少的匹配|
+       *------*---------------------------*
+       ```
+      - #### vim 正则格式
+         ```
+         - vim中的匹配实在是不如perl好用，一直想实现非贪婪匹配，今天偶然发现可以用量词匹配来实现，具体可以看:h /\{
+         \{n,m} Matches n to m of the preceding atom, as many as possible
+         \{n} Matches n of the preceding atom
+         \{n,} Matches at least n of the preceding atom, as many as possible
+         \{,m} Matches 0 to m of the preceding atom, as many as possible
+         \{} Matches 0 or more of the preceding atom, as many as possible (like *)
+         \{-n,m} matches n to m of the preceding atom, as few as possible
+         \{-n} matches n of the preceding atom
+         \{-n,} matches at least n of the preceding atom, as few as possible
+         \{-,m} matches 0 to m of the preceding atom, as few as possible
+         \{-} matches 0 or more of the preceding atom, as few as possible
+         也就是.\{-}可以实现.*的非贪婪匹配，.\{-1,}可以实现.+的非贪婪匹配。
+         ```
+   
+      - ### 零宽断言
+         ```
+         在各种常用工具对比中，我看到vim是支持计数的，而且似乎大部分常用的正则元字符都与perl兼容，比如\s,\d,\D,\w,\W, <
+         但vim不支持\b，即单次边界。另外，vim中比较麻烦的是它似乎支持的是BRE（基本正则表达式，posix定义的），BRE中所有括号都不是元字符，因为作为元字符的是\(,\{。比如vim中匹配连续3个9，你得用9\{3\}，原来我一直以为不支持，但我还是觉得麻烦了一点，grep默认也是使用的这种BRE。好吧，我发现网上文章说了一个小小的偷懒情况，VIM中匹配999也可以写成9\{3}，也就是说少了结尾的\。
+         与perl相比，(?换成了\@，并且这个符号应该跟在匹配模式的后边。
+         vim    Perl 意义 
+         \@=    (?= 顺序环视 
+         eg:查找后面是sql的my： /my\(sql\)\\@=
+         \@!    (?! 顺序否定环视 
+         eg:查找后面不是sql的my： /my\(sql\)\\@!
+         \@<=   (?<= 逆序环视 
+         eg: 查找前面是my的sql： /\(my\)\\@<=sql
+         \@<!   (?<! 逆序否定环视 
+         eg:查找前面不是my的sql： /\(my\)\\@<!sql
+         \@>    (?> 固化分组 
+         \%(atom\)   (?: 非捕获型括号
+         意思是，此分组不捕获，可以理解为不算在分组信息中，eg：
+         :%s/\%(my\)sql\(ok\)/\1
+         上面的命令会将mysqlok替换为 ok ，由于my为捕获在分组中，故组中\1 为ok。
+         ```
 
 ## 宏（高级功能）
    - 宏的步骤
