@@ -8016,12 +8016,12 @@
                            - My mother insisted that my elder sister (should) arrive back before midnight. 我母亲坚持我姐姐应该在午夜前到家
                            - It is nessary that you (should) make up your mind. 你下定决心是必要的
                         - 重点：that 子句若在第5句型（S+V+O+C）中当受词时，须用虚拟词 it 代替
-                           - 主词 + find,make,consider,thin,believe 等 + it + OC + that子句/Ving/to v.
-                           - We consider that it is important to learn to make use of a dictionary. 我们认为学习使用字典是重要的
+                           - 主词 + find,make,consider,thin,believe 等 + it + OC + that子句/Ving/to v.（这里的 OC 是什么??）
+                           - We consider that it is important to learn to make use of a dictionary. 我们认为学习使用字典是重要的（其它语法解释 S V that it is adj. to do 是错误的语法??）
                               - We consider it important to learn to make use of a dictionary.
                                  - 稍微解析，it 和 important 之间没有 is 是因为 it 是受词，而不是主词，所以没有 is，以下两句同理
                               - We consider it important learning to make use of a dictionary.
-                              - We consider it important we learn to make use of a dictionary.
+                              - We consider it important we learn to make use of a dictionary.（这里是否差了个 that??）
                            - Many people find it strange that Americans move from place to place so often. 
                               - 许多人发现美国人经常搬家很奇怪
                            - I thought it rather odd that he hadn't come to the party which he had been looking forward to so much.
