@@ -392,103 +392,21 @@
             - https://www.jianshu.com/p/d8963538bcd9
             - 百度搜索 “archlinux 设置默认字段大小”
 
-   - 必装软件
-      - pacman -S dhcpcd               # 动态ip分配
-      - pacman -S wpa_supplicant       # 动态ip分配
-      - pacman -S NetworkManager       # 网络管理工具
-      - pacman -S iproute2             # 提供对 network interface, ipaddress, routing table 的管理，工具包中饮食 ip, ss, 等命令
-         - iproute2 是对 net-tool 包的替换
-            ```
-            arp      -> ip neighbor
-            ifconfig -> ip address, ip link
-            netstat  -> ss
-            route    -> ip route
-            ```
-      - pacman -S net-tool             # 提供了 arp 命令等
-         - 由 iproute2 包中的 ip neighbor 命令替代
-      - pacman -S nmap                 # 提供网络发现和探索功能，且有对查看远程端口是否开放的功能
-   - 其它重要软件
-      - filezilla                      # FTP 文件传输工具
-      - pacman -S vlc                  # 视频播放器
-      - pacman -S github-desktop       # git 操作视图工具
-      - pacman -S fzf                  # 终端下命令行快速查找工具（即时输入即时查询）
-      - pacman -S neofetch             # 优雅显示系统信息log
-      - pacman -S lolcat               # 让输出颜色以渐变形式渲染
-      - pacman -S xf86-input-synaptics # 触摸板驱动，笔记本可装，台式不装
-      - pacman -S w3m                  # 终端浏览器，实际可在终端预览视频和图片
-      - pacman -S picom                # 窗口透明
-         - 全局配置文件一般是 /etc/xdg/picom.conf
-      - pacman -S feh                  # 图片查看器
-      - pacman -S htop                 # 进程查看器
-      - pacman -S keynav               # 鼠标替代
-      - pacman -S ranger               # 快速搜索
-      - pacman -S tlp                  # 电源管理
-         - 可能因节能等原因 造成蓝牙键盘无法连接或其它因为节能造成的问题
-         - 熟悉后再特殊配置以支持蓝牙键盘连接，暂时不安装，安装需要特殊配置
-      - 声卡
-         - pacman -S alsa-utils           # 安装音频工具
-            - alsa-mixer                  # 调起声音控制台
-            - alsa 默认在内核所以只需安装调度工具
-            - 包含 alsamixer, amixer 命令
-            - 默认静音，解决方案
-               - amixer sset Master unmute
-               - amixer sset Speaker unmute
-               - amixer sset Headphone unmute
-      - 蓝牙
-         - pacman -S bluez                   # 提供蓝牙协议栈
-         - pacman -S bluez-utils             # 提供蓝牙 bluetoothctl 命令工具
-         - pacman -S blueman                 # 蓝牙可视化工具（推荐）
-      - Linux 视频剪辑软件
-         - https://www.linuxprobe.com/linux-best-video.html
-         - 如果你需要一个简单的视频编辑器，OpenShot、Kdenlive 和 Flowblade 是一个不错的选择。这些软件是适合初学者的，并且带有标准规范的系统。
-         - 如果你有一个高性能的计算机，并且需要高级功能，你可以使用 Lightworks。如果你正在寻找更高级的功能， Blender 可以帮助你。
-         - 这就是我写的 5 个最佳的视频编辑软件，它们可以在 Ubuntu、Linux Mint、Elementary 和其他 Linux 发行版下使用。 请与我们分享您最喜欢的视频编辑器。
-         - 注意
-            - lightworks 有两个版本：Lightworks 免费版和 Lightworks 专业版。
-            - 不过免费版本不支持 Vimeo（H.264 / MPEG-4）和 YouTube（H.264 / MPEG-4） - 高达 2160p（4K UHD）、蓝光和 H.264 / MP4 导出选项，
-            - 以及可配置的位速率设置，但是专业版本支持
-         - 软件
-            - Kdenlive   通用视频编辑       自由开源
-            - OpenShot   通用视频编辑       自由开源
-            - Shotcut    通用视频编辑       自由开源
-            - Flowblade  通用视频编辑       自由开源
-            - Lightworks 专业级视频编辑     免费增值
-            - Blender    专业级三维编辑     自由开源
-            - Cinelerra  通用视频编辑       自由开源
-            - DaVinci    专业级视频处理编辑 免费增值
-            - VidCutter  简单视频拆分合并   自由开源
-      - Linux 图片编辑软件
-         - GIMP（堪称 The true Photoshop alternative）
-         - Krita
-         - Darktable
-         - Inkscape
-         - digiKam
-      - pacman -S wine                    # windows 的虚拟容器
-      - pacman -S Fiddler4                # 抓包工具（未使用过，不清楚情况）
-      - pacman -S wireshark-qt            # 视图化的抓包工具（与命令性质的择其一安装）
-         - pacman -S wireshark-cli        # 命令性质的抓包工具
-      - Progress Telerik Fiddler Web Debbugger # 手机抓包工具
-      - pacman -S screenkey               # 按键动态展示（当有键盘按键时，在屏幕底层会显示，一般录屏比较有用）
-      - pacman -S arp-scan                # 一个靠 arp 协议发现本地网络设备的工具（不建议安装）
-         - 已经被 ip neighbour 替代
-      - pacman -S zip                     # zip 压缩工具
-      - pacman -S unzip                   # zip 解压工具
-      - pacman -S ntfs-3g                 # 可以挂载 ntfs 的软件支持
-      - pacman -S openssh                 # openssh 工具
-      - pacman -S remmina                 # 一个远程工具，支持多种协议
-         - pacman -S freerdp              # 安装rdp组件以支持连接windows
-      - pacman -S tigervnc                # 远程视图工具（已包含客户端和服务端）
-         - 安装完后可以使用 vncviewer 命令 窗口
-      - pacman -S git                     # 版本控制工具
-      - pacman -S flameshot               # 截图工具
-         - 引用教程地址 https://linux265.c/3848.html
-      - pacman -S galculator              # 计算器
-      - pacman -S thunar                  # 文件管理器，此包如果安装xfce桌面环境则会自动安装
-      - yay -S wps-office-cn              # 安装 wps 主体
-      - yay -S wps-office-fonts           # 安装 wps 需要字体
-      - yay -S wps-office-mui-zh-cn       # 如果wps不是中文界面，可以安装此组件
-      - pacman -S gucharmap               # 用以查找指定字体是否有相同的字符
-      - yay -S weylus                     # 远程同屏软件（需要 aur 支持）
+   - 安装软件
+      - 必装软件
+         - pacman -S dhcpcd               # 动态ip分配
+         - pacman -S wpa_supplicant       # 无线网应用
+         - pacman -S NetworkManager       # 网络管理工具
+         - pacman -S iproute2             # 提供对 network interface, ipaddress, routing table 的管理，工具包中饮食 ip, ss, 等命令
+            - iproute2 是对 net-tool 包的替换
+               ```
+               arp      -> ip neighbor
+               ifconfig -> ip address, ip link
+               netstat  -> ss
+               route    -> ip route
+               ```
+      - 非必装软件
+         - 见 soft-application.txt
       - 安装字体
          - yay -S nerd-fonts-incon
             - 如果有多个选项，则选 archlinuxcn/nerd-fonts-inconsolata-lgc 的版本
@@ -537,9 +455,6 @@
             echo "Objects         🎤 U+1F3A4 Microphone           🥁 U+1F941 Drum With Drumsticks"
             echo "Symbols         🆓 U+1F193 Squared Free         🛐 U+1F6D0 Place Of Worship "
             echo "Flags           🎌 U+1F38C Crossed Flags        🏴 U+1F3F4 Waving Black Flag"
-               - 其它将要软件
-                  - rtorrent # 命令行BT客户端
-                  - ffmpeg # 音视频流化工具
             ```
 
 
