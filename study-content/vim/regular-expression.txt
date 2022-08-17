@@ -13,6 +13,8 @@ This is ==) LINUX()
 This is ==| LINUX|
 This is ==/ LINUX/
 This is ==\ LINUX\
+This is ==// LINUX//
+This is ==\\ LINUX\\
 This is ==% LINUX%
 This is ==^ LINUX^
 This is ==$ LINUX$
