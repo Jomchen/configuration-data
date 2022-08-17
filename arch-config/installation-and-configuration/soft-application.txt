@@ -4,8 +4,13 @@ yay -S wechat-uos                 # 微信
 yay -S wps-office-cn              # wps主体
 yay -S wps-office-fonts           # wps字体
 yay -S wps-office-mui-zh-cn       # wps的中文依赖包，如果wps不是中文界面可以安装些依赖包
-yay -S translate-shell            # 终端语言翻译工具
-   - 教程 https://baijiahao.baidu.com/s?id=1724568563772422792&wfr=spider&for=pc
+终端翻译工具
+   pacman -S translate-shell            # 终端语言翻译工具
+      - 教程 https://baijiahao.baidu.com/s?id=1724568563772422792&wfr=spider&for=pc
+   fy
+      - https://www.cnblogs.com/fusheng-rextimmy/p/15371057.html
+   Goldendict
+      - http://www.178linux.com/74149
 
 # ****************************** 常用软件 ******************************
 pacman -S gcc                     # C编译工具
