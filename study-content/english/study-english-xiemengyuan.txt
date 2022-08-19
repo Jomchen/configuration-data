@@ -3849,7 +3849,7 @@
             - pay + 钱 for 物 # 为“物”付了多少钱
          - 注意
             - Radio broadcasting started as early as 1920. # 广播早在1920年就开始了
-            - He goes to movies as often as three times a mounth. # 他一个月看电影次数高达三次
+            - He goes to movies as often as three times a month. # 他一个月看电影次数高达三次
       12. as many/much ... （同数/量的）（一样的多）
          1. I found six mistakes in as many lines. 我在六行里找到了六个错误
             - 因为两处用到了 six，本着减少重复的特点而使用此语法
