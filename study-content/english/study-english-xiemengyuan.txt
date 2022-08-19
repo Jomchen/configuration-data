@@ -3839,7 +3839,7 @@
                - have not so much as p.p. # 甚至...都没有
       9. as...as ever 依旧
          - She looks as happy as ever. # 她看起来依旧很快乐
-         - He is as great an artist as ever lived. # 他是有史以灭最伟大的艺术家
+         - He is as great an artist as ever lived. # 他是有史以来最伟大的艺术家
       10. as~as any + 单数名词 # 像任何人一样...
          - He is as hardworking as any (person) in the village. # 他像村子里任何人一样努力工作
             - 因为 as ... as 中间必须是 形容词或副词，所以不能使用 work hard，所以 hardworking 充当形容词
@@ -3886,9 +3886,9 @@
          2. Why don't you use a sharper knife? 你为什么不使用更锋利的刀呢
       - more...than...（与其...不如...）
          1. adj. 在这里的句型，不管是多音节还是单音节，都应该加 more + adj.原级
-         2. She was more sad than angry. 她与其说是生气不如说是难过
-         3. It is more flettery than praise. 与其说是称赞不如说是讨好
-         4. not so much...as... 也有相同的效果
+         2. She was more sad than angry. # 她与其说是生气不如说是难过
+         3. It is more flettery than praise. # 与其说是称赞不如说是讨好
+         4. not so much...as... -> 这个语法形式也有相同的效果
       - 比较级 and 比较级（越来越...）
          1. It's getting darker and darker. 天色变得越来越黑了
          2. Entrance exams are becoming more and more difficult. 大学联考越来越难了
@@ -3896,7 +3896,7 @@
          1. The older we grow,the weaker our memory becomes. # 年纪越大，我们的记忆力就越差
          2. The longer I waited,the less patient I became. # 我等得越久，我就越没有耐心
          3. The more time you have,the more work you can do. # 你有越多的时间，你就可以做越多的工作
-      - <all> the 比较级  for 名词 / because S + V （因为...因此便(更)...）
+      - <all> the 比较级  (for 名词)/(because S + V) （因为...因此便(更)...）
          1. We respect him <all> the more for his honesty. 因为诚实我们更尊敬他
             - We respect him <all> the more because he's honest. 因为诚实我们更尊敬他
             - 加 all 语气会更强
@@ -4010,7 +4010,7 @@
          - 答：Mary and Helen are.（状况明确有两个人，所以回答用 are）
       4. Which of those ships is the May Flower? # 那些船的哪一艘是五月花号
          - 答：The larger one is.（比较级可以知道一共有两个）
-      5. Whose keys are thest? - They're Jom's # 这些钥匙是谁的？- 它们是约翰的
+      5. Whose keys are these? - They're Jom's # 这些钥匙是谁的？- 它们是约翰的
          - Whose are these keys on the desk? 回答：They're Jom's
          - whose 
             - 所有格 + n. 
