@@ -3929,7 +3929,7 @@
             - 例子
                1. I have no more than 100 dollars. 我仅有100美元（确确实实的一百元）
                2. I have not more than 100 dollars. 我有不到100美元（最多一百元）
-               3. I have no less than 100 dollars. 我有100美元这么多（没有少）
+               3. I have no less than 100 dollars. 我有100美元这么多（不会少）
                4. I have not less than 100 dollars. 我最少有100美元
          - 语法2
             - no more/not more/no less/not less ~ than ~
@@ -3938,6 +3938,14 @@
                2. I am not more mad than you are. 我没有你那么疯
                3. I am no less mad than you are. 我比你疯 我不会比你少发疯
                4. I am not less mad than you are. 我不会比你少发疯
+         - 区别比较
+            - 以 I have XXX then dollars. 作语法分析（XXX 替换为以下词组时的区别）
+               - more than           # 有的钱大于 10 dollars
+               - less than           # 有的钱小于 10 dollars
+               - no more than        # 有的钱只有 10 dollars（等价于 only，有悲观语气）
+               - no less than        # 有的钱大于等于 10 dollars （等价于 as many/much as，有多达... 这样的语气，指有的钱没有少）
+               - not more than       # 有的钱小于等于 10 dollars
+               - not less than       # 有的钱大于等于 10 dollars
 
    - 最高级
       - 最高级 + in ~/of ~/that + S + V
