@@ -3942,8 +3942,8 @@
             - 以 I have XXX then dollars. 作语法分析（XXX 替换为以下词组时的区别）
                - more than           # 有的钱大于 10 dollars
                - less than           # 有的钱小于 10 dollars
-               - no more than        # 有的钱只有 10 dollars（等价于 only，有悲观语气）
-               - no less than        # 有的钱大于等于 10 dollars （等价于 as many/much as，有多达... 这样的语气，指有的钱没有少）
+               - no more than        # 有的钱只有 10 dollars（等价于 only，有悲观语气，表达有 10 dallars，但是实际可能小于等于 10 dallars）
+               - no less than        # 有的钱大于等于 10 dollars （等价于 as many/much as，有多达... 这样的语气，但是实际可能大于等于 10 dallars）
                - not more than       # 有的钱小于等于 10 dollars
                - not less than       # 有的钱大于等于 10 dollars
 
