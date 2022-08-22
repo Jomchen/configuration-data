@@ -886,6 +886,7 @@ type-moon 吧
       - sdl_lua 版本：https://github.com/t2meng/jinyong-legend-3ds/tree/0.3
          - 在 release 链接中可以得到源码和数据包
          - 这个是基于 sdl_lua 的复刻完美版？ https://github.com/scarsty/jysdl-bh
+         - 修改器：用FishEditV0.72，没有一款修改器比他更专业了，那是游泳的鱼破解金庸群侠传的指令格式做出来的，MOD专用制作工具，可以修改剧情 ，武功，人物属性，场景贴图
       - 如果要搜其它复刻版则 在 github 上搜索 kys
       - 如果要搜索 阿兜明 和 游泳的鱼 的移植版则在 github 上搜索 jinyong
    5. 仙剑
