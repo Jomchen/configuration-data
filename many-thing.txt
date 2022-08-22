@@ -884,6 +884,7 @@ type-moon 吧
       - 南宫梦版增加了一些战斗上的设定
    4. 金庸群侠传源码
       - sdl_lua 版本：https://github.com/t2meng/jinyong-legend-3ds/tree/0.3
+         - 在 release 链接中可以得到源码和数据包
       - 如果要搜其它复刻版则 在 github 上搜索 kys
       - 如果要搜索 阿兜明 和 游泳的鱼 的移植版则在 github 上搜索 jinyong
    5. 仙剑
