@@ -890,6 +890,17 @@ type-moon 吧
       - 如果要搜其它复刻版则 在 github 上搜索 kys
       - 如果要搜索 阿兜明 和 游泳的鱼 的移植版则在 github 上搜索 jinyong
    5. 仙剑
+      - 数据包下载地址
+         ```
+         仙剑奇侠传95版
+         http://www.newyx.net/games/4345.htm
+         仙剑奇侠传98柔情版
+         http://www.newyx.net/games/2716.htm
+         仙剑客栈
+         http://www.newyx.net/games/3948.htm
+         新仙剑奇侠传
+         http://www.newyx.net/games/11241.htm
+         ```
       - 仙剑教程地址：https://chiuinan.github.io/game/game/intro/ch/c11/pal/
       - 知乎上仙剑的一些小细节：https://www.zhihu.com/question/28893237
       - 仙剑源码编译教程：https://blog.csdn.net/flx413/article/details/82533736
