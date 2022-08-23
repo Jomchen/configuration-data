@@ -893,5 +893,37 @@ type-moon 吧
       - 仙剑教程地址：https://chiuinan.github.io/game/game/intro/ch/c11/pal/
       - 知乎上仙剑的一些小细节：https://www.zhihu.com/question/28893237
       - 仙剑源码编译教程：https://blog.csdn.net/flx413/article/details/82533736
-
+      - [仙剑1源码移植](https://github.com/sdlpal/sdlpal)
+         - 根据官方编译准备，先git更新子模块
+         - archlinux上的依赖安装
+            ```
+            SDL
+               - pacman -S sdl2
+            SDL_mixer
+               - pacman -S sdl_mixer
+            libmad
+               - pacman -S libmad
+            libogg & libvorbis
+               - pacman -S libogg
+               - pacman -S libvorbis
+            libopus & opusfile
+               - pacman -S libopus
+               - pacman -S opusfile
+            FLTK
+               - pacman -S fltk
+            TinySoundFont
+               - 未解决
+            OPL player from Adplug
+               - yay -S adplug
+            OPL emulation cores from DOSBOX project, MAME project and Chocolate Doom project
+               - pacman -S dosbox
+               - pacman -S mame
+               - yay -S chocolate-doom
+            Audio resampler from foo_input_adplug
+               - 未解决
+            AVI player from ffmpeg
+               - pacman -S ffmpeg
+            Image decoder from stb
+               - pacman -S stb
+            ```
 
