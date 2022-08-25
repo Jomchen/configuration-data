@@ -921,11 +921,13 @@ type-moon 吧
                - pacman -S libvorbis
             libopus & opusfile
                - pacman -S libopus
+                  - 如果没有发现目标则应该是 opus
                - pacman -S opusfile
             FLTK
                - pacman -S fltk
             TinySoundFont
                - 未解决
+               - 这仅是个头信息
             OPL player from Adplug
                - yay -S adplug
             OPL emulation cores from DOSBOX project, MAME project and Chocolate Doom project
@@ -938,5 +940,6 @@ type-moon 吧
                - pacman -S ffmpeg
             Image decoder from stb
                - pacman -S stb
+            建议由下往上安装，有些依赖会自动安装
             ```
 
