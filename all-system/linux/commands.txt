@@ -1,4 +1,10 @@
 ## 一些 Linux 上重要的命令
+
+
+
+* GUI的 terminal
+   - 字体变小 ctrl + -
+   - 字体变大 ctrl + +
 * 查看系统中占用cpu或内存最高的进程信息
    - https://blog.csdn.net/myli_binbin/article/details/121249985
    - ps memory占用排序查看进程
