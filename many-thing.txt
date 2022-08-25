@@ -884,6 +884,7 @@ type-moon 吧
       - 南宫梦版增加了一些战斗上的设定
    4. 金庸群侠传源码
       - sdl_lua 版本：https://github.com/t2meng/jinyong-legend-3ds/tree/0.3
+         - 基本全抄的 sdl_lua 的所谓复刻版 https://github.com/ZhanruiLiang/jinyong-legend
          - 在 release 链接中可以得到源码和数据包
          - 这个是基于 sdl_lua 的复刻完美版？ https://github.com/scarsty/jysdl-bh
       - 这个是《金庸群侠传》c++复刻版 https://github.com/scarsty/kys-cpp
