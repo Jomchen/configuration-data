@@ -5719,7 +5719,7 @@
          - 不及物动词的过去分词 表 “完成” 
          - falling leaves # 在落的叶子（正在掉落的叶子，进行）
          - fallen leaves  # 落叶（已经落下的叶子，完成）
-            - leaf 的复数是 leave
+            - leaf 的复数是 leaves
          - boiling water  # 沸水
          - boiled water   # 开水
       - 及物动词
