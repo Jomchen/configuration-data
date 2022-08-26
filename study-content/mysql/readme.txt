@@ -1,14 +1,17 @@
 * 视图化工具
-   - Navicat for MySQL    # 收费（重量级）
-   - DataGrip by JetBrain # 收费
-   - BeeKeeper Studio     # 免费，有收费版和免费版
-   - DBeaver              # 免费，有收费版和免费版
-   - MySQL Workbench      # 开源免费，不好用
-   - HeidiSQL             # 免费
-   - SQLyog               # 收费
-   - phpMyAdmin           # 免费
-   - Toad Edge for MySQL  # 免费
-   - Sequel Pro           # 收费
+   - 前20图形化工具
+      - https://webdesigndev.com/best-mysql-gui-tools/
+   - 其它普通工具
+      - Navicat for MySQL    # 收费（重量级）
+      - DataGrip by JetBrain # 收费
+      - BeeKeeper Studio     # 免费，有收费版和免费版
+      - DBeaver              # 免费，有收费版和免费版
+      - MySQL Workbench      # 开源免费，不好用
+      - HeidiSQL             # 免费
+      - SQLyog               # 收费
+      - phpMyAdmin           # 免费
+      - Toad Edge for MySQL  # 免费
+      - Sequel Pro           # 收费
 * Mysql 事务和锁的详解
    - https://www.cnblogs.com/crazylqy/p/7611069.html
 * 学习地址
