@@ -6693,7 +6693,7 @@
 
    3. 感叹句中的主词及动词省略
       1. How careless <it is> of you to lose your wallet. # 搞丢你的钱包多么粗心啊
-      2. What a pity <it is> that you can't come with us! # 你不能和我一直回来多么可惜啊（这里的 pity 是名词）
+      2. What a pity <it is> that you can't come with us! # 你不能和我一起回来多么可惜啊（这里的 pity 是名词）
       3. 注意 感叹句中的形容词或副词，有时也可省略
          1. How <hard> it rains! # 雨下得好大啊
             - 省略的具体下得怎么样，视具体的环境决定，本例指的雨下得大
