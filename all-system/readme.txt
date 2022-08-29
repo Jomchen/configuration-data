@@ -51,6 +51,7 @@
       - tsocks（这个具说没有 proxychains 好用）
       - privoxy
       - Surge # 貌似是 Mac 上的软件
+      - charles # windows（默认自带） 与 Mac（不清楚是否自带） 都有
       - Clash # 可以在 Linux 上使用
 
 
