@@ -4080,8 +4080,8 @@
          - How do you feel? - I feel fine. # 你感觉怎么样？我感觉很好
       - How + adj./adv.
          - how fast/how soon
-            - how fast 多快（指的速度，指多长时间；指时间时只单纯的问时间长度）
-            - how soon 多快（指的时间，一般指一个时间点到另一个时间点的时间长度提问，比如还要多久）
+            - how fast 多快（指的速度）
+            - how soon 多长时间（指的时间，一般指一个时间点到另一个时间点的时间长度提问，比如还要多久）
          - how high/how tall
             - how high 多高（指的物体的高度）
             - how tall 多高（指的身高）
