@@ -8211,6 +8211,11 @@
          - I have a favour to ask of you. # 我要请你帮个忙
       - ask for # 请求，要求；寻找
          - He asked me for the book. # 他向我要那本书
+      - custom??
+         - custom     # 风俗，规矩，习俗
+         - customer   # 顾客，买主
+         - customs    # 海关，关税，税收
+         - customize  # 定制
    - be full of 与 be filled with # 充满，装满
       - be full of 更侧重于表示充满的状态
          - The room is full of people # 房间里挤满了人
