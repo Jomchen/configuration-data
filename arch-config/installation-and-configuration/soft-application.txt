@@ -4,7 +4,7 @@ yay -S wechat-uos                 # 微信
 yay -S wps-office-cn              # wps主体
 yay -S wps-office-fonts           # wps字体
 yay -S wps-office-mui-zh-cn       # wps的中文依赖包，如果wps不是中文界面可以安装些依赖包
-终端翻译工具
+# 终端翻译工具
    pacman -S translate-shell            # 终端语言翻译工具（需要有网络）
       - 教程 https://baijiahao.baidu.com/s?id=1724568563772422792&wfr=spider&for=pc
    fy
@@ -26,27 +26,27 @@ pacman -S unzip                   # zip 解压工具
 pacman -S rar                     # rar 压缩工具
 pacman -S unrar                   # rar 解压工具
 pacman -S ntfs-3g                 # 可以挂载 ntfs 的软件支持
-pacman -S w3m                  # 终端浏览器，实际可在终端预览视频和图片
-pacman -S picom                # 窗口透明
+pacman -S w3m                     # 终端浏览器，实际可在终端预览视频和图片
+pacman -S picom                   # 窗口透明
    - 全局配置文件一般是 /etc/xdg/picom.conf
-pacman -S ranger               # 快速搜索
+pacman -S ranger                  # 快速搜索
    - 此工具查看图片需要依赖于 w3m
-pacman -S nmap                 # 提供网络发现和探索功能，且有对查看远程端口是否开放的功能
-pacman -S vlc                  # 视频播放器
-pacman -S neofetch             # 优雅显示系统信息log
-pacman -S lolcat               # 让输出颜色以渐变形式渲染
+pacman -S nmap                    # 提供网络发现和探索功能，且有对查看远程端口是否开放的功能
+pacman -S vlc                     # 视频播放器
+pacman -S neofetch                # 优雅显示系统信息log
+pacman -S lolcat                  # 让输出颜色以渐变形式渲染
 pacman -S flameshot               # 截图工具
  - 引用教程地址 https://linux265.c/3848.html
 pacman -S galculator              # 计算器
 pacman -S thunar                  # 文件管理器，此包如果安装xfce桌面环境则会自动安装
-pacman -S filezilla            # FTP 文件传输工具
-pacman -S github-desktop       # git 操作视图工具
-pacman -S fzf                  # 终端下命令行快速查找工具（即时输入即时查询）
-pacman -S xf86-input-synaptics # 触摸板驱动，笔记本可装，台式不装
-pacman -S feh                  # 图片查看器
-pacman -S htop                 # 进程查看器
-pacman -S keynav               # 鼠标替代
-pacman -S tlp                  # 电源管理
+pacman -S filezilla               # FTP 文件传输工具
+pacman -S github-desktop          # git 操作视图工具
+pacman -S fzf                     # 终端下命令行快速查找工具（即时输入即时查询）
+pacman -S xf86-input-synaptics    # 触摸板驱动，笔记本可装，台式不装
+pacman -S feh                     # 图片查看器
+pacman -S htop                    # 进程查看器
+pacman -S keynav                  # 鼠标替代
+pacman -S tlp                     # 电源管理
 pacman -S net-tool                # 提供了 arp 命令等
  - 由 iproute2 包中的 ip neighbor 命令替代
 pacman -S wine                    # windows 的虚拟容器
@@ -57,15 +57,16 @@ pacman -S wine                    # windows 的虚拟容器
    pacman -S wireshark-qt            # 视图化的抓包工具（与命令性质的择其一安装）
     - pacman -S wireshark-cli        # 命令性质的抓包工具
    Progress Telerik Fiddler Web Debbugger # 手机抓包工具
+# 远程桌面工具
+   pacman -S remmina                 # 一个远程工具，支持多种协议
+    - pacman -S freerdp              # 安装rdp组件以支持连接windows
+   pacman -S tigervnc                # 远程视图工具（已包含客户端和服务端）
+    - 安装完后可以使用 vncviewer 命令 窗口
 pacman -S screenkey               # 按键动态展示（当有键盘按键时，在屏幕底层会显示，一般录屏比较有用）
 pacman -S arp-scan                # 一个靠 arp 协议发现本地网络设备的工具（不建议安装）
  - 已经被 ip neighbour 替代
-pacman -S remmina                 # 一个远程工具，支持多种协议
- - pacman -S freerdp              # 安装rdp组件以支持连接windows
-pacman -S tigervnc                # 远程视图工具（已包含客户端和服务端）
- - 安装完后可以使用 vncviewer 命令 窗口
 pacman -S gucharmap               # 用以查找指定字体是否有相同的字符
-yay -S weylus                     # 远程同屏软件（需要 aur 支持）
+yay -S weylus                     # 远程同屏软件（需要 aur 支持，内网体验很慢，不推荐）
 
 # ****************************** 其它软件 ******************************
 - 其它重要软件
