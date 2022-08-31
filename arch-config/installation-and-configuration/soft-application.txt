@@ -50,7 +50,7 @@ pacman -S wine                    # windows 的虚拟容器
 # 抓包工具
    Charles                           # 收费
    Fiddler4                          # 收费
-   vConsole                          # ??
+   vConsole                          # 用于前端框架的抓包工具
    pacman -S wireshark-qt            # 视图化的抓包工具（与命令性质的择其一安装）
     - pacman -S wireshark-cli        # 命令性质的抓包工具
    Progress Telerik Fiddler Web Debbugger # 手机抓包工具
