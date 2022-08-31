@@ -47,10 +47,13 @@ pacman -S tlp                  # 电源管理
 pacman -S net-tool                # 提供了 arp 命令等
  - 由 iproute2 包中的 ip neighbor 命令替代
 pacman -S wine                    # windows 的虚拟容器
-pacman -S Fiddler4                # 抓包工具（未使用过，不清楚情况）
-pacman -S wireshark-qt            # 视图化的抓包工具（与命令性质的择其一安装）
- - pacman -S wireshark-cli        # 命令性质的抓包工具
-Progress Telerik Fiddler Web Debbugger # 手机抓包工具
+# 抓包工具
+   Charles                           # 收费
+   Fiddler4                          # 收费
+   vConsole                          # ??
+   pacman -S wireshark-qt            # 视图化的抓包工具（与命令性质的择其一安装）
+    - pacman -S wireshark-cli        # 命令性质的抓包工具
+   Progress Telerik Fiddler Web Debbugger # 手机抓包工具
 pacman -S screenkey               # 按键动态展示（当有键盘按键时，在屏幕底层会显示，一般录屏比较有用）
 pacman -S arp-scan                # 一个靠 arp 协议发现本地网络设备的工具（不建议安装）
  - 已经被 ip neighbour 替代
