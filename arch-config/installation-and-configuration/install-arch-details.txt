@@ -190,6 +190,7 @@
           - 编辑 /etc/default/grub，放开注释为 GRUB_DISABLE_OS_PROBER=false
           - 确保安装了 ntfs-3g，用以可以检测windows分区格式
           - (UEFI: 确保windows的引导分区挂载到了 /boot下，如果linux安装引导时是装在 /boot下的话)
+       - 然后重新执行 grub-mkconfig 输出到 /boot/grub/grub.cfg
 
 * 退出安装环境
    - exit # 退出系统环境
