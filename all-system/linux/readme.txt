@@ -7,6 +7,8 @@ https://www.cnblogs.com/oboth-zl/p/10314071.html
 
 * 远程让服务器执行命令的方式
    - https://www.jb51.net/article/171544.htm
+* 远程桌面工具
+   - https://www.likecs.com/show-175710.html
 
 * 重要的软件或配置
    - jp2a # 转换 jpg 图像为 ascii 码图

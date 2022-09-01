@@ -186,6 +186,10 @@
          - 这里的 x86_64 是通过 uname -m 查询得到的，如果根文档不同，需要把 x86_64 替换之
       - grub-mkconfig > /boot/grub/grub.cfg # 生成引导配置文件
        - 如果报 warning failed to connect to lvmetad, falling back to device scanning 错误。那么 /etc/lvm/lvm.conf 这个文件，找到 use_lvmetad = 1 将 1 改为 0 再重新配置配置文件
+       - 如果报 Warning: os-prober will not be executed to detect other bootable partitions
+          - 编辑 /etc/default/grub，放开注释为 GRUB_DISABLE_OS_PROBER=false
+          - 确保安装了 ntfs-3g，用以可以检测windows分区格式
+          - (UEFI: 确保windows的引导分区挂载到了 /boot下，如果linux安装引导时是装在 /boot下的话)
 
 * 退出安装环境
    - exit # 退出系统环境
