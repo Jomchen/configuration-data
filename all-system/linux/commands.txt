@@ -38,7 +38,9 @@
       - nmcli connection
          - nmcli connection show                 # 显示连接的网络
          - nmcli connection up [id|uuid|path]    # 激活网络
+            - uuid 可以通过 nmcli connection show 获取
          - nmcli connection down [id|uuid|path]  # 关闭网络
+            - uuid 可以通过 nmcli connection show 获取
       - nmcli device                             # 网络接口管理
          - nmcli device show                     # 查看各网络接口的详细信息
          - nmcli device status                   # 查看各网络接口的状态
