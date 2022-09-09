@@ -46,6 +46,7 @@ pacman -S xf86-input-synaptics    # 触摸板驱动，笔记本可装，台式�
 pacman -S feh                     # 图片查看器
 pacman -S htop                    # 进程查看器
 pacman -S keynav                  # 鼠标替代
+xdotool                           # 替代鼠标点击和移动的脚本工具
 pacman -S tlp                     # 电源管理
 pacman -S net-tool                # 提供了 arp 命令等
  - 由 iproute2 包中的 ip neighbor 命令替代
