@@ -1,10 +1,4 @@
-* 随机数范围
-   ```
-   // [min, max]
-   Random random = new Random();
-   int result = random.nextInt(max) % (max-min+1)+min;
-   ```
-* 泛型相关
+* 泛型相关 ---------------------------------------------------------------------------------
    ```
    ResultObj<String> resultObj = ResultObj.success("Linux");
            Class<?> cla = resultObj.getClass();
@@ -22,7 +16,7 @@
            System.out.println("typeName: " + typeName);
    ```
 
-* 锁相关
+* 锁相关 ---------------------------------------------------------------------------------
    ```
     static ReentrantLock lock = new ReentrantLock();
     static final Condition condition = lock.newCondition();
@@ -85,7 +79,18 @@
     }
    ```
 
-* 生成随机数
+* 获取工程目录路径 ---------------------------------------------------------------------------------
+   - String projectPath = System.getProperty("user.dir");
+      - 如果这不是一个web工程，则获取的可能不是工程目录（比如在tomcat的工程里运行的工程）
+
+* 生成随机数 ---------------------------------------------------------------------------------
+   ```
+   随机数范围
+   // [min, max]
+   Random random = new Random();
+   int result = random.nextInt(max) % (max-min+1)+min;
+   ```
+
    ```
    通过 Math 类
    public static String getRandom1(int len) {
