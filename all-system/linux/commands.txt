@@ -33,18 +33,30 @@
 
 * 关于网络的一些命令
    - NetworkManager
-      - nmcli general status                     # 查看网络状态
-      - nmcli networking connectivity            # 查看网络健康状态
+      - nmcli general status                            # 查看网络状态
+      - nmcli networking on                             # 允许被 NetworkManager 网络控制
+      - nmcli networking off                            # 不允许被 NetworkManager 网络控制
+      - nmcli networking connectivity [check]           # 查看网络健康状态
+         - none      # the host is not connected to any network
+         - portal    # the host is behind a captive portal and cannot reach the full Internet
+         - limited   # the host is connected to a network, but it has no access to the Internet
+         - full      # the host is connected to a network and has full access to the Internet
+         - unknown   # the connectivity status cannot be found out
       - nmcli connection
-         - nmcli connection show                 # 显示连接的网络
-         - nmcli connection up [id|uuid|path]    # 激活网络
+         - nmcli connection show                        # 显示连接的网络
+         - nmcli connection up [id|uuid|path]           # 激活网络
             - uuid 可以通过 nmcli connection show 获取
-         - nmcli connection down [id|uuid|path]  # 关闭网络
+         - nmcli connection down [id|uuid|path]         # 关闭网络
             - uuid 可以通过 nmcli connection show 获取
-      - nmcli device                             # 网络接口管理
-         - nmcli device show                     # 查看各网络接口的详细信息
-         - nmcli device status                   # 查看各网络接口的状态
-         - nmcli device wifi connect wifi名 wifi密码 # 连接wifi
+      - nmcli device                                    # 网络接口管理
+         - nmcli device show                            # 查看各网络接口的详细信息
+         - nmcli device status                          # 查看各网络接口的状态
+         - nmcli device wifi connect wifi名 wifi密码    # 连接wifi
+      - nmcli radio {all | wifi | wwan} [ARGUMENTS...]  # show radio switches status, or enable and disable the switches
 
 * 一些其它的软件和服务
-   - DNSmasq                                     # NDS 服务软件
+   - DNSmasq                                            # NDS 服务软件
+* namp 的一些命令
+   - https://blog.csdn.net/Promise_Code/article/details/108733258
+
+
