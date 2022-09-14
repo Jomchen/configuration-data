@@ -11,12 +11,20 @@
 
 * java 运行的命令
 ```
--D部分的是环境的变量，-- 部分是程序运行后需要的参数，两者对于 ***.jar 文件的前后是有如此道理的
-mvn clean compile package && java -jar \
-	-Denv=FAT \
-	-Djasypt.encryptor.password=humi \
-	target/platform-operate-service-1.0.0.jar \
-	--spring.profiles.active=FAT 
+mvn clean compile package # 清除maven的编译打包结果并重新编译打包
+
+-D部分的是为程序指定环境变量，-- 部分是程序运行后传入的参数，两者对于 ***.jar 文件的前后是有严格要求的
+
+java \
+  -Dmaven.test.skip=true \                # 取消maven的测试
+  -Dserver.host=192.168.10.158 \          # 指定程序的环境变量，这项是配置域名
+  -Dapp.id=identifier-import-service \    # 指定程序的环境变量，这项是设置app.id
+  -Djasypt.encryptor.password=humi \
+  -Dserver.port=8056 \                    # 指定程序的环境变量，这项是设置端口
+  -Dfile.encoding=utf-8 \                 # 指定程序的编码，设置为 utf-8
+  -Denv=pro \                             # 指定程序的环境变量，这项是设置的pro，spring使用的指定环境
+  -jar target/xxx.jar \                   # 指定执行程序包
+  --spring.profiles.active=PRO            # 传入的参数 
 ```
 
 
