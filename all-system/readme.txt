@@ -9,7 +9,7 @@
       - https://www.vps234.com/ipchecker/
       - http://ping.pe/
 
-* 域名
+* 域名厂商
    - godaydy www.godaddy.com
    - namesilo www.namesilo.com
       - https://www.namesilo.com/register.php?rid=775dd38gf
@@ -53,7 +53,6 @@
       - Surge # 貌似是 Mac 上的软件
       - charles # windows（默认自带） 与 Mac（不清楚是否自带） 都有
       - Clash # 可以在 Linux 上使用
-
 
 * Win 和 Linux 双系统时间同步解决方案
    - win 和 Linux 双系统时间同步解决方案
