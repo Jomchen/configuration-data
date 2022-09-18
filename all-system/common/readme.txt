@@ -2,5 +2,10 @@
    - 磁力搜索 https://btlm.cc/sitetag/magnet-link
    - 工具
       - bitcomet
+      - qBittorrent
+         - qbittorrent.org/
+      - qBittorrent（增强版）
+         - https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases
       - bitTorrent
+      - 工具介绍 https://zhuanlan.zhihu.com/p/490620018
 
