@@ -1,5 +1,5 @@
 * 视图化工具
-   - 前20图形化工具
+   - top20图形化工具
       - https://webdesigndev.com/best-mysql-gui-tools/
    - 其它普通工具
       - Navicat for MySQL    # 收费（重量级）
@@ -12,6 +12,10 @@
       - phpMyAdmin           # 免费
       - Toad Edge for MySQL  # 免费
       - Sequel Pro           # 收费
+   - 设计工具
+      - powerdesigner（收费）
+      - chiner
+      - pdMan
 * Mysql 事务和锁的详解
    - https://www.cnblogs.com/crazylqy/p/7611069.html
 * 学习地址
