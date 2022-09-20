@@ -6,11 +6,8 @@
 * 进程的解释
    - https://zhuanlan.zhihu.com/p/53527981
    - https://zhuanlan.zhihu.com/p/51194025
-
 * 在 Bash 完成中，关于${array[*]} 与 ${array[@]} 的混淆
    - https://developer.aliyun.com/ask/272239
-
-
 * redis setNx 的问题
    - 任务超时引起获取锁并发问题
    - 锁释放时可能删除非自己加的锁
