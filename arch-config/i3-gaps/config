@@ -215,6 +215,7 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 # xfce's fold manager
 bindsym $mod+Shift+f exec --no-startup-id thunar
+
 # screenshot, the package <flameshot> must be installed
 bindsym $mod+Shift+x exec --no-startup-id flameshot gui
 # galculator
@@ -240,6 +241,7 @@ exec --no-startup-id fcitx5
 exec_always --no-startup-id keynav
 exec --no-startup-id feh --bg-scale /home/jomkie/MY-DATA/pictures/weigongqiesi.jpeg
 exec_always --no-startup-id /usr/bin/picom
+#exec --no-startup-id /opt/deadd-notification-center/deadd-notification-center_v1.7.2
 
 # constrain size for floating windows
 #floating_minimum_size width x height
