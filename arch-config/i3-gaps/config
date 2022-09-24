@@ -204,9 +204,9 @@ exec_always --no-startup-id /home/jomkie/.config/polybar/launch.sh
 #default_floating_border normal|pixel <px>
 default_border none
 default_floating_border none
-
 # Hide the edge borders: none|vertical|horizontal|both|smart
-#hide_edge_borders both
+hide_edge_borders both
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -239,7 +239,7 @@ bindsym $mod+shift+t move workspace to output next
 # start personal applications
 exec --no-startup-id fcitx5
 exec_always --no-startup-id keynav
-exec --no-startup-id feh --bg-scale /home/jomkie/MY-DATA/pictures/weigongqiesi.jpeg
+exec --no-startup-id feh --bg-scale /home/jomkie/mydata/pictures/lingzhou.jpeg
 exec_always --no-startup-id /usr/bin/picom
 #exec --no-startup-id /opt/deadd-notification-center/deadd-notification-center_v1.7.2
 
