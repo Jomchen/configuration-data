@@ -40,6 +40,11 @@
       - diw 删除当前所在的整个词(daw 会包含结尾的空白)
       - viw 选择当前所在的整个词(vaw 会包含结尾的空白)
       - yiw 复制当前所在的单词(yaw 会包含结尾的空白)
+      - 选中成对符号之间的内容
+         - vi< # 如果句子内容为 He is <a man with dreams>，那么选中 "a man with dreams"
+         - va< # 如果句子内容为 He is <a man with dreams>，那么选中 "<a man with dreams>"
+         - 同理也可以是 vi> 或 va>，最后一个字母一定是成对符号之一，例如 [], (), {}
+         - 手册查询为 :help objects
    - 句子操作
       - cis 对当前光标所在句子作整体替换(cas 会包含结尾的空白)
       - dis 对当前光标所在句子作整体删除(das 会包含结尾的空白)
