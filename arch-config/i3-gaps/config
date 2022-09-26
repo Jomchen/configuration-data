@@ -73,7 +73,6 @@ bindsym $mod+Shift+h move left
 bindsym $mod+Shift+j move down
 bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
-bindsym $mod+Shift+semicolon move right
 #bindsym $mod+Shift+semicolon move right
 
 # alternatively, you can use the cursor keys:
@@ -204,6 +203,7 @@ exec_always --no-startup-id /home/jomkie/.config/polybar/launch.sh
 #default_floating_border normal|pixel <px>
 default_border none
 default_floating_border none
+
 # Hide the edge borders: none|vertical|horizontal|both|smart
 hide_edge_borders both
 
