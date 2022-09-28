@@ -1,6 +1,7 @@
 ## 个别知识
 - [工具正则](https://my.oschina.net/onionsheep/blog/346926)
 - [VIM教程](https://github.com/wsdjeg/vim-galore-zh_cn)
+- [VIM插件](http://jvi.sourceforge.net/)
 
 ## 插件
 - ctags + cscope
