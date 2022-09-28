@@ -1,6 +1,9 @@
 * configuration-data
    - 一些个人计算机配置。
 
+* 关于 archlinux 的系统配置教程
+   - https://selierlin.github.io/v2ray/app/dns.html
+
 * 在archlinux在安装intel显卡驱动后，如果使用有问题建议回滚
    ```
    This driver(xf86-video-intel) now uses DRI3 as the default Direct Rendering
