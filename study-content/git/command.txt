@@ -1,3 +1,5 @@
+* git 远程已经删除的分支查询和处理
+   - https://blog.csdn.net/y_bccl27/article/details/121691465
 * 命令
    ```
    git remote -v                            # 查看git所属远程地址
