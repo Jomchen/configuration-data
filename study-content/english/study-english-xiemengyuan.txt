@@ -4439,7 +4439,7 @@
                - a pound's weight # 一磅的重量
                - a dollar's worth # 一美元的价值
             - 表国名，地名 -> N's 或 Ns'
-               - the world's polulation # 世界的人口
+               - the world's population # 世界的人口
                - Taiwan's climate. # 台湾的气候
                - the United States' future # 美国的未来
             - B of A -> 无生物所有格
