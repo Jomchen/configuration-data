@@ -15,7 +15,8 @@
    中华人民共和国教育政府门户网站
    ```
    ```
-   参考地址：https://www.zikaoben.cn/archives/385.html
+   主考学校及招生办参考地址：https://www.zikaoben.cn/archives/385.html
+   知乎关于成人本科，自考，国开区别参考地址：https://www.zhihu.com/question/372651234
    ```
 
    ```
