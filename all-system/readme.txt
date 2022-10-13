@@ -38,10 +38,20 @@
    - [ BBR 可以为代理服务器提速 ]
 
 * across-GFW-server
-   - iGuge
-   - bywave
-   - Gson cloud
-   - 棱角
+   - 一批
+      - iGuge
+      - bywave
+      - Gson cloud
+      - 棱角
+   - 二批
+      - 薯条
+      - RixCloud
+      - 魅影
+      - BlinkLoad
+      - 海豚湾
+      - 佩奇
+      - Boslife(Abc, AAEX)
+
 
 * proxy-tool
    - 介绍网址
