@@ -10,3 +10,6 @@
       - C/C++ Extension Pack
       - C/C++ Themes
       - Code Runner
+
+* 开发java
+   - https://baijiahao.baidu.com/s?id=1732042705381960939&wfr=spider&for=pc
