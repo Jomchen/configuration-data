@@ -1,0 +1,23 @@
+* 基本快捷键
+ctrl + space            # 建议提示
+ctrl + .                # 快速修复
+f12                     # 定位到当前光标所在的定义处
+ctrl + shift + f10      # 预览定义
+ctrl + b                # 显示/隐藏边缘按钮显示
+ctrl + shift + f        # 搜索
+ctrl + shift + g        # 版本控制窗口
+ctrl + shift + d        # debug窗口
+ctrl + shift + x        # 扩展窗口
+ctrl + shift + h        # 替换文件
+ctrl + k ctrl + h       # 显示输出面板
+ctrl + p                # 到文件
+f8                      # 移动到下一个 error 或 warning 处
+ctrl + alt + -          # go back
+ctrl + alt + +          # go forward
+
+* debug
+f9                      # 切换断点
+f5                      # 开始 / 继续
+f11 / shift + f11       # 单步进入/出
+f10                     # step over
+shift + f5              # 停止
