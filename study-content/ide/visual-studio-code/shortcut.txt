@@ -1,5 +1,6 @@
 * 基本快捷键
 ctrl + space            # 建议提示
+ctrl + shift + space    # 参数提示
 ctrl + .                # 快速修复
 f12                     # 定位到当前光标所在的定义处
 shift + f12             # 展示引用
