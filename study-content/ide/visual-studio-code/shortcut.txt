@@ -1,29 +1,31 @@
 * 基本快捷键
-   ctrl + t                # 查找类
-   ctrl + shift + e        # 焦点跳转到当前文件所在目录
+   默认快捷键              是否需重定义   说明
+   ctrl + t                    Y          # 跳转到工作区中的符号（查找类）
+   ctrl + shift + e            Y          # 焦点跳转到当前文件所在目录
 
-   ctrl + 0                # 焦点聚集于主侧栏
-   ctrl + space            # 建议提示
-   ctrl + shift + space    # 参数提示
-   ctrl + .                # 快速修复
-   shift + alt + o         # 调整 import 语句（替代 ctrl + . 不能修复导包的问题）
-   shift + alt + u         # 重新加载项目（修改pom后有效果）
-   shift + alt + .         # 自动修复
-   shift + alt + <         # 自动修复（但是无效果）
-   ctrl + b                # 显示/隐藏边缘按钮显示
-   ctrl + shift + e        # show explorer / toggle focus
-   ctrl + shift + f        # 搜索
-   ctrl + shift + g        # 版本控制窗口
-   ctrl + shift + d        # debug窗口
-   ctrl + shift + x        # 扩展窗口
-   ctrl + shift + h        # 替换文件
-   ctrl + k ctrl + h       # 显示输出面板
-   ctrl + p                # 到文件
-   f8                      # 移动到下一个 error 或 warning 处
-   shift + f8              # 移动到上一个 error 或 warning 处
-   ctrl + `                # 调出终端
-   ctrl + alt + -          # go back
-   ctrl + alt + +          # go forward
+   ctrl + 0                               # 焦点聚集于主侧栏
+   ctrl + 1                               # 焦点聚集于第一个编辑区组
+   ctrl + space                           # 建议提示
+   ctrl + shift + space                   # 参数提示
+   ctrl + .                               # 快速修复
+   shift + alt + o                        # 调整 import 语句（替代 ctrl + . 不能修复导包的问题）
+   shift + alt + u                        # 重新加载项目（修改pom后，建立类索引有帮助效果）
+   shift + alt + .                        # 自动修复
+   shift + alt + <                        # 自动修复（实测无效果）
+   ctrl + b                    Y          # 显示/隐藏主侧栏
+   ctrl + shift + e                       # show explorer / toggle focus
+   ctrl + shift + f                       # 搜索
+   ctrl + shift + g                       # 版本控制窗口
+   ctrl + shift + d                       # debug窗口
+   ctrl + shift + x                       # 扩展窗口
+   ctrl + shift + h                       # 替换文件
+   ctrl + k ctrl + h                      # 显示输出面板
+   ctrl + e/p                             # 转到文件
+   f8                                     # 移动到下一个 error 或 warning 处
+   shift + f8                             # 移动到上一个 error 或 warning 处
+   ctrl + `                               # 调出终端
+   ctrl + alt + -              Y          # go back
+   ctrl + alt + +              Y          # go forward
 
 * 常用定位
    f12                # 转到定义
