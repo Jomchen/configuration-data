@@ -1,7 +1,7 @@
 * 基本快捷键
-   默认快捷键              是否需重定义   说明
-   ctrl + t                    Y          # 跳转到工作区中的符号（查找类）
-   ctrl + shift + e            Y          # 焦点跳转到当前文件所在目录
+   默认快捷键              replaced       说明
+   ctrl + t                ctrl+shift+t   # 跳转到工作区中的符号（查找类）
+   ctrl + shift + e                       # 焦点跳转到当前文件所在目录
 
    ctrl + 0                               # 焦点聚集于主侧栏
    ctrl + 1                               # 焦点聚集于第一个编辑区组
@@ -12,8 +12,7 @@
    shift + alt + u                        # 重新加载项目（修改pom后，建立类索引有帮助效果）
    shift + alt + .                        # 自动修复
    shift + alt + <                        # 自动修复（实测无效果）
-   ctrl + b                    Y          # 显示/隐藏主侧栏
-   ctrl + shift + e                       # show explorer / toggle focus
+   ctrl + b                alt+1          # 显示/隐藏主侧栏
    ctrl + shift + f                       # 搜索
    ctrl + shift + g                       # 版本控制窗口
    ctrl + shift + d                       # debug窗口
@@ -24,8 +23,8 @@
    f8                                     # 移动到下一个 error 或 warning 处
    shift + f8                             # 移动到上一个 error 或 warning 处
    ctrl + `                               # 调出终端
-   ctrl + alt + -              Y          # go back
-   ctrl + alt + +              Y          # go forward
+   ctrl + alt + -          alt+\          # go back
+   ctrl + alt + +          shift+alt+\    # go forward
 
 * 常用定位
    f12                # 转到定义
