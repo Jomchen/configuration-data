@@ -1,7 +1,12 @@
 * 基本快捷键
+   ctrl + 0                # 焦点聚集于主侧栏
    ctrl + space            # 建议提示
    ctrl + shift + space    # 参数提示
    ctrl + .                # 快速修复
+   shift + alt + o         # 调整 import 语句（替代 ctrl + . 不能修复导包的问题）
+   shift + alt + u         # 重新加载项目（修改pom后有效果）
+   shift + alt + .         # 自动修复
+   shift + alt + <         # 自动修复（但是无效果）
    ctrl + b                # 显示/隐藏边缘按钮显示
    ctrl + shift + e        # show explorer / toggle focus
    ctrl + shift + f        # 搜索
