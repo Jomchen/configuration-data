@@ -25,3 +25,14 @@ f5                      # 开始 / 继续
 f11 / shift + f11       # 单步进入/出
 f10                     # step over
 shift + f5              # 停止
+
+
+shift + alt + f12 # 引用：查找所有引用
+ctrl + f12         # 转到实现
+ctrl + shift + f12 # 查看实现（预览实现）
+ctrl + shift + r   # 编辑器：再次搜索
+ctrl + shift + f10 # 快速预览
+ctrl + shift + f   # 搜索工作区
+f12                # 转到定义
+shift + f12        # 转到引用
+
