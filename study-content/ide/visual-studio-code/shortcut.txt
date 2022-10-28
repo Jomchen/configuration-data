@@ -18,6 +18,7 @@
    ctrl + p                # 到文件
    f8                      # 移动到下一个 error 或 warning 处
    shift + f8              # 移动到上一个 error 或 warning 处
+   ctrl + `                # 调出终端
    ctrl + alt + -          # go back
    ctrl + alt + +          # go forward
 
