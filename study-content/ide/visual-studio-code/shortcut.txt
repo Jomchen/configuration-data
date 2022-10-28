@@ -1,4 +1,7 @@
 * 基本快捷键
+   ctrl + t                # 查找类
+   ctrl + shift + e        # 焦点跳转到当前文件所在目录
+
    ctrl + 0                # 焦点聚集于主侧栏
    ctrl + space            # 建议提示
    ctrl + shift + space    # 参数提示
