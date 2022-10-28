@@ -1,15 +1,35 @@
-如果调试的是 C/C++ 则
+* 其它插件
+   - Git History
+   - Git Graph
+   - vim
+
 * C/C++
    - 安装基础环境
       - 安装 gcc（windows 应该安装 MinGW 并配置环境变量）
          - 执行 g++ -v 命令检测是否环境变量配置成功
-   - 安装debug调试工具，否则debug调试时会出错
-      - 安装 gdb
    - 安装插件
       - C/C++
       - C/C++ Extension Pack
       - C/C++ Themes
       - Code Runner
+      - gdb    # 这是debug调试工具，否则debug调试时会出错
+
+* JAVA
+   - java 支持插件
+      - Extension Pack for Java
+      - Maven for Java
+         - 需要配置 mvn 的执行文件路径
+         - 这里配置 settings.xml 文件路径不生效
+      - Debugger for Java 装哪个？
+      - Java Debugger 装哪个？
+      - Language Support for Java(TM) by Red Hat
+         - 需要在配置的 Java>Configuration>Maven:Global Settings 配置 maven 的 settings.xml 文件路径
+
+* Spring
+   - Spring Initializr Java Support
+   - Spring Boot Tools
+   - Spring Boot Dashboard
+   - Spring Boot Extension Pack
 
 * 开发java
    - https://baijiahao.baidu.com/s?id=1732042705381960939&wfr=spider&for=pc
