@@ -1,0 +1,5 @@
+* 谷歌浏览器滚动截图方式
+   f12 调出控制台
+   ctrl + shift + p 调出命令搜索框
+   搜索 Capture full size screenshot 并选中它执行
+   生成截图图片
