@@ -2,4 +2,10 @@
    f12 调出控制台
    ctrl + shift + p 调出命令搜索框
    搜索 Capture full size screenshot 并选中它执行
-   生成截图图片
+   生成截图图片（如果条目太长仍然有截不完整的情况）
+
+* 必装插件
+   FireShot # 可以截全图
+   Proxy SwitchyOmega # 代理工具
+   Dark Reader        # 强制调黑界面
+   Vimium             # 浏览网页插件
