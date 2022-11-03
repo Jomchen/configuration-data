@@ -15,6 +15,8 @@
          - Code Runner
          - gdb    # 这是debug调试工具，否则debug调试时会出错
    
+   - VIM
+      - 注意设置 Vim:Incsearch 勾选上
    - JAVA
       - java 支持插件
          - Extension Pack for Java
