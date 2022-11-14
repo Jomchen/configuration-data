@@ -3,6 +3,7 @@
    - wox            # 类似 dmenu 的软件搜索打开工具
    - Beyond Compare # 对比工具
    - openArk        # 查看快捷键被占用的程序
+   - todesk         # 远程工具
 * 查看硬盘格式的方式
    win+r => diskpart => list disk => 查看 Gpt 栏有没有“*” 没有则是 mbr
    我的电脑 => 磁盘管理 => 对硬盘右键，如果有转换成的 mbr 的灰色选项则是 gpt 模式硬盘（反之则是mbr）

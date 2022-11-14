@@ -59,12 +59,14 @@ pacman -S wine                    # windows 的虚拟容器
    vConsole                          # 用于前端框架的抓包工具
    pacman -S wireshark-qt            # 视图化的抓包工具（与命令性质的择其一安装）
     - pacman -S wireshark-cli        # 命令性质的抓包工具
+   Tcpdmp                            # 功能强大的命令行抓包和分析工具；没有GUI，广泛用于服务器端的抓包和分析
    Progress Telerik Fiddler Web Debbugger # 手机抓包工具
 # 远程桌面工具
    pacman -S remmina                 # 一个远程工具，支持多种协议
     - pacman -S freerdp              # 安装rdp组件以支持连接windows
    pacman -S tigervnc                # 远程视图工具（已包含客户端和服务端）
     - 安装完后可以使用 vncviewer 命令 窗口
+   todesk                            # 目前Linux 只有Ubuntu系列
 pacman -S screenkey               # 按键动态展示（当有键盘按键时，在屏幕底层会显示，一般录屏比较有用）
 pacman -S arp-scan                # 一个靠 arp 协议发现本地网络设备的工具（不建议安装）
  - 已经被 ip neighbour 替代
