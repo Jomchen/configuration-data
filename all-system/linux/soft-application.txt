@@ -66,7 +66,7 @@ pacman -S wine                    # windows 的虚拟容器
     - pacman -S freerdp              # 安装rdp组件以支持连接windows
    pacman -S tigervnc                # 远程视图工具（已包含客户端和服务端）
     - 安装完后可以使用 vncviewer 命令 窗口
-   todesk                            # 目前Linux 只有Ubuntu系列
+   todesk                            # 目前免费
 pacman -S screenkey               # 按键动态展示（当有键盘按键时，在屏幕底层会显示，一般录屏比较有用）
 pacman -S arp-scan                # 一个靠 arp 协议发现本地网络设备的工具（不建议安装）
  - 已经被 ip neighbour 替代
