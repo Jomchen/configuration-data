@@ -1,0 +1,5 @@
+#!/bin/bash
+# start jmeter
+# Author: Jomkie
+
+exec /opt/apache-jmeter-5.4.1/bin/jmeter

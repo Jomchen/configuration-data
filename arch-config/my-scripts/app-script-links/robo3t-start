@@ -1,0 +1,5 @@
+#!/bin/bash
+# start robo3t
+# Author: Jomkie
+
+exec /opt/robo3t-1.4.4-linux-x86_64-e6ac9ec/bin/robo3t

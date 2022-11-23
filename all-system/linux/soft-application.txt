@@ -62,6 +62,7 @@ pacman -S wine                    # windows 的虚拟容器
    Tcpdmp                            # 功能强大的命令行抓包和分析工具；没有GUI，广泛用于服务器端的抓包和分析
    Progress Telerik Fiddler Web Debbugger # 手机抓包工具
 # 远程桌面工具
+   介绍远程软件 https://linux265.com/news/3604.html
    pacman -S remmina                 # 一个远程工具，支持多种协议
     - pacman -S freerdp              # 安装rdp组件以支持连接windows
    pacman -S tigervnc                # 远程视图工具（已包含客户端和服务端）

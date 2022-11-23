@@ -1,0 +1,7 @@
+#!/bin/bash
+# Start apifox
+# Author: Jomkie
+
+
+exec /opt/apifox-2.1.33/apifox
+

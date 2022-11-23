@@ -1,0 +1,6 @@
+#!/bin/bash
+# start netbeans
+# Author: Jomkie
+
+exec /opt/netbeans13/bin/netbeans
+
