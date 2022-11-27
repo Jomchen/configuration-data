@@ -90,8 +90,19 @@ yay -S weylus                     # 远程同屏软件（需要 aur 支持，内
       - pacman -S bluez                   # 提供蓝牙协议栈
       - pacman -S bluez-utils             # 提供蓝牙 bluetoothctl 命令工具
       - pacman -S blueman                 # 蓝牙可视化工具（推荐）
-      - 可能因节能等原因 造成蓝牙键盘无法连接或其它因为节能造成的问题
-      - 熟悉后再特殊配置以支持蓝牙键盘连接，暂时不安装，安装需要特殊配置
+      - 要使用蓝牙，需要将使用用户加入 lp 的组中
+         - usermod -G lp 用户名
+      - pacman -S pulseaudio-bluetooth    # 以支持蓝牙麦克风和蓝牙话筒等特性
+         - pulseaudio -k                  # 重启 pulseaudio 使安装生效
+      - 将所有音频输出到蓝牙设备
+         - 编辑 /etc/pulse/system.pa 添加以下两行
+         ```
+         load-module module-bluetooth-policy
+         load-module module-bluetooth-discover
+         ```
+      - 注意
+         - 可能因节能等原因 造成蓝牙键盘无法连接或其它因为节能造成的问题
+         - 熟悉后再特殊配置以支持蓝牙键盘连接，暂时不安装，安装需要特殊配置
 
    3. Linux 视频剪辑软件
       - https://www.linuxprobe.com/linux-best-video.html
