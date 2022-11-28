@@ -173,9 +173,12 @@ mode "resize" {
 }
 # adjust the audio volume
 mode "adjust-audio" {
-        bindsym comma exec amixer set Master 5%-
-        bindsym period exec amixer set Master 5%+
-        bindsym space exec amixer set Master toggle
+        #bindsym comma exec amixer set Master 5%-
+        #bindsym period exec amixer set Master 5%+
+        #bindsym space exec amixer set Master toggle
+        bindsym comma exec pactl get-default-sink | xargs -n 1 -I {} pactl set-sink-volume {} -5%
+        bindsym period exec pactl get-default-sink | xargs -n 1 -I {} pactl set-sink-volume {} +5%
+        bindsym space exec pactl get-default-sink | xargs -n 1 -I {} pactl set-sink-mute {} toggle
 
         bindsym Return mode "default"
         bindsym Escape mode "default"
