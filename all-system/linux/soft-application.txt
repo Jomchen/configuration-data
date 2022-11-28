@@ -76,7 +76,7 @@ yay -S weylus                     # 远程同屏软件（需要 aur 支持，内
 
 # ****************************** 其它软件 ******************************
 - 其它重要软件
-   1. 声卡
+   1. 声卡（建议安装 pulseaudio，它是建立在 alsa 的上层抽象）
       - pacman -S alsa-utils           # 安装音频工具
          - alsa-mixer                  # 调起声音控制台
          - alsa 默认在内核所以只需安装调度工具
@@ -85,6 +85,9 @@ yay -S weylus                     # 远程同屏软件（需要 aur 支持，内
             - amixer sset Master unmute
             - amixer sset Speaker unmute
             - amixer sset Headphone unmute
+      - pacman -S pulseaudio
+         - pacman -S pulseaudio-alsa                   # 有的程序会只依赖于 alsa，绕过了pulseaudio，因此pulseaudio 无法再访问声卡，所有依赖 pulseaudio 的应用将不再工作，解决此问题安装即可
+         - pacman -S lib32-libpulse lib32-alsa-plugins # x86_64 系统上有 32-bit 的多媒体程序时安装（Wine 和 Stream）
 
    2. 蓝牙
       - pacman -S bluez                   # 提供蓝牙协议栈
@@ -94,7 +97,7 @@ yay -S weylus                     # 远程同屏软件（需要 aur 支持，内
          - usermod -G lp[,其它组1,其它组2] 用户名     # 给用户添加lp作为额外组，如果本身有其它额外组应该补齐，通过 groups 命令查看
       - pacman -S pulseaudio-bluetooth    # 以支持蓝牙麦克风和蓝牙话筒等特性
          - pulseaudio -k                  # 重启 pulseaudio 使安装生效
-      - 将所有音频输出到蓝牙设备
+      - 自动切换将所有音频输出到蓝牙设备
          - 编辑 /etc/pulse/system.pa 添加以下两行
          ```
          load-module module-bluetooth-policy
