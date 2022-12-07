@@ -1,30 +1,32 @@
 * 基本快捷键
-   默认快捷键              replaced       说明
-   ctrl + t                ctrl+shift+t   # 跳转到工作区中的符号（查找类）
-   ctrl + shift + e                       # 焦点跳转到当前文件所在目录
+   默认快捷键              是否置空    replaced       说明
+       ?                      X        ctrl+shift+t   # Go to Symbol in Workspace 跳转到工作区中的符号（查找类）
+   ctrl + shift + e           X                       # 焦点跳转到当前文件所在目录
 
-   ctrl + 0                               # 焦点聚集于主侧栏
-   ctrl + 1                               # 焦点聚集于第一个编辑区组
-   ctrl + space                           # 建议提示
-   ctrl + shift + space                   # 参数提示
-   ctrl + .                               # 快速修复
-   shift + alt + o                        # 调整 import 语句（替代 ctrl + . 不能修复导包的问题）
-   shift + alt + u                        # 重新加载项目（修改pom后，建立类索引有帮助效果）
-   shift + alt + .                        # 自动修复
-   shift + alt + <                        # 自动修复（实测无效果）
-   ctrl + b                alt+1          # 显示/隐藏主侧栏
-   ctrl + shift + f                       # 搜索
-   ctrl + shift + g                       # 版本控制窗口
-   ctrl + shift + d                       # debug窗口
-   ctrl + shift + x                       # 扩展窗口
-   ctrl + shift + h                       # 替换文件
-   ctrl + k ctrl + h                      # 显示输出面板
-   ctrl + e/p                             # 转到文件
-   f8                                     # 移动到下一个 error 或 warning 处
-   shift + f8                             # 移动到上一个 error 或 warning 处
-   ctrl + `                               # 调出终端
-   ctrl + alt + -          alt+\          # go back
-   ctrl + alt + +          shift+alt+\    # go forward
+   ctrl + 0                   X                       # 焦点聚集于主侧栏
+   ctrl + 1                   X                       # 焦点聚集于第一个编辑区组
+   ctrl + space               X                       # 建议提示
+   ctrl + shift + space       X                       # 参数提示
+   ctrl + .                   X                       # 快速修复
+   shift + alt + o            X                       # 调整 import 语句（替代 ctrl + . 不能修复导包的问题）
+   shift + alt + u            X                       # 重新加载项目（修改pom后，建立类索引有帮助效果）
+   shift + alt + .            X                       # 自动修复
+   shift + alt + <            X                       # 自动修复（实测无效果）
+   ctrl + b                   X        alt+1          # 显示/隐藏主侧栏 Toggle Primary Side Bar Visibility 
+   ctrl + shift + f           X                       # 搜索
+   ctrl + shift + g           X                       # 版本控制窗口
+   ctrl + shift + d           X                       # debug窗口
+   ctrl + shift + x           O                       # 扩展窗口（建议删除此快捷键，以作其它使用）
+                              X        ctrl+shift+x   # 重新打开关闭的编辑器Reopen Closed Editor
+   ctrl + shift + x           X                       # 扩展窗口
+   ctrl + shift + h           X                       # 替换文件
+   ctrl + k ctrl + h          X                       # 显示输出面板
+   ctrl + e/p                 X                       # 转到文件
+   f8                         X                       # 移动到下一个 error 或 warning 处
+   shift + f8                 X                       # 移动到上一个 error 或 warning 处
+   ctrl + `                   X                       # 调出终端
+   ctrl + alt + -             X        alt+\          # go back
+   ctrl + alt + +             X        shift+alt+\    # go forward
 
 * 常用定位
    f12                # 转到定义
