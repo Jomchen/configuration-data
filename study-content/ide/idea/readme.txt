@@ -16,3 +16,6 @@
           </set>
       </option>
       ```
+* Plugins
+   - maven-helper               # 冲突搜索
+   - maven-enforcer-plugin      # 冲突搜索（没有查到此插件）
