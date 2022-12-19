@@ -1,7 +1,0 @@
-#!/bin/bash
-# Start post app
-# Author: Jomkie
-
-
-
-exec /opt/Postman/app/Postman

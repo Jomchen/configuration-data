@@ -1,6 +1,0 @@
-#!/bin/bash
-# start vscode
-# Author: Jomkie
-
-exec /opt/VSCode-linux-x64/bin/code
-

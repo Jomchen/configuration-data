@@ -1,6 +1,0 @@
-#!/bin/bash
-# Start xianjian
-# Author: Jomkie
-
-exec /opt/games/xianjian1/PAL/sdlpal
-

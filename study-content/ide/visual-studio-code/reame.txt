@@ -38,8 +38,8 @@
    - java
       - Debug 配置 launch.json，具体配置可根据 ctrl + space 提示，也可根据官网介绍配置
       - 一般注重的两个配置
-         - "args": ["--spring.profiles.active=FAT"]
-         - "env": {"env": "FAT"]
+         - 命令参数 "args": ["--spring.profiles.active=FAT"]
+         - 环境变量 "env": {"env": "FAT"]
 
 * 开发java
    - https://baijiahao.baidu.com/s?id=1732042705381960939&wfr=spider&for=pc

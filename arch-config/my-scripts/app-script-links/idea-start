@@ -1,5 +1,0 @@
-#!/bin/bash
-# start idea
-# Author: Jomkie
-
-/bin/bash /opt/idea-IU-211.6693.111/bin/idea.sh

@@ -1,0 +1,5 @@
+#!/bin/bash
+# Start jprofiler
+# Author: Jomkie
+
+exec /opt/jprofiler12.0.4/bin/jprofiler

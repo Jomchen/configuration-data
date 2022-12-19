@@ -1,6 +1,0 @@
-#!/bin/bash
-# start eclipse
-# Author: Jomkie
-
-exec /opt/eclipse/eclipse
-

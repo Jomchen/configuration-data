@@ -1,7 +1,0 @@
-#!/bin/bash
-# Start dbeaver
-# Author: Jomkie
-
-
-
-exec /opt/dbeaver/dbeaver
