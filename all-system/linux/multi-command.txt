@@ -66,6 +66,7 @@
          - nmcli device status                          # 查看各网络接口的状态
          - nmcli device wifi connect wifi名 password wifi密码    # 连接wifi
          - nmcli device wifi list                       # 列出wiffi名单
+         - nmcli device wifi show                       # 显示已连wifi的二维码与密码
       - nmcli radio {all | wifi | wwan} [ARGUMENTS...]  # show radio switches status, or enable and disable the switches
 
 * 一些其它的软件和服务
