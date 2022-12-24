@@ -37,6 +37,7 @@ pacman -S neofetch                # 优雅显示系统信息log
 pacman -S lolcat                  # 让输出颜色以渐变形式渲染
 pacman -S flameshot               # 截图工具
  - 引用教程地址 https://linux265.c/3848.html
+pacman -S tmux                    # 终端的切分工具
 pacman -S galculator              # 计算器
 pacman -S thunar                  # 文件管理器，此包如果安装xfce桌面环境则会自动安装
 pacman -S filezilla               # FTP 文件传输工具
