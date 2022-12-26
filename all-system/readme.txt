@@ -19,6 +19,9 @@
 * VPS 主机厂商介绍
    - http://www.367783.net/bandwagonhost/2051.html
 
+* 免费SSL证书提供商
+   - https://freessl.cn
+
 * across-GFW
    - TEACHING WEBSITE => https://www.v2rayssr.com/tag/trojan
    - GSOU CLOUD # Ji Chang
