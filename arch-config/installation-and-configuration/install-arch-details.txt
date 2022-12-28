@@ -80,6 +80,25 @@
    - NetworkManager 连接无线网
       - nmcli wifi list # 扫描无线网
       - nmcli device wifi connect 无线网信号 password 无线网密码 # 连接无线网
+      - 未连接网络时没有托盘问题解决方案
+         ```
+         当笔记本同时拥有 有线网卡 和 无线网卡时，未连接网络时不显示 NetworkManager 托盘的解决方案
+         今天安装Ubuntu 12.10后，通知区域的NetworkManager图标消失了，使得不能使用无线网络。
+           原因：可能是NetworkManager在同时存在eth0（有线网卡）和 wlan0（无线）时，默认将eth0作为管理对象；然而，我eth0没有插网线，所以NetworkManager没有工作。
+           解决方法：查看NetworkManager的配置文件，其位于:/etc/NetworkManager
+           编辑此配置文件，编辑前，先备份此文件。
+           cd /etc/NetworkManager
+           sudo cp  NetworkManager.conf   NetworkManager.conf_bak
+           sudo vi  NetworkManager.conf
+           修改以下内容：
+           [ifupdown]
+           managed=false
+           更改为
+           [ifupdown]
+           managed=true
+           保存后退出。
+           重新启动系统。此时，NetworkManager的图标出现了。
+         ```
 
 * 分区
    - fdisk -l # 查看设备
