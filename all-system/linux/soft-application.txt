@@ -66,7 +66,11 @@ pacman -S wine                    # windows 的虚拟容器
 # 远程桌面工具
    介绍远程软件 https://linux265.com/news/3604.html
    pacman -S remmina                 # 一个远程工具，支持多种协议
-    - pacman -S freerdp              # 安装rdp组件以支持连接windows
+    - pacman -S libvncserver         # 安装以支持 vnc 协议
+    - pacman -S spice-gtk            # 安装以支持 spice 协议
+    - pacman -S freerdp              # 安装以支持 rdp 协议
+       - 如果安装完后，在remmina下拉菜单中不可用，先确保完全退出remmina，执行 killall remmina，再重启程序
+       - 密码保存依赖于 GNOME Keyring
    pacman -S tigervnc                # 远程视图工具（已包含客户端和服务端）
     - 安装完后可以使用 vncviewer 命令 窗口
    todesk                            # 目前免费
@@ -134,6 +138,10 @@ yay -S weylus                     # 远程同屏软件（需要 aur 支持，内
       - Darktable
       - Inkscape
       - digiKam
+
+* 查看 xrdp 的archlinux文档 以了解远程连接相关的信息（xrdp 也是一种虚拟桌面的协议，替代的有 vnc 和 spice）
+   - 里面会涉及 xorgxrdp 相关的包的问题
+   - 里面会涉及 xorgxrdp 相关的包的问题
 
 # ****************************** 其它软件 ******************************
 rtorrent # 命令行BT客户端

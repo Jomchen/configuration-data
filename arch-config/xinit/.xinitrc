@@ -16,7 +16,7 @@
 
 ... 省略号部分内容应该复制源于 /etc/X11/xinit/xinitrc 中的内容
 # 但是也应该注意 复制的内容中有些指令应该注释掉，比如：xterm, xclock, twm
-# 复制内容时注意 exex 命令行应该出现在最后，否则其它的资源加载可能不生效（参考 xorg, xinit, display manager, 的维基文档）
+# 复制内容时注意 exec 命令行应该出现在最后，否则其它的资源加载可能不生效（参考 xorg, xinit, display manager, 的维基文档）
 
 LANG=zh_CN.UTF-8
 LC_LANG=und
