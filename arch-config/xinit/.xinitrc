@@ -1,6 +1,11 @@
 * 说明
    #!/bin/bash
    # copy /etc/X11/xinit/xinitrc to ~/.xinitrc,
+      # 根据官网说明，如果要自定义 ~/.xinitrc 时，
+      # 一定要确保 /etc/X11/xinit/xinitrc 的最后一个 if 语句块要包含在 ~/.xinitrc 中以确保加载 /etc/X11/xinit/xinitrc.d 目录
+      # 因为 startx 默认执行 /etc/X11/xinit/xinitrc（如果 ~/.xinitrc 不存在时），否则会执行 ~/.xinitrc
+      # 建议长时间运行的任务命令加上 & 以在后台执行
+
    # 然后添加自己的配置文件,比如如下的启动选择
    # 注意 exec 命令之后行会无效，在 arch 官网 xinit 有讲到
    # 注意 /etc/X11/xinit/xinitrc 最后命令 xclock 和 xterm 没有安装需要注意
