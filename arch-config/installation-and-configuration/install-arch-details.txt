@@ -101,6 +101,7 @@
          ```
 
 * 分区
+   - lsblk    # 树状查看硬盘分区信息
    - fdisk -l # 查看设备
    - fdisk /dev/相应的设备 # 对设备进行分配等处理
       - m # 获取帮助指令
@@ -108,8 +109,8 @@
       - g # 创建一个新的分区信息表（如果磁盘上有信息，则不要使用这个命令，否则会全覆盖）
       - -n 创建分区
          - GPT
-            - /mnt                  挂载到 根目录的分区（主分区）
-            - /mnt/boot or /mnt/efi efi 的分区，建议 512MB
+            - /mnt                  挂载到 根目录的分区（主分区，一定要先挂载）
+            - /mnt/boot or /mnt/efi efi 的分区，建议 512MB（建议使用 /mnt/boot）
             - /mnt/home             挂载到 家目录的分区
             - Swap 对应 Linux swap  交换分区
          - MBR
@@ -129,6 +130,7 @@
 
 * 挂载
    - 注意先挂载 根分区，否则会出现问题
+   - 之所以用 /mnt 开头是因为安装环境磁盘的根相对于是在安装环境的 /mnt 下的
    - mount /dev/主分区  /mnt         # 挂载根分区
    - mkdir /mnt/boot                 # 创建引导目录
    - mount /dev/efi分区 /mnt/boot    # 挂载引导分区
