@@ -78,7 +78,7 @@
       - dhcpcd &                                     # 启动动态ip分配服务
       - ping -c 2 baidu.com                          # 看是否有输出，有则连接互联网成功
    - NetworkManager 连接无线网
-      - nmcli wifi list # 扫描无线网
+      - nmcli device wifi list                                   # 扫描无线网
       - nmcli device wifi connect 无线网信号 password 无线网密码 # 连接无线网
       - 未连接网络时没有托盘问题解决方案
          ```
