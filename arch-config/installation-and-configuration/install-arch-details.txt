@@ -250,6 +250,7 @@
       - pacman -S xfce4-goodies # 包含额外的组件（可选择性安装）
       - systemctl enable lightdm # 让 lightdm 托管自启视图界面
    - wayfire                    # 另一种窗口管理器
+   - sway-im                    # 用于替换i3wm的软件（未使用过，待考证）
    - i3-gaps                    # 窗口管理器
       - pacman -S i3-gaps       # 安装 i3-gaps 窗口管理器
       - pacman -S dmenu         # 安装 dmenu 程序命令启动软件
