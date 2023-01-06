@@ -1,7 +1,7 @@
 # ****************************** 办公软件 ******************************
-pacman -S firefox                 # 安装火狐
-yay -S microsoft-edge-stable-bin  # 安装火狐
-yay -S google-chrome              # 安装火狐
+pacman -S firefox                 # 安装火狐浏览器
+yay -S microsoft-edge-stable-bin  # 安装edge浏览器
+yay -S google-chrome              # 安装谷歌浏览器
 yay -S dingtalk-bin               # 钉钉
 yay -S wechat-uos                 # 微信
 yay -S wemeet-bin                 # 腾讯会议
