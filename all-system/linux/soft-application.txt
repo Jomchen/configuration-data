@@ -1,6 +1,7 @@
 # ****************************** 办公软件 ******************************
 yay -S dingtalk-bin               # 钉钉
 yay -S wechat-uos                 # 微信
+yay -S wemeet-bin                 # 腾讯会议
 yay -S wps-office-cn              # wps主体
 yay -S wps-office-fonts           # wps字体
 yay -S wps-office-mui-zh-cn       # wps的中文依赖包，如果wps不是中文界面可以安装些依赖包
@@ -14,6 +15,11 @@ yay -S wps-office-mui-zh-cn       # wps的中文依赖包，如果wps不是中�
 pacman -S resp-app                       # redis 连接工具
 robo3t                                   # mongo 连接工具
 dbeaver                                  # 多种数据库连接工具
+yay -S debtap                            # deb 转包工具（将 deb 的包转为当前linux发行版的工具）
+   yay -S debtap                         # 安装工具
+   sudo debtap -u                        # 创建/更新 pkgfile 和 debtap 数据库
+   debtap ***.deb                        # 转换deb包
+   sudo pacman -U 当前linux下的安装包    # 安装软件
 
 # ****************************** 常用软件 ******************************
 pacman -S gcc                     # C编译工具
