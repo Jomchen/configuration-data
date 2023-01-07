@@ -15,6 +15,8 @@ yay -S wps-office-mui-zh-cn       # wps的中文依赖包，如果wps不是中�
       - https://www.cnblogs.com/fusheng-rextimmy/p/15371057.html
    Goldendict（可离线和在线）
       - http://www.178linux.com/74149
+
+# ****************************** 开发软件 ******************************
 pacman -S resp-app                       # redis 连接工具
 robo3t                                   # mongo 连接工具
 dbeaver                                  # 多种数据库连接工具

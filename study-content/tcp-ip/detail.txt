@@ -1,0 +1,2 @@
+CRC 和 多项式表达
+   - https://www.pianshen.com/article/8407152538/
