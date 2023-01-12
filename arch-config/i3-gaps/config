@@ -245,6 +245,8 @@ exec_always --no-startup-id keynav
 exec --no-startup-id feh --bg-scale /home/jomkie/mydata/pictures/lingzhou.jpeg
 exec_always --no-startup-id /usr/bin/picom
 #exec --no-startup-id /opt/deadd-notification-center/deadd-notification-center_v1.7.2
+exec_always --no-startup-id pactl get-default-sink | xargs -n 1 -I {} pactl set-sink-volume {} 50%
+
 
 # constrain size for floating windows
 #floating_minimum_size width x height
