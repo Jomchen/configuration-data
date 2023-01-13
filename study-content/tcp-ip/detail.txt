@@ -1,2 +1,4 @@
 CRC 和 多项式表达
    - https://www.pianshen.com/article/8407152538/
+列置换算法
+   - https://blog.csdn.net/weixin_46686592/article/details/120622872
