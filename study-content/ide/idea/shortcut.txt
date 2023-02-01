@@ -18,6 +18,7 @@ Ctrl + b               # 进入光标声明的地方
 Ctrl + g               # 跳转到指定行
 Ctrl + Alt + b         # 进入光标所在类或接口的实现类
 Alt + f7               # 查找引用了光标选中的地方
+Ctrl + Alt + 7         # 查看外部包中被引用的地方
 Ctrl + Shift + f10     # 运行当前类的 main 方法
 Ctrl + Shift + f9      # debug运行当前类的 main 方法
 Shift + f9             # debug 运行配置好的运行类
