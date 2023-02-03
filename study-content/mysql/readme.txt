@@ -14,6 +14,8 @@
       - Sequel Pro           # 收费
    - 设计工具
       - powerdesigner（收费）
+      - DbSchema
+      - DbVisualizer
       - chiner
       - pdMan
 * Mysql 事务和锁的详解
