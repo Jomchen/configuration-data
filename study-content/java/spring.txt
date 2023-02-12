@@ -1,0 +1,30 @@
+https://yangzhiwen911.github.io/zh/spring/
+## Spring 源码学习
+   1. MergedBeanDefinitionPostProcessor
+      1. CommonAnnotationBeanPostProcessor
+      2. AutowiredAnnotationBeanPostProcessor
+   2. FactoryMethod 是要有 @Bean 的方法或者 factoryMethod 的方法存在时才会有的
+   3. 注解收集
+      1. AutowiredAnnotationBeanPostProcessor
+         - 是收集 @Autowired 和 @Value 的注解并进行包装 InjectMetadata，beanName 进行映射
+      2. CommonAnnotationBeanPostProcessor
+         - 包装为 LifeCycleMetadata 对象
+            - 收集 @Resource 注解并进行包装到 InjectMetadata中，并和 beanName 进行映射
+            - 收集 @PostConstruct 和 @PreDestroy
+   4. polulate() 方法是对内部的 @Autowired 以及 @Resource 等注解的引用对象进行注入
+      - 调用了 AutowiredBeanPostProcessor 及 CommonBeanPostProcessor 等 BeanPostProcessor 接口实现
+      - getEarlyBeanReference 方法
+         - 这里的引用对象是通过 BeanPostProcessor 的装饰得到的结果，
+         - 因为引用的对象不一定非得是 @Autowired 的引用，也可能是其它三方引用对象
+   5. initializeBean
+      - 调用了 aware 接口（初步的几个aware接口）
+      - 对类中某些特殊方法的调用，比如@PostConstruct, Aware接口
+         - ApplicationContextAwareProcessor
+            - 如 EnvironmentAware, EmbeddedValueResolverAware ResourceLoaderAware ApplicationLoaderAware 
+            - ImportAwareBeanPostProcessor 对 ImportAware 的支持
+            - 注意 ApplicationListenerDetector 是用于注册事件监听器用的
+
+      - invokeInitMethods
+         - InitializingBean 接口, afterPropertiesSet, init-method 属性调用
+         - 也
+
