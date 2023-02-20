@@ -204,11 +204,18 @@ exec_always --no-startup-id /home/jomkie/.config/polybar/launch.sh
 #default_border normal|pixel <px>
 #default_floating_border normal|none|pixel
 #default_floating_border normal|pixel <px>
-default_border none
+default_border pixel 1
 default_floating_border none
 
 # Hide the edge borders: none|vertical|horizontal|both|smart
-hide_edge_borders both
+hide_edge_borders none
+
+client.focused          #00ff00 #00ff00 #00ff00 #00ff00   #00ff00
+client.focused_inactive #0000ff #0000ff #0000ff #0000ff   #0000ff
+client.unfocused        #000000 #000000 #000000 #000000   #000000
+#client.urgent           #2f343a #900000 #000000 #900000   #900000
+#client.placeholder      #000000 #0c0c0c #000000 #000000   #0c0c0c
+client.background       #000000
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
