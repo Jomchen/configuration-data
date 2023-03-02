@@ -89,6 +89,7 @@ pacman -S i3lock-wrapper          # 实现毛玻璃锁屏
     - 安装完后可以使用 vncviewer 命令 窗口
    todesk                            # 目前免费
 pacman -S screenkey               # 按键动态展示（当有键盘按键时，在屏幕底层会显示，一般录屏比较有用）
+   - 官网地址： https://www.thregr.org/~wavexx/software/screenkey/
 pacman -S arp-scan                # 一个靠 arp 协议发现本地网络设备的工具（不建议安装）
  - 已经被 ip neighbour 替代
 pacman -S gucharmap               # 用以查找指定字体是否有相同的字符
