@@ -4,6 +4,8 @@
 - [VIM插件](http://jvi.sourceforge.net/)
 
 ## 插件
+- etags
+   - 有网友支持 etags 以代替 ctags，哪个更优秀待验证
 - ctags + cscope
    - 概念
       ```
