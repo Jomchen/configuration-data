@@ -91,11 +91,21 @@ galgame 下载地址 http://bbs.fireemblem.net/
       - http://www.y469.com/vod/130821.html
       - http://www.y469.com/vod/147076.html
    - galgame 下载地址
+      - 说明
+         ```
+         1. https冒号//mmgal.com为旧域名，由于80端口已被墙，注意前面的是https而不是http，这地址用作域名地址更改通知。
+         2.hhgal.com为最新域名
+         请注意本人的域名均为com结尾，再次说明，非以上两个域名的使用本人名字的都是冒牌网站，本人永久不会进行会员收费，若被假网站导致金钱损失请报警或网络举报。
+         本站已屏蔽日本地区，请勿使用日本ip进网站
+         by 忧郁的loli&忧郁的弟弟 联合发布
+         ```
       - 忧郁的弟弟 https://mynovel.life/www.mygalgame.com/
       - 忧郁的弟弟新地址 https://www.ttloli.com
       - 初音的青葱 https://www.mikugal.com/
       - ACGNGAME https://acgngame.net/
       - 绅士的天堂 https://www.sogalgame.com/
+      - 忧郁的loli
+      - 花火学园
       - 恋爱游戏网
 
 
