@@ -14,3 +14,82 @@
    - 锁不可重入
    - 主从异步复制时引起的锁丢失
 
+
+
+https://yangzhiwen911.github.io/zh/spring/
+## Spring 源码学习1
+   - <bean> 标签中 <bean id="ID" factory-method="方法名A"/>
+      - 这个标签中要么是有一个 factory-bean 指向一个类，并且类中有非静态的方法名A的方法
+      - 这个标签中要么是有一个 class 指向一个类的全路径名，并且类中有静态的方法名A的方法
+   - instanceWrapper = createBeanInstance(beanName, mbd, args); 
+      - 这个方法是对类的实例化
+      - 这里有判断 fatctory-method 的调用
+      - 以及对 @Autowired 注解的构造方法的收集
+      - Constructor<?>[] ctors = determineConstructorsFromBeanPostProcessors(beanClass, beanName);
+         - 这个方法中有使用 BeanPostProcesscor 进行处理，其中的 AutowiredAnnotationBeanPostProccessor 进行 @Autowired 构造方法创建对象策略
+         - 类的实例化时，在多个有参构造函数存在（且构造函数上都是 @Autowired(required=true）的情况下会报错
+         - 类的实例化时，在多个有参构造函数存在（且构造函数上都是 @Autowired(required=false）的情况下会调用参数最多的那个
+         - 类的实例化时，如果一个 @Autowired 的构造方法都没有，则调用无参构造方法
+   - applyMergedBeanDefinitionPostProcessors(mbd, beanType, beanName);
+      - 进行 @PostConstruct @PreDestroy @Resource @Bean @Value 注解的收集
+      - MergedBeanDefinitionPostProcessor
+         - CommonAnnotationBeanPostProcessor
+            1. @PostConstruct @PreDestroy @Resource
+         - AutowiredAnnotationBeanPostProcessor
+            1. @Bean @Value
+   4. polulate() 方法是对内部的 @Autowired 以及 @Resource 等注解的引用对象进行注入
+      - 调用了 AutowiredBeanPostProcessor 及 CommonBeanPostProcessor 等 BeanPostProcessor 接口实现
+      - getEarlyBeanReference 方法
+         - 这里的引用对象是通过 BeanPostProcessor 的装饰得到的结果，也可能是直接返回的原对象
+            - 因为引用的对象不一定非得是 @Autowired 的引用，也可能是其它三方引用对象
+            - 以此还可以对对象进行修改和装饰和代理等系列操作
+   5. initializeBean
+      - 调用了 aware 接口（初步的几个aware接口）
+      - 对类中某些特殊方法的调用，比如@PostConstruct, Aware接口
+         - ApplicationContextAwareProcessor
+            - 如 EnvironmentAware, EmbeddedValueResolverAware ResourceLoaderAware ApplicationLoaderAware 
+            - ImportAwareBeanPostProcessor 对 ImportAware 的支持
+            - 注意 ApplicationListenerDetector 是用于注册事件监听器用的
+         - wrappedBean = applyBeanPostProcessorsBeforeInitialization(wrappedBean, beanName);
+            - 对类中 @PostConstruct 的方法调用
+            - ApplicationContextAware EnvironmentAware ApplicationEventAware ResourceLoaderAware 等接口实现的调用
+            - ImportAwareBeanPostProcessor 对 ImportAware的支撑，ImportAware的实现类是不应该加上@Component 的，应该用其它@Import 进行导入，否则它的某个方法是不能被调用的
+            - 有可能对类的装饰进行返回或直接返回原始类
+      - invokeInitMethods
+         - InitializingBean 接口, afterPropertiesSet, init-method 属性调用
+   -------------------------------------------------
+   6. 创建由spring管理的对象的方式
+      1. 自定义 BeanDefinition
+      2. applicationContext.getBeanFactory().registerSingleton("名字", 对象)
+      3. 自定义 factoryBean 接口
+      4. @Bean
+
+   7. 循环依赖
+     - 单例循环依赖允许
+     - 多例循环依赖不允许
+     - 构造函数中的循环依赖不允许
+
+   8. 注解类型的讲解
+      - @Import 注解
+         - @Import 导入的类
+            - 没有实现 ImportSelector 接口
+               - 没有 @Component 注解，也会收集到 BeanDefiniation 中进行实例化
+                  - 如果基于此种情况有 @ComponentScan 注解，那么此 @ComponentScan 生效
+               - 有 @Component 注解，也会被收集到 BeanDefiniation 中
+            - 实现了 ImportSelector 接口
+               - 没有 @Component 注解，那么它不会被加入 IOC 容器中，但是实现方法会被 spring 调用
+                  - 如果基于此种情况有 @ComponentScan 注解，那么此 @ComponentScan 不生效
+               - 有 @Component 注解，那么它会放入 IOC 容器中，且实现方法不会被 spring 调用
+            - ImportSelector 和 ImportBeanDefinitionRegistrar 的实现类如果要让它们的实现方法通过spirng 调用，则不能加上 @comonent 注解，且需要被 @Import 导入
+      - DefferedImportSelector 是 ImportSelector 的子类
+         - 调用它的 getGoup 方法，得到一个 group 内部类接口的实现类的 class（源码中如果获取不到则置一个 DefaultDeferredImportSelectorGroup 的class）
+         - 再调用这个实现类中的 process(AnnotationMetadata, DefrredImportSelector)
+         - 再调用这个实现类的 selectImports() 方法
+      - @Configuration 和 @Component 的类中有 @Bean 方法的区别
+         - 前景
+            - 一个类 ClassCla 有两个方法 methodA 和 methodB，且分别都有 @Bean 注解分别返回 A 和 B 类的对象
+            - methodA 中 有调用 methodB
+            - 如果 ClassCla 上注解为 @Component
+               - 由spring容器获取的 B 和 ClassCla实例调用 methodB 返回的对象不是同一个对象（不符合单例）
+            - 如果 ClassCla 上注解为 @Configuration
+               - 由spring容器获取的 B 和 ClassCla实例调用 methodB 返回的对象是同一个对象
