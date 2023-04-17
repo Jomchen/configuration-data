@@ -7,6 +7,7 @@
    - C/C++
       - 安装基础环境
          - 安装 gcc（windows 应该安装 MinGW 并配置环境变量）
+            - MinGw下载地址 https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/
             - 执行 g++ -v 命令检测是否环境变量配置成功
       - 安装插件
          - C/C++
