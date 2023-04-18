@@ -1,3 +1,10 @@
+* 数学学习地址
+   数量积的证明 https://zhidao.baidu.com/question/548004250.html
+   三角函数诱导公式 https://www.shuxuebang.com/cssx/4001.html
+   向量积推论 https://zhuanlan.zhihu.com/p/166338066
+   二维向量 https://baijiahao.baidu.com/s?id=17225285552994972
+   离散数学 https://www.zhihu.com/question/494307616
+
 * 三角函数诱导公式
 	- 直角三角函数的定义：
 	正弦（sin）等于对边比斜边；sinA=a/c；
