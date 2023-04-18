@@ -1,9 +1,10 @@
 * 插件安装
    - 其它插件
-      - Git History
-      - Git Graph
+      - Git History # Git 提交记录界面
+      - Git Graph   # Git 分支流
       - vim
-   
+         - 注意设置 Vim:Incsearch 勾选上
+      - CodeGeeX    # 代码生成器
    - C/C++
       - 安装基础环境
          - 安装 gcc（windows 应该安装 MinGW 并配置环境变量）
@@ -15,9 +16,6 @@
          - C/C++ Themes
          - Code Runner
          - gdb    # 这是debug调试工具，否则debug调试时会出错
-   
-   - VIM
-      - 注意设置 Vim:Incsearch 勾选上
    - JAVA
       - java 支持插件
          - Extension Pack for Java
@@ -28,7 +26,6 @@
          - Java Debugger 装哪个？
          - Language Support for Java(TM) by Red Hat
             - 需要在配置的 Java>Configuration>Maven:Global Settings 配置 maven 的 settings.xml 文件路径
-   
    - Spring
       - Spring Initializr Java Support
       - Spring Boot Tools
