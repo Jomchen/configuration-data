@@ -79,6 +79,7 @@ pacman -S i3lock-wrapper          # 实现毛玻璃锁屏
    Progress Telerik Fiddler Web Debbugger # 手机抓包工具
 # 远程桌面工具
    介绍远程软件 https://linux265.com/news/3604.html
+   pacman -S rdesktop                # 一个远程工具，支持 rdp 和 xrdp 协议
    pacman -S remmina                 # 一个远程工具，支持多种协议
     - pacman -S libvncserver         # 安装以支持 vnc 协议
     - pacman -S spice-gtk            # 安装以支持 spice 协议
