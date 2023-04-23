@@ -1,5 +1,8 @@
 离散数学 3.2.1
    - 符号 https://blog.csdn.net/baopengjian/article/details/110645669
+   - https://www.zhihu.com/question/494307616
+   - https://blog.csdn.net/ao_mike/article/details/106979870
+
 
 - 一些基本定理
    1. 真值只有 “真” 和 “假” 两种，分别用“T”（或“1”）和“F”（或“0”）表示

@@ -3,7 +3,10 @@
    三角函数诱导公式 https://www.shuxuebang.com/cssx/4001.html
    向量积推论 https://zhuanlan.zhihu.com/p/166338066
    二维向量 https://baijiahao.baidu.com/s?id=17225285552994972
-   离散数学 https://www.zhihu.com/question/494307616
+   离散数学
+      - https://www.zhihu.com/question/494307616
+      - https://blog.csdn.net/ao_mike/article/details/106979870
+
 
 * 三角函数诱导公式 sanjiaohanshu
 	```
