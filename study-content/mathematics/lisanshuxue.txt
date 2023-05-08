@@ -63,7 +63,7 @@
       P ∨ (P ∧ Q) = P
       P ∧ (P ∨ Q) = P
    
-   蕴涵待值式 G → H = ┐G ∨ H
+   蕴涵等值式 G → H = ┐G ∨ H
    零律 
       G ∨ T = T
       G ∧ F = F
