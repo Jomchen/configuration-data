@@ -2,3 +2,7 @@ Linux 上的FC游戏模拟器
    1. fceux
    2. 利用 wine 安装 virtualNes
       - https://jingyan.baidu.com/article/b24f6c82301ba186bfe5da25.html
+
+街机模拟器
+   1. Kaillera
+      - https://blog.csdn.net/weixin_39637059/article/details/119630094
