@@ -8,6 +8,7 @@ yay -S wemeet-bin                 # 腾讯会议
 yay -S wps-office-cn              # wps主体
 yay -S wps-office-fonts           # wps字体
 yay -S wps-office-mui-zh-cn       # wps的中文依赖包，如果wps不是中文界面可以安装些依赖包
+WindTerm                          # 多窗口的终端远程ssh控制器
 # 终端翻译工具
    pacman -S translate-shell            # 终端语言翻译工具（需要有网络）
       - 教程 https://baijiahao.baidu.com/s?id=1724568563772422792&wfr=spider&for=pc
