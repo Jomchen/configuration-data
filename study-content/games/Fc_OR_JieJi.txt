@@ -10,7 +10,7 @@
          - 官网地址 http://0ldsk00l.ca/nestopia/
          - 介绍地址 https://emulator.sumofents.net/nestopia-ue/
    
-   * 街机模拟器
+   * 联机服务
       1. Kaillera
          - https://blog.csdn.net/weixin_39637059/article/details/119630094
 
