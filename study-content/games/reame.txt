@@ -5,6 +5,7 @@ Linux 上的FC游戏模拟器
    3. zsnes（尚未使用过）
    4. higan（尚未使用过）
    5. Nestopia（具说是最完美的模拟器之一，可以联机）
+      - 官方Github地址 https://github.com/0ldsk00l/nestopia
       - 官网地址 http://0ldsk00l.ca/nestopia/
       - 介绍地址 https://emulator.sumofents.net/nestopia-ue/
 
