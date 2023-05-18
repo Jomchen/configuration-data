@@ -1,0 +1,101 @@
+   - [仙剑1源码移植](https://github.com/sdlpal/sdlpal)
+
+
+* 一些要马上打开的网址
+   - 批次1
+      - https://blog.csdn.net/org_hjh/article/details/108901385?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param
+      - https://www.jianshu.com/p/32904ee07e56
+      - https://www.cnblogs.com/crazylqy/p/7773492.html
+      - https://blog.csdn.net/qq_38384440/article/details/81710887
+      - https://blog.csdn.net/Alpha_Paser/article/details/82533128
+      - https://www.cnblogs.com/aspirant/p/11470858.html
+      - https://blog.csdn.net/luanlouis/article/details/40422941
+      - https://www.jianshu.com/p/e136ec79235c
+   - 批次2
+      - 安卓金庸群侠传 https://www.baidu.com/s?wd=%E5%AE%89%E5%8D%93%E9%87%91%E5%BA%B8%E7%BE%A4%E4%BE%A0%E4%BC%A0&rsv_spt=1&rsv_iqid=0x9fcb8fbc000003ac&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&tn=baiduhome_pg&rsv_enter=1&rsv_dl=tb&rsv_sug3=30&rsv_sug1=14&rsv_sug7=100&rsv_t=05cd1xjEbZU1HDgb%2F%2BGKv3a1qJH65JouiHKMoNHR%2Bbg3THtr7Tduuvn2tvq6NkNuPSTy&rsv_sug2=0&rsv_btype=i&inputT=11901&rsv_sug4=11902
+      - 手机玩金庸方式 https://tieba.baidu.com/p/6240777921
+      - 手机金庸下载 https://www.smzy.com/smzy/tech53496.html
+      - 手机金庸使用方式 https://tieba.baidu.com/p/3175014650
+      - 金庸的详细教程 http://www.flymood.com/jyqxz/gb/jykj.html
+      - 罗亚转世的有关人物 56:53  https://www.iqiyi.com/w_19s7zuydfl.html
+      - 月姬读本 https://tieba.baidu.com/p/3168474993
+      - 月姬的相关外传 https://wenwen.sogou.com/z/q171795056.htm
+      - type-moon 贴吧的一个信息 https://tieba.baidu.com/p/6163299123?pn=1
+
+
+* 《金庸群侠传原版》攻略
+   - http://www.kuaihou.com/gl/8382.html
+* 《金庸群侠传》一个下载地址
+   - http://bbs.958shop.com/topic_t168499.html
+
+
+* 游戏相关
+   1. 阿兜明，游泳的鱼 是早期 仙剑奇侠传 和金庸群侠传 的塞班平台移植作者
+   2. 说明
+      - PC完美移植版-金庸群侠传 v1.3
+      - 游泳的鱼 sdl_lua 复刻版最新版是0.66的
+   3. 金庸群侠传的三个复刻版区别
+      - lua版比较接近原版
+      - pascal版降低了一些难度
+      - lua 和 pascal 这两个剧情都是跟原版一样的
+      - 南宫梦版增加了一些战斗上的设定
+   4. 金庸群侠传源码
+      - sdl_lua 版本：https://github.com/t2meng/jinyong-legend-3ds/tree/0.3
+         - 基本全抄的 sdl_lua 的所谓复刻版 https://github.com/ZhanruiLiang/jinyong-legend
+         - 在 release 链接中可以得到源码和数据包
+         - 这个是基于 sdl_lua 的复刻完美版？ https://github.com/scarsty/jysdl-bh
+      - 这个是《金庸群侠传》c++复刻版 https://github.com/scarsty/kys-cpp
+      - 如果要搜其它复刻版则 在 github 上搜索 kys
+      - 如果要搜索 阿兜明 和 游泳的鱼 的移植版则在 github 上搜索 jinyong
+      - 修改器：用FishEditV0.72，没有一款修改器比他更专业了，那是游泳的鱼破解金庸群侠传的指令格式做出来的，MOD专用制作工具，可以修改剧情 ，武功，人物属性，场景贴图
+   5. 仙剑
+      - 数据包下载地址
+         ```
+         仙剑奇侠传95版
+         http://www.newyx.net/games/4345.htm
+         仙剑奇侠传98柔情版
+         http://www.newyx.net/games/2716.htm
+         仙剑客栈
+         http://www.newyx.net/games/3948.htm
+         新仙剑奇侠传
+         http://www.newyx.net/games/11241.htm
+         ```
+      - 仙剑教程地址：https://chiuinan.github.io/game/game/intro/ch/c11/pal/
+      - 知乎上仙剑的一些小细节：https://www.zhihu.com/question/28893237
+      - 仙剑源码编译教程：https://blog.csdn.net/flx413/article/details/82533736
+      - [仙剑1源码移植](https://github.com/sdlpal/sdlpal)
+         - 根据官方编译准备，先git更新子模块
+         - archlinux上的依赖安装
+            ```
+            SDL
+               - pacman -S sdl2
+            SDL_mixer
+               - pacman -S sdl_mixer
+            libmad
+               - pacman -S libmad
+            libogg & libvorbis
+               - pacman -S libogg
+               - pacman -S libvorbis
+            libopus & opusfile
+               - pacman -S libopus
+                  - 如果没有发现目标则应该是 opus
+               - pacman -S opusfile
+            FLTK
+               - pacman -S fltk
+            TinySoundFont
+               - 未解决
+               - 这仅是个头信息
+            OPL player from Adplug
+               - yay -S adplug
+            OPL emulation cores from DOSBOX project, MAME project and Chocolate Doom project
+               - pacman -S dosbox
+               - pacman -S mame
+               - yay -S chocolate-doom
+            Audio resampler from foo_input_adplug
+               - 未解决
+            AVI player from ffmpeg
+               - pacman -S ffmpeg
+            Image decoder from stb
+               - pacman -S stb
+            建议由下往上安装，有些依赖会自动安装
+            ```
