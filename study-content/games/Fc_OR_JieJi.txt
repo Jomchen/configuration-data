@@ -1,11 +1,13 @@
 * 模拟器相关
    * Linux 上的FC游戏模拟器
-      1. fceux（不能局域网）
-      2. 利用 wine 安装 virtualNes
-         - https://jingyan.baidu.com/article/b24f6c82301ba186bfe5da25.html
-      3. zsnes（尚未使用过）
-      4. higan（尚未使用过）
-      5. Nestopia（具说是最完美的模拟器之一，可以联机）
+      1. virtualNes
+         - Linux 上利用 wine 安装 https://jingyan.baidu.com/article/b24f6c82301ba186bfe5da25.html
+      2. Mesen（尚未使用过）
+         - 据说是最先进的一款模拟器
+      3. fceux（不能局域网）
+      4. zsnes（尚未使用过）
+      5. higan（尚未使用过）
+      6. Nestopia（具说是最完美的模拟器之一，可以联机）
          - 官方Github地址 https://github.com/0ldsk00l/nestopia
          - 官网地址 http://0ldsk00l.ca/nestopia/
          - 介绍地址 https://emulator.sumofents.net/nestopia-ue/
