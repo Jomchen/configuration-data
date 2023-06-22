@@ -1,0 +1,19 @@
+F(x) 的导函数F'(x)为： (F(x + 变x) - F(x))/(变x)，变x无限接近于0
+F(x) 在某点 x1 的导数为 
+
+y=(1+x)^u - 1 y'=u*x
+y=e^x - 1     y'=x
+
+y=c(c为常数) y'=0
+y=x^n        y'=nx^(n-1)
+y=a^x        y'=a^xlna
+y=e^x        y'=e^x
+y=logax      y'=logae/x
+y=lnx        y'=1/x
+y=sinx       y'=cosx
+y=cosx       y'=-sinx
+y=tanx       y'=1/cos^2x
+y=cotx       y'=-1/sin^2x
+
+
+

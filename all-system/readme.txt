@@ -56,7 +56,7 @@
       - Boslife(Abc, AAEX)
 
 
-* proxy-tool
+* proxy-tool（代理工具）
    - 介绍网址
       - https://ahuigo.github.io/b/net/net-proxy-tool#/
       - 网址介绍系列
@@ -68,6 +68,7 @@
          - 达到重定向目的，这种方法只对使用动态链接编译的程序有效，对于表态链接编译的程序
          - 例如黑夜选项编译的 Go 程序，proxychains-ng就无效了。graftcp 使用 ptrace(2)系统调
          - 用跟踪或修改任意指定程序的 connect 信息，对任何程序都有效。
+         - https://www.hi-linux.com/posts/13318.html
       - proxychains-ng（是 proxychains 的新一代）
       - tsocks（这个具说没有 proxychains 好用）
       - privoxy
