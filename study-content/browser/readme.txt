@@ -14,3 +14,4 @@
    - Firefox 浏览器
       - FoxyProxy
 4. Tampermonky 脚本插件
+5. FireShot-Capture page # 可以截图和滚动截图
