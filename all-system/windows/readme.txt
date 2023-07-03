@@ -12,3 +12,13 @@
    Windows 管理工具 => 系统信息 => 查看 “BIOS模式” 是否是 UEFI
 * 打开服务窗口
    win+r => services.msc
+* PE分区界面调动cmd
+   shift + f10      # 调出cmd窗口
+   diskpart         # 进入硬盘操作模式
+   list disk        # 查看硬盘信息
+   select disk 数字 # 使用相应索引号的硬盘
+   clean            # 清除磁盘
+   convert mbr      # 转磁盘为 mbr 格式
+   convert gpt      # 转磁盘为 gpt 格式
+   exit             # 退出硬盘模式
+   
