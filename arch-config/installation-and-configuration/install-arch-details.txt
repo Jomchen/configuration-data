@@ -99,6 +99,11 @@
            重新启动系统。此时，NetworkManager的图标出现了。
          ```
 
+* 硬盘格式
+   - GPT 为uefi的安装盘格式
+   - parted /dev/硬盘号   # 指定硬盘处理
+   - mklabel gpt          # 转换硬盘格式为gpt，注意这会清除硬盘的所有数据
+
 * 分区
    - lsblk    # 树状查看硬盘分区信息
    - fdisk -l # 查看设备
