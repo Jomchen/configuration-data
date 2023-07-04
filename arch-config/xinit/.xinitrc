@@ -26,8 +26,12 @@
 LANG=zh_CN.UTF-8
 LC_LANG=und
 deskTopChoice=${1:-xfce}
+
+if [ ! -e ~/i3-logs ];then
+   mkdir ~/i3-logs
+fi
 case $deskTopChoice in
-	i3	) exec i3 -V >> ~/i3-$(date +%Y-%m-%d)-log.txt 2>&1;;
+	i3	) exec i3 -V >> ~/i3-logs/i3-$(date +%Y-%m-%d)-log.txt 2>&1;;
 	xfce	) exec startxfce4;;
 	*	) exec $1;;
 esac
