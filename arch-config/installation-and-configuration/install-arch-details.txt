@@ -104,6 +104,9 @@
    - parted /dev/硬盘号   # 指定硬盘处理
    - mklabel gpt          # 转换硬盘格式为gpt，注意这会清除硬盘的所有数据
 
+注意连接wifi要异步
+注意添加分区的 n 时，写大小时要写为 +多少G 的方式，前面的+号不能少
+
 * 分区
    - lsblk    # 树状查看硬盘分区信息
    - fdisk -l # 查看设备
@@ -131,6 +134,7 @@
    - mkfs.fat -F32 /dev/对应的efi分区
    - mkfs.ext4     /dev/主分区
    - mkfs.ext4     /dev/家目录分区
+   - mkswap /dev/swap分区
 
 * 挂载
    - 注意先挂载 根分区，否则会出现问题
@@ -161,6 +165,7 @@
       - GPT 的 efi 分区类型为 efi
       - Swap 的为 swap,其它默认 Linux 类型
    9. 格式化
+      - mkfs.fat -F32 /dev/对应的efi分区
       - mkfs.ext4 /dev/家分区
       - mkfs.ext4 /dev/根分区
       - mkswap /dev/swap分区
@@ -200,7 +205,7 @@
          ::1	localhost
          127.0.1.1	服务器名.localdomain 服务器名
          ```
-      10. passwod           # 输入两次密码修改 root 密码
+      10. passwd           # 输入两次密码修改 root 密码
    5. 引导
       - pacman -S grub efibootmgr intel-ucode os-prober wpa_supplicant man networkmanager
          - 注意 intel-ucode
@@ -224,11 +229,17 @@
    - shutdown -r now
 
 * 安装完毕后调整
+   - groupadd 新用户名 # 创建一个组
    - useradd -m -g 新用户名 -G wheel -s /bin/bash 新用户名
+      - 第一个 新用户名 是之前创建的组名
+      - 第二个 新用户名 是要创建的用户的名字
+      - 这样就保持了用户名和组名一致
    - passwd 新用户名   # 连输两次密码进行设置密码
    - visudo # 放开 wheel 的注释
    - 网络
       - systemctl start dhcpcd
+      - systemctl enable dhcpcd
+      - systemctl enable NetworkManager.service
    - 编辑 /etc/bash.bashrc 添加命令别名
       - alias ll="ls -ilh --color=auto"
       - alias grep="grep --color=auto"
@@ -237,7 +248,7 @@
 * 图形界面
    - 图形化支持
       - pacman -S xorg       # 安装图形界面包
-      - pacman -S xorg-init  # 安装启动图形界面包
+      - pacman -S xorg-xinit       # 安装图形界面包
       - pacman -S ttf-dejavu wqy-microhei # 安装微米黑字体，不安装则进入桌面环境系统语言中文可能显示不全
    - xfce4
       - pacman -S xfce4         # 核心组件
