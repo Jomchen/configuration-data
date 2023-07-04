@@ -73,7 +73,8 @@
             - wifi-menu                            # 这个工具虽然可以连接wifi,但是对一些企业级wifi协议不支持，所以建议安装 wpa_supplicant
          - wpa_supplicant
             - wpa_passphrase 网络名 密码 > wifi.conf # 生成一个连接wifi的配置文件
-            - wpa_supplicant -c wifi.conf -i 设备名  # 通过配置文件连接互联网
+            - wpa_supplicant -c wifi.conf -i 网络接口名  # 通过配置文件连接互联网
+            - 因为连接wifi是同步的，为了操作其它所以应该异步执行 wpa_supplicant -c wifi.conf -i 网络接口名 &
       - dhcpcd &                                     # 启动动态ip分配服务
       - ping -c 2 baidu.com                          # 看是否有输出，有则连接互联网成功
    - NetworkManager 连接无线网
@@ -99,21 +100,18 @@
            重新启动系统。此时，NetworkManager的图标出现了。
          ```
 
-* 硬盘格式
-   - GPT 为uefi的安装盘格式
-   - parted /dev/硬盘号   # 指定硬盘处理
-   - mklabel gpt          # 转换硬盘格式为gpt，注意这会清除硬盘的所有数据
-
-注意连接wifi要异步
-注意添加分区的 n 时，写大小时要写为 +多少G 的方式，前面的+号不能少
-
-* 分区
+* 格式化硬盘格式
+   - GPT 的情况注意
+      - GPT 为 uefi 的安装盘格式
+      - parted /dev/硬盘号   # 指定硬盘处理
+      - mklabel gpt          # 转换硬盘格式为gpt，注意这会清除硬盘的所有数据
+* 创建分区
    - lsblk    # 树状查看硬盘分区信息
    - fdisk -l # 查看设备
    - fdisk /dev/相应的设备 # 对设备进行分配等处理
       - m # 获取帮助指令
-      - p # 打印磁盘分区信息
-      - g # 创建一个新的分区信息表（如果磁盘上有信息，则不要使用这个命令，否则会全覆盖）
+      - p # 打印磁盘分区信息表
+      - F # 打印磁盘空闲区域表
       - -n 创建分区
          - GPT
             - /mnt                  挂载到 根目录的分区（主分区，一定要先挂载）
@@ -127,8 +125,9 @@
             - GPT 的 efi 分区类型为 efi,帮助文档可以查看编号
             - swap 为 swap
             - 其它为 Linux 类型
-      - p # 查看下分区情况是否正确
+         - 注意添加提示分区大小时应该写为 +大小G 这样的样式，注意有一个 “+”
       - w # 把分区信息写入磁盘，注意避免分错
+      - g # 创建一个新的分区信息表（如果磁盘上有信息，则不要使用这个命令，否则会全覆盖）
 
 * 分区格式化
    - mkfs.fat -F32 /dev/对应的efi分区
@@ -137,12 +136,18 @@
    - mkswap /dev/swap分区
 
 * 挂载
-   - 注意先挂载 根分区，否则会出现问题
-   - 之所以用 /mnt 开头是因为安装环境磁盘的根相对于是在安装环境的 /mnt 下的
-   - mount /dev/主分区  /mnt         # 挂载根分区
-   - mkdir /mnt/boot                 # 创建引导目录
-   - mount /dev/efi分区 /mnt/boot    # 挂载引导分区
-   - mount /dev/home    /mnt/home    # 挂载家目录分区
+   1. 注意
+      - 注意先挂载 根分区，否则会出现问题
+      - 之所以用 /mnt 开头是因为安装环境磁盘的根相对于是在安装环境的 /mnt 下的
+   2. 挂载操作
+      1. 挂载根分区
+         - mount /dev/主分区  /mnt         # 挂载根分区
+      2. 挂载引导分区
+         - mkdir /mnt/boot                 # 创建引导目录
+         - mount /dev/efi分区 /mnt/boot    # 挂载引导分区
+      3. 挂载家目录分区
+         - mkdir /mnt/home
+         - mount /dev/家目录分区    /mnt/home    # 挂载家目录分区
 
 * U 盘环境安装
    1. setfont /usr/shar/kbd/consolefonts/具体字体文件名 # 对控制台指定显示字体
@@ -154,7 +159,7 @@
       - 如果需要有自己配置键位则写一个 key.conf，里面写自己的配置，最后 loadkeys keys.conf
    3. ls /sys/firmware/efi/      # 查看是否是uefi引导,如果有文件输出表示是uefi引导
    4. ip link set 网络名 up/down # 开启/关闭网络接口,up是开启，down是关闭
-   5. dhcpcd &                   # 开启动态ip支持
+   5. dhcpcd &                   # 开启动态获取ip支持
    6. timedatectl set-ntp true   # 同步时间
    7. 分区
       - fdisk -l                 # 查看硬盘分区情况
