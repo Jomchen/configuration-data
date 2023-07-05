@@ -127,6 +127,7 @@ yay -S weylus                     # 远程同屏软件（需要 aur 支持，内
          load-module module-bluetooth-discover
          ```
       - 注意
+         - 需要自启动并启动蓝牙服务 systemctl start bluetooth; systemctl enable bluetooth
          - 可能因节能等原因 造成蓝牙键盘无法连接或其它因为节能造成的问题
          - 熟悉后再特殊配置以支持蓝牙键盘连接，暂时不安装，安装需要特殊配置
 
