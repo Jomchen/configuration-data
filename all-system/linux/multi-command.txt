@@ -1,5 +1,31 @@
 ## 一些 Linux 上重要的命令
 
+* xargs 命令的使用
+   - xargs -nNUM   # NUM 是数字，表示执行一次用的参数个数，默认是所有
+   - 练习
+      ```
+      ak.sh 是一个脚本，内容为：
+      #!/bin/bash
+      # 输出接收到的所有参数
+      echo $*
+      ```
+      ```
+      arg.txt 是一个文本，内容为：
+      aaa
+      bbb
+      
+      ccc
+      ```
+      ```
+      执行 cat arg.txt | xargs -I {} ./ak.sh "--> {} <--"
+      输出结果为：
+      --> aaa <--
+      --> bbb <--
+      --> ccc <--
+      ```
+
+
+
 * 一些输出
    ```
    echo $$ 返回登录shell的PID
@@ -43,6 +69,7 @@
    - pidof 程序名 # 查看指定程序的 pid
       - 程序名是通过 ps 查询出来的最终执行的程序文件名
    - ls -ilha /proc/进程号/exec # 查看对应进程是执行哪个文件执行的
+   - sensors      # 查看各硬件温度，查看风扇转速
 
 * 关于网络的一些命令
    - NetworkManager

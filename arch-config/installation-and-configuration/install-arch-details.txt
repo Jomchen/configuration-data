@@ -26,6 +26,12 @@
          2. 如果依然显示灰色，则 Load Default Settings 恢复默认设置
          3. 部分品牌电脑需设置 BIOS 密码才能修改 BIOS 选项
             - Set Supervisotr Password 为 Enabled
+   - 其它注意
+      1. 用 uefi 引导情况下在进入系统选项界面
+         - 按 c 进入 grub 命令界面,按 e 进入内核参数启动界面（可以自定义内核参数启动）
+         - 按 e ，然后输入 nomodeset video=像素x像素 （注意结尾有空格,可以指定分辨率启动）
+      2. 回车后，进入的界面是 U 盘环境，官方为了在 U 盘环境能够访问和指定设备，拟挂载在 /mnt
+         其中 /mnt 是直接指向了设备硬盘，所以之后的操作注意这个 /mnt
 
 * Windows 和 Linux 双系统时间不同步
    - Linux+Windows 双系统时间同步解决方案
@@ -44,12 +50,6 @@
    1. linux 中用 wine 安装 qq方案
      - https://wiki.archlinux.org/index.php/Tencent_QQ_
 
-* 其它注意
-   1. 用 uefi 引导情况下在进入系统选项界面
-      - 按 c 进入 grub 命令界面,按 e 进入内核参数启动界面（可以自定义内核参数启动）
-      - 按 e ，然后输入 nomodeset video=像素x像素 （注意结尾有空格,可以指定分辨率启动）
-   2. 回车后，进入的界面是 U 盘环境，官方为了在 U 盘环境能够访问和指定设备，拟挂载在 /mnt
-      其中 /mnt 是直接指向了设备硬盘，所以之后的操作注意这个 /mnt
 
 
 

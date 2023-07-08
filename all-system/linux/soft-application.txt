@@ -27,6 +27,9 @@ yay -S debtap                            # deb 转包工具（将 deb 的包转�
    debtap ***.deb                        # 转换deb包
    sudo pacman -U 当前linux下的安装包    # 安装软件
 
+# ****************************** 监控软件 ******************************
+pacman -S lm_sensors              # 输出即时的硬件温度，风扇转转等信息
+pacman -S s-tui                   # 不依赖Xorg的硬件监控软件
 # ****************************** 常用软件 ******************************
 pacman -S gcc                     # C编译工具
 pacman -S make                    # C脚本安装工具
@@ -70,6 +73,7 @@ pacman -S i3lock-wrapper          # 实现毛玻璃锁屏
    - https://blog.csdn.net/liberty1997/article/details/113837965
    - https://blog.csdn.net/olnautunm/article/details/109954444
 剪贴板 https://blog.csdn.net/iteye_5904/article/details/82652212
+
 # 抓包工具
    Charles                           # 收费
    Fiddler4                          # 收费
@@ -78,6 +82,7 @@ pacman -S i3lock-wrapper          # 实现毛玻璃锁屏
     - pacman -S wireshark-cli        # 命令性质的抓包工具
    Tcpdmp                            # 功能强大的命令行抓包和分析工具；没有GUI，广泛用于服务器端的抓包和分析
    Progress Telerik Fiddler Web Debbugger # 手机抓包工具
+
 # 远程桌面工具
    介绍远程软件 https://linux265.com/news/3604.html
    pacman -S rdesktop                # 一个远程工具，支持 rdp 和 xrdp 协议
