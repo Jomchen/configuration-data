@@ -24,6 +24,21 @@
       --> ccc <--
       ```
 
+* 屏幕输出的命令
+   xrandr                                                   # 查看显示设备
+   xrandr --output VGA1 --primary                           # 设置 VGA1 为主要输出
+   xrandr --output VGA1 --mode 1920x1080                    # 设置 VGA1 分辨率为 1920x1080
+   xrandr --output VGA1 --mode 1920x1080 --dpi 数字                    # 设置 VGA1 分辨率为 1920x1080，dpi为数字
+   xrandr --output VGA1 --mode 1920x1080 --scale 数字                    # 设置 VGA1 分辨率为 1920x1080，并拉伸，数字比1大时字体越小，数字比1小时字体越大
+   xrandr --output VGA1 --mode 1920x1080 相对输出方式 LVDS1 # 设置 VGA1 到 LVDS1 的指定侧，并且分辨率为 1920x1080
+      - 相对输出方式为 --left-of # 在...左边
+      - 相对输出方式为 --right-of # 在...右边
+      - 相对输出方式为 --above # 在...上面
+      - 相对输出方式为 --below # 在...下面
+      - 相对输出方式为 --same-as # 与...同画面
+   xrandr --output VGA1 --mode 1920x1080 --rate 90          # 设置 VGA1 分辨率为 1920x1080，刷新率为90
+   xrandr --output VGA1 --mode 1920x1080 --rotate <normal/left/right/inverted> # 设置 VGA1 分辨率为 1920x1080，并按指定方向旋转
+
 
 
 * 一些输出
