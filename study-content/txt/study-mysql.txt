@@ -3,6 +3,7 @@ MYSQL 教程
 * 学习地址
    - [索引](https://www.cnblogs.com/zhangxufeng/p/8308558.html)
    - [数据库锁/隔离级别原理](https://www.cnblogs.com/crazylqy/p/7611069.html)
+   - [代数符号表示法](https://blog.csdn.net/hacv131/article/details/123765825)
 * 问题
    - 对于模糊查询的解决方案（解决）
    - show status like 'Handler_read%' 的解释（半解决，视频未作详细的说明）
