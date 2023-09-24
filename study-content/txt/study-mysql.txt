@@ -103,6 +103,11 @@ MYSQL 教程
          using where 在查询语句中，使用了条件查询，查询条件没有索引前缀，查询内容也没有索引字段
          using index condition 查找使用了索引，但是查询字段仍有非索引字段需要回表查询 或 还需要 where 条件的非条件过滤进行回表查询
          using index;using where 查找使用了索引，但是需要的数据都在索引列中能找到，所以不需要回表查询
+
+         using index 使用覆盖索引的时候会出现，测试发现主键索引也会生效
+         using where 在查找使用索引的情况下，需要回表去查询所需要的数据
+         using index condition 查找使用了索引，不需要回表查询，因为要过滤的字段在索引中
+         using index & using where 查找使用了索引，但是需要的数据都在索引列中能找到，所以不需要回表查询数据（联合索引很容易出现这样的结果）
       ```
 
    - show profiles 分析sql
