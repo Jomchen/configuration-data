@@ -8,8 +8,8 @@ Ctrl + Shift + n       # 查找文件名
 Ctrl + Shift + f       # 全局关键字查找
 Shift + Esc            # 隐藏当前窗口
 Ctrl + Shift + Enter   # 代码分号补全
-Ctrl + Shift + 左箭头  # 代码跳回（经常和显卡的图形显示冲突，可以在 keyMaps 菜单中搜索 Back）
-Ctrl + Shift + 右箭头  # 代码跳前（经常和显卡的图形显示冲突，可以在 keyMap 菜单中搜索 Forward）
++Ctrl + Alt + 左箭头  # 代码跳回（经常和显卡的图形显示冲突，可以在 keyMaps 菜单中搜索 Back）
++Ctrl + Alt + 右箭头  # 代码跳前（经常和显卡的图形显示冲突，可以在 keyMap 菜单中搜索 Forward）
 Ctrl + Shift + o       # 选中全文的情况下再按此快捷键会去除多余的引包
 Ctrl + w               # 选中光标所在单词
 Shift Shift            # 全局搜索

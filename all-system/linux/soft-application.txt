@@ -37,6 +37,9 @@ pacman -S cmake                   # C脚本安装工具（升级版）
 pacman -S openssh                 # openssh 工具
 pacman -S git                     # 版本控制工具
 pacman -S zip                     # zip 压缩工具
+pacman -S p7zip                   # 7zip 压缩工具
+pacman -S neofetch                # 输出系统信息
+pacman -S lolcat                  # 输出有彩虹效果
 pacman -S unzip                   # zip 解压工具
 pacman -S rar                     # rar 压缩工具
 pacman -S unrar                   # rar 解压工具
