@@ -4,7 +4,7 @@
 
 unset dingtalkPid
 unset wechatPid
-dingtalkPid=$(ps -ef | grep -iE 'dingtalk' | grep -i '\./com\.alibabainc\.dingtalk' | grep -v 'grep' | awk '{print $2}')
+dingtalkPid=$(ps -ef | grep -iE 'dingtalk' | grep -i '/com\.alibabainc\.dingtalk$' | grep -v 'grep' | awk '{print $2}')
 if [ -n $dingtalkPid ];then
 	kill -9 $dingtalkPid
 fi
