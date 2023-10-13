@@ -246,9 +246,11 @@
       - systemctl enable dhcpcd
       - systemctl enable NetworkManager.service
    - 编辑 /etc/bash.bashrc 添加命令别名
-      - alias ll="ls -ilh --color=auto"
-      - alias grep="grep --color=auto"
-      - alias vi="/usr/bin/vim"
+      - alias ls='ls -ilh --color=auto'
+      - alias ll='ls -ilh --color=auto'
+      - alias grep='grep --color=auto'
+      - alias vi='/usr/bin/vim'
+      - alias neofetch='neofetch | lolcat'
 
 * 图形界面
    - 图形化支持

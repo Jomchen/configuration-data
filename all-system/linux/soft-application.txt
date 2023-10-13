@@ -105,20 +105,21 @@ pacman -S arp-scan                # 一个靠 arp 协议发现本地网络设备
 pacman -S gucharmap               # 用以查找指定字体是否有相同的字符
 yay -S weylus                     # 远程同屏软件（需要 aur 支持，内网体验很慢，不推荐）
 
-# ****************************** 其它软件 ******************************
-- 其它重要软件
+# ****************************** 其它重要软件 ******************************
    1. 声卡（建议安装 pulseaudio，它是建立在 alsa 的上层抽象）
-      - pacman -S alsa-utils           # 安装音频工具
-         - alsa-mixer                  # 调起声音控制台
-         - alsa 默认在内核所以只需安装调度工具
-         - 包含 alsamixer, amixer 命令
-         - 默认静音，解决方案
-            - amixer sset Master unmute
-            - amixer sset Speaker unmute
-            - amixer sset Headphone unmute
-      - pacman -S pulseaudio
-         - pacman -S pulseaudio-alsa                   # 有的程序会只依赖于 alsa，绕过了pulseaudio，因此pulseaudio 无法再访问声卡，所有依赖 pulseaudio 的应用将不再工作，解决此问题安装即可
-         - pacman -S lib32-libpulse lib32-alsa-plugins # x86_64 系统上有 32-bit 的多媒体程序时安装（Wine 和 Stream）
+      - pulseaudio方案
+         - pacman -S pulseaudio
+            - pacman -S pulseaudio-alsa                   # 有的程序会只依赖于 alsa，绕过了pulseaudio，因此pulseaudio 无法再访问声卡，所有依赖 pulseaudio 的应用将不再工作，解决此问题安装即可
+            - pacman -S lib32-libpulse lib32-alsa-plugins # x86_64 系统上有 32-bit 的多媒体程序时安装（Wine 和 Stream）
+      - alsa方案
+         - pacman -S alsa-utils           # 安装音频工具
+            - alsa-mixer                  # 调起声音控制台
+            - alsa 默认在内核所以只需安装调度工具
+            - 包含 alsamixer, amixer 命令
+            - 默认静音，解决方案
+               - amixer sset Master unmute
+               - amixer sset Speaker unmute
+               - amixer sset Headphone unmute
 
    2. 蓝牙
       - pacman -S bluez                   # 提供蓝牙协议栈
