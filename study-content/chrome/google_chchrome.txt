@@ -5,7 +5,9 @@
    生成截图图片（如果条目太长仍然有截不完整的情况）
 
 * 必装插件
-   FireShot # 可以截全图
+   FireShot           # 可以滚动截全图
    Proxy SwitchyOmega # 代理工具
    Dark Reader        # 强制调黑界面
+   Dark Model         # 强制调黑界面
+      - 在搜索栏搜索 reader dark
    Vimium             # 浏览网页插件
