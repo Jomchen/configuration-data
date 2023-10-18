@@ -204,7 +204,7 @@ exec_always --no-startup-id /home/jomkie/.config/polybar/launch.sh
 #default_border normal|pixel <px>
 #default_floating_border normal|none|pixel
 #default_floating_border normal|pixel <px>
-default_border pixel 1
+default_border pixel 2
 default_floating_border none
 
 # Hide the edge borders: none|vertical|horizontal|both|smart
