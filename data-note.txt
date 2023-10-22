@@ -1,0 +1,441 @@
+------------------------ Spring源码学习笔记
+* BeanPostProcessor
+   - default Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException;
+   - default Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException;
+   * InstantiationAwareBeanPostProcessor
+      - default Object postProcessBeforeInstantiation(Class<?> beanClass, String beanName);
+      - default boolean postProcessAfterInstantiation(Object bean, String beanName);
+      - default PropertyValues postProcessProperties(PropertyValues pvs, Object bean, String beanName);
+      - default PropertyValues postProcessPropertyValues(PropertyValues pvs, PropertyDescriptor[] pds, Object bean, String beanName) throws BeansException);
+      * SmartInstantiationAwareBeanPostProcessor
+         - default Class<?> predictBeanType(Class<?> beanClass, String beanName) throws BeansException;
+         - default Constructor<?>[] determineCandidateConstructors(Class<?> beanClass, String beanName);
+         - default Object getEarlyBeanReference(Object bean, String beanName) throws BeansException;
+         * InstantiationAwareBeanPostProcessorAdapter
+   * MergedBeanDefinitionPostProcessor
+      - void postProcessMergedBeanDefinition(RootBeanDefinition beanDefinition, Class<?> beanType, String beanName);
+      - default void resetBeanDefinition(String beanName);
+
+
+
+// Give BeanPostProcessors a chance to return a proxy instead of the target bean instance.
+InstantiationAwareBeanPostProcessor.postProcessBeforeInstantiation
+BeanPostProcessor.postProcessAfterInitialization
+
+// 收集@Autowired @Bean @Value；@Resource @PostConstruct @PreDestroy
+MergedBeanDefinitionPostProcessor.postProcessMergedBeanDefinition
+
+// 满足：1.是单例，2.允许循环依赖，3.正在创建中 三个条件时
+// 将工厂方法（这个工厂方法是调用getEarlyBeanReference且返回了一个对象引用，这也可以提前生成代理）加入了三级缓存，删除了二级缓存
+SmartInstantiationAwareBeanPostProcessor.getEarlyBeanReference
+
+// 如果返回值为 false，则此对象的属性不会注入
+InstantiationAwareBeanPostProcessor.postProcessAfterInstantiation
+
+// 属性注入
+InstantiationAwareBeanPostProcessor.postProcessPropertyValues
+
+BeanPostProcessor.postProcessBeforeInitialization
+// 当bean实例化完毕后，在调用initial单词开头的方法中（方法内容有调用初始化语句）：如果当前对象有代理需求则返回装饰当前对象的代理
+// 这个地方可能生成代理类，是aop的入口
+BeanPostProcessor.postProcessAfterInitialization
+
+
+AOP基础定义
+   PointCut
+      - 作用：匹配，拦截
+      - 目的：为了生成代理
+      - 用代理调用的时候：ClassFilter=类是它拦截的；MethodMacher=方法是它匹配的
+   Advice
+      - 承载了一些增强逻辑
+   Advitor
+      - Advitor = PointCut + Advice
+
+对于对象实例化代码的追溯可以得知：
+   - AbstractAutoProxyCreator.postProcessAfterInitialization 进行装饰为代理类
+      - AbstractAutoProxyCreator 是一个抽象类，在对对象进行代理封装的时候是使用它的实现类
+   - AspectJAutoProxyBeanDefinitionParser 是xml中 代理处理的标签类
+      - 它引入了一个叫 AnnotationAwareAspectJAutoProxyCreator
+      - AnnotationAwareAspectJAutoProxyCreator 的祖先接口是 AbstractAutoProxyCreator
+      - 所以 AnnotationAwareAspectJAutoProxyCreator 可以作为代理对对象进行装饰
+对于@EnablAspectJAutoProxy 注解中也可以追溯到注入了一个叫 AnnotationAwareAspectJAutoProxyCreator 的类
+
+在寻找到一个类所拥有的所有 Advisor 后，如果系统中有 @Aspect 注解的切面，则系统会默认加一个优先级最高的切面
+这个切面的作用是为了传递参数
+   extendAdvisors(eligibleAdvisors);
+   将一个 MethodInvocation 对象丢到了一个 ThreadLocal 的对象里面供参数传递
+MethodInvocation methodInvocation = ExposeInvocationInterceptor.currentInvocation()  # 这种方式只能是使用 @Aspect 的情况下进行获取
+AopUtils.getMostSpecificMethod(method, targetClass);                                 # 通过一个方法对象，实例对象，获取其对应的非桥接方法对象
+
+自己实现一个 MethodInterceptor，如果把它的名字加入了一个对象的 interceptorNames 变量，
+则它会被包装为为一个 advisor，并实现一个全局拦截
+
+AopContext.currentProxy() 可以直接获取当前的代理，
+一般用于方法调方法的情况，在方法中被调的方法的逻辑是不走代理的，可以通过此方法获取到代理再进行调用
+但是必须要求：EnableAspectJAutoProxy 的 exposeProxy 设置为true
+--------------------------------------------------------------------------------------------------------------
+
+** Spring 学习笔记
+   - https://yangzhiwen911.github.io/zh/spring/
+   - https://yangzhiwen911.github.io/
+   - 享学课堂的论坛 http://bbs.xiangxueketang.cn/pins/recommended
+
+   - 重看和验证的地方
+      - 执行自定义扫描类的地方进行编码测试
+      - 第十章的：1, 2 重看；3的销毁逻辑重看
+   - BeanDefinition的分类
+      - RootBeanDefinition
+      - GenericBeanDefinition
+      - Componentscan 扫描得到的 new ScannedGenericBeanDefinition(metadata)
+      - Import进来的和内部类得到的 new AnnotatedGenericBeanDefinition(metadata)
+      - @Bean解析得到的 new ConfigurationClassBeanDefinition(configClass, metadata)
+         - 这个内是私有的，所以外部创建不了
+   - 通过 xml 命名空间和标签决定实例化一些 HandlerSupport 的实现类对标签进行处理
+      - ClassPathBeanDefinitionScanner 类用于扫描路径下有相应注解的类（默认包含 @Component 的注解）
+      - 标签扫描类，把包含有 @Component 的类进行扫描并收集为 BeanDefinition
+      - 在扫描类逻辑中最后会注册一些 BeanPostProcessor 的实现类，例：CommonAnnotationBeanPostProcessor, AutowiredAnnotationBeanPostProcessor
+         - 把实现了 BeanPostProcessor 接口的类实例化并注册到容器中
+         - 获取 BeanPostProcessor 实现类时会进行 getBean 对它进行实例化
+   - finishBeanFactoryInitialization(beanFactory)
+      - bean 实例化，ioc，注解支持，BeanPostProcessor 的执行，AOP的入门
+      - MetadataReader 是关于类的注解信息
+      - instanceWrapper = createBeanInstance(beanName, mbd, args); 
+         - 这个方法是对类的实例化
+         - 这里有判断 fatctory-method 的调用
+            - factoryMethod 不为null的情况有两种：1. 方法有 @Bean 注解；2. <bean 标签 有 factory-method 的声明
+            - <bean> 标签中 <bean id="ID" factory-method="方法名A"/>
+               - 这个标签中要么是有一个 factory-bean 指向一个类，并且类中有非静态的方法名A的方法（这个方法A返回了一个对象）
+               - 这个标签中要么是有一个 class 指向一个类的全路径名，并且类中有静态的方法名A的方法（这个方法A返回了一个对象）
+         - 如果没有 factory-method 的方法，则调用构造方法的方式进行实例化
+      - Constructor<?>[] ctors = determineConstructorsFromBeanPostProcessors(beanClass, beanName);
+         - 这个方法中有使用 BeanPostProcesscor 进行处理，其中的 AutowiredAnnotationBeanPostProccessor 进行 @Autowired 构造方法创建对象策略
+         - 类的实例化时，在多个有参构造函数存在（且构造函数上都是 @Autowired(required=true）的情况下会报错
+         - 类的实例化时，在多个有参构造函数存在（且构造函数上都是 @Autowired(required=false）的情况下会调用参数最多的那个
+         - 类的实例化时，如果一个 @Autowired 的构造方法都没有，则调用无参构造方法
+      - applyMergedBeanDefinitionPostProcessors(mbd, beanType, beanName);
+         - MergedBeanDefinitionPostProcessor
+            - CommonAnnotationBeanPostProcessor
+               1. @PostConstruct @PreDestroy @Resource
+            - AutowiredAnnotationBeanPostProcessor
+               - @Autowired @Bean @Value
+               - AutowiredAnnotationBeanPostProccessor 来收集得到
+                  1. 有@Autowired 注解的构造方法的有参构造方法收集（多个时会报错，多个 required=false 的情况会选参数最长的）
+                  2. 无@Autowired 注解的构造方法的有参构造方法收集
+                     - 如果只有一个则成功调用
+                     - 如果有多个，则最终走无参构造函数
+                  3. 无参构造方法收集
+               - 不能存在两个或以上的 required=true 的@Autowired 的构造函数
+   4. polulate() 方法是对内部的 @Autowired 以及 @Resource 等注解的引用对象进行注入
+      - 调用了 AutowiredBeanPostProcessor 及 CommonBeanPostProcessor 等 BeanPostProcessor 接口实现
+      - getEarlyBeanReference 方法
+         - 这里的引用对象是通过 BeanPostProcessor 的装饰得到的结果，也可能是直接返回的原对象
+            - 因为引用的对象不一定非得是 @Autowired 的引用，也可能是其它三方引用对象
+            - 以此还可以对对象进行修改和装饰和代理等系列操作
+            - 这里的面的逻辑是对 InstantiationAwareBeanPostProcessor 的实现类进行调用，
+               如果相应的实现方法返回了false，则相应的注入属性则不会走注入逻辑
+   5. initializeBean
+      - 调用了 aware 接口（初步的几个aware接口）
+      - 对类中某些特殊方法的调用，比如@PostConstruct, Aware接口
+         - ApplicationContextAwareProcessor
+            - 如 EnvironmentAware, EmbeddedValueResolverAware ResourceLoaderAware ApplicationLoaderAware 
+            - ImportAwareBeanPostProcessor 对 ImportAware 的支持
+            - 注意 ApplicationListenerDetector 是用于注册事件监听器用的
+         - wrappedBean = applyBeanPostProcessorsBeforeInitialization(wrappedBean, beanName);
+            - 对类中某些特殊方法的调用，例如 @PostConstruct 的方法调用，Aware 接口的调用
+            - ApplicationContextAware EnvironmentAware ApplicationEventAware ResourceLoaderAware 等接口实现的调用
+            - ApplicationContextAwareProcessor 接口的调用
+            - InitDestroyAnnotationBeanPostProcessor 接口的调用
+            - ImportAwareBeanPostProcessor 对 ImportAware的支撑
+               - ImportAware的实现类是不应该加上@Component 的，应该用其它@Import 进行导入，否则它的某个方法是不能被调用的
+            - 有可能对类的装饰进行返回或直接返回原始类
+      - invokeInitMethods
+         - InitializingBean 接口, afterPropertiesSet, init-method 属性调用
+
+      - PropertySourcesPlaceholderConfigurer 用于解析占位符，并存储环境变量和系统属性的结合
+      - FactoryBean 接口的实现类返回的对象是存储在另一个缓存里的，不是一般情况的一，二，三级缓存
+         - 但其实现类还是放在一级缓存里的
+      - Prototype 如果不是单例的情况：不管是同一个线程多次调用，还是多线程多次调用，每次取到的 getBean 拿到的实例都不一样
+   -------------------------------------------------
+   6. 创建由spring管理的对象的方式
+      1. 自定义 BeanDefinition
+      2. applicationContext.getBeanFactory().registerSingleton("名字", 对象)
+      3. 自定义 factoryBean 接口
+      4. @Bean
+
+   7. 循环依赖
+     - 单例循环依赖允许
+     - 多例循环依赖不允许
+     - 构造函数中的循环依赖不允许
+     - 二级缓存的作用是：当循环依赖有超过两次同一个对象 getBean 的操作时，就需要二级缓存
+
+   -------------------------------------------------
+   AnnotationConfigApplicationContext 起缘于注解的启动类
+   ConfigurationClassPostProcessor
+      - 优先级最低，所有BeanDefinition收集后再作最后处理
+      - 在处理BeanDefinition时会判断标识，通过标识则不处理，否则处理
+         - ConfigurationClassUtils 需要处理一些特殊注解
+   -------------------------------------------------
+
+   8. 注解类型的讲解
+      - @Import 注解
+         - @Import 导入的类
+            - 没有实现 ImportSelector 接口
+               - 没有 @Component 注解，也会收集到 BeanDefiniation 中进行实例化
+                  - 如果基于此种情况有 @ComponentScan 注解，那么此 @ComponentScan 生效
+               - 有 @Component 注解，也会被收集到 BeanDefiniation 中
+               - 没有 @Component 注解，但是有 @ComponentScan 注解，
+                  那么这个 @ComponentScan 扫描的路径下的类如果有 @Component 注解则会收集到 BeanDifinition 中
+            - 实现了 ImportSelector 接口
+               - 没有 @Component 注解，那么它不会被加入 IOC 容器中，但是实现方法会被 spring 调用
+                  - 如果基于此种情况有 @ComponentScan 注解，那么此 @ComponentScan 不生效
+               - 有 @Component 注解，那么它会放入 IOC 容器中，且实现方法不会被 spring 调用
+               - 没有 @Component 注解，但是有 @ComponentScan 注解，
+                  那么这个 @ComponentScan 扫描的路径下的类即使有 @Component 注解也不会收集到 BeanDifinition 中
+         - ImportSelector 和 ImportBeanDefinitionRegistrar 的实现类如果要让它们的实现方法通过spirng 调用，则不能加上 @comonent 注解，且需要被 @Import 导入
+            - ImportSelector 在执行时 BeanDefinition 还没有收集完
+            - ImportBeanDefinitionRegistrar 在执行时，BeanDefinition 是收集完毕了的
+            - ImporSelector 是实现方法返回类的限定名，让源码去通过限定名进行收集 BeanDefinition
+            - ImporBeanDefinitionRegistrar 是在实现方法内注册进入 registry 的
+      - DefferedImportSelector 是 ImportSelector 的子类
+         - 调用它的 getGoup 方法，得到一个 group 内部类接口的实现类的 class（源码中如果获取不到则置一个 DefaultDeferredImportSelectorGroup 的class）
+         - 再调用这个实现类中的 process(AnnotationMetadata, DefrredImportSelector)
+         - 再调用这个实现类的 selectImports() 方法
+      - @Configuration 和 @Component 的类中有 @Bean 方法的区别
+         - 前景
+            - 一个类 ClassCla 有两个方法 methodA 和 methodB，且分别都有 @Bean 注解分别返回 A 和 B 类的对象
+            - methodA 中 有调用 methodB
+            - 如果 ClassCla 上注解为 @Component
+               - 由spring容器获取的 B 和 ClassCla实例调用 methodB 返回的对象不是同一个对象（不符合单例）
+            - 如果 ClassCla 上注解为 @Configuration
+               - 由spring容器获取的 B 和 ClassCla实例调用 methodB 返回的对象是同一个对象
+         - this.reader.loadBeanDefinitions(configClasses)
+            - @Bean @ImportedResource ImportBeanDefinitionRegistrar 具体处理逻辑
+
+* AOP 解析 以及 Spring事务
+   - 定义
+      - 有一个默认的 advisor，作用是用于参数传递
+      - 事务方法中调用方法，内部那个被调用的方法没有经过代理，解决方案
+         - AopContext.currentProxy() 方法获取当前类的代理，再调用方法
+         - 硬编码，applicationContext.getBean(当前类)，这样获取的是当前类的代理，再用这个代理调用
+   - 重要的接口类
+      - MethodInterceptor 接口用于定义 Advice，实现方法的入参为 MethodInvocation
+   - 获取连接对象 
+      - ConnectionHolder ch = (ConnectionHolder)TransactionSynchronizationManager.getResource(dataSource);
+   - Srping的事务
+      - 一个线程对应一个 Map，Map 存放在 ThreadLocal 中
+      - Map 的 key-value 对应 数据源-这个数据源产生的连接的holder
+      - 事务的异常声明
+         - 如果程序异常，检查异常是否是声明的异常
+            - 如果不是，则递归找实际异常的父级异常是否与声明异常匹配
+            - 如果最终也不是，则实际异常如果是 RuntimeException 或 Errors 则也算匹配
+      ```
+         REQUIRED 的事务说明
+         @Transaction
+         methodA() {
+            try {
+                methodB();
+                methodC();
+            } catch (Exception e) {
+            }
+         }
+         如果 methodA 事务传播类型为 REQUIRED
+         如果 methodB 事务传播类型为 REQUIRED
+         如果 methodC 事务传播类型为 REQUIRED
+         如果 methodC 发生了异常，依据代码案例，回滚情况可能有：
+         整体回滚：
+            因为 methodC 本身的事务拦截在发生异常后会将 rollbackOnly 置为 true
+            在 methodA 事务拦截正常提交事务的大逻辑中有判断 rollbackOnly 的一个逻辑，因为为 true，所以造成整体回滚
+         整体不回滚：发生在 5.2.8.RELEASE 之前的某个版本及旧的版本
+
+         NESTED 的事务说明：
+         当前代理的方法执行前会增加一个回滚点，
+            - 如果此代理的方法没有异常则删除回滚点
+            - 如果此代理的方法有异常则回滚到回滚点，并设置rollback 变量为 false 并抛出异常
+         method A() {
+            try {
+               method B
+               method C
+            } catch(Exception e) {
+            }
+         }
+         如果 A 事务传播类型为 REQUIRED
+         如果 B 事务传播类型为 NESTED
+         如果 C 事务传播类型为 NESTED
+         如果 methodC 发生了异常，依据代码案例，结果为：B的逻辑不回滚，C的逻辑回滚
+      - 编程式事务
+         - TransactionTemplate transactionTemplate 可以进行注入的方式得到实例
+         Integer execute = transactionTemplate.execute(status -> {
+            mapper 的逻辑
+            mapper2 的逻辑
+            其它mapper的逻辑
+         });
+         # execute 执行完后事务自动提交
+
+      TransactionSynchronizationManager.registerSynchronization(TransactionSynchronization synchronization) # 实现对事务勾子的实现，对 beforCommit afterComminit beforeComplete afterComplete 的实现
+      ```
+
+** HTTP
+   - RequestContextHolder.getRequestAttributes.get() 可以获取 HttpServletRequest 对象，它是存在于 ThreadLocal 中的
+
+* 未看懂的地方
+   - 其一
+      1. 关于 通配符 的类名解析
+      2. spi方式失败的原因
+      3. DefferedImportSelector 的解析
+   - 其二
+      1. ConfigurationClassPostProcessor类源码（1）
+         1:18:27 将三个接口的实现类写一遍，将 DefferedImportSelector 的接口实现和调用看一遍
+      2. ConfigurationClassPostProcessor类源码（2）
+         spring实战代码案例1（多实现的实现原理）
+      3. 动态代理和AOP的初见
+         1:50:43
+      4. 代理的生成和链式调用的流程
+         23:35
+
+** 校考学习计划
+   - 进度
+      - 数据结构
+         - 刷时间学习进度：5.3.2
+         - 二叉树的：深度，高度，层数
+            - 深度：从上往下数，（求A的深度，从根节点数到A时经过的线条的数量）
+            - 高度：从下往上数，（求A的高度，从A的最深的叶子节点往上直到A经过的节点数）
+            - 层数：
+            - 解释地址
+               - http://cqlg.360xkw.com/gxplatform/gxlearningcenter/learning.html?id=121&type=491
+               - https://blog.csdn.net/qq_35247337/article/details/106960936
+
+
+
+
+
+------------------------ GRUB相关
+:: To use the new features provided in this GRUB update, it is recommended
+   to install it to the MBR or UEFI. Due to potential configuration
+   incompatibilities, it is advised to run both, installation and generation
+   of configuration:
+     $ grub-install ...
+     $ grub-mkconfig -o /boot/grub/grub.cfg
+New optional dependencies for grub
+    fuse3: For grub-mount usage
+:: Running post-transaction hooks...
+(1/2) Arming ConditionNeedsUpdate...
+(2/2) Updating the info directory file...
+
+------------------------ xrdp 声音相关
+安装完后，日志有提醒：Remember to pass the environment "PULSE_SCRIPT=/etc/xrdp/pulse/default.pa" to pulseaudio to make thi
+
+在GRUB 界面按 c 进入命令模式，输入 videoinfo 查看支持的分辨率
+
+
+
+2 天年假 33.68小时加班时间
+
+** 笔记
+   - MethodInterceptor 是一个advice
+   - 自定义advicor 需要自己实现 PointcutAdvitor
+   - 自定义的 advice 需要加载到 interceptorNames 变量中，会由系统封装为一个全局默认advitor
+   - SpringFactoriesLoader.loadFactories() 和 SpringFactoriesLoader.loadFactoryNames() 详细使用方式
+      - 都是在 spring.factories 中通过全限定名对应的值作为处理
+      - loadFactories() # 是通过第一个参数类的全限定名作为key，将value的值实例化并返回对象
+      - loadFactoryNames() # 是通过第一个参数类的全限定名作为key，将value的值返回
+   - Synchronized原理_synchronized原理及其应用
+
+** 要做的事情
+   - 备份月姬游戏，idea和相关破解 文件复制至数据硬盘
+   - Mysql 的在更新时使用的锁有哪些
+   - 重新读下AOP源码
+   - 重新读项目源码
+   - 买一个机械键盘
+   - 查询房产继承的的方式有哪些
+
+
+
+** SpringMvc教程笔记
+      - 异常处理，拦截和跨域问题 2:20:34
+      - spring总流程归档 1:31:02
+   
+   * 加载以下文件内容中的类
+      org.springframework:spring-web:5.0.7.RELEASE
+         - Spring-web-5.0.7.RELEASE.jar
+            - META-INF
+               - services
+                  - javax.servlet.ServletContainerInitializer
+   
+   * javax.servlet.ServletContainerInitializer 文件中的类 SpringServletContainerInitializer 
+      1. 类上有如下的注解
+      2. @HandlesTypes({WebApplicationInitializer.class})
+      3. 然后会加载 WebApplicationInitializer 的所有实例
+      4. 此类有个 onStartup(...) 方法，它会被调用
+         1. 且所有实现了 WebApplicationInitializer 实例的容器会作为 onStartup(...)的参数传递进来
+         2. 传递进来的容器会排序，并依次调用排好序的容器的 onStartup(...)方法
+         3. ServletContext
+            - ContextLoaderListener
+               - WebApplicationContext rootAppContext  # 收集的是非@Controller
+            - FrameworkServlet # DispatcherServlet，收集的是 @Controller
+               - WebApplicationContext
+   
+   * tomcat启动时 FrameworkServlet 的init 方法会被调用
+      1. 这个方法在它的祖先类 HttpServlet 中
+      2. 将 Spring 容器设置为 DispatcherServlet 的父容器
+      3. 再启动 springmvc容器的 的 refresh() 方法
+
+   * 当servlet容器启动时，会调用监听器的 contextInitialized 方法
+      - 里面有 refresh() 的执行，对spring容器进行初始化
+   
+   * FrameworkServlet 有个事件监听器的内部类 ContextRefreshListener，它是作为容器的默认配置
+      - @EnableWebMvc 相当于 xml 配置中的 <mvc:annotation-driver/>
+      - 有系列初始化过程，而初始化过程中需要用到的数据来源于 @EnableWebMvc 引入的类的系列@Bean
+         - @EnableWebMvc 注解
+            - 它导入了一个类 DelegatingWebMvcConfiguration
+            - 这个类的父类 WebMvcConfigurationSupport 有许多的 @Bean 方法需要看
+   
+   * 当一个请求过来的时候先到达的是 FrameworkServlet.service()
+      - RequestContextHolder 中有一个ThreadLocal 对象存储得有 RequestAttribute 记录得有请求数据
+         - RequestAttribute 里面除了有请求的参数，还有 request, response 对象
+         - RequestAttribute 是 ServletRequestAttribute 对象
+   
+   * HandlerMapping
+      - HandlerMapping 的几个实现类
+         - RequestMappingHandlerMapping
+         - SimpleUrlHandlerMapping
+            - 方式1
+               - 一个实现了 HttpRequestHandler 的实现类实现的controller逻辑
+               - 再由 SimpleUrlHandlerMapping 对象添加url和HttpRequestHandler实现类的映射属性
+               - 再将 SimpleUrlHandlerMapping 返给spring容器管理
+            - 方式2
+               - 一个继承了 AbstractController 的实现类实现的controller逻辑
+               - 实现类的 @Component 注解中的值为对应方法的url
+               - 并将这个实现类交由 spring 管理
+         - BeanNameUrlHandlerMapping
+         - RouterFunctionMapping
+      - 要实现一个Controller 有三种方式
+         - @RequestMapping 或 @Controller 注解
+         - 实现一个 HttpRequestHandler
+         - 继承一个 AbstractController（在 @Component 中的值作为url前缀）
+      - 根据 request 对象中的 url，去所有的 HandlerMapping 中的映射关系找对应的 handler 对象
+         - RequestMappingHandlerMapping 找到的handler是 HandlerMethod（基于注解@Controller）
+         - BeanNameUrlHandler 和 SimpleUrlHandlerMapping 找到的handler 是实例本身
+   
+   * 看一下 RequestMappingHandlerMapping 的父类 AbstractHandlerMethodMapping 实现的初始化方法
+      - afterPropertiesSet() # 它收集了 url 和对应 handler 的映射逻辑
+      - RequestMappingInfo 作为每一个 handler 的包装对象
+      - HandlerMethod
+         - controller 的名字
+         - 对应的 method
+         - 入参
+      - mappingLookup.put(mapping, handlerMethod) # 映射的 RequestMappingInfo -> HandlerMethod 的关系
+      - urlLookup.add(url, mapping)               # 映射的 url -> RequestMappingInfo 的关系
+   * RequestMappingHandlerAdpater 有它的初始化实现方法，包含参数解析器，结果解析器等
+   * SpringMvc请求大致流程
+      - 根据不同的 handlerMapping 获取 handler 过程
+      - 获取跟 handler 匹配的 handlerAdapter
+      - 前置拦截
+      - 具体 handler 调用，就是掉 controller
+      - 中置拦截
+      - 响应视图
+
+*** Mybatis学习
+   - mybatis的一级缓存有脏读的问题
+      - 第一次查询在A服务器
+      - 更新处理到B服务器
+      - 第二次查询在A服务器（和第一次是同一个SqlSession时，此时读取了未更新的数据）
