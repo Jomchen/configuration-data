@@ -28,6 +28,8 @@ java \
   --spring.profiles.active=PRO            # 传入的参数 
 ```
 
+* 泛型知识
+   - https://www.cnblogs.com/cainiao-Shun666/p/15754113.html
 
 * 一些问题
    - ExecutorService 中 submit() 和 execute() 区别
