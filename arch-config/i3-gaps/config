@@ -253,6 +253,8 @@ bindsym $mod+shift+t move workspace to output next
 
 # start personal applications
 exec --no-startup-id fcitx5
+# if you couldn't start the bluetooth with command "blueman-manager" , you should uncomment the next line
+#exec --no-startup-id blueman-applet
 exec_always --no-startup-id keynav
 exec --no-startup-id feh --bg-scale /home/jomkie/mydata/pictures/lingzhou.jpeg
 exec_always --no-startup-id /usr/bin/picom

@@ -1,8 +1,0 @@
-* translate-shell
-   - 翻译注意
-      - 翻译单词不必加双引号括起来，翻译句子需要将句子用双引号括起来
-   - trans -R                         # 查看支持的所有翻译语言
-   - trans :zh world                  # 翻译 world 这个单词为中文
-   - trans :zh "Hello world!!"        # 翻译 Hello world 这个句子为中文
-   - trans :zh file://文件全路径名    # 将文件中的内容翻译为中文
-   - trans                            # 只输入这个命令且执行时，是以会话的形式从输入流中获取内容进行翻译，要退出时按 ctrl + c
