@@ -69,8 +69,10 @@ pacman -S xdotool                           # 替代鼠标点击和移动的脚�
    - xdotool 是基于 X 框架的
    - wtype 是基于 wayland 框架的
 pacman -S tlp                     # 电源管理
-pacman -S net-tool                # 提供了 arp 命令等
- - 由 iproute2 包中的 ip neighbor 命令替代
+pacman -S iproute2                # ip工具包
+   pacman -S net-tool                # 提供了 arp 命令等
+    - 由 iproute2 包中的 ip neighbor 命令替代
+pacman -S traceroute              # 路由跟踪
 pacman -S wine                    # windows 的虚拟容器
 pacman -S i3lock-wrapper          # 实现毛玻璃锁屏
    - https://blog.csdn.net/liberty1997/article/details/113837965
