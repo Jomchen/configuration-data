@@ -60,3 +60,12 @@
    - http://www.javashuo.com/article/p-zxgtghbw-gc.html
    - https://www.zhihu.com/question/38974391
    - https://blog.csdn.net/u013408061/article/details/115067671
+
+* 基础
+   - ssh-keygen -t rsa -C "邮箱"      # 生成秘钥
+      - 会在 .ssh 目录里生成 id_rsa 和 id_rsa.pub 两个文件
+         - 这两个文件是 ssh key 的秘钥对
+         - id_rsa 是私钥，不能泄露
+         - id_rsa.pub 是公钥
+   - git config --global user.name "名字"    # 设定名字
+   - git config --global user.email "邮箱"   # 设定邮箱
