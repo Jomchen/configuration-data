@@ -91,7 +91,7 @@
       - nmcli connection down [id|uuid|path]         # 关闭网络
          - uuid 可以通过 nmcli connection show 获取
    - nmcli device                                    # 网络接口管理
-      - nmcli device show                            # 查看各网络接口的详细信息
+      - nmcli device show [接口名]                   # 查看 各/指定 网络接口的详细信息
       - nmcli device status                          # 查看各网络接口的状态
       - nmcli device wifi connect wifi名 password wifi密码    # 连接wifi
       - nmcli device wifi list                       # 列出wiffi名单
