@@ -2,6 +2,9 @@
    - https://www.52pojie.cn/
 * 在线屏幕检测
    - https://screen.bmcx.com/#welcome
+* JSON解析与格式化
+   - 解析 https://www.json.cn/
+   - 格式化 http://md5.cn/tools/json/
 * 一些重要的网址
    - Shadowsocks：https://shadowsocks.org/en/index.html
    - Tor Browser：https://www.torproject.org/download/
