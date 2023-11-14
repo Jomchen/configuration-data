@@ -1,7 +1,11 @@
 ## Arch Linux 安装过程
+
 * Arch 美化之路
-   - Arch 美化之路 https://arch.icekylin.online
-   - https://zjuyk.gitlab.io/posts/i3wm-config/
+   - 安装
+      - https://zhuanlan.zhihu.com/p/596227524?utm_id=0
+   - 美化
+      - Arch 美化之路 https://arch.icekylin.online
+      - https://zjuyk.gitlab.io/posts/i3wm-config/
 
 * 在 Arch 安装的 U 盘环境连接网络的工具
    - iwctl 针对无线wifi
