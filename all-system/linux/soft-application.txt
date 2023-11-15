@@ -54,6 +54,7 @@ pacman -S vlc                     # 视频播放器
 pacman -S neofetch                # 优雅显示系统信息log
 pacman -S lolcat                  # 让输出颜色以渐变形式渲染
 pacman -S flameshot               # 截图工具
+ - 需要执行 flameshot 才支付 pin 功能，否则无效
  - 引用教程地址 https://linux265.c/3848.html
 pacman -S tmux                    # 终端的切分工具
 pacman -S galculator              # 计算器

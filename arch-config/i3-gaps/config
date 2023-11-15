@@ -253,6 +253,7 @@ bindsym $mod+shift+t move workspace to output next
 
 # start personal applications
 exec --no-startup-id fcitx5
+exec --no-startup-id flameshot
 # if you couldn't start the bluetooth with command "blueman-manager" , you should uncomment the next line
 #exec --no-startup-id blueman-applet
 exec_always --no-startup-id keynav
