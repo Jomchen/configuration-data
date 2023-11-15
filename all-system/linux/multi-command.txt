@@ -97,6 +97,7 @@
       - nmcli device wifi list                       # 列出wiffi名单
       - nmcli device wifi show                       # 显示已连wifi的二维码与密码
    - nmcli radio {all | wifi | wwan} [ARGUMENTS...]  # show radio switches status, or enable and disable the switches
+   - nmcli dev show                                  # 展示网卡的连接信息，包括dns
 
 * 一些其它的软件和服务
    - DNSmasq                                            # NDS 服务软件
