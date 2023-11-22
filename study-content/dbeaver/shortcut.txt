@@ -6,3 +6,4 @@
    - ctrl + enter     # 执行sql
    - ctrl + shift + f # 格式化语句
    - f3               # 调出定义的脚本文件
+   - ctrl+ t          # 打开和关闭输出结果窗口
