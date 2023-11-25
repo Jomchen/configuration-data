@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+qqmusicProcessIdArray=$(ps -ef | grep -i qqmusic | grep -v grep | awk '{print $2}')
+
+for qqmusicId in $qqmusicProcessIdArray
+do
+	kill -15 $qqmusicId
+done
+
+unset qqmusicId
+unset qqmusicProcessIdArray
