@@ -8,5 +8,7 @@
    Vimium             # 浏览网页插件
    Proxy SwitchyOmega # 代理工具
    FireShot           # 可以滚动截全图
-   superCopy          # 超级复制
+   SuperCopy          # 超级复制
    Dark Reader        # 强制调黑界面
+   Magiccopy          # 抠图软件
+   global speed       # 视频加速
