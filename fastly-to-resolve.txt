@@ -16,9 +16,10 @@
 
 
 
-https://yangzhiwen911.github.io/zh/spring/
-https://www.yuque.com/tulingzhouyu/db22bv/xgv1mu3hgx55avxg
-   - buio <--- all character add two
+## Spring 相关学习贴子
+   - https://yangzhiwen911.github.io/zh/spring/
+   - https://www.yuque.com/tulingzhouyu/db22bv/xgv1mu3hgx55avxg
+      - buio <--- all character add two
 ## Spring 源码学习1
    - <bean> 标签中 <bean id="ID" factory-method="方法名A"/>
       - 这个标签中要么是有一个 factory-bean 指向一个类，并且类中有非静态的方法名A的方法

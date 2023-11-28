@@ -14,6 +14,14 @@ https://www.cnblogs.com/oboth-zl/p/10314071.html
 * 远程桌面工具
    - https://www.likecs.com/show-175710.html
 
+* F数字区，键盘失效
+   - https://blog.csdn.net/qq_33667170/article/details/119769320
+   - https://www.jianshu.com/p/de6ced40703f
+   - 解决方案
+      1. 编辑文本/etc/modprobe.d/hid_apple.conf，如果没有新建一个，添加如下参数:
+      options hid_apple fnmode=2
+      2. 运行如下命令： sudo update-initramfs -u
+
 * 重要的软件或配置
    - jp2a # 转换 jpg 图像为 ascii 码图
    - zsh  # 一个更好用的终端（但是所有的配置需要自己重新配置）
