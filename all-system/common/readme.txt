@@ -14,4 +14,5 @@
 
 * 游戏平台
    - Steam
-   - protondb
+      - protondb 游戏测评报告
+      - Proton Experimental 兼容层插件
