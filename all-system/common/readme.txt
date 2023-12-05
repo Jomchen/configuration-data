@@ -11,3 +11,7 @@
 
    - 其它相关技术
       - WOL(Wake-On-LAN) 在局域网内对关机电脑发送命令致使其开机
+
+* 游戏平台
+   - Steam
+   - protondb
