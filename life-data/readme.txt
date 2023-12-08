@@ -1,6 +1,3 @@
-############################################################## 裤子
-* 裤子尺寸测量方式
-   - http://www.360doc.com/content/11/0521/22/1073692_118435881.shtml
 
 ############################################################## 自考
    四川自考网（许久没有更新了）
@@ -17,8 +14,15 @@
    知乎关于成人本科，自考，国开区别参考地址：https://www.zhihu.com/question/372651234
 
 ############################################################## 歌手
-- Galen Crew 说明 https://www.zhihu.com/question/43014869
-- Galen Crew 资源 https://pan.baidu.com/share/link?shareid=54017441&uk=1594731342#list/path=%2Fsharelink1594731342-975973585576972%2FGalen%20Crew最全资源合集&parentPath=%2Fsharelink1594731342-975973585576972
 
 
 
+
+* 裤子尺寸测量方式
+   - http://www.360doc.com/content/11/0521/22/1073692_118435881.shtml
+* Galen
+   - Galen Crew 说明 https://www.zhihu.com/question/43014869
+   - Galen Crew 资源 https://pan.baidu.com/share/link?shareid=54017441&uk=1594731342#list/path=%2Fsharelink1594731342-975973585576972%2FGalen%20Crew最全资源合集&parentPath=%2Fsharelink1594731342-975973585576972
+   
+* library Genesis
+   - 世界图书下载网站
