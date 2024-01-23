@@ -90,9 +90,12 @@
    - 60 集 关系形容词
 * 小经验归纳
    - 易混单词
-      - recover # 恢复，收复，复原
-      - reserve # 保留，储备，预约
-      - reverse # 撤销，倒转，批驳，倒转
+      - recover # v. 恢复，收复，复原
+      - reserve # v. 保留，储备，预约 n. 保留，储备，储藏
+      - reverse # v. 撤销，倒转，批驳，倒转 adj. 反向的，相反的，背面的 n. 背面，反面
+      - obvious # adj. 明显的，显然的，当然的，公认的
+      - observe # v. 观察，遵守，注意到，监视，注视，看到，评论，庆祝
+      - deserve # v. 值得，应得；应受
    - 易搞混的内容
       - be used to do      # 被用于做...（used 作非谓语动词）
       - be used to n./ving # 习惯于做...（used 作形容词）
