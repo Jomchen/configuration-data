@@ -11,7 +11,7 @@
    - JDK 命令行
    - Eclipse Memory Analyzer # 内存映像分析工具
    - Jconsole 调试工具，可以看到许多线程在运行，但是不包括 public static void main 和 它所创建的线程
-   - Jprofiler
+   - Jprofiler（收费）
       - IDEA 可插件安装
    - Java Flight Recorder
    - JClassLib # Java 反编译工具
@@ -26,14 +26,17 @@
 
 * 性能监控与故障处理工具
    - jps   # JVM Process Status Tool 显示指定系统内所有的 HotSpot 虚拟机进程
-      - q  # 只输出 LVMID，省略主类的名称
-      - -m # 输出虚拟机进程启动时传递给主类 main() 函数的参数
-      - -l # 输出主类的全名，如果是进程执行的是 jar 包，输出 jar 路径
-      - -v # 输出虚拟机进程启动时 JVM 参数
-   - jstat -<option> <-t> <-h> java进程号 [打印间隔毫秒数] [查询总次数] # JVM Statistics Monitoring Tool，用于收集HotSpot 虚拟机各方面的运行数据
-      - 公共参数
-         - -compiler java进程号 # 显示JIT编译器编译过的方法，耗时等信息
-         - -printcompilation java进程号 # 输出被JIT编译的方法
+      - jps <option>
+      - 公共选项
+         - q  # 只输出 LVMID，省略主类的名称
+         - -m # 输出虚拟机进程启动时传递给主类 main() 函数的参数
+         - -l # 输出主类的全名，如果是进程执行的是 jar 包，输出 jar 路径
+         - -v # 输出虚拟机进程启动时 JVM 参数
+   - jstat # JVM Statistics Monitoring Tool，用于收集HotSpot 虚拟机各方面的运行数据
+      - jstat -<option> <-t> <-h> PID [打印间隔毫秒数] [查询总次数] # 用于收集HotSpot 虚拟机各方面的运行数据
+      - 公共选项
+         - -compiler # 显示JIT编译器编译过的方法，耗时等信息
+         - -printcompilation # 输出被JIT编译的方法
          - -class 显示ClassLoader的相关信息：类装载，卸载数量，总空间，消耗时间
          - -gc # 显示gc相关的堆信息，包括Eden区，两个Survivor区，老年代，永久代等容量，已用空间，GC时间合计等
             - 输出结果
@@ -62,7 +65,7 @@
          - -gcold          # 显示老年代GC状况
          - -gcoldcapacity  # 显示内容与-gcold基本相同，输出主要关注使用到的最大，最小空间
          - -gcpermcapacity # 显示永久代使用到的最大，最小空间
-      - 特殊参数
+      - 特殊选项
          - -t 是从执行到现在所花费的时间（秒）
          - -h数字 在周期性数据输出，即每隔几条数据打印一次
          - -h 在周期性数据输出时，输出多少
@@ -75,21 +78,74 @@
       - gc预测
          - 抽一个时间段，时间段内GCT之和/时间段长度 = GC回收比值  # 过高表示太多时间用于GC，影响吞率
          - 输出日志划分为几个时间段，每个时间段的OU取最小值，对比每个时间段内的OU最小值，如果在依次大表示内存可能产生泄漏
-   - java -XX:+PrintFlagsInitial -version # 查看所有JVM参数启动的初始值，后期可以修改，修改后即为最终值
-   - java -XX:+PrintFlagsFinal -version # 查看所有JVM参数启动的最终值，如果要使用 jinfo 查看/修改 可以参考此命令结果
-   - java -XX:+PrintCommandLineFlags -version # 查看那些已经被用户或者JVM设置过的详细的XX参数和名称和值
+   - 配置信息输出命令
+      - java -XX:+PrintFlagsInitial -version # 查看所有JVM参数启动的初始值，后期可以修改，修改后即为最终值
+      - java -XX:+PrintFlagsFinal -version # 查看所有JVM参数启动的最终值，如果要使用 jinfo 查看/修改 可以参考此命令结果
+      - java -XX:+PrintCommandLineFlags -version # 查看那些已经被用户或者JVM设置过的详细的XX参数和名称和值
    - jinfo # Configuration Info for Java 显示虚拟机配置信息
-      - jinfo -sysprops 进程号           # 显示属性信息
-      - jinfo -flags 进程号              # 显示VM信息
-      - jinfo -flag [+/-]配置参数 进程号      # 对于布尔值修改相应的VM参数值为是或否
-      - jinfo -flag 配置参数=参数值 进程号      # 对于非布尔值修改相应的VM参数值
-      - jinfo -flag 配置参数 进程号      # 显示相应进程是否使用了相应的VM参数设置（注意并非所有值都可修改）
-         - jinfo -flag SurvivorRatio 进程号 # 显示相应进程的幸存者配置
-         - jinfo -flag UseG1GC 进程号 # 显示是否使用了 G1 回收器
-         - jinfo -flag UseParallelGC 进程号 # 显示是否使用了 Parallel 回收器
-   - jmap # Memory Map for Java，生成虚拟机的内存转储快照（heapdump 文件）
-   - jhat # JVM Heap Dump Browser，用于分析 heapdump 文件，它会建立一个 HTTP/HTML 服务器，让用户可以在浏览器上查看分析结果
-   - jstack Stack Trace for Java，显示虚拟机的线程快照
+      - jinfo -sysprops PID           # 显示属性信息
+      - jinfo -flags PID              # 显示VM信息
+      - jinfo -flag [+/-]配置参数 PID      # 对于布尔值修改相应的VM参数值为是或否
+      - jinfo -flag 配置参数=参数值 PID      # 对于非布尔值修改相应的VM参数值
+      - jinfo -flag 配置参数 PID      # 显示相应进程是否使用了相应的VM参数设置（注意并非所有值都可修改）
+         - jinfo -flag SurvivorRatio PID # 显示相应进程的幸存者配置
+         - jinfo -flag UseG1GC PID # 显示是否使用了 G1 回收器
+         - jinfo -flag UseParallelGC PID # 显示是否使用了 Parallel 回收器
+   - jmap # Memory Map for Java，# 生成虚拟机的内存转储快照（heapdump 文件）
+      - 作用
+         - 导出内存映像文件
+         - 显示堆内存相关
+      - jmap -<option> PID
+      - 参数
+         - -dump # 生成java堆快照
+            - -dump:live # 生成java堆快照（只保存堆中存活的对象）
+         - -heap # 输出整个堆空间的详细信息，包括GC使用，堆配置信息，以及内存
+         - -histo # 输出堆中对象的统计信息，包括类，实例数量和合计容量
+            - -histo:live # 输出堆中对象的统计信息，包括类，实例数量和合计容量（只统计堆中存活对象）
+         - -permstat # 以ClassLoader为统计口径输出永久代的内存状态（仅Linux和solaris平台有效）
+         - -F # 当虚拟机对 -dump 选项没有任何响应时，可使用此选项强制执行生成dump文件
+         - -finalizerinfo # 查看在F-Queue中等待Finalizer线程执行finalize方法的对象
+      - 导出内存映像文件（实践）
+         - 手动方式
+            - jmap -dump:format=b,file=FILENAME.hprof PID # 导出格式为二进制，文件名为 FILENAME.hprof
+            - jmap -dump:live,format=b,file=FILENAME.hprof PID # 导出活跃对象且格式为二进制，文件名为 FILENAME.hprof
+         - 自动方式
+            - java -XX:+HeapDumpOnOutOfMemoryError # 只在发生内存错误时导出（需要和下面的联合使用）
+            - java -XX:HeapDumpPath=FILENAME.hprof # 在自动导出时，导出文件名为 FILENAME.hprof（需要和上面的联合使用）
+      - 查看堆内存信息（实践）
+         - jmap -heap PID
+         - jmap -histo
+      - 其它作用（实践）
+         - jmap -permstat PID # 查看系统的 ClassLoader信息
+         - jmap -finalizerinfo # 查看堆积在 finalizer队列中的对象
+   - jhat # JVM Heap Dump Browser 查看堆的信息内容
+      - jhat DUMP文件
+      - JDK9及之后已经删除了此工具，用 visualVM 代替了
+      - 用于分析 heapdump 文件，它会建立一个 HTTP/HTML 服务器，让用户可以在浏览器上查看分析结果
+   - jstack Stack Trace for Java， # 查看线程相关的信息
+      - jstack <option> PID
+      - 公共选项
+         - -F # 当正常输出的请求不被响应时，强制输出线程堆栈
+         - -l # 除堆栈外，显示关于锁的附加信息
+         - -m # 如果调用到本地方法的话，可以显示C/C++的堆栈
+      - 当前时刻的线程快照
+      - 在线程快照中注意留心以下几个参数
+         - 死锁：Deadlock（重点关注）
+         - 等待资源：Waiting on condition（重点关注）
+         - 等待获取监视器：Waiting on monitor entry（重点关注）
+         - 阻塞：Blocked（重点关注）
+         - 执行中：Runnable
+         - 暂停：Suspended
+         - 对象等待中：Object.wait() 或 TIME_WAITING
+         - 停止：Parked
+   - jcmd # 拥有jmap 的大部分功能，并且在Oracle官方网站上也推荐使用jcmd命令代替jmap命令
+      - jcmd -l # 列出所有的JVM进程
+      - jcmd PID help # 针对指定的进程，列出支付的所有命令
+      - jcmd PID 具体的命令 # 显示指定进程的指令命令的数据
+         - jcmd PID help # 输出的结果可以作为 jcmd 可以使用的 具体命令
+   - jstatd # 远程主机信息收集
+      - jstatd 是一个RMI服务端，它作用相当于代理服务器，建立本地计算机与远程监控工具的通信，jstatd服务器将本机的Java应用程序传递到远程计算机
+
 * 代码和参数细节
    - -Xmx 堆最大值
    - -Xms 堆最小值
@@ -98,7 +154,6 @@
    - -XX:HeapDumpOnOutOfMemoryError 可以让虚拟机在出现内存溢出异常时Dump 出当前的内存堆转储快照以便事后进行分析
    - -XX:PermSize 和 -XX:MaxPermSize 限制方法区大小
    - -XX:+PrintGCDetails      # 可以把程序运行的堆信息打印出来
-
 
 
 
