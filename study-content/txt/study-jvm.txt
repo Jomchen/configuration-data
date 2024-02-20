@@ -25,16 +25,68 @@
       - garbagecat
 
 * 性能监控与故障处理工具
-   - jps # JVM Process Status Tool 显示指定系统内所有的 HotSpot 虚拟机进程
-      - q 只输出 LVMID，省略主类的名称
-      - -m 输出虚拟机进程启动时传递给主类 main() 函数的参数
-      - -l 输出主类的全名，如果是进程执行的是 jar 包，输出 jar 路径
-      - -v 输出虚拟机进程启动时 JVM 参数
-   - jstat # JVM Statistics Monitoring Tool，用于收集HotSpot 虚拟机各方面的运行数据
-      - jstat -gc java进程号 # 查看内存使用情况
+   - jps   # JVM Process Status Tool 显示指定系统内所有的 HotSpot 虚拟机进程
+      - q  # 只输出 LVMID，省略主类的名称
+      - -m # 输出虚拟机进程启动时传递给主类 main() 函数的参数
+      - -l # 输出主类的全名，如果是进程执行的是 jar 包，输出 jar 路径
+      - -v # 输出虚拟机进程启动时 JVM 参数
+   - jstat -<option> <-t> <-h> java进程号 [打印间隔毫秒数] [查询总次数] # JVM Statistics Monitoring Tool，用于收集HotSpot 虚拟机各方面的运行数据
+      - 公共参数
+         - -compiler java进程号 # 显示JIT编译器编译过的方法，耗时等信息
+         - -printcompilation java进程号 # 输出被JIT编译的方法
+         - -class 显示ClassLoader的相关信息：类装载，卸载数量，总空间，消耗时间
+         - -gc # 显示gc相关的堆信息，包括Eden区，两个Survivor区，老年代，永久代等容量，已用空间，GC时间合计等
+            - 输出结果
+               - S0C # 幸存者0区容量
+               - S1C # 幸存者1区容量
+               - S0U # 幸存者0区使用量
+               - S1U # 幸存者1区使用量
+               - EC  # Eden 容量
+               - EU  # Eden 使用容量
+               - OC  # 老年代容量
+               - OU  # 老年代使用量
+               - MC  # 方法区容量
+               - MU  # 方法区使用量
+               - CCSC # 压缩类容量
+               - CCSU # 压缩类使用量
+               - YGC  # Young GC次数
+               - YGCT # Young GC时间
+               - FGC  # FULL GC次数
+               - FGCT # FULL GC时间
+               - GCT  # 总的GC时间 = YGCT+FGCT
+         - -gccapacity     # 显示内容与-gc基本相同，但输出主要关注Java堆各个区域使用到的最大，最小空间
+         - -gcutil         # 显示内容与-gc基本相同，但输出主要关注已使用空间占总空间的百分比
+         - -gccause        # 与-gcutil功能一样，但会额外输出导致最后一次或当前正在发生的GC原因
+         - -gcnew          # 显示新生代GC状况
+         - -gcnewcapacity  # 显示内容与-gcnew基本相同，输出主要关注使用到的最大，最小空间
+         - -gcold          # 显示老年代GC状况
+         - -gcoldcapacity  # 显示内容与-gcold基本相同，输出主要关注使用到的最大，最小空间
+         - -gcpermcapacity # 显示永久代使用到的最大，最小空间
+      - 特殊参数
+         - -t 是从执行到现在所花费的时间（秒）
+         - -h数字 在周期性数据输出，即每隔几条数据打印一次
+         - -h 在周期性数据输出时，输出多少
+         - 输出结果
+            - Loaded（加载类个数） 
+            - Bytes（加载类字节数） 
+            - Unloaded（卸载类个数） 
+            - Bytes（卸载类字节） 
+            - Time（卸载类花费时间）
+      - gc预测
+         - 抽一个时间段，时间段内GCT之和/时间段长度 = GC回收比值  # 过高表示太多时间用于GC，影响吞率
+         - 输出日志划分为几个时间段，每个时间段的OU取最小值，对比每个时间段内的OU最小值，如果在依次大表示内存可能产生泄漏
+   - java -XX:+PrintFlagsInitial -version # 查看所有JVM参数启动的初始值，后期可以修改，修改后即为最终值
+   - java -XX:+PrintFlagsFinal -version # 查看所有JVM参数启动的最终值，如果要使用 jinfo 查看/修改 可以参考此命令结果
+   - java -XX:+PrintCommandLineFlags -version # 查看那些已经被用户或者JVM设置过的详细的XX参数和名称和值
    - jinfo # Configuration Info for Java 显示虚拟机配置信息
-      - jinfo -flag 配置参数 进程号 # 显示相应进程是否使用了相应的参数设置
-      - jinfo -flag SurvivorRatio 进程号 # 显示相应进程的幸存者配置
+      - jinfo -sysprops 进程号           # 显示属性信息
+      - jinfo -flags 进程号              # 显示VM信息
+      - jinfo -flag [+/-]配置参数 进程号      # 对于布尔值修改相应的VM参数值为是或否
+      - jinfo -flag 配置参数=参数值 进程号      # 对于非布尔值修改相应的VM参数值
+      - jinfo -flag 配置参数 进程号      # 显示相应进程是否使用了相应的VM参数设置（注意并非所有值都可修改）
+         - jinfo -flag SurvivorRatio 进程号 # 显示相应进程的幸存者配置
+         - jinfo -flag UseG1GC 进程号 # 显示是否使用了 G1 回收器
+         - jinfo -flag UseParallelGC 进程号 # 显示是否使用了 Parallel 回收器
    - jmap # Memory Map for Java，生成虚拟机的内存转储快照（heapdump 文件）
    - jhat # JVM Heap Dump Browser，用于分析 heapdump 文件，它会建立一个 HTTP/HTML 服务器，让用户可以在浏览器上查看分析结果
    - jstack Stack Trace for Java，显示虚拟机的线程快照
